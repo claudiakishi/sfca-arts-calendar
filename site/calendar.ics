@@ -5,8 +5,8 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Hawaiʻi Arts & Culture Calendar
 BEGIN:VEVENT
-UID:6920760960718030669@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:9085542386163428406@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:E Heluhelu Kākou: Swimming into Stories community event
@@ -22,8 +22,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:2785787805008909232@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:12317709815498493@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:Hotel Street Art Hui mural painting and live music
@@ -35,8 +35,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:5335208296209334494@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:5118914403941012867@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Mizu Wai / Story Weaving East Maui Waterways community story weav
@@ -51,8 +51,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:3334243609564869555@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:5076480451544056801@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Drawn to Music: A  Collaborative Live Music and Art Event
@@ -67,8 +67,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:4600319234623759230@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:1377223709314975237@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Welcome Home Kōlea Festival at Ala Moana Beach Park
@@ -82,8 +82,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:2015156293420631068@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:8941583186939262265@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:Summer Flix free movie screening
@@ -96,8 +96,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:8904134977394890976@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:4769596466697326107@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Super Saturday at Capitol Modern: the Hawaiʻi State Art Museum
@@ -110,8 +110,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:5532978545130999571@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:6990363759821694483@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260817
 SUMMARY:Diamond Head Theatre presents “Les Misérables”
@@ -124,8 +124,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Performances and Concerts
 END:VEVENT
 BEGIN:VEVENT
-UID:7765843608235820365@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:5713784550084803373@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:“Interwoven Views: threads of influence” exhibit of artworks 
@@ -142,8 +142,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:3445558159246147923@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:2912476657085687851@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260928
 SUMMARY:“Portal 3” at the Firehouse Gallery\, Waimea Arts Council
@@ -158,8 +158,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:1692311510890179196@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:5632742669979856246@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20261101
 SUMMARY:“LUMINOSITY: The Legacy” at Viewpoints Gallery Maui
@@ -171,8 +171,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:1600237276138363@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:4254016613655115570@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260830
 SUMMARY:“Hawaiʻi’s Woodshow: Na Laʻau O Hawaiʻi”
@@ -187,8 +187,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:6622181624195371140@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:3180834896577176777@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260918
 SUMMARY:“16th Annual Abstract Only!” at Wailoa Center
@@ -203,8 +203,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:6808065464435440051@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:8538298851586118976@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20261211
 SUMMARY:“ʻAimama” at Gallery ʻIolani\, Windward Community College
@@ -219,8 +219,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:1505573057716253021@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:2351654838527554390@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260719
 DTEND;VALUE=DATE:20260812
 SUMMARY:“Peace by Piece” quilt show
@@ -234,8 +234,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:6889925346832381917@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:4112861737351237997@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:“2026 Pacific States Biennial North American” printmaking exh
@@ -248,8 +248,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:582908144238819622@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:8157934034849993834@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:“Ea Mai ʻEiwa: Patterns of Practice” at the Bernice Pauahi B
@@ -262,8 +262,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:2607397156068227378@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:3640443998292767006@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260807
 SUMMARY:“AHA! Art Immersive” exhibit
@@ -277,8 +277,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:8783896860760774406@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:1828980823586123094@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:University of Hawaiʻi Insect Museum art show
@@ -291,8 +291,8 @@ URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:6179592614614203176@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:5768965218772386301@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART:20260829T210000Z
 DTEND:20260830T010000Z
 SUMMARY:Super Saturday: Creative Micronesia
@@ -307,8 +307,8 @@ URL:https://www.capitolmodern.org/events/super-saturday-creative-micrones
 CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
-UID:3765710534585132748@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:8858654519949716822@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART:20260830T000000Z
 DTEND:20260830T020000Z
 SUMMARY:Noise Cabinet with Sō Percussion
@@ -323,8 +323,8 @@ URL:https://www.capitolmodern.org/events/noise-cabinet-with-so-percussion
 CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
-UID:7987597656158998603@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:3721108332326783135@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART:20260905T033000Z
 DTEND:20260905T073000Z
 SUMMARY:First Friday
@@ -337,8 +337,8 @@ URL:https://www.capitolmodern.org/events/first-fridays-09-04-2026
 CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
-UID:4030925379982444439@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:7406327778056804748@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART:20260905T210000Z
 DTEND:20260905T230000Z
 SUMMARY:Quick Draw: Portrait Workshop
@@ -356,8 +356,8 @@ URL:https://www.capitolmodern.org/events/quick-draw-portrait-workshop
 CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
-UID:7708827028690386630@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:540321592228415767@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART:20260906T000000Z
 DTEND:20260906T010000Z
 SUMMARY:Resurface: Convergence Dance Theatre performance
@@ -372,8 +372,8 @@ URL:https://www.capitolmodern.org/events/resurface-convergence-dance-thea
 CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
-UID:9001888399149484823@hawaii-arts-calendar
-DTSTAMP:20260825T083337Z
+UID:566807011603309212@hawaii-arts-calendar
+DTSTAMP:20260825T083446Z
 DTSTART:20260913T040000Z
 DTEND:20260913T060000Z
 SUMMARY:Film screening: Remathau\, People of the Ocean

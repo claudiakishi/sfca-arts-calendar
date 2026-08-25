@@ -65,6 +65,10 @@ CAPMOD_SLUG = "capitolmodern-events"
 
 HST = dt.timezone(dt.timedelta(hours=-10))  # Hawai'i has no daylight saving.
 
+# In the iCal feed, an all-day run this long or longer is emitted as two
+# one-day "opens"/"closes" markers instead of one multi-week spanning bar.
+LONG_RUN_DAYS = 6
+
 MONTH_NAMES = [
     "january", "february", "march", "april", "may", "june",
     "july", "august", "september", "october", "november", "december",
@@ -652,42 +656,86 @@ def write_ics(all_events: list[Event], generated: str) -> int:
         "TZOFFSETFROM:-1000", "TZOFFSETTO:-1000", "TZNAME:HST",
         "END:STANDARD", "END:VTIMEZONE",
     ]
-    count = 0
-    for ev in all_events:
-        if not ev.date_start:
-            continue
-        uid = f"{abs(hash((ev.title, ev.date_start)))}@hawaii-arts-calendar"
-        desc = ev.description or ""
+    def base_desc(ev: Event, prefix: str = "") -> str:
+        desc = prefix + (ev.description or "")
         for l in ev.links:
             desc += f"  {l['href']}"
-        desc += "  Sources: " + "; ".join(f"{s.name} {s.url}" for s in ev.sources)
-        block = ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{stamp}"]
-        if ev.dt_start_utc:  # timed event (Capitol Modern) -> local HST + TZID
-            su = dt.datetime.fromisoformat(
-                ev.dt_start_utc.replace("Z", "+00:00")).astimezone(HST)
-            block.append(
-                f"DTSTART;TZID=Pacific/Honolulu:{su.strftime('%Y%m%dT%H%M%S')}")
-            if ev.dt_end_utc:
-                eu = dt.datetime.fromisoformat(
-                    ev.dt_end_utc.replace("Z", "+00:00")).astimezone(HST)
-                block.append(
-                    f"DTEND;TZID=Pacific/Honolulu:{eu.strftime('%Y%m%dT%H%M%S')}")
-        else:                # all-day event (SFCA) -> DATE values
-            start = dt.date.fromisoformat(ev.date_start)
-            end = dt.date.fromisoformat(ev.date_end) if ev.date_end else start
-            block.append(f"DTSTART;VALUE=DATE:{start.strftime('%Y%m%d')}")
-            block.append(
-                f"DTEND;VALUE=DATE:{(end + dt.timedelta(days=1)).strftime('%Y%m%d')}")
-        block += [
-            _fold(f"SUMMARY:{_ics_escape(ev.title)}"),
+        return desc + "  Sources: " + "; ".join(
+            f"{s.name} {s.url}" for s in ev.sources)
+
+    def all_day_block(ev: Event, uid: str, summary: str, day: dt.date,
+                      desc: str) -> list[str]:
+        return [
+            "BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{stamp}",
+            f"DTSTART;VALUE=DATE:{day.strftime('%Y%m%d')}",
+            f"DTEND;VALUE=DATE:{(day + dt.timedelta(days=1)).strftime('%Y%m%d')}",
+            _fold(f"SUMMARY:{_ics_escape(summary)}"),
             _fold(f"DESCRIPTION:{_ics_escape(desc)}"),
             _fold(f"LOCATION:{_ics_escape(ev.venue or '')}"),
             _fold(f"URL:{ev.sources[0].url if ev.sources else ''}"),
             f"CATEGORIES:{_ics_escape(ev.category)}",
             "END:VEVENT",
         ]
-        lines += block
-        count += 1
+
+    count = 0
+    for ev in all_events:
+        if not ev.date_start:
+            continue
+        uid = f"{abs(hash((ev.title, ev.date_start)))}@hawaii-arts-calendar"
+
+        if ev.dt_start_utc:  # timed event (Capitol Modern) -> local HST + TZID
+            su = dt.datetime.fromisoformat(
+                ev.dt_start_utc.replace("Z", "+00:00")).astimezone(HST)
+            block = ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{stamp}",
+                     f"DTSTART;TZID=Pacific/Honolulu:{su.strftime('%Y%m%dT%H%M%S')}"]
+            if ev.dt_end_utc:
+                eu = dt.datetime.fromisoformat(
+                    ev.dt_end_utc.replace("Z", "+00:00")).astimezone(HST)
+                block.append(
+                    f"DTEND;TZID=Pacific/Honolulu:{eu.strftime('%Y%m%dT%H%M%S')}")
+            block += [
+                _fold(f"SUMMARY:{_ics_escape(ev.title)}"),
+                _fold(f"DESCRIPTION:{_ics_escape(base_desc(ev))}"),
+                _fold(f"LOCATION:{_ics_escape(ev.venue or '')}"),
+                _fold(f"URL:{ev.sources[0].url if ev.sources else ''}"),
+                f"CATEGORIES:{_ics_escape(ev.category)}",
+                "END:VEVENT",
+            ]
+            lines += block
+            count += 1
+            continue
+
+        # All-day (SFCA) event.
+        start = dt.date.fromisoformat(ev.date_start)
+        end = dt.date.fromisoformat(ev.date_end) if ev.date_end else start
+        span = (end - start).days + 1
+        run = ev.date_display or f"{start.isoformat()} – {end.isoformat()}"
+
+        if span >= LONG_RUN_DAYS and end > start:
+            # A long-running exhibit: bookend the run with two one-day markers
+            # instead of a multi-week bar across the whole calendar.
+            note = f"Runs {run}. "
+            lines += all_day_block(
+                ev, f"{uid}-opens", f"{ev.title} — opens", start,
+                base_desc(ev, note))
+            lines += all_day_block(
+                ev, f"{uid}-closes", f"{ev.title} — closes (last day)", end,
+                base_desc(ev, note))
+            count += 2
+        else:
+            # Single-day or short multi-day event: one entry (a short bar is
+            # fine and informative).
+            block = ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{stamp}",
+                     f"DTSTART;VALUE=DATE:{start.strftime('%Y%m%d')}",
+                     f"DTEND;VALUE=DATE:{(end + dt.timedelta(days=1)).strftime('%Y%m%d')}",
+                     _fold(f"SUMMARY:{_ics_escape(ev.title)}"),
+                     _fold(f"DESCRIPTION:{_ics_escape(base_desc(ev))}"),
+                     _fold(f"LOCATION:{_ics_escape(ev.venue or '')}"),
+                     _fold(f"URL:{ev.sources[0].url if ev.sources else ''}"),
+                     f"CATEGORIES:{_ics_escape(ev.category)}",
+                     "END:VEVENT"]
+            lines += block
+            count += 1
     lines.append("END:VCALENDAR")
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "calendar.ics").write_text("\r\n".join(lines) + "\r\n",

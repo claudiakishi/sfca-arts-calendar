@@ -645,6 +645,12 @@ def write_ics(all_events: list[Event], generated: str) -> int:
         "BEGIN:VCALENDAR", "VERSION:2.0",
         "PRODID:-//hawaii-arts-calendar//EN", "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH", "X-WR-CALNAME:Hawai\u02bbi Arts & Culture Calendar",
+        "X-WR-TIMEZONE:Pacific/Honolulu",
+        # Hawai'i observes no daylight saving, so a single fixed -10:00 offset.
+        "BEGIN:VTIMEZONE", "TZID:Pacific/Honolulu",
+        "BEGIN:STANDARD", "DTSTART:19700101T000000",
+        "TZOFFSETFROM:-1000", "TZOFFSETTO:-1000", "TZNAME:HST",
+        "END:STANDARD", "END:VTIMEZONE",
     ]
     count = 0
     for ev in all_events:
@@ -656,14 +662,16 @@ def write_ics(all_events: list[Event], generated: str) -> int:
             desc += f"  {l['href']}"
         desc += "  Sources: " + "; ".join(f"{s.name} {s.url}" for s in ev.sources)
         block = ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{stamp}"]
-        if ev.dt_start_utc:  # timed event (Capitol Modern) -> UTC instants
+        if ev.dt_start_utc:  # timed event (Capitol Modern) -> local HST + TZID
             su = dt.datetime.fromisoformat(
-                ev.dt_start_utc.replace("Z", "+00:00")).astimezone(dt.timezone.utc)
-            block.append(f"DTSTART:{su.strftime('%Y%m%dT%H%M%SZ')}")
+                ev.dt_start_utc.replace("Z", "+00:00")).astimezone(HST)
+            block.append(
+                f"DTSTART;TZID=Pacific/Honolulu:{su.strftime('%Y%m%dT%H%M%S')}")
             if ev.dt_end_utc:
                 eu = dt.datetime.fromisoformat(
-                    ev.dt_end_utc.replace("Z", "+00:00")).astimezone(dt.timezone.utc)
-                block.append(f"DTEND:{eu.strftime('%Y%m%dT%H%M%SZ')}")
+                    ev.dt_end_utc.replace("Z", "+00:00")).astimezone(HST)
+                block.append(
+                    f"DTEND;TZID=Pacific/Honolulu:{eu.strftime('%Y%m%dT%H%M%S')}")
         else:                # all-day event (SFCA) -> DATE values
             start = dt.date.fromisoformat(ev.date_start)
             end = dt.date.fromisoformat(ev.date_end) if ev.date_end else start

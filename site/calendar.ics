@@ -1,12 +1,12 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//sfca-calendar//EN
+PRODID:-//hawaii-arts-calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:SFCA Arts & Culture Calendar
+X-WR-CALNAME:Hawaiʻi Arts & Culture Calendar
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-0@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:6920760960718030669@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 SUMMARY:E Heluhelu Kākou: Swimming into Stories community event
@@ -15,26 +15,28 @@ DESCRIPTION:at Windward Community College (Kāneʻohe\, Oʻahu). Saturday
  ocean fun for kids ages 2-19. All ages welcome. For more information\, p
  lease visit the Hale Laʻakea website: library.wcc.hawaii.edu/events/upc
  oming#s-lg-box-wrapper-41680612 .  https://library.wcc.hawaii.edu/events
- /upcoming#s-lg-box-wrapper-41680612  Source: https://sfca.hawaii.gov/art
- s-and-culture-calendar-august-2026/
+ /upcoming#s-lg-box-wrapper-41680612  Sources: SFCA https://sfca.hawaii.g
+ ov/arts-and-culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-1@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:2785787805008909232@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260808
 SUMMARY:Hotel Street Art Hui mural painting and live music
 DESCRIPTION:Friday August 7\, 4:00 – 6:00 p.m. at 29 N. Hotel Street (H
- onolulu Chinatown). Free\, all ages welcome.  Source: https://sfca.hawai
- i.gov/arts-and-culture-calendar-august-2026/
+ onolulu Chinatown). Free\, all ages welcome.  Sources: SFCA https://sfca
+ .hawaii.gov/arts-and-culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-2@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:5335208296209334494@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Mizu Wai / Story Weaving East Maui Waterways community story weav
@@ -42,14 +44,15 @@ SUMMARY:Mizu Wai / Story Weaving East Maui Waterways community story weav
 DESCRIPTION:project on Saturday August 8\, 9:00 a.m. – 4:00 p.m. at Ke
  ʻanae Peninsula Ballpark (Maui). Learn more on the Nest Maker Space web
  site: NestMakerspace.weebly.com/mizu-wai.html .  https://nestmakerspace.
- weebly.com/mizu-wai.html  Source: https://sfca.hawaii.gov/arts-and-cultu
- re-calendar-august-2026/
+ weebly.com/mizu-wai.html  Sources: SFCA https://sfca.hawaii.gov/arts-and
+ -culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-3@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:3334243609564869555@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260808
 DTEND;VALUE=DATE:20260809
 SUMMARY:Drawn to Music: A  Collaborative Live Music and Art Event
@@ -57,82 +60,72 @@ DESCRIPTION:Drawn to Music: A Collaborative Live Music and Art Event on S
  aturday\, August 8 at Dr. Sun Yat-Sen Park (Chinatown\, Honolulu)\, 1:00
   – 4:00 p.m. For more information\, visit the Guitar Foundation of Haw
  aiʻi website: GuitarFoundationHawaii.org .  https://guitarfoundationhaw
- aii.org/  Source: https://sfca.hawaii.gov/arts-and-culture-calendar-augu
- st-2026/
+ aii.org/  Sources: SFCA https://sfca.hawaii.gov/arts-and-culture-calenda
+ r-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-4@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:4600319234623759230@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Welcome Home Kōlea Festival at Ala Moana Beach Park
 DESCRIPTION:(Honolulu) Saturday\, September 19\, 2026\, 10:00 a.m. – 2:
  00 p.m. Event includes display of kōlea artwork. Learn more on the Hawa
  iʻi Audubon Society website: HiAudubon.org/events/welcome-home-kolea-20
- 26 .  https://hiaudubon.org/events/welcome-home-kolea-2026/  Source: htt
- ps://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
+ 26 .  https://hiaudubon.org/events/welcome-home-kolea-2026/  Sources: SF
+ CA https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-5@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:2015156293420631068@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 SUMMARY:Summer Flix free movie screening
 DESCRIPTION:at the Prince Waikiki hotel. Wednesday 7:00 p.m. August 5\, 2
  026. Get more information on the Hawaiʻi International Film Festival we
- bsite: hiff.org/summer-flix .  https://hiff.org/summer-flix/  Source: ht
- tps://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
+ bsite: hiff.org/summer-flix .  https://hiff.org/summer-flix/  Sources: S
+ FCA https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-6@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:8904134977394890976@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260815
 DTEND;VALUE=DATE:20260816
 SUMMARY:Super Saturday at Capitol Modern: the Hawaiʻi State Art Museum
 DESCRIPTION:August 15\, 11:00 a.m. – 3:00 p.m. Hands-on art making for 
  all ages. The August Super Saturday features Micronesian and other Pacif
- ic Islander performances and activities.  Source: https://sfca.hawaii.go
- v/arts-and-culture-calendar-august-2026/
+ ic Islander performances and activities.  Sources: SFCA https://sfca.haw
+ aii.gov/arts-and-culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Family-friendly events
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-7@sfca-calendar
-DTSTAMP:20260825T065257Z
-DTSTART;VALUE=DATE:20260808
-DTEND;VALUE=DATE:20260809
-SUMMARY:Drawn to Music: A  Collaborative Live Music and Art Event
-DESCRIPTION:Drawn to Music: A Collaborative Live Music and Art Event on S
- aturday\, August 8 at Dr. Sun Yat-Sen Park (Chinatown\, Honolulu)\, 1:00
-  – 4:00 p.m. For more information\, visit the Guitar Foundation of Haw
- aiʻi website: GuitarFoundationHawaii.org .  https://guitarfoundationhaw
- aii.org/  Source: https://sfca.hawaii.gov/arts-and-culture-calendar-augu
- st-2026/
-URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
-CATEGORIES:Performances and Concerts
-END:VEVENT
-BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-8@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:5532978545130999571@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260817
 SUMMARY:Diamond Head Theatre presents “Les Misérables”
 DESCRIPTION:July 30 – August 16\, 2026. More information on their websi
  te: DiamondHeadTheatre.com/shows-tickets .  https://www.diamondheadtheat
- re.com/shows-tickets/  Source: https://sfca.hawaii.gov/arts-and-culture-
- calendar-august-2026/
+ re.com/shows-tickets/  Sources: SFCA https://sfca.hawaii.gov/arts-and-cu
+ lture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Performances and Concerts
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-9@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:7765843608235820365@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260826
 DTEND;VALUE=DATE:20260827
 SUMMARY:“Interwoven Views: threads of influence” exhibit of artworks 
@@ -142,14 +135,15 @@ DESCRIPTION:At Capitol Modern: the Hawaiʻi State Art Museum through Augu
  ite: sfca.hawaii.gov/doe-art-teachers-exhibit-work-from-their-personal-a
  rt-practices-in-state-art-museum-through-august-26 .  https://sfca.hawai
  i.gov/doe-art-teachers-exhibit-work-from-their-personal-art-practices-in
- -state-art-museum-through-august-26/  Source: https://sfca.hawaii.gov/ar
- ts-and-culture-calendar-august-2026/
+ -state-art-museum-through-august-26/  Sources: SFCA https://sfca.hawaii.
+ gov/arts-and-culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-10@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:3445558159246147923@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260928
 SUMMARY:“Portal 3” at the Firehouse Gallery\, Waimea Arts Council
@@ -157,26 +151,28 @@ DESCRIPTION:(Hawaiʻi Island). August 1 – September 27\, 2026. Learn mo
  re on the Waimea Arts Council website: FirehouseArtGallery.org/category/
  in-the-firehouse-gallery . An SFCA Art Acquisition Selection Committee h
  as visited this exhibit.  https://firehouseartgallery.org/category/in-th
- e-firehouse-gallery/  Source: https://sfca.hawaii.gov/arts-and-culture-c
- alendar-august-2026/
+ e-firehouse-gallery/  Sources: SFCA https://sfca.hawaii.gov/arts-and-cul
+ ture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-11@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:1692311510890179196@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260802
 DTEND;VALUE=DATE:20261101
 SUMMARY:“LUMINOSITY: The Legacy” at Viewpoints Gallery Maui
 DESCRIPTION:August 2 – October 31\, 2026. An SFCA Art Acquisition Selec
- tion Committee has visited this exhibit.  Source: https://sfca.hawaii.go
- v/arts-and-culture-calendar-august-2026/
+ tion Committee has visited this exhibit.  Sources: SFCA https://sfca.haw
+ aii.gov/arts-and-culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-12@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:1600237276138363@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260807
 DTEND;VALUE=DATE:20260830
 SUMMARY:“Hawaiʻi’s Woodshow: Na Laʻau O Hawaiʻi”
@@ -184,14 +180,15 @@ DESCRIPTION:August 7 – August 29\, 2026 at the Downtown Art Center. Lea
  rn more on the Downtown Art Center website: DowntownArtHI.org/exhibition
  s . The SFCA Board of Commissioners has approved an Art Acquisition Sele
  ction Committee visit to this exhibit.  https://www.downtownarthi.org/ex
- hibitions  Source: https://sfca.hawaii.gov/arts-and-culture-calendar-aug
- ust-2026/
+ hibitions  Sources: SFCA https://sfca.hawaii.gov/arts-and-culture-calend
+ ar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-13@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:6622181624195371140@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260814
 DTEND;VALUE=DATE:20260918
 SUMMARY:“16th Annual Abstract Only!” at Wailoa Center
@@ -199,14 +196,15 @@ DESCRIPTION:(Hawaiʻi Island)\, August 14 – September 17\, 2026. Learn
  more on the Wailoa Center website: WailoaCenter.com/exhibitions-1 . The 
  SFCA Board of Commissioners has approved an Art Acquisition Selection Co
  mmittee visit to this exhibit.  https://www.wailoacenter.com/exhibitions
- -1  Source: https://sfca.hawaii.gov/arts-and-culture-calendar-august-202
- 6/
+ -1  Sources: SFCA https://sfca.hawaii.gov/arts-and-culture-calendar-augu
+ st-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-14@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:6808065464435440051@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260827
 DTEND;VALUE=DATE:20261211
 SUMMARY:“ʻAimama” at Gallery ʻIolani\, Windward Community College
@@ -214,75 +212,178 @@ DESCRIPTION:August 27 – December 10\, 2026. For more information\, plea
  se visit the Gallery ʻIolani website: gallery.windward.hawaii.edu . The
   SFCA Board of Commissioners has approved an Art Acquisition Selection C
  ommittee visit to this exhibit.  https://gallery.windward.hawaii.edu/  S
- ource: https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
+ ources: SFCA https://sfca.hawaii.gov/arts-and-culture-calendar-august-20
+ 26/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-15@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:1505573057716253021@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260719
 DTEND;VALUE=DATE:20260812
 SUMMARY:“Peace by Piece” quilt show
 DESCRIPTION:at Volcano Art Center (Hawaiʻi Island)\, July 19 – August 
  11\, 2026. Textile and Fabric Pop-Up July 25 and 26\; Needlebook worksho
  p August 2. Learn more on the Volcano Art Center website: VolcanoArtCent
- er.org .  https://volcanoartcenter.org/  Source: https://sfca.hawaii.gov
- /arts-and-culture-calendar-august-2026/
+ er.org .  https://volcanoartcenter.org/  Sources: SFCA https://sfca.hawa
+ ii.gov/arts-and-culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-16@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:6889925346832381917@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261103
 SUMMARY:“2026 Pacific States Biennial North American” printmaking exh
  ibition
 DESCRIPTION:at the University of Hawaiʻi Hilo (Hawaiʻi Island) November
-  2\, 2026 – January 14\, 2027.  Source: https://sfca.hawaii.gov/arts-a
- nd-culture-calendar-august-2026/
+  2\, 2026 – January 14\, 2027.  Sources: SFCA https://sfca.hawaii.gov/
+ arts-and-culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-17@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:582908144238819622@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260920
 DTEND;VALUE=DATE:20260921
 SUMMARY:“Ea Mai ʻEiwa: Patterns of Practice” at the Bernice Pauahi B
  ishop Museum
 DESCRIPTION:through September 20\, 2026. Learn more on the museum website
- : BishopMuseum.org/Eiwa .  https://www.bishopmuseum.org/eiwa/  Source: h
- ttps://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
+ : BishopMuseum.org/Eiwa .  https://www.bishopmuseum.org/eiwa/  Sources: 
+ SFCA https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-18@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:2607397156068227378@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260807
 SUMMARY:“AHA! Art Immersive” exhibit
 DESCRIPTION:July 3 – August 6\, 2026 at Wailoa Center (Hilo\, Hawaiʻi 
  Island). More information on the Wailoa Center website: WailoaCenter.com
  /exhibitions-1 . An SFCA Art Acquisition Selection Committee has visited
-  this exhibit.  https://www.wailoacenter.com/exhibitions-1  Source: http
- s://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
+  this exhibit.  https://www.wailoacenter.com/exhibitions-1  Sources: SFC
+ A https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
 END:VEVENT
 BEGIN:VEVENT
-UID:arts-and-culture-calendar-august-2026-19@sfca-calendar
-DTSTAMP:20260825T065257Z
+UID:8783896860760774406@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:University of Hawaiʻi Insect Museum art show
 DESCRIPTION:at Honolulu Printmakers\, opening reception October 24\, 2026
  . More information to come on the UH Insect Museum website: ctahr.hawaii
- .edu/insectmuseum .  https://www.ctahr.hawaii.edu/insectmuseum/  Source:
-  https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
+ .edu/insectmuseum .  https://www.ctahr.hawaii.edu/insectmuseum/  Sources
+ : SFCA https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
+LOCATION:
 URL:https://sfca.hawaii.gov/arts-and-culture-calendar-august-2026/
 CATEGORIES:Exhibits
+END:VEVENT
+BEGIN:VEVENT
+UID:6179592614614203176@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
+DTSTART:20260829T210000Z
+DTEND:20260830T010000Z
+SUMMARY:Super Saturday: Creative Micronesia
+DESCRIPTION:Family day with music\, art activities\, and marketplace cele
+ brating Oceania. Free admission\, all ages welcome.  https://www.capitol
+ modern.org/events/super-saturday-creative-micronesia  Sources: Capitol M
+ odern https://www.capitolmodern.org/events/super-saturday-creative-micro
+ nesia
+LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
+URL:https://www.capitolmodern.org/events/super-saturday-creative-micrones
+ ia
+CATEGORIES:Capitol Modern
+END:VEVENT
+BEGIN:VEVENT
+UID:3765710534585132748@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
+DTSTART:20260830T000000Z
+DTEND:20260830T020000Z
+SUMMARY:Noise Cabinet with Sō Percussion
+DESCRIPTION:Free concert with Clara Kim and Sō Percussion. All ages welc
+ ome. Limited seating\, registration required via Eventbrite.  https://ww
+ w.capitolmodern.org/events/noise-cabinet-with-so-percussion  https://www
+ .eventbrite.com/e/noise-cabinet-so-percussion-tickets-1990610920850  Sou
+ rces: Capitol Modern https://www.capitolmodern.org/events/noise-cabinet-
+ with-so-percussion
+LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
+URL:https://www.capitolmodern.org/events/noise-cabinet-with-so-percussion
+CATEGORIES:Capitol Modern
+END:VEVENT
+BEGIN:VEVENT
+UID:7987597656158998603@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
+DTSTART:20260905T033000Z
+DTEND:20260905T073000Z
+SUMMARY:First Friday
+DESCRIPTION:An evening of art and music at Capitol Modern: the Hawai'i St
+ ate Art Museum! Free admission\, all ages welcome.  https://www.capitolm
+ odern.org/events/first-fridays-09-04-2026  Sources: Capitol Modern https
+ ://www.capitolmodern.org/events/first-fridays-09-04-2026
+LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
+URL:https://www.capitolmodern.org/events/first-fridays-09-04-2026
+CATEGORIES:Capitol Modern
+END:VEVENT
+BEGIN:VEVENT
+UID:4030925379982444439@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
+DTSTART:20260905T210000Z
+DTEND:20260905T230000Z
+SUMMARY:Quick Draw: Portrait Workshop
+DESCRIPTION:Join us for a free creative experience in the gallery! Artist
+  and teacher Jodie Chock will give a mini-lesson in drawing portraits. E
+ xplore the Schaefer Portrait Challenge and Art in Public Places: Contemp
+ orary Portraiture exhibits\, then get mini-lessons in how to draw your o
+ wn portraits. Free workshop\, registration required on Eventbrite. Ages 
+ 21 and over.  https://www.capitolmodern.org/events/quick-draw-portrait-w
+ orkshop  https://www.eventbrite.com/e/quick-draw-portrait-workshop-ticke
+ ts-1997506202824?aff=oddtdtcreator  Sources: Capitol Modern https://www.
+ capitolmodern.org/events/quick-draw-portrait-workshop
+LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
+URL:https://www.capitolmodern.org/events/quick-draw-portrait-workshop
+CATEGORIES:Capitol Modern
+END:VEVENT
+BEGIN:VEVENT
+UID:7708827028690386630@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
+DTSTART:20260906T000000Z
+DTEND:20260906T010000Z
+SUMMARY:Resurface: Convergence Dance Theatre performance
+DESCRIPTION:Dance performance in the \\  https://www.capitolmodern.org/ev
+ ents/resurface-convergence-dance-theatre-performance  https://www.eventb
+ rite.com/e/resurface-convergence-dance-theatre-tickets-1997641678034  So
+ urces: Capitol Modern https://www.capitolmodern.org/events/resurface-con
+ vergence-dance-theatre-performance
+LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
+URL:https://www.capitolmodern.org/events/resurface-convergence-dance-thea
+ tre-performance
+CATEGORIES:Capitol Modern
+END:VEVENT
+BEGIN:VEVENT
+UID:9001888399149484823@hawaii-arts-calendar
+DTSTAMP:20260825T083337Z
+DTSTART:20260913T040000Z
+DTEND:20260913T060000Z
+SUMMARY:Film screening: Remathau\, People of the Ocean
+DESCRIPTION:Film screening of \\  https://www.capitolmodern.org/events/fi
+ lm-screening-remathau-people-of-the-ocean  Sources: Capitol Modern https
+ ://www.capitolmodern.org/events/film-screening-remathau-people-of-the-oc
+ ean
+LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
+URL:https://www.capitolmodern.org/events/film-screening-remathau-people-o
+ f-the-ocean
+CATEGORIES:Capitol Modern
 END:VEVENT
 END:VCALENDAR

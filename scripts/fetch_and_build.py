@@ -1,26 +1,39 @@
 #!/usr/bin/env python3
-"""Fetch the SFCA Arts & Culture monthly calendars and build a static site.
+"""Fetch Hawai'i arts events from multiple sources, merge + dedupe, build a site.
 
-The State Foundation on Culture and the Arts (SFCA) publishes a new page each
-month at:
+Sources
+-------
+1. SFCA Arts & Culture Calendar (monthly pages)
+     https://sfca.hawaii.gov/arts-and-culture-calendar-<month>-<year>/
+   No next-month navigation and the WordPress REST API is locked down (Kadence
+   Security -> 401), so month discovery guesses the slug for every month from
+   August 2026 through current month + 2 and fetches plain HTML. Missing months
+   404 gracefully. Content is clean Elementor markup: <h2> category headings
+   each followed by a <ul> of <li> events (<strong>Title</strong> + prose).
 
-    https://sfca.hawaii.gov/arts-and-culture-calendar-<month>-<year>/
+2. Capitol Modern: the Hawai'i State Art Museum (upcoming events feed)
+     https://www.capitolmodern.org/events
+   A Next.js app. Events are rendered as cards AND streamed as a Sanity CMS JSON
+   payload inside self.__next_f, which carries exact UTC start/end timestamps,
+   titles, slugs, venue, description, and ticket URLs. Times are UTC and are
+   converted to HST (UTC-10, no DST) to get the correct local date.
 
-There is no month-to-month navigation in the page markup and the WordPress REST
-API is locked down (Kadence Security -> 401), so discovery works by *guessing*
-the slug for each month in a window and fetching the plain HTML. Months that do
-not exist yet return 404 and are skipped gracefully.
+Pipeline
+--------
+    fetch each source -> parse to a common Event model -> merge + dedupe across
+    sources -> group by month -> write data/events.json + site/ (index,
+    per-month pages, calendar.ics, events.json).
 
-Pipeline:
-    discover months -> fetch + archive raw HTML -> parse events ->
-    write data/events.json -> render site/ (index, per-month, ics, json)
+Dedupe requires the SAME local start date AND a strong title match, so distinct
+instances of a recurring event (e.g. two different "Super Saturday" dates) are
+never collapsed. Merged events keep every contributing source with a link back.
 
-Only facts (title, date, venue, link) are extracted and re-presented with
-attribution and a link back to the source page. SFCA content is not
-automatically public domain, so we do not mirror their HTML wholesale.
+Only facts (title, date, venue, link) are re-presented, with attribution. SFCA
+and Capitol Modern content is not automatically public domain, so their markup
+is not mirrored wholesale.
 
-Runs on stdlib + requests + beautifulsoup4. Designed to run in GitHub Actions
-(unrestricted network) on a cron, but is fully runnable locally too.
+Runs on stdlib + requests + beautifulsoup4. Built to run in GitHub Actions
+(unrestricted network) on a cron, but fully runnable locally.
 """
 from __future__ import annotations
 
@@ -31,6 +44,7 @@ import json
 import re
 import sys
 from dataclasses import dataclass, field, asdict
+from difflib import SequenceMatcher
 from pathlib import Path
 
 import requests
@@ -40,10 +54,16 @@ from bs4 import BeautifulSoup
 # Config
 # --------------------------------------------------------------------------- #
 
-BASE = "https://sfca.hawaii.gov"
-SLUG_FMT = "arts-and-culture-calendar-{month}-{year}"
+SFCA_BASE = "https://sfca.hawaii.gov"
+SFCA_SLUG_FMT = "arts-and-culture-calendar-{month}-{year}"
 START_YEAR, START_MONTH = 2026, 8  # August 2026 is the first published month.
-MONTHS_AHEAD = 2  # discover through (current month + this many).
+MONTHS_AHEAD = 2  # SFCA discovery reaches current month + this many.
+
+CAPMOD_BASE = "https://www.capitolmodern.org"
+CAPMOD_EVENTS_URL = f"{CAPMOD_BASE}/events"
+CAPMOD_SLUG = "capitolmodern-events"
+
+HST = dt.timezone(dt.timedelta(hours=-10))  # Hawai'i has no daylight saving.
 
 MONTH_NAMES = [
     "january", "february", "march", "april", "may", "june",
@@ -56,51 +76,83 @@ RAW_DIR = REPO_ROOT / "data" / "raw"
 DATA_DIR = REPO_ROOT / "data"
 SITE_DIR = REPO_ROOT / "site"
 
-# Section headings we do NOT treat as event categories.
+# SFCA section headings that are not event categories.
 SKIP_HEADINGS = ("about the state foundation",)
 
 USER_AGENT = (
-    "sfca-calendar-bot/1.0 (+https://github.com/) "
-    "static-site builder; contact via repo issues"
+    "Mozilla/5.0 (compatible; sfca-calendar-bot/2.0; static-site builder; "
+    "contact via repo issues)"
 )
 
 
 # --------------------------------------------------------------------------- #
-# Data model
+# Common data model
 # --------------------------------------------------------------------------- #
+
+@dataclass
+class Source:
+    name: str          # "SFCA" | "Capitol Modern"
+    url: str           # link back to the source listing / detail page
+    label: str = ""    # provenance label, e.g. "August 2026" or a domain
+
 
 @dataclass
 class Event:
     title: str
     description: str
     category: str
-    month_slug: str
-    month_label: str
-    source_url: str
-    links: list[dict] = field(default_factory=list)
-    date_start: str | None = None  # ISO date
-    date_end: str | None = None    # ISO date
+    provider: str                       # originating source name
+    sources: list[Source] = field(default_factory=list)
+    venue: str | None = None
+    date_start: str | None = None       # ISO local date (YYYY-MM-DD)
+    date_end: str | None = None         # ISO local date
     date_display: str | None = None
+    time_display: str | None = None     # e.g. "11:00 AM - 3:00 PM HST"
+    dt_start_utc: str | None = None      # ISO instant, for timed ICS entries
+    dt_end_utc: str | None = None
     recurring: bool = False
+    links: list[dict] = field(default_factory=list)
+    fallback_month: str | None = None   # 'YYYY-MM' when no date_start (grouping)
+
+    def month_key(self) -> str | None:
+        # An event belongs to its source-page month when its date range actually
+        # spans that month (e.g. a July-Aug exhibit listed on the August page
+        # stays in August). Otherwise it groups under its real start month
+        # (e.g. a September event flagged ahead of time on the August page).
+        if self.date_start:
+            s = self.date_start[:7]
+            e = (self.date_end or self.date_start)[:7]
+            if self.fallback_month and s <= self.fallback_month <= e:
+                return self.fallback_month
+            return s
+        return self.fallback_month
+
+    def sort_key(self) -> tuple:
+        # Dated events first, in date order; undated events sort last by title.
+        return (0, self.date_start) if self.date_start else (1, self.title.lower())
 
 
 @dataclass
-class MonthResult:
-    slug: str
-    label: str
-    url: str
-    year: int
-    month: int
-    status: str          # "ok" | "missing" | "error"
-    events: list[Event] = field(default_factory=list)
-    note: str = ""
+class ProviderStatus:
+    name: str
+    status: str        # "ok" | "partial" | "error"
+    detail: str = ""
 
 
 # --------------------------------------------------------------------------- #
-# Discovery + fetch
+# HTTP
 # --------------------------------------------------------------------------- #
 
-def month_window(today: dt.date) -> list[tuple[int, int]]:
+def fetch(url: str, session: requests.Session) -> tuple[int, str]:
+    resp = session.get(url, timeout=30, headers={"User-Agent": USER_AGENT})
+    return resp.status_code, resp.text
+
+
+# --------------------------------------------------------------------------- #
+# Source 1: SFCA
+# --------------------------------------------------------------------------- #
+
+def sfca_month_window(today: dt.date) -> list[tuple[int, int]]:
     """Every (year, month) from Aug 2026 through current month + MONTHS_AHEAD."""
     start = dt.date(START_YEAR, START_MONTH, 1)
     end_m = today.month + MONTHS_AHEAD
@@ -116,18 +168,9 @@ def month_window(today: dt.date) -> list[tuple[int, int]]:
     return out
 
 
-def slug_for(year: int, month: int) -> str:
-    return SLUG_FMT.format(month=MONTH_NAMES[month - 1], year=year)
+def sfca_slug(year: int, month: int) -> str:
+    return SFCA_SLUG_FMT.format(month=MONTH_NAMES[month - 1], year=year)
 
-
-def fetch(url: str, session: requests.Session) -> tuple[int, str]:
-    resp = session.get(url, timeout=30, headers={"User-Agent": USER_AGENT})
-    return resp.status_code, resp.text
-
-
-# --------------------------------------------------------------------------- #
-# Date extraction (best effort)
-# --------------------------------------------------------------------------- #
 
 _MONTH_ALT = "|".join(MONTH_NAMES)
 _RANGE_RE = re.compile(
@@ -136,14 +179,10 @@ _RANGE_RE = re.compile(
     re.IGNORECASE,
 )
 _SINGLE_RE = re.compile(
-    rf"\b({_MONTH_ALT})\s+(\d{{1,2}})(?:,?\s*(\d{{4}}))?",
-    re.IGNORECASE,
-)
+    rf"\b({_MONTH_ALT})\s+(\d{{1,2}})(?:,?\s*(\d{{4}}))?", re.IGNORECASE)
 _RECUR_RE = re.compile(
     r"\b(every|monthly|weekly|each (?:month|week|first|second|third)|"
-    r"first friday|second friday|ongoing)\b",
-    re.IGNORECASE,
-)
+    r"first friday|second friday|ongoing)\b", re.IGNORECASE)
 
 
 def _mk_date(month: int, day: int, year: int) -> str | None:
@@ -154,86 +193,69 @@ def _mk_date(month: int, day: int, year: int) -> str | None:
 
 
 def extract_dates(text: str, default_year: int) -> dict:
-    """Pull the first date (or date range) out of an event's prose."""
+    """Pull the first date (or range) out of an event's prose, best-effort."""
     recurring = bool(_RECUR_RE.search(text))
-    result = {"date_start": None, "date_end": None,
-              "date_display": None, "recurring": recurring}
-
+    out = {"date_start": None, "date_end": None,
+           "date_display": None, "recurring": recurring}
     m = _RANGE_RE.search(text)
     if m:
         m1, d1, m2, d2, yr = m.groups()
         year = int(yr) if yr else default_year
         sm = MONTH_NUM[m1.lower()]
         em = MONTH_NUM[m2.lower()] if m2 else sm
-        # If the end month is earlier than the start month, it rolls to next yr.
         ey = year if em >= sm else year + 1
-        result["date_start"] = _mk_date(sm, int(d1), year)
-        result["date_end"] = _mk_date(em, int(d2), ey)
-        result["date_display"] = m.group(0).strip()
-        return result
-
+        out["date_start"] = _mk_date(sm, int(d1), year)
+        out["date_end"] = _mk_date(em, int(d2), ey)
+        out["date_display"] = m.group(0).strip()
+        return out
     m = _SINGLE_RE.search(text)
     if m:
         mon, day, yr = m.groups()
         year = int(yr) if yr else default_year
         iso = _mk_date(MONTH_NUM[mon.lower()], int(day), year)
-        result["date_start"] = iso
-        result["date_end"] = iso
-        result["date_display"] = m.group(0).strip()
-    return result
+        out["date_start"] = iso
+        out["date_end"] = iso
+        out["date_display"] = m.group(0).strip()
+    return out
 
 
-# --------------------------------------------------------------------------- #
-# Parsing
-# --------------------------------------------------------------------------- #
-
-def parse_events(page_html: str, slug: str, label: str, url: str,
-                 default_year: int) -> list[Event]:
+def parse_sfca(page_html: str, url: str, label: str, month_key: str,
+               default_year: int) -> list[Event]:
     soup = BeautifulSoup(page_html, "html.parser")
     content = (soup.select_one(".elementor-widget-theme-post-content")
-               or soup.select_one(".entry-content")
-               or soup.body
-               or soup)
+               or soup.select_one(".entry-content") or soup.body or soup)
     for tag in content(["script", "style"]):
         tag.decompose()
 
     events: list[Event] = []
-    current_category = "General"
-    # Walk h2 headings and the ul that follows each, in document order.
+    category = "General"
     for node in content.find_all(["h2", "h3", "ul"]):
         if node.name in ("h2", "h3"):
-            current_category = node.get_text(" ", strip=True)
+            category = node.get_text(" ", strip=True)
             continue
-        # node is a <ul>
-        heading_l = current_category.lower()
-        if any(skip in heading_l for skip in SKIP_HEADINGS):
+        if any(skip in category.lower() for skip in SKIP_HEADINGS):
             continue
         for li in node.find_all("li", recursive=False):
-            ev = _parse_li(li, current_category, slug, label, url, default_year)
+            ev = _parse_sfca_li(li, category, url, label, month_key,
+                                default_year)
             if ev:
                 events.append(ev)
     return events
 
 
-def _parse_li(li, category: str, slug: str, label: str, url: str,
-              default_year: int) -> Event | None:
+def _parse_sfca_li(li, category: str, url: str, label: str, month_key: str,
+                   default_year: int) -> Event | None:
     strong = li.find("strong") or li.find("b")
-    if strong:
-        title = strong.get_text(" ", strip=True).strip(" .")
-    else:
-        # Fallback: first sentence as the title.
-        title = li.get_text(" ", strip=True).split(".")[0].strip()
+    title = (strong.get_text(" ", strip=True).strip(" .") if strong
+             else li.get_text(" ", strip=True).split(".")[0].strip())
     if not title:
         return None
-
     full = re.sub(r"\s+", " ", li.get_text(" ", strip=True)).strip()
-    # Description = full text minus the leading title.
     desc = full
     if full.lower().startswith(title.lower()):
-        desc = full[len(title):].lstrip(" .,–—-").strip()
+        desc = full[len(title):].lstrip(" .,\u2013\u2014-").strip()
 
-    links = []
-    seen = set()
+    links, seen = [], set()
     for a in li.find_all("a"):
         href = a.get("href")
         if href and href not in seen:
@@ -241,107 +263,359 @@ def _parse_li(li, category: str, slug: str, label: str, url: str,
             links.append({"text": a.get_text(" ", strip=True) or href,
                           "href": href})
 
-    dates = extract_dates(full, default_year)
+    d = extract_dates(full, default_year)
     return Event(
-        title=title,
-        description=desc,
-        category=category,
-        month_slug=slug,
-        month_label=label,
-        source_url=url,
-        links=links,
-        **dates,
+        title=title, description=desc, category=category, provider="SFCA",
+        sources=[Source("SFCA", url, label)], links=links,
+        fallback_month=month_key, **d,
     )
 
 
-# --------------------------------------------------------------------------- #
-# Orchestration
-# --------------------------------------------------------------------------- #
-
-def collect(today: dt.date, offline: bool = False) -> list[MonthResult]:
+def collect_sfca(today: dt.date, offline: bool
+                 ) -> tuple[list[Event], list[dict], ProviderStatus]:
+    """Return (events, month_status_rows, provider_status)."""
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     session = requests.Session()
-    results: list[MonthResult] = []
+    events: list[Event] = []
+    rows: list[dict] = []
+    ok_any = False
 
-    for year, month in month_window(today):
-        slug = slug_for(year, month)
-        url = f"{BASE}/{slug}/"
+    for year, month in sfca_month_window(today):
+        slug = sfca_slug(year, month)
+        url = f"{SFCA_BASE}/{slug}/"
         label = f"{MONTH_NAMES[month - 1].capitalize()} {year}"
+        mkey = f"{year:04d}-{month:02d}"
         raw_path = RAW_DIR / f"{slug}.html"
-        mr = MonthResult(slug=slug, label=label, url=url,
-                         year=year, month=month, status="missing")
+        page_html, status, note = None, "missing", ""
 
-        page_html = None
         if offline:
             if raw_path.exists():
-                page_html = raw_path.read_text(encoding="utf-8")
-                mr.status = "ok"
+                page_html, status = raw_path.read_text(encoding="utf-8"), "ok"
             else:
-                mr.note = "offline: no archived HTML"
+                note = "offline: no archived HTML"
         else:
             try:
                 code, text = fetch(url, session)
                 if code == 200 and "post-content" in text:
                     page_html = text
                     raw_path.write_text(text, encoding="utf-8")
-                    mr.status = "ok"
+                    status = "ok"
                 elif code == 404:
-                    mr.status = "missing"
-                    mr.note = "not published yet (404)"
+                    note = "not published yet (404)"
                 else:
-                    mr.status = "error"
-                    mr.note = f"unexpected HTTP {code}"
+                    status, note = "error", f"unexpected HTTP {code}"
             except requests.RequestException as exc:
-                mr.status = "error"
-                mr.note = f"fetch failed: {exc}"
-                # Fall back to a previously archived copy if we have one.
+                status, note = "error", f"fetch failed: {exc}"
                 if raw_path.exists():
-                    page_html = raw_path.read_text(encoding="utf-8")
-                    mr.status = "ok"
-                    mr.note += " (used archived copy)"
+                    page_html, status = raw_path.read_text(encoding="utf-8"), "ok"
+                    note += " (used archived copy)"
 
+        n = 0
         if page_html:
             try:
-                mr.events = parse_events(page_html, slug, label, url, year)
-            except Exception as exc:  # parser must never crash the build
-                mr.status = "error"
-                mr.note = f"parse failed: {exc}"
-        results.append(mr)
-        print(f"  {label:<16} {mr.status:<8} events={len(mr.events):<3} {mr.note}",
+                evs = parse_sfca(page_html, url, label, mkey, year)
+                events.extend(evs)
+                n = len(evs)
+                ok_any = True
+            except Exception as exc:  # never crash the build on one month
+                status, note = "error", f"parse failed: {exc}"
+
+        rows.append({"slug": slug, "label": label, "url": url,
+                     "month_key": mkey, "status": status, "note": note,
+                     "count": n})
+        print(f"  SFCA {label:<16} {status:<8} events={n:<3} {note}",
               file=sys.stderr)
-    return results
+
+    ps = ProviderStatus(
+        "SFCA", "ok" if ok_any else "error",
+        "; ".join(f"{r['label']}: {r['note'] or r['count']}" for r in rows))
+    return events, rows, ps
+
+
+# --------------------------------------------------------------------------- #
+# Source 2: Capitol Modern
+# --------------------------------------------------------------------------- #
+
+def _unescape_next(payload: str) -> str:
+    """Undo the RSC string escaping used inside self.__next_f pushes."""
+    return payload.replace('\\"', '"').replace("\\\\", "\\").replace("\\/", "/")
+
+
+def _clean_json_str(s: str) -> str:
+    """Decode remaining \\uXXXX / \\n / \\t escapes in a captured JSON value."""
+    try:
+        return json.loads('"' + s.replace('"', '\\"') + '"')
+    except Exception:
+        return s
+
+
+def _fmt_time_range(start_utc: str, end_utc: str | None) -> tuple[str, str, str]:
+    """Return (date_display, time_display, iso_local_date) in HST."""
+    su = dt.datetime.fromisoformat(start_utc.replace("Z", "+00:00"))
+    sl = su.astimezone(HST)
+    date_display = sl.strftime("%B %-d, %Y")
+    t = sl.strftime("%-I:%M %p")
+    if end_utc:
+        try:
+            el = dt.datetime.fromisoformat(
+                end_utc.replace("Z", "+00:00")).astimezone(HST)
+            if el.date() == sl.date():
+                t = f"{t} - {el.strftime('%-I:%M %p')}"
+        except ValueError:
+            pass
+    return date_display, f"{t} HST", sl.date().isoformat()
+
+
+def parse_capitol_modern(page_html: str) -> list[Event]:
+    u = _unescape_next(page_html)
+    events: list[Event] = []
+    seen_slugs: set[str] = set()
+    # Each Sanity event object begins with "_createdAt".
+    for chunk in re.split(r'(?="_createdAt")', u):
+        m_slug = re.search(r'"current":"(/events/[^"]+?)/?"', chunk)
+        m_start = re.search(r'"startDate":"([^"]+)"', chunk)
+        m_title = re.search(r'"title":"([^"]*)"', chunk)
+        if not (m_slug and m_start and m_title):
+            continue
+        slug = m_slug.group(1)
+        if slug in seen_slugs:
+            continue
+        seen_slugs.add(slug)
+
+        m_end = re.search(r'"endDate":"([^"]+)"', chunk)
+        m_desc = re.search(r'"description":"([^"]*)"', chunk)
+        m_loc = re.search(r'"location":"([^"]*)"', chunk)
+        m_tix = re.search(r'"externalTicketingUrl":"([^"]*)"', chunk)
+        recurring = ('"recurrence"' in chunk or '"frequency"' in chunk
+                     or "first-fridays" in slug)
+
+        start_utc = m_start.group(1)
+        end_utc = m_end.group(1) if m_end else None
+        # endDate may be a plain YYYY-MM-DD recurrence-end; only treat as an
+        # instant when it carries a time component.
+        end_instant = end_utc if (end_utc and "T" in end_utc) else None
+        date_display, time_display, iso_date = _fmt_time_range(
+            start_utc, end_instant)
+
+        detail = f"{CAPMOD_BASE}{slug}"
+        links = [{"text": "Event details (Capitol Modern)", "href": detail}]
+        if m_tix and m_tix.group(1):
+            links.append({"text": "Tickets / registration",
+                          "href": _clean_json_str(m_tix.group(1))})
+
+        title = _clean_json_str(m_title.group(1)).strip()
+        events.append(Event(
+            title=title,
+            description=_clean_json_str(m_desc.group(1)) if m_desc else "",
+            category="Capitol Modern",
+            provider="Capitol Modern",
+            sources=[Source("Capitol Modern", detail, "capitolmodern.org")],
+            venue=_clean_json_str(m_loc.group(1)) if m_loc else
+                  "Capitol Modern: the Hawai\u02bbi State Art Museum",
+            date_start=iso_date,
+            date_end=(_fmt_time_range(end_instant, None)[2]
+                      if end_instant else iso_date),
+            date_display=date_display,
+            time_display=time_display,
+            dt_start_utc=start_utc,
+            dt_end_utc=end_instant,
+            recurring=recurring,
+            links=links,
+        ))
+    events.sort(key=lambda e: e.date_start or "")
+    return events
+
+
+def collect_capitol_modern(offline: bool
+                           ) -> tuple[list[Event], ProviderStatus]:
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+    raw_path = RAW_DIR / f"{CAPMOD_SLUG}.html"
+    page_html = None
+    if offline:
+        if raw_path.exists():
+            page_html = raw_path.read_text(encoding="utf-8")
+        else:
+            return [], ProviderStatus("Capitol Modern", "error",
+                                      "offline: no archived HTML")
+    else:
+        try:
+            code, text = fetch(CAPMOD_EVENTS_URL, requests.Session())
+            if code == 200 and "__next_f" in text:
+                page_html = text
+                raw_path.write_text(text, encoding="utf-8")
+            else:
+                if raw_path.exists():
+                    page_html = raw_path.read_text(encoding="utf-8")
+                    note = f"HTTP {code}; used archived copy"
+                    events = parse_capitol_modern(page_html)
+                    return events, ProviderStatus("Capitol Modern", "partial", note)
+                return [], ProviderStatus("Capitol Modern", "error",
+                                          f"unexpected HTTP {code}")
+        except requests.RequestException as exc:
+            if raw_path.exists():
+                page_html = raw_path.read_text(encoding="utf-8")
+            else:
+                return [], ProviderStatus("Capitol Modern", "error",
+                                          f"fetch failed: {exc}")
+    try:
+        events = parse_capitol_modern(page_html)
+    except Exception as exc:
+        return [], ProviderStatus("Capitol Modern", "error",
+                                  f"parse failed: {exc}")
+    print(f"  Capitol Modern   ok       events={len(events)}", file=sys.stderr)
+    return events, ProviderStatus("Capitol Modern", "ok",
+                                  f"{len(events)} upcoming events")
+
+
+# --------------------------------------------------------------------------- #
+# Merge + dedupe
+# --------------------------------------------------------------------------- #
+
+_VENUE_TAIL = re.compile(
+    r"\bat (the )?capitol modern.*$|\bat the hawai.*$|\bat capitol modern.*$",
+    re.IGNORECASE)
+
+
+def _norm_title(t: str) -> str:
+    t = t.lower()
+    t = _VENUE_TAIL.sub("", t)
+    t = re.sub(r"[\u2018\u2019\u201c\u201d\"']", "", t)
+    t = re.sub(r"[^a-z0-9 ]", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def _same_event(a: Event, b: Event) -> bool:
+    # Only ever merge records at the same granularity. A recurring/dateless
+    # listing (e.g. SFCA "First Friday") must NOT be collapsed into a single
+    # dated instance (e.g. Capitol Modern's Sept 4 First Friday) -- that would
+    # lose the recurrence and misplace the event.
+    if bool(a.date_start) != bool(b.date_start):
+        return False
+    # Two concrete instances: same day required.
+    if a.date_start and b.date_start:
+        if a.date_start != b.date_start:
+            return False
+        na, nb = _norm_title(a.title), _norm_title(b.title)
+        sim = SequenceMatcher(None, na, nb).ratio()
+        shared = na and nb and (na in nb or nb in na)
+        return sim > 0.55 or shared          # same day: lenient title
+    # Two dateless listings: require a near-exact title match.
+    return SequenceMatcher(None, _norm_title(a.title),
+                           _norm_title(b.title)).ratio() > 0.87
+
+
+def _merge_cluster(cluster: list[Event]) -> Event:
+    # Primary = the most precise/informative record: a timed event beats an
+    # all-day one; otherwise the longest description wins.
+    def score(e: Event) -> tuple:
+        return (1 if e.dt_start_utc else 0,
+                1 if e.date_start else 0,
+                len(e.description or ""))
+    primary = max(cluster, key=score)
+
+    sources: list[Source] = []
+    links: list[dict] = []
+    seen_src, seen_link = set(), set()
+    providers = []
+    for e in cluster:
+        if e.provider not in providers:
+            providers.append(e.provider)
+        for s in e.sources:
+            k = (s.name, s.url)
+            if k not in seen_src:
+                seen_src.add(k)
+                sources.append(s)
+        for l in e.links:
+            if l["href"] not in seen_link:
+                seen_link.add(l["href"])
+                links.append(l)
+
+    merged = Event(
+        title=primary.title,
+        description=primary.description,
+        category=primary.category,
+        provider=primary.provider,
+        sources=sources,
+        venue=next((e.venue for e in cluster if e.venue), primary.venue),
+        date_start=primary.date_start,
+        date_end=primary.date_end,
+        date_display=primary.date_display,
+        time_display=next((e.time_display for e in cluster if e.time_display),
+                          None),
+        dt_start_utc=primary.dt_start_utc,
+        dt_end_utc=primary.dt_end_utc,
+        recurring=any(e.recurring for e in cluster),
+        links=links,
+        fallback_month=next((e.fallback_month for e in cluster
+                             if e.fallback_month), primary.fallback_month),
+    )
+    return merged
+
+
+def merge_events(events: list[Event]) -> tuple[list[Event], int]:
+    """Cluster duplicate events across sources; return (merged, num_merged)."""
+    clusters: list[list[Event]] = []
+    for ev in events:
+        for cl in clusters:
+            if _same_event(ev, cl[0]):
+                cl.append(ev)
+                break
+        else:
+            clusters.append([ev])
+    merged = [_merge_cluster(cl) for cl in clusters]
+    num_merged = sum(1 for cl in clusters if len(cl) > 1)
+    return merged, num_merged
+
+
+def group_by_month(events: list[Event]) -> tuple[list[tuple[str, str, list[Event]]],
+                                                 list[Event]]:
+    """Return ([(month_key, label, sorted_events)...], undated_events)."""
+    buckets: dict[str, list[Event]] = {}
+    undated: list[Event] = []
+    for e in events:
+        key = e.month_key()
+        if key:
+            buckets.setdefault(key, []).append(e)
+        else:
+            undated.append(e)
+    out = []
+    for key in sorted(buckets):
+        label = dt.datetime.strptime(key + "-01", "%Y-%m-%d").strftime("%B %Y")
+        evs = sorted(buckets[key], key=lambda e: e.sort_key())
+        out.append((key, label, evs))
+    undated.sort(key=lambda e: e.title.lower())
+    return out, undated
 
 
 # --------------------------------------------------------------------------- #
 # Output: events.json
 # --------------------------------------------------------------------------- #
 
-def write_events_json(results: list[MonthResult], generated: str) -> dict:
+def write_events_json(months, undated, providers, generated) -> None:
+    def dump(e: Event) -> dict:
+        d = asdict(e)
+        d["sources"] = [asdict(s) for s in e.sources]
+        return d
     payload = {
         "generated": generated,
-        "source": BASE,
+        "sources": [{"name": p.name, "status": p.status, "detail": p.detail}
+                    for p in providers],
         "attribution": (
-            "Event information from the Hawai\u02bbi State Foundation on "
-            "Culture and the Arts (SFCA) monthly Arts & Culture Calendar."
+            "Event information aggregated from the Hawai\u02bbi State Foundation "
+            "on Culture and the Arts (SFCA) and Capitol Modern: the Hawai\u02bbi "
+            "State Art Museum. Unofficial mirror; confirm details at the source."
         ),
-        "months": [],
+        "months": [
+            {"month": key, "label": label, "events": [dump(e) for e in evs]}
+            for key, label, evs in months
+        ],
+        "undated": [dump(e) for e in undated],
     }
-    for mr in results:
-        payload["months"].append({
-            "slug": mr.slug,
-            "label": mr.label,
-            "url": mr.url,
-            "status": mr.status,
-            "note": mr.note,
-            "events": [asdict(e) for e in mr.events],
-        })
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-    (DATA_DIR / "events.json").write_text(
-        json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    (SITE_DIR).mkdir(parents=True, exist_ok=True)
-    (SITE_DIR / "events.json").write_text(
-        json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    return payload
+    SITE_DIR.mkdir(parents=True, exist_ok=True)
+    text = json.dumps(payload, indent=2, ensure_ascii=False)
+    (DATA_DIR / "events.json").write_text(text, encoding="utf-8")
+    (SITE_DIR / "events.json").write_text(text, encoding="utf-8")
 
 
 # --------------------------------------------------------------------------- #
@@ -357,7 +631,7 @@ def _fold(line: str) -> str:
     out, b = [], line.encode("utf-8")
     while len(b) > 73:
         cut = 73
-        while (b[cut] & 0xC0) == 0x80:  # don't split a UTF-8 sequence
+        while (b[cut] & 0xC0) == 0x80:
             cut -= 1
         out.append(b[:cut].decode("utf-8"))
         b = b" " + b[cut:]
@@ -365,38 +639,47 @@ def _fold(line: str) -> str:
     return "\r\n".join(out)
 
 
-def write_ics(results: list[MonthResult], generated: str) -> int:
-    stamp = dt.datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+def write_ics(all_events: list[Event], generated: str) -> int:
+    stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     lines = [
         "BEGIN:VCALENDAR", "VERSION:2.0",
-        "PRODID:-//sfca-calendar//EN", "CALSCALE:GREGORIAN",
-        "METHOD:PUBLISH", "X-WR-CALNAME:SFCA Arts & Culture Calendar",
+        "PRODID:-//hawaii-arts-calendar//EN", "CALSCALE:GREGORIAN",
+        "METHOD:PUBLISH", "X-WR-CALNAME:Hawai\u02bbi Arts & Culture Calendar",
     ]
     count = 0
-    for mr in results:
-        for i, ev in enumerate(ev for ev in mr.events if ev.date_start):
+    for ev in all_events:
+        if not ev.date_start:
+            continue
+        uid = f"{abs(hash((ev.title, ev.date_start)))}@hawaii-arts-calendar"
+        desc = ev.description or ""
+        for l in ev.links:
+            desc += f"  {l['href']}"
+        desc += "  Sources: " + "; ".join(f"{s.name} {s.url}" for s in ev.sources)
+        block = ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{stamp}"]
+        if ev.dt_start_utc:  # timed event (Capitol Modern) -> UTC instants
+            su = dt.datetime.fromisoformat(
+                ev.dt_start_utc.replace("Z", "+00:00")).astimezone(dt.timezone.utc)
+            block.append(f"DTSTART:{su.strftime('%Y%m%dT%H%M%SZ')}")
+            if ev.dt_end_utc:
+                eu = dt.datetime.fromisoformat(
+                    ev.dt_end_utc.replace("Z", "+00:00")).astimezone(dt.timezone.utc)
+                block.append(f"DTEND:{eu.strftime('%Y%m%dT%H%M%SZ')}")
+        else:                # all-day event (SFCA) -> DATE values
             start = dt.date.fromisoformat(ev.date_start)
-            end = (dt.date.fromisoformat(ev.date_end)
-                   if ev.date_end else start)
-            dtend = end + dt.timedelta(days=1)  # DTEND is exclusive for all-day
-            uid = f"{mr.slug}-{count}@sfca-calendar"
-            desc = ev.description
-            if ev.links:
-                desc += "  " + " ".join(l["href"] for l in ev.links)
-            desc += f"  Source: {ev.source_url}"
-            lines += [
-                "BEGIN:VEVENT",
-                f"UID:{uid}",
-                f"DTSTAMP:{stamp}",
-                f"DTSTART;VALUE=DATE:{start.strftime('%Y%m%d')}",
-                f"DTEND;VALUE=DATE:{dtend.strftime('%Y%m%d')}",
-                _fold(f"SUMMARY:{_ics_escape(ev.title)}"),
-                _fold(f"DESCRIPTION:{_ics_escape(desc)}"),
-                _fold(f"URL:{ev.source_url}"),
-                f"CATEGORIES:{_ics_escape(ev.category)}",
-                "END:VEVENT",
-            ]
-            count += 1
+            end = dt.date.fromisoformat(ev.date_end) if ev.date_end else start
+            block.append(f"DTSTART;VALUE=DATE:{start.strftime('%Y%m%d')}")
+            block.append(
+                f"DTEND;VALUE=DATE:{(end + dt.timedelta(days=1)).strftime('%Y%m%d')}")
+        block += [
+            _fold(f"SUMMARY:{_ics_escape(ev.title)}"),
+            _fold(f"DESCRIPTION:{_ics_escape(desc)}"),
+            _fold(f"LOCATION:{_ics_escape(ev.venue or '')}"),
+            _fold(f"URL:{ev.sources[0].url if ev.sources else ''}"),
+            f"CATEGORIES:{_ics_escape(ev.category)}",
+            "END:VEVENT",
+        ]
+        lines += block
+        count += 1
     lines.append("END:VCALENDAR")
     SITE_DIR.mkdir(parents=True, exist_ok=True)
     (SITE_DIR / "calendar.ics").write_text("\r\n".join(lines) + "\r\n",
@@ -409,10 +692,15 @@ def write_ics(results: list[MonthResult], generated: str) -> int:
 # --------------------------------------------------------------------------- #
 
 def _e(text: str) -> str:
-    return html.escape(text, quote=True)
+    return html.escape(text or "", quote=True)
 
 
-def _fmt_date(ev: Event) -> str:
+_SRC_CLASS = {"SFCA": "sfca", "Capitol Modern": "capmod"}
+
+
+def _fmt_when(ev: Event) -> str:
+    if ev.date_display and ev.time_display:
+        return f"{_e(ev.date_display)} \u00b7 {_e(ev.time_display)}"
     if ev.date_display:
         return _e(ev.date_display)
     if ev.recurring:
@@ -421,23 +709,33 @@ def _fmt_date(ev: Event) -> str:
 
 
 def _render_event(ev: Event) -> str:
+    badges = "".join(
+        f'<span class="badge {_SRC_CLASS.get(s.name, "")}">{_e(s.name)}</span>'
+        for s in ev.sources)
+    if len(ev.sources) > 1:
+        badges = '<span class="badge both">merged</span>' + badges
+    venue = f'<div class="venue">{_e(ev.venue)}</div>' if ev.venue else ""
     links = ""
     if ev.links:
         items = " \u00b7 ".join(
             f'<a href="{_e(l["href"])}" rel="noopener nofollow">{_e(l["text"])}</a>'
             for l in ev.links)
         links = f'<div class="links">{items}</div>'
-    badge = ' <span class="recur">recurring</span>' if ev.recurring else ""
+    src = " \u00b7 ".join(
+        f'<a href="{_e(s.url)}" rel="noopener">{_e(s.name)}'
+        + (f' ({_e(s.label)})' if s.label else "") + "</a>"
+        for s in ev.sources)
     return f"""      <article class="event">
-        <div class="when">{_fmt_date(ev)}{badge}</div>
-        <h3>{_e(ev.title)}</h3>
+        <div class="when">{_fmt_when(ev)}</div>
+        <h3>{_e(ev.title)} {badges}</h3>
+        {venue}
         <p>{_e(ev.description)}</p>
         {links}
-        <div class="src"><a href="{_e(ev.source_url)}" rel="noopener">Source: SFCA {_e(ev.month_label)}</a></div>
+        <div class="src">Source: {src}</div>
       </article>"""
 
 
-def _page_shell(title: str, body: str, generated: str, rel: str = "") -> str:
+def _page_shell(title: str, body: str, generated: str) -> str:
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -445,9 +743,9 @@ def _page_shell(title: str, body: str, generated: str, rel: str = "") -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{_e(title)}</title>
 <style>
-:root {{ --bg:#fbfaf7; --fg:#1c1a17; --muted:#6b6560; --card:#fff; --accent:#0b6b5f; --line:#e7e2d9; }}
+:root {{ --bg:#fbfaf7; --fg:#1c1a17; --muted:#6b6560; --card:#fff; --accent:#0b6b5f; --line:#e7e2d9; --sfca:#0b6b5f; --capmod:#8a4b96; --both:#b4641c; }}
 @media (prefers-color-scheme: dark) {{
-  :root {{ --bg:#161513; --fg:#ece8e1; --muted:#a49e94; --card:#201e1b; --accent:#5fd3c0; --line:#33302b; }}
+  :root {{ --bg:#161513; --fg:#ece8e1; --muted:#a49e94; --card:#201e1b; --accent:#5fd3c0; --line:#33302b; --sfca:#5fd3c0; --capmod:#d6a3e0; --both:#e3a869; }}
 }}
 * {{ box-sizing:border-box; }}
 body {{ margin:0; background:var(--bg); color:var(--fg);
@@ -463,17 +761,21 @@ nav.months a {{ display:inline-block; padding:6px 12px; border:1px solid var(--l
 nav.months a[aria-current] {{ background:var(--accent); color:#fff; border-color:var(--accent); }}
 .actions {{ display:flex; gap:14px; flex-wrap:wrap; margin:8px 0 4px; font-size:.9rem; }}
 .actions a {{ color:var(--accent); }}
+.legend {{ display:flex; gap:14px; flex-wrap:wrap; font-size:.8rem; color:var(--muted); margin:6px 0 2px; }}
 h2.month {{ margin:30px 0 4px; padding-bottom:6px; border-bottom:2px solid var(--line); font-size:1.3rem; }}
-h2.cat {{ margin:22px 0 6px; font-size:.8rem; text-transform:uppercase; letter-spacing:.05em; color:var(--muted); }}
 .event {{ background:var(--card); border:1px solid var(--line); border-radius:12px;
   padding:14px 16px; margin:10px 0; }}
 .event h3 {{ margin:.15rem 0 .35rem; font-size:1.08rem; }}
 .event p {{ margin:.2rem 0; }}
 .when {{ font-weight:600; color:var(--accent); font-size:.9rem; }}
-.recur {{ background:var(--line); color:var(--muted); border-radius:6px; padding:1px 6px;
-  font-size:.72rem; font-weight:600; text-transform:uppercase; }}
+.venue {{ font-size:.85rem; color:var(--muted); margin:.1rem 0 .3rem; }}
+.badge {{ font-size:.66rem; font-weight:700; text-transform:uppercase; letter-spacing:.03em;
+  border-radius:6px; padding:1px 6px; vertical-align:middle; white-space:nowrap; border:1px solid currentColor; }}
+.badge.sfca {{ color:var(--sfca); }}
+.badge.capmod {{ color:var(--capmod); }}
+.badge.both {{ color:var(--both); }}
 .links {{ font-size:.9rem; margin-top:.35rem; }}
-.src {{ font-size:.78rem; margin-top:.4rem; }}
+.src {{ font-size:.78rem; margin-top:.4rem; color:var(--muted); }}
 .src a {{ color:var(--muted); }}
 .missing {{ color:var(--muted); font-style:italic; padding:8px 0; }}
 footer {{ color:var(--muted); font-size:.82rem; margin:40px auto; border-top:1px solid var(--line); padding-top:16px; }}
@@ -483,74 +785,88 @@ a {{ color:var(--accent); }}
 <body>
 {body}
 <footer>
-  <p>Generated {_e(generated)}. Event information is aggregated from the
-  <a href="{BASE}/" rel="noopener">Hawai\u02bbi State Foundation on Culture and the Arts</a>
-  monthly Arts &amp; Culture Calendar. This is an unofficial, automatically
-  updated mirror; always confirm details on the source page. Inclusion is not an endorsement.</p>
+  <p>Generated {_e(generated)}. Aggregated from the
+  <a href="{SFCA_BASE}/" rel="noopener">Hawai\u02bbi State Foundation on Culture and the Arts</a>
+  and <a href="{CAPMOD_BASE}/events" rel="noopener">Capitol Modern: the Hawai\u02bbi State Art Museum</a>.
+  This is an unofficial, automatically updated aggregator; always confirm details on the
+  source page. Inclusion is not an endorsement.</p>
+</footer>
 </body>
 </html>
 """
 
 
-def _render_month_section(mr: MonthResult) -> str:
-    if mr.status != "ok" or not mr.events:
-        note = mr.note or "not available"
-        return (f'<h2 class="month" id="{_e(mr.slug)}">{_e(mr.label)}</h2>\n'
-                f'<p class="missing">Not published yet '
-                f'(<a href="{_e(mr.url)}" rel="noopener">check source</a>). {_e(note)}</p>')
-    parts = [f'<h2 class="month" id="{_e(mr.slug)}">{_e(mr.label)}</h2>']
-    by_cat: dict[str, list[Event]] = {}
-    for ev in mr.events:
-        by_cat.setdefault(ev.category, []).append(ev)
-    for cat, evs in by_cat.items():
-        parts.append(f'<h2 class="cat">{_e(cat)}</h2>')
-        parts.extend(_render_event(e) for e in evs)
+def _month_nav(months, sfca_rows, current=None) -> str:
+    # Include SFCA months that are known-but-empty so users see they exist.
+    known = {k for k, _, _ in months}
+    items = []
+    for key, label, _ in months:
+        cur = ' aria-current="page"' if key == current else ""
+        items.append(f'<a href="#m-{key}"{cur}>{_e(label)}</a>')
+    return '<nav class="months">' + "".join(items) + "</nav>"
+
+
+def _render_month(key, label, evs, sfca_rows) -> str:
+    parts = [f'<h2 class="month" id="m-{key}">{_e(label)}</h2>']
+    row = next((r for r in sfca_rows if r["month_key"] == key), None)
+    if row and row["status"] != "ok":
+        parts.append(f'<p class="missing">SFCA calendar for {_e(label)} '
+                     f'{_e(row["note"] or "not available")} '
+                     f'(<a href="{_e(row["url"])}" rel="noopener">source</a>).</p>')
+    parts.extend(_render_event(e) for e in evs)
     return "\n".join(parts)
 
 
-def render_site(results: list[MonthResult], generated: str) -> None:
+def render_site(months, undated, sfca_rows, providers, num_merged,
+                generated) -> None:
     SITE_DIR.mkdir(parents=True, exist_ok=True)
-    ok_months = [m for m in results if m.status == "ok" and m.events]
+    total = sum(len(evs) for _, _, evs in months) + len(undated)
 
-    nav = '<nav class="months">' + "".join(
-        f'<a href="#{_e(m.slug)}">{_e(m.label)}</a>' for m in results
-    ) + "</nav>"
+    legend = ('<div class="legend">'
+              '<span><span class="badge sfca">SFCA</span> state calendar</span>'
+              '<span><span class="badge capmod">Capitol Modern</span> museum feed</span>'
+              '<span><span class="badge both">merged</span> same event, both sources</span>'
+              '</div>')
     actions = ('<div class="actions">'
                '<a href="calendar.ics">\U0001f4c5 Subscribe (iCal)</a>'
                '<a href="events.json">events.json</a></div>')
+    src_line = " \u00b7 ".join(f"{p.name}: {p.status}" for p in providers)
 
-    total = sum(len(m.events) for m in ok_months)
     header = f"""<header>
-  <div class="tag">Hawai\u02bbi \u00b7 unofficial mirror</div>
-  <h1>SFCA Arts &amp; Culture Calendar</h1>
-  <p class="lede">{total} events across {len(ok_months)} month(s), updated automatically from the
-  State Foundation on Culture and the Arts.</p>
-  {nav}
+  <div class="tag">Hawai\u02bbi \u00b7 unofficial aggregator</div>
+  <h1>Hawai\u02bbi Arts &amp; Culture Calendar</h1>
+  <p class="lede">{total} events from {len(providers)} sources
+  ({_e(src_line)}), merged and de-duplicated
+  ({num_merged} overlap{'s' if num_merged != 1 else ''} combined). Updated automatically.</p>
+  {legend}
+  {_month_nav(months, sfca_rows)}
   {actions}
 </header>"""
 
-    body = header + "\n<main>\n" + "\n".join(
-        _render_month_section(m) for m in results) + "\n</main>"
+    body_parts = [header, "<main>"]
+    for key, label, evs in months:
+        body_parts.append(_render_month(key, label, evs, sfca_rows))
+    if undated:
+        body_parts.append('<h2 class="month" id="m-recurring">Recurring &amp; ongoing</h2>')
+        body_parts.extend(_render_event(e) for e in undated)
+    body_parts.append("</main>")
     (SITE_DIR / "index.html").write_text(
-        _page_shell("SFCA Arts & Culture Calendar", body, generated),
-        encoding="utf-8")
+        _page_shell("Hawai\u02bbi Arts & Culture Calendar",
+                    "\n".join(body_parts), generated), encoding="utf-8")
 
     # Per-month standalone pages.
-    for mr in results:
-        if mr.status != "ok" or not mr.events:
-            continue
-        mnav = ('<nav class="months"><a href="index.html">\u2190 All months</a>'
-                + "".join(f'<a href="{_e(m.slug)}.html"'
-                          + (' aria-current="page"' if m.slug == mr.slug else '')
-                          + f'>{_e(m.label)}</a>'
-                          for m in results if m.status == "ok" and m.events)
+    for key, label, evs in months:
+        mnav = ('<nav class="months"><a href="index.html">\u2190 All</a>'
+                + "".join(f'<a href="{k}.html"'
+                          + (' aria-current="page"' if k == key else "")
+                          + f'>{_e(lbl)}</a>' for k, lbl, _ in months)
                 + "</nav>")
-        mbody = (f'<header><div class="tag">Hawai\u02bbi \u00b7 unofficial mirror</div>'
-                 f'<h1>{_e(mr.label)}</h1>{mnav}{actions}</header>\n<main>\n'
-                 + _render_month_section(mr) + "\n</main>")
-        (SITE_DIR / f"{mr.slug}.html").write_text(
-            _page_shell(f"{mr.label} \u2014 SFCA Calendar", mbody, generated),
-            encoding="utf-8")
+        mbody = (f'<header><div class="tag">Hawai\u02bbi \u00b7 unofficial aggregator</div>'
+                 f'<h1>{_e(label)}</h1>{legend}{mnav}{actions}</header>\n<main>\n'
+                 + _render_month(key, label, evs, sfca_rows) + "\n</main>")
+        (SITE_DIR / f"{key}.html").write_text(
+            _page_shell(f"{label} \u2014 Hawai\u02bbi Arts Calendar", mbody,
+                        generated), encoding="utf-8")
 
     (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
 
@@ -570,20 +886,26 @@ def main() -> int:
              else dt.date.today())
     generated = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
-    print(f"Discovering months (today={today}, offline={args.offline})",
-          file=sys.stderr)
-    results = collect(today, offline=args.offline)
+    print(f"Collecting (today={today}, offline={args.offline})", file=sys.stderr)
+    sfca_events, sfca_rows, sfca_ps = collect_sfca(today, args.offline)
+    capmod_events, capmod_ps = collect_capitol_modern(args.offline)
+    providers = [sfca_ps, capmod_ps]
 
-    write_events_json(results, generated)
-    n_ics = write_ics(results, generated)
-    render_site(results, generated)
+    all_events = sfca_events + capmod_events
+    merged, num_merged = merge_events(all_events)
+    months, undated = group_by_month(merged)
 
-    ok = sum(1 for m in results if m.status == "ok" and m.events)
-    total = sum(len(m.events) for m in results)
-    print(f"Done: {ok} month(s) with events, {total} events, "
-          f"{n_ics} dated ICS entries -> {SITE_DIR}", file=sys.stderr)
-    if not any(m.status == "ok" for m in results):
-        print("WARNING: no months fetched successfully", file=sys.stderr)
+    write_events_json(months, undated, providers, generated)
+    n_ics = write_ics(merged, generated)
+    render_site(months, undated, sfca_rows, providers, num_merged, generated)
+
+    total = len(merged)
+    print(f"Done: {len(all_events)} raw -> {total} merged events "
+          f"({num_merged} overlaps combined), {len(months)} month(s), "
+          f"{n_ics} ICS entries -> {SITE_DIR}", file=sys.stderr)
+    if sfca_ps.status == "error" and capmod_ps.status == "error":
+        print("WARNING: all sources failed", file=sys.stderr)
+        return 1
     return 0
 
 

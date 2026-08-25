@@ -1,0 +1,69 @@
+name: Update SFCA calendar
+
+on:
+  schedule:
+    # Daily at 09:17 UTC (~23:17 HST previous day). Off-peak minute avoids the
+    # top-of-hour GitHub scheduler backlog.
+    - cron: "17 9 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update.yml"
+      - "requirements.txt"
+
+# Least privilege: write repo contents (to persist archived HTML + events.json)
+# and publish to Pages.
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# Never let two runs deploy Pages at once; don't cancel an in-flight deploy.
+concurrency:
+  group: sfca-calendar-pages
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch calendars and build site
+        run: python scripts/fetch_and_build.py
+
+      - name: Commit refreshed data and site
+        run: |
+          git config user.name "sfca-calendar-bot"
+          git config user.email "actions@github.com"
+          git add data site
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: refresh SFCA calendar data ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

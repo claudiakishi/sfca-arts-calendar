@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25 22:30 UTC",
+  "generated": "2026-08-26 02:02 UTC",
   "sources": [
     {
       "name": "SFCA",
@@ -44,7 +44,8 @@
               "href": "https://www.wailoacenter.com/exhibitions-1"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|aha art immersive exhibit"
         },
         {
           "title": "“Peace by Piece” quilt show",
@@ -72,7 +73,8 @@
               "href": "https://volcanoartcenter.org/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|peace by piece quilt show"
         },
         {
           "title": "Diamond Head Theatre presents “Les Misérables”",
@@ -100,7 +102,8 @@
               "href": "https://www.diamondheadtheatre.com/shows-tickets/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|diamond head theatre presents les mis rables"
         },
         {
           "title": "E Heluhelu Kākou: Swimming into Stories community event",
@@ -128,7 +131,8 @@
               "href": "https://library.wcc.hawaii.edu/events/upcoming#s-lg-box-wrapper-41680612"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|e heluhelu k kou swimming into stories community event"
         },
         {
           "title": "“Portal 3” at the Firehouse Gallery, Waimea Arts Council",
@@ -156,7 +160,8 @@
               "href": "https://firehouseartgallery.org/category/in-the-firehouse-gallery/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|portal 3 at the firehouse gallery waimea arts council"
         },
         {
           "title": "“LUMINOSITY: The Legacy” at Viewpoints Gallery Maui",
@@ -179,7 +184,8 @@
           "dt_end_utc": null,
           "recurring": false,
           "links": [],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|luminosity the legacy at viewpoints gallery maui"
         },
         {
           "title": "Summer Flix free movie screening",
@@ -207,7 +213,8 @@
               "href": "https://hiff.org/summer-flix/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|summer flix free movie screening"
         },
         {
           "title": "Hotel Street Art Hui mural painting and live music",
@@ -230,7 +237,8 @@
           "dt_end_utc": null,
           "recurring": false,
           "links": [],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|hotel street art hui mural painting and live music"
         },
         {
           "title": "“Hawaiʻi’s Woodshow: Na Laʻau O Hawaiʻi”",
@@ -258,7 +266,8 @@
               "href": "https://www.downtownarthi.org/exhibitions"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|hawai is woodshow na la au o hawai i"
         },
         {
           "title": "Mizu Wai / Story Weaving East Maui Waterways community story weaving",
@@ -286,7 +295,8 @@
               "href": "https://nestmakerspace.weebly.com/mizu-wai.html"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|mizu wai story weaving east maui waterways community story weaving"
         },
         {
           "title": "Drawn to Music: A  Collaborative Live Music and Art Event",
@@ -314,7 +324,8 @@
               "href": "https://guitarfoundationhawaii.org/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|drawn to music a collaborative live music and art event"
         },
         {
           "title": "“16th Annual Abstract Only!” at Wailoa Center",
@@ -342,7 +353,8 @@
               "href": "https://www.wailoacenter.com/exhibitions-1"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|16th annual abstract only at wailoa center"
         },
         {
           "title": "Super Saturday at Capitol Modern: the Hawaiʻi State Art Museum",
@@ -365,7 +377,8 @@
           "dt_end_utc": null,
           "recurring": false,
           "links": [],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|super saturday"
         },
         {
           "title": "“Interwoven Views: threads of influence” exhibit of artworks by State of Hawaiʻi Department of Education art instructors",
@@ -393,7 +406,8 @@
               "href": "https://sfca.hawaii.gov/doe-art-teachers-exhibit-work-from-their-personal-art-practices-in-state-art-museum-through-august-26/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|interwoven views threads of influence exhibit of artworks by state of hawai i department of education art instructors"
         },
         {
           "title": "“ʻAimama” at Gallery ʻIolani, Windward Community College",
@@ -421,7 +435,8 @@
               "href": "https://gallery.windward.hawaii.edu/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|aimama at gallery iolani windward community college"
         },
         {
           "title": "Super Saturday: Creative Micronesia",
@@ -439,9 +454,9 @@
           "date_start": "2026-08-29",
           "date_end": "2026-08-29",
           "date_display": "August 29, 2026",
-          "time_display": "11:00 AM - 3:00 PM HST",
-          "dt_start_utc": "2026-08-29T21:00:00.000Z",
-          "dt_end_utc": "2026-08-30T01:00:00.000Z",
+          "time_display": "10:00 AM - 2:00 PM HST",
+          "dt_start_utc": "2026-08-29T20:00:00.000Z",
+          "dt_end_utc": "2026-08-30T00:00:00.000Z",
           "recurring": true,
           "links": [
             {
@@ -449,7 +464,8 @@
               "href": "https://www.capitolmodern.org/events/super-saturday-creative-micronesia"
             }
           ],
-          "fallback_month": null
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/super-saturday-creative-micronesia"
         },
         {
           "title": "Noise Cabinet with Sō Percussion",
@@ -481,7 +497,8 @@
               "href": "https://www.eventbrite.com/e/noise-cabinet-so-percussion-tickets-1990610920850"
             }
           ],
-          "fallback_month": null
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/noise-cabinet-with-so-percussion"
         },
         {
           "title": "Bishop Museum After Hours",
@@ -509,7 +526,8 @@
               "href": "https://www.bishopmuseum.org/exhibits-and-programs/afterhours/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|bishop museum after hours"
         },
         {
           "title": "First Friday at Capitol Modern: the Hawaiʻi State Art Museum",
@@ -537,7 +555,8 @@
               "href": "https://firstfridayhawaii.com/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|first friday"
         },
         {
           "title": "Hawaiʻi Public Radio “Hawaiʻi Radio Hour” broadcasting from Kahilu Theatre",
@@ -565,7 +584,8 @@
               "href": "https://kahilu.org/hawaii-radio-hour-episodes/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|hawai i public radio hawai i radio hour broadcasting from kahilu theatre"
         },
         {
           "title": "Hawaiʻi State Public Libraries",
@@ -593,7 +613,8 @@
               "href": "https://www.librarieshawaii.org/events"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|hawai i state public libraries"
         },
         {
           "title": "Honolulu Museum of Art HoMA Nights",
@@ -621,7 +642,8 @@
               "href": "https://honolulumuseum.org/homa-nights-n7xf"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|honolulu museum of art homa nights"
         },
         {
           "title": "West Hawaiʻi County Band monthly concert",
@@ -649,7 +671,8 @@
               "href": "https://www.westhawaiiband.com/schedule"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|west hawai i county band monthly concert"
         },
         {
           "title": "ʻIolani Palace Kamaʻāina Sundays",
@@ -677,7 +700,8 @@
               "href": "https://www.iolanipalace.org/visit/kamaaina-sundays/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|iolani palace kama ina sundays"
         },
         {
           "title": "ʻIolani Palace Royal Hawaiian Band Performances",
@@ -705,7 +729,8 @@
               "href": "https://www.iolanipalace.org/events/royal-hawaiian-band-concerts/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|iolani palace royal hawaiian band performances"
         },
         {
           "title": "“Creative Micronesia” at Capitol Modern: the Hawaiʻi State Art Museum",
@@ -733,7 +758,8 @@
               "href": "https://sfca.hawaii.gov/creative-micronesia-at-state-art-museum-exhibit-family-friendly-events-through-august-2026/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|creative micronesia"
         },
         {
           "title": "“Trifecta”",
@@ -761,7 +787,8 @@
               "href": "https://www.capitolmodern.org/exhibits/trifecta"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|trifecta"
         }
       ]
     },
@@ -795,7 +822,8 @@
               "href": "https://www.capitolmodern.org/events/first-fridays-09-04-2026"
             }
           ],
-          "fallback_month": null
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/first-fridays-09-04-2026"
         },
         {
           "title": "Quick Draw: Portrait Workshop",
@@ -827,7 +855,8 @@
               "href": "https://www.eventbrite.com/e/quick-draw-portrait-workshop-tickets-1997506202824?aff=oddtdtcreator"
             }
           ],
-          "fallback_month": null
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/quick-draw-portrait-workshop"
         },
         {
           "title": "Resurface: Convergence Dance Theatre performance",
@@ -859,7 +888,8 @@
               "href": "https://www.eventbrite.com/e/resurface-convergence-dance-theatre-tickets-1997641678034"
             }
           ],
-          "fallback_month": null
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/resurface-convergence-dance-theatre-performance"
         },
         {
           "title": "Film screening: Remathau, People of the Ocean",
@@ -887,7 +917,8 @@
               "href": "https://www.capitolmodern.org/events/film-screening-remathau-people-of-the-ocean"
             }
           ],
-          "fallback_month": null
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/film-screening-remathau-people-of-the-ocean"
         },
         {
           "title": "Welcome Home Kōlea Festival at Ala Moana Beach Park",
@@ -915,7 +946,8 @@
               "href": "https://hiaudubon.org/events/welcome-home-kolea-2026/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|welcome home k lea festival at ala moana beach park"
         },
         {
           "title": "“Ea Mai ʻEiwa: Patterns of Practice” at the Bernice Pauahi Bishop Museum",
@@ -943,7 +975,8 @@
               "href": "https://www.bishopmuseum.org/eiwa/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|ea mai eiwa patterns of practice at the bernice pauahi bishop museum"
         }
       ]
     },
@@ -977,7 +1010,8 @@
               "href": "https://www.ctahr.hawaii.edu/insectmuseum/"
             }
           ],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|university of hawai i insect museum art show"
         }
       ]
     },
@@ -1006,7 +1040,8 @@
           "dt_end_utc": null,
           "recurring": false,
           "links": [],
-          "fallback_month": "2026-08"
+          "fallback_month": "2026-08",
+          "uid_seed": "sfca|2026-08|2026 pacific states biennial north american printmaking exhibition"
         }
       ]
     }

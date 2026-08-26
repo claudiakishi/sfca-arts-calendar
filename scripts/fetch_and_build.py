@@ -39,6 +39,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import hashlib
 import html
 import json
 import re
@@ -117,6 +118,15 @@ class Event:
     recurring: bool = False
     links: list[dict] = field(default_factory=list)
     fallback_month: str | None = None   # 'YYYY-MM' when no date_start (grouping)
+    uid_seed: str = ""                  # stable identity for a deterministic UID
+
+    def uid(self, suffix: str = "") -> str:
+        # Deterministic across builds so calendar clients update in place rather
+        # than duplicating. (Python's hash() is per-process salted -- never use
+        # it for identities that must persist.)
+        seed = self.uid_seed or f"{self.title}|{self.date_start or ''}"
+        h = hashlib.sha1(seed.encode("utf-8")).hexdigest()[:20]
+        return f"{h}{suffix}@hawaii-arts-calendar"
 
     def month_key(self) -> str | None:
         # An event belongs to its source-page month when its date range actually
@@ -268,10 +278,13 @@ def _parse_sfca_li(li, category: str, url: str, label: str, month_key: str,
                           "href": href})
 
     d = extract_dates(full, default_year)
+    # Keyed by source month + normalized title so the identity survives minor
+    # prose edits and re-runs.
+    seed = f"sfca|{month_key}|{_norm_title(title)}"
     return Event(
         title=title, description=desc, category=category, provider="SFCA",
         sources=[Source("SFCA", url, label)], links=links,
-        fallback_month=month_key, **d,
+        fallback_month=month_key, uid_seed=seed, **d,
     )
 
 
@@ -425,6 +438,7 @@ def parse_capitol_modern(page_html: str) -> list[Event]:
             dt_end_utc=end_instant,
             recurring=recurring,
             links=links,
+            uid_seed=f"capmod|{slug}",  # slug is stable even if the title edits
         ))
     events.sort(key=lambda e: e.date_start or "")
     return events
@@ -552,6 +566,7 @@ def _merge_cluster(cluster: list[Event]) -> Event:
         links=links,
         fallback_month=next((e.fallback_month for e in cluster
                              if e.fallback_month), primary.fallback_month),
+        uid_seed=primary.uid_seed,
     )
     return merged
 
@@ -681,7 +696,7 @@ def write_ics(all_events: list[Event], generated: str) -> int:
     for ev in all_events:
         if not ev.date_start:
             continue
-        uid = f"{abs(hash((ev.title, ev.date_start)))}@hawaii-arts-calendar"
+        uid = ev.uid()
 
         if ev.dt_start_utc:  # timed event (Capitol Modern) -> local HST + TZID
             su = dt.datetime.fromisoformat(
@@ -716,10 +731,10 @@ def write_ics(all_events: list[Event], generated: str) -> int:
             # instead of a multi-week bar across the whole calendar.
             note = f"Runs {run}. "
             lines += all_day_block(
-                ev, f"{uid}-opens", f"{ev.title} — opens", start,
+                ev, ev.uid("-opens"), f"{ev.title} — opens", start,
                 base_desc(ev, note))
             lines += all_day_block(
-                ev, f"{uid}-closes", f"{ev.title} — closes (last day)", end,
+                ev, ev.uid("-closes"), f"{ev.title} — closes (last day)", end,
                 base_desc(ev, note))
             count += 2
         else:

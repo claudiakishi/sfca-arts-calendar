@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-31 17:04 UTC",
+  "generated": "2026-09-01 14:09 UTC",
   "sources": [
     {
       "name": "SFCA",
       "status": "ok",
-      "detail": "August 2026: 30; September 2026: not published yet (404); October 2026: not published yet (404)"
+      "detail": "August 2026: 30; September 2026: not published yet (404); October 2026: not published yet (404); November 2026: not published yet (404)"
     },
     {
       "name": "Capitol Modern",
@@ -917,6 +917,35 @@
           "uid_seed": "sfca|2026-08|welcome home k lea festival at ala moana beach park"
         },
         {
+          "title": "Look & Listen: Poetry, Storytelling and Book Art",
+          "description": "Free family-friendly celebration of poetry, storytelling, and books. Storytime and book art display, hands-on art activities, and live poetry readings. A partnership with Bess Press publishing.",
+          "category": "Capitol Modern",
+          "provider": "Capitol Modern",
+          "sources": [
+            {
+              "name": "Capitol Modern",
+              "url": "https://www.capitolmodern.org/events/look-and-listen-poetry-storytelling-and-book-art",
+              "label": "capitolmodern.org"
+            }
+          ],
+          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
+          "date_start": "2026-09-19",
+          "date_end": "2026-09-19",
+          "date_display": "September 19, 2026",
+          "time_display": "10:00 AM - 2:00 PM HST",
+          "dt_start_utc": "2026-09-19T20:00:00.000Z",
+          "dt_end_utc": "2026-09-20T00:00:00.000Z",
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (Capitol Modern)",
+              "href": "https://www.capitolmodern.org/events/look-and-listen-poetry-storytelling-and-book-art"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/look-and-listen-poetry-storytelling-and-book-art"
+        },
+        {
           "title": "“Ea Mai ʻEiwa: Patterns of Practice” at the Bernice Pauahi Bishop Museum",
           "description": "through September 20, 2026. Learn more on the museum website: BishopMuseum.org/Eiwa .",
           "category": "Exhibits",
@@ -951,35 +980,6 @@
       "month": "2026-10",
       "label": "October 2026",
       "events": [
-        {
-          "title": "First Friday",
-          "description": "An evening of art and music at Capitol Modern: the Hawai'i State Art Museum! Free admission, all ages welcome.",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/first-fridays-10-02-2026",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-10-02",
-          "date_end": "2026-09-09",
-          "date_display": "October 2, 2026",
-          "time_display": "5:30 PM HST",
-          "dt_start_utc": "2026-10-03T03:30:00.000Z",
-          "dt_end_utc": "2026-09-10T07:30:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/first-fridays-10-02-2026"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/first-fridays-10-02-2026"
-        },
         {
           "title": "University of Hawaiʻi Insect Museum art show",
           "description": "at Honolulu Printmakers, opening reception October 24, 2026. More information to come on the UH Insect Museum website: ctahr.hawaii.edu/insectmuseum .",

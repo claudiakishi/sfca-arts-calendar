@@ -7,9 +7,14 @@ Sources
      https://sfca.hawaii.gov/arts-and-culture-calendar-<month>-<year>/
    No next-month navigation and the WordPress REST API is locked down (Kadence
    Security -> 401), so month discovery guesses the slug for every month from
-   August 2026 through current month + 2 and fetches plain HTML. Missing months
-   404 gracefully. Content is clean Elementor markup: <h2> category headings
-   each followed by a <ul> of <li> events (<strong>Title</strong> + prose).
+   max(August 2026, current month) through current month + 2 and fetches plain
+   HTML. Missing months 404 gracefully -- expected right after a month rolls
+   over, since SFCA usually publishes a few days in. Months before the current
+   one are dropped from the window entirely, so the site never shows a month
+   that's already over (a still-open multi-month exhibit floats forward to the
+   current month instead of disappearing; see Event.month_key). Content is
+   clean Elementor markup: <h2> category headings each followed by a <ul> of
+   <li> events (<strong>Title</strong> + prose).
 
 2. Capitol Modern: the Hawai'i State Art Museum (upcoming events feed)
      https://www.capitolmodern.org/events
@@ -128,7 +133,7 @@ class Event:
         h = hashlib.sha1(seed.encode("utf-8")).hexdigest()[:20]
         return f"{h}{suffix}@hawaii-arts-calendar"
 
-    def month_key(self) -> str | None:
+    def month_key(self, current_month: str | None = None) -> str | None:
         # An event belongs to its source-page month when its date range actually
         # spans that month (e.g. a July-Aug exhibit listed on the August page
         # stays in August). Otherwise it groups under its real start month
@@ -137,8 +142,16 @@ class Event:
             s = self.date_start[:7]
             e = (self.date_end or self.date_start)[:7]
             if self.fallback_month and s <= self.fallback_month <= e:
-                return self.fallback_month
-            return s
+                key = self.fallback_month
+            else:
+                key = s
+            # Old months roll off the site (see sfca_month_window), which would
+            # otherwise make a still-open exhibit vanish the moment its origin
+            # month is dropped. Float it forward to the current month instead,
+            # as long as it's still running.
+            if current_month and key < current_month <= e:
+                return current_month
+            return key
         return self.fallback_month
 
     def sort_key(self) -> tuple:
@@ -167,8 +180,11 @@ def fetch(url: str, session: requests.Session) -> tuple[int, str]:
 # --------------------------------------------------------------------------- #
 
 def sfca_month_window(today: dt.date) -> list[tuple[int, int]]:
-    """Every (year, month) from Aug 2026 through current month + MONTHS_AHEAD."""
-    start = dt.date(START_YEAR, START_MONTH, 1)
+    """Every (year, month) from max(Aug 2026, current month) through current
+    month + MONTHS_AHEAD. Months before the current one roll off so the site
+    (and the daily fetch) never re-shows or re-requests a month that's over."""
+    start = max(dt.date(START_YEAR, START_MONTH, 1),
+                dt.date(today.year, today.month, 1))
     end_m = today.month + MONTHS_AHEAD
     end_y = today.year + (end_m - 1) // 12
     end_m = (end_m - 1) % 12 + 1
@@ -586,13 +602,13 @@ def merge_events(events: list[Event]) -> tuple[list[Event], int]:
     return merged, num_merged
 
 
-def group_by_month(events: list[Event]) -> tuple[list[tuple[str, str, list[Event]]],
-                                                 list[Event]]:
+def group_by_month(events: list[Event], current_month: str | None = None
+                   ) -> tuple[list[tuple[str, str, list[Event]]], list[Event]]:
     """Return ([(month_key, label, sorted_events)...], undated_events)."""
     buckets: dict[str, list[Event]] = {}
     undated: list[Event] = []
     for e in events:
-        key = e.month_key()
+        key = e.month_key(current_month)
         if key:
             buckets.setdefault(key, []).append(e)
         else:
@@ -939,6 +955,13 @@ def render_site(months, undated, sfca_rows, providers, num_merged,
             _page_shell(f"{label} \u2014 Hawai\u02bbi Arts Calendar", mbody,
                         generated), encoding="utf-8")
 
+    # Remove stale per-month pages for months that have rolled off the site
+    # (see sfca_month_window) so an old URL doesn't linger with frozen content.
+    current_keys = {key for key, _, _ in months}
+    for f in SITE_DIR.glob("????-??.html"):
+        if f.stem not in current_keys:
+            f.unlink()
+
     (SITE_DIR / ".nojekyll").write_text("", encoding="utf-8")
 
 
@@ -964,7 +987,8 @@ def main() -> int:
 
     all_events = sfca_events + capmod_events
     merged, num_merged = merge_events(all_events)
-    months, undated = group_by_month(merged)
+    current_month = f"{today.year:04d}-{today.month:02d}"
+    months, undated = group_by_month(merged, current_month)
 
     write_events_json(months, undated, providers, generated)
     n_ics = write_ics(merged, generated)

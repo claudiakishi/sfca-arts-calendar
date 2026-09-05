@@ -15,22 +15,8 @@ TZNAME:HST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:af797037c7467067bc82@hawaii-arts-calendar
-DTSTAMP:20260905T032711Z
-DTSTART;TZID=Pacific/Honolulu:20260904T173000
-DTEND;TZID=Pacific/Honolulu:20260904T213000
-SUMMARY:First Friday
-DESCRIPTION:An evening of art and music at Capitol Modern: the Hawai'i St
- ate Art Museum! Free admission\, all ages welcome.  https://www.capitolm
- odern.org/events/first-fridays-09-04-2026  Sources: Capitol Modern https
- ://www.capitolmodern.org/events/first-fridays-09-04-2026
-LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
-URL:https://www.capitolmodern.org/events/first-fridays-09-04-2026
-CATEGORIES:Capitol Modern
-END:VEVENT
-BEGIN:VEVENT
 UID:0ba1a1749c9dde90e2ff@hawaii-arts-calendar
-DTSTAMP:20260905T032711Z
+DTSTAMP:20260905T124316Z
 DTSTART;TZID=Pacific/Honolulu:20260905T110000
 DTEND;TZID=Pacific/Honolulu:20260905T130000
 SUMMARY:Quick Draw: Portrait Workshop
@@ -49,7 +35,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:95bb202d3da044185be6@hawaii-arts-calendar
-DTSTAMP:20260905T032711Z
+DTSTAMP:20260905T124316Z
 DTSTART;TZID=Pacific/Honolulu:20260905T140000
 DTEND;TZID=Pacific/Honolulu:20260905T150000
 SUMMARY:Resurface: Convergence Dance Theatre performance
@@ -65,7 +51,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:367a68caaadfd1ed6a29@hawaii-arts-calendar
-DTSTAMP:20260905T032711Z
+DTSTAMP:20260905T124316Z
 DTSTART;TZID=Pacific/Honolulu:20260912T180000
 DTEND;TZID=Pacific/Honolulu:20260912T200000
 SUMMARY:Film screening: Remathau\, People of the Ocean
@@ -81,7 +67,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:1dbb6d48cb6601aee17c@hawaii-arts-calendar
-DTSTAMP:20260905T032711Z
+DTSTAMP:20260905T124316Z
 DTSTART;TZID=Pacific/Honolulu:20260918T173000
 DTEND;TZID=Pacific/Honolulu:20260918T213000
 SUMMARY:Island Pulse
@@ -96,7 +82,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:c74e137ed67397264756@hawaii-arts-calendar
-DTSTAMP:20260905T032711Z
+DTSTAMP:20260905T124316Z
 DTSTART;TZID=Pacific/Honolulu:20260919T100000
 DTEND;TZID=Pacific/Honolulu:20260919T140000
 SUMMARY:Look & Listen: Poetry\, Storytelling and Book Art
@@ -109,6 +95,20 @@ DESCRIPTION:Free family-friendly celebration of poetry\, storytelling\, a
 LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
 URL:https://www.capitolmodern.org/events/look-and-listen-poetry-storytell
  ing-and-book-art
+CATEGORIES:Capitol Modern
+END:VEVENT
+BEGIN:VEVENT
+UID:938fc65b2c8d94414ac0@hawaii-arts-calendar
+DTSTAMP:20260905T124316Z
+DTSTART;TZID=Pacific/Honolulu:20261002T173000
+DTEND;TZID=Pacific/Honolulu:20260909T213000
+SUMMARY:First Friday
+DESCRIPTION:An evening of art and music at Capitol Modern: the Hawai'i St
+ ate Art Museum! Free admission\, all ages welcome.  https://www.capitolm
+ odern.org/events/first-fridays-10-02-2026  Sources: Capitol Modern https
+ ://www.capitolmodern.org/events/first-fridays-10-02-2026
+LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
+URL:https://www.capitolmodern.org/events/first-fridays-10-02-2026
 CATEGORIES:Capitol Modern
 END:VEVENT
 END:VCALENDAR

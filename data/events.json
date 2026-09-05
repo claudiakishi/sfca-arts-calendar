@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05 03:27 UTC",
+  "generated": "2026-09-05 12:43 UTC",
   "sources": [
     {
       "name": "SFCA",
@@ -18,35 +18,6 @@
       "month": "2026-09",
       "label": "September 2026",
       "events": [
-        {
-          "title": "First Friday",
-          "description": "An evening of art and music at Capitol Modern: the Hawai'i State Art Museum! Free admission, all ages welcome.",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/first-fridays-09-04-2026",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-09-04",
-          "date_end": "2026-09-04",
-          "date_display": "September 4, 2026",
-          "time_display": "5:30 PM - 9:30 PM HST",
-          "dt_start_utc": "2026-09-05T03:30:00.000Z",
-          "dt_end_utc": "2026-09-05T07:30:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/first-fridays-09-04-2026"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/first-fridays-09-04-2026"
-        },
         {
           "title": "Quick Draw: Portrait Workshop",
           "description": "Join us for a free creative experience in the gallery! Artist and teacher Jodie Chock will give a mini-lesson in drawing portraits. Explore the Schaefer Portrait Challenge and Art in Public Places: Contemporary Portraiture exhibits, then get mini-lessons in how to draw your own portraits. Free workshop, registration required on Eventbrite. Ages 21 and over.",
@@ -203,6 +174,41 @@
           ],
           "fallback_month": null,
           "uid_seed": "capmod|/events/look-and-listen-poetry-storytelling-and-book-art"
+        }
+      ]
+    },
+    {
+      "month": "2026-10",
+      "label": "October 2026",
+      "events": [
+        {
+          "title": "First Friday",
+          "description": "An evening of art and music at Capitol Modern: the Hawai'i State Art Museum! Free admission, all ages welcome.",
+          "category": "Capitol Modern",
+          "provider": "Capitol Modern",
+          "sources": [
+            {
+              "name": "Capitol Modern",
+              "url": "https://www.capitolmodern.org/events/first-fridays-10-02-2026",
+              "label": "capitolmodern.org"
+            }
+          ],
+          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
+          "date_start": "2026-10-02",
+          "date_end": "2026-09-09",
+          "date_display": "October 2, 2026",
+          "time_display": "5:30 PM HST",
+          "dt_start_utc": "2026-10-03T03:30:00.000Z",
+          "dt_end_utc": "2026-09-10T07:30:00.000Z",
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (Capitol Modern)",
+              "href": "https://www.capitolmodern.org/events/first-fridays-10-02-2026"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/first-fridays-10-02-2026"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05 12:43 UTC",
+  "generated": "2026-09-06 12:53 UTC",
   "sources": [
     {
       "name": "SFCA",
@@ -18,72 +18,6 @@
       "month": "2026-09",
       "label": "September 2026",
       "events": [
-        {
-          "title": "Quick Draw: Portrait Workshop",
-          "description": "Join us for a free creative experience in the gallery! Artist and teacher Jodie Chock will give a mini-lesson in drawing portraits. Explore the Schaefer Portrait Challenge and Art in Public Places: Contemporary Portraiture exhibits, then get mini-lessons in how to draw your own portraits. Free workshop, registration required on Eventbrite. Ages 21 and over.",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/quick-draw-portrait-workshop",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-09-05",
-          "date_end": "2026-09-05",
-          "date_display": "September 5, 2026",
-          "time_display": "11:00 AM - 1:00 PM HST",
-          "dt_start_utc": "2026-09-05T21:00:00.000Z",
-          "dt_end_utc": "2026-09-05T23:00:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/quick-draw-portrait-workshop"
-            },
-            {
-              "text": "Tickets / registration",
-              "href": "https://www.eventbrite.com/e/quick-draw-portrait-workshop-tickets-1997506202824?aff=oddtdtcreator"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/quick-draw-portrait-workshop"
-        },
-        {
-          "title": "Resurface: Convergence Dance Theatre performance",
-          "description": "Dance performance in the \\",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/resurface-convergence-dance-theatre-performance",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-09-05",
-          "date_end": "2026-09-05",
-          "date_display": "September 5, 2026",
-          "time_display": "2:00 PM - 3:00 PM HST",
-          "dt_start_utc": "2026-09-06T00:00:00.000Z",
-          "dt_end_utc": "2026-09-06T01:00:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/resurface-convergence-dance-theatre-performance"
-            },
-            {
-              "text": "Tickets / registration",
-              "href": "https://www.eventbrite.com/e/resurface-convergence-dance-theatre-tickets-1997641678034"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/resurface-convergence-dance-theatre-performance"
-        },
         {
           "title": "Film screening: Remathau, People of the Ocean",
           "description": "Film screening of \\",
@@ -209,6 +143,70 @@
           ],
           "fallback_month": null,
           "uid_seed": "capmod|/events/first-fridays-10-02-2026"
+        },
+        {
+          "title": "Island Pulse",
+          "description": "Free, all-ages evening of island roots and reggae music. Museum galleries are open and the Art + Flea urban market will include local artists and food/beverage vendors.",
+          "category": "Capitol Modern",
+          "provider": "Capitol Modern",
+          "sources": [
+            {
+              "name": "Capitol Modern",
+              "url": "https://www.capitolmodern.org/events/island-pulse-10-16-2026",
+              "label": "capitolmodern.org"
+            }
+          ],
+          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
+          "date_start": "2026-10-16",
+          "date_end": "2026-10-16",
+          "date_display": "October 16, 2026",
+          "time_display": "5:30 PM - 9:30 PM HST",
+          "dt_start_utc": "2026-10-17T03:30:00.000Z",
+          "dt_end_utc": "2026-10-17T07:30:00.000Z",
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (Capitol Modern)",
+              "href": "https://www.capitolmodern.org/events/island-pulse-10-16-2026"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/island-pulse-10-16-2026"
+        }
+      ]
+    },
+    {
+      "month": "2026-11",
+      "label": "November 2026",
+      "events": [
+        {
+          "title": "First Friday",
+          "description": "An evening of art and music at Capitol Modern: the Hawai'i State Art Museum! Free admission, all ages welcome.",
+          "category": "Capitol Modern",
+          "provider": "Capitol Modern",
+          "sources": [
+            {
+              "name": "Capitol Modern",
+              "url": "https://www.capitolmodern.org/events/first-fridays-11-06-2026",
+              "label": "capitolmodern.org"
+            }
+          ],
+          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
+          "date_start": "2026-11-06",
+          "date_end": "2026-10-14",
+          "date_display": "November 6, 2026",
+          "time_display": "5:30 PM HST",
+          "dt_start_utc": "2026-11-07T03:30:00.000Z",
+          "dt_end_utc": "2026-10-15T07:30:00.000Z",
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (Capitol Modern)",
+              "href": "https://www.capitolmodern.org/events/first-fridays-11-06-2026"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/first-fridays-11-06-2026"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19 13:10 UTC",
+  "generated": "2026-09-20 13:35 UTC",
   "sources": [
     {
       "name": "SFCA",
@@ -14,41 +14,6 @@
   ],
   "attribution": "Event information aggregated from the Hawaiʻi State Foundation on Culture and the Arts (SFCA) and Capitol Modern: the Hawaiʻi State Art Museum. Unofficial mirror; confirm details at the source.",
   "months": [
-    {
-      "month": "2026-09",
-      "label": "September 2026",
-      "events": [
-        {
-          "title": "Look & Listen: Poetry, Storytelling and Book Art",
-          "description": "Free family-friendly celebration of poetry, storytelling, and books. Storytime and book art display, hands-on art activities, and live poetry readings. A partnership with Bess Press publishing.",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/look-and-listen-poetry-storytelling-and-book-art",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-09-19",
-          "date_end": "2026-09-19",
-          "date_display": "September 19, 2026",
-          "time_display": "10:00 AM - 2:00 PM HST",
-          "dt_start_utc": "2026-09-19T20:00:00.000Z",
-          "dt_end_utc": "2026-09-20T00:00:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/look-and-listen-poetry-storytelling-and-book-art"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/look-and-listen-poetry-storytelling-and-book-art"
-        }
-      ]
-    },
     {
       "month": "2026-10",
       "label": "October 2026",
@@ -209,6 +174,35 @@
           ],
           "fallback_month": null,
           "uid_seed": "capmod|/events/first-fridays-12-04-2026"
+        },
+        {
+          "title": "Island Pulse",
+          "description": "Free, all-ages evening of island roots and reggae music. Museum galleries are open and the Art + Flea urban market will include local artists and food/beverage vendors.",
+          "category": "Capitol Modern",
+          "provider": "Capitol Modern",
+          "sources": [
+            {
+              "name": "Capitol Modern",
+              "url": "https://www.capitolmodern.org/events/island-pulse-12-18-2026",
+              "label": "capitolmodern.org"
+            }
+          ],
+          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
+          "date_start": "2026-12-18",
+          "date_end": "2026-12-18",
+          "date_display": "December 18, 2026",
+          "time_display": "5:30 PM - 9:30 PM HST",
+          "dt_start_utc": "2026-12-19T03:30:00.000Z",
+          "dt_end_utc": "2026-12-19T07:30:00.000Z",
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (Capitol Modern)",
+              "href": "https://www.capitolmodern.org/events/island-pulse-12-18-2026"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/island-pulse-12-18-2026"
         }
       ]
     }

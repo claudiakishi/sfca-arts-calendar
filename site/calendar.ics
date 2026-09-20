@@ -15,25 +15,8 @@ TZNAME:HST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:c74e137ed67397264756@hawaii-arts-calendar
-DTSTAMP:20260919T131018Z
-DTSTART;TZID=Pacific/Honolulu:20260919T100000
-DTEND;TZID=Pacific/Honolulu:20260919T140000
-SUMMARY:Look & Listen: Poetry\, Storytelling and Book Art
-DESCRIPTION:Free family-friendly celebration of poetry\, storytelling\, a
- nd books. Storytime and book art display\, hands-on art activities\, and
-  live poetry readings. A partnership with Bess Press publishing.  https:
- //www.capitolmodern.org/events/look-and-listen-poetry-storytelling-and-b
- ook-art  Sources: Capitol Modern https://www.capitolmodern.org/events/lo
- ok-and-listen-poetry-storytelling-and-book-art
-LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
-URL:https://www.capitolmodern.org/events/look-and-listen-poetry-storytell
- ing-and-book-art
-CATEGORIES:Capitol Modern
-END:VEVENT
-BEGIN:VEVENT
 UID:938fc65b2c8d94414ac0@hawaii-arts-calendar
-DTSTAMP:20260919T131018Z
+DTSTAMP:20260920T133510Z
 DTSTART;TZID=Pacific/Honolulu:20261002T173000
 DTEND;TZID=Pacific/Honolulu:20260909T213000
 SUMMARY:First Friday: 2026 Pride
@@ -48,7 +31,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:faee3fe47bd576f4403d@hawaii-arts-calendar
-DTSTAMP:20260919T131018Z
+DTSTAMP:20260920T133510Z
 DTSTART;TZID=Pacific/Honolulu:20261016T173000
 DTEND;TZID=Pacific/Honolulu:20261016T213000
 SUMMARY:Island Pulse
@@ -63,7 +46,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:b220df59a34b1795ebd0@hawaii-arts-calendar
-DTSTAMP:20260919T131018Z
+DTSTAMP:20260920T133510Z
 DTSTART;TZID=Pacific/Honolulu:20261106T173000
 DTEND;TZID=Pacific/Honolulu:20261014T213000
 SUMMARY:First Friday
@@ -77,7 +60,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:d7f325f7fd55d4027d46@hawaii-arts-calendar
-DTSTAMP:20260919T131018Z
+DTSTAMP:20260920T133510Z
 DTSTART;TZID=Pacific/Honolulu:20261120T173000
 DTEND;TZID=Pacific/Honolulu:20261120T213000
 SUMMARY:Island Pulse
@@ -92,7 +75,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:36bd1848b197ae91a93e@hawaii-arts-calendar
-DTSTAMP:20260919T131018Z
+DTSTAMP:20260920T133510Z
 DTSTART;TZID=Pacific/Honolulu:20261204T173000
 DTEND;TZID=Pacific/Honolulu:20261111T213000
 SUMMARY:First Friday
@@ -102,6 +85,21 @@ DESCRIPTION:An evening of art and music at Capitol Modern: the Hawai'i St
  ://www.capitolmodern.org/events/first-fridays-12-04-2026
 LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
 URL:https://www.capitolmodern.org/events/first-fridays-12-04-2026
+CATEGORIES:Capitol Modern
+END:VEVENT
+BEGIN:VEVENT
+UID:2b3d9f0a05ca4ba17511@hawaii-arts-calendar
+DTSTAMP:20260920T133510Z
+DTSTART;TZID=Pacific/Honolulu:20261218T173000
+DTEND;TZID=Pacific/Honolulu:20261218T213000
+SUMMARY:Island Pulse
+DESCRIPTION:Free\, all-ages evening of island roots and reggae music. Mus
+ eum galleries are open and the Art + Flea urban market will include loca
+ l artists and food/beverage vendors.  https://www.capitolmodern.org/even
+ ts/island-pulse-12-18-2026  Sources: Capitol Modern https://www.capitolm
+ odern.org/events/island-pulse-12-18-2026
+LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
+URL:https://www.capitolmodern.org/events/island-pulse-12-18-2026
 CATEGORIES:Capitol Modern
 END:VEVENT
 END:VCALENDAR

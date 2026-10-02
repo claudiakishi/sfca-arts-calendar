@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01 16:27 UTC",
+  "generated": "2026-10-02 15:49 UTC",
   "sources": [
     {
       "name": "SFCA",
@@ -32,11 +32,11 @@
           ],
           "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
           "date_start": "2026-10-02",
-          "date_end": "2026-09-09",
+          "date_end": "2026-10-02",
           "date_display": "October 2, 2026",
-          "time_display": "5:30 PM HST",
+          "time_display": "5:30 PM - 9:30 PM HST",
           "dt_start_utc": "2026-10-03T03:30:00.000Z",
-          "dt_end_utc": "2026-09-10T07:30:00.000Z",
+          "dt_end_utc": "2026-10-03T07:30:00.000Z",
           "recurring": true,
           "links": [
             {

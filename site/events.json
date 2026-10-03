@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02 15:49 UTC",
+  "generated": "2026-10-03 14:18 UTC",
   "sources": [
     {
       "name": "SFCA",
@@ -18,35 +18,6 @@
       "month": "2026-10",
       "label": "October 2026",
       "events": [
-        {
-          "title": "First Friday: 2026 Pride",
-          "description": "2026 Pride Queer Arts Festival. An evening of art and music at Capitol Modern: the Hawai'i State Art Museum! Free admission, all ages welcome.",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/first-fridays-10-02-2026",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-10-02",
-          "date_end": "2026-10-02",
-          "date_display": "October 2, 2026",
-          "time_display": "5:30 PM - 9:30 PM HST",
-          "dt_start_utc": "2026-10-03T03:30:00.000Z",
-          "dt_end_utc": "2026-10-03T07:30:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/first-fridays-10-02-2026"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/first-fridays-10-02-2026"
-        },
         {
           "title": "Resonance: from Tradition to Tomorrow",
           "description": "Experience an afternoon of sound, tradition, and experimentation featuring Filipino American electronic artist Luzi Kidlat and award-winning composer and instrumentalist Paul Cosme, culminating in a special closing performance by Hawaiʻi Rondalla. Free with registration on Eventbrite.",
@@ -205,6 +176,35 @@
           ],
           "fallback_month": null,
           "uid_seed": "capmod|/events/first-fridays-11-06-2026"
+        },
+        {
+          "title": "Island Pulse",
+          "description": "Free, all-ages evening of island roots and reggae music. Museum galleries are open and the Art + Flea urban market will include local artists and food/beverage vendors.",
+          "category": "Capitol Modern",
+          "provider": "Capitol Modern",
+          "sources": [
+            {
+              "name": "Capitol Modern",
+              "url": "https://www.capitolmodern.org/events/island-pulse-11-20-2026",
+              "label": "capitolmodern.org"
+            }
+          ],
+          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
+          "date_start": "2026-11-20",
+          "date_end": "2026-11-20",
+          "date_display": "November 20, 2026",
+          "time_display": "5:30 PM - 9:30 PM HST",
+          "dt_start_utc": "2026-11-21T03:30:00.000Z",
+          "dt_end_utc": "2026-11-21T07:30:00.000Z",
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (Capitol Modern)",
+              "href": "https://www.capitolmodern.org/events/island-pulse-11-20-2026"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/island-pulse-11-20-2026"
         }
       ]
     }

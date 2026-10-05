@@ -1,6 +1,6 @@
 # Hawaiʻi Arts & Culture Calendar → GitHub Pages
 
-An always-current static aggregator of Hawaiʻi arts events from **two sources**,
+An always-current static aggregator of Hawaiʻi arts events from **three sources**,
 merged and de-duplicated, plus an iCal feed and a machine-readable
 `events.json`. It updates itself in GitHub Actions.
 
@@ -33,6 +33,24 @@ merged and de-duplicated, plus an iCal feed and a machine-readable
    correct local date — otherwise e.g. First Friday's `2026-09-05T03:30Z` would
    wrongly land on Sept 5 instead of Sept 4.
 
+3. **Hawaiʻi State Public Libraries** — The Events Calendar plugin's open REST
+   API at `https://www.librarieshawaii.org/wp-json/tribe/events/v1/events`.
+   It carries every branch program statewide, so the builder queries only
+   arts-leaning TEC categories (`culture`, `music`, `author-reading`,
+   `poetry`, `photography`, `history`) for today through the end of the SFCA
+   window, then drops kids' storytime, games, and similar programs by
+   category and title keyword (see `LIB_*` constants and `is_arts_event`).
+   Results are archived, slimmed, to `data/raw/librarieshawaii-events.json`
+   for `--offline` builds. Library records are never merged with each other
+   (two sessions of a class are distinct events).
+
+## Tests
+
+```sh
+python -m unittest discover -s tests -v   # uses tests/fixtures/, no network
+python scripts/fetch_and_build.py --offline
+```
+
 ## Candidate additional sources
 
 Researched by fetching each venue's public site and fingerprinting the
@@ -43,14 +61,7 @@ promising each looked:
 
 **Strong — structured feed confirmed working:**
 
-- **Hawaiʻi State Public Libraries** (`librarieshawaii.org`) — runs The Events
-  Calendar plugin with an **open REST API**:
-  `https://www.librarieshawaii.org/wp-json/tribe/events/v1/events` returns
-  clean JSON (confirmed: 1,659 total events statewide). The catch: it's every
-  branch program (keiki storytime, puzzle time, etc.), not curated arts
-  content, so it would need filtering — TEC supports a `categories=` query
-  param, worth checking whether they tag anything "Arts" or "Culture" before
-  pulling the whole feed in.
+- *(Hawaiʻi State Public Libraries — now implemented as source 3 above.)*
 
 **Worth a closer look — same WordPress stack, not yet API-verified:**
 

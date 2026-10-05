@@ -23,6 +23,13 @@ Sources
    titles, slugs, venue, description, and ticket URLs. Times are UTC and are
    converted to HST (UTC-10, no DST) to get the correct local date.
 
+3. Hawai'i State Public Libraries (The Events Calendar REST API)
+     https://www.librarieshawaii.org/wp-json/tribe/events/v1/events
+   Open JSON API covering every branch program statewide. The query asks for
+   arts-leaning TEC categories (culture, music, poetry, ...) and the parser
+   then drops kids' storytime, games, and similar non-arts programs. Results
+   are archived slimmed to data/raw/librarieshawaii-events.json for --offline.
+
 Pipeline
 --------
     fetch each source -> parse to a common Event model -> merge + dedupe across
@@ -52,6 +59,7 @@ import sys
 from dataclasses import dataclass, field, asdict
 from difflib import SequenceMatcher
 from pathlib import Path
+from urllib.parse import urlencode
 
 import requests
 from bs4 import BeautifulSoup
@@ -68,6 +76,26 @@ MONTHS_AHEAD = 2  # SFCA discovery reaches current month + this many.
 CAPMOD_BASE = "https://www.capitolmodern.org"
 CAPMOD_EVENTS_URL = f"{CAPMOD_BASE}/events"
 CAPMOD_SLUG = "capitolmodern-events"
+
+LIB_BASE = "https://www.librarieshawaii.org"
+LIB_API_URL = f"{LIB_BASE}/wp-json/tribe/events/v1/events"
+LIB_SLUG = "librarieshawaii-events"
+LIB_PROVIDER = "Libraries"
+LIB_PROVIDER_FULL = "Hawaiʻi State Public Libraries"
+LIB_PER_PAGE = 50
+LIB_MAX_PAGES = 20
+LIB_DESC_MAX = 400
+# TEC category slugs that signal arts/culture programming (queried server-side).
+LIB_ARTS_CATEGORIES = ("culture", "music", "author-reading", "poetry",
+                       "photography", "history")
+# Any of these disqualifies an event: kids' programs, games, tech help, etc.
+LIB_EXCLUDE_CATEGORIES = {"storytime-for-kids", "games", "computer-classes",
+                          "health-and-wellness"}
+LIB_EXCLUDE_TITLE_WORDS = ("keiki", "storytime", "story time", "mahjong",
+                           "chess", "puzzle", "lego", "karaoke", "preschool",
+                           "toddler", "baby", "babies", "tiny tunes")
+# Accessibility notice appended to every event description.
+LIB_BOILERPLATE = "auxiliary aid"
 
 HST = dt.timezone(dt.timedelta(hours=-10))  # Hawai'i has no daylight saving.
 
@@ -502,6 +530,177 @@ def collect_capitol_modern(offline: bool
 
 
 # --------------------------------------------------------------------------- #
+# Source 3: Hawai'i State Public Libraries (The Events Calendar REST API)
+# --------------------------------------------------------------------------- #
+
+def librarieshawaii_window(today: dt.date) -> tuple[dt.date, dt.date]:
+    """Today through the last day of the SFCA horizon (current month + N)."""
+    y, m = today.year, today.month + MONTHS_AHEAD + 1
+    y, m = y + (m - 1) // 12, (m - 1) % 12 + 1
+    return today, dt.date(y, m, 1) - dt.timedelta(days=1)
+
+
+def tec_events_url(start: dt.date, end: dt.date, page: int = 1) -> str:
+    query = urlencode({
+        "start_date": start.isoformat(),
+        "end_date": end.isoformat(),
+        "categories": ",".join(LIB_ARTS_CATEGORIES),
+        "per_page": LIB_PER_PAGE,
+        "page": page,
+    })
+    return f"{LIB_API_URL}?{query}"
+
+
+def is_arts_event(ev: dict) -> bool:
+    """True for arts/culture programs; drops storytime, games, keiki, etc."""
+    cats = {c.get("slug") for c in ev.get("categories") or []}
+    if not cats & set(LIB_ARTS_CATEGORIES) or cats & LIB_EXCLUDE_CATEGORIES:
+        return False
+    title = html.unescape(ev.get("title") or "").lower()
+    return not any(word in title for word in LIB_EXCLUDE_TITLE_WORDS)
+
+
+def _lib_description(raw_html: str) -> str:
+    soup = BeautifulSoup(raw_html or "", "html.parser")
+    paras = [p.get_text(" ", strip=True) for p in soup.find_all("p")]
+    if not paras:
+        paras = [soup.get_text(" ", strip=True)]
+    keep = [p for p in paras if p and LIB_BOILERPLATE not in p.lower()]
+    text = re.sub(r"\s+", " ", " ".join(keep)).strip()
+    if len(text) > LIB_DESC_MAX:
+        text = text[:LIB_DESC_MAX].rsplit(" ", 1)[0] + "…"
+    return text
+
+
+def _lib_venue(venue: dict | list | None) -> str:
+    # TEC venue names look like "Hawai'i &#8211; Mountain View" (island - branch).
+    name = html.unescape(venue.get("venue") or "") if isinstance(venue, dict) else ""
+    if " – " in name:
+        island, branch = name.split(" – ", 1)
+        return f"{branch.strip()} Public Library ({island.strip()})"
+    return name or LIB_PROVIDER_FULL
+
+
+def _tec_utc(value: str | None) -> str | None:
+    # "2026-10-06 02:00:00" (UTC) -> "2026-10-06T02:00:00Z"
+    return value.replace(" ", "T") + "Z" if value else None
+
+
+def _lib_date_display(start: dt.date, end: dt.date) -> str:
+    if start == end:
+        return f"{start.strftime('%B')} {start.day}, {start.year}"
+    if (start.year, start.month) == (end.year, end.month):
+        return f"{start.strftime('%B')} {start.day} – {end.day}, {end.year}"
+    return (f"{start.strftime('%B')} {start.day} – "
+            f"{end.strftime('%B')} {end.day}, {end.year}")
+
+
+def parse_librarieshawaii(raw_events: list[dict]) -> list[Event]:
+    events: list[Event] = []
+    for ev in raw_events:
+        if not is_arts_event(ev):
+            continue
+        start = dt.date.fromisoformat(ev["start_date"][:10])
+        end = dt.date.fromisoformat((ev.get("end_date") or ev["start_date"])[:10])
+        if ev.get("all_day"):
+            time_display = start_utc = end_utc = None
+        else:
+            start_utc = _tec_utc(ev.get("utc_start_date"))
+            end_utc = _tec_utc(ev.get("utc_end_date"))
+            _, time_display, _ = _fmt_time_range(start_utc, end_utc)
+        url = ev.get("url") or LIB_BASE
+        links = [{"text": "Event details (Hawaiʻi State Public Libraries)",
+                  "href": url}]
+        events.append(Event(
+            title=html.unescape(ev.get("title") or "").strip(),
+            description=_lib_description(ev.get("description") or ""),
+            category="Library programs",
+            provider=LIB_PROVIDER,
+            sources=[Source(LIB_PROVIDER, url, "librarieshawaii.org")],
+            venue=_lib_venue(ev.get("venue")),
+            date_start=start.isoformat(),
+            date_end=end.isoformat(),
+            date_display=_lib_date_display(start, end),
+            time_display=time_display,
+            dt_start_utc=start_utc,
+            dt_end_utc=end_utc,
+            recurring=bool(re.search(r"/\d{4}-\d{2}-\d{2}/?$", url)),
+            links=links,
+            uid_seed=f"hspl|{ev['id']}|{start.isoformat()}",
+        ))
+    events.sort(key=lambda e: (e.date_start or "", e.dt_start_utc or "", e.title))
+    return events
+
+
+def slim_tec_event(ev: dict) -> dict:
+    """Keep only the TEC fields the parser reads, so the archive stays small."""
+    out = {k: ev.get(k) for k in (
+        "id", "url", "title", "description", "excerpt", "all_day", "start_date",
+        "end_date", "utc_start_date", "utc_end_date", "timezone", "cost",
+        "website")}
+    out["categories"] = [{"slug": c.get("slug"), "name": c.get("name")}
+                         for c in ev.get("categories") or []]
+    out["tags"] = [{"slug": t.get("slug"), "name": t.get("name")}
+                   for t in ev.get("tags") or []]
+    venue = ev.get("venue")
+    out["venue"] = ({k: venue.get(k) for k in ("venue", "city", "url")}
+                    if isinstance(venue, dict) else {})
+    return out
+
+
+def _fetch_tec_pages(start: dt.date, end: dt.date) -> list[dict]:
+    session = requests.Session()
+    raw: list[dict] = []
+    for page in range(1, LIB_MAX_PAGES + 1):
+        code, text = fetch(tec_events_url(start, end, page), session)
+        if code != 200:
+            # TEC answers 400 for a page past the end; treat that as done.
+            if page > 1 and code == 400:
+                break
+            raise requests.RequestException(f"HTTP {code} on page {page}")
+        data = json.loads(text)
+        raw.extend(slim_tec_event(e) for e in data.get("events") or [])
+        if page >= int(data.get("total_pages") or 1):
+            break
+    return raw
+
+
+def collect_librarieshawaii(today: dt.date, offline: bool
+                            ) -> tuple[list[Event], ProviderStatus]:
+    raw_path = RAW_DIR / f"{LIB_SLUG}.json"
+    start, end = librarieshawaii_window(today)
+    status, note = "ok", ""
+    raw: list[dict] | None = None
+    if not offline:
+        try:
+            raw = _fetch_tec_pages(start, end)
+            RAW_DIR.mkdir(parents=True, exist_ok=True)
+            raw_path.write_text(json.dumps({"events": raw}, ensure_ascii=False,
+                                           indent=1), encoding="utf-8")
+        except (requests.RequestException, ValueError) as exc:
+            status, note = "partial", f"fetch failed ({exc}); used archived copy"
+    if raw is None:
+        if not raw_path.exists():
+            detail = "offline: no archived JSON" if offline else note
+            return [], ProviderStatus(LIB_PROVIDER, "error", detail)
+        try:
+            raw = json.loads(raw_path.read_text(encoding="utf-8"))["events"]
+        except (ValueError, KeyError) as exc:
+            return [], ProviderStatus(LIB_PROVIDER, "error",
+                                      f"bad archive: {exc}")
+    try:
+        events = parse_librarieshawaii(raw)
+    except Exception as exc:
+        return [], ProviderStatus(LIB_PROVIDER, "error", f"parse failed: {exc}")
+    today_iso = today.isoformat()
+    events = [e for e in events if (e.date_end or e.date_start) >= today_iso]
+    print(f"  Libraries        {status:<8} events={len(events)} "
+          f"(of {len(raw)} raw)", file=sys.stderr)
+    detail = note or f"{len(events)} arts/culture programs"
+    return events, ProviderStatus(LIB_PROVIDER, status, detail)
+
+
+# --------------------------------------------------------------------------- #
 # Merge + dedupe
 # --------------------------------------------------------------------------- #
 
@@ -524,6 +723,10 @@ def _same_event(a: Event, b: Event) -> bool:
     # dated instance (e.g. Capitol Modern's Sept 4 First Friday) -- that would
     # lose the recurrence and misplace the event.
     if bool(a.date_start) != bool(b.date_start):
+        return False
+    # Library records are distinct TEC event instances (another session, or
+    # another branch), never duplicates of each other.
+    if a.provider == b.provider == LIB_PROVIDER:
         return False
     # Two concrete instances: same day required.
     if a.date_start and b.date_start:
@@ -782,7 +985,7 @@ def _e(text: str) -> str:
     return html.escape(text or "", quote=True)
 
 
-_SRC_CLASS = {"SFCA": "sfca", "Capitol Modern": "capmod"}
+_SRC_CLASS = {"SFCA": "sfca", "Capitol Modern": "capmod", LIB_PROVIDER: "lib"}
 
 
 def _fmt_when(ev: Event) -> str:
@@ -830,9 +1033,9 @@ def _page_shell(title: str, body: str, generated: str) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{_e(title)}</title>
 <style>
-:root {{ --bg:#fbfaf7; --fg:#1c1a17; --muted:#6b6560; --card:#fff; --accent:#0b6b5f; --line:#e7e2d9; --sfca:#0b6b5f; --capmod:#8a4b96; --both:#b4641c; }}
+:root {{ --bg:#fbfaf7; --fg:#1c1a17; --muted:#6b6560; --card:#fff; --accent:#0b6b5f; --line:#e7e2d9; --sfca:#0b6b5f; --capmod:#8a4b96; --lib:#2f5d9e; --both:#b4641c; }}
 @media (prefers-color-scheme: dark) {{
-  :root {{ --bg:#161513; --fg:#ece8e1; --muted:#a49e94; --card:#201e1b; --accent:#5fd3c0; --line:#33302b; --sfca:#5fd3c0; --capmod:#d6a3e0; --both:#e3a869; }}
+  :root {{ --bg:#161513; --fg:#ece8e1; --muted:#a49e94; --card:#201e1b; --accent:#5fd3c0; --line:#33302b; --sfca:#5fd3c0; --capmod:#d6a3e0; --lib:#8fb4ee; --both:#e3a869; }}
 }}
 * {{ box-sizing:border-box; }}
 body {{ margin:0; background:var(--bg); color:var(--fg);
@@ -860,6 +1063,7 @@ h2.month {{ margin:30px 0 4px; padding-bottom:6px; border-bottom:2px solid var(-
   border-radius:6px; padding:1px 6px; vertical-align:middle; white-space:nowrap; border:1px solid currentColor; }}
 .badge.sfca {{ color:var(--sfca); }}
 .badge.capmod {{ color:var(--capmod); }}
+.badge.lib {{ color:var(--lib); }}
 .badge.both {{ color:var(--both); }}
 .links {{ font-size:.9rem; margin-top:.35rem; }}
 .src {{ font-size:.78rem; margin-top:.4rem; color:var(--muted); }}
@@ -912,7 +1116,8 @@ def render_site(months, undated, sfca_rows, providers, num_merged,
     legend = ('<div class="legend">'
               '<span><span class="badge sfca">SFCA</span> state calendar</span>'
               '<span><span class="badge capmod">Capitol Modern</span> museum feed</span>'
-              '<span><span class="badge both">merged</span> same event, both sources</span>'
+              '<span><span class="badge lib">Libraries</span> public library arts programs</span>'
+              '<span><span class="badge both">merged</span> same event, multiple sources</span>'
               '</div>')
     actions = ('<div class="actions">'
                '<a href="calendar.ics">\U0001f4c5 Subscribe (iCal)</a>'
@@ -983,9 +1188,10 @@ def main() -> int:
     print(f"Collecting (today={today}, offline={args.offline})", file=sys.stderr)
     sfca_events, sfca_rows, sfca_ps = collect_sfca(today, args.offline)
     capmod_events, capmod_ps = collect_capitol_modern(args.offline)
-    providers = [sfca_ps, capmod_ps]
+    lib_events, lib_ps = collect_librarieshawaii(today, args.offline)
+    providers = [sfca_ps, capmod_ps, lib_ps]
 
-    all_events = sfca_events + capmod_events
+    all_events = sfca_events + capmod_events + lib_events
     merged, num_merged = merge_events(all_events)
     current_month = f"{today.year:04d}-{today.month:02d}"
     months, undated = group_by_month(merged, current_month)
@@ -998,7 +1204,7 @@ def main() -> int:
     print(f"Done: {len(all_events)} raw -> {total} merged events "
           f"({num_merged} overlaps combined), {len(months)} month(s), "
           f"{n_ics} ICS entries -> {SITE_DIR}", file=sys.stderr)
-    if sfca_ps.status == "error" and capmod_ps.status == "error":
+    if all(p.status == "error" for p in providers):
         print("WARNING: all sources failed", file=sys.stderr)
         return 1
     return 0

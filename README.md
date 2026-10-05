@@ -33,6 +33,13 @@ merged and de-duplicated, plus an iCal feed and a machine-readable
    correct local date — otherwise e.g. First Friday's `2026-09-05T03:30Z` would
    wrongly land on Sept 5 instead of Sept 4.
 
+3. **SFCA Events** (supplementary) — SFCA's own `/events/` page runs The Events
+   Calendar, whose REST API at
+   `https://sfca.hawaii.gov/wp-json/tribe/events/v1/events` is open. It carries
+   SFCA's internal events (mostly public meetings such as board meetings) with
+   exact UTC instants. Hidden/unpublished entries are skipped; pagination
+   follows `next_rest_url`. Archived to `data/raw/sfca-tec-events.json`.
+
 ## Candidate additional sources
 
 Researched by fetching each venue's public site and fingerprinting the
@@ -60,13 +67,13 @@ promising each looked:
   endpoint the way the library site and SFCA's own `/events/` page have. If
   either runs The Events Calendar too, it's the same easy integration as
   above.
-- **SFCA's own `/events/` page** (as opposed to the monthly calendar post)
-  also runs The Events Calendar and its REST API responded once with valid
-  JSON — but it only carries SFCA's internal meetings (e.g. board meetings),
-  not the community calendar, so it's a small supplementary feed at best, not
-  a replacement for the current scrape. Its native `?ical=1` export is behind
-  a Cloudflare challenge (`429`, "Just a moment…") and returned HTML instead
-  of an .ics on every attempt here — unreliable for CI without a bypass.
+- **SFCA's own `/events/` page** — now implemented as a supplementary source
+  (`SFCA Events`) via its open TEC REST API,
+  `https://sfca.hawaii.gov/wp-json/tribe/events/v1/events`. It only carries
+  SFCA's internal events (e.g. board meetings), not the community calendar.
+  The response is archived to `data/raw/sfca-tec-events.json` for `--offline`
+  builds. Its native `?ical=1` export sits behind a Cloudflare challenge, so
+  the JSON API is used instead.
 
 **Needs a browser-render probe, not just curl:** Honolulu Museum of Art
 (`honolulumuseum.org/events`), Maui Arts & Cultural Center
@@ -119,8 +126,9 @@ timed Capitol Modern events become UTC-instant VEVENTs.
 
 ```bash
 pip install -r requirements.txt
-python scripts/fetch_and_build.py            # fetch both sources + build
-python scripts/fetch_and_build.py --offline  # rebuild from archived data/raw/*.html
+python scripts/fetch_and_build.py            # fetch all sources + build
+python scripts/fetch_and_build.py --offline  # rebuild from archived data/raw/*
+python -m unittest discover -s tests -v       # unit tests (offline fixtures)
 python scripts/fetch_and_build.py --today 2026-10-01   # test the discovery window
 ```
 

@@ -23,6 +23,13 @@ Sources
    titles, slugs, venue, description, and ticket URLs. Times are UTC and are
    converted to HST (UTC-10, no DST) to get the correct local date.
 
+3. SFCA /events/ (The Events Calendar REST API) -- supplementary
+     https://sfca.hawaii.gov/wp-json/tribe/events/v1/events
+   SFCA's own events page runs The Events Calendar, whose REST API is open even
+   though the core WP API is locked down. It carries SFCA's internal events
+   (mostly public meetings), not the community calendar. JSON with exact UTC
+   instants; archived to data/raw/sfca-tec-events.json for --offline.
+
 Pipeline
 --------
     fetch each source -> parse to a common Event model -> merge + dedupe across
@@ -68,6 +75,13 @@ MONTHS_AHEAD = 2  # SFCA discovery reaches current month + this many.
 CAPMOD_BASE = "https://www.capitolmodern.org"
 CAPMOD_EVENTS_URL = f"{CAPMOD_BASE}/events"
 CAPMOD_SLUG = "capitolmodern-events"
+
+# SFCA's own /events/ page runs The Events Calendar; its REST API is open
+# (unlike the core WP API). Mostly internal public meetings -> supplementary.
+SFCA_TEC_API = f"{SFCA_BASE}/wp-json/tribe/events/v1/events"
+SFCA_TEC_SLUG = "sfca-tec-events"
+SFCA_TEC_NAME = "SFCA Events"
+SFCA_TEC_MAX_PAGES = 10
 
 HST = dt.timezone(dt.timedelta(hours=-10))  # Hawai'i has no daylight saving.
 
@@ -502,6 +516,164 @@ def collect_capitol_modern(offline: bool
 
 
 # --------------------------------------------------------------------------- #
+# Source 3: SFCA /events/ (The Events Calendar REST API)
+# --------------------------------------------------------------------------- #
+
+def _tec_utc_iso(value: str | None) -> str | None:
+    """'2026-10-16 21:00:00' (TEC utc_*_date) -> '2026-10-16T21:00:00Z'."""
+    if not value or len(value) < 19:
+        return None
+    try:
+        dt.datetime.strptime(value[:19], "%Y-%m-%d %H:%M:%S")
+    except ValueError:
+        return None
+    return value[:10] + "T" + value[11:19] + "Z"
+
+
+def _fmt_date_span(start: dt.date, end: dt.date) -> str:
+    if end <= start:
+        return start.strftime("%B %-d, %Y")
+    if start.year != end.year:
+        return f"{start.strftime('%B %-d, %Y')} – {end.strftime('%B %-d, %Y')}"
+    if start.month != end.month:
+        return (f"{start.strftime('%B %-d')} – "
+                f"{end.strftime('%B %-d')}, {start.year}")
+    return f"{start.strftime('%B %-d')} – {end.day}, {start.year}"
+
+
+def _tec_text(value) -> str:
+    if not isinstance(value, str) or not value:
+        return ""
+    text = BeautifulSoup(value, "html.parser").get_text(" ")
+    return re.sub(r"\s+", " ", html.unescape(text).replace("\xa0", " ")).strip()
+
+
+def _parse_tec_event(raw: dict) -> Event | None:
+    if raw.get("hide_from_listings") or raw.get("status", "publish") != "publish":
+        return None
+    title = _tec_text(raw.get("title"))
+    url = raw.get("url")
+    start_local = raw.get("start_date") or ""
+    if not (title and url and len(start_local) >= 10):
+        return None
+    try:
+        d_start = dt.date.fromisoformat(start_local[:10])
+        d_end = dt.date.fromisoformat((raw.get("end_date") or start_local)[:10])
+    except ValueError:
+        return None
+    d_end = max(d_end, d_start)
+
+    start_utc = end_utc = time_display = None
+    if not raw.get("all_day"):
+        start_utc = _tec_utc_iso(raw.get("utc_start_date"))
+        end_utc = _tec_utc_iso(raw.get("utc_end_date"))
+    if start_utc:
+        _, time_display, _ = _fmt_time_range(start_utc, end_utc)
+
+    venue = raw.get("venue")
+    venue_name = (_tec_text(venue.get("venue")) or None
+                  if isinstance(venue, dict) else None)
+    cats = [c.get("name") for c in raw.get("categories") or []
+            if isinstance(c, dict) and c.get("name")]
+
+    links = [{"text": "Event details (SFCA)", "href": url}]
+    website = raw.get("website")
+    if isinstance(website, str) and website.startswith("http") and website != url:
+        links.append({"text": "Event website", "href": website})
+
+    return Event(
+        title=title,
+        description=_tec_text(raw.get("description")),
+        category=html.unescape(cats[0]) if cats else SFCA_TEC_NAME,
+        provider=SFCA_TEC_NAME,
+        sources=[Source(SFCA_TEC_NAME, url, "sfca.hawaii.gov/events")],
+        venue=venue_name,
+        date_start=d_start.isoformat(),
+        date_end=d_end.isoformat(),
+        date_display=_fmt_date_span(d_start, d_end),
+        time_display=time_display,
+        dt_start_utc=start_utc,
+        dt_end_utc=end_utc if start_utc else None,
+        links=links,
+        uid_seed=f"sfca-tec|{raw.get('id') or url}",
+    )
+
+
+def parse_sfca_tec(payload: dict) -> list[Event]:
+    """Parse a TEC /wp-json/tribe/events/v1/events response into Events."""
+    events = []
+    for raw in (payload or {}).get("events") or []:
+        if isinstance(raw, dict):
+            ev = _parse_tec_event(raw)
+            if ev:
+                events.append(ev)
+    events.sort(key=lambda e: e.date_start or "")
+    return events
+
+
+def _fetch_json(url: str) -> tuple[int, dict | None]:
+    resp = requests.get(url, timeout=30, headers={
+        "User-Agent": USER_AGENT, "Accept": "application/json"})
+    try:
+        return resp.status_code, resp.json()
+    except ValueError:  # e.g. a Cloudflare HTML challenge page
+        return resp.status_code, None
+
+
+def collect_sfca_tec(offline: bool, fetch_json=_fetch_json
+                     ) -> tuple[list[Event], ProviderStatus]:
+    """Supplementary feed: SFCA's own events (mostly public meetings)."""
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+    raw_path = RAW_DIR / f"{SFCA_TEC_SLUG}.json"
+
+    def from_archive(status: str, note: str):
+        if not raw_path.exists():
+            return [], ProviderStatus(SFCA_TEC_NAME, "error", note)
+        try:
+            payload = json.loads(raw_path.read_text(encoding="utf-8"))
+            events = parse_sfca_tec(payload)
+        except Exception as exc:
+            return [], ProviderStatus(SFCA_TEC_NAME, "error",
+                                      f"archive parse failed: {exc}")
+        detail = f"{len(events)} events" + (f"; {note}" if note else "")
+        print(f"  SFCA Events      {status:<8} events={len(events)}",
+              file=sys.stderr)
+        return events, ProviderStatus(SFCA_TEC_NAME, status, detail)
+
+    if offline:
+        if not raw_path.exists():
+            return [], ProviderStatus(SFCA_TEC_NAME, "error",
+                                      "offline: no archived JSON")
+        return from_archive("ok", "")
+
+    collected: list[dict] = []
+    first: dict | None = None
+    url: str | None = f"{SFCA_TEC_API}?per_page=50"
+    try:
+        for _ in range(SFCA_TEC_MAX_PAGES):
+            code, payload = fetch_json(url)
+            if code != 200 or not isinstance(payload, dict):
+                return from_archive("partial",
+                                    f"HTTP {code}; used archived copy")
+            first = first or payload
+            collected.extend(payload.get("events") or [])
+            url = payload.get("next_rest_url")
+            if not url:
+                break
+    except requests.RequestException as exc:
+        return from_archive("partial", f"fetch failed ({exc}); used archived copy")
+
+    archive = {k: v for k, v in first.items()
+               if k not in ("events", "next_rest_url")}
+    archive["events"] = collected
+    raw_path.write_text(json.dumps(archive, indent=2, ensure_ascii=False),
+                        encoding="utf-8")
+    events = parse_sfca_tec(archive)
+    print(f"  SFCA Events      ok       events={len(events)}", file=sys.stderr)
+    return events, ProviderStatus(SFCA_TEC_NAME, "ok", f"{len(events)} events")
+
+
+# --------------------------------------------------------------------------- #
 # Merge + dedupe
 # --------------------------------------------------------------------------- #
 
@@ -782,7 +954,8 @@ def _e(text: str) -> str:
     return html.escape(text or "", quote=True)
 
 
-_SRC_CLASS = {"SFCA": "sfca", "Capitol Modern": "capmod"}
+_SRC_CLASS = {"SFCA": "sfca", "SFCA Events": "sfca",
+              "Capitol Modern": "capmod"}
 
 
 def _fmt_when(ev: Event) -> str:
@@ -972,7 +1145,7 @@ def render_site(months, undated, sfca_rows, providers, num_merged,
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--offline", action="store_true",
-                    help="parse archived data/raw/*.html instead of fetching")
+                    help="parse archived data/raw/* instead of fetching")
     ap.add_argument("--today", help="override 'today' as YYYY-MM-DD (testing)")
     args = ap.parse_args()
 
@@ -983,9 +1156,10 @@ def main() -> int:
     print(f"Collecting (today={today}, offline={args.offline})", file=sys.stderr)
     sfca_events, sfca_rows, sfca_ps = collect_sfca(today, args.offline)
     capmod_events, capmod_ps = collect_capitol_modern(args.offline)
-    providers = [sfca_ps, capmod_ps]
+    tec_events, tec_ps = collect_sfca_tec(args.offline)
+    providers = [sfca_ps, capmod_ps, tec_ps]
 
-    all_events = sfca_events + capmod_events
+    all_events = sfca_events + capmod_events + tec_events
     merged, num_merged = merge_events(all_events)
     current_month = f"{today.year:04d}-{today.month:02d}"
     months, undated = group_by_month(merged, current_month)
@@ -998,7 +1172,7 @@ def main() -> int:
     print(f"Done: {len(all_events)} raw -> {total} merged events "
           f"({num_merged} overlaps combined), {len(months)} month(s), "
           f"{n_ics} ICS entries -> {SITE_DIR}", file=sys.stderr)
-    if sfca_ps.status == "error" and capmod_ps.status == "error":
+    if all(p.status == "error" for p in providers):
         print("WARNING: all sources failed", file=sys.stderr)
         return 1
     return 0

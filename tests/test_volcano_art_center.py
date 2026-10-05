@@ -97,7 +97,7 @@ class NormalizeDateTextTest(unittest.TestCase):
     def test_ordinals_and_through(self):
         self.assertEqual(
             fb._vac_normalize_dates("Saturdays October 24th through November 14th"),
-            "Saturdays October 24 - November 14")
+            "Saturdays October 24 \u2013 November 14")
 
 
 if __name__ == "__main__":

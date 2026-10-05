@@ -533,7 +533,7 @@ _WP_BOILERPLATE_RE = re.compile(r"\s*The post .*? appeared first on .*$",
 def _vac_normalize_dates(text: str) -> str:
     """Make VAC prose digestible by extract_dates: drop ordinals, 'through'."""
     text = _ORDINAL_RE.sub(r"\1", text)
-    return _THROUGH_RE.sub(" - ", text)
+    return _THROUGH_RE.sub(" \u2013 ", text)
 
 
 def _vac_venue(text: str) -> str:

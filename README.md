@@ -1,6 +1,6 @@
 # Hawaiʻi Arts & Culture Calendar → GitHub Pages
 
-An always-current static aggregator of Hawaiʻi arts events from **two sources**,
+An always-current static aggregator of Hawaiʻi arts events from **three sources**,
 merged and de-duplicated, plus an iCal feed and a machine-readable
 `events.json`. It updates itself in GitHub Actions.
 
@@ -33,6 +33,16 @@ merged and de-duplicated, plus an iCal feed and a machine-readable
    correct local date — otherwise e.g. First Friday's `2026-09-05T03:30Z` would
    wrongly land on Sept 5 instead of Sept 4.
 
+3. **Volcano Art Center** — the WordPress RSS feed at
+   `https://volcanoartcenter.org/feed/`. It's a plain blog feed (no Events
+   Calendar plugin), so each post announces one event. Dates are parsed from
+   the post title, then the description excerpt (ordinals like "October 10th"
+   and "October 3 through November 15" are normalized first); the year comes
+   from `pubDate`, rolled forward when a date would land well before
+   publication (a January workshop posted in July). Undated posts and events
+   that have already ended are dropped. Unit tests run against the offline
+   fixture in `tests/fixtures/` (`python3 -m unittest discover -s tests`).
+
 ## Candidate additional sources
 
 Researched by fetching each venue's public site and fingerprinting the
@@ -54,11 +64,11 @@ promising each looked:
 
 **Worth a closer look — same WordPress stack, not yet API-verified:**
 
-- **ʻIolani Palace** (`iolanipalace.org`) and **Volcano Art Center**
-  (`volcanoartcenter.org`) both fingerprint as WordPress with an RSS feed
-  present; neither was checked yet for a `/wp-json/tribe/events/v1/events`
+- **ʻIolani Palace** (`iolanipalace.org`) fingerprints as WordPress with an
+  RSS feed present (Volcano Art Center, the other such site, is now
+  implemented from its RSS feed); it wasn't checked yet for a `/wp-json/tribe/events/v1/events`
   endpoint the way the library site and SFCA's own `/events/` page have. If
-  either runs The Events Calendar too, it's the same easy integration as
+  it runs The Events Calendar too, it's the same easy integration as
   above.
 - **SFCA's own `/events/` page** (as opposed to the monthly calendar post)
   also runs The Events Calendar and its REST API responded once with valid

@@ -15,28 +15,8 @@ TZNAME:HST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:09bb8159f6316ca1b793@hawaii-arts-calendar
-DTSTAMP:20261010T152253Z
-DTSTART;TZID=Pacific/Honolulu:20261010T140000
-DTEND;TZID=Pacific/Honolulu:20261010T160000
-SUMMARY:Resonance: from Tradition to Tomorrow
-DESCRIPTION:Experience an afternoon of sound\, tradition\, and experiment
- ation featuring Filipino American electronic artist Luzi Kidlat and awar
- d-winning composer and instrumentalist Paul Cosme\, culminating in a spe
- cial closing performance by Hawaiʻi Rondalla. Free with registration on
-  Eventbrite.  https://www.capitolmodern.org/events/resonance-from-tradit
- ion-to-tomorrow   https://www.eventbrite.com/e/resonance-from-tradition-
- to-tomorrow-tickets-2002601265293?aff=oddtdtcreator  Sources: Capitol Mo
- dern https://www.capitolmodern.org/events/resonance-from-tradition-to-to
- morrow
-LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
-URL:https://www.capitolmodern.org/events/resonance-from-tradition-to-tomo
- rrow
-CATEGORIES:Capitol Modern
-END:VEVENT
-BEGIN:VEVENT
 UID:faee3fe47bd576f4403d@hawaii-arts-calendar
-DTSTAMP:20261010T152253Z
+DTSTAMP:20261011T154104Z
 DTSTART;TZID=Pacific/Honolulu:20261016T173000
 DTEND;TZID=Pacific/Honolulu:20261016T213000
 SUMMARY:Island Pulse
@@ -51,7 +31,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:3e96f60ff016e97c2fc8@hawaii-arts-calendar
-DTSTAMP:20261010T152253Z
+DTSTAMP:20261011T154104Z
 DTSTART;TZID=Pacific/Honolulu:20261017T140000
 DTEND;TZID=Pacific/Honolulu:20261017T160000
 SUMMARY:Philippine Cuisine Cooking Demonstration
@@ -70,7 +50,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:2c0079de656d73daf289@hawaii-arts-calendar
-DTSTAMP:20261010T152253Z
+DTSTAMP:20261011T154104Z
 DTSTART;TZID=Pacific/Honolulu:20261024T170000
 DTEND;TZID=Pacific/Honolulu:20261024T210000
 SUMMARY:FAHM Night
@@ -88,7 +68,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:b220df59a34b1795ebd0@hawaii-arts-calendar
-DTSTAMP:20261010T152253Z
+DTSTAMP:20261011T154104Z
 DTSTART;TZID=Pacific/Honolulu:20261106T173000
 DTEND;TZID=Pacific/Honolulu:20261014T213000
 SUMMARY:First Friday
@@ -102,7 +82,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:d7f325f7fd55d4027d46@hawaii-arts-calendar
-DTSTAMP:20261010T152253Z
+DTSTAMP:20261011T154104Z
 DTSTART;TZID=Pacific/Honolulu:20261120T173000
 DTEND;TZID=Pacific/Honolulu:20261120T213000
 SUMMARY:Island Pulse
@@ -113,6 +93,20 @@ DESCRIPTION:Free\, all-ages evening of island roots and reggae music. Mus
  odern.org/events/island-pulse-11-20-2026
 LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
 URL:https://www.capitolmodern.org/events/island-pulse-11-20-2026
+CATEGORIES:Capitol Modern
+END:VEVENT
+BEGIN:VEVENT
+UID:fdea86bc2d620a0c4a03@hawaii-arts-calendar
+DTSTAMP:20261011T154104Z
+DTSTART;TZID=Pacific/Honolulu:20261121T110000
+DTEND;TZID=Pacific/Honolulu:20261121T150000
+SUMMARY:Super Saturday (November 2026)
+DESCRIPTION:Hands-on art activities for all ages. Free admission.  https:
+ //www.capitolmodern.org/events/super-saturday-november-2026  Sources: Ca
+ pitol Modern https://www.capitolmodern.org/events/super-saturday-novembe
+ r-2026
+LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
+URL:https://www.capitolmodern.org/events/super-saturday-november-2026
 CATEGORIES:Capitol Modern
 END:VEVENT
 END:VCALENDAR

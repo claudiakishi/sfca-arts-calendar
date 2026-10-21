@@ -1,0 +1,350 @@
+{
+  "events": [
+    {
+      "id": 27815,
+      "global_id": "sfca.hawaii.gov?id=27815",
+      "global_id_lineage": [
+        "sfca.hawaii.gov?id=27815"
+      ],
+      "author": "6",
+      "status": "publish",
+      "date": "2026-09-10 08:55:00",
+      "date_utc": "2026-09-10 18:55:00",
+      "modified": "2026-09-10 08:55:00",
+      "modified_utc": "2026-09-10 18:55:00",
+      "url": "https://sfca.hawaii.gov/event/sfca-board-of-commissioners-general-meeting-10-16/",
+      "rest_url": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/events/27815",
+      "title": "SFCA Board of Commissioners general meeting (10/16)",
+      "description": "",
+      "excerpt": "",
+      "slug": "sfca-board-of-commissioners-general-meeting-10-16",
+      "image": false,
+      "all_day": false,
+      "start_date": "2026-10-16 11:00:00",
+      "start_date_details": {
+        "year": "2026",
+        "month": "10",
+        "day": "16",
+        "hour": "11",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "end_date": "2026-10-16 13:00:00",
+      "end_date_details": {
+        "year": "2026",
+        "month": "10",
+        "day": "16",
+        "hour": "13",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "utc_start_date": "2026-10-16 21:00:00",
+      "utc_start_date_details": {
+        "year": "2026",
+        "month": "10",
+        "day": "16",
+        "hour": "21",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "utc_end_date": "2026-10-16 23:00:00",
+      "utc_end_date_details": {
+        "year": "2026",
+        "month": "10",
+        "day": "16",
+        "hour": "23",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "timezone": "UTC-10",
+      "timezone_abbr": "UTC-10",
+      "cost": "",
+      "cost_details": {
+        "currency_symbol": "$",
+        "currency_code": "USD",
+        "currency_position": "prefix",
+        "values": []
+      },
+      "website": "",
+      "show_map": false,
+      "show_map_link": false,
+      "hide_from_listings": false,
+      "sticky": false,
+      "featured": false,
+      "categories": [
+        {
+          "name": "Public Meeting",
+          "slug": "public-meeting",
+          "term_group": 0,
+          "term_taxonomy_id": 450,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 25,
+          "filter": "raw",
+          "id": 450,
+          "urls": {
+            "self": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/categories/450",
+            "collection": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "SFCA Board of Commissioners",
+          "slug": "sfca-board-of-commissioners",
+          "term_group": 0,
+          "term_taxonomy_id": 481,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 450,
+          "count": 18,
+          "filter": "raw",
+          "id": 481,
+          "urls": {
+            "self": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/categories/481",
+            "collection": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/categories",
+            "up": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/categories/450"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "board meeting",
+          "slug": "board-meeting",
+          "term_group": 0,
+          "term_taxonomy_id": 528,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 17,
+          "filter": "raw",
+          "id": 528,
+          "urls": {
+            "self": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/tags/528",
+            "collection": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ],
+      "venue": [],
+      "organizer": [],
+      "custom_fields": []
+    },
+    {
+      "id": 90001,
+      "global_id": "sfca.hawaii.gov?id=27815",
+      "global_id_lineage": [
+        "sfca.hawaii.gov?id=27815"
+      ],
+      "author": "6",
+      "status": "publish",
+      "date": "2026-09-10 08:55:00",
+      "date_utc": "2026-09-10 18:55:00",
+      "modified": "2026-09-10 08:55:00",
+      "modified_utc": "2026-09-10 18:55:00",
+      "url": "https://sfca.hawaii.gov/event/art-in-public-places-open-house/",
+      "rest_url": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/events/90001",
+      "title": "Art in Public Places &#8211; Open House &amp; Tour",
+      "description": "<p>Join the <strong>APP</strong> team&nbsp;for a tour.</p>\n<p>Free.</p>",
+      "excerpt": "",
+      "slug": "art-in-public-places-open-house",
+      "image": false,
+      "all_day": true,
+      "start_date": "2026-11-06 00:00:00",
+      "start_date_details": {
+        "year": "2026",
+        "month": "11",
+        "day": "06",
+        "hour": "00",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "end_date": "2026-11-08 23:59:59",
+      "end_date_details": {
+        "year": "2026",
+        "month": "11",
+        "day": "08",
+        "hour": "23",
+        "minutes": "59",
+        "seconds": "59"
+      },
+      "utc_start_date": "2026-11-06 10:00:00",
+      "utc_start_date_details": {
+        "year": "2026",
+        "month": "11",
+        "day": "06",
+        "hour": "10",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "utc_end_date": "2026-11-09 09:59:59",
+      "utc_end_date_details": {
+        "year": "2026",
+        "month": "11",
+        "day": "09",
+        "hour": "09",
+        "minutes": "59",
+        "seconds": "59"
+      },
+      "timezone": "UTC-10",
+      "timezone_abbr": "UTC-10",
+      "cost": "",
+      "cost_details": {
+        "currency_symbol": "$",
+        "currency_code": "USD",
+        "currency_position": "prefix",
+        "values": []
+      },
+      "website": "https://sfca.hawaii.gov/app/",
+      "show_map": false,
+      "show_map_link": false,
+      "hide_from_listings": false,
+      "sticky": false,
+      "featured": false,
+      "categories": [
+        {
+          "name": "Community Event",
+          "slug": "community-event"
+        }
+      ],
+      "tags": [],
+      "venue": {
+        "id": 501,
+        "venue": "No. 1 Capitol District Building",
+        "address": "250 S Hotel St",
+        "city": "Honolulu"
+      },
+      "organizer": [],
+      "custom_fields": []
+    },
+    {
+      "id": 90002,
+      "global_id": "sfca.hawaii.gov?id=27815",
+      "global_id_lineage": [
+        "sfca.hawaii.gov?id=27815"
+      ],
+      "author": "6",
+      "status": "publish",
+      "date": "2026-09-10 08:55:00",
+      "date_utc": "2026-09-10 18:55:00",
+      "modified": "2026-09-10 08:55:00",
+      "modified_utc": "2026-09-10 18:55:00",
+      "url": "https://sfca.hawaii.gov/event/hidden-internal-event/",
+      "rest_url": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/events/27815",
+      "title": "Hidden internal event",
+      "description": "",
+      "excerpt": "",
+      "slug": "hidden-internal-event",
+      "image": false,
+      "all_day": false,
+      "start_date": "2026-10-16 11:00:00",
+      "start_date_details": {
+        "year": "2026",
+        "month": "10",
+        "day": "16",
+        "hour": "11",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "end_date": "2026-10-16 13:00:00",
+      "end_date_details": {
+        "year": "2026",
+        "month": "10",
+        "day": "16",
+        "hour": "13",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "utc_start_date": "2026-10-16 21:00:00",
+      "utc_start_date_details": {
+        "year": "2026",
+        "month": "10",
+        "day": "16",
+        "hour": "21",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "utc_end_date": "2026-10-16 23:00:00",
+      "utc_end_date_details": {
+        "year": "2026",
+        "month": "10",
+        "day": "16",
+        "hour": "23",
+        "minutes": "00",
+        "seconds": "00"
+      },
+      "timezone": "UTC-10",
+      "timezone_abbr": "UTC-10",
+      "cost": "",
+      "cost_details": {
+        "currency_symbol": "$",
+        "currency_code": "USD",
+        "currency_position": "prefix",
+        "values": []
+      },
+      "website": "",
+      "show_map": false,
+      "show_map_link": false,
+      "hide_from_listings": true,
+      "sticky": false,
+      "featured": false,
+      "categories": [
+        {
+          "name": "Public Meeting",
+          "slug": "public-meeting",
+          "term_group": 0,
+          "term_taxonomy_id": 450,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 0,
+          "count": 25,
+          "filter": "raw",
+          "id": 450,
+          "urls": {
+            "self": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/categories/450",
+            "collection": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/categories"
+          }
+        },
+        {
+          "name": "SFCA Board of Commissioners",
+          "slug": "sfca-board-of-commissioners",
+          "term_group": 0,
+          "term_taxonomy_id": 481,
+          "taxonomy": "tribe_events_cat",
+          "description": "",
+          "parent": 450,
+          "count": 18,
+          "filter": "raw",
+          "id": 481,
+          "urls": {
+            "self": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/categories/481",
+            "collection": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/categories",
+            "up": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/categories/450"
+          }
+        }
+      ],
+      "tags": [
+        {
+          "name": "board meeting",
+          "slug": "board-meeting",
+          "term_group": 0,
+          "term_taxonomy_id": 528,
+          "taxonomy": "post_tag",
+          "description": "",
+          "parent": 0,
+          "count": 17,
+          "filter": "raw",
+          "id": 528,
+          "urls": {
+            "self": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/tags/528",
+            "collection": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/tags"
+          }
+        }
+      ],
+      "venue": [],
+      "organizer": [],
+      "custom_fields": []
+    }
+  ],
+  "rest_url": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/events/?page=1&per_page=50&start_date=2026-10-04 00:00:00&end_date=2028-10-05 23:59:59&status=publish",
+  "total": 3,
+  "total_pages": 1
+}

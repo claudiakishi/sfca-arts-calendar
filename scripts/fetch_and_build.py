@@ -72,6 +72,7 @@ import html
 import json
 import re
 import sys
+import tempfile
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field, asdict
 from difflib import SequenceMatcher
@@ -971,6 +972,15 @@ def _fetch_tec_pages(start: dt.date, end: dt.date) -> list[dict]:
     raise ValueError("incomplete library pagination")
 
 
+def _write_archive(path: Path, text: str) -> None:
+    # Keep the previous complete archive if writing fails after truncation.
+    # A sibling temporary directory keeps replacement on the same filesystem.
+    with tempfile.TemporaryDirectory(prefix=".archive-", dir=path.parent) as tmp:
+        candidate = Path(tmp) / path.name
+        candidate.write_text(text, encoding="utf-8")
+        candidate.replace(path)
+
+
 def collect_librarieshawaii(today: dt.date, offline: bool
                             ) -> tuple[list[Event], ProviderStatus]:
     raw_path = RAW_DIR / f"{LIB_SLUG}.json"
@@ -983,8 +993,8 @@ def collect_librarieshawaii(today: dt.date, offline: bool
             # Validate before replacing the last usable archive.
             parse_librarieshawaii(candidate)
             RAW_DIR.mkdir(parents=True, exist_ok=True)
-            raw_path.write_text(json.dumps({"events": candidate}, ensure_ascii=False,
-                                           indent=1), encoding="utf-8")
+            _write_archive(raw_path, json.dumps({"events": candidate},
+                                               ensure_ascii=False, indent=1))
             raw = candidate
         except (requests.RequestException, ValueError, TypeError, KeyError,
                 AttributeError, OSError) as exc:
@@ -1029,7 +1039,7 @@ def collect_volcano_art_center(today: dt.date, offline: bool
             if code == 200:
                 parse_volcano_art_center(text, today)
                 RAW_DIR.mkdir(parents=True, exist_ok=True)
-                raw_path.write_text(text, encoding="utf-8")
+                _write_archive(raw_path, text)
                 feed_xml = text
             else:
                 note = f"HTTP {code}"

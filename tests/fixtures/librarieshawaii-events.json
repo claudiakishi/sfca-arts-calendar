@@ -1,0 +1,472 @@
+{
+ "events": [
+  {
+   "id": 288756,
+   "url": "https://www.librarieshawaii.org/event/movie-monday-the-librarians-2025/",
+   "title": "Movie Monday &#8211; The Librarians (2025)",
+   "description": "<p>In honor of “Every Story Matters” week (a.k.a Banned Books Week), please join us for a showing of this award-winning 2025 documentary about the current fight for the freedom to read and to keep libraries open in the US.</p>\n<p>Light refreshments provided, courtesy of the Friends of the Mountain View Library.</p>\n<p><em>Recommended for ages 14 and up due to language and adult themes.</em></p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-10-05 16:00:00",
+   "end_date": "2026-10-05 18:00:00",
+   "utc_start_date": "2026-10-06 02:00:00",
+   "utc_end_date": "2026-10-06 04:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "films-movies",
+     "name": "Films &amp; Movies"
+    },
+    {
+     "slug": "history",
+     "name": "History"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Mountain View",
+    "city": "Mountain View",
+    "url": "https://www.librarieshawaii.org/branch/mountain-view-public-and-school-library/"
+   }
+  },
+  {
+   "id": 267143,
+   "url": "https://www.librarieshawaii.org/event/writing-circle-6-5-4/",
+   "title": "Writing Circle",
+   "description": "<p>Join us for a new self-guided writing circle that will be on every other Monday from 1-2:30 PM.  This is a small circle that is a safe place to practice your writing skills, learn from others, and share your own work, thoughts, and dreams.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required.</p>\n<p>&nbsp;</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-10-05 13:00:00",
+   "end_date": "2026-10-05 14:30:00",
+   "utc_start_date": "2026-10-05 23:00:00",
+   "utc_end_date": "2026-10-06 00:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "writing",
+     "name": "Writing"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Waiʻanae",
+    "city": "Waiʻanae",
+    "url": "https://www.librarieshawaii.org/branch/waianae-public-library/"
+   }
+  },
+  {
+   "id": 282199,
+   "url": "https://www.librarieshawaii.org/event/kahului_lauhala-08252026-2/",
+   "title": "Lauhala Weaving Class",
+   "description": "<p><span data-olk-copy-source=\"MessageBody\">As the regional branch of Maui County, Kahului Library is actively working to preserve, promote, and perpetuate Hawaiian culture by collaborating with local cultural practitioners. Join us for a lauhala weaving class led by Leiana Sing-Keliikoa. Accompanied by special guests, Leiana will be instructing us in the ancient Hawaiian practice of lauhala weaving. <strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">This is an advanced class; some experience required. Suitable for adults and teens.</span></strong> </span></p>\n<p>Program begins promptly at <strong>1:00pm</strong> and is scheduled to run until <strong>3:00pm</strong>.</p>\n<p><strong>Registration required</strong>; limited to 6 attendees per class. 1 reservation per person.<br />\nBe advised that failure to show up on time may forfeit your reservation.</p>\n<p><strong>RSVP</strong> below.</p>\n<p><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"> </span><a href=\"http://librarieshawaii.org/events\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">HSPLS Events Calendar</span></a><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">.</span></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-10-06 13:00:00",
+   "end_date": "2026-10-06 15:00:00",
+   "utc_start_date": "2026-10-06 23:00:00",
+   "utc_end_date": "2026-10-07 01:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "Free",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "history",
+     "name": "History"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Maui &#8211; Kahului",
+    "city": "Kahului",
+    "url": "https://www.librarieshawaii.org/branch/kahului-public-library/"
+   }
+  },
+  {
+   "id": 284820,
+   "url": "https://www.librarieshawaii.org/event/mid-autumn-festival/",
+   "title": "Mid-Autumn Festival",
+   "description": "<p><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Celebrate the Mid-Autumn Festival with us! Keiki and families are invited to learn about the festival, make your own lantern, and make your own Mooncakes for the tea party! Welcoming ages 5+. Young children must be accompanied by an adult caregiver. This free event requires <strong>advanced registration</strong>. Please register online or </span><span data-contrast=\"auto\" xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW121276170 BCX0\"><span class=\"NormalTextRun SCXW121276170 BCX0\">call the library (808-323-7585) if reservation assistance is needed.</span></span><span class=\"EOP Selected SCXW121276170 BCX0\" data-ccp-props=\"{}\"> </span></p>\n<p><span data-contrast=\"auto\" xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW104870508 BCX0\"><span class=\"NormalTextRun SCXW104870508 BCX0\">This program is generously sponsored by Friends of the Libraries, Kona (F.O.L.K.)</span></span><span class=\"EOP Selected SCXW104870508 BCX0\" data-ccp-props=\"{}\"> </span></p>\n<p><em><span data-contrast=\"auto\" xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW195496149 BCX0\"><span class=\"NormalTextRun SCXW195496149 BCX0\">Anyone who requires an auxiliary aid or service for effective communication,</span><span class=\"NormalTextRun SCXW195496149 BCX0\"> </span><span class=\"NormalTextRun SCXW195496149 BCX0\">or a modification of policies or procedures to </span><span class=\"NormalTextRun SCXW195496149 BCX0\">participate</span><span class=\"NormalTextRun SCXW195496149 BCX0\"> in a program, service, or activity should contact library staff as soon as possible. Advance requests </span><span class=\"NormalTextRun SCXW195496149 BCX0\">48 hours</span><span class=\"NormalTextRun SCXW195496149 BCX0\"> or more before the event are </span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW195496149 BCX0\">encouraged, but</span><span class=\"NormalTextRun SCXW195496149 BCX0\"> not </span><span class=\"NormalTextRun SCXW195496149 BCX0\">required</span><span class=\"NormalTextRun SCXW195496149 BCX0\">.</span><span class=\"NormalTextRun SCXW195496149 BCX0\"> </span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW195496149 BCX0\">Program</span><span class=\"NormalTextRun SCXW195496149 BCX0\"> schedule is subject to change.</span></span><span class=\"EOP Selected SCXW195496149 BCX0\" data-ccp-props=\"{}\"> </span></em></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-10-06 14:00:00",
+   "end_date": "2026-10-06 16:00:00",
+   "utc_start_date": "2026-10-07 00:00:00",
+   "utc_end_date": "2026-10-07 02:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "Free",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "food",
+     "name": "Food"
+    },
+    {
+     "slug": "history",
+     "name": "History"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kealakekua",
+    "city": "Kealakekua",
+    "url": "https://www.librarieshawaii.org/branch/kealakekua-public-library/"
+   }
+  },
+  {
+   "id": 10035715,
+   "url": "https://www.librarieshawaii.org/event/family-story-time-pahoa/2026-10-06/",
+   "title": "Family Story Time",
+   "description": "<p>Join us for Family Story Time every Tuesday morning! Come join us for fun stories, dances, and songs.</p>\n<p>There will be a free new book given to child participants the <strong>first story time of every month</strong> until December 2026. First come, first served. Thank you to the<a href=\"https://hawaiiactionstrategy.org/eccontinuums\"> Pahoa Promise Partnership</a> for their generous donations.</p>\n<p>Program is suitable for age 2 and over. All children must be accompanied by a parent or an adult caregiver.</p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedules are subject to change. Events will not be held on State holidays.</span></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-10-06 10:30:00",
+   "end_date": "2026-10-06 11:00:00",
+   "utc_start_date": "2026-10-06 20:30:00",
+   "utc_end_date": "2026-10-06 21:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Pāhoa",
+    "city": "Pāhoa",
+    "url": "https://www.librarieshawaii.org/branch/pahoa-public-and-school-library/"
+   }
+  },
+  {
+   "id": 284786,
+   "url": "https://www.librarieshawaii.org/event/mahjong-morning-4-2-3-2-3-2-2-2-2-2-2-2/",
+   "title": "Mahjong Morning",
+   "description": "<p style=\"background: white;vertical-align: baseline;margin: 0in 0in 12.0pt 0in\"><span style=\"font-size: 13.5pt;font-family: &#039;Source Sans 3&#039;,sans-serif;color: #141827\">Interested in playing basic Chinese mahjong?  Stop by the library for a chance to play!  Tables are open for teen and adult players.  Beginners are welcome, but availability of instructors or mentors is not guaranteed.</span></p>\n<p>This program is sponsored by the Friends of the Library Kapolei.</p>\n<p style=\"background: white;vertical-align: baseline;margin: 0in 0in 21.0pt 0in\"><span style=\"font-size: 13.5pt;font-family: &#039;Source Sans 3&#039;,sans-serif;color: #141827\">Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</span></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-10-06 11:00:00",
+   "end_date": "2026-10-06 13:30:00",
+   "utc_start_date": "2026-10-06 21:00:00",
+   "utc_end_date": "2026-10-06 23:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "games",
+     "name": "Games"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Kapolei",
+    "city": "Kapolei",
+    "url": "https://www.librarieshawaii.org/branch/kapolei-public-library/"
+   }
+  },
+  {
+   "id": 283951,
+   "url": "https://www.librarieshawaii.org/event/tuesday-chess-75/",
+   "title": "Tuesday Chess Club",
+   "description": "<p><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join the fun to learn new skills and participate in friendly competition!</span></strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Chess players of all skill levels and all ages are welcome to attend. Call the library if you’re interested in volunteering to teach!</span></p>\n<p>Mahalo nui to the <em>Friends of the Libraries, Kona</em> (F.O.L.K.) for sponsoring this program!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. For a schedule of events, go to the <a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-10-06 15:30:00",
+   "end_date": "2026-10-06 17:30:00",
+   "utc_start_date": "2026-10-07 01:30:00",
+   "utc_end_date": "2026-10-07 03:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "games",
+     "name": "Games"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kailua-Kona",
+    "city": "Kailua-Kona",
+    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
+   }
+  },
+  {
+   "id": 10038425,
+   "url": "https://www.librarieshawaii.org/event/movie-monday-2/2026-10-05/",
+   "title": "Movie Monday",
+   "description": "<p class=\"cvGsUA block-font-kerning-normal block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Spend your Monday afternoons at the library with Movie Mondays! Beginning right after school, we&#8217;ll feature a different family-friendly movie each week for the keiki to enjoy.</span></p>\n<p class=\"cvGsUA block-font-kerning-normal block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Come unwind, connect with friends, and discover favorite films in a comfortable and engaging setting.</span></p>\n<p class=\"cvGsUA block-font-kerning-normal block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Grab a Seat and Join the Fun! </span></p>\n<hr />\n<p>Anyone who requires an auxiliary aid or service for effective communication or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-10-05 12:00:00",
+   "end_date": "2026-10-05 14:00:00",
+   "utc_start_date": "2026-10-05 22:00:00",
+   "utc_end_date": "2026-10-06 00:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "films-movies",
+     "name": "Films &amp; Movies"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Laupāhoehoe",
+    "city": "Laupāhoehoe",
+    "url": "https://www.librarieshawaii.org/branch/laupahoehoe-public-and-school-library/"
+   }
+  },
+  {
+   "id": 282845,
+   "url": "https://www.librarieshawaii.org/event/keiki-movie-monday-2-2/",
+   "title": "Keiki Movie Monday",
+   "description": "<p><b>Join us for Keiki Movie Monday this fall break!</b></p>\n<p>Animal lover Mabel uses clever new technology designed to &#8220;hop&#8221; human consciousness into lifelike robotic animals to communicate with beavers, uncovering mysteries within the animal world beyond anything she could have imagined.</p>\n<p>This movie is rated PG and 105 minutes long. Light refreshments will be provided while supplies last. Outside food is permitted.</p>\n<p>Sponsored by the Friends of Kalihi-Pālama Public Library.</p>\n<p>&nbsp;</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\"><b>HSPLS Events Calendar</b></a>.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-10-05 14:00:00",
+   "end_date": "2026-10-05 15:45:00",
+   "utc_start_date": "2026-10-06 00:00:00",
+   "utc_end_date": "2026-10-06 01:45:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "films-movies",
+     "name": "Films &amp; Movies"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Kalihi-Pālama",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/kalihi-palama-public-library/"
+   }
+  },
+  {
+   "id": 286762,
+   "url": "https://www.librarieshawaii.org/event/craft-galaxy-space-ship/",
+   "title": "Craft: Galaxy Space Ship",
+   "description": "<div class=\"x_elementToProof\">\n<p>Galactic Fun awaits you on Monday, October 5th at Mililani Public Library. Using supplies provided by the library, Children ages 5 and up can create their own flying Galaxy Ships, using supplies provided by the library. (While supplies last). When completed, this aircraft will be able to glide through the air. (12:30-1:15pm)</p>\n<p>Then, join us for the movie showing of <b>The Super Mario Galaxy Movie</b> (Rated PG) and watch as Mario and Luigi team up with Princess Peach to travel across galaxies in order to save Princess Rosalina from the powerful villain Bowser Jr. (1:30-3:15pm)</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required.</p>\n</div>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-10-05 12:30:00",
+   "end_date": "2026-10-05 13:30:00",
+   "utc_start_date": "2026-10-05 22:30:00",
+   "utc_end_date": "2026-10-05 23:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "films-movies",
+     "name": "Films &amp; Movies"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Mililani",
+    "city": "Mililani",
+    "url": "https://www.librarieshawaii.org/branch/mililani-public-library/"
+   }
+  },
+  {
+   "id": 900001,
+   "url": "https://www.librarieshawaii.org/event/fixture-lauhala-exhibit/",
+   "title": "Keepers of the Craft: Lauhala Exhibit",
+   "description": "<p>A display of lauhala work by local weavers.</p>",
+   "excerpt": "",
+   "all_day": true,
+   "start_date": "2026-10-10 00:00:00",
+   "end_date": "2026-10-24 23:59:59",
+   "utc_start_date": "2026-10-10 10:00:00",
+   "utc_end_date": "2026-10-25 09:59:59",
+   "timezone": "Pacific/Honolulu",
+   "cost": "Free",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "history",
+     "name": "History"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Maui &#8211; Kahului",
+    "city": "Kahului",
+    "url": "https://www.librarieshawaii.org/branch/kahului-public-library/"
+   }
+  },
+  {
+   "id": 900002,
+   "url": "https://www.librarieshawaii.org/event/fixture-past/",
+   "title": "Writing Circle (past)",
+   "description": "<p>Join us for a new self-guided writing circle that will be on every other Monday from 1-2:30 PM.  This is a small circle that is a safe place to practice your writing skills, learn from others, and share your own work, thoughts, and dreams.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required.</p>\n<p>&nbsp;</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-09-01 13:00:00",
+   "end_date": "2026-09-01 14:30:00",
+   "utc_start_date": "2026-09-01 23:00:00",
+   "utc_end_date": "2026-09-02 00:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "writing",
+     "name": "Writing"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Waiʻanae",
+    "city": "Waiʻanae",
+    "url": "https://www.librarieshawaii.org/branch/waianae-public-library/"
+   }
+  }
+ ]
+}

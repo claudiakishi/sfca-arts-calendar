@@ -689,14 +689,28 @@ def _vac_venue(text: str) -> str:
 def _vac_dates(title: str, desc: str, published: dt.date) -> dict | None:
     for text in (title, desc):
         norm = _vac_normalize_dates(text)
-        d = extract_dates(norm, published.year)
-        if not d["date_start"]:
-            continue
-        roll = published - dt.timedelta(days=VAC_YEAR_ROLL_DAYS)
-        if dt.date.fromisoformat(d["date_start"]) < roll:
-            d = extract_dates(norm, published.year + 1)
-        if d["date_start"]:
-            return d
+        ranges = list(_RANGE_RE.finditer(norm))
+        singles = [m for m in _SINGLE_RE.finditer(norm)
+                   if not any(r.start() <= m.start() < r.end() for r in ranges)]
+        dates = []
+        for match in sorted(ranges + singles, key=lambda m: m.start()):
+            d = extract_dates(match.group(0), published.year)
+            if not d["date_start"] or not d["date_end"]:
+                continue
+            roll = published - dt.timedelta(days=VAC_YEAR_ROLL_DAYS)
+            # An explicit year is authoritative, even for an old event.
+            if (not match.groups()[-1]
+                    and dt.date.fromisoformat(d["date_start"]) < roll):
+                d = extract_dates(match.group(0), published.year + 1)
+            if d["date_start"] and d["date_end"]:
+                dates.append(d)
+        if dates:
+            return {
+                "date_start": min(d["date_start"] for d in dates),
+                "date_end": max(d["date_end"] for d in dates),
+                "date_display": "; ".join(d["date_display"] for d in dates),
+                "recurring": bool(_RECUR_RE.search(norm)),
+            }
     return None
 
 

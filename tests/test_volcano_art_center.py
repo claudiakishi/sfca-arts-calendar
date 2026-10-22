@@ -61,8 +61,21 @@ class ParseVolcanoArtCenterTest(unittest.TestCase):
 
     def test_still_running_range_is_kept(self):
         ev = _by_title(self.events, "Handbuilding with Clay")
-        self.assertEqual(ev.date_start, "2026-09-06")
-        self.assertEqual(ev.date_end, "2026-10-25")
+        self.assertEqual(ev.date_start, "2026-09-02")
+        self.assertEqual(ev.date_end, "2026-10-28")
+        self.assertIn("September 6 – October 25", ev.date_display)
+        self.assertIn("September 2 – October 28", ev.date_display)
+
+    def test_second_class_series_keeps_listing_until_it_ends(self):
+        xml = FIXTURE.read_text(encoding="utf-8")
+        events = fb.parse_volcano_art_center(xml, dt.date(2026, 10, 26))
+        self.assertEqual(_by_title(events, "Handbuilding").date_end, "2026-10-28")
+        events = fb.parse_volcano_art_center(xml, dt.date(2026, 10, 29))
+        self.assertFalse(any("Handbuilding" in e.title for e in events))
+
+    def test_explicit_past_year_is_not_rolled_forward(self):
+        dates = fb._vac_dates("January 10, 2026", "", dt.date(2026, 7, 1))
+        self.assertEqual(dates["date_start"], "2026-01-10")
 
     def test_undated_and_past_posts_are_dropped(self):
         titles = " ".join(e.title for e in self.events)

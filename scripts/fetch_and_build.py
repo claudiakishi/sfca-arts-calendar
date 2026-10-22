@@ -37,6 +37,15 @@ Sources
    then drops kids' storytime, games, and similar non-arts programs. Results
    are archived slimmed to data/raw/librarieshawaii-events.json for --offline.
 
+5. Volcano Art Center (WordPress RSS feed)
+     https://volcanoartcenter.org/feed/
+   A plain blog feed (no Events Calendar plugin), so each <item> is a post
+   announcing an event. Dates are parsed from the post title first, then the
+   description excerpt ("October 10th", "October 3 through November 15"); the
+   year comes from the post's pubDate, rolled forward when the date would
+   otherwise land well before publication. Undated posts and events that have
+   already ended are dropped.
+
 Pipeline
 --------
     fetch each source -> parse to a common Event model -> merge + dedupe across
@@ -63,8 +72,10 @@ import html
 import json
 import re
 import sys
+import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field, asdict
 from difflib import SequenceMatcher
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 from urllib.parse import urlencode
 
@@ -110,6 +121,13 @@ LIB_EXCLUDE_TITLE_WORDS = ("keiki", "storytime", "story time", "mahjong",
                            "toddler", "baby", "babies", "tiny tunes")
 # Accessibility notice appended to every event description.
 LIB_BOILERPLATE = "auxiliary aid"
+
+VAC_BASE = "https://volcanoartcenter.org"
+VAC_FEED_URL = f"{VAC_BASE}/feed/"
+VAC_SLUG = "volcanoartcenter-feed"
+# A post whose first parsed date falls this far before its publish date is
+# about the following year (e.g. a January workshop announced in July).
+VAC_YEAR_ROLL_DAYS = 60
 
 HST = dt.timezone(dt.timedelta(hours=-10))  # Hawai'i has no daylight saving.
 
@@ -639,6 +657,100 @@ def parse_sfca_tec(payload: dict) -> list[Event]:
     return events
 
 
+# --------------------------------------------------------------------------- #
+# Source 5: Volcano Art Center (WordPress RSS)
+# --------------------------------------------------------------------------- #
+
+_ORDINAL_RE = re.compile(r"\b(\d{1,2})(?:st|nd|rd|th)\b", re.IGNORECASE)
+_THROUGH_RE = re.compile(r"\s+(?:through|thru|until|to)\s+(?=[A-Za-z]+\s+\d)",
+                         re.IGNORECASE)
+_WP_BOILERPLATE_RE = re.compile(r"\s*The post .*? appeared first on .*$",
+                                re.DOTALL)
+
+
+def _vac_normalize_dates(text: str) -> str:
+    """Make VAC prose digestible by extract_dates: drop ordinals, 'through'."""
+    text = _ORDINAL_RE.sub(r"\1", text)
+    return _THROUGH_RE.sub(" \u2013 ", text)
+
+
+def _vac_venue(text: str) -> str:
+    low = text.lower()
+    if "niaulani" in low:
+        return "Volcano Art Center Niaulani Campus, Volcano Village"
+    if "golf course" in low:
+        return "Volcano Golf Course, Volcano"
+    if "national park" in low:
+        return ("Volcano Art Center Gallery, "
+                "Hawai\u02bbi Volcanoes National Park")
+    return "Volcano Art Center"
+
+
+def _vac_dates(title: str, desc: str, published: dt.date) -> dict | None:
+    for text in (title, desc):
+        norm = _vac_normalize_dates(text)
+        d = extract_dates(norm, published.year)
+        if not d["date_start"]:
+            continue
+        roll = published - dt.timedelta(days=VAC_YEAR_ROLL_DAYS)
+        if dt.date.fromisoformat(d["date_start"]) < roll:
+            d = extract_dates(norm, published.year + 1)
+        if d["date_start"]:
+            return d
+    return None
+
+
+def parse_volcano_art_center(feed_xml: str, today: dt.date) -> list[Event]:
+    """Parse the VAC RSS feed into upcoming/ongoing Events.
+
+    Raises on XML that isn't an RSS feed, so callers can report a parse error.
+    """
+    root = ET.fromstring(feed_xml.encode("utf-8"))
+    if root.tag != "rss":
+        raise ValueError(f"not an RSS feed (root <{root.tag}>)")
+    events: list[Event] = []
+    for item in root.iter("item"):
+        title = html.unescape(item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        if not title or not link:
+            continue
+        raw_desc = item.findtext("description") or ""
+        desc = BeautifulSoup(raw_desc, "html.parser").get_text(" ")
+        desc = _WP_BOILERPLATE_RE.sub("", html.unescape(desc))
+        desc = re.sub(r"\s+", " ", desc).replace("[\u2026]", "\u2026").strip()
+
+        pub = item.findtext("pubDate")
+        try:
+            published = parsedate_to_datetime(pub).date() if pub else today
+        except (TypeError, ValueError):
+            published = today
+        d = _vac_dates(title, desc, published)
+        if not d or (d["date_end"] or d["date_start"]) < today.isoformat():
+            continue
+
+        cats = [c.text.strip() for c in item.findall("category")
+                if c.text and c.text.strip().lower() != "news"]
+        post_id = item.findtext("{com-wordpress:feed-additions:1}post-id")
+        guid = item.findtext("guid") or link
+        events.append(Event(
+            title=title,
+            description=desc,
+            category=cats[0] if cats else "Volcano Art Center",
+            provider="Volcano Art Center",
+            sources=[Source("Volcano Art Center", link, "volcanoartcenter.org")],
+            venue=_vac_venue(f"{title} {desc}"),
+            date_start=d["date_start"],
+            date_end=d["date_end"],
+            date_display=d["date_display"],
+            recurring=d["recurring"],
+            links=[{"text": "Event details (Volcano Art Center)",
+                    "href": link}],
+            uid_seed=f"vac|{post_id.strip() if post_id else guid}",
+        ))
+    events.sort(key=lambda e: e.date_start or "")
+    return events
+
+
 def _fetch_json(url: str) -> tuple[int, dict | None]:
     resp = requests.get(url, timeout=30, headers={
         "User-Agent": USER_AGENT, "Accept": "application/json"})
@@ -871,6 +983,40 @@ def collect_librarieshawaii(today: dt.date, offline: bool
     detail = note or f"{len(events)} arts/culture programs"
     return events, ProviderStatus(LIB_PROVIDER, status, detail)
 
+def collect_volcano_art_center(today: dt.date, offline: bool
+                               ) -> tuple[list[Event], ProviderStatus]:
+    name = "Volcano Art Center"
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+    raw_path = RAW_DIR / f"{VAC_SLUG}.xml"
+    archived = (raw_path.read_text(encoding="utf-8")
+                if raw_path.exists() else None)
+    feed_xml, status, note = None, "ok", ""
+    if offline:
+        if archived is None:
+            return [], ProviderStatus(name, "error", "offline: no archived feed")
+        feed_xml = archived
+    else:
+        try:
+            code, text = fetch(VAC_FEED_URL, requests.Session())
+            if code == 200 and "<rss" in text:
+                feed_xml = text
+                raw_path.write_text(text, encoding="utf-8")
+            else:
+                note = f"HTTP {code}"
+        except requests.RequestException as exc:
+            note = f"fetch failed: {exc}"
+        if feed_xml is None:
+            if archived is None:
+                return [], ProviderStatus(name, "error", note)
+            feed_xml, status, note = archived, "partial", f"{note}; used archived copy"
+    try:
+        events = parse_volcano_art_center(feed_xml, today)
+    except Exception as exc:
+        return [], ProviderStatus(name, "error", f"parse failed: {exc}")
+    print(f"  Volcano Art Ctr  {status:<8} events={len(events)}", file=sys.stderr)
+    return events, ProviderStatus(
+        name, status, note or f"{len(events)} upcoming events")
+
 
 # --------------------------------------------------------------------------- #
 # Merge + dedupe
@@ -1012,8 +1158,8 @@ def write_events_json(months, undated, providers, generated) -> None:
                     for p in providers],
         "attribution": (
             "Event information aggregated from the Hawai\u02bbi State Foundation "
-            "on Culture and the Arts (SFCA) and Capitol Modern: the Hawai\u02bbi "
-            "State Art Museum. Unofficial mirror; confirm details at the source."
+            "on Culture and the Arts (SFCA), Capitol Modern: the Hawai\u02bbi "
+            "State Art Museum, and Volcano Art Center. Unofficial mirror; confirm details at the source."
         ),
         "months": [
             {"month": key, "label": label, "events": [dump(e) for e in evs]}
@@ -1158,7 +1304,8 @@ def _e(text: str) -> str:
 
 
 _SRC_CLASS = {"SFCA": "sfca", "SFCA Events": "sfca",
-              "Capitol Modern": "capmod", LIB_PROVIDER: "lib"}
+              "Capitol Modern": "capmod", LIB_PROVIDER: "lib",
+              "Volcano Art Center": "vac"}
 
 
 def _fmt_when(ev: Event) -> str:
@@ -1206,9 +1353,9 @@ def _page_shell(title: str, body: str, generated: str) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{_e(title)}</title>
 <style>
-:root {{ --bg:#fbfaf7; --fg:#1c1a17; --muted:#6b6560; --card:#fff; --accent:#0b6b5f; --line:#e7e2d9; --sfca:#0b6b5f; --capmod:#8a4b96; --lib:#2f5d9e; --both:#b4641c; }}
+:root {{ --bg:#fbfaf7; --fg:#1c1a17; --muted:#6b6560; --card:#fff; --accent:#0b6b5f; --line:#e7e2d9; --sfca:#0b6b5f; --capmod:#8a4b96; --lib:#2f5d9e; --vac:#a5402d; --both:#b4641c; }}
 @media (prefers-color-scheme: dark) {{
-  :root {{ --bg:#161513; --fg:#ece8e1; --muted:#a49e94; --card:#201e1b; --accent:#5fd3c0; --line:#33302b; --sfca:#5fd3c0; --capmod:#d6a3e0; --lib:#8fb4ee; --both:#e3a869; }}
+  :root {{ --bg:#161513; --fg:#ece8e1; --muted:#a49e94; --card:#201e1b; --accent:#5fd3c0; --line:#33302b; --sfca:#5fd3c0; --capmod:#d6a3e0; --lib:#8fb4ee; --vac:#f0957f; --both:#e3a869; }}
 }}
 * {{ box-sizing:border-box; }}
 body {{ margin:0; background:var(--bg); color:var(--fg);
@@ -1237,6 +1384,8 @@ h2.month {{ margin:30px 0 4px; padding-bottom:6px; border-bottom:2px solid var(-
 .badge.sfca {{ color:var(--sfca); }}
 .badge.capmod {{ color:var(--capmod); }}
 .badge.lib {{ color:var(--lib); }}
+
+.badge.vac {{ color:var(--vac); }}
 .badge.both {{ color:var(--both); }}
 .links {{ font-size:.9rem; margin-top:.35rem; }}
 .src {{ font-size:.78rem; margin-top:.4rem; color:var(--muted); }}
@@ -1250,8 +1399,9 @@ a {{ color:var(--accent); }}
 {body}
 <footer>
   <p>Generated {_e(generated)}. Aggregated from the
-  <a href="{SFCA_BASE}/" rel="noopener">Hawai\u02bbi State Foundation on Culture and the Arts</a>
-  and <a href="{CAPMOD_BASE}/events" rel="noopener">Capitol Modern: the Hawai\u02bbi State Art Museum</a>.
+  <a href="{SFCA_BASE}/" rel="noopener">Hawai\u02bbi State Foundation on Culture and the Arts</a>,
+  <a href="{CAPMOD_BASE}/events" rel="noopener">Capitol Modern: the Hawai\u02bbi State Art Museum</a>,
+  and <a href="{VAC_BASE}/" rel="noopener">Volcano Art Center</a>.
   This is an unofficial, automatically updated aggregator; always confirm details on the
   source page. Inclusion is not an endorsement.</p>
 </footer>
@@ -1290,6 +1440,8 @@ def render_site(months, undated, sfca_rows, providers, num_merged,
               '<span><span class="badge sfca">SFCA</span> state calendar</span>'
               '<span><span class="badge capmod">Capitol Modern</span> museum feed</span>'
               '<span><span class="badge lib">Libraries</span> public library arts programs</span>'
+
+              '<span><span class="badge vac">Volcano Art Center</span> RSS feed</span>'
               '<span><span class="badge both">merged</span> same event, multiple sources</span>'
               '</div>')
     actions = ('<div class="actions">'
@@ -1363,9 +1515,10 @@ def main() -> int:
     capmod_events, capmod_ps = collect_capitol_modern(args.offline)
     tec_events, tec_ps = collect_sfca_tec(args.offline)
     lib_events, lib_ps = collect_librarieshawaii(today, args.offline)
-    providers = [sfca_ps, capmod_ps, tec_ps, lib_ps]
+    vac_events, vac_ps = collect_volcano_art_center(today, args.offline)
+    providers = [sfca_ps, capmod_ps, tec_ps, lib_ps, vac_ps]
 
-    all_events = sfca_events + capmod_events + tec_events + lib_events
+    all_events = sfca_events + capmod_events + tec_events + lib_events + vac_events
     merged, num_merged = merge_events(all_events)
     current_month = f"{today.year:04d}-{today.month:02d}"
     months, undated = group_by_month(merged, current_month)

@@ -51,6 +51,16 @@ merged and de-duplicated, plus an iCal feed and a machine-readable
    for `--offline` builds. Library records are never merged with each other
    (two sessions of a class are distinct events).
 
+5. **Volcano Art Center** — the WordPress RSS feed at
+   `https://volcanoartcenter.org/feed/`. It's a plain blog feed (no Events
+   Calendar plugin), so each post announces one event. Dates are parsed from
+   the post title, then the description excerpt (ordinals like "October 10th"
+   and "October 3 through November 15" are normalized first); the year comes
+   from `pubDate`, rolled forward when a date would land well before
+   publication (a January workshop posted in July). Undated posts and events
+   that have already ended are dropped. Unit tests run against the offline
+   fixture in `tests/fixtures/` (`python3 -m unittest discover -s tests`).
+
 ## Tests
 
 ```sh
@@ -68,15 +78,15 @@ promising each looked:
 
 **Strong — structured feed confirmed working:**
 
-- *(Hawaiʻi State Public Libraries — now implemented as source 3 above.)*
+- *(Hawaiʻi State Public Libraries — now implemented as source 4 above.)*
 
 **Worth a closer look — same WordPress stack, not yet API-verified:**
 
-- **ʻIolani Palace** (`iolanipalace.org`) and **Volcano Art Center**
-  (`volcanoartcenter.org`) both fingerprint as WordPress with an RSS feed
-  present; neither was checked yet for a `/wp-json/tribe/events/v1/events`
+- **ʻIolani Palace** (`iolanipalace.org`) fingerprints as WordPress with an
+  RSS feed present (Volcano Art Center, the other such site, is now
+  implemented from its RSS feed); it wasn't checked yet for a `/wp-json/tribe/events/v1/events`
   endpoint the way the library site and SFCA's own `/events/` page have. If
-  either runs The Events Calendar too, it's the same easy integration as
+  it runs The Events Calendar too, it's the same easy integration as
   above.
 - **SFCA's own `/events/` page** — now implemented as a supplementary source
   (`SFCA Events`) via its open TEC REST API,
@@ -104,7 +114,7 @@ roundup already captures their headline events.
 
 ## Merge & dedupe
 
-All events from both sources feed one list, then duplicates are clustered:
+All events from all five sources feed one list, then duplicates are clustered:
 
 - **Two concrete instances** (both have a specific date) merge only when they
   share the **same local start date** *and* a strong title match. This keeps
@@ -169,7 +179,7 @@ Inclusion is not an endorsement.
 ## Layout
 
 ```
-scripts/fetch_and_build.py   fetch (both sources) + merge/dedupe + build
+scripts/fetch_and_build.py   fetch (all sources) + merge/dedupe + build
 data/raw/*.html              archived source pages
 data/events.json             structured, merged events (canonical copy)
 site/                        generated static site (index, per-month, .ics, .json)

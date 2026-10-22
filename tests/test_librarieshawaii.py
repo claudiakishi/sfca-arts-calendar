@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import datetime as dt
 import json
+import itertools
 import shutil
 import sys
 import tempfile
@@ -106,6 +107,17 @@ class ParseTest(unittest.TestCase):
 
 
 class MergeTest(unittest.TestCase):
+    def test_other_source_cannot_bridge_distinct_library_sessions(self):
+        ev = fb.parse_librarieshawaii([by_id(load_fixture(), 267143)])[0]
+        later = fb.Event(**{**ev.__dict__, "uid_seed": ev.uid_seed + "|pm",
+                            "dt_start_utc": "2026-10-06T03:00:00Z"})
+        summary = fb.Event(**{**ev.__dict__, "provider": "SFCA",
+                              "uid_seed": "sfca-summary"})
+        for order in itertools.permutations([ev, later, summary]):
+            with self.subTest(order=[e.uid_seed for e in order]):
+                merged, num = fb.merge_events(list(order))
+                self.assertEqual((len(merged), num), (2, 1))
+
     def test_two_library_sessions_on_same_day_stay_separate(self):
         ev = fb.parse_librarieshawaii([by_id(load_fixture(), 267143)])[0]
         later = fb.Event(**{**ev.__dict__, "uid_seed": ev.uid_seed + "|pm",

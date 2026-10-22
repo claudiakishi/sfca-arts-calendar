@@ -1113,6 +1113,11 @@ def merge_events(events: list[Event]) -> tuple[list[Event], int]:
     clusters: list[list[Event]] = []
     for ev in events:
         for cl in clusters:
+            # A summary from another source must not bridge two distinct
+            # library sessions that would never merge directly.
+            if ev.provider == LIB_PROVIDER and any(
+                    member.provider == LIB_PROVIDER for member in cl):
+                continue
             if _same_event(ev, cl[0]):
                 cl.append(ev)
                 break

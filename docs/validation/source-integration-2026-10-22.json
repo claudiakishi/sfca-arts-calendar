@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-22",
+  "implementation_commit": "539c80d",
+  "unit_tests": {
+    "passed": 54,
+    "command": "python3 -m unittest discover -s tests"
+  },
+  "reviews": {
+    "spec": "accepted",
+    "standards": "accepted"
+  },
+  "live_new_sources": {
+    "libraries": {
+      "events": 65,
+      "status": "ok",
+      "detail": "65 arts/culture programs"
+    },
+    "volcano": {
+      "events": 6,
+      "status": "ok",
+      "detail": "6 upcoming events"
+    }
+  },
+  "preview": {
+    "events": 78,
+    "ics_entries": 82,
+    "months": 4,
+    "sources": [
+      {
+        "name": "SFCA",
+        "status": "error",
+        "detail": "October 2026: offline: no archived HTML; November 2026: offline: no archived HTML; December 2026: offline: no archived HTML"
+      },
+      {
+        "name": "Capitol Modern",
+        "status": "ok",
+        "detail": "6 upcoming events"
+      },
+      {
+        "name": "SFCA Events",
+        "status": "ok",
+        "detail": "1 events"
+      },
+      {
+        "name": "Libraries",
+        "status": "ok",
+        "detail": "65 arts/culture programs"
+      },
+      {
+        "name": "Volcano Art Center",
+        "status": "ok",
+        "detail": "6 upcoming events"
+      }
+    ]
+  },
+  "browser": [
+    {
+      "name": "desktop",
+      "layout": {
+        "width": 1280,
+        "scrollWidth": 1280,
+        "title": "Hawai\u02bbi Arts & Culture Calendar",
+        "cards": 78,
+        "links": 0,
+        "headings": [
+          "October 2026",
+          "November 2026",
+          "December 2026",
+          "January 2027"
+        ],
+        "footer": "Generated 2026-10-22 verification preview. Aggregated from the Hawai\u02bbi State Foundation on Culture and the Arts, Capitol Modern: the Hawai\u02bbi State Art Museum, Hawai\u02bbi State Public Libraries, and Volcano Art Center. This is an unofficial, automatically updated aggregator; always confirm details on the source page. Inclusion is not an endorsement."
+      },
+      "errors": []
+    },
+    {
+      "name": "phone",
+      "layout": {
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "Hawai\u02bbi Arts & Culture Calendar",
+        "cards": 78,
+        "links": 0,
+        "headings": [
+          "October 2026",
+          "November 2026",
+          "December 2026",
+          "January 2027"
+        ],
+        "footer": "Generated 2026-10-22 verification preview. Aggregated from the Hawai\u02bbi State Foundation on Culture and the Arts, Capitol Modern: the Hawai\u02bbi State Art Museum, Hawai\u02bbi State Public Libraries, and Volcano Art Center. This is an unofficial, automatically updated aggregator; always confirm details on the source page. Inclusion is not an endorsement."
+      },
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "SFCA monthly, Capitol Modern and SFCA TEC used existing local archives; this was not a full live refresh.",
+    "Preview only; production Pages deployment was not performed."
+  ]
+}

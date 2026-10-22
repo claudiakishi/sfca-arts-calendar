@@ -127,6 +127,15 @@ All events from all five sources feed one list, then duplicates are clustered:
 - Merged events keep **every** contributing source with a link back, and prefer
   the most precise record (a timed Capitol Modern event over an all-day SFCA
   one) for the displayed date/time.
+- Separate library records stay separate, even when another source's summary
+  matches both sessions.
+
+Library pagination must finish within its configured page limit. Incomplete or
+malformed library and Volcano responses use the previous archive and report
+partial status. Validated archives replace the previous file atomically, so a
+failed write cannot truncate the fallback. Volcano posts with multiple class
+series stay listed until the last advertised series ends; their displayed dates
+retain each range.
 
 SFCA also lists some events under two categories (e.g. "Drawn to Music"); those
 are de-duplicated to a single event too.

@@ -1195,7 +1195,8 @@ def write_events_json(months, undated, providers, generated) -> None:
         "attribution": (
             "Event information aggregated from the Hawai\u02bbi State Foundation "
             "on Culture and the Arts (SFCA), Capitol Modern: the Hawai\u02bbi "
-            "State Art Museum, and Volcano Art Center. Unofficial mirror; confirm details at the source."
+            "State Art Museum, Hawaiʻi State Public Libraries, and Volcano Art Center. "
+            "Unofficial mirror; confirm details at the source."
         ),
         "months": [
             {"month": key, "label": label, "events": [dump(e) for e in evs]}
@@ -1437,6 +1438,7 @@ a {{ color:var(--accent); }}
   <p>Generated {_e(generated)}. Aggregated from the
   <a href="{SFCA_BASE}/" rel="noopener">Hawai\u02bbi State Foundation on Culture and the Arts</a>,
   <a href="{CAPMOD_BASE}/events" rel="noopener">Capitol Modern: the Hawai\u02bbi State Art Museum</a>,
+  <a href="{LIB_BASE}/" rel="noopener">Hawaiʻi State Public Libraries</a>,
   and <a href="{VAC_BASE}/" rel="noopener">Volcano Art Center</a>.
   This is an unofficial, automatically updated aggregator; always confirm details on the
   source page. Inclusion is not an endorsement.</p>

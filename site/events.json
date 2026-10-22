@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-05 03:26 UTC",
+  "generated": "2026-10-22 14:30 UTC",
   "sources": [
     {
       "name": "SFCA",
       "status": "error",
-      "detail": "September 2026: not published yet (404); October 2026: not published yet (404); November 2026: not published yet (404)"
+      "detail": "October 2026: not published yet (404); November 2026: not published yet (404); December 2026: not published yet (404)"
     },
     {
       "name": "Capitol Modern",
@@ -15,8 +15,43 @@
   "attribution": "Event information aggregated from the Hawaiʻi State Foundation on Culture and the Arts (SFCA) and Capitol Modern: the Hawaiʻi State Art Museum. Unofficial mirror; confirm details at the source.",
   "months": [
     {
-      "month": "2026-09",
-      "label": "September 2026",
+      "month": "2026-10",
+      "label": "October 2026",
+      "events": [
+        {
+          "title": "Bayanihan Closing Celebration & Concert",
+          "description": "Wrap up Filipino American History Month with an evening of music, storytelling, dance, art, and cultural connection! Musical performances by Kaylee Shimizu (The Voice) and Ragamuffs, a fashion and art showcase by Raymund A. Maravilla, a live talk story with Professor Roderick Labrador and actor Dante Basco, and a special dance performance by Tekniqlingz. Explore the Sari-Sari Market by Art+Flea and join Jimmy Tablante for Malikhain na Pagpipinta, a hands-on watercolor painting workshop.",
+          "category": "Capitol Modern",
+          "provider": "Capitol Modern",
+          "sources": [
+            {
+              "name": "Capitol Modern",
+              "url": "https://www.capitolmodern.org/events/fahm-night",
+              "label": "capitolmodern.org"
+            }
+          ],
+          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
+          "date_start": "2026-10-24",
+          "date_end": "2026-10-24",
+          "date_display": "October 24, 2026",
+          "time_display": "5:00 PM - 9:00 PM HST",
+          "dt_start_utc": "2026-10-25T03:00:00.000Z",
+          "dt_end_utc": "2026-10-25T07:00:00.000Z",
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (Capitol Modern)",
+              "href": "https://www.capitolmodern.org/events/fahm-night"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/fahm-night"
+        }
+      ]
+    },
+    {
+      "month": "2026-11",
+      "label": "November 2026",
       "events": [
         {
           "title": "First Friday",
@@ -26,125 +61,26 @@
           "sources": [
             {
               "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/first-fridays-09-04-2026",
+              "url": "https://www.capitolmodern.org/events/first-fridays-11-06-2026",
               "label": "capitolmodern.org"
             }
           ],
           "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-09-04",
-          "date_end": "2026-09-04",
-          "date_display": "September 4, 2026",
-          "time_display": "5:30 PM - 9:30 PM HST",
-          "dt_start_utc": "2026-09-05T03:30:00.000Z",
-          "dt_end_utc": "2026-09-05T07:30:00.000Z",
+          "date_start": "2026-11-06",
+          "date_end": "2026-10-14",
+          "date_display": "November 6, 2026",
+          "time_display": "5:30 PM HST",
+          "dt_start_utc": "2026-11-07T03:30:00.000Z",
+          "dt_end_utc": "2026-10-15T07:30:00.000Z",
           "recurring": true,
           "links": [
             {
               "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/first-fridays-09-04-2026"
+              "href": "https://www.capitolmodern.org/events/first-fridays-11-06-2026"
             }
           ],
           "fallback_month": null,
-          "uid_seed": "capmod|/events/first-fridays-09-04-2026"
-        },
-        {
-          "title": "Quick Draw: Portrait Workshop",
-          "description": "Join us for a free creative experience in the gallery! Artist and teacher Jodie Chock will give a mini-lesson in drawing portraits. Explore the Schaefer Portrait Challenge and Art in Public Places: Contemporary Portraiture exhibits, then get mini-lessons in how to draw your own portraits. Free workshop, registration required on Eventbrite. Ages 21 and over.",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/quick-draw-portrait-workshop",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-09-05",
-          "date_end": "2026-09-05",
-          "date_display": "September 5, 2026",
-          "time_display": "11:00 AM - 1:00 PM HST",
-          "dt_start_utc": "2026-09-05T21:00:00.000Z",
-          "dt_end_utc": "2026-09-05T23:00:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/quick-draw-portrait-workshop"
-            },
-            {
-              "text": "Tickets / registration",
-              "href": "https://www.eventbrite.com/e/quick-draw-portrait-workshop-tickets-1997506202824?aff=oddtdtcreator"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/quick-draw-portrait-workshop"
-        },
-        {
-          "title": "Resurface: Convergence Dance Theatre performance",
-          "description": "Dance performance in the \\",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/resurface-convergence-dance-theatre-performance",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-09-05",
-          "date_end": "2026-09-05",
-          "date_display": "September 5, 2026",
-          "time_display": "2:00 PM - 3:00 PM HST",
-          "dt_start_utc": "2026-09-06T00:00:00.000Z",
-          "dt_end_utc": "2026-09-06T01:00:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/resurface-convergence-dance-theatre-performance"
-            },
-            {
-              "text": "Tickets / registration",
-              "href": "https://www.eventbrite.com/e/resurface-convergence-dance-theatre-tickets-1997641678034"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/resurface-convergence-dance-theatre-performance"
-        },
-        {
-          "title": "Film screening: Remathau, People of the Ocean",
-          "description": "Film screening of \\",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/film-screening-remathau-people-of-the-ocean",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-09-12",
-          "date_end": "2026-09-12",
-          "date_display": "September 12, 2026",
-          "time_display": "6:00 PM - 8:00 PM HST",
-          "dt_start_utc": "2026-09-13T04:00:00.000Z",
-          "dt_end_utc": "2026-09-13T06:00:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/film-screening-remathau-people-of-the-ocean"
-            },
-            {
-              "text": "Tickets / registration",
-              "href": "https://www.eventbrite.com/e/film-screening-remathau-people-of-the-ocean-tickets-1999737401399?aff=oddtdtcreator"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/film-screening-remathau-people-of-the-ocean"
+          "uid_seed": "capmod|/events/first-fridays-11-06-2026"
         },
         {
           "title": "Island Pulse",
@@ -154,55 +90,119 @@
           "sources": [
             {
               "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/island-pulse-09-18-2026",
+              "url": "https://www.capitolmodern.org/events/island-pulse-11-20-2026",
               "label": "capitolmodern.org"
             }
           ],
           "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-09-18",
-          "date_end": "2026-09-18",
-          "date_display": "September 18, 2026",
+          "date_start": "2026-11-20",
+          "date_end": "2026-11-20",
+          "date_display": "November 20, 2026",
           "time_display": "5:30 PM - 9:30 PM HST",
-          "dt_start_utc": "2026-09-19T03:30:00.000Z",
-          "dt_end_utc": "2026-09-19T07:30:00.000Z",
+          "dt_start_utc": "2026-11-21T03:30:00.000Z",
+          "dt_end_utc": "2026-11-21T07:30:00.000Z",
           "recurring": true,
           "links": [
             {
               "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/island-pulse-09-18-2026"
+              "href": "https://www.capitolmodern.org/events/island-pulse-11-20-2026"
             }
           ],
           "fallback_month": null,
-          "uid_seed": "capmod|/events/island-pulse-09-18-2026"
+          "uid_seed": "capmod|/events/island-pulse-11-20-2026"
         },
         {
-          "title": "Look & Listen: Poetry, Storytelling and Book Art",
-          "description": "Free family-friendly celebration of poetry, storytelling, and books. Storytime and book art display, hands-on art activities, and live poetry readings. A partnership with Bess Press publishing.",
+          "title": "Super Saturday (November 2026)",
+          "description": "Hands-on art activities for all ages. Free admission.",
           "category": "Capitol Modern",
           "provider": "Capitol Modern",
           "sources": [
             {
               "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/look-and-listen-poetry-storytelling-and-book-art",
+              "url": "https://www.capitolmodern.org/events/super-saturday-november-2026",
               "label": "capitolmodern.org"
             }
           ],
           "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-09-19",
-          "date_end": "2026-09-19",
-          "date_display": "September 19, 2026",
-          "time_display": "10:00 AM - 2:00 PM HST",
-          "dt_start_utc": "2026-09-19T20:00:00.000Z",
-          "dt_end_utc": "2026-09-20T00:00:00.000Z",
+          "date_start": "2026-11-21",
+          "date_end": "2026-11-21",
+          "date_display": "November 21, 2026",
+          "time_display": "11:00 AM - 3:00 PM HST",
+          "dt_start_utc": "2026-11-21T21:00:00.000Z",
+          "dt_end_utc": "2026-11-22T01:00:00.000Z",
           "recurring": true,
           "links": [
             {
               "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/look-and-listen-poetry-storytelling-and-book-art"
+              "href": "https://www.capitolmodern.org/events/super-saturday-november-2026"
             }
           ],
           "fallback_month": null,
-          "uid_seed": "capmod|/events/look-and-listen-poetry-storytelling-and-book-art"
+          "uid_seed": "capmod|/events/super-saturday-november-2026"
+        }
+      ]
+    },
+    {
+      "month": "2026-12",
+      "label": "December 2026",
+      "events": [
+        {
+          "title": "First Friday",
+          "description": "An evening of art and music at Capitol Modern: the Hawai'i State Art Museum! Free admission, all ages welcome.",
+          "category": "Capitol Modern",
+          "provider": "Capitol Modern",
+          "sources": [
+            {
+              "name": "Capitol Modern",
+              "url": "https://www.capitolmodern.org/events/first-fridays-12-04-2026",
+              "label": "capitolmodern.org"
+            }
+          ],
+          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
+          "date_start": "2026-12-04",
+          "date_end": "2026-11-11",
+          "date_display": "December 4, 2026",
+          "time_display": "5:30 PM HST",
+          "dt_start_utc": "2026-12-05T03:30:00.000Z",
+          "dt_end_utc": "2026-11-12T07:30:00.000Z",
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (Capitol Modern)",
+              "href": "https://www.capitolmodern.org/events/first-fridays-12-04-2026"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/first-fridays-12-04-2026"
+        },
+        {
+          "title": "Island Pulse",
+          "description": "Free, all-ages evening of island roots and reggae music. Museum galleries are open and the Art + Flea urban market will include local artists and food/beverage vendors.",
+          "category": "Capitol Modern",
+          "provider": "Capitol Modern",
+          "sources": [
+            {
+              "name": "Capitol Modern",
+              "url": "https://www.capitolmodern.org/events/island-pulse-12-18-2026",
+              "label": "capitolmodern.org"
+            }
+          ],
+          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
+          "date_start": "2026-12-18",
+          "date_end": "2026-12-18",
+          "date_display": "December 18, 2026",
+          "time_display": "5:30 PM - 9:30 PM HST",
+          "dt_start_utc": "2026-12-19T03:30:00.000Z",
+          "dt_end_utc": "2026-12-19T07:30:00.000Z",
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (Capitol Modern)",
+              "href": "https://www.capitolmodern.org/events/island-pulse-12-18-2026"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/island-pulse-12-18-2026"
         }
       ]
     }

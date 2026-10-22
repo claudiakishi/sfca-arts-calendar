@@ -696,6 +696,16 @@ def _vac_dates(title: str, desc: str, published: dt.date) -> dict | None:
         dates = []
         for match in sorted(ranges + singles, key=lambda m: m.start()):
             d = extract_dates(match.group(0), published.year)
+            if match.re is _RANGE_RE:
+                start_month, start_day, end_month, end_day, year = match.groups()
+                if (year and end_month
+                        and MONTH_NUM[end_month.lower()] < MONTH_NUM[start_month.lower()]):
+                    # A year following a cross-year range belongs to its end:
+                    # "December 20 – January 10, 2027" begins in 2026.
+                    d["date_start"] = _mk_date(MONTH_NUM[start_month.lower()],
+                                               int(start_day), int(year) - 1)
+                    d["date_end"] = _mk_date(MONTH_NUM[end_month.lower()],
+                                             int(end_day), int(year))
             if not d["date_start"] or not d["date_end"]:
                 continue
             roll = published - dt.timedelta(days=VAC_YEAR_ROLL_DAYS)

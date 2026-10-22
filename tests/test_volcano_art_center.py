@@ -77,6 +77,18 @@ class ParseVolcanoArtCenterTest(unittest.TestCase):
         dates = fb._vac_dates("January 10, 2026", "", dt.date(2026, 7, 1))
         self.assertEqual(dates["date_start"], "2026-01-10")
 
+    def test_cross_year_range_trailing_year_belongs_to_end(self):
+        dates = fb._vac_dates("Exhibition December 20 – January 10, 2027", "",
+                              dt.date(2026, 12, 1))
+        self.assertEqual(dates["date_start"], "2026-12-20")
+        self.assertEqual(dates["date_end"], "2027-01-10")
+
+    def test_cross_year_range_without_year_uses_publication_year(self):
+        dates = fb._vac_dates("Exhibition December 20 – January 10", "",
+                              dt.date(2026, 12, 1))
+        self.assertEqual(dates["date_start"], "2026-12-20")
+        self.assertEqual(dates["date_end"], "2027-01-10")
+
     def test_undated_and_past_posts_are_dropped(self):
         titles = " ".join(e.title for e in self.events)
         self.assertNotIn("Worth Of Water", titles)  # 2023 post

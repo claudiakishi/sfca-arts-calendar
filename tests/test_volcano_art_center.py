@@ -2,8 +2,10 @@
 
 import datetime as dt
 import sys
+import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent / "scripts"))
@@ -91,6 +93,30 @@ class ParseVolcanoArtCenterTest(unittest.TestCase):
     def test_empty_channel_returns_no_events(self):
         xml = '<?xml version="1.0"?><rss version="2.0"><channel></channel></rss>'
         self.assertEqual(fb.parse_volcano_art_center(xml, TODAY), [])
+
+
+class CollectTest(unittest.TestCase):
+    def test_malformed_live_feed_preserves_and_uses_good_archive(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            raw_dir = Path(tmp)
+            archive = raw_dir / f"{fb.VAC_SLUG}.xml"
+            before = FIXTURE.read_bytes()
+            archive.write_bytes(before)
+            with mock.patch.object(fb, "RAW_DIR", raw_dir), mock.patch.object(
+                    fb, "fetch", return_value=(200, "<rss><channel>")):
+                events, status = fb.collect_volcano_art_center(TODAY, offline=False)
+            self.assertEqual(status.status, "partial")
+            self.assertGreater(len(events), 0)
+            self.assertEqual(archive.read_bytes(), before)
+
+    def test_malformed_live_feed_without_archive_is_error(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with mock.patch.object(fb, "RAW_DIR", Path(tmp)), mock.patch.object(
+                    fb, "fetch", return_value=(200, "<rss><channel>")):
+                events, status = fb.collect_volcano_art_center(TODAY, offline=False)
+            self.assertEqual(status.status, "error")
+            self.assertEqual(events, [])
+            self.assertFalse((Path(tmp) / f"{fb.VAC_SLUG}.xml").exists())
 
 
 class NormalizeDateTextTest(unittest.TestCase):

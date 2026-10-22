@@ -965,11 +965,15 @@ def collect_librarieshawaii(today: dt.date, offline: bool
     raw: list[dict] | None = None
     if not offline:
         try:
-            raw = _fetch_tec_pages(start, end)
+            candidate = _fetch_tec_pages(start, end)
+            # Validate before replacing the last usable archive.
+            parse_librarieshawaii(candidate)
             RAW_DIR.mkdir(parents=True, exist_ok=True)
-            raw_path.write_text(json.dumps({"events": raw}, ensure_ascii=False,
+            raw_path.write_text(json.dumps({"events": candidate}, ensure_ascii=False,
                                            indent=1), encoding="utf-8")
-        except (requests.RequestException, ValueError) as exc:
+            raw = candidate
+        except (requests.RequestException, ValueError, TypeError, KeyError,
+                AttributeError, OSError) as exc:
             status, note = "partial", f"fetch failed ({exc}); used archived copy"
     if raw is None:
         if not raw_path.exists():
@@ -977,7 +981,7 @@ def collect_librarieshawaii(today: dt.date, offline: bool
             return [], ProviderStatus(LIB_PROVIDER, "error", detail)
         try:
             raw = json.loads(raw_path.read_text(encoding="utf-8"))["events"]
-        except (ValueError, KeyError) as exc:
+        except (ValueError, KeyError, TypeError, OSError) as exc:
             return [], ProviderStatus(LIB_PROVIDER, "error",
                                       f"bad archive: {exc}")
     try:
@@ -994,10 +998,12 @@ def collect_librarieshawaii(today: dt.date, offline: bool
 def collect_volcano_art_center(today: dt.date, offline: bool
                                ) -> tuple[list[Event], ProviderStatus]:
     name = "Volcano Art Center"
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
     raw_path = RAW_DIR / f"{VAC_SLUG}.xml"
-    archived = (raw_path.read_text(encoding="utf-8")
-                if raw_path.exists() else None)
+    try:
+        archived = (raw_path.read_text(encoding="utf-8")
+                    if raw_path.exists() else None)
+    except OSError as exc:
+        return [], ProviderStatus(name, "error", f"cannot read archive: {exc}")
     feed_xml, status, note = None, "ok", ""
     if offline:
         if archived is None:
@@ -1006,12 +1012,15 @@ def collect_volcano_art_center(today: dt.date, offline: bool
     else:
         try:
             code, text = fetch(VAC_FEED_URL, requests.Session())
-            if code == 200 and "<rss" in text:
-                feed_xml = text
+            if code == 200:
+                parse_volcano_art_center(text, today)
+                RAW_DIR.mkdir(parents=True, exist_ok=True)
                 raw_path.write_text(text, encoding="utf-8")
+                feed_xml = text
             else:
                 note = f"HTTP {code}"
-        except requests.RequestException as exc:
+        except (requests.RequestException, ValueError, ET.ParseError,
+                TypeError, OSError) as exc:
             note = f"fetch failed: {exc}"
         if feed_xml is None:
             if archived is None:

@@ -198,6 +198,25 @@ class CollectOfflineTest(unittest.TestCase):
         self.assertIn("Lauhala Weaving Class", titles)
         self.assertEqual(len(events), 5)
 
+    def test_bad_live_data_preserves_and_uses_good_archive(self):
+        archive = self.tmp / f"{fb.LIB_SLUG}.json"
+        before = archive.read_bytes()
+        invalid = dict(by_id(load_fixture(), 267143), start_date="invalid")
+        with mock.patch.object(fb, "RAW_DIR", self.tmp), mock.patch.object(
+                fb, "_fetch_tec_pages", return_value=[invalid]):
+            events, status = fb.collect_librarieshawaii(dt.date(2026, 10, 5), offline=False)
+        self.assertEqual(status.status, "partial")
+        self.assertEqual(len(events), 5)
+        self.assertEqual(archive.read_bytes(), before)
+
+    def test_incomplete_live_fetch_uses_good_archive(self):
+        with mock.patch.object(fb, "RAW_DIR", self.tmp), mock.patch.object(
+                fb, "_fetch_tec_pages", side_effect=ValueError("page limit")):
+            events, status = fb.collect_librarieshawaii(dt.date(2026, 10, 5), offline=False)
+        self.assertEqual(status.status, "partial")
+        self.assertIn("page limit", status.detail)
+        self.assertEqual(len(events), 5)
+
     def test_offline_without_archive_is_an_error(self):
         empty = Path(tempfile.mkdtemp())
         try:

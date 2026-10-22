@@ -43,7 +43,7 @@ merged and de-duplicated, plus an iCal feed and a machine-readable
 4. **Hawaiʻi State Public Libraries** — The Events Calendar plugin's open REST
    API at `https://www.librarieshawaii.org/wp-json/tribe/events/v1/events`.
    It carries every branch program statewide, so the builder queries only
-   arts-leaning TEC categories (`culture`, `music`, `author-reading`,
+   arts-leaning TEC categories (`culture`, `music`, `author-talk`,
    `poetry`, `photography`, `history`) for today through the end of the SFCA
    window, then drops kids' storytime, games, and similar programs by
    category and title keyword (see `LIB_*` constants and `is_arts_event`).

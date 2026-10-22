@@ -111,7 +111,7 @@ LIB_PER_PAGE = 50
 LIB_MAX_PAGES = 20
 LIB_DESC_MAX = 400
 # TEC category slugs that signal arts/culture programming (queried server-side).
-LIB_ARTS_CATEGORIES = ("culture", "music", "author-reading", "poetry",
+LIB_ARTS_CATEGORIES = ("culture", "music", "author-talk", "poetry",
                        "photography", "history")
 # Any of these disqualifies an event: kids' programs, games, tech help, etc.
 LIB_EXCLUDE_CATEGORIES = {"storytime-for-kids", "games", "computer-classes",
@@ -838,7 +838,7 @@ def tec_events_url(start: dt.date, end: dt.date, page: int = 1) -> str:
 def is_arts_event(ev: dict) -> bool:
     """True for arts/culture programs; drops storytime, games, keiki, etc."""
     cats = {c.get("slug") for c in ev.get("categories") or []}
-    if not cats & set(LIB_ARTS_CATEGORIES) or cats & LIB_EXCLUDE_CATEGORIES:
+    if not cats & (set(LIB_ARTS_CATEGORIES) | {"author-reading"}) or cats & LIB_EXCLUDE_CATEGORIES:
         return False
     title = html.unescape(ev.get("title") or "").lower()
     return not any(word in title for word in LIB_EXCLUDE_TITLE_WORDS)

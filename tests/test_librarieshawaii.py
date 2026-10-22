@@ -44,6 +44,11 @@ class ArtsFilterTest(unittest.TestCase):
             with self.subTest(eid=eid):
                 self.assertFalse(fb.is_arts_event(by_id(self.raw, eid)))
 
+    def test_current_author_talk_and_legacy_archive_category_are_kept(self):
+        for slug in ("author-talk", "author-reading"):
+            ev = dict(by_id(self.raw, 267143), categories=[{"slug": slug}])
+            self.assertTrue(fb.is_arts_event(ev))
+
     def test_keiki_title_is_excluded_even_with_arts_category(self):
         ev = dict(by_id(self.raw, 267143), title="Keiki Writing Circle")
         self.assertFalse(fb.is_arts_event(ev))
@@ -120,6 +125,13 @@ class UrlTest(unittest.TestCase):
         self.assertEqual(q["end_date"], ["2026-12-31"])
         self.assertEqual(q["page"], ["2"])
         self.assertEqual(set(q["categories"][0].split(",")), set(fb.LIB_ARTS_CATEGORIES))
+
+    def test_live_query_uses_current_author_category(self):
+        # The public API rejects the retired author-reading slug (HTTP 400).
+        query = parse_qs(urlparse(fb.tec_events_url(
+            dt.date(2026, 10, 22), dt.date(2026, 12, 31))).query)
+        self.assertIn("author-talk", query["categories"][0].split(","))
+        self.assertNotIn("author-reading", query["categories"][0].split(","))
 
     def test_window_runs_to_end_of_sfca_horizon(self):
         start, end = fb.librarieshawaii_window(dt.date(2026, 11, 20))

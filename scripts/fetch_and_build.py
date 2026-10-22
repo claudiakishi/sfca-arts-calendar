@@ -938,15 +938,23 @@ def _fetch_tec_pages(start: dt.date, end: dt.date) -> list[dict]:
     for page in range(1, LIB_MAX_PAGES + 1):
         code, text = fetch(tec_events_url(start, end, page), session)
         if code != 200:
-            # TEC answers 400 for a page past the end; treat that as done.
-            if page > 1 and code == 400:
-                break
             raise requests.RequestException(f"HTTP {code} on page {page}")
         data = json.loads(text)
-        raw.extend(slim_tec_event(e) for e in data.get("events") or [])
-        if page >= int(data.get("total_pages") or 1):
-            break
-    return raw
+        if not isinstance(data, dict) or not isinstance(data.get("events"), list):
+            raise ValueError(f"invalid events response on page {page}")
+        total_pages = data.get("total_pages")
+        if (type(total_pages) is not int or total_pages < 0
+                or (total_pages == 0 and data["events"])):
+            raise ValueError(f"invalid total_pages on page {page}")
+        if total_pages > LIB_MAX_PAGES:
+            raise ValueError(f"{total_pages} pages exceed limit {LIB_MAX_PAGES}")
+        try:
+            raw.extend(slim_tec_event(e) for e in data["events"])
+        except (AttributeError, TypeError) as exc:
+            raise ValueError(f"invalid event on page {page}: {exc}") from exc
+        if page >= total_pages:
+            return raw
+    raise ValueError("incomplete library pagination")
 
 
 def collect_librarieshawaii(today: dt.date, offline: bool

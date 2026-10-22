@@ -151,6 +151,36 @@ class UrlTest(unittest.TestCase):
         self.assertEqual(end, dt.date(2027, 1, 31))
 
 
+class PaginationTest(unittest.TestCase):
+    def fetch_pages(self, responses):
+        with mock.patch.object(fb, "fetch", side_effect=responses):
+            return fb._fetch_tec_pages(dt.date(2026, 10, 22), dt.date(2026, 12, 31))
+
+    def test_reads_all_declared_pages(self):
+        first = load_fixture()[:1]
+        second = load_fixture()[1:2]
+        actual = self.fetch_pages([
+            (200, json.dumps({"events": first, "total_pages": 2})),
+            (200, json.dumps({"events": second, "total_pages": 2})),
+        ])
+        self.assertEqual([e["id"] for e in actual], [e["id"] for e in first + second])
+
+    def test_page_limit_is_failure_not_complete_result(self):
+        with mock.patch.object(fb, "LIB_MAX_PAGES", 2), self.assertRaises(ValueError):
+            self.fetch_pages([(200, '{"events": [], "total_pages": 3}')])
+
+    def test_later_http_400_is_failure(self):
+        with self.assertRaises(fb.requests.RequestException):
+            self.fetch_pages([(200, '{"events": [], "total_pages": 2}'), (400, '{}')])
+
+    def test_malformed_responses_fail_explicitly(self):
+        for data in ([], {}, {"events": {}, "total_pages": 1},
+                     {"events": [], "total_pages": "oops"},
+                     {"events": [None], "total_pages": 1}):
+            with self.subTest(data=data), self.assertRaises(ValueError):
+                self.fetch_pages([(200, json.dumps(data))])
+
+
 class CollectOfflineTest(unittest.TestCase):
     def setUp(self):
         self.tmp = Path(tempfile.mkdtemp())

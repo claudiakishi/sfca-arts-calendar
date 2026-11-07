@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06 16:45 UTC",
+  "generated": "2026-11-07 15:39 UTC",
   "sources": [
     {
       "name": "SFCA",
@@ -18,35 +18,6 @@
       "month": "2026-11",
       "label": "November 2026",
       "events": [
-        {
-          "title": "First Friday",
-          "description": "An evening of art and music at Capitol Modern: the Hawai'i State Art Museum! Free admission, all ages welcome.",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/first-fridays-11-06-2026",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-11-06",
-          "date_end": "2026-10-14",
-          "date_display": "November 6, 2026",
-          "time_display": "5:30 PM HST",
-          "dt_start_utc": "2026-11-07T03:30:00.000Z",
-          "dt_end_utc": "2026-10-15T07:30:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/first-fridays-11-06-2026"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/first-fridays-11-06-2026"
-        },
         {
           "title": "Exhibit opening: \\",
           "description": "\\",
@@ -104,6 +75,35 @@
           ],
           "fallback_month": null,
           "uid_seed": "capmod|/events/panel-discussions-i-am-an-american"
+        },
+        {
+          "title": "Reuse Runway: the Return of the Trashion Show",
+          "description": "Trash + fashion = trashion in this runway featuring creative ways to use rubbish. ",
+          "category": "Capitol Modern",
+          "provider": "Capitol Modern",
+          "sources": [
+            {
+              "name": "Capitol Modern",
+              "url": "https://www.capitolmodern.org/events/reuse-runway-the-return-of-the-trashion-show",
+              "label": "capitolmodern.org"
+            }
+          ],
+          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
+          "date_start": "2026-11-14",
+          "date_end": "2026-11-14",
+          "date_display": "November 14, 2026",
+          "time_display": "6:00 PM - 10:00 PM HST",
+          "dt_start_utc": "2026-11-15T04:00:00.000Z",
+          "dt_end_utc": "2026-11-15T08:00:00.000Z",
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (Capitol Modern)",
+              "href": "https://www.capitolmodern.org/events/reuse-runway-the-return-of-the-trashion-show"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/reuse-runway-the-return-of-the-trashion-show"
         },
         {
           "title": "Island Pulse",

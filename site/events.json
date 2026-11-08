@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07 15:39 UTC",
+  "generated": "2026-11-08 15:58 UTC",
   "sources": [
     {
       "name": "SFCA",
@@ -18,35 +18,6 @@
       "month": "2026-11",
       "label": "November 2026",
       "events": [
-        {
-          "title": "Exhibit opening: \\",
-          "description": "\\",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/exhibit-opening-i-am-an-american",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-11-07",
-          "date_end": "2026-11-07",
-          "date_display": "November 7, 2026",
-          "time_display": "10:00 AM - 12:00 PM HST",
-          "dt_start_utc": "2026-11-07T20:00:00.000Z",
-          "dt_end_utc": "2026-11-07T22:00:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/exhibit-opening-i-am-an-american"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/exhibit-opening-i-am-an-american"
-        },
         {
           "title": "Panel discussions: \\",
           "description": "Two panel discussions that highlight the service of Hawaiʻi's Nisei Soldier families. Presented by the National Veterans Network. Free admission.",
@@ -197,6 +168,35 @@
           ],
           "fallback_month": null,
           "uid_seed": "capmod|/events/first-fridays-12-04-2026"
+        },
+        {
+          "title": "Island Pulse",
+          "description": "Free, all-ages evening of island roots and reggae music. Museum galleries are open and the Art + Flea urban market will include local artists and food/beverage vendors.",
+          "category": "Capitol Modern",
+          "provider": "Capitol Modern",
+          "sources": [
+            {
+              "name": "Capitol Modern",
+              "url": "https://www.capitolmodern.org/events/island-pulse-12-18-2026",
+              "label": "capitolmodern.org"
+            }
+          ],
+          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
+          "date_start": "2026-12-18",
+          "date_end": "2026-12-18",
+          "date_display": "December 18, 2026",
+          "time_display": "5:30 PM - 9:30 PM HST",
+          "dt_start_utc": "2026-12-19T03:30:00.000Z",
+          "dt_end_utc": "2026-12-19T07:30:00.000Z",
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (Capitol Modern)",
+              "href": "https://www.capitolmodern.org/events/island-pulse-12-18-2026"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "capmod|/events/island-pulse-12-18-2026"
         }
       ]
     }

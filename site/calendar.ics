@@ -15,24 +15,8 @@ TZNAME:HST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:89ece8155ff0719bb3bd@hawaii-arts-calendar
-DTSTAMP:20261108T155814Z
-DTSTART;TZID=Pacific/Honolulu:20261108T103000
-DTEND;TZID=Pacific/Honolulu:20261115T140000
-SUMMARY:Panel discussions: \\
-DESCRIPTION:Two panel discussions that highlight the service of Hawaiʻi'
- s Nisei Soldier families. Presented by the National Veterans Network. Fr
- ee admission.  https://www.capitolmodern.org/events/panel-discussions-i-
- am-an-american  Sources: Capitol Modern https://www.capitolmodern.org/ev
- ents/panel-discussions-i-am-an-american
-LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
-URL:https://www.capitolmodern.org/events/panel-discussions-i-am-an-americ
- an
-CATEGORIES:Capitol Modern
-END:VEVENT
-BEGIN:VEVENT
 UID:2c1e6439e28647178616@hawaii-arts-calendar
-DTSTAMP:20261108T155814Z
+DTSTAMP:20261109T194852Z
 DTSTART;TZID=Pacific/Honolulu:20261114T180000
 DTEND;TZID=Pacific/Honolulu:20261114T220000
 SUMMARY:Reuse Runway: the Return of the Trashion Show
@@ -47,7 +31,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:d7f325f7fd55d4027d46@hawaii-arts-calendar
-DTSTAMP:20261108T155814Z
+DTSTAMP:20261109T194852Z
 DTSTART;TZID=Pacific/Honolulu:20261120T173000
 DTEND;TZID=Pacific/Honolulu:20261120T213000
 SUMMARY:Island Pulse
@@ -62,7 +46,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:fdea86bc2d620a0c4a03@hawaii-arts-calendar
-DTSTAMP:20261108T155814Z
+DTSTAMP:20261109T194852Z
 DTSTART;TZID=Pacific/Honolulu:20261121T110000
 DTEND;TZID=Pacific/Honolulu:20261121T150000
 SUMMARY:Super Saturday (November 2026)
@@ -76,7 +60,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:36bd1848b197ae91a93e@hawaii-arts-calendar
-DTSTAMP:20261108T155814Z
+DTSTAMP:20261109T194852Z
 DTSTART;TZID=Pacific/Honolulu:20261204T173000
 DTEND;TZID=Pacific/Honolulu:20261111T213000
 SUMMARY:First Friday
@@ -90,7 +74,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:2b3d9f0a05ca4ba17511@hawaii-arts-calendar
-DTSTAMP:20261108T155814Z
+DTSTAMP:20261109T194852Z
 DTSTART;TZID=Pacific/Honolulu:20261218T173000
 DTEND;TZID=Pacific/Honolulu:20261218T213000
 SUMMARY:Island Pulse

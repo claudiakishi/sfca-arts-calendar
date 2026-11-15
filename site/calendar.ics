@@ -16,7 +16,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:2c1e6439e28647178616@hawaii-arts-calendar
-DTSTAMP:20261114T154833Z
+DTSTAMP:20261115T020648Z
 DTSTART;TZID=Pacific/Honolulu:20261114T180000
 DTEND;TZID=Pacific/Honolulu:20261114T220000
 SUMMARY:Reuse Runway: the Return of the Trashion Show
@@ -31,7 +31,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:d7f325f7fd55d4027d46@hawaii-arts-calendar
-DTSTAMP:20261114T154833Z
+DTSTAMP:20261115T020648Z
 DTSTART;TZID=Pacific/Honolulu:20261120T173000
 DTEND;TZID=Pacific/Honolulu:20261120T213000
 SUMMARY:Island Pulse
@@ -46,7 +46,7 @@ CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
 UID:fdea86bc2d620a0c4a03@hawaii-arts-calendar
-DTSTAMP:20261114T154833Z
+DTSTAMP:20261115T020648Z
 DTSTART;TZID=Pacific/Honolulu:20261121T110000
 DTEND;TZID=Pacific/Honolulu:20261121T150000
 SUMMARY:Super Saturday (November 2026)
@@ -59,22 +59,27 @@ URL:https://www.capitolmodern.org/events/super-saturday-november-2026
 CATEGORIES:Capitol Modern
 END:VEVENT
 BEGIN:VEVENT
-UID:36bd1848b197ae91a93e@hawaii-arts-calendar
-DTSTAMP:20261114T154833Z
+UID:0a2105d34d42d0cccf86@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
 DTSTART;TZID=Pacific/Honolulu:20261204T173000
-DTEND;TZID=Pacific/Honolulu:20261111T213000
-SUMMARY:First Friday
+DTEND;TZID=Pacific/Honolulu:20261204T213000
+SUMMARY:First Friday at Capitol Modern
 DESCRIPTION:An evening of art and music at Capitol Modern: the Hawai'i St
- ate Art Museum! Free admission\, all ages welcome.  https://www.capitolm
- odern.org/events/first-fridays-12-04-2026  Sources: Capitol Modern https
- ://www.capitolmodern.org/events/first-fridays-12-04-2026
+ ate Art Museum! Free admission\, all ages welcome. This event will featu
+ re the annual Producer Showcase with Slapp Good. Please note that the mu
+ seum is closed during the day (Fourth of July state holiday observed) an
+ d will open at 5:00 p.m. for the First Friday event. Learn more  https:/
+ /www.capitolmodern.org/events/first-fridays-12-04-2026  https://www.thec
+ reativecity.org/events/b43nrgsbefmxszw  Sources: Capitol Modern https://
+ www.capitolmodern.org/events/first-fridays-12-04-2026\; The Creative Cit
+ y https://www.thecreativecity.org/events/b43nrgsbefmxszw
 LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
 URL:https://www.capitolmodern.org/events/first-fridays-12-04-2026
-CATEGORIES:Capitol Modern
+CATEGORIES:Music
 END:VEVENT
 BEGIN:VEVENT
 UID:2b3d9f0a05ca4ba17511@hawaii-arts-calendar
-DTSTAMP:20261114T154833Z
+DTSTAMP:20261115T020648Z
 DTSTART;TZID=Pacific/Honolulu:20261218T173000
 DTEND;TZID=Pacific/Honolulu:20261218T213000
 SUMMARY:Island Pulse
@@ -86,5 +91,3379 @@ DESCRIPTION:Free\, all-ages evening of island roots and reggae music. Mus
 LOCATION:Capitol Modern: the Hawaiʻi State Art Museum
 URL:https://www.capitolmodern.org/events/island-pulse-12-18-2026
 CATEGORIES:Capitol Modern
+END:VEVENT
+BEGIN:VEVENT
+UID:c8e32f5bcd7a7dc4e61e@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261116T130000
+DTEND;TZID=Pacific/Honolulu:20261116T143000
+SUMMARY:Universal Children’s Day: Writing Circle
+DESCRIPTION:Join us for a special edition of our writing circle meetup th
+ at is all about Universal Children’s Day! We will be writing and readi
+ ng original pieces about our childhood experiences. Light refreshments w
+ ill also be served.  https://www.librarieshawaii.org/event/writing-circl
+ e-6-5-7/  Sources: Libraries https://www.librarieshawaii.org/event/writi
+ ng-circle-6-5-7/
+LOCATION:Waiʻanae Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/writing-circle-6-5-7/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:08a82d5a4972c58711a8@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261116T173000
+DTEND;TZID=Pacific/Honolulu:20261116T185000
+SUMMARY:Hawaiian History Talk Story-Paniolo History
+DESCRIPTION:In the earliest days of the Kingdom\, cattle and then horses 
+ arrived on ships from faraway lands. The cattle multiplied so quickly th
+ at the Hawaiian people asked for relief from the King\, and Spanish spea
+ king Vaqueros were contracted to come to the islands and control the her
+ ds. They taught the cowboy arts to any kanaka willing to learn\, leaving
+  an indelible mark on the islands for all time.…  https://www.librarie
+ shawaii.org/event/hawaiian-history-talk-story/  Sources: Libraries https
+ ://www.librarieshawaii.org/event/hawaiian-history-talk-story/
+LOCATION:North Kohala Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/hawaiian-history-talk-story/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:526abcfa34abb8533464@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261117T170000
+DTEND;TZID=Pacific/Honolulu:20261117T183000
+SUMMARY:Empower’d Power Hour
+DESCRIPTION:A welcoming space for LGBTQ+ teens and allies to hang out\, m
+ ake new friends\, and connect with others. Come and meet new people\, pl
+ ay games\, chat\, and enjoy a supportive community at the library! This 
+ event is hosted by Empower’d Maui Nui\, Maui County’s LGBTQ+ Youth N
+ etwork and is for teens age 13-19  https://www.librarieshawaii.org/event
+ /empowerd-power-hour/2026-11-17/  Sources: Libraries https://www.librari
+ eshawaii.org/event/empowerd-power-hour/2026-11-17/
+LOCATION:Kahului Public Library (Maui)
+URL:https://www.librarieshawaii.org/event/empowerd-power-hour/2026-11-17/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:c4616be3c6b6e3a53b20@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261118T123000
+DTEND;TZID=Pacific/Honolulu:20261118T133000
+SUMMARY:Line Dancing At The Library
+DESCRIPTION:Learn line dancing at the Ewa Beach Library! Basics will be t
+ aught. Ages 14 and up.  https://www.librarieshawaii.org/event/line-danci
+ ng-at-the-library-5-2/2026-11-18/  Sources: Libraries https://www.librar
+ ieshawaii.org/event/line-dancing-at-the-library-5-2/2026-11-18/
+LOCATION:ʻEwa Beach Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/line-dancing-at-the-library-5-2
+ /2026-11-18/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:53a114b516b27b9b1109@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261118T160000
+DTEND;TZID=Pacific/Honolulu:20261118T170000
+SUMMARY:Musical Performance: Kona Aloha Singers Youth Chorus
+DESCRIPTION:Kona Aloha Singers Youth Chorus is a singing group made up of
+  students of all ages from all over Kona! They focus on singing fun\, co
+ ntemporary pop songs\, including favorites from movies! See them at the 
+ library as one of their first performances of the season. They perform s
+ everal times each season\, including performances at Keauhou Shopping Ce
+ nter\, West Hawai’i Civic Center\, and of course the…  https://www.l
+ ibrarieshawaii.org/event/musical-performance-kona-aloha-singers-youth-ch
+ orus-2/  Sources: Libraries https://www.librarieshawaii.org/event/musica
+ l-performance-kona-aloha-singers-youth-chorus-2/
+LOCATION:Kealakekua Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/musical-performance-kona-aloha-
+ singers-youth-chorus-2/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:b61be176539dc755039a@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261118T173000
+DTEND;TZID=Pacific/Honolulu:20261118T180000
+SUMMARY:Read To Me International Family Literacy Night
+DESCRIPTION:Join us for an evening of fun read-alouds\, music\, and readi
+ ng resources! Families and educators welcome! This month we will read My
+  Heart and Just Ask! Register here: RTMI & Moloka‘i Public Library Fam
+ ily Literacy Night Registration and complete a post-program survey to ta
+ ke home both titles! If you have any questions\, please email Read To Me
+  International Foundation or call/text Dannah…  https://www.librariesh
+ awaii.org/event/read-to-me-international-family-literacy-night-2/  Sourc
+ es: Libraries https://www.librarieshawaii.org/event/read-to-me-internati
+ onal-family-literacy-night-2/
+LOCATION:Molokaʻi Public Library (Molokaʻi)
+URL:https://www.librarieshawaii.org/event/read-to-me-international-family
+ -literacy-night-2/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:8d00399aaa38e82a96e7@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261118T173000
+DTEND;TZID=Pacific/Honolulu:20261118T183000
+SUMMARY:Writer’s Night
+DESCRIPTION:We invite you to a dedicated evening for writing\, collaborat
+ ion\, and creative exchange. Work independently or share ideas with othe
+ r writers. This is our third writer’s event and we’re grateful for t
+ he interest from our local creatives! We welcome adults for this program
+ . No sign-up required. Light snacks will be provided. Generously sponsor
+ ed by Friends of the Libraries\, Kona (F.O.L.K.).  https://www.libraries
+ hawaii.org/event/writers-night/  Sources: Libraries https://www.librarie
+ shawaii.org/event/writers-night/
+LOCATION:Kealakekua Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/writers-night/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:8aadd04a40a45173fea0@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261119T100000
+DTEND;TZID=Pacific/Honolulu:20261119T110000
+SUMMARY:ʻŌlelo Hawaiʻi for Kūpuna with Kumu Gigi and La’a of Ke Ola
+  Mamo
+DESCRIPTION:Join us on the FIRST and THIRD Thursdays for Kūpuna Hour as 
+ we partner with Ke Ola Mamo to provide ʻŌlelo Hawaiʻi: Hawaiian Langu
+ age lessons and other Hawaiian cultural activities led by Kumu Gigi “V
+ irginia” Takaki and her daughter La’amea. ————————
+ — “Aloha Mai Kakou O ʻAnakē Gigi keia\, Hula\, ‘Ōlelo\, ‘Oli\
+ , Himeni (Mele)” Aunty Gigi is a musical force to be reckoned with\, s
+ pecializing in…  https://www.librarieshawaii.org/event/ke-ola-mamo-kah
+ uku-2026-2026-07-02-2/2026-11-19/  Sources: Libraries https://www.librar
+ ieshawaii.org/event/ke-ola-mamo-kahuku-2026-2026-07-02-2/2026-11-19/
+LOCATION:Kahuku Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/ke-ola-mamo-kahuku-2026-2026-07
+ -02-2/2026-11-19/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:5da3be3113f8fe110aed@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261119T140000
+DTEND;TZID=Pacific/Honolulu:20261119T160000
+SUMMARY:Happy Birthday Mickey Mouse
+DESCRIPTION:Mickey turns 98 years old this year\, let’s celebrate by cr
+ eating your own Mickey Ears! Sing Happy Birthday to Mickey and enjoy a c
+ upcake. Be sure to wear your favorite party outfit! Welcoming all aged 3
+ +. Young children must be accompanied by an adult caregiver. Advanced re
+ gistration required. Sign up online or call the library (808-323-7585) f
+ or assistance. Funding provided by Friends of the…  https://www.librar
+ ieshawaii.org/event/happy-birthday-mickey-mouse/  Sources: Libraries htt
+ ps://www.librarieshawaii.org/event/happy-birthday-mickey-mouse/
+LOCATION:Kealakekua Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/happy-birthday-mickey-mouse/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:9133788e03e604c507b7@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261119T150000
+DTEND;TZID=Pacific/Honolulu:20261119T160000
+SUMMARY:Kohala Kendama Club
+DESCRIPTION:Join the Kohala Kendama Club! Show us your tricks or learn so
+ me new ones. All levels welcome! Complete a trick card and get a prize. 
+ Bring your own Kendama or use one provided by the library.  https://www.
+ librarieshawaii.org/event/kohala-kendama-club-11-19/  Sources: Libraries
+  https://www.librarieshawaii.org/event/kohala-kendama-club-11-19/
+LOCATION:North Kohala Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/kohala-kendama-club-11-19/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:970f090e91acd5edda35@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261119T170000
+DTEND;TZID=Pacific/Honolulu:20261119T190000
+SUMMARY:3rd Annual Tiny Art Show Gallery Opening
+DESCRIPTION:Please join us for this year’s Tiny Art Show! Our opening g
+ ala will be a fun chance to show off your artwork\, see what others have
+  made\, and talk story with the community! Drop by anytime during the ev
+ ening to view the art. All are welcome. Please dress to impress! Refresh
+ ments provided by Friends of the Libraries\, Hamakua. Art from previous 
+ years’ shows will be available for purchase by donation…  https://ww
+ w.librarieshawaii.org/event/3rd-annual-tiny-art-show-gallery-opening/  S
+ ources: Libraries https://www.librarieshawaii.org/event/3rd-annual-tiny-
+ art-show-gallery-opening/
+LOCATION:Honoka‘a Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/3rd-annual-tiny-art-show-galler
+ y-opening/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:65d4ef9d91d1f1925582@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261119T170000
+DTEND;TZID=Pacific/Honolulu:20261119T200000
+SUMMARY:Silent Disco
+DESCRIPTION:Get ready to dance the night away with your friends in a uniq
+ ue and fun way. Featuring the sounds of DJ Startfromleft \, DJ Buttercut
+  \, and DJ Chuni put on your headphones\, tune in to the music\, and gro
+ ove to the beats in the stacks. This free in-person event is an inclusiv
+ e\, sensory friendly event! Join us at the Nānākuli Public Library for
+  a silent dance party like no other. To participate you…  https://www.
+ librarieshawaii.org/event/silent-disco/  Sources: Libraries https://www.
+ librarieshawaii.org/event/silent-disco/
+LOCATION:Nānākuli Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/silent-disco/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:f170501a36e4d129ef27@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261119T170000
+DTEND;TZID=Pacific/Honolulu:20261119T190000
+SUMMARY:Zine Club
+DESCRIPTION:Are you curious about zines? Zines (short for magazines) are 
+ DIY publications that anyone can create. They’re a fun way to share yo
+ ur creative ideas with the world\, and are easy to reproduce for distrib
+ ution using our library copier (copying costs will be covered during the
+  event). Work on your ideas\, bring a favorite zine to share\, and brows
+ e our zine collection for inspiration. All supplies…  https://www.libr
+ arieshawaii.org/event/zine-club-2026-03-30/2026-11-19/  Sources: Librari
+ es https://www.librarieshawaii.org/event/zine-club-2026-03-30/2026-11-19
+ /
+LOCATION:Honoka‘a Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/zine-club-2026-03-30/2026-11-19
+ /
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:84fa6da40c70c0d91421-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Who’s Coming to Dinner? — opens
+DESCRIPTION:Runs November 21 – 28\, 2026. One seat. One guest. One unfo
+ rgettable question. You have one extra seat at your Thanksgiving table. 
+ Which author\, literary character\, or historical figure would you invit
+ e\, and what ONE question would you ask? Program will be held in the Lan
+ guage\, Literature & History Reference Area.One entry per person. Open t
+ o ages 5+. Prizes will be awarded in three (3) age groups: Prize winners
+  will be…  https://www.librarieshawaii.org/event/whos-coming-to-dinner
+ /  Sources: Libraries https://www.librarieshawaii.org/event/whos-coming-
+ to-dinner/
+LOCATION:Hawai‘i State Library Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/whos-coming-to-dinner/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:84fa6da40c70c0d91421-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Who’s Coming to Dinner? — closes (last day)
+DESCRIPTION:Runs November 21 – 28\, 2026. One seat. One guest. One unfo
+ rgettable question. You have one extra seat at your Thanksgiving table. 
+ Which author\, literary character\, or historical figure would you invit
+ e\, and what ONE question would you ask? Program will be held in the Lan
+ guage\, Literature & History Reference Area.One entry per person. Open t
+ o ages 5+. Prizes will be awarded in three (3) age groups: Prize winners
+  will be…  https://www.librarieshawaii.org/event/whos-coming-to-dinner
+ /  Sources: Libraries https://www.librarieshawaii.org/event/whos-coming-
+ to-dinner/
+LOCATION:Hawai‘i State Library Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/whos-coming-to-dinner/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:a6efc211903f64b5b9a5@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261121T100000
+DTEND;TZID=Pacific/Honolulu:20261121T113000
+SUMMARY:Teen Reading Feast featuring Sunrise on the Reaping
+DESCRIPTION:Visit the dangerous world of Panem\, compete in Tribute Trivi
+ a \, and become a Victor! In November\, we conclude our book & movie exp
+ loration of Suzanne Collins’ riveting YA series. Enjoy a complimentary
+  café experience featuring baked goods\, cocoa\, and tea! Read a book o
+ f your choice OR earn points to be our Victor by : The Victor will claim
+  a Regal Theatres movie package in time for the November…  https://www
+ .librarieshawaii.org/event/teen-reading-feast-sunrise-on-the-reaping/  S
+ ources: Libraries https://www.librarieshawaii.org/event/teen-reading-fea
+ st-sunrise-on-the-reaping/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/teen-reading-feast-sunrise-on-t
+ he-reaping/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:7681b80e21e9dad4f28d@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261121T130000
+DTEND;TZID=Pacific/Honolulu:20261121T153000
+SUMMARY:Dance Like Jane Austen is Watching! A Holiday Regency Ball
+DESCRIPTION:Whether you are as light on your toes as Jane Austen herself 
+ or have two left feet like Mr. Collins\, join us for a historical aftern
+ oon of dance and music! Co-hosted by the Jane Austen Society of North Am
+ erica (JASNA) Hawai‘i Region This event will take place in the Front L
+ obby of the Hawai‘i State Library. 🎻 Festivities 🕒 Timeline No p
+ artner or experience required. Period costumes are welcome…  https://w
+ ww.librarieshawaii.org/event/dance-like-jane-austen-is-watching-a-holida
+ y-regency-ball/  Sources: Libraries https://www.librarieshawaii.org/even
+ t/dance-like-jane-austen-is-watching-a-holiday-regency-ball/
+LOCATION:Hawai‘i State Library Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/dance-like-jane-austen-is-watch
+ ing-a-holiday-regency-ball/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:cea1943aa72092e9b227@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261121T130000
+DTEND;TZID=Pacific/Honolulu:20261121T140000
+SUMMARY:Honolulu Stadium: Celebrate the 100th Anniversary
+DESCRIPTION:November marks the 100th anniversary of the opening day of Ho
+ nolulu Stadium! Art Suehiro\, author of top-selling book Honolulu Stadiu
+ m: Where Hawaii Played \, takes us down memory lane with a presentation 
+ filled with fun stories and fascinating facts. Do you have any tales of 
+ the Honolulu Stadium? Come talk story after the presentation!  https://w
+ ww.librarieshawaii.org/event/honolulu-stadium-celebrate-the-100th-annive
+ rsary/  Sources: Libraries https://www.librarieshawaii.org/event/honolul
+ u-stadium-celebrate-the-100th-anniversary/
+LOCATION:McCully-Mōʻiliʻili Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/honolulu-stadium-celebrate-the-
+ 100th-anniversary/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:5e72d349ccd742b92c42@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261123T170000
+DTEND;TZID=Pacific/Honolulu:20261123T190000
+SUMMARY:Movie Night – Free Birds
+DESCRIPTION:Please join us for a showing of Free Birds. “A pair of turk
+ eys discover a time machine and decide to use it to travel to the first 
+ Thanksgiving\, to take turkeys off the menu forever.” (imdb.com\, 2026
+ ) Program is suitable for age 5 and over. All children must be accompani
+ ed by a parent or an adult caregiver.  https://www.librarieshawaii.org/e
+ vent/movie-night-the-book-of-life-2/  Sources: Libraries https://www.lib
+ rarieshawaii.org/event/movie-night-the-book-of-life-2/
+LOCATION:Pāhoa Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/movie-night-the-book-of-life-2/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:5eadc27da570989ec4c2@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261124T160000
+DTEND;TZID=Pacific/Honolulu:20261124T173000
+SUMMARY:Cozy Crafternoon: Woodland Wonders!
+DESCRIPTION:Come enjoy a cozy afternoon of crafting with awesome autumnal
+  vibes! Make a miniature woodland scene\, then use it as a Thanksgiving 
+ centerpiece! Spaces are limited: Contact your library to make a reservat
+ ion. Young children must be accompanied by a parent or adult caregiver. 
+ This program is appropriate for ages 5+ Mahalo nui to the Friends of the
+  Libraries\, Kona (F.O.L.K.) for sponsoring this…  https://www.librari
+ eshawaii.org/event/cozy-crafternoon-woodland-wonders/  Sources: Librarie
+ s https://www.librarieshawaii.org/event/cozy-crafternoon-woodland-wonder
+ s/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/cozy-crafternoon-woodland-wonde
+ rs/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:73dd32760212584c8582@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261127T133000
+DTEND;TZID=Pacific/Honolulu:20261127T140000
+SUMMARY:West Hawaii Dance Theatre Presents: Nutcracker Sweets
+DESCRIPTION:A sweet preview of the Nutcracker Ballet\, based on E.T.A. Ho
+ ffman’s story The Nutcracker and the Mouse King—performed to the mel
+ odic music of Pyotr Ilyich Tchaikovsky\, which will be performed at the 
+ Aloha Threatre and Kahilu Theatre this December. Students from West Hawa
+ ii Dance Theatre will delight with this classic holiday story as we head
+  into the holiday season. This free program is for all…  https://www.l
+ ibrarieshawaii.org/event/west-hawaii-dance-theatre-presents-nutcracker-s
+ weets/  Sources: Libraries https://www.librarieshawaii.org/event/west-ha
+ waii-dance-theatre-presents-nutcracker-sweets/
+LOCATION:Kealakekua Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/west-hawaii-dance-theatre-prese
+ nts-nutcracker-sweets/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:83db14434200a6c523f0@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261128T100000
+DTEND;TZID=Pacific/Honolulu:20261128T120000
+SUMMARY:Needlework Social Circle
+DESCRIPTION:Love to knit or crochet? Enjoy the company of other fiber art
+ ists? Bring your own creations and see what others are doing! If you’d
+  like to attend a class\, please ask at the circulation desk for more in
+ formation!  https://www.librarieshawaii.org/event/needlework-social-circ
+ le-7/  Sources: Libraries https://www.librarieshawaii.org/event/needlewo
+ rk-social-circle-7/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/needlework-social-circle-7/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:5f26c9b8ab0d2399ee8c@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261128T100000
+DTEND;TZID=Pacific/Honolulu:20261128T113000
+SUMMARY:Up Close and Musical with Iggy Jang and the Hawaiʻi Youth Sympho
+ ny
+DESCRIPTION:Celebrate the magic of music and learning\, by attending this
+  performance of classical music by the Hawai’i Youth Symphony! Led by 
+ Iggy Jang\, the orchestra will play a variety of different pieces\, many
+  inspired (if not composed) by Hawaiian musicians. HYS f osters fun and 
+ creative experiences for youth that inspire a deep appreciation for musi
+ c and lifelong relationships within the culture of our…  https://www.l
+ ibrarieshawaii.org/event/up-close-and-musical-with-iggy-jang-and-the-haw
+ ai%ca%bbi-youth-symphony/  Sources: Libraries https://www.librarieshawai
+ i.org/event/up-close-and-musical-with-iggy-jang-and-the-hawai%ca%bbi-you
+ th-symphony/
+LOCATION:Waikīkī-Kapahulu Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/up-close-and-musical-with-iggy-
+ jang-and-the-hawai%ca%bbi-youth-symphony/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:1368911db25ea2d66113@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261130T130000
+DTEND;TZID=Pacific/Honolulu:20261130T143000
+SUMMARY:Writing Circle
+DESCRIPTION:Join us for a new self-guided writing circle that will be on 
+ every other Monday from 1-2:30 PM. This is a small circle that is a safe
+  place to practice your writing skills\, learn from others\, and share y
+ our own work\, thoughts\, and dreams.  https://www.librarieshawaii.org/e
+ vent/writing-circle-6-5-7-2/  Sources: Libraries https://www.librariesha
+ waii.org/event/writing-circle-6-5-7-2/
+LOCATION:Waiʻanae Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/writing-circle-6-5-7-2/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:7c14a8a526bd3233eefd@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261130T170000
+DTEND;TZID=Pacific/Honolulu:20261130T190000
+SUMMARY:Ti Leaf Wreaths
+DESCRIPTION:Come and make ti leaf wreaths with us! We will provide the le
+ aves and the wreath forms. If you’d like to add flowers\, please bring
+  your own. Program is suitable for ages 8 and up. All children must be a
+ ccompanied by a parent or an adult caregiver.  https://www.librarieshawa
+ ii.org/event/ti-leaf-wreaths/  Sources: Libraries https://www.librariesh
+ awaii.org/event/ti-leaf-wreaths/
+LOCATION:Pāhoa Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/ti-leaf-wreaths/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:593df7f86be8c7ee899d@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261130T173000
+DTEND;TZID=Pacific/Honolulu:20261130T190000
+SUMMARY:Talk Story with Joni Keamoai
+DESCRIPTION:Join Joni Keamoai\, author of When I Was a Keiki \, for the l
+ aunch of her new bilingual children’s book written in ʻŌlelo Ni’ih
+ au & English! Enjoy an evening of conversation and a booksigning\, plus 
+ pupus by El Gato’s Street Tacos.  https://www.librarieshawaii.org/even
+ t/talk-story-with-joni-keamoai/  Sources: Libraries https://www.librarie
+ shawaii.org/event/talk-story-with-joni-keamoai/
+LOCATION:Waimea Public Library (Kaua‘i)
+URL:https://www.librarieshawaii.org/event/talk-story-with-joni-keamoai/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:3830bbf8894dc605c53e@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261201T100000
+DTEND;TZID=Pacific/Honolulu:20261201T103000
+SUMMARY:MOVE! | A Honolulu Theatre for Youth Production
+DESCRIPTION:Wiggle\, bounce\, dance\, squiggle\, and giggle! Come explore
+  the wonderful ways our bodies move and discover how our movement can ch
+ ange the world around us. From the creative team behind HTY’s “Line\
+ , Circle\, Sphere” and “Under the Blue” comes a brand-new\, intera
+ ctive adventure made especially for our littlest movers and shakers. Thi
+ s free 30-minute event is suitable for ages 3+. Children must be…  htt
+ ps://www.librarieshawaii.org/event/hty-move-koloa/  Sources: Libraries h
+ ttps://www.librarieshawaii.org/event/hty-move-koloa/
+LOCATION:Kōloa Public Library (Kaua‘i)
+URL:https://www.librarieshawaii.org/event/hty-move-koloa/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:ab4bb8b462bf89eff7c1@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261201T144500
+DTEND;TZID=Pacific/Honolulu:20261201T151500
+SUMMARY:MOVE! | A Honolulu Theatre for Youth Production
+DESCRIPTION:Wiggle\, bounce\, dance\, squiggle\, and giggle! Come explore
+  the wonderful ways our bodies move and discover how our movement can ch
+ ange the world around us. From the creative team behind HTY’s “Line\
+ , Circle\, Sphere” and “Under the Blue” comes a brand-new\, intera
+ ctive adventure made especially for our littlest movers and shakers. Thi
+ s free 30-minute event is suitable for ages 3+. Children must be…  htt
+ ps://www.librarieshawaii.org/event/hty-move-lihue/  Sources: Libraries h
+ ttps://www.librarieshawaii.org/event/hty-move-lihue/
+LOCATION:Līhuʻe Public Library (Kaua‘i)
+URL:https://www.librarieshawaii.org/event/hty-move-lihue/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:0b05c9731759bd49cbb4@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261201T170000
+DTEND;TZID=Pacific/Honolulu:20261201T180000
+SUMMARY:Hawai‘i Ukulele Ensemble Concert
+DESCRIPTION:A new approach to ukulele music with a rich\, layered sound o
+ f familiar compositions\, “From Beatles to Bossa Nova\,” played with
+  multiple parts in precise harmony. Young children must be accompanied b
+ y caregiver. Mahalo nui to the Friends of the Libraries\, Kona (F.O.L.K.
+ ) for sponsoring this program!  https://www.librarieshawaii.org/event/ha
+ waii-ukulele-ensemble-concert/  Sources: Libraries https://www.libraries
+ hawaii.org/event/hawaii-ukulele-ensemble-concert/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/hawaii-ukulele-ensemble-concert
+ /
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:757498771f12ef340f08@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261202T120000
+DTEND;TZID=Pacific/Honolulu:20261202T123000
+SUMMARY:MOVE! | A Honolulu Theatre for Youth Production
+DESCRIPTION:Wiggle\, bounce\, dance\, squiggle\, and giggle! Come explore
+  the wonderful ways our bodies move and discover how our movement can ch
+ ange the world around us. From the creative team behind HTY’s “Line\
+ , Circle\, Sphere” and “Under the Blue” comes a brand-new\, intera
+ ctive adventure made especially for our littlest movers and shakers. Thi
+ s free 30-minute event is suitable for ages 3+. Children must be…  htt
+ ps://www.librarieshawaii.org/event/hty-move-lanai/  Sources: Libraries h
+ ttps://www.librarieshawaii.org/event/hty-move-lanai/
+LOCATION:Lāna‘i Public Library (Lāna‘i)
+URL:https://www.librarieshawaii.org/event/hty-move-lanai/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:bdac84eab8da5ed900cd@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261203T093000
+DTEND;TZID=Pacific/Honolulu:20261203T103000
+SUMMARY:Readers Group
+DESCRIPTION:Books can transport us to different places and open doors to 
+ new ways of thinking and being. Join the Readers Group at the Waialua Pu
+ blic Library to discuss the book of the month and engage in lively (and 
+ respectful) discourse with other readers. This month’s selection is: S
+ mall Things Like These by Claire Keegan From the publisher: “Small Thi
+ ngs Like These is award-winning author Claire Keegan’s…  https://www
+ .librarieshawaii.org/event/readers-group-2026dec/  Sources: Libraries ht
+ tps://www.librarieshawaii.org/event/readers-group-2026dec/
+LOCATION:Waialua Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/readers-group-2026dec/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:abd944712f5a6983054c@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261203T100000
+DTEND;TZID=Pacific/Honolulu:20261203T110000
+SUMMARY:ʻŌlelo Hawaiʻi for Kūpuna with Kumu Gigi and La’a of Ke Ola
+  Mamo
+DESCRIPTION:Join us on the FIRST and THIRD Thursdays for Kūpuna Hour as 
+ we partner with Ke Ola Mamo to provide ʻŌlelo Hawaiʻi: Hawaiian Langu
+ age lessons and other Hawaiian cultural activities led by Kumu Gigi “V
+ irginia” Takaki and her daughter La’amea. ————————
+ — “Aloha Mai Kakou O ʻAnakē Gigi keia\, Hula\, ‘Ōlelo\, ‘Oli\
+ , Himeni (Mele)” Aunty Gigi is a musical force to be reckoned with\, s
+ pecializing in…  https://www.librarieshawaii.org/event/ke-ola-mamo-kah
+ uku-2026-2026-07-02-2/2026-12-03/  Sources: Libraries https://www.librar
+ ieshawaii.org/event/ke-ola-mamo-kahuku-2026-2026-07-02-2/2026-12-03/
+LOCATION:Kahuku Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/ke-ola-mamo-kahuku-2026-2026-07
+ -02-2/2026-12-03/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:d3b24683f0d066919b26@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261203T150000
+DTEND;TZID=Pacific/Honolulu:20261203T160000
+SUMMARY:Kohala Kendama Club
+DESCRIPTION:Join the Kohala Kendama Club! Show us your tricks or learn so
+ me new ones. All levels welcome! Complete a trick card and get a prize. 
+ Bring your own Kendama or use one provided by the library.  https://www.
+ librarieshawaii.org/event/kohala-kendama-club-12-3/  Sources: Libraries 
+ https://www.librarieshawaii.org/event/kohala-kendama-club-12-3/
+LOCATION:North Kohala Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/kohala-kendama-club-12-3/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:753bb57abd83d4c7b446@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261203T163000
+DTEND;TZID=Pacific/Honolulu:20261203T183000
+SUMMARY:Hawaiian Steel Guitar – Demonstrations and Lessons
+DESCRIPTION:Back by popular demand is Daniel Tremblay of HIMELE! Listen a
+ nd learn from Daniel\, as he teaches the history of Hawaiian Steel Guita
+ rs\, and how to play. Lessons will take place in the Graphic novel nook\
+ , and instruments will be provided!  https://www.librarieshawaii.org/eve
+ nt/hawaiian-steel-guitar-demonstrations-and-lessons-2-2/2026-12-03/  Sou
+ rces: Libraries https://www.librarieshawaii.org/event/hawaiian-steel-gui
+ tar-demonstrations-and-lessons-2-2/2026-12-03/
+LOCATION:Waikīkī-Kapahulu Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/hawaiian-steel-guitar-demonstra
+ tions-and-lessons-2-2/2026-12-03/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:11e5c1b7062f79ce79d8@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261204T133000
+DTEND;TZID=Pacific/Honolulu:20261204T143000
+SUMMARY:Book Club – Gilead by Marilynne Robinson
+DESCRIPTION:“Quietly powerful [and] moving.” — O\, The Oprah Magazi
+ ne (Recommended Reading) A profound hymn of praise and lamentation\, Gil
+ ead explores the God-haunted existence of Reverend John Ames\, a man who
+  passionately embraces the beauty\, grace\, and mysteries of life as he 
+ prepares to say goodbye. A deeply moving meditation on faith\, love\, mo
+ rtality\, and the enduring human spirit\, this extraordinary…  https:/
+ /www.librarieshawaii.org/event/gilead-marilynne-robinson/  Sources: Libr
+ aries https://www.librarieshawaii.org/event/gilead-marilynne-robinson/
+LOCATION:Kahuku Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/gilead-marilynne-robinson/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:eb46dc9eaeddbf10bfc7@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261204T150000
+DTEND;TZID=Pacific/Honolulu:20261204T153000
+SUMMARY:MOVE! | A Honolulu Theatre for Youth Production
+DESCRIPTION:Wiggle\, bounce\, dance\, squiggle\, and giggle! Come explore
+  the wonderful ways our bodies move and discover how our movement can ch
+ ange the world around us. From the creative team behind HTY’s “Line\
+ , Circle\, Sphere” and “Under the Blue” comes a brand-new\, intera
+ ctive adventure made especially for our littlest movers and shakers. Thi
+ s free 30-minute event is suitable for ages 3+. Children must be…  htt
+ ps://www.librarieshawaii.org/event/hty-move-molokai/  Sources: Libraries
+  https://www.librarieshawaii.org/event/hty-move-molokai/
+LOCATION:Molokaʻi Public Library (Molokaʻi)
+URL:https://www.librarieshawaii.org/event/hty-move-molokai/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:eb3e5474eab55885e77b@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261206T130000
+DTEND;TZID=Pacific/Honolulu:20261206T153000
+SUMMARY:Pearl Harbor Remembrance Day Movie: Tora! Tora! Tora!
+DESCRIPTION:Location: Meeting Room December 7\, 2026 marks the 85th anniv
+ ersary of the Imperial Japanese naval attack on Pearl Harbor. To commemo
+ rate this historic event\, Kaimuki Public Library will be having a free 
+ screening of the World War II classic movie Tora! Tora! Tora! \, a drama
+ tization which chronicles the bombing of Pearl Harbor from both the Japa
+ nese and American points of view. This movie is rated…  https://www.li
+ brarieshawaii.org/event/pearl-harbor-remembrance-movie-tora-tora-tora/  
+ Sources: Libraries https://www.librarieshawaii.org/event/pearl-harbor-re
+ membrance-movie-tora-tora-tora/
+LOCATION:Kaimukī Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/pearl-harbor-remembrance-movie-
+ tora-tora-tora/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:78485f18f858ea1ae0df@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261208T170000
+DTEND;TZID=Pacific/Honolulu:20261208T183000
+SUMMARY:Author Visit: Tom Peek
+DESCRIPTION:Tom Peek\, Volcano author of the nationally award-winning nov
+ els Mauna Kea and Daughters of Fire \, will read from his Hawai’i nove
+ ls\, discuss the books\, and offer tips on how to jump start your own wr
+ iting projects and bring them to completion. Books will be available to 
+ purchase. Mahalo nui to the Friends of the Libraries\, Kona (F.O.L.K.) f
+ or sponsoring this program!  https://www.librarieshawaii.org/event/autho
+ r-visit-tom-peek-2/  Sources: Libraries https://www.librarieshawaii.org/
+ event/author-visit-tom-peek-2/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/author-visit-tom-peek-2/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:7c396dad0e87e78a679a@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261210T163000
+DTEND;TZID=Pacific/Honolulu:20261210T183000
+SUMMARY:Hawaiian Steel Guitar – Demonstrations and Lessons
+DESCRIPTION:Back by popular demand is Daniel Tremblay of HIMELE! Listen a
+ nd learn from Daniel\, as he teaches the history of Hawaiian Steel Guita
+ rs\, and how to play. Lessons will take place in the Graphic novel nook\
+ , and instruments will be provided!  https://www.librarieshawaii.org/eve
+ nt/hawaiian-steel-guitar-demonstrations-and-lessons-2-2/2026-12-10/  Sou
+ rces: Libraries https://www.librarieshawaii.org/event/hawaiian-steel-gui
+ tar-demonstrations-and-lessons-2-2/2026-12-10/
+LOCATION:Waikīkī-Kapahulu Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/hawaiian-steel-guitar-demonstra
+ tions-and-lessons-2-2/2026-12-10/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:45fd4dfdf8156fd9a9b2@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261214T130000
+DTEND;TZID=Pacific/Honolulu:20261214T143000
+SUMMARY:Writing Circle
+DESCRIPTION:Join us for a new self-guided writing circle that will be on 
+ every other Monday from 1-2:30 PM. This is a small circle that is a safe
+  place to practice your writing skills\, learn from others\, and share y
+ our own work\, thoughts\, and dreams.  https://www.librarieshawaii.org/e
+ vent/writing-circle-6-5-8/  Sources: Libraries https://www.librarieshawa
+ ii.org/event/writing-circle-6-5-8/
+LOCATION:Waiʻanae Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/writing-circle-6-5-8/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:531c0b5b7501606359d2@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261215T170000
+DTEND;TZID=Pacific/Honolulu:20261215T190000
+SUMMARY:Silent Disco at the Library!
+DESCRIPTION:Get ready to dance the night away with your friends in a uniq
+ ue and fun way! Featuring the sounds of local DJs \, put on your headpho
+ nes\, tune in to the music\, and groove to the beats in the stacks. This
+  free in-person event is an inclusive\, sensory-friendly experience. Joi
+ n us for a silent dance party like no other! To participate you will nee
+ d to provide a State ID that we will hold in exchange…  https://www.li
+ brarieshawaii.org/event/silent-disco-at-the-library/  Sources: Libraries
+  https://www.librarieshawaii.org/event/silent-disco-at-the-library/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/silent-disco-at-the-library/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:1ad0b9b3fe068b501077@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261217T100000
+DTEND;TZID=Pacific/Honolulu:20261217T110000
+SUMMARY:ʻŌlelo Hawaiʻi for Kūpuna with Kumu Gigi and La’a of Ke Ola
+  Mamo
+DESCRIPTION:Join us on the FIRST and THIRD Thursdays for Kūpuna Hour as 
+ we partner with Ke Ola Mamo to provide ʻŌlelo Hawaiʻi: Hawaiian Langu
+ age lessons and other Hawaiian cultural activities led by Kumu Gigi “V
+ irginia” Takaki and her daughter La’amea. ————————
+ — “Aloha Mai Kakou O ʻAnakē Gigi keia\, Hula\, ‘Ōlelo\, ‘Oli\
+ , Himeni (Mele)” Aunty Gigi is a musical force to be reckoned with\, s
+ pecializing in…  https://www.librarieshawaii.org/event/ke-ola-mamo-kah
+ uku-2026-2026-07-02-2/2026-12-17/  Sources: Libraries https://www.librar
+ ieshawaii.org/event/ke-ola-mamo-kahuku-2026-2026-07-02-2/2026-12-17/
+LOCATION:Kahuku Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/ke-ola-mamo-kahuku-2026-2026-07
+ -02-2/2026-12-17/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:9c306bd4109939380928@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261217T163000
+DTEND;TZID=Pacific/Honolulu:20261217T183000
+SUMMARY:Hawaiian Steel Guitar – Demonstrations and Lessons
+DESCRIPTION:Back by popular demand is Daniel Tremblay of HIMELE! Listen a
+ nd learn from Daniel\, as he teaches the history of Hawaiian Steel Guita
+ rs\, and how to play. Lessons will take place in the Graphic novel nook\
+ , and instruments will be provided!  https://www.librarieshawaii.org/eve
+ nt/hawaiian-steel-guitar-demonstrations-and-lessons-2-2/2026-12-17/  Sou
+ rces: Libraries https://www.librarieshawaii.org/event/hawaiian-steel-gui
+ tar-demonstrations-and-lessons-2-2/2026-12-17/
+LOCATION:Waikīkī-Kapahulu Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/hawaiian-steel-guitar-demonstra
+ tions-and-lessons-2-2/2026-12-17/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:331a23cbd35b00a0d3de@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261219T100000
+DTEND;TZID=Pacific/Honolulu:20261219T120000
+SUMMARY:Needlework Social Circle
+DESCRIPTION:Love to knit or crochet? Enjoy the company of other fiber art
+ ists? Bring your own creations and see what others are doing! If you’d
+  like to attend a class\, please ask at the circulation desk for more in
+ formation!  https://www.librarieshawaii.org/event/needlework-social-circ
+ le-8/  Sources: Libraries https://www.librarieshawaii.org/event/needlewo
+ rk-social-circle-8/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/needlework-social-circle-8/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:876ecfadb69d7a1a65c1@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261222T170000
+DTEND;TZID=Pacific/Honolulu:20261222T180000
+SUMMARY:Kamuela Philharmonic Leeward Trio
+DESCRIPTION:Celebrate the holidays with the Leeward Trio\; 3 friends who 
+ enjoy playing all genres of music including a few old standards and cont
+ emporary songs. Musicians: Gary Ross – Keyboard Sharon Cannon – Drum
+ s Lori Huff – Saxophone Young children must be accompanied by caregive
+ r. Mahalo nui to the Friends of the Libraries\, Kona (F.O.L.K.) for spon
+ soring this program!  https://www.librarieshawaii.org/event/kamuela-phil
+ harmonic-leeward-trio/  Sources: Libraries https://www.librarieshawaii.o
+ rg/event/kamuela-philharmonic-leeward-trio/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/kamuela-philharmonic-leeward-tr
+ io/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:2a7cea7883dfc969e92c@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261228T130000
+DTEND;TZID=Pacific/Honolulu:20261228T143000
+SUMMARY:Writing Circle
+DESCRIPTION:Join us for a new self-guided writing circle that will be on 
+ every other Monday from 1-2:30 PM. This is a small circle that is a safe
+  place to practice your writing skills\, learn from others\, and share y
+ our own work\, thoughts\, and dreams.  https://www.librarieshawaii.org/e
+ vent/writing-circle-6-5-8-2/  Sources: Libraries https://www.librariesha
+ waii.org/event/writing-circle-6-5-8-2/
+LOCATION:Waiʻanae Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/writing-circle-6-5-8-2/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:be341d65a86dce88a674@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261231T163000
+DTEND;TZID=Pacific/Honolulu:20261231T183000
+SUMMARY:Hawaiian Steel Guitar – Demonstrations and Lessons
+DESCRIPTION:Back by popular demand is Daniel Tremblay of HIMELE! Listen a
+ nd learn from Daniel\, as he teaches the history of Hawaiian Steel Guita
+ rs\, and how to play. Lessons will take place in the Graphic novel nook\
+ , and instruments will be provided!  https://www.librarieshawaii.org/eve
+ nt/hawaiian-steel-guitar-demonstrations-and-lessons-2-2/2026-12-31/  Sou
+ rces: Libraries https://www.librarieshawaii.org/event/hawaiian-steel-gui
+ tar-demonstrations-and-lessons-2-2/2026-12-31/
+LOCATION:Waikīkī-Kapahulu Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/hawaiian-steel-guitar-demonstra
+ tions-and-lessons-2-2/2026-12-31/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:848a26bb318b748eaa38@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270107T163000
+DTEND;TZID=Pacific/Honolulu:20270107T183000
+SUMMARY:Hawaiian Steel Guitar – Demonstrations and Lessons
+DESCRIPTION:Back by popular demand is Daniel Tremblay of HIMELE! Listen a
+ nd learn from Daniel\, as he teaches the history of Hawaiian Steel Guita
+ rs\, and how to play. Lessons will take place in the Graphic novel nook\
+ , and instruments will be provided!  https://www.librarieshawaii.org/eve
+ nt/hawaiian-steel-guitar-demonstrations-and-lessons-2-2/2027-01-07/  Sou
+ rces: Libraries https://www.librarieshawaii.org/event/hawaiian-steel-gui
+ tar-demonstrations-and-lessons-2-2/2027-01-07/
+LOCATION:Waikīkī-Kapahulu Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/hawaiian-steel-guitar-demonstra
+ tions-and-lessons-2-2/2027-01-07/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:61274d4b5de3b08e8c6a@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270114T163000
+DTEND;TZID=Pacific/Honolulu:20270114T183000
+SUMMARY:Hawaiian Steel Guitar – Demonstrations and Lessons
+DESCRIPTION:Back by popular demand is Daniel Tremblay of HIMELE! Listen a
+ nd learn from Daniel\, as he teaches the history of Hawaiian Steel Guita
+ rs\, and how to play. Lessons will take place in the Graphic novel nook\
+ , and instruments will be provided!  https://www.librarieshawaii.org/eve
+ nt/hawaiian-steel-guitar-demonstrations-and-lessons-2-2/2027-01-14/  Sou
+ rces: Libraries https://www.librarieshawaii.org/event/hawaiian-steel-gui
+ tar-demonstrations-and-lessons-2-2/2027-01-14/
+LOCATION:Waikīkī-Kapahulu Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/hawaiian-steel-guitar-demonstra
+ tions-and-lessons-2-2/2027-01-14/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:a92450ef23d7ff0e6d15@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270121T163000
+DTEND;TZID=Pacific/Honolulu:20270121T183000
+SUMMARY:Hawaiian Steel Guitar – Demonstrations and Lessons
+DESCRIPTION:Back by popular demand is Daniel Tremblay of HIMELE! Listen a
+ nd learn from Daniel\, as he teaches the history of Hawaiian Steel Guita
+ rs\, and how to play. Lessons will take place in the Graphic novel nook\
+ , and instruments will be provided!  https://www.librarieshawaii.org/eve
+ nt/hawaiian-steel-guitar-demonstrations-and-lessons-2-2/2027-01-21/  Sou
+ rces: Libraries https://www.librarieshawaii.org/event/hawaiian-steel-gui
+ tar-demonstrations-and-lessons-2-2/2027-01-21/
+LOCATION:Waikīkī-Kapahulu Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/hawaiian-steel-guitar-demonstra
+ tions-and-lessons-2-2/2027-01-21/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:4e2f085c435232342ad5@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270128T163000
+DTEND;TZID=Pacific/Honolulu:20270128T183000
+SUMMARY:Hawaiian Steel Guitar – Demonstrations and Lessons
+DESCRIPTION:Back by popular demand is Daniel Tremblay of HIMELE! Listen a
+ nd learn from Daniel\, as he teaches the history of Hawaiian Steel Guita
+ rs\, and how to play. Lessons will take place in the Graphic novel nook\
+ , and instruments will be provided!  https://www.librarieshawaii.org/eve
+ nt/hawaiian-steel-guitar-demonstrations-and-lessons-2-2/2027-01-28/  Sou
+ rces: Libraries https://www.librarieshawaii.org/event/hawaiian-steel-gui
+ tar-demonstrations-and-lessons-2-2/2027-01-28/
+LOCATION:Waikīkī-Kapahulu Public Library (O‘ahu)
+URL:https://www.librarieshawaii.org/event/hawaiian-steel-guitar-demonstra
+ tions-and-lessons-2-2/2027-01-28/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:dd561a222dd163f58b9b-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:The Shape of Water\, an exhibition of ceramic sculpture by artist
+  Stephen Freedman — opens
+DESCRIPTION:Runs October 3 – November 15\; October 3. Volcano Art Cente
+ r is pleased to present The Shape of Water\, an exhibition of ceramic sc
+ ulpture by artist Stephen Freedman\, on view October 3 through November 
+ 15 at Volcano Art Center’s gallery in Hawaiʻi Volcanoes National Park
+ . An opening reception will be held Saturday\, October 3\, from 2 to 4 p
+ .m. A third-generation ceramicist and…  https://volcanoartcenter.org/t
+ he-shape-of-water-an-exhibition-of-ceramic-sculpture-by-artist-stephen-f
+ reedman/  Sources: Volcano Art Center https://volcanoartcenter.org/the-s
+ hape-of-water-an-exhibition-of-ceramic-sculpture-by-artist-stephen-freed
+ man/
+LOCATION:Volcano Art Center Gallery\, Hawaiʻi Volcanoes National Park
+URL:https://volcanoartcenter.org/the-shape-of-water-an-exhibition-of-cera
+ mic-sculpture-by-artist-stephen-freedman/
+CATEGORIES:Exhibits
+END:VEVENT
+BEGIN:VEVENT
+UID:dd561a222dd163f58b9b-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:The Shape of Water\, an exhibition of ceramic sculpture by artist
+  Stephen Freedman — closes (last day)
+DESCRIPTION:Runs October 3 – November 15\; October 3. Volcano Art Cente
+ r is pleased to present The Shape of Water\, an exhibition of ceramic sc
+ ulpture by artist Stephen Freedman\, on view October 3 through November 
+ 15 at Volcano Art Center’s gallery in Hawaiʻi Volcanoes National Park
+ . An opening reception will be held Saturday\, October 3\, from 2 to 4 p
+ .m. A third-generation ceramicist and…  https://volcanoartcenter.org/t
+ he-shape-of-water-an-exhibition-of-ceramic-sculpture-by-artist-stephen-f
+ reedman/  Sources: Volcano Art Center https://volcanoartcenter.org/the-s
+ hape-of-water-an-exhibition-of-ceramic-sculpture-by-artist-stephen-freed
+ man/
+LOCATION:Volcano Art Center Gallery\, Hawaiʻi Volcanoes National Park
+URL:https://volcanoartcenter.org/the-shape-of-water-an-exhibition-of-cera
+ mic-sculpture-by-artist-stephen-freedman/
+CATEGORIES:Exhibits
+END:VEVENT
+BEGIN:VEVENT
+UID:cb5f32c8d4c9754763bf@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Thursday Night at the Center: Your Life Is Art\, November 19th
+DESCRIPTION:Volcano Art Center welcomes a panel of three women\, Waiʻala
+  Ahn\, Mellony Puakea Soares\, and Lynn Melena each from a different gen
+ eration\, background\, and occupation. They will share their experiences
+  of how art has been an active\, and sometimes invisible\, force through
+ out their journeys – and how you can uncover where inspiration and cre
+ ativity dwell …  https://volcanoartcenter.org/thursday-night-at-the-ce
+ nter-your-life-is-art-november-19th/  Sources: Volcano Art Center https:
+ //volcanoartcenter.org/thursday-night-at-the-center-your-life-is-art-nov
+ ember-19th/
+LOCATION:Volcano Art Center
+URL:https://volcanoartcenter.org/thursday-night-at-the-center-your-life-i
+ s-art-november-19th/
+CATEGORIES:Volcano Art Center
+END:VEVENT
+BEGIN:VEVENT
+UID:9856c6d4d97e52aeb8e8@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Memoir Writing Workshop: The Process with Kimberly Dark
+DESCRIPTION:Join Kimberly Dark for her Memoir Writing Workshop on Novembe
+ r 21st\, from 10am – 1pm. at VAC Niaulani Campus (19-4074 Old Volcano 
+ Road). Memories aren’t enough. We have to connect them to culture\, to
+  history\, to zeitgeist—and then be as clear and specific about our un
+ ique perspectives as possible. In this generative workshop\, we’ll ope
+ n …  https://volcanoartcenter.org/memoir-writing-workshop-the-process-
+ with-kimberly-dark/  Sources: Volcano Art Center https://volcanoartcente
+ r.org/memoir-writing-workshop-the-process-with-kimberly-dark/
+LOCATION:Volcano Art Center Niaulani Campus\, Volcano Village
+URL:https://volcanoartcenter.org/memoir-writing-workshop-the-process-with
+ -kimberly-dark/
+CATEGORIES:Volcano Art Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3c78f20c87b5b7484959-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Stained Glass Workshop with Linda Brooks _ Saturdays\, January 23
+ rd – February 13th — opens
+DESCRIPTION:Runs January 23 – February 13. Whimsical shapes\, illustrat
+ ive scenes or divine stories\, stained glass has re-created the light in
+  our lives for centuries. Stained glass artisans use both glass color an
+ d texture to produce light forms and patterns creating mood and characte
+ r in small and large spaces. This four-day stained-glass workshop will s
+ hed some light on the process of stained …  https://volcanoartcenter.o
+ rg/stained-glass-workshop-with-linda-brooks-call-808-967-8222-to-registe
+ r-only-2-spaces-left/  Sources: Volcano Art Center https://volcanoartcen
+ ter.org/stained-glass-workshop-with-linda-brooks-call-808-967-8222-to-re
+ gister-only-2-spaces-left/
+LOCATION:Volcano Art Center
+URL:https://volcanoartcenter.org/stained-glass-workshop-with-linda-brooks
+ -call-808-967-8222-to-register-only-2-spaces-left/
+CATEGORIES:Workshops
+END:VEVENT
+BEGIN:VEVENT
+UID:3c78f20c87b5b7484959-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Stained Glass Workshop with Linda Brooks _ Saturdays\, January 23
+ rd – February 13th — closes (last day)
+DESCRIPTION:Runs January 23 – February 13. Whimsical shapes\, illustrat
+ ive scenes or divine stories\, stained glass has re-created the light in
+  our lives for centuries. Stained glass artisans use both glass color an
+ d texture to produce light forms and patterns creating mood and characte
+ r in small and large spaces. This four-day stained-glass workshop will s
+ hed some light on the process of stained …  https://volcanoartcenter.o
+ rg/stained-glass-workshop-with-linda-brooks-call-808-967-8222-to-registe
+ r-only-2-spaces-left/  Sources: Volcano Art Center https://volcanoartcen
+ ter.org/stained-glass-workshop-with-linda-brooks-call-808-967-8222-to-re
+ gister-only-2-spaces-left/
+LOCATION:Volcano Art Center
+URL:https://volcanoartcenter.org/stained-glass-workshop-with-linda-brooks
+ -call-808-967-8222-to-register-only-2-spaces-left/
+CATEGORIES:Workshops
+END:VEVENT
+BEGIN:VEVENT
+UID:dd8871aba5c19a5dbe1f-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20250314
+DTEND;VALUE=DATE:20250315
+SUMMARY:Wayfinders — opens
+DESCRIPTION:Runs March 14\, 2025 – December 20\, 2026. Explore the exhi
+ bit to meet inspirational leaders and teachers who have led the charge i
+ n the revival of these ancient traditions. Through interactive displays\
+ , you will learn how the Hawaiian Star Compass\, or Kukuluokalani\, and 
+ other navigation tools are used to chart a course across the Pacific\, u
+ sing the stars\, waves\, and wildlife to guide voyagers on their journey
+ s. Learn more  https://www.thecreativecity.org/events/5plwnr5j37aa78f-wt
+ nlw  Sources: The Creative City https://www.thecreativecity.org/events/5
+ plwnr5j37aa78f-wtnlw
+LOCATION:J. Watumull Planetarium Lobby at Bishop Museum
+URL:https://www.thecreativecity.org/events/5plwnr5j37aa78f-wtnlw
+CATEGORIES:Exhibit
+END:VEVENT
+BEGIN:VEVENT
+UID:dd8871aba5c19a5dbe1f-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Wayfinders — closes (last day)
+DESCRIPTION:Runs March 14\, 2025 – December 20\, 2026. Explore the exhi
+ bit to meet inspirational leaders and teachers who have led the charge i
+ n the revival of these ancient traditions. Through interactive displays\
+ , you will learn how the Hawaiian Star Compass\, or Kukuluokalani\, and 
+ other navigation tools are used to chart a course across the Pacific\, u
+ sing the stars\, waves\, and wildlife to guide voyagers on their journey
+ s. Learn more  https://www.thecreativecity.org/events/5plwnr5j37aa78f-wt
+ nlw  Sources: The Creative City https://www.thecreativecity.org/events/5
+ plwnr5j37aa78f-wtnlw
+LOCATION:J. Watumull Planetarium Lobby at Bishop Museum
+URL:https://www.thecreativecity.org/events/5plwnr5j37aa78f-wtnlw
+CATEGORIES:Exhibit
+END:VEVENT
+BEGIN:VEVENT
+UID:74167df40e46fe00d75b-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260109
+DTEND;VALUE=DATE:20260110
+SUMMARY:Bishop Museum’s After Hours: 2nd Friday Monthly — opens
+DESCRIPTION:Runs January 9 – December 11\, 2026. Need a place to pau ha
+ na? We’ve got you covered! Explore Historic Hawaiian Hall\, experience
+  unique changing exhibitions\, hear about the latest scientific discover
+ ies\, and engage with Hawaiian cultural practitioners all at Bishop Muse
+ um’s After Hours events. This monthly evening event welcomes kamaʻāi
+ na and visitors to explore Hawaiʻi’s unique and unparalleled cultural
+  and natural history. See…  https://www.thecreativecity.org/events/mxb
+ shsh6j7m2f8p  Sources: The Creative City https://www.thecreativecity.org
+ /events/mxbshsh6j7m2f8p
+LOCATION:Bishop Museum
+URL:https://www.thecreativecity.org/events/mxbshsh6j7m2f8p
+CATEGORIES:Culture
+END:VEVENT
+BEGIN:VEVENT
+UID:74167df40e46fe00d75b-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:Bishop Museum’s After Hours: 2nd Friday Monthly — closes (las
+ t day)
+DESCRIPTION:Runs January 9 – December 11\, 2026. Need a place to pau ha
+ na? We’ve got you covered! Explore Historic Hawaiian Hall\, experience
+  unique changing exhibitions\, hear about the latest scientific discover
+ ies\, and engage with Hawaiian cultural practitioners all at Bishop Muse
+ um’s After Hours events. This monthly evening event welcomes kamaʻāi
+ na and visitors to explore Hawaiʻi’s unique and unparalleled cultural
+  and natural history. See…  https://www.thecreativecity.org/events/mxb
+ shsh6j7m2f8p  Sources: The Creative City https://www.thecreativecity.org
+ /events/mxbshsh6j7m2f8p
+LOCATION:Bishop Museum
+URL:https://www.thecreativecity.org/events/mxbshsh6j7m2f8p
+CATEGORIES:Culture
+END:VEVENT
+BEGIN:VEVENT
+UID:e87e4f9f65d7db001447-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260111
+DTEND;VALUE=DATE:20260112
+SUMMARY:Kama‘āina Sundays (second Sundays of the month) — opens
+DESCRIPTION:Runs January 11 – December 13\, 2026. Kamaʻāina Sunday | 
+ 9 a.m. to 2 p.m. ʻIolani Palace welcomes all residents to Kamaʻāina S
+ unday when guests can explore the Palace\, immerse themselves in Hawaiia
+ n culture\, taste ‘ono food\, support local vendors\, enjoy lively ent
+ ertainment\, and more. The free event is held on the second Sunday of ev
+ ery month. Self-led audio tours will be available for the first 500 atte
+ ndees. A valid Hawaiʻi State…  https://www.thecreativecity.org/events
+ /k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-s
+ tdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-w
+ 8nf8-ze9af-2wtmh-7sc5z-fc849  Sources: The Creative City https://www.the
+ creativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb9c8-6n
+ b5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhka-gh8eh-t8
+ mhj-fj5l2-fbs4s-64cyx-w8nf8-ze9af-2wtmh-7sc5z-fc849
+LOCATION:Iolani Palace
+URL:https://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-db
+ f6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l7
+ 8y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-w8nf8-ze9af-2wtmh-7sc5z-fc849
+CATEGORIES:Culture
+END:VEVENT
+BEGIN:VEVENT
+UID:e87e4f9f65d7db001447-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:Kama‘āina Sundays (second Sundays of the month) — closes (la
+ st day)
+DESCRIPTION:Runs January 11 – December 13\, 2026. Kamaʻāina Sunday | 
+ 9 a.m. to 2 p.m. ʻIolani Palace welcomes all residents to Kamaʻāina S
+ unday when guests can explore the Palace\, immerse themselves in Hawaiia
+ n culture\, taste ‘ono food\, support local vendors\, enjoy lively ent
+ ertainment\, and more. The free event is held on the second Sunday of ev
+ ery month. Self-led audio tours will be available for the first 500 atte
+ ndees. A valid Hawaiʻi State…  https://www.thecreativecity.org/events
+ /k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-s
+ tdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-w
+ 8nf8-ze9af-2wtmh-7sc5z-fc849  Sources: The Creative City https://www.the
+ creativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb9c8-6n
+ b5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhka-gh8eh-t8
+ mhj-fj5l2-fbs4s-64cyx-w8nf8-ze9af-2wtmh-7sc5z-fc849
+LOCATION:Iolani Palace
+URL:https://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-db
+ f6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l7
+ 8y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-w8nf8-ze9af-2wtmh-7sc5z-fc849
+CATEGORIES:Culture
+END:VEVENT
+BEGIN:VEVENT
+UID:a8f3661b44e7bd1a66d0-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260117
+SUMMARY:HoMA Nights - Every Friday Evening — opens
+DESCRIPTION:Runs January 16 – December 11\, 2026. Join us for HoMA Nigh
+ ts\, every Friday until 9pm\, to explore the galleries\, stargaze in the
+  courtyards\, enjoy art experiences and music\, and connect with the mus
+ eum community. HoMA Café and Coffee Bar The HoMA Café and Coffee Bar a
+ re open for bar service with a selection of cocktails\, beer\, wine\, no
+ n-alcoholic refreshments\, dinner\, and grab-and-go menu items. Café: 5
+ –8:30pm (Food served until…  https://www.thecreativecity.org/events/
+ ty3xmbtrz5rgbc9-dykar-5hr98  Sources: The Creative City https://www.thec
+ reativecity.org/events/ty3xmbtrz5rgbc9-dykar-5hr98
+LOCATION:The Honolulu Museum of Art
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-5hr98
+CATEGORIES:Culture
+END:VEVENT
+BEGIN:VEVENT
+UID:a8f3661b44e7bd1a66d0-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:HoMA Nights - Every Friday Evening — closes (last day)
+DESCRIPTION:Runs January 16 – December 11\, 2026. Join us for HoMA Nigh
+ ts\, every Friday until 9pm\, to explore the galleries\, stargaze in the
+  courtyards\, enjoy art experiences and music\, and connect with the mus
+ eum community. HoMA Café and Coffee Bar The HoMA Café and Coffee Bar a
+ re open for bar service with a selection of cocktails\, beer\, wine\, no
+ n-alcoholic refreshments\, dinner\, and grab-and-go menu items. Café: 5
+ –8:30pm (Food served until…  https://www.thecreativecity.org/events/
+ ty3xmbtrz5rgbc9-dykar-5hr98  Sources: The Creative City https://www.thec
+ reativecity.org/events/ty3xmbtrz5rgbc9-dykar-5hr98
+LOCATION:The Honolulu Museum of Art
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-5hr98
+CATEGORIES:Culture
+END:VEVENT
+BEGIN:VEVENT
+UID:e9ab670c931445b8acb9-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260206
+DTEND;VALUE=DATE:20260207
+SUMMARY:First Friday at Downtown Art Center (every 1st Friday of the mont
+ h) — opens
+DESCRIPTION:Runs February 6 – December 4\, 2026. Every First Friday eve
+ ning of the month\, DAC joins other creative organizations in the Chinat
+ own Arts District with special art activities\, performances\, make & ta
+ ke crafting projects\, exhibition opening receptions\, artist meet & gre
+ ets\, and more! Photo: IONA Contemporary Dance Theatre Learn more  https
+ ://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbf
+ n-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhk
+ a-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4kztn-38rc
+ n-xsny3  Sources: The Creative City https://www.thecreativecity.org/even
+ ts/k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr
+ -stdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx
+ -t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4kztn-38rcn-xsny3
+LOCATION:Downtown Art Center
+URL:https://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-db
+ f6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l7
+ 8y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4k
+ ztn-38rcn-xsny3
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+UID:e9ab670c931445b8acb9-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:First Friday at Downtown Art Center (every 1st Friday of the mont
+ h) — closes (last day)
+DESCRIPTION:Runs February 6 – December 4\, 2026. Every First Friday eve
+ ning of the month\, DAC joins other creative organizations in the Chinat
+ own Arts District with special art activities\, performances\, make & ta
+ ke crafting projects\, exhibition opening receptions\, artist meet & gre
+ ets\, and more! Photo: IONA Contemporary Dance Theatre Learn more  https
+ ://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbf
+ n-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhk
+ a-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4kztn-38rc
+ n-xsny3  Sources: The Creative City https://www.thecreativecity.org/even
+ ts/k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr
+ -stdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx
+ -t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4kztn-38rcn-xsny3
+LOCATION:Downtown Art Center
+URL:https://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-db
+ f6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l7
+ 8y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4k
+ ztn-38rcn-xsny3
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+UID:9e92cf9103151098e462-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+SUMMARY:Divine Disruption: The Art of Tsherin Sherpa — opens
+DESCRIPTION:Runs May 30\, 2026 – January 31\, 2027. Acclaimed Nepalese 
+ artist Tsherin Sherpa boldly explores the complexities of some of the mo
+ st pressing social issues of the 21st century\, including migration and 
+ the ways in which traditional cultures respond to the challenges and opp
+ ortunities of internationalization. He does this by recontextualizing tr
+ adition Himalayan Buddhist art with a new contemporary relevance. This m
+ ajor solo exhibition…  https://www.thecreativecity.org/events/ty3xmbtr
+ z5rgbc9-dykar-ptl8r-nej5n-48bf2  Sources: The Creative City https://www.
+ thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-ptl8r-nej5n-48bf2
+LOCATION:The Honolulu Museum of Art
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-ptl8r-ne
+ j5n-48bf2
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:9e92cf9103151098e462-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Divine Disruption: The Art of Tsherin Sherpa — closes (last day
+ )
+DESCRIPTION:Runs May 30\, 2026 – January 31\, 2027. Acclaimed Nepalese 
+ artist Tsherin Sherpa boldly explores the complexities of some of the mo
+ st pressing social issues of the 21st century\, including migration and 
+ the ways in which traditional cultures respond to the challenges and opp
+ ortunities of internationalization. He does this by recontextualizing tr
+ adition Himalayan Buddhist art with a new contemporary relevance. This m
+ ajor solo exhibition…  https://www.thecreativecity.org/events/ty3xmbtr
+ z5rgbc9-dykar-ptl8r-nej5n-48bf2  Sources: The Creative City https://www.
+ thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-ptl8r-nej5n-48bf2
+LOCATION:The Honolulu Museum of Art
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-ptl8r-ne
+ j5n-48bf2
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:a226bdbeb0c016b22e00-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:E Mālama i ke Kai: Hawaiʻi Sea Grant's Youth Ocean Art Exhibit 
+ — opens
+DESCRIPTION:Runs July 3 – December 18\, 2026. The University of Hawaiʻ
+ i Sea Grant College Program (Hawaiʻi Sea Grant) is proud to present its
+  annual sci-art exhibit featuring youth ocean art. Running concurrently 
+ at three locations across Honolulu\, this inspiring multi-venue gallery 
+ showcase highlights the creativity\, deep cultural ties\, and ecological
+  understanding of local keiki (grades 3–12) expressing their unique re
+ lationships with the…  https://www.thecreativecity.org/events/k4ddx77r
+ s8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx9
+ 2-htxeh-jxd79-m6pmh-l78y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhs
+ t-wz7jl-6kwkt-sh8bc-4kztn-38rcn-zn7gk  Sources: The Creative City https:
+ //www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn
+ -hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhka
+ -gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4kztn-38rcn
+ -zn7gk
+LOCATION:Capitol Modern
+URL:https://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-db
+ f6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l7
+ 8y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4k
+ ztn-38rcn-zn7gk
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:a226bdbeb0c016b22e00-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:E Mālama i ke Kai: Hawaiʻi Sea Grant's Youth Ocean Art Exhibit 
+ — closes (last day)
+DESCRIPTION:Runs July 3 – December 18\, 2026. The University of Hawaiʻ
+ i Sea Grant College Program (Hawaiʻi Sea Grant) is proud to present its
+  annual sci-art exhibit featuring youth ocean art. Running concurrently 
+ at three locations across Honolulu\, this inspiring multi-venue gallery 
+ showcase highlights the creativity\, deep cultural ties\, and ecological
+  understanding of local keiki (grades 3–12) expressing their unique re
+ lationships with the…  https://www.thecreativecity.org/events/k4ddx77r
+ s8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx9
+ 2-htxeh-jxd79-m6pmh-l78y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhs
+ t-wz7jl-6kwkt-sh8bc-4kztn-38rcn-zn7gk  Sources: The Creative City https:
+ //www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn
+ -hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhka
+ -gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4kztn-38rcn
+ -zn7gk
+LOCATION:Capitol Modern
+URL:https://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-db
+ f6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l7
+ 8y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4k
+ ztn-38rcn-zn7gk
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:870e2559dedc4fdaf8ca-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:First Friday at Capitol Modern (every 1st Friday of the month) 
+ — opens
+DESCRIPTION:Runs July 3 – December 4\, 2026. An evening of art and musi
+ c at Capitol Modern: the Hawai'i State Art Museum! Free admission\, all 
+ ages welcome. This event will feature the annual Producer Showcase with 
+ Slapp Good. Please note that the museum is closed during the day (Fourth
+  of July state holiday observed) and will open at 5:00 p.m. for the Firs
+ t Friday event. Learn more  https://www.thecreativecity.org/events/k4ddx
+ 77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5
+ dx92-htxeh-jxd79-m6pmh-l78y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-y
+ khst-wz7jl-6kwkt-sh8bc-4kztn-38rcn  Sources: The Creative City https://w
+ ww.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb
+ 9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhka-gh
+ 8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4kztn-38rcn
+LOCATION:Capitol Modern
+URL:https://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-db
+ f6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l7
+ 8y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4k
+ ztn-38rcn
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+UID:870e2559dedc4fdaf8ca-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:First Friday at Capitol Modern (every 1st Friday of the month) 
+ — closes (last day)
+DESCRIPTION:Runs July 3 – December 4\, 2026. An evening of art and musi
+ c at Capitol Modern: the Hawai'i State Art Museum! Free admission\, all 
+ ages welcome. This event will feature the annual Producer Showcase with 
+ Slapp Good. Please note that the museum is closed during the day (Fourth
+  of July state holiday observed) and will open at 5:00 p.m. for the Firs
+ t Friday event. Learn more  https://www.thecreativecity.org/events/k4ddx
+ 77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5
+ dx92-htxeh-jxd79-m6pmh-l78y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-y
+ khst-wz7jl-6kwkt-sh8bc-4kztn-38rcn  Sources: The Creative City https://w
+ ww.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb
+ 9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhka-gh
+ 8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4kztn-38rcn
+LOCATION:Capitol Modern
+URL:https://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-db
+ f6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l7
+ 8y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-4k
+ ztn-38rcn
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+UID:3f07d635101c36d8add7-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:Island Pulse at Capitol Modern (Every 3rd Friday of the month) 
+ — opens
+DESCRIPTION:Runs July 17 – December 18\, 2026. Free\, all-ages evening 
+ of island roots and reggae music. Museum galleries are open and the Art 
+ + Flea urban market will include local artists and food/beverage vendors
+ . Learn more  https://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm
+ 7z-6ajbk-dbf6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd
+ 79-m6pmh-l78y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kw
+ kt-sh8bc-84bby  Sources: The Creative City https://www.thecreativecity.o
+ rg/events/k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb9c8-6nb5w-tx8zh-2wls
+ e-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhka-gh8eh-t8mhj-fj5l2-fbs4
+ s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-84bby
+LOCATION:Capitol Modern
+URL:https://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-db
+ f6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l7
+ 8y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-84
+ bby
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+UID:3f07d635101c36d8add7-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:Island Pulse at Capitol Modern (Every 3rd Friday of the month) 
+ — closes (last day)
+DESCRIPTION:Runs July 17 – December 18\, 2026. Free\, all-ages evening 
+ of island roots and reggae music. Museum galleries are open and the Art 
+ + Flea urban market will include local artists and food/beverage vendors
+ . Learn more  https://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm
+ 7z-6ajbk-dbf6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd
+ 79-m6pmh-l78y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kw
+ kt-sh8bc-84bby  Sources: The Creative City https://www.thecreativecity.o
+ rg/events/k4ddx77rs8e327t-gdm7z-6ajbk-dbf6b-8lbfn-hb9c8-6nb5w-tx8zh-2wls
+ e-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l78y9-brhka-gh8eh-t8mhj-fj5l2-fbs4
+ s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-84bby
+LOCATION:Capitol Modern
+URL:https://www.thecreativecity.org/events/k4ddx77rs8e327t-gdm7z-6ajbk-db
+ f6b-8lbfn-hb9c8-6nb5w-tx8zh-2wlse-kjthr-stdmd-5dx92-htxeh-jxd79-m6pmh-l7
+ 8y9-brhka-gh8eh-t8mhj-fj5l2-fbs4s-64cyx-t5gdd-ykhst-wz7jl-6kwkt-sh8bc-84
+ bby
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+UID:c0ead1574dc70d64048a-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:Imagined Flora: Ralph Iwamoto’s Surrealist Beginnings — opens
+DESCRIPTION:Runs August 7\, 2026 – February 7\, 2027. In Hawaiʻi\, Ral
+ ph Iwamoto is well known for his later minimalist abstractions. This sum
+ mer\, the Honolulu Museum of Art presents a rare look at an earlier mome
+ nt in his career\, with seven paintings from 1955 on loan from the Vilce
+ k Foundation. These works reveal a brief but compelling engagement with 
+ Surrealism. During this period\, Iwamoto worked in New York City at a sh
+ op that sold objects and…  https://www.thecreativecity.org/events/ty3x
+ mbtrz5rgbc9-dykar-ptl8r-nej5n-48bf2-zxhny-ygewg  Sources: The Creative C
+ ity https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-ptl8r-n
+ ej5n-48bf2-zxhny-ygewg
+LOCATION:The Honolulu Museum of Art
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-ptl8r-ne
+ j5n-48bf2-zxhny-ygewg
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:c0ead1574dc70d64048a-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Imagined Flora: Ralph Iwamoto’s Surrealist Beginnings — close
+ s (last day)
+DESCRIPTION:Runs August 7\, 2026 – February 7\, 2027. In Hawaiʻi\, Ral
+ ph Iwamoto is well known for his later minimalist abstractions. This sum
+ mer\, the Honolulu Museum of Art presents a rare look at an earlier mome
+ nt in his career\, with seven paintings from 1955 on loan from the Vilce
+ k Foundation. These works reveal a brief but compelling engagement with 
+ Surrealism. During this period\, Iwamoto worked in New York City at a sh
+ op that sold objects and…  https://www.thecreativecity.org/events/ty3x
+ mbtrz5rgbc9-dykar-ptl8r-nej5n-48bf2-zxhny-ygewg  Sources: The Creative C
+ ity https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-ptl8r-n
+ ej5n-48bf2-zxhny-ygewg
+LOCATION:The Honolulu Museum of Art
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-ptl8r-ne
+ j5n-48bf2-zxhny-ygewg
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:1bfabec0d0d50df87de5-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:Arts of Oceania Mini-Exhibit — opens
+DESCRIPTION:Runs August 7 – November 28\, 2026. Juried works of traditi
+ onal and contemporary craft selected from across the state of Hawaiʻi. 
+ Learn more  https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar
+ -e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-gagky  Sources: T
+ he Creative City https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-
+ dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-gagky
+LOCATION:Capitol Modern
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-gagky
+CATEGORIES:Exhibit
+END:VEVENT
+BEGIN:VEVENT
+UID:1bfabec0d0d50df87de5-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Arts of Oceania Mini-Exhibit — closes (last day)
+DESCRIPTION:Runs August 7 – November 28\, 2026. Juried works of traditi
+ onal and contemporary craft selected from across the state of Hawaiʻi. 
+ Learn more  https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar
+ -e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-gagky  Sources: T
+ he Creative City https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-
+ dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-gagky
+LOCATION:Capitol Modern
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-gagky
+CATEGORIES:Exhibit
+END:VEVENT
+BEGIN:VEVENT
+UID:70920f1442de34f71b49-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:Street Nihonga - The Art of Jimmy Tsutomu Mirikitani — opens
+DESCRIPTION:Runs August 23 – December 10\, 2026. Street Nihonga sheds l
+ ight on Mirikitani’s creative practice\, intertwining artmaking\, life
+  narration\, and street activism through the largest assembly of his wor
+ ks to date. The exhibition unfolds through six thematic sections: Sidewa
+ lk Stories \, Street Nihonga \, Tule Lake Memory-Scape \, Multiple Groun
+ d Zeros \, Affinities and Connections \, and Entangled Memories . Travel
+ ing across Sacramento\,…  https://www.thecreativecity.org/events/ty3xm
+ btrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-p
+ h8sp-3kgcp  Sources: The Creative City https://www.thecreativecity.org/e
+ vents/ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8e
+ gs5-fh6cg-ph8sp-3kgcp
+LOCATION:The Art + Commons Gallery\, ART Building at U.H. Manoa
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-ph8sp-3kgcp
+CATEGORIES:Exhibit
+END:VEVENT
+BEGIN:VEVENT
+UID:70920f1442de34f71b49-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Street Nihonga - The Art of Jimmy Tsutomu Mirikitani — closes (
+ last day)
+DESCRIPTION:Runs August 23 – December 10\, 2026. Street Nihonga sheds l
+ ight on Mirikitani’s creative practice\, intertwining artmaking\, life
+  narration\, and street activism through the largest assembly of his wor
+ ks to date. The exhibition unfolds through six thematic sections: Sidewa
+ lk Stories \, Street Nihonga \, Tule Lake Memory-Scape \, Multiple Groun
+ d Zeros \, Affinities and Connections \, and Entangled Memories . Travel
+ ing across Sacramento\,…  https://www.thecreativecity.org/events/ty3xm
+ btrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-p
+ h8sp-3kgcp  Sources: The Creative City https://www.thecreativecity.org/e
+ vents/ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8e
+ gs5-fh6cg-ph8sp-3kgcp
+LOCATION:The Art + Commons Gallery\, ART Building at U.H. Manoa
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-ph8sp-3kgcp
+CATEGORIES:Exhibit
+END:VEVENT
+BEGIN:VEVENT
+UID:2a07ee26935ce494ea77-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:Address: Earth - ArtistBooks in a Suitcase\, An International Tra
+ veling Exhibition — opens
+DESCRIPTION:Runs August 25 – December 10\, 2026. Address: Earth – Art
+ istBooks in a Suitcase is a global artistic exchange project organized b
+ y the Inspiration Art Group International\, a New York–based collectiv
+ e dedicated to fostering cross-cultural collaboration and unity. It brin
+ gs together fifty artists from around the world\, each contributing a on
+ e-of-a-kind artist’s book\, housed collectively in a single suitcase. 
+ The mobile exhibition…  https://www.thecreativecity.org/events/ty3xmbt
+ rz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-ph8
+ sp  Sources: The Creative City https://www.thecreativecity.org/events/ty
+ 3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6c
+ g-ph8sp
+LOCATION:John Young Museum of Art in Krauss Hall\, U.H. Manoa
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-ph8sp
+CATEGORIES:Exhibit
+END:VEVENT
+BEGIN:VEVENT
+UID:2a07ee26935ce494ea77-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Address: Earth - ArtistBooks in a Suitcase\, An International Tra
+ veling Exhibition — closes (last day)
+DESCRIPTION:Runs August 25 – December 10\, 2026. Address: Earth – Art
+ istBooks in a Suitcase is a global artistic exchange project organized b
+ y the Inspiration Art Group International\, a New York–based collectiv
+ e dedicated to fostering cross-cultural collaboration and unity. It brin
+ gs together fifty artists from around the world\, each contributing a on
+ e-of-a-kind artist’s book\, housed collectively in a single suitcase. 
+ The mobile exhibition…  https://www.thecreativecity.org/events/ty3xmbt
+ rz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-ph8
+ sp  Sources: The Creative City https://www.thecreativecity.org/events/ty
+ 3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6c
+ g-ph8sp
+LOCATION:John Young Museum of Art in Krauss Hall\, U.H. Manoa
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-ph8sp
+CATEGORIES:Exhibit
+END:VEVENT
+BEGIN:VEVENT
+UID:6f66f4173e2b1993ba98-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260828
+DTEND;VALUE=DATE:20260829
+SUMMARY:Honor Thy Mother and Father: Depictions of Filial Piety in Japan 
+ — opens
+DESCRIPTION:Runs August 28\, 2026 – January 3\, 2027. In the gallery de
+ voted to woodblock prints\, explore illustrations of literary works that
+  discuss the concept of filial piety—respectful behavior towards those
+  in positions of authority\, particularly one’s own parents. On view a
+ re prints by Okumura Masanobu\, Utagawa Hiroshige\, and Utagawa Kuniyosh
+ i illustrating The Twenty-four Paragons of Filial Piety (1730s)\, The Ta
+ le of the Soga Brothers (1644)\,…  https://www.thecreativecity.org/eve
+ nts/ty3xmbtrz5rgbc9-dykar-ptl8r-nej5n-48bf2-zxhny  Sources: The Creative
+  City https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-ptl8r
+ -nej5n-48bf2-zxhny
+LOCATION:The Honolulu Museum of Art
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-ptl8r-ne
+ j5n-48bf2-zxhny
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:6f66f4173e2b1993ba98-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:Honor Thy Mother and Father: Depictions of Filial Piety in Japan 
+ — closes (last day)
+DESCRIPTION:Runs August 28\, 2026 – January 3\, 2027. In the gallery de
+ voted to woodblock prints\, explore illustrations of literary works that
+  discuss the concept of filial piety—respectful behavior towards those
+  in positions of authority\, particularly one’s own parents. On view a
+ re prints by Okumura Masanobu\, Utagawa Hiroshige\, and Utagawa Kuniyosh
+ i illustrating The Twenty-four Paragons of Filial Piety (1730s)\, The Ta
+ le of the Soga Brothers (1644)\,…  https://www.thecreativecity.org/eve
+ nts/ty3xmbtrz5rgbc9-dykar-ptl8r-nej5n-48bf2-zxhny  Sources: The Creative
+  City https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-ptl8r
+ -nej5n-48bf2-zxhny
+LOCATION:The Honolulu Museum of Art
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-ptl8r-ne
+ j5n-48bf2-zxhny
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:a11a813a22a493921d67-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:Vital Connections: Art & the Brain — opens
+DESCRIPTION:Runs September 12\, 2026 – January 10\, 2027. As daily life
+  is increasingly shaped by near constant digital stimulation\, contribut
+ ing to rising rates of anxiety\, depression\, and social isolation\, the
+  Honolulu Museum of Art presents Vital Connections: Art & the Brain \, o
+ ne of the first large-scale museum exhibitions to explore the relationsh
+ ip between creativity and human health. Discover how experiencing and ma
+ king art enhances well-being…  https://www.thecreativecity.org/events/
+ ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh
+ 6cg-z5mh5-655jg-je22e-8l6zt-gb75j-mf9en-pzkxg-wjn4a-ts2te  Sources: The 
+ Creative City https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dyk
+ ar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-z5mh5-655jg-je2
+ 2e-8l6zt-gb75j-mf9en-pzkxg-wjn4a-ts2te
+LOCATION:Honolulu Museum of Art
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-z5mh5-655jg-je22e-8l6zt-gb
+ 75j-mf9en-pzkxg-wjn4a-ts2te
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:a11a813a22a493921d67-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:Vital Connections: Art & the Brain — closes (last day)
+DESCRIPTION:Runs September 12\, 2026 – January 10\, 2027. As daily life
+  is increasingly shaped by near constant digital stimulation\, contribut
+ ing to rising rates of anxiety\, depression\, and social isolation\, the
+  Honolulu Museum of Art presents Vital Connections: Art & the Brain \, o
+ ne of the first large-scale museum exhibitions to explore the relationsh
+ ip between creativity and human health. Discover how experiencing and ma
+ king art enhances well-being…  https://www.thecreativecity.org/events/
+ ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh
+ 6cg-z5mh5-655jg-je22e-8l6zt-gb75j-mf9en-pzkxg-wjn4a-ts2te  Sources: The 
+ Creative City https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dyk
+ ar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-z5mh5-655jg-je2
+ 2e-8l6zt-gb75j-mf9en-pzkxg-wjn4a-ts2te
+LOCATION:Honolulu Museum of Art
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-z5mh5-655jg-je22e-8l6zt-gb
+ 75j-mf9en-pzkxg-wjn4a-ts2te
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:f8f2e49619c1459900ad-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:Ocean of Peace Exhibition — opens
+DESCRIPTION:Runs September 20\, 2026 – March 14\, 2027. Inspired by the
+  historic 2025 declaration by Pacific Island leaders\, Ocean of Peace an
+ chors a vision of the future in the enduring harmony\, cooperation\, and
+  ancestral wisdom of Pacific peoples. Pacific Island leaders declared th
+ e Blue Pacific Continent as an Ocean of Peace: Recognising Pacific peopl
+ es as custodians of the Blue Pacific Continent\, and recalling that peac
+ e is integral to the Pacific…  https://www.thecreativecity.org/events/
+ ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh
+ 6cg-ph8sp-emdfl  Sources: The Creative City https://www.thecreativecity.
+ org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8k
+ fz-8egs5-fh6cg-ph8sp-emdfl
+LOCATION:East-West Center Gallery\, U.H. Manoa
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-ph8sp-emdfl
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:f8f2e49619c1459900ad-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Ocean of Peace Exhibition — closes (last day)
+DESCRIPTION:Runs September 20\, 2026 – March 14\, 2027. Inspired by the
+  historic 2025 declaration by Pacific Island leaders\, Ocean of Peace an
+ chors a vision of the future in the enduring harmony\, cooperation\, and
+  ancestral wisdom of Pacific peoples. Pacific Island leaders declared th
+ e Blue Pacific Continent as an Ocean of Peace: Recognising Pacific peopl
+ es as custodians of the Blue Pacific Continent\, and recalling that peac
+ e is integral to the Pacific…  https://www.thecreativecity.org/events/
+ ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh
+ 6cg-ph8sp-emdfl  Sources: The Creative City https://www.thecreativecity.
+ org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8k
+ fz-8egs5-fh6cg-ph8sp-emdfl
+LOCATION:East-West Center Gallery\, U.H. Manoa
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-ph8sp-emdfl
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:dd05617a212143f4b5f6-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Fellow Travelers: Joseph E. Yoakum & Ray Yoshida — opens
+DESCRIPTION:Runs October 2\, 2026 – February 7\, 2027. This exhibition 
+ pairs the work of visionary\, self-taught artist Joseph E. Yoakum (1890
+ –1972) with that of Ray Yoshida (1930–2009). Born on Kauaʻi\, Yoshi
+ da became one of the most influential artists and teachers in postwar Ch
+ icago. Yoakum\, who was of African American and Native American descent\
+ , traveled widely with the circus after running away from home as a chil
+ d. The self-described “hobo and…  https://www.thecreativecity.org/ev
+ ents/ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8eg
+ s5-fh6cg-z5mh5-655jg-je22e-8l6zt-gb75j-mf9en-pzkxg-wjn4a-ts2te-7swgn  So
+ urces: The Creative City https://www.thecreativecity.org/events/ty3xmbtr
+ z5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-z5mh
+ 5-655jg-je22e-8l6zt-gb75j-mf9en-pzkxg-wjn4a-ts2te-7swgn
+LOCATION:Honolulu Museum of Art
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-z5mh5-655jg-je22e-8l6zt-gb
+ 75j-mf9en-pzkxg-wjn4a-ts2te-7swgn
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:dd05617a212143f4b5f6-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Fellow Travelers: Joseph E. Yoakum & Ray Yoshida — closes (last
+  day)
+DESCRIPTION:Runs October 2\, 2026 – February 7\, 2027. This exhibition 
+ pairs the work of visionary\, self-taught artist Joseph E. Yoakum (1890
+ –1972) with that of Ray Yoshida (1930–2009). Born on Kauaʻi\, Yoshi
+ da became one of the most influential artists and teachers in postwar Ch
+ icago. Yoakum\, who was of African American and Native American descent\
+ , traveled widely with the circus after running away from home as a chil
+ d. The self-described “hobo and…  https://www.thecreativecity.org/ev
+ ents/ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8eg
+ s5-fh6cg-z5mh5-655jg-je22e-8l6zt-gb75j-mf9en-pzkxg-wjn4a-ts2te-7swgn  So
+ urces: The Creative City https://www.thecreativecity.org/events/ty3xmbtr
+ z5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-z5mh
+ 5-655jg-je22e-8l6zt-gb75j-mf9en-pzkxg-wjn4a-ts2te-7swgn
+LOCATION:Honolulu Museum of Art
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-z5mh5-655jg-je22e-8l6zt-gb
+ 75j-mf9en-pzkxg-wjn4a-ts2te-7swgn
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:6ffdf1972af64b4ffbe7-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Kupua by Hailiʻopua Baker — opens
+DESCRIPTION:Runs October 29 – November 29\, 2026. WRITTEN BY Hailiʻopu
+ a Baker October 29 – November 29\, 2026 Kupua presents two traditional
+  stories: “Ka ʻEnuhe” and “Ka Puhi a me Ka Loli\,” that explore
+  the perilous allure of hidden appetites that masquerade as love or comf
+ ort while quietly consuming the life of the ʻohana. In each story\, kup
+ ua embody forces that drain sustenance and vitality under cover of night
+ \, and it is only through vigilance…  https://www.thecreativecity.org/
+ events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-c
+ gckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-bhgb5-c
+ t6m7-6z8y2-xjw2e  Sources: The Creative City https://www.thecreativecity
+ .org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-br
+ ymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-bh
+ gb5-ct6m7-6z8y2-xjw2e
+LOCATION:Kumu Kahua Theatre
+URL:https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99
+ ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pr
+ y8l-485mf-mxwjz-gdl9f-my7ja-bhgb5-ct6m7-6z8y2-xjw2e
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:6ffdf1972af64b4ffbe7-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Kupua by Hailiʻopua Baker — closes (last day)
+DESCRIPTION:Runs October 29 – November 29\, 2026. WRITTEN BY Hailiʻopu
+ a Baker October 29 – November 29\, 2026 Kupua presents two traditional
+  stories: “Ka ʻEnuhe” and “Ka Puhi a me Ka Loli\,” that explore
+  the perilous allure of hidden appetites that masquerade as love or comf
+ ort while quietly consuming the life of the ʻohana. In each story\, kup
+ ua embody forces that drain sustenance and vitality under cover of night
+ \, and it is only through vigilance…  https://www.thecreativecity.org/
+ events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-c
+ gckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-bhgb5-c
+ t6m7-6z8y2-xjw2e  Sources: The Creative City https://www.thecreativecity
+ .org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-br
+ ymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-bh
+ gb5-ct6m7-6z8y2-xjw2e
+LOCATION:Kumu Kahua Theatre
+URL:https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99
+ ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pr
+ y8l-485mf-mxwjz-gdl9f-my7ja-bhgb5-ct6m7-6z8y2-xjw2e
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:4d9e0fb175b5b3adab71-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Artists of Hawaiʻi Biennial 2026 — opens
+DESCRIPTION:Runs November 6 – December 19\, 2026. The state’s largest
+  and longest-running all-media juried exhibition\, designed to showcase 
+ the best of Hawaiʻi’s contemporary art. Learn more  https://www.thecr
+ eativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23j
+ t-kfcad-a8kfz-8egs5-fh6cg-at5xr-swm4w  Sources: The Creative City https:
+ //www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl
+ -ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-at5xr-swm4w
+LOCATION:Downtown Art Center
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-at5xr-swm4w
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:4d9e0fb175b5b3adab71-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Artists of Hawaiʻi Biennial 2026 — closes (last day)
+DESCRIPTION:Runs November 6 – December 19\, 2026. The state’s largest
+  and longest-running all-media juried exhibition\, designed to showcase 
+ the best of Hawaiʻi’s contemporary art. Learn more  https://www.thecr
+ eativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23j
+ t-kfcad-a8kfz-8egs5-fh6cg-at5xr-swm4w  Sources: The Creative City https:
+ //www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl
+ -ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-at5xr-swm4w
+LOCATION:Downtown Art Center
+URL:https://www.thecreativecity.org/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7
+ nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-at5xr-swm4w
+CATEGORIES:Art Exhibition
+END:VEVENT
+BEGIN:VEVENT
+UID:b20c12bb6bd2cc3dd313-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Peter Pan Goes Wrong — opens
+DESCRIPTION:Runs November 12 – 29\, 2026. BY JONATHAN SAYER\, HENRY LEW
+ IS\, AND HENRY SHIELDS BRACE YOURSELVES FOR AN AWFULLY BIG ADVENTURE WHE
+ N THE INEPT AND ACCIDENT-PRONE CORNLEY DRAMA SOCIETY SET OUT TO PRESENT 
+ J.M. BARRIE’S MUCH-LOVED CLASSIC TALE OF PETER PAN\, THEIR MOST AUDACI
+ OUS PRODUCTION TO DATE. FLYING? PYROTECHNICS? SHARP HOOKS? WHAT ENSUES I
+ S TWO ACTS OF HILARIOUS DISASTER\, BATTLING TECHNICAL HITCHES\, FLYING M
+ ISHAPS AND CAST…  https://www.thecreativecity.org/events/er8rjhwdb4d6g
+ 67-c7l7k-wb72f-kcn4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53w-2asfn-9xc
+ 6s  Sources: The Creative City https://www.thecreativecity.org/events/er
+ 8rjhwdb4d6g67-c7l7k-wb72f-kcn4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53
+ w-2asfn-9xc6s
+LOCATION:Manoa Valley Theatre
+URL:https://www.thecreativecity.org/events/er8rjhwdb4d6g67-c7l7k-wb72f-kc
+ n4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53w-2asfn-9xc6s
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:b20c12bb6bd2cc3dd313-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Peter Pan Goes Wrong — closes (last day)
+DESCRIPTION:Runs November 12 – 29\, 2026. BY JONATHAN SAYER\, HENRY LEW
+ IS\, AND HENRY SHIELDS BRACE YOURSELVES FOR AN AWFULLY BIG ADVENTURE WHE
+ N THE INEPT AND ACCIDENT-PRONE CORNLEY DRAMA SOCIETY SET OUT TO PRESENT 
+ J.M. BARRIE’S MUCH-LOVED CLASSIC TALE OF PETER PAN\, THEIR MOST AUDACI
+ OUS PRODUCTION TO DATE. FLYING? PYROTECHNICS? SHARP HOOKS? WHAT ENSUES I
+ S TWO ACTS OF HILARIOUS DISASTER\, BATTLING TECHNICAL HITCHES\, FLYING M
+ ISHAPS AND CAST…  https://www.thecreativecity.org/events/er8rjhwdb4d6g
+ 67-c7l7k-wb72f-kcn4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53w-2asfn-9xc
+ 6s  Sources: The Creative City https://www.thecreativecity.org/events/er
+ 8rjhwdb4d6g67-c7l7k-wb72f-kcn4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53
+ w-2asfn-9xc6s
+LOCATION:Manoa Valley Theatre
+URL:https://www.thecreativecity.org/events/er8rjhwdb4d6g67-c7l7k-wb72f-kc
+ n4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53w-2asfn-9xc6s
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:1bb77d91e6d51fa84c69@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261120T193000
+DTEND;TZID=Pacific/Honolulu:20261120T203000
+SUMMARY:Lucy Darling - Simply Darling
+DESCRIPTION:Award-winning performer Carisa Hendrix stars as charming soci
+ alite and cocktail enthusiast Lucy Darling as she continues her vivaciou
+ s vagabond voyages with Simply Darling \, a touring variety show featuri
+ ng her razor-sharp wit\, unquestionable advice\, and skillful magic. MOR
+ E INFO  https://www.thecreativecity.org/events/w8b5mxxc3x4tfah-k3flg-4pn
+ wx-22phh-g9alh-fd9fj-m2w2a-dl262-7t6pt-ty4fw-yf4jl-z3f4e-wll2j-psysh-agt
+ yz-7rlml-952tn-5h9ax-j5pyh-h8h6x-9ragk-szx5t-b8k2x-k8sbd-sz6wb  Sources:
+  The Creative City https://www.thecreativecity.org/events/w8b5mxxc3x4tfa
+ h-k3flg-4pnwx-22phh-g9alh-fd9fj-m2w2a-dl262-7t6pt-ty4fw-yf4jl-z3f4e-wll2
+ j-psysh-agtyz-7rlml-952tn-5h9ax-j5pyh-h8h6x-9ragk-szx5t-b8k2x-k8sbd-sz6w
+ b
+LOCATION:Hawaii Theatre
+URL:https://www.thecreativecity.org/events/w8b5mxxc3x4tfah-k3flg-4pnwx-22
+ phh-g9alh-fd9fj-m2w2a-dl262-7t6pt-ty4fw-yf4jl-z3f4e-wll2j-psysh-agtyz-7r
+ lml-952tn-5h9ax-j5pyh-h8h6x-9ragk-szx5t-b8k2x-k8sbd-sz6wb
+CATEGORIES:Comedy
+END:VEVENT
+BEGIN:VEVENT
+UID:a23f2ec7cd24c194f45f@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261121T100000
+DTEND;TZID=Pacific/Honolulu:20261121T120000
+SUMMARY:DAC Walking Tour: Art\, History & Architecture in the HEART of Ho
+ nolulu
+DESCRIPTION:Downtown Art Center (DAC) offers a unique way to experience t
+ he historical and artistic heritage of the HEART district of downtown Ho
+ nolulu with this walking tour\, led by Historian Gary R. Coover\, author
+  of "Pocket Walking Tour of Honolulu's Royal Mile\,” and veteran artis
+ t and educator Susan Hogan. Your guides will lead you on a lively 1.5 to
+  2-hour walk through streets layered with cultural\,…  https://www.the
+ creativecity.org/events/3ra98g66gmlaj5r-7pxf6-6fym5-n3pw4-nj3m6-228hk-z3
+ pmd-gws2w-cdg7c-6b5ek  Sources: The Creative City https://www.thecreativ
+ ecity.org/events/3ra98g66gmlaj5r-7pxf6-6fym5-n3pw4-nj3m6-228hk-z3pmd-gws
+ 2w-cdg7c-6b5ek
+LOCATION:Meet at Downtown Art Center - Start/End
+URL:https://www.thecreativecity.org/events/3ra98g66gmlaj5r-7pxf6-6fym5-n3
+ pw4-nj3m6-228hk-z3pmd-gws2w-cdg7c-6b5ek
+CATEGORIES:Art Discussion
+END:VEVENT
+BEGIN:VEVENT
+UID:a5fb1221a6d6bb5f6e0e-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Moolelo Christmas Spectacular 2026 — opens
+DESCRIPTION:Runs December 1 – 20\, 2026. Specific dates and details to 
+ come. WATCH A HEARTWARMING AND FUN CHRISTMAS MUSICAL FEEL THE THRILL OF 
+ THE SNOW AND LIGHT SHOW TAKE A FAMILY PHOTO WITH SANTA WRITE A LETTER TO
+  SANTA ROAST S'MORES OVER COZY FIRE PITS ENJOY LIVE MUSIC AND ENTERTAINM
+ ENT WATCH A HOLIDAY MOVIE UNDER THE STARS GRIND HOLIDAY TREATS AND 'ONO 
+ PLATES FEATURING YOUR FAVORITE LOCAL BUSINESS MORE INFO  https://www.the
+ creativecity.org/events/er8rjhwdb4d6g67-c7l7k-wb72f-kcn4l-gb4g4-5gzp5-7e
+ pmr-gdbmw-ayhry-rt67n-enrmm-n86mt-b7fah-wf4zj  Sources: The Creative Cit
+ y https://www.thecreativecity.org/events/er8rjhwdb4d6g67-c7l7k-wb72f-kcn
+ 4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-enrmm-n86mt-b7fah-wf4zj
+LOCATION:Sacred Hearts Academy
+URL:https://www.thecreativecity.org/events/er8rjhwdb4d6g67-c7l7k-wb72f-kc
+ n4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-enrmm-n86mt-b7fah-wf4zj
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:a5fb1221a6d6bb5f6e0e-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:Moolelo Christmas Spectacular 2026 — closes (last day)
+DESCRIPTION:Runs December 1 – 20\, 2026. Specific dates and details to 
+ come. WATCH A HEARTWARMING AND FUN CHRISTMAS MUSICAL FEEL THE THRILL OF 
+ THE SNOW AND LIGHT SHOW TAKE A FAMILY PHOTO WITH SANTA WRITE A LETTER TO
+  SANTA ROAST S'MORES OVER COZY FIRE PITS ENJOY LIVE MUSIC AND ENTERTAINM
+ ENT WATCH A HOLIDAY MOVIE UNDER THE STARS GRIND HOLIDAY TREATS AND 'ONO 
+ PLATES FEATURING YOUR FAVORITE LOCAL BUSINESS MORE INFO  https://www.the
+ creativecity.org/events/er8rjhwdb4d6g67-c7l7k-wb72f-kcn4l-gb4g4-5gzp5-7e
+ pmr-gdbmw-ayhry-rt67n-enrmm-n86mt-b7fah-wf4zj  Sources: The Creative Cit
+ y https://www.thecreativecity.org/events/er8rjhwdb4d6g67-c7l7k-wb72f-kcn
+ 4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-enrmm-n86mt-b7fah-wf4zj
+LOCATION:Sacred Hearts Academy
+URL:https://www.thecreativecity.org/events/er8rjhwdb4d6g67-c7l7k-wb72f-kc
+ n4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-enrmm-n86mt-b7fah-wf4zj
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:1753f7959ac87f36e091@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261203T180000
+DTEND;TZID=Pacific/Honolulu:20261203T190000
+SUMMARY:Kaimuki Christmas Parade & Tree Lighting
+DESCRIPTION:Approximately 40 Kaimuki businesses\, schools bands\, and com
+ munity groups participating this year. Lighting of the Kaimuki Christmas
+  tree on top Pu'u O Kaimuki (also known as Menehune Hill. MORE INFO  htt
+ ps://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yr
+ pec-3ypjt-jgy4j-kdsz6-8cefk-jmtra  Sources: The Creative City https://ww
+ w.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3yp
+ jt-jgy4j-kdsz6-8cefk-jmtra
+LOCATION:Starts St. Louis High School\, to Waialae Ave.\, ends Municipal 
+ Parking Lot
+URL:https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7
+ rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-jmtra
+CATEGORIES:Holidays
+END:VEVENT
+BEGIN:VEVENT
+UID:32d35c8c4168fe288edc@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261205T100000
+DTEND;TZID=Pacific/Honolulu:20261205T120000
+SUMMARY:DAC Walking Tour: Art\, History & Architecture in the HEART of Ho
+ nolulu
+DESCRIPTION:Downtown Art Center (DAC) offers a unique way to experience t
+ he historical and artistic heritage of the HEART district of downtown Ho
+ nolulu with this walking tour\, led by Historian Gary R. Coover\, author
+  of "Pocket Walking Tour of Honolulu's Royal Mile\,” and veteran artis
+ t and educator Susan Hogan. Your guides will lead you on a lively 1.5 to
+  2-hour walk through streets layered with cultural\,…  https://www.the
+ creativecity.org/events/3ra98g66gmlaj5r-7pxf6-6fym5-n3pw4-nj3m6-228hk-z3
+ pmd-gws2w-cdg7c-6b5ek-9s6w6  Sources: The Creative City https://www.thec
+ reativecity.org/events/3ra98g66gmlaj5r-7pxf6-6fym5-n3pw4-nj3m6-228hk-z3p
+ md-gws2w-cdg7c-6b5ek-9s6w6
+LOCATION:Meet at Downtown Art Center - Start/End
+URL:https://www.thecreativecity.org/events/3ra98g66gmlaj5r-7pxf6-6fym5-n3
+ pw4-nj3m6-228hk-z3pmd-gws2w-cdg7c-6b5ek-9s6w6
+CATEGORIES:Art Discussion
+END:VEVENT
+BEGIN:VEVENT
+UID:a86843d08bad41bcb96e@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261212T080000
+DTEND;TZID=Pacific/Honolulu:20261212T120000
+SUMMARY:Lei Poʻo Workshop with Kumu Kuhi
+DESCRIPTION:Poʻo means "head" in Hawaiian\, and a lei poʻo is a head le
+ i or flower crown\, often worn to celebrate special occasions such as we
+ ddings\, graduations and hula performances. Often made with ferns\, flow
+ ers\, and foliage\, a lei poʻo can be made using various methods\, incl
+ uding wili (wrapping) or haku (braiding)\, making all haku leis lei poʻ
+ o\, but not all lei poʻo haku leis. Your instructor\, Kuhi…  https://
+ www.thecreativecity.org/events/w8b5mxxc3x4tfah-k3flg-4pnwx-etbcx-5fgwf-r
+ x7ls-cnmj2-859j8-h7jh7-49z29-r7jwa-na54p-awd9t-xk3hy-tmkj9-4egac  Source
+ s: The Creative City https://www.thecreativecity.org/events/w8b5mxxc3x4t
+ fah-k3flg-4pnwx-etbcx-5fgwf-rx7ls-cnmj2-859j8-h7jh7-49z29-r7jwa-na54p-aw
+ d9t-xk3hy-tmkj9-4egac
+LOCATION:Hānaiakamalama | Queen Emma Summer Palace
+URL:https://www.thecreativecity.org/events/w8b5mxxc3x4tfah-k3flg-4pnwx-et
+ bcx-5fgwf-rx7ls-cnmj2-859j8-h7jh7-49z29-r7jwa-na54p-awd9t-xk3hy-tmkj9-4e
+ gac
+CATEGORIES:Class
+END:VEVENT
+BEGIN:VEVENT
+UID:61a379a6f460af221f88@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261216T193000
+DTEND;TZID=Pacific/Honolulu:20261216T213000
+SUMMARY:HSO presents Hapa Holiday Extravaganza
+DESCRIPTION:The Hapa Holiday Extravaganza is back — and it's the most w
+ onderful night of the year. Maestro Dane Lam and the Hawaiʻi Symphony O
+ rchestra bring their signature energy to Blaisdell Concert Hall for an e
+ vening of timeless holiday classics\, local flair\, and pure festive joy
+ . Bring your ʻohana and celebrate the season the Hawaiʻi way. MORE INF
+ O  https://www.thecreativecity.org/events/w8b5mxxc3x4tfah-k3flg-4pnwx-et
+ bcx-5fgwf-rx7ls-cnmj2-859j8-h7jh7-49z29-r7jwa-6ss46-3m236-8nsx6  Sources
+ : The Creative City https://www.thecreativecity.org/events/w8b5mxxc3x4tf
+ ah-k3flg-4pnwx-etbcx-5fgwf-rx7ls-cnmj2-859j8-h7jh7-49z29-r7jwa-6ss46-3m2
+ 36-8nsx6
+LOCATION:Neal S. Blaisdell Concert Hall
+URL:https://www.thecreativecity.org/events/w8b5mxxc3x4tfah-k3flg-4pnwx-et
+ bcx-5fgwf-rx7ls-cnmj2-859j8-h7jh7-49z29-r7jwa-6ss46-3m236-8nsx6
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+UID:1e08dd663e7aa75c3876@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261219T190000
+DTEND;TZID=Pacific/Honolulu:20261219T210000
+SUMMARY:HSO presents Elf in Concert
+DESCRIPTION:Buddy was accidentally transported to the North Pole as a tod
+ dler and raised to adulthood among Santa’s elves. Unable to shake the 
+ feeling that he doesn’t fit in\, the adult Buddy travels to New York\,
+  in full elf uniform\, in search of his real father. This holiday season
+ \, relive this heartwarming holiday classic on a giant screen as every n
+ ote of John Debney’s wonderful score is played live to…  https://www
+ .thecreativecity.org/events/w8b5mxxc3x4tfah-k3flg-4pnwx-etbcx-5fgwf-64ke
+ t  https://alohacalendar.com/events/elf-in-concert  https://www.ticketma
+ ster.com/elf-in-concert-honolulu-hawaii-12-19-2026/event/0A00650EA3B70E7
+ E  Sources: The Creative City https://www.thecreativecity.org/events/w8b
+ 5mxxc3x4tfah-k3flg-4pnwx-etbcx-5fgwf-64ket\; AlohaCalendar https://aloha
+ calendar.com/events/elf-in-concert
+LOCATION:Neal S. Blaisdell Concert Hall
+URL:https://www.thecreativecity.org/events/w8b5mxxc3x4tfah-k3flg-4pnwx-et
+ bcx-5fgwf-64ket
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+UID:e19481111ba42d17d6b5@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261220T140000
+DTEND;TZID=Pacific/Honolulu:20261220T160000
+SUMMARY:HSO presents Elf in Concert
+DESCRIPTION:Buddy was accidentally transported to the North Pole as a tod
+ dler and raised to adulthood among Santa’s elves. Unable to shake the 
+ feeling that he doesn’t fit in\, the adult Buddy travels to New York\,
+  in full elf uniform\, in search of his real father. This holiday season
+ \, relive this heartwarming holiday classic on a giant screen as every n
+ ote of John Debney’s wonderful score is played live to…  https://www
+ .thecreativecity.org/events/w8b5mxxc3x4tfah-k3flg-4pnwx-etbcx-5fgwf-64ke
+ t-m97td  Sources: The Creative City https://www.thecreativecity.org/even
+ ts/w8b5mxxc3x4tfah-k3flg-4pnwx-etbcx-5fgwf-64ket-m97td
+LOCATION:Neal S. Blaisdell Concert Hall
+URL:https://www.thecreativecity.org/events/w8b5mxxc3x4tfah-k3flg-4pnwx-et
+ bcx-5fgwf-64ket-m97td
+CATEGORIES:Music
+END:VEVENT
+BEGIN:VEVENT
+UID:9978649cc63c8bf862d8@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270110T140000
+DTEND;TZID=Pacific/Honolulu:20270110T153000
+SUMMARY:Honolulu Theatre for Youth presents Tales of the Sun & Moon
+DESCRIPTION:By Reiko Ho No matter where or when you live\, all people loo
+ k at the same sun and the same moon and every culture has their own tale
+  about the heavens. This epic steampunk adventure celebrates celestial m
+ yths and legends from Hawai‘i\, China\, and Korea\, as well as astrono
+ my and movement inspired by traditional Asian theatre forms. Returning t
+ o Tenney for a limited run before heading out on a…  https://www.thecr
+ eativecity.org/events/3cnn42tkmx3t7ar-cjdg2-zblyy-x6rks-dm6ts-9c2nt  Sou
+ rces: The Creative City https://www.thecreativecity.org/events/3cnn42tkm
+ x3t7ar-cjdg2-zblyy-x6rks-dm6ts-9c2nt
+LOCATION:Tenney Theatre at St. Andrew's Cathedral
+URL:https://www.thecreativecity.org/events/3cnn42tkmx3t7ar-cjdg2-zblyy-x6
+ rks-dm6ts-9c2nt
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:63e51268d2114c5f58d5-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:All Buss Up in a HI State: A Trilogy of Hawaiʻi Plays — opens
+DESCRIPTION:Runs January 21 – February 21\, 2027. WRITTEN BY Hannah Ii-
+ Epstein January 21 - February 21\, 2027 Hannah Ii-Epstein’s All Buss U
+ p Trilogy reveals how personal choices are shaped by historical forces\,
+  and how cycles of loss can echo through families as powerfully as love.
+  Yet even in their darkest moments\, these stories insist on the resilie
+ nce of ʻohana and the enduring connection to the ʻāina. Spanning gene
+ rations\, these three plays…  https://www.thecreativecity.org/events/y
+ 3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx
+ 64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-bhgb5-ct6m7-6z8
+ y2-xjw2e-el89c  Sources: The Creative City https://www.thecreativecity.o
+ rg/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brym
+ z-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-bhgb
+ 5-ct6m7-6z8y2-xjw2e-el89c
+LOCATION:Kumu Kahua Theatre
+URL:https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99
+ ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pr
+ y8l-485mf-mxwjz-gdl9f-my7ja-bhgb5-ct6m7-6z8y2-xjw2e-el89c
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:63e51268d2114c5f58d5-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:All Buss Up in a HI State: A Trilogy of Hawaiʻi Plays — closes
+  (last day)
+DESCRIPTION:Runs January 21 – February 21\, 2027. WRITTEN BY Hannah Ii-
+ Epstein January 21 - February 21\, 2027 Hannah Ii-Epstein’s All Buss U
+ p Trilogy reveals how personal choices are shaped by historical forces\,
+  and how cycles of loss can echo through families as powerfully as love.
+  Yet even in their darkest moments\, these stories insist on the resilie
+ nce of ʻohana and the enduring connection to the ʻāina. Spanning gene
+ rations\, these three plays…  https://www.thecreativecity.org/events/y
+ 3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx
+ 64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-bhgb5-ct6m7-6z8
+ y2-xjw2e-el89c  Sources: The Creative City https://www.thecreativecity.o
+ rg/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brym
+ z-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-bhgb
+ 5-ct6m7-6z8y2-xjw2e-el89c
+LOCATION:Kumu Kahua Theatre
+URL:https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99
+ ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pr
+ y8l-485mf-mxwjz-gdl9f-my7ja-bhgb5-ct6m7-6z8y2-xjw2e-el89c
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:ef0f74bc25cfb8aa9e7e-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:Purpose — opens
+DESCRIPTION:Runs January 21 – February 7\, 2027. BY BRANDEN JACOBS-JENK
+ INS THIS ELECTRIFYING PRODUCTION IS AN INTIMATE AND INTRIGUING BEHIND-TH
+ E-SCENES LOOK AT THE INFLUENTIAL JASPER FAMILY. AND LIKE ALL FAMILIES\, 
+ THERE ARE CRACKS BENEATH THE SURFACE. WHEN THE SON RETURNS HOME WITH AN 
+ UNINVITED FRIEND\, THE FAMILY IS FORCED INTO A RECKONING WITH ITSELF\, I
+ TS FAITH\, AND ITS LEGACY. WINNER OF THE 2025 PULITZER PRIZE FOR DRAMA. 
+ MORE INFO  https://www.thecreativecity.org/events/er8rjhwdb4d6g67-c7l7k-
+ wb72f-kcn4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53w-2asfn-9xc6s-sp694 
+  Sources: The Creative City https://www.thecreativecity.org/events/er8rj
+ hwdb4d6g67-c7l7k-wb72f-kcn4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53w-2
+ asfn-9xc6s-sp694
+LOCATION:Manoa Valley Theatre
+URL:https://www.thecreativecity.org/events/er8rjhwdb4d6g67-c7l7k-wb72f-kc
+ n4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53w-2asfn-9xc6s-sp694
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:ef0f74bc25cfb8aa9e7e-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:Purpose — closes (last day)
+DESCRIPTION:Runs January 21 – February 7\, 2027. BY BRANDEN JACOBS-JENK
+ INS THIS ELECTRIFYING PRODUCTION IS AN INTIMATE AND INTRIGUING BEHIND-TH
+ E-SCENES LOOK AT THE INFLUENTIAL JASPER FAMILY. AND LIKE ALL FAMILIES\, 
+ THERE ARE CRACKS BENEATH THE SURFACE. WHEN THE SON RETURNS HOME WITH AN 
+ UNINVITED FRIEND\, THE FAMILY IS FORCED INTO A RECKONING WITH ITSELF\, I
+ TS FAITH\, AND ITS LEGACY. WINNER OF THE 2025 PULITZER PRIZE FOR DRAMA. 
+ MORE INFO  https://www.thecreativecity.org/events/er8rjhwdb4d6g67-c7l7k-
+ wb72f-kcn4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53w-2asfn-9xc6s-sp694 
+  Sources: The Creative City https://www.thecreativecity.org/events/er8rj
+ hwdb4d6g67-c7l7k-wb72f-kcn4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53w-2
+ asfn-9xc6s-sp694
+LOCATION:Manoa Valley Theatre
+URL:https://www.thecreativecity.org/events/er8rjhwdb4d6g67-c7l7k-wb72f-kc
+ n4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53w-2asfn-9xc6s-sp694
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:1cd571f82973fb826984@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270123T103000
+DTEND;TZID=Pacific/Honolulu:20270123T120000
+SUMMARY:Honolulu Theatre for Youth presents Listen
+DESCRIPTION:by Jarren Amian and Mattea Mazzella What is that?! Sound? Mus
+ ic? Come play and explore the grooves and sounds of Hawaiʻi in this ori
+ ginal interactive experience created and performed by two of HTY’s res
+ ident composer-musicians and built specifically for our youngest audienc
+ e members. Listening will never feel so fun! PUBLIC PERFORMANCE DATES Sa
+ t Jan 23 @ 10:30am Sun Jan 31 @ 2pm Sun Feb 7 @ 2pm…  https://www.thec
+ reativecity.org/events/3cnn42tkmx3t7ar-cjdg2-zblyy-x6rks-dm6ts-9c2nt-z3k
+ de  https://alohacalendar.com/events/listen  https://www.eventbrite.com/
+ e/listen-tickets-1986279296846  Sources: The Creative City https://www.t
+ hecreativecity.org/events/3cnn42tkmx3t7ar-cjdg2-zblyy-x6rks-dm6ts-9c2nt-
+ z3kde\; AlohaCalendar https://alohacalendar.com/events/listen
+LOCATION:Tenney Theatre at St. Andrew's Cathedral
+URL:https://www.thecreativecity.org/events/3cnn42tkmx3t7ar-cjdg2-zblyy-x6
+ rks-dm6ts-9c2nt-z3kde
+CATEGORIES:Theatre
+END:VEVENT
+BEGIN:VEVENT
+UID:aa90cf89e4131eecbb24@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261115T120000
+SUMMARY:Lūʻau & HĀ: Breath of Life Show at Polynesian Cultural Center
+DESCRIPTION:Time 4:40 - 8:35 pm  https://alohacalendar.com/events/lau-h-b
+ reath-of-life-show-at-polynesian-cultural-center  https://www.polynesia.
+ com/packages  Sources: AlohaCalendar https://alohacalendar.com/events/la
+ u-h-breath-of-life-show-at-polynesian-cultural-center
+LOCATION:Polynesian Cultural Center (Oahu)
+URL:https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynes
+ ian-cultural-center
+CATEGORIES:Luaus
+END:VEVENT
+BEGIN:VEVENT
+UID:7d2680c48342b74c91b7-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Cirque du Soleil: Auana — opens
+DESCRIPTION:Runs 112 dates\, November 15\, 2026 – January 31\, 2027. Ci
+ rque du Soleil's first resident show in Hawaiʻi: acrobatics\, aerial ac
+ ts\, hula and live music in Waikīkī. About 80 minutes\, Wednesday to S
+ unday.  https://alohacalendar.com/events/cirque-du-soleil-auana-2026-11-
+ 15  https://www.ticketmaster.com/event/Z7r9jZ1A7j9Q3  Sources: AlohaCale
+ ndar https://alohacalendar.com/events/cirque-du-soleil-auana-2026-11-15
+LOCATION:Outrigger Waikiki Beachcomber Hotel (Oahu)
+URL:https://alohacalendar.com/events/cirque-du-soleil-auana-2026-11-15
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:7d2680c48342b74c91b7-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:Cirque du Soleil: Auana — closes (last day)
+DESCRIPTION:Runs 112 dates\, November 15\, 2026 – January 31\, 2027. Ci
+ rque du Soleil's first resident show in Hawaiʻi: acrobatics\, aerial ac
+ ts\, hula and live music in Waikīkī. About 80 minutes\, Wednesday to S
+ unday.  https://alohacalendar.com/events/cirque-du-soleil-auana-2026-11-
+ 15  https://www.ticketmaster.com/event/Z7r9jZ1A7j9Q3  Sources: AlohaCale
+ ndar https://alohacalendar.com/events/cirque-du-soleil-auana-2026-11-15
+LOCATION:Outrigger Waikiki Beachcomber Hotel (Oahu)
+URL:https://alohacalendar.com/events/cirque-du-soleil-auana-2026-11-15
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:75e349b24f1a7a51a559@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261115T110000
+DTEND;TZID=Pacific/Honolulu:20261115T150000
+SUMMARY:Pacific Threads Runway Fashion\, Arts & Music Experience
+DESCRIPTION:Pacific Threads Runway Fashion\, Arts & Music Experience brin
+ gs fashion\, art\, and music together for an in-person cele...  https://
+ alohacalendar.com/events/pacific-threads-runway-fashion-arts-music-exper
+ ience  https://www.eventbrite.com/e/pacific-threads-runway-fashion-arts-
+ music-experience-tickets-2004700477092  Sources: AlohaCalendar https://a
+ lohacalendar.com/events/pacific-threads-runway-fashion-arts-music-experi
+ ence
+LOCATION:DECK. at Queen Kapiʻolani Hotel (Oahu)
+URL:https://alohacalendar.com/events/pacific-threads-runway-fashion-arts-
+ music-experience
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:0920d2c55be020cd7772@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261115T140000
+DTEND;TZID=Pacific/Honolulu:20261115T163000
+SUMMARY:Pippin
+DESCRIPTION:A magical musical about the journey to be extraordinary! Mid-
+ Pacific presents "Pippin\," the hit musical by Stephen Sc...  https://al
+ ohacalendar.com/events/pippin-2026-11-15  https://www.eventbrite.com/e/p
+ ippin-tickets-1992853642892  Sources: AlohaCalendar https://alohacalenda
+ r.com/events/pippin-2026-11-15
+LOCATION:Mid-Pacific Institute (Oahu)
+URL:https://alohacalendar.com/events/pippin-2026-11-15
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:59250a13c83d514d4656@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261115T140000
+DTEND;TZID=Pacific/Honolulu:20261115T150000
+SUMMARY:According to Coyote
+DESCRIPTION:Native American folktales performed by actor Julia Keefe\, wh
+ o is a member of the Nez Perce tribe.  https://alohacalendar.com/events/
+ according-to-coyote-2026-11-15  https://www.eventbrite.com/e/according-t
+ o-coyote-tickets-1986277844502  Sources: AlohaCalendar https://alohacale
+ ndar.com/events/according-to-coyote-2026-11-15
+LOCATION:Honolulu Theatre for Youth (Oahu)
+URL:https://alohacalendar.com/events/according-to-coyote-2026-11-15
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:7a569edbad48d1efc105@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261116T090000
+SUMMARY:Hālau ʻŌkupu Dinosaurs!
+DESCRIPTION:Dinosaurs: Giants of the Past: Step back in time with Dinosau
+ rs: Giants of the Past! Journey with your young paleontolog  https://alo
+ hacalendar.com/events/hlau-kupu-dinosaurs  https://imiloahawaii.org/even
+ t-calendar/2025/8/18halauokupu-t8tbl-ye2ng-ldypb-4el5f-raf3r-hn6c9-sync3
+ -w9w4t  Sources: AlohaCalendar https://alohacalendar.com/events/hlau-kup
+ u-dinosaurs
+LOCATION:Imiloa Astronomy Center (Big Island)
+URL:https://alohacalendar.com/events/hlau-kupu-dinosaurs
+CATEGORIES:Community
+END:VEVENT
+BEGIN:VEVENT
+UID:62721d62b9618d216508-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:HUKI: Canoe Show at Polynesian Cultural Center — opens
+DESCRIPTION:Runs 10 dates\, November 16 – 28\, 2026. One-of-a-kind cano
+ e performance on the lagoon featuring live musicians and native performe
+ rs telling stories from Pacifi  https://alohacalendar.com/events/huki-ca
+ noe-show-at-polynesian-cultural-center-2026-11-16  https://www.polynesia
+ .com/packages  Sources: AlohaCalendar https://alohacalendar.com/events/h
+ uki-canoe-show-at-polynesian-cultural-center-2026-11-16
+LOCATION:Polynesian Cultural Center (Oahu)
+URL:https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultur
+ al-center-2026-11-16
+CATEGORIES:Cultural & Heritage
+END:VEVENT
+BEGIN:VEVENT
+UID:62721d62b9618d216508-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:HUKI: Canoe Show at Polynesian Cultural Center — closes (last d
+ ay)
+DESCRIPTION:Runs 10 dates\, November 16 – 28\, 2026. One-of-a-kind cano
+ e performance on the lagoon featuring live musicians and native performe
+ rs telling stories from Pacifi  https://alohacalendar.com/events/huki-ca
+ noe-show-at-polynesian-cultural-center-2026-11-16  https://www.polynesia
+ .com/packages  Sources: AlohaCalendar https://alohacalendar.com/events/h
+ uki-canoe-show-at-polynesian-cultural-center-2026-11-16
+LOCATION:Polynesian Cultural Center (Oahu)
+URL:https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultur
+ al-center-2026-11-16
+CATEGORIES:Cultural & Heritage
+END:VEVENT
+BEGIN:VEVENT
+UID:b858f5445f7da09104da-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:HA: Breath of Life Evening Show — opens
+DESCRIPTION:Runs 10 dates\, November 16 – 28\, 2026. Action-packed even
+ ing show featuring over 100 Polynesian performers in a story of passion 
+ ignited by fire\, song\, and dan  https://alohacalendar.com/events/ha-br
+ eath-of-life-evening-show-2026-11-16  https://www.polynesia.com/packages
+   Sources: AlohaCalendar https://alohacalendar.com/events/ha-breath-of-l
+ ife-evening-show-2026-11-16
+LOCATION:Polynesian Cultural Center (Oahu)
+URL:https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-
+ 11-16
+CATEGORIES:Cultural & Heritage
+END:VEVENT
+BEGIN:VEVENT
+UID:b858f5445f7da09104da-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:HA: Breath of Life Evening Show — closes (last day)
+DESCRIPTION:Runs 10 dates\, November 16 – 28\, 2026. Action-packed even
+ ing show featuring over 100 Polynesian performers in a story of passion 
+ ignited by fire\, song\, and dan  https://alohacalendar.com/events/ha-br
+ eath-of-life-evening-show-2026-11-16  https://www.polynesia.com/packages
+   Sources: AlohaCalendar https://alohacalendar.com/events/ha-breath-of-l
+ ife-evening-show-2026-11-16
+LOCATION:Polynesian Cultural Center (Oahu)
+URL:https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-
+ 11-16
+CATEGORIES:Cultural & Heritage
+END:VEVENT
+BEGIN:VEVENT
+UID:412cd52f2248c65cf047@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Kupuna Movie Mornings – “WEST SIDE STORY” (1961)
+DESCRIPTION:Doors Open: 10:30 AM Runtime: 152 minutes Venue: Hawaii Theat
+ re Address: 1130 Bethel Street\, Honolulu\, HI 96813 Film Screening: Wes
+ t Side Story (1961)…  https://alohacalendar.com/events/kupuna-movie-mo
+ rnings-west-side-story-1961  https://hawaiitheatre.my.salesforce-sites.c
+ om/ticket/#/events/a0SUl00000EUXRVMA5  Sources: AlohaCalendar https://al
+ ohacalendar.com/events/kupuna-movie-mornings-west-side-story-1961
+LOCATION:Hawaii Theatre Center (Oahu)
+URL:https://alohacalendar.com/events/kupuna-movie-mornings-west-side-stor
+ y-1961
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:c61eaef5141d0f9d07ff@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261117T170000
+DTEND;TZID=Pacific/Honolulu:20261117T183000
+SUMMARY:Princeville Moʻolelo: “The shell lei of Niʻihau” with Linda
+  Paik Moriarty
+DESCRIPTION:The Princeville Moʻolelo free lecture series will continue o
+ n Tuesday\, November 17th with Linda Paik Moriarty. “Niʻihau  https:/
+ /alohacalendar.com/events/princeville-moolelo-the-shell-lei-of-niihau-wi
+ th-linda-paik-moriarty  Sources: AlohaCalendar https://alohacalendar.com
+ /events/princeville-moolelo-the-shell-lei-of-niihau-with-linda-paik-mori
+ arty
+LOCATION:Princeville Community Center (Kauai)
+URL:https://alohacalendar.com/events/princeville-moolelo-the-shell-lei-of
+ -niihau-with-linda-paik-moriarty
+CATEGORIES:Festivals
+END:VEVENT
+BEGIN:VEVENT
+UID:733ef25b2768f4b7798f-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Makai Music & Art Festival Kauai — opens
+DESCRIPTION:Runs 6 dates\, November 18 – December 23\, 2026. Come share
+  the Aloha with us every Wednesday from 1-5pm at our Makai Music and Art
+  Festival Kaua’i. Free-entry\, f  https://alohacalendar.com/events/mak
+ ai-music-art-festival-kauai-2026-11-18  Sources: AlohaCalendar https://a
+ lohacalendar.com/events/makai-music-art-festival-kauai-2026-11-18
+LOCATION:Princeville Makai Golf Club (Kauai)
+URL:https://alohacalendar.com/events/makai-music-art-festival-kauai-2026-
+ 11-18
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:733ef25b2768f4b7798f-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Makai Music & Art Festival Kauai — closes (last day)
+DESCRIPTION:Runs 6 dates\, November 18 – December 23\, 2026. Come share
+  the Aloha with us every Wednesday from 1-5pm at our Makai Music and Art
+  Festival Kaua’i. Free-entry\, f  https://alohacalendar.com/events/mak
+ ai-music-art-festival-kauai-2026-11-18  Sources: AlohaCalendar https://a
+ lohacalendar.com/events/makai-music-art-festival-kauai-2026-11-18
+LOCATION:Princeville Makai Golf Club (Kauai)
+URL:https://alohacalendar.com/events/makai-music-art-festival-kauai-2026-
+ 11-18
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:6a4d3c11f506c9633560@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261118T193000
+DTEND;TZID=Pacific/Honolulu:20261118T213000
+SUMMARY:Breaking News: Beyond The Headlines
+DESCRIPTION:A New Play Festival  https://alohacalendar.com/events/breakin
+ g-news-beyond-the-headlines  https://www.eventbrite.com/e/breaking-news-
+ beyond-the-headlines-tickets-2003326376119  Sources: AlohaCalendar https
+ ://alohacalendar.com/events/breaking-news-beyond-the-headlines
+LOCATION:Kumu Kahua Theatre (Oahu)
+URL:https://alohacalendar.com/events/breaking-news-beyond-the-headlines
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:e3881d4d2247fb9e37e6@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Navigating by the Stars
+DESCRIPTION:Wednesday\, August 19\, 2026 Wednesday\, November 18\, 2026 W
+ ednesday\, February 17\, 2027 Wednesday\, May 19\, 2027 7:00  https://al
+ ohacalendar.com/events/navigating-by-the-stars-2026-08-19  https://www.b
+ ishopmuseum.org/calendar/navigating-by-the-stars-2027/  Sources: AlohaCa
+ lendar https://alohacalendar.com/events/navigating-by-the-stars-2026-08-
+ 19
+LOCATION:Bishop Museum (Oahu)
+URL:https://alohacalendar.com/events/navigating-by-the-stars-2026-08-19
+CATEGORIES:Family & Keiki
+END:VEVENT
+BEGIN:VEVENT
+UID:8a56d4e5f07ae2ce82d0@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261119T170000
+DTEND;TZID=Pacific/Honolulu:20261119T183000
+SUMMARY:iHula
+DESCRIPTION:Come see iHula by Ryan "Oki" Okinaka at Lili'uokalani Center 
+ performed by our kamalei  https://alohacalendar.com/events/ihula  https:
+ //www.eventbrite.com/e/ihula-tickets-2003796775095  Sources: AlohaCalend
+ ar https://alohacalendar.com/events/ihula
+LOCATION:Lili'uokalani Center (Oahu)
+URL:https://alohacalendar.com/events/ihula
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:3c765859b03bbe980a79@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Dr. Seuss’ How the Grinch Stole Christmas! The Musical
+DESCRIPTION:Diamond Head Theatre's holiday show brings Dr. Seuss's story 
+ to the stage as the Grinch discovers the true meaning of Christmas\, wit
+ h music\, dancing and…  https://alohacalendar.com/events/dr-seuss-how-
+ the-grinch-stole-christmas-the-musical  https://diamondheadtheatre.my.sa
+ lesforce-sites.com/ticket/#/events/a0STO000005CJgj2AG  Sources: AlohaCal
+ endar https://alohacalendar.com/events/dr-seuss-how-the-grinch-stole-chr
+ istmas-the-musical
+LOCATION:Diamond Head Theatre (Oahu)
+URL:https://alohacalendar.com/events/dr-seuss-how-the-grinch-stole-christ
+ mas-the-musical
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:7ded70e033441a5e0ee9-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Kauai Beach Resort Kauai Made Craft Fair Fridays — opens
+DESCRIPTION:Runs 11 dates\, November 20\, 2026 – January 29\, 2027. 
+ 🌺 Kaua‘i Beach Resort Craft Fair Join us every Friday at the beauti
+ ful Kaua‘i Beach Resort for our weekly Craft Fair. D  https://alohacal
+ endar.com/events/kauai-beach-resort-kauai-made-craft-fair-fridays-2026-1
+ 1-20  Sources: AlohaCalendar https://alohacalendar.com/events/kauai-beac
+ h-resort-kauai-made-craft-fair-fridays-2026-11-20
+LOCATION:Outrigger Kaua’i Beach Resort & Spa (Kauai)
+URL:https://alohacalendar.com/events/kauai-beach-resort-kauai-made-craft-
+ fair-fridays-2026-11-20
+CATEGORIES:Farmers Markets
+END:VEVENT
+BEGIN:VEVENT
+UID:7ded70e033441a5e0ee9-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Kauai Beach Resort Kauai Made Craft Fair Fridays — closes (last
+  day)
+DESCRIPTION:Runs 11 dates\, November 20\, 2026 – January 29\, 2027. 
+ 🌺 Kaua‘i Beach Resort Craft Fair Join us every Friday at the beauti
+ ful Kaua‘i Beach Resort for our weekly Craft Fair. D  https://alohacal
+ endar.com/events/kauai-beach-resort-kauai-made-craft-fair-fridays-2026-1
+ 1-20  Sources: AlohaCalendar https://alohacalendar.com/events/kauai-beac
+ h-resort-kauai-made-craft-fair-fridays-2026-11-20
+LOCATION:Outrigger Kaua’i Beach Resort & Spa (Kauai)
+URL:https://alohacalendar.com/events/kauai-beach-resort-kauai-made-craft-
+ fair-fridays-2026-11-20
+CATEGORIES:Farmers Markets
+END:VEVENT
+BEGIN:VEVENT
+UID:7e727f1f2a3d37276ffc@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Aloha Friday Art Nights at Hale Līhuʻe
+DESCRIPTION:Every Friday artist from all arts come together to do art. Fr
+ om sip and paint\, open mic\, writers garden\, you name it. Al  https://
+ alohacalendar.com/events/aloha-friday-art-nights-at-hale-lhue-2026-11-20
+   Sources: AlohaCalendar https://alohacalendar.com/events/aloha-friday-a
+ rt-nights-at-hale-lhue-2026-11-20
+LOCATION:Hale Lihue (Kauai)
+URL:https://alohacalendar.com/events/aloha-friday-art-nights-at-hale-lhue
+ -2026-11-20
+CATEGORIES:Food & Drink
+END:VEVENT
+BEGIN:VEVENT
+UID:a6d9d9ccbaccf8acef56@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261120T193000
+DTEND;TZID=Pacific/Honolulu:20261120T220000
+SUMMARY:Fall Dance Concert by the Mid-Pacific School of the Arts - Friday
+  7:30pm
+DESCRIPTION:Experience the magic of dance as the Mid-Pacific School of th
+ e Arts Dance and Hula programs are showcased at our Fall...  https://alo
+ hacalendar.com/events/fall-dance-concert-by-the-mid-pacific-school-of-th
+ e-arts-friday-730pm  https://www.eventbrite.com/e/fall-dance-concert-by-
+ the-mid-pacific-school-of-the-arts-friday-730pm-tickets-1992860737111  S
+ ources: AlohaCalendar https://alohacalendar.com/events/fall-dance-concer
+ t-by-the-mid-pacific-school-of-the-arts-friday-730pm
+LOCATION:Leeward Community College Theatre (Oahu)
+URL:https://alohacalendar.com/events/fall-dance-concert-by-the-mid-pacifi
+ c-school-of-the-arts-friday-730pm
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:186e8b99046aceedd7c6@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Member Preview of UNDER/GROUND
+DESCRIPTION:Bishop Museum is excited to invite our members to a see-it-fi
+ rst preview of UNDER/GROUND. Join us for a Member Previe  https://alohac
+ alendar.com/events/member-preview-of-underground  https://www.bishopmuse
+ um.org/calendar/member-preview-of-under-ground/  Sources: AlohaCalendar 
+ https://alohacalendar.com/events/member-preview-of-underground
+LOCATION:Bishop Museum (Oahu)
+URL:https://alohacalendar.com/events/member-preview-of-underground
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:812fae2fea0d5eca9387@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Grand Opening: UNDER/GROUND
+DESCRIPTION:Friday\, November 20\, 2026 6 - 9 p.m. Castle Memorial Buildi
+ ng | Gallery Lawns | Great Lawn $10 Pre-registration | $15  https://aloh
+ acalendar.com/events/grand-opening-underground  https://www.bishopmuseum
+ .org/calendar/under-ground-opening-celebration/  Sources: AlohaCalendar 
+ https://alohacalendar.com/events/grand-opening-underground
+LOCATION:Bishop Museum (Oahu)
+URL:https://alohacalendar.com/events/grand-opening-underground
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:16ee631a04ce2ab57062@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261121T110000
+DTEND;TZID=Pacific/Honolulu:20261121T113500
+SUMMARY:MOVE! at Capitol Modern (Fall 2026)
+DESCRIPTION:Dance\, wiggle\, and giggle while celebrating how we MOVE in 
+ this FREE Event for keiki with developmental differences a...  https://a
+ lohacalendar.com/events/move-at-capitol-modern-fall-2026-2026-11-21  htt
+ ps://www.eventbrite.com/e/move-at-capitol-modern-fall-2026-tickets-19994
+ 60583429  Sources: AlohaCalendar https://alohacalendar.com/events/move-a
+ t-capitol-modern-fall-2026-2026-11-21
+LOCATION:Capitol Modern: the Hawaii State Art Museum (Oahu)
+URL:https://alohacalendar.com/events/move-at-capitol-modern-fall-2026-202
+ 6-11-21
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:a61e5b6d70d4f84fcd6a@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261121T150000
+DTEND;TZID=Pacific/Honolulu:20261121T173000
+SUMMARY:Fall Dance Concert by the Mid-Pacific School of the Arts - Saturd
+ ay 3:00pm
+DESCRIPTION:Experience the magic of dance as the Mid-Pacific School of th
+ e Arts Dance and Hula programs are showcased at our Fall...  https://alo
+ hacalendar.com/events/fall-dance-concert-by-the-mid-pacific-school-of-th
+ e-arts-saturday-300pm  https://www.eventbrite.com/e/fall-dance-concert-b
+ y-the-mid-pacific-school-of-the-arts-saturday-300pm-tickets-199286249837
+ 9  Sources: AlohaCalendar https://alohacalendar.com/events/fall-dance-co
+ ncert-by-the-mid-pacific-school-of-the-arts-saturday-300pm
+LOCATION:Leeward Community College Theatre (Oahu)
+URL:https://alohacalendar.com/events/fall-dance-concert-by-the-mid-pacifi
+ c-school-of-the-arts-saturday-300pm
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:b02856160e8060390f5c@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261121T180000
+DTEND;TZID=Pacific/Honolulu:20261121T210000
+SUMMARY:The Dinner Detective Interactive Murder Mystery Show
+DESCRIPTION:America’s LARGEST interactive comedy murder mystery dinner 
+ show is now playing in Honolulu\, HI!  https://alohacalendar.com/events/
+ the-dinner-detective-interactive-murder-mystery-show-2026-11-21  https:/
+ /www.eventbrite.com/e/the-dinner-detective-interactive-murder-mystery-sh
+ ow-tickets-2003314175627  Sources: AlohaCalendar https://alohacalendar.c
+ om/events/the-dinner-detective-interactive-murder-mystery-show-2026-11-2
+ 1
+LOCATION:Embassy Suites by Hilton Waikiki Beach Walk (Oahu)
+URL:https://alohacalendar.com/events/the-dinner-detective-interactive-mur
+ der-mystery-show-2026-11-21
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:b0ccd72b3abee42e128d@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:26th Annual ʻUkulele Guild of Hawaiʻi Exhibition
+DESCRIPTION:Saturday\, November 21\, 2026 9:00 a.m. – 4:30 p.m. Gulab &
+  Indru Watumull Atrium | Hawaiian Hall Courtyard FREE wi  https://alohac
+ alendar.com/events/26th-annual-ukulele-guild-of-hawaii-exhibition  https
+ ://www.bishopmuseum.org/calendar/26th-annual-%ca%bbukulele-guild-of-hawa
+ i%ca%bbi-exhibition/  Sources: AlohaCalendar https://alohacalendar.com/e
+ vents/26th-annual-ukulele-guild-of-hawaii-exhibition
+LOCATION:Bishop Museum (Oahu)
+URL:https://alohacalendar.com/events/26th-annual-ukulele-guild-of-hawaii-
+ exhibition
+CATEGORIES:Cultural & Heritage
+END:VEVENT
+BEGIN:VEVENT
+UID:f077157df25990f1afe3@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261121T193000
+DTEND;TZID=Pacific/Honolulu:20261121T220000
+SUMMARY:Fall Dance Concert by the Mid-Pacific School of the Arts - Saturd
+ ay 7:30pm
+DESCRIPTION:Experience the magic of dance as the Mid-Pacific School of th
+ e Arts Dance and Hula programs are showcased at our Fall...  https://alo
+ hacalendar.com/events/fall-dance-concert-by-the-mid-pacific-school-of-th
+ e-arts-saturday-730pm  https://www.eventbrite.com/e/fall-dance-concert-b
+ y-the-mid-pacific-school-of-the-arts-saturday-730pm-tickets-199286269797
+ 6  Sources: AlohaCalendar https://alohacalendar.com/events/fall-dance-co
+ ncert-by-the-mid-pacific-school-of-the-arts-saturday-730pm
+LOCATION:Leeward Community College Theatre (Oahu)
+URL:https://alohacalendar.com/events/fall-dance-concert-by-the-mid-pacifi
+ c-school-of-the-arts-saturday-730pm
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:52c12c44fc86d61d1b39@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261123T180000
+DTEND;TZID=Pacific/Honolulu:20261123T190000
+SUMMARY:(In-Person at KOKA Kalihi) Simple Hula "Mele Kalikimaka Ei Nei"
+DESCRIPTION:Join Aunty Pi'i as we learn in-person at Keiki O Ka ʻĀina! 
+  https://alohacalendar.com/events/in-person-at-koka-kalihi-simple-hula-2
+ 026-11-23  https://www.eventbrite.com/e/in-person-at-koka-kalihi-simple-
+ hula-mele-kalikimaka-ei-nei-tickets-2003382306408  Sources: AlohaCalenda
+ r https://alohacalendar.com/events/in-person-at-koka-kalihi-simple-hula-
+ 2026-11-23
+LOCATION:Keiki O Ka ‘ Āina Family Learning Centers (Oahu)
+URL:https://alohacalendar.com/events/in-person-at-koka-kalihi-simple-hula
+ -2026-11-23
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:ddf09ce07969ab008b6e@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261123T190000
+DTEND;TZID=Pacific/Honolulu:20261123T210000
+SUMMARY:The Work Presents: "Believe Me" by Chelsea Cox
+DESCRIPTION:Join directors Reb Beau Allen and Jarren Amian as they compet
+ e to see "Who Directed it Best?"  https://alohacalendar.com/events/the-w
+ ork-presents-believe-me-by-chelsea-cox  https://www.eventbrite.com/e/the
+ -work-presents-believe-me-by-chelsea-cox-tickets-2004398763659  Sources:
+  AlohaCalendar https://alohacalendar.com/events/the-work-presents-believ
+ e-me-by-chelsea-cox
+LOCATION:Kumu Kahua Theatre (Oahu)
+URL:https://alohacalendar.com/events/the-work-presents-believe-me-by-chel
+ sea-cox
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:7c05cb4f551682696c79-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:The Book of Mormon (Touring) — opens
+DESCRIPTION:Runs 11 dates\, November 25 – December 6\, 2026. All who en
+ ter must have a ticket. Ages under 4 will not be admitted. There is no e
+ levator access to the balcony seati...  https://alohacalendar.com/events
+ /the-book-of-mormon-touring  https://www.ticketmaster.com/the-book-of-mo
+ rmon-touring-honolulu-hawaii-11-25-2026/event/0A00648EB7BE827A  Sources:
+  AlohaCalendar https://alohacalendar.com/events/the-book-of-mormon-touri
+ ng
+LOCATION:Neal S Blaisdell Concert Hall (Oahu)
+URL:https://alohacalendar.com/events/the-book-of-mormon-touring
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:7c05cb4f551682696c79-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:The Book of Mormon (Touring) — closes (last day)
+DESCRIPTION:Runs 11 dates\, November 25 – December 6\, 2026. All who en
+ ter must have a ticket. Ages under 4 will not be admitted. There is no e
+ levator access to the balcony seati...  https://alohacalendar.com/events
+ /the-book-of-mormon-touring  https://www.ticketmaster.com/the-book-of-mo
+ rmon-touring-honolulu-hawaii-11-25-2026/event/0A00648EB7BE827A  Sources:
+  AlohaCalendar https://alohacalendar.com/events/the-book-of-mormon-touri
+ ng
+LOCATION:Neal S Blaisdell Concert Hall (Oahu)
+URL:https://alohacalendar.com/events/the-book-of-mormon-touring
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:ead7347b8b9f2c84cf45@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261125T203000
+SUMMARY:ANA ‘Aha Mele Evening & Moonlight Concert
+DESCRIPTION:ANA 'Aha Mele Evening & Moonlight Concert Nobuyuki Tsujii & F
+ umiaki Miura As part of ANA's commitment to celebrating...  https://aloh
+ acalendar.com/events/ana-aha-mele-evening-moonlight-concert-2026-11-25  
+ https://www.ticketweb.com/event/ana-aha-mele-evening-blue-note-hawaii-ti
+ ckets/14250604  Sources: AlohaCalendar https://alohacalendar.com/events/
+ ana-aha-mele-evening-moonlight-concert-2026-11-25
+LOCATION:Blue Note Hawaii (Oahu)
+URL:https://alohacalendar.com/events/ana-aha-mele-evening-moonlight-conce
+ rt-2026-11-25
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:d982646746645f697820@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:The Nutcracker by Ballet Hawaii at Prince Waikiki
+DESCRIPTION:Celebrate the holiday season with a special mini performance 
+ of The Nutcracker by Ballet Hawaii at Prince Waikiki. Enjoy  https://alo
+ hacalendar.com/events/the-nutcracker-by-ballet-hawaii-at-prince-waikiki 
+  https://www.princewaikiki.com/experience/activities-events/?eventId=min
+ i-performances-of-the-nutcracker-by-ballet-hawaii-bb407101&preselectedDa
+ te=2026-11-28  Sources: AlohaCalendar https://alohacalendar.com/events/t
+ he-nutcracker-by-ballet-hawaii-at-prince-waikiki
+LOCATION:
+URL:https://alohacalendar.com/events/the-nutcracker-by-ballet-hawaii-at-p
+ rince-waikiki
+CATEGORIES:Festivals
+END:VEVENT
+BEGIN:VEVENT
+UID:0e52bd14d313767211a1@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:10th Annual Keep it Kaimukī Saturday
+DESCRIPTION:Celebrate Small Business Saturday and 10 years of shopping lo
+ cal at the 10th Annual Keep it Kaimukī Saturday. This free\,  https://a
+ lohacalendar.com/events/10th-annual-keep-it-kaimuk-saturday  https://www
+ .keepitkaimuki.com/  Sources: AlohaCalendar https://alohacalendar.com/ev
+ ents/10th-annual-keep-it-kaimuk-saturday
+LOCATION:
+URL:https://alohacalendar.com/events/10th-annual-keep-it-kaimuk-saturday
+CATEGORIES:Festivals
+END:VEVENT
+BEGIN:VEVENT
+UID:e146b2d8b5717be9d015@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Lā Kūʻokoʻa\, Commemorating the Independence Day of the Hawai
+ ian Kingdom
+DESCRIPTION:Saturday\, November 28\, 2026 3:00 p.m. – 7:00 p.m. Hawaiia
+ n Hall Complex FREE for Kamaʻāina with registration General  https://a
+ lohacalendar.com/events/l-kokoa-commemorating-the-independence-day-of-th
+ e-hawaiian-kingdom  https://www.bishopmuseum.org/calendar/la-ku%ca%bboko
+ %ca%bba-commemorating-the-independence-day-of-the-hawaiian-kingdom/  Sou
+ rces: AlohaCalendar https://alohacalendar.com/events/l-kokoa-commemorati
+ ng-the-independence-day-of-the-hawaiian-kingdom
+LOCATION:Bishop Museum (Oahu)
+URL:https://alohacalendar.com/events/l-kokoa-commemorating-the-independen
+ ce-day-of-the-hawaiian-kingdom
+CATEGORIES:Cultural & Heritage
+END:VEVENT
+BEGIN:VEVENT
+UID:44bdcd41408555b9b108-opens@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Kauai Museum 1st Thursday Courtyard Market — opens
+DESCRIPTION:Runs 2 dates\, December 3\, 2026 – January 7\, 2027. Join u
+ s every 1st Thursday in the Museum Courtyard from 10am to 3pm. Support l
+ ocal art\, fashion\, cultural practitioners\,  https://alohacalendar.com
+ /events/kauai-museum-1st-thursday-courtyard-market-2026-12-03  Sources: 
+ AlohaCalendar https://alohacalendar.com/events/kauai-museum-1st-thursday
+ -courtyard-market-2026-12-03
+LOCATION:Kauai Museum (Kauai)
+URL:https://alohacalendar.com/events/kauai-museum-1st-thursday-courtyard-
+ market-2026-12-03
+CATEGORIES:Farmers Markets
+END:VEVENT
+BEGIN:VEVENT
+UID:44bdcd41408555b9b108-closes@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Kauai Museum 1st Thursday Courtyard Market — closes (last day)
+DESCRIPTION:Runs 2 dates\, December 3\, 2026 – January 7\, 2027. Join u
+ s every 1st Thursday in the Museum Courtyard from 10am to 3pm. Support l
+ ocal art\, fashion\, cultural practitioners\,  https://alohacalendar.com
+ /events/kauai-museum-1st-thursday-courtyard-market-2026-12-03  Sources: 
+ AlohaCalendar https://alohacalendar.com/events/kauai-museum-1st-thursday
+ -courtyard-market-2026-12-03
+LOCATION:Kauai Museum (Kauai)
+URL:https://alohacalendar.com/events/kauai-museum-1st-thursday-courtyard-
+ market-2026-12-03
+CATEGORIES:Farmers Markets
+END:VEVENT
+BEGIN:VEVENT
+UID:2ffb8a30dc66add89379@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261204T170000
+DTEND;TZID=Pacific/Honolulu:20261204T200000
+SUMMARY:Lights On Rice Parade
+DESCRIPTION:LĪHU‘E – The highly anticipated Lights on Rice Parade wi
+ ll take place on Friday\, December 4\, 2026\, starting at 6:30 p.m.  htt
+ ps://alohacalendar.com/events/lights-on-rice-parade  Sources: AlohaCalen
+ dar https://alohacalendar.com/events/lights-on-rice-parade
+LOCATION:Downtown Lihue (Kauai)
+URL:https://alohacalendar.com/events/lights-on-rice-parade
+CATEGORIES:Farmers Markets
+END:VEVENT
+BEGIN:VEVENT
+UID:feb01ea03218a6b8d2b2@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261205T100000
+SUMMARY:The 20th Annual Paradise Studio Tour
+DESCRIPTION:  https://alohacalendar.com/events/the-20th-annual-paradise-s
+ tudio-tour-2026-12-05  https://www.paradisestudiotour.com/  Sources: Alo
+ haCalendar https://alohacalendar.com/events/the-20th-annual-paradise-stu
+ dio-tour-2026-12-05
+LOCATION:Hawaiian Paradise Park\, Puna (Big Island)
+URL:https://alohacalendar.com/events/the-20th-annual-paradise-studio-tour
+ -2026-12-05
+CATEGORIES:Food & Drink
+END:VEVENT
+BEGIN:VEVENT
+UID:a7fde5debf21f48034b2@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:IRATION
+DESCRIPTION:IRATION  https://alohacalendar.com/events/iration-2026-12-05 
+  https://mauiarts.org/show-details/iration2026  Sources: AlohaCalendar h
+ ttps://alohacalendar.com/events/iration-2026-12-05
+LOCATION:Maui Arts & Cultural Center (Maui)
+URL:https://alohacalendar.com/events/iration-2026-12-05
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:43845d9325dcba5c8793@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:MELE KALIKIMAKA\, EI NEI
+DESCRIPTION:Celebrate the holiday season with Hawaiʻi’s premier musica
+ l trio! Fresh off winning six major honors at the 2026 Nā Hōkū Hanoha
+ no Awards—including Group of…  https://alohacalendar.com/events/mele
+ -kalikimaka-ei-nei  https://hawaiitheatre.my.salesforce-sites.com/ticket
+ /#/events/a0SUl00000Du1I5MAJ  Sources: AlohaCalendar https://alohacalend
+ ar.com/events/mele-kalikimaka-ei-nei
+LOCATION:Hawaii Theatre Center (Oahu)
+URL:https://alohacalendar.com/events/mele-kalikimaka-ei-nei
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:4239e225cd0937e5864f@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:MASTERS OF ILLUSION – UP CLOSE & PERSONAL
+DESCRIPTION:Featuring some of the world's best close-up and comedy magici
+ ans in an entertaining show for the entire family. It's lively\, spontan
+ eous\, interactive and\,…  https://alohacalendar.com/events/masters-of
+ -illusion-up-close-personal  https://hawaiitheatre.my.salesforce-sites.c
+ om/ticket/#/events/a0SUl00000EhUyrMAF  Sources: AlohaCalendar https://al
+ ohacalendar.com/events/masters-of-illusion-up-close-personal
+LOCATION:Hawaii Theatre Center (Oahu)
+URL:https://alohacalendar.com/events/masters-of-illusion-up-close-persona
+ l
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:94cb2a364663ac9908e8@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:MAUI POPS ORCHESTRA - Holiday Pops
+DESCRIPTION:MAUI POPS ORCHESTRA - Holiday Pops  https://alohacalendar.com
+ /events/maui-pops-orchestra-holiday-pops  https://mauiarts.org/show-deta
+ ils/maui-pops-orchestra-holiday-pops-2026  Sources: AlohaCalendar https:
+ //alohacalendar.com/events/maui-pops-orchestra-holiday-pops
+LOCATION:Maui Arts & Cultural Center (Maui)
+URL:https://alohacalendar.com/events/maui-pops-orchestra-holiday-pops
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:c21cca363d327159c092@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:T. REX: Extended Cut Screenings
+DESCRIPTION:J. Watumull Planetarium Sunday\, September 13\, 2026 Sunday\,
+  September 27\, 2026 Sunday\, October 4\, 2026 Sunday\, Octo  https://al
+ ohacalendar.com/events/t-rex-extended-cut-screenings-2026-10-11  https:/
+ /www.bishopmuseum.org/calendar/t-rex-extended-cut-screenings-fall-2026/ 
+  Sources: AlohaCalendar https://alohacalendar.com/events/t-rex-extended-
+ cut-screenings-2026-10-11
+LOCATION:Bishop Museum (Oahu)
+URL:https://alohacalendar.com/events/t-rex-extended-cut-screenings-2026-1
+ 0-11
+CATEGORIES:Family & Keiki
+END:VEVENT
+BEGIN:VEVENT
+UID:a6b524b3fefe7d4ce85b@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:DEBBIE GIBSON’S WINTERLICIOUS
+DESCRIPTION:Get ready for an evening of holiday and hits with Debbie Gibs
+ on’s Winterlicious coming to Hawaii Theatre on December 10\, 2026!🎤
+ ❤️With a blend of holiday…  https://alohacalendar.com/events/debbi
+ e-gibsons-winterlicious  https://hawaiitheatre.my.salesforce-sites.com/t
+ icket/#/events/a0SUl000003n2bdMAA  Sources: AlohaCalendar https://alohac
+ alendar.com/events/debbie-gibsons-winterlicious
+LOCATION:Hawaii Theatre Center (Oahu)
+URL:https://alohacalendar.com/events/debbie-gibsons-winterlicious
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:120dcccc7daea32789a7@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:The BLIND BOYS of ALABAMA
+DESCRIPTION:The BLIND BOYS of ALABAMA  https://alohacalendar.com/events/t
+ he-blind-boys-of-alabama  https://mauiarts.org/show-details/the-blind-bo
+ ys-of-alabama  Sources: AlohaCalendar https://alohacalendar.com/events/t
+ he-blind-boys-of-alabama
+LOCATION:Maui Arts & Cultural Center (Maui)
+URL:https://alohacalendar.com/events/the-blind-boys-of-alabama
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:b8851ef472f2887bec80@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:WHOSE LIVE ANYWAY?
+DESCRIPTION:WHOSE LIVE ANYWAY?  https://alohacalendar.com/events/whose-li
+ ve-anyway  https://mauiarts.org/show-details/whose-live-anyway2026  Sour
+ ces: AlohaCalendar https://alohacalendar.com/events/whose-live-anyway
+LOCATION:Maui Arts & Cultural Center (Maui)
+URL:https://alohacalendar.com/events/whose-live-anyway
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:36e11ee7090c56f254ff@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:JIAOYING SUMMERS
+DESCRIPTION:Jiaoying Summers recently released her Hulu comedy special Wh
+ at Specie Are You? Named one of Variety’s “10 Comics to Watch” (20
+ 25)\, Summers shines in her…  https://alohacalendar.com/events/jiaoyin
+ g-summers  https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events
+ /a0SUl00000BFny9MAD  Sources: AlohaCalendar https://alohacalendar.com/ev
+ ents/jiaoying-summers
+LOCATION:Hawaii Theatre Center (Oahu)
+URL:https://alohacalendar.com/events/jiaoying-summers
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:7c7422295fdef0e092dd@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261214
+SUMMARY:Ballet Hawaii's The Nutcracker
+DESCRIPTION:Ballet Hawaii's holiday production of Tchaikovsky's The Nutcr
+ acker\, a Honolulu family tradition\, at the Blaisdell Concert Hall.  ht
+ tps://alohacalendar.com/events/ballet-hawaiis-the-nutcracker  https://ww
+ w.ticketmaster.com/ballet-hawaiis-the-nutcracker-honolulu-hawaii-12-12-2
+ 026/event/0A00653DB0B2EB51  Sources: AlohaCalendar https://alohacalendar
+ .com/events/ballet-hawaiis-the-nutcracker
+LOCATION:Neal S Blaisdell Concert Hall (Oahu)
+URL:https://alohacalendar.com/events/ballet-hawaiis-the-nutcracker
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:e4ae89ceb754d2a36500@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:SACRED HEARTS ACADEMY – THE NUTCRACKER 2026
+DESCRIPTION:Sacred Hearts invites you to experience the magic of the holi
+ day season with our presentation of The Nutcracker at the historic Hawai
+ i Theatre! Let yourself…  https://alohacalendar.com/events/sacred-hear
+ ts-academy-the-nutcracker-2026  https://hawaiitheatre.my.salesforce-site
+ s.com/ticket/#/events/a0SUl00000FtSuHMAV  Sources: AlohaCalendar https:/
+ /alohacalendar.com/events/sacred-hearts-academy-the-nutcracker-2026
+LOCATION:Hawaii Theatre Center (Oahu)
+URL:https://alohacalendar.com/events/sacred-hearts-academy-the-nutcracker
+ -2026
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:d32c764060c443190d73@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20261213T190000
+SUMMARY:WHOSE LIVE ANYWAY? – 2026
+DESCRIPTION:The current cast members of the Emmy - nominated TV show Whos
+ e Line Is It Anyway? are proud to present their new improv tour: WHOSE L
+ IVE ANYWAY? WHOSE LIVE…  https://alohacalendar.com/events/whose-live-a
+ nyway-2026  https://hawaiitheatre.my.salesforce-sites.com/ticket/#/event
+ s/a0SUl000006bU3hMAE  Sources: AlohaCalendar https://alohacalendar.com/e
+ vents/whose-live-anyway-2026
+LOCATION:Hawaii Theatre Center (Oahu)
+URL:https://alohacalendar.com/events/whose-live-anyway-2026
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:135e25aa02f677c1586a@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:ROCKY MOUNTAIN HIGH EXPERIENCE® — A JOHN DENVER CHRISTMAS
+DESCRIPTION:Step into the spirit of the season with Rocky Mountain High E
+ xperience®: A John Denver Christmas—an intimate\, nostalgic journey b
+ ack to the 1970s\, when John…  https://alohacalendar.com/events/rocky-
+ mountain-high-experience-a-john-denver-christmas  https://hawaiitheatre.
+ my.salesforce-sites.com/ticket/#/events/a0SUl000004OmnaMAC  Sources: Alo
+ haCalendar https://alohacalendar.com/events/rocky-mountain-high-experien
+ ce-a-john-denver-christmas
+LOCATION:Hawaii Theatre Center (Oahu)
+URL:https://alohacalendar.com/events/rocky-mountain-high-experience-a-joh
+ n-denver-christmas
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:2f70ca9aefae9e786055@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:DARK SIDE OF THE BEACH NYE
+DESCRIPTION:Dark side of the Beach brings together some of Hawaii’s mos
+ t we'll-versed and talented musicians\, with decades of combined perform
+ ance experience and a…  https://alohacalendar.com/events/dark-side-of-
+ the-beach-nye  https://hawaiitheatre.my.salesforce-sites.com/ticket/#/ev
+ ents/a0SUl00000DoNQ9MAN  Sources: AlohaCalendar https://alohacalendar.co
+ m/events/dark-side-of-the-beach-nye
+LOCATION:Hawaii Theatre Center (Oahu)
+URL:https://alohacalendar.com/events/dark-side-of-the-beach-nye
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:cb93840563cac2189e3d@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:HASAN HATES RONNY | RONNY HATES HASAN
+DESCRIPTION:During these divided times\, many people believe that open di
+ alogue and discourse are the only tools to mend a wounded nation. Comedi
+ ans Hasan Minhaj and…  https://alohacalendar.com/events/hasan-hates-ro
+ nny-ronny-hates-hasan  https://hawaiitheatre.my.salesforce-sites.com/tic
+ ket/#/events/a0SUl00000BATC5MAP  Sources: AlohaCalendar https://alohacal
+ endar.com/events/hasan-hates-ronny-ronny-hates-hasan
+LOCATION:Hawaii Theatre Center (Oahu)
+URL:https://alohacalendar.com/events/hasan-hates-ronny-ronny-hates-hasan
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:9bfc5c034a6d1f1ff519@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270108T193000
+SUMMARY:The Sounds of Ravel & Rosalia with Carolina Rial
+DESCRIPTION:The Hawaiʻi Symphony Orchestra performs The Sounds of Ravel 
+ & Rosalia at the Blaisdell Concert Hall\, featuring Carolina Rial.  http
+ s://alohacalendar.com/events/the-sounds-of-ravel-rosalia-with-carolina-r
+ ial  https://www.ticketmaster.com/the-sounds-of-ravel-rosalia-with-honol
+ ulu-hawaii-01-08-2027/event/0A0065060BDE7958  Sources: AlohaCalendar htt
+ ps://alohacalendar.com/events/the-sounds-of-ravel-rosalia-with-carolina-
+ rial
+LOCATION:Neal S Blaisdell Concert Hall (Oahu)
+URL:https://alohacalendar.com/events/the-sounds-of-ravel-rosalia-with-car
+ olina-rial
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:90252a73dce06ce22b04@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270110T160000
+SUMMARY:Beethoven's Ode to Joy
+DESCRIPTION:The Hawaiʻi Symphony Orchestra performs Beethoven's Ninth Sy
+ mphony and its "Ode to Joy" at the Blaisdell Concert Hall.  https://aloh
+ acalendar.com/events/beethovens-ode-to-joy  https://www.ticketmaster.com
+ /beethovens-ode-to-joy-honolulu-hawaii-01-10-2027/event/0A0065060C937B80
+   Sources: AlohaCalendar https://alohacalendar.com/events/beethovens-ode
+ -to-joy
+LOCATION:Neal S Blaisdell Concert Hall (Oahu)
+URL:https://alohacalendar.com/events/beethovens-ode-to-joy
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:3a7db4aee4635bcfa078@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270110T140000
+DTEND;TZID=Pacific/Honolulu:20270110T150000
+SUMMARY:Tales of the Sun and Moon
+DESCRIPTION:Back for a LIMITED RUN before heading out on a national tour!
+   https://alohacalendar.com/events/tales-of-the-sun-and-moon  https://ww
+ w.eventbrite.com/e/tales-of-the-sun-and-moon-tickets-1986278845496  Sour
+ ces: AlohaCalendar https://alohacalendar.com/events/tales-of-the-sun-and
+ -moon
+LOCATION:Honolulu Theatre for Youth (Oahu)
+URL:https://alohacalendar.com/events/tales-of-the-sun-and-moon
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:5544175cbd32084201c2@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270115T190000
+SUMMARY:JOHN CAMERON MITCHELL – HEDWIG 25TH ANNIVERSARY MOVIE TOUR
+DESCRIPTION:Celebrate the 25th anniversary of the critically acclaimed\, 
+ award-winning rock movie musical Hedwig and the Angry Inch with an unfor
+ gettable evening…  https://alohacalendar.com/events/john-cameron-mitch
+ ell-hedwig-25th-anniversary-movie-tour-2027-01-15  https://hawaiitheatre
+ .my.salesforce-sites.com/ticket/#/events/a0SUl00000E8TBFMA3  Sources: Al
+ ohaCalendar https://alohacalendar.com/events/john-cameron-mitchell-hedwi
+ g-25th-anniversary-movie-tour-2027-01-15
+LOCATION:Hawaii Theatre Center (Oahu)
+URL:https://alohacalendar.com/events/john-cameron-mitchell-hedwig-25th-an
+ niversary-movie-tour-2027-01-15
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:ac2f49444498298aa04f@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270121T190000
+DTEND;TZID=Pacific/Honolulu:20270121T203000
+SUMMARY:Not One Batu by Hannah Ii-Epstein
+DESCRIPTION:Chicago-based playwright Hannah Ii-Epstein witnesses 60 minut
+ es in one woman’s struggle to stay clean in a world turn...  https://a
+ lohacalendar.com/events/not-one-batu-by-hannah-ii-epstein  https://www.e
+ ventbrite.com/e/not-one-batu-by-hannah-ii-epstein-tickets-1990061010052 
+  Sources: AlohaCalendar https://alohacalendar.com/events/not-one-batu-by
+ -hannah-ii-epstein
+LOCATION:Kumu Kahua Theatre (Oahu)
+URL:https://alohacalendar.com/events/not-one-batu-by-hannah-ii-epstein
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:6b660f04cbf82ada4e27@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Into the Woods
+DESCRIPTION:Stephen Sondheim's musical weaves Cinderella\, Little Red Rid
+ ing Hood\, Jack and the Beanstalk and Rapunzel into one story\, then fol
+ lows what happens after…  https://alohacalendar.com/events/into-the-wo
+ ods  https://diamondheadtheatre.my.salesforce-sites.com/ticket/#/events/
+ a0STO000005CKg12AG  Sources: AlohaCalendar https://alohacalendar.com/eve
+ nts/into-the-woods
+LOCATION:Diamond Head Theatre (Oahu)
+URL:https://alohacalendar.com/events/into-the-woods
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:cfcf2ac200ebb1a42ccd@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270122T190000
+DTEND;TZID=Pacific/Honolulu:20270122T210000
+SUMMARY:Pakalōlō Sweet by Hannah Ii-Epstein
+DESCRIPTION:This prequel to Not One Batu follows Papa’s family  https:/
+ /alohacalendar.com/events/pakall-sweet-by-hannah-ii-epstein  https://www
+ .eventbrite.com/e/pakalolo-sweet-by-hannah-ii-epstein-tickets-1990062661
+ 993  Sources: AlohaCalendar https://alohacalendar.com/events/pakall-swee
+ t-by-hannah-ii-epstein
+LOCATION:Kumu Kahua Theatre (Oahu)
+URL:https://alohacalendar.com/events/pakall-sweet-by-hannah-ii-epstein
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:8d2a084c5601fdc3ac89@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;TZID=Pacific/Honolulu:20270123T190000
+DTEND;TZID=Pacific/Honolulu:20270123T210000
+SUMMARY:Aloha Fry-Day by Hannah Ii-Epstein
+DESCRIPTION:The final act in Ii-Epstein’s North Shore Oʻahu drug trilo
+ gy\,  https://alohacalendar.com/events/aloha-fry-day-by-hannah-ii-epstei
+ n  https://www.eventbrite.com/e/aloha-fry-day-by-hannah-ii-epstein-ticke
+ ts-1990063178538  Sources: AlohaCalendar https://alohacalendar.com/event
+ s/aloha-fry-day-by-hannah-ii-epstein
+LOCATION:Kumu Kahua Theatre (Oahu)
+URL:https://alohacalendar.com/events/aloha-fry-day-by-hannah-ii-epstein
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:2112c4775bdb76b27a5c@hawaii-arts-calendar
+DTSTAMP:20261115T020648Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:RUMPELSTILTSKIN – PANTO LIVE
+DESCRIPTION:Bring the whole family to experience the magic of a tradition
+ al Panto live on stage! Featuring high-energy storytelling\, tons of aud
+ ience participation\, and…  https://alohacalendar.com/events/rumpelsti
+ ltskin-panto-live  https://hawaiitheatre.my.salesforce-sites.com/ticket/
+ #/events/a0SUl00000F1JJJMA3  Sources: AlohaCalendar https://alohacalenda
+ r.com/events/rumpelstiltskin-panto-live
+LOCATION:Hawaii Theatre Center (Oahu)
+URL:https://alohacalendar.com/events/rumpelstiltskin-panto-live
+CATEGORIES:Arts & Gallery
 END:VEVENT
 END:VCALENDAR

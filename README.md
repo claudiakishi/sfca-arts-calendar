@@ -1,6 +1,6 @@
 # Hawaiʻi Arts & Culture Calendar → GitHub Pages
 
-An always-current static aggregator of Hawaiʻi arts events from **three sources**,
+An always-current static aggregator of Hawaiʻi arts events from **seven sources**,
 merged and de-duplicated, plus an iCal feed and a machine-readable
 `events.json`. It updates itself in GitHub Actions.
 
@@ -24,6 +24,11 @@ merged and de-duplicated, plus an iCal feed and a machine-readable
    script). Content is clean Elementor markup: `<h2>` category headings each
    followed by a `<ul>` of `<li>` events (`<strong>Title</strong>` +
    description). Dates are extracted from the prose best-effort.
+
+   **As of November 2026 SFCA appears to have stopped publishing these
+   pages:** October, November, and December 2026 all 404 while August still
+   loads. The fetcher stays in place in case they resume; sources 6 and 7
+   below were added to replace the coverage.
 
 2. **Capitol Modern: the Hawaiʻi State Art Museum** — the upcoming-events feed at
    `https://www.capitolmodern.org/events`. A Next.js app whose events are
@@ -61,6 +66,32 @@ merged and de-duplicated, plus an iCal feed and a machine-readable
    that have already ended are dropped. Unit tests run against the offline
    fixture in `tests/fixtures/` (`python3 -m unittest discover -s tests`).
 
+6. **The Creative City** — a curated Oʻahu arts calendar (HoMA, Bishop
+   Museum, Capitol Modern, Downtown Art Center, Kumu Kahua, Manoa Valley
+   Theatre, HSO, HTY, ...). It's a Squarespace events collection, so
+   `https://www.thecreativecity.org/events?format=json` returns every upcoming
+   event with exact start/end instants (ms epoch, converted to HST), venue,
+   and categories. (`/oahu-events` is a display page over the same
+   collection and has no feed of its own.) Single-day events keep their exact
+   time; multi-day runs and long-running series ("HoMA Nights – every
+   Friday") become a date span, which floats into the current month while
+   still running. Events starting past the site window are dropped. Archived
+   to `data/raw/thecreativecity-events.json`.
+
+7. **AlohaCalendar** — a free, keyless public JSON API
+   (`https://alohacalendar.com/api/v1/events`, allowed by its robots.txt and
+   documented at `alohacalendar.com/api`) queried with `category=arts`. It is
+   the main source of Maui, Kauaʻi, and Hawaiʻi Island events. Quirks:
+   responses cap at 50 events, so the builder pages by advancing `from` to
+   the last date returned; and timestamps are local wall time despite their
+   `Z` suffix (the clock is sometimes a `00:00` placeholder, so `startTime`
+   is the authoritative start). Repeat showings of one title on one island
+   (nightly shows, a touring musical's run) collapse into one recurring
+   "N dates" span; farmers/night markets are dropped. Like library records,
+   AlohaCalendar listings are never merged with each other (two showtimes or
+   a preview vs. an opening are distinct). Archived to
+   `data/raw/alohacalendar-events.json`.
+
 ## Tests
 
 ```sh
@@ -69,6 +100,33 @@ python scripts/fetch_and_build.py --offline
 ```
 
 ## Candidate additional sources
+
+**November 2026 search.** Two passes looked for replacements once SFCA's
+monthly pages stopped: (1) venues and calendars mentioned alongside the
+current sources, and (2) pages that list two or more past SFCA calendar
+events together. Sources 6 and 7 came out of that. Also found, not
+implemented:
+
+- **Hawaiʻi Public Radio Community Calendar**
+  (`hawaiipublicradio.org/community-calendar`) — the only large statewide
+  arts-heavy list, but HTML only (Brightspot, `?f0=` filters), no feed.
+- **Hawaiʻi Theatre Center** — `/wp-json/wp/v2/events` is open (31 events)
+  but carries no event dates; they'd have to be scraped from each page.
+- **Honolulu Pineapple Post** (Substack RSS) and **Big Island Now's weekly
+  "Top 10 things to do"** (WP posts API) — both current and both listed many
+  past SFCA events, but they're prose newsletters mixing arts with food and
+  news; parsing would be fragile.
+- **Hawaiʻi Tribune-Herald / West Hawaiʻi Today** (CitySpark widget) and
+  **Maui Now / Big Island Now `/events`** (HubHawaii widget) — JSON behind
+  undocumented widget APIs; not used.
+- **Ka Wai Ola (OHA)** and **DLNR State Parks** run The Events Calendar but
+  return 403 to scripted requests.
+- **GoHawaii.com events** — Cloudflare-blocked.
+
+Gap: no source carries Maui/Kauaʻi gallery exhibits well (e.g. Viewpoints
+Gallery, Hui Noʻeau); AlohaCalendar mostly has performances there.
+
+**Earlier (September 2026) notes:**
 
 Researched by fetching each venue's public site and fingerprinting the
 platform behind it (WordPress + The Events Calendar plugin, RSS, JSON-LD

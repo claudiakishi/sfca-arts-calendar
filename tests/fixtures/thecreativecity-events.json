@@ -1,0 +1,115 @@
+{
+ "upcoming": [
+  {
+   "id": "6a971bdeef0119264d5071e6",
+   "title": "Wayfinders",
+   "fullUrl": "/events/5plwnr5j37aa78f-wtnlw",
+   "startDate": 1741978800921,
+   "endDate": 1797822000921,
+   "tags": [
+    "Recurring"
+   ],
+   "categories": [
+    "Exhibit",
+    "Hawaiiana"
+   ],
+   "excerpt": null,
+   "body": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\" id=\"item-6a971bdeef0119264d5071e6\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block website-component-block sqs-block-website-component sqs-block-image image-block\" data-bl",
+   "location": {
+    "addressTitle": "J. Watumull Planetarium Lobby at Bishop Museum"
+   }
+  },
+  {
+   "id": "68decd287f7792075a3990f6",
+   "title": "HoMA Nights - Every Friday Evening",
+   "fullUrl": "/events/ty3xmbtrz5rgbc9-dykar-5hr98",
+   "startDate": 1768618800579,
+   "endDate": 1797058800579,
+   "tags": [
+    "Recurring"
+   ],
+   "categories": [
+    "Culture",
+    "Exhibit",
+    "Music"
+   ],
+   "excerpt": null,
+   "body": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\" id=\"item-68decd287f7792075a3990f6\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block website-component-block sqs-block-website-component sqs-block-image image-block\" data-bl",
+   "location": {
+    "addressTitle": "The Honolulu Museum of Art"
+   }
+  },
+  {
+   "id": "6ad03fa9fb97f026605438e0",
+   "title": "Exhibition - David Takagi: A Retrospective  of 60 Years",
+   "fullUrl": "/events/ty3xmbtrz5rgbc9-dykar-e59y3-y7nlp-gh9fl-ll2fs-c23jt-kfcad-a8kfz-8egs5-fh6cg-at5xr-swm4w-x3alw",
+   "startDate": 1794020400705,
+   "endDate": 1794711600705,
+   "tags": [
+    "Recurring"
+   ],
+   "categories": [
+    "Art Exhibition"
+   ],
+   "excerpt": null,
+   "body": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\" id=\"item-6ad03fa9fb97f026605438e0\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block website-component-block sqs-block-website-component sqs-block-image image-block\" data-bl",
+   "location": {
+    "addressTitle": "Downtown Art Center"
+   }
+  },
+  {
+   "id": "6a988e0c857dbf099b168d17",
+   "title": "Peter Pan Goes Wrong",
+   "fullUrl": "/events/er8rjhwdb4d6g67-c7l7k-wb72f-kcn4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53w-2asfn-9xc6s",
+   "startDate": 1794547800185,
+   "endDate": 1796013000185,
+   "tags": [
+    "Recurring"
+   ],
+   "categories": [
+    "Theatre"
+   ],
+   "excerpt": null,
+   "body": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\" id=\"item-6a988e0c857dbf099b168d17\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block website-component-block sqs-block-website-component sqs-block-image image-block\" data-bl",
+   "location": {
+    "addressTitle": "Manoa Valley Theatre"
+   }
+  },
+  {
+   "id": "6a961cd287ac3d5439e11b96",
+   "title": "Lucy Darling - Simply Darling",
+   "fullUrl": "/events/w8b5mxxc3x4tfah-k3flg-4pnwx-22phh-g9alh-fd9fj-m2w2a-dl262-7t6pt-ty4fw-yf4jl-z3f4e-wll2j-psysh-agtyz-7rlml-952tn-5h9ax-j5pyh-h8h6x-9ragk-szx5t-b8k2x-k8sbd-sz6wb",
+   "startDate": 1795239000041,
+   "endDate": 1795242600041,
+   "tags": [
+    "Non-recurring"
+   ],
+   "categories": [
+    "Comedy"
+   ],
+   "excerpt": null,
+   "body": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\" id=\"item-6a961cd287ac3d5439e11b96\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block website-component-block sqs-block-website-component sqs-block-image image-block\" data-bl",
+   "location": {
+    "addressTitle": "Hawaii Theatre"
+   }
+  },
+  {
+   "id": "6a98978917dc1a7d2d51ae84",
+   "title": "Shakespeare in Love - The Play",
+   "fullUrl": "/events/er8rjhwdb4d6g67-c7l7k-wb72f-kcn4l-gb4g4-5gzp5-7epmr-gdbmw-ayhry-rt67n-el53w-2asfn-9xc6s-sp694-8lsbj-82p2b-74j44",
+   "startDate": 1815715800185,
+   "endDate": 1817181000185,
+   "tags": [
+    "Recurring"
+   ],
+   "categories": [
+    "Theatre"
+   ],
+   "excerpt": null,
+   "body": "<div class=\"sqs-layout sqs-grid-12 columns-12\" data-layout-label=\"Post Body\" data-type=\"item\" id=\"item-6a98978917dc1a7d2d51ae84\"><div class=\"row sqs-row\"><div class=\"col sqs-col-12 span-12\"><div class=\"sqs-block website-component-block sqs-block-website-component sqs-block-image image-block\" data-bl",
+   "location": {
+    "addressTitle": "Manoa Valley Theatre"
+   }
+  }
+ ]
+}

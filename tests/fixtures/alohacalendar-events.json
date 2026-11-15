@@ -1,0 +1,1027 @@
+{
+ "events": [
+  {
+   "id": "e33a9b8e-69d7-40b6-ac49-1bbf21f07a87",
+   "slug": "according-to-coyote-2026-11-15",
+   "title": "According to Coyote",
+   "shortDesc": "Native American folktales performed by actor Julia Keefe, who is a member of the Nez Perce tribe.",
+   "startDate": "2026-11-15T14:00:00.000Z",
+   "startTime": "14:00",
+   "endDate": "2026-11-15T15:00:00.000Z",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.eventbrite.com/e/according-to-coyote-tickets-1986277844502",
+   "priceMin": 15,
+   "priceMax": 30,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Honolulu Theatre for Youth",
+    "address": "229 Queen Emma Square",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    },
+    {
+     "slug": "concerts",
+     "name": "Concerts & Live Music"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/according-to-coyote-2026-11-15"
+  },
+  {
+   "id": "516f85c1-e594-42fc-b5ec-baa0c85c9453",
+   "slug": "anahola-farmers-market-2026-11-16",
+   "title": "Anahola Farmers Market",
+   "shortDesc": "On Mondays from 3 to 6pm come to the Anahola Marketplace at 4523 Ioane Rd for a fun community gathering! Local community",
+   "startDate": "2026-11-16T15:00:00.000Z",
+   "startTime": "15:00",
+   "endDate": "2026-11-16T18:00:00.000Z",
+   "isFree": true,
+   "isFeatured": false,
+   "ticketUrl": null,
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Free",
+   "island": {
+    "slug": "kauai",
+    "name": "Kauai"
+   },
+   "location": {
+    "name": "Anahola Marketplace",
+    "address": "Kuhio Highway at Milemaker 12.5 North of Kapaa",
+    "city": "Anahola"
+   },
+   "categories": [
+    {
+     "slug": "food-drink",
+     "name": "Food & Drink"
+    },
+    {
+     "slug": "markets",
+     "name": "Farmers Markets"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/anahola-farmers-market-2026-11-16"
+  },
+  {
+   "id": "6d1f963a-322d-4e33-a385-58b6e7a7abb5",
+   "slug": "princeville-moolelo-the-shell-lei-of-niihau-with-linda-paik-moriarty",
+   "title": "Princeville Moʻolelo: “The shell lei of Niʻihau” with Linda Paik Moriarty",
+   "shortDesc": "The Princeville Moʻolelo free lecture series will continue on Tuesday, November 17th with Linda Paik Moriarty. “Niʻihau",
+   "startDate": "2026-11-17T17:00:00.000Z",
+   "startTime": "17:00",
+   "endDate": "2026-11-17T18:30:00.000Z",
+   "isFree": true,
+   "isFeatured": false,
+   "ticketUrl": null,
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Free",
+   "island": {
+    "slug": "kauai",
+    "name": "Kauai"
+   },
+   "location": {
+    "name": "Princeville Community Center",
+    "address": "4334 Emmalani Rd.",
+    "city": "Princeville"
+   },
+   "categories": [
+    {
+     "slug": "festivals",
+     "name": "Festivals"
+    },
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/princeville-moolelo-the-shell-lei-of-niihau-with-linda-paik-moriarty"
+  },
+  {
+   "id": "0bc84fa9-5173-462a-a293-19399b0d6898",
+   "slug": "fall-dance-concert-by-the-mid-pacific-school-of-the-arts-friday-730pm",
+   "title": "Fall Dance Concert by the Mid-Pacific School of the Arts - Friday 7:30pm",
+   "shortDesc": "Experience the magic of dance as the Mid-Pacific School of the Arts Dance and Hula programs are showcased at our Fall...",
+   "startDate": "2026-11-20T19:30:00.000Z",
+   "startTime": "19:30",
+   "endDate": "2026-11-20T22:00:00.000Z",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.eventbrite.com/e/fall-dance-concert-by-the-mid-pacific-school-of-the-arts-friday-730pm-tickets-1992860737111",
+   "priceMin": 17.35,
+   "priceMax": 54.3,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Leeward Community College Theatre",
+    "address": "96-045 Ala ʻIke Street",
+    "city": "Pearl City"
+   },
+   "categories": [
+    {
+     "slug": "concerts",
+     "name": "Concerts & Live Music"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/fall-dance-concert-by-the-mid-pacific-school-of-the-arts-friday-730pm"
+  },
+  {
+   "id": "456aa446-7c52-4690-92d0-a29f24cbbf85",
+   "slug": "member-preview-of-underground",
+   "title": "Member Preview of UNDER/GROUND",
+   "shortDesc": "Bishop Museum is excited to invite our members to a see-it-first preview of UNDER/GROUND.    Join us for a Member Previe",
+   "startDate": "2026-11-21T02:00:00.000Z",
+   "startTime": null,
+   "endDate": "2026-11-21T04:00:00.000Z",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.bishopmuseum.org/calendar/member-preview-of-under-ground/",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Bishop Museum",
+    "address": "1525 Bernice Street",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/member-preview-of-underground"
+  },
+  {
+   "id": "dd61d551-ed79-4f45-a92a-4ff168f822e7",
+   "slug": "grand-opening-underground",
+   "title": "Grand Opening: UNDER/GROUND",
+   "shortDesc": "Friday, November 20, 2026  6 - 9 p.m.  Castle Memorial Building | Gallery Lawns | Great Lawn  $10 Pre-registration | $15",
+   "startDate": "2026-11-21T04:00:00.000Z",
+   "startTime": null,
+   "endDate": "2026-11-21T07:00:00.000Z",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.bishopmuseum.org/calendar/under-ground-opening-celebration/",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Bishop Museum",
+    "address": "1525 Bernice Street",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    },
+    {
+     "slug": "concerts",
+     "name": "Concerts & Live Music"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/grand-opening-underground"
+  },
+  {
+   "id": "79119adc-65ee-4ed0-a298-c4a98edf0b0b",
+   "slug": "fall-dance-concert-by-the-mid-pacific-school-of-the-arts-saturday-300pm",
+   "title": "Fall Dance Concert by the Mid-Pacific School of the Arts - Saturday 3:00pm",
+   "shortDesc": "Experience the magic of dance as the Mid-Pacific School of the Arts Dance and Hula programs are showcased at our Fall...",
+   "startDate": "2026-11-21T15:00:00.000Z",
+   "startTime": "15:00",
+   "endDate": "2026-11-21T17:30:00.000Z",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.eventbrite.com/e/fall-dance-concert-by-the-mid-pacific-school-of-the-arts-saturday-300pm-tickets-1992862498379",
+   "priceMin": 17.35,
+   "priceMax": 54.3,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Leeward Community College Theatre",
+    "address": "96-045 Ala ʻIke Street",
+    "city": "Pearl City"
+   },
+   "categories": [
+    {
+     "slug": "concerts",
+     "name": "Concerts & Live Music"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/fall-dance-concert-by-the-mid-pacific-school-of-the-arts-saturday-300pm"
+  },
+  {
+   "id": "4d78d387-26b6-4b13-b507-716189665ce4",
+   "slug": "fall-dance-concert-by-the-mid-pacific-school-of-the-arts-saturday-730pm",
+   "title": "Fall Dance Concert by the Mid-Pacific School of the Arts - Saturday 7:30pm",
+   "shortDesc": "Experience the magic of dance as the Mid-Pacific School of the Arts Dance and Hula programs are showcased at our Fall...",
+   "startDate": "2026-11-21T19:30:00.000Z",
+   "startTime": "19:30",
+   "endDate": "2026-11-21T22:00:00.000Z",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.eventbrite.com/e/fall-dance-concert-by-the-mid-pacific-school-of-the-arts-saturday-730pm-tickets-1992862697976",
+   "priceMin": 17.35,
+   "priceMax": 54.3,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Leeward Community College Theatre",
+    "address": "96-045 Ala ʻIke Street",
+    "city": "Pearl City"
+   },
+   "categories": [
+    {
+     "slug": "concerts",
+     "name": "Concerts & Live Music"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/fall-dance-concert-by-the-mid-pacific-school-of-the-arts-saturday-730pm"
+  },
+  {
+   "id": "9571dd97-7df8-4295-ac41-18b4b5567a16",
+   "slug": "anahola-farmers-market-2026-11-23",
+   "title": "Anahola Farmers Market",
+   "shortDesc": "On Mondays from 3 to 6pm come to the Anahola Marketplace at 4523 Ioane Rd for a fun community gathering! Local community",
+   "startDate": "2026-11-23T15:00:00.000Z",
+   "startTime": "15:00",
+   "endDate": "2026-11-23T18:00:00.000Z",
+   "isFree": true,
+   "isFeatured": false,
+   "ticketUrl": null,
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Free",
+   "island": {
+    "slug": "kauai",
+    "name": "Kauai"
+   },
+   "location": {
+    "name": "Anahola Marketplace",
+    "address": "Kuhio Highway at Milemaker 12.5 North of Kapaa",
+    "city": "Anahola"
+   },
+   "categories": [
+    {
+     "slug": "food-drink",
+     "name": "Food & Drink"
+    },
+    {
+     "slug": "markets",
+     "name": "Farmers Markets"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/anahola-farmers-market-2026-11-23"
+  },
+  {
+   "id": "24846262-c1c2-4a59-8b28-c409fe5349c2",
+   "slug": "the-book-of-mormon-touring",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-11-25T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-25-2026/event/0A00648EB7BE827A",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring"
+  },
+  {
+   "id": "cccbfaed-af95-4437-852b-c8ef17b4b1a9",
+   "slug": "the-book-of-mormon-touring-1",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-11-27T00:00:00.000Z",
+   "startTime": "14:00",
+   "endDate": null,
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-27-2026/event/0A00648EB7C2827F",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-1"
+  },
+  {
+   "id": "cee8b874-b9fd-4354-8c78-fe80405fb168",
+   "slug": "the-book-of-mormon-touring-3",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-11-28T00:00:00.000Z",
+   "startTime": "14:00",
+   "endDate": null,
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-28-2026/event/0A00648EB7CB828B",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-3"
+  },
+  {
+   "id": "92394bd4-3be5-485c-b38c-58604b8f62c1",
+   "slug": "the-book-of-mormon-touring-5",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-11-29T00:00:00.000Z",
+   "startTime": "13:00",
+   "endDate": null,
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-29-2026/event/0A00648EB7D3829F",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-5"
+  },
+  {
+   "id": "8281c771-ea6a-4404-847d-5a267b16e3f6",
+   "slug": "the-book-of-mormon-touring-7",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-11-30T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-30-2026/event/0A00648EB7DC82AB",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-7"
+  },
+  {
+   "id": "7f95bada-01a0-4b0e-904f-52a8637f57f4",
+   "slug": "anahola-farmers-market-2026-11-30",
+   "title": "Anahola Farmers Market",
+   "shortDesc": "On Mondays from 3 to 6pm come to the Anahola Marketplace at 4523 Ioane Rd for a fun community gathering! Local community",
+   "startDate": "2026-11-30T15:00:00.000Z",
+   "startTime": "15:00",
+   "endDate": "2026-11-30T18:00:00.000Z",
+   "isFree": true,
+   "isFeatured": false,
+   "ticketUrl": null,
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Free",
+   "island": {
+    "slug": "kauai",
+    "name": "Kauai"
+   },
+   "location": {
+    "name": "Anahola Marketplace",
+    "address": "Kuhio Highway at Milemaker 12.5 North of Kapaa",
+    "city": "Anahola"
+   },
+   "categories": [
+    {
+     "slug": "food-drink",
+     "name": "Food & Drink"
+    },
+    {
+     "slug": "markets",
+     "name": "Farmers Markets"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/anahola-farmers-market-2026-11-30"
+  },
+  {
+   "id": "b8320a6e-92ab-45a8-bb96-ce17e7c2a373",
+   "slug": "the-book-of-mormon-touring-8",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-12-01T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-12-01-2026/event/0A00648EB7E082B0",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-8"
+  },
+  {
+   "id": "d4c31c19-5909-42bb-bbc4-8f9f6f2307bb",
+   "slug": "the-book-of-mormon-touring-9",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-12-02T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-12-02-2026/event/0A00648EB7E482B9",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-9"
+  },
+  {
+   "id": "798e396f-3caa-40e1-8e6c-2576f3754ff8",
+   "slug": "the-book-of-mormon-touring-10",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-12-03T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-12-03-2026/event/0A00648EB7E882C2",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-10"
+  },
+  {
+   "id": "c73aeb12-80be-4d8c-8c17-b3e52b21c333",
+   "slug": "the-book-of-mormon-touring-11",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-12-04T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-12-04-2026/event/0A00648EB7EC82CA",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-11"
+  },
+  {
+   "id": "d031a8f7-1d70-496e-b98c-8be2c369f50a",
+   "slug": "the-book-of-mormon-touring-12",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-12-05T00:00:00.000Z",
+   "startTime": "14:00",
+   "endDate": null,
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-12-05-2026/event/0A00648EB7F082D1",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-12"
+  },
+  {
+   "id": "c54118a9-194c-4ac1-a3d0-d10d21160d3e",
+   "slug": "the-book-of-mormon-touring-14",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-12-06T00:00:00.000Z",
+   "startTime": "13:00",
+   "endDate": null,
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-12-06-2026/event/0A00648EB7F882DD",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-14"
+  },
+  {
+   "id": "21251113-e415-468d-b770-71749b0e79d7",
+   "slug": "anahola-farmers-market-2026-12-07",
+   "title": "Anahola Farmers Market",
+   "shortDesc": "On Mondays from 3 to 6pm come to the Anahola Marketplace at 4523 Ioane Rd for a fun community gathering! Local community",
+   "startDate": "2026-12-07T15:00:00.000Z",
+   "startTime": "15:00",
+   "endDate": "2026-12-07T18:00:00.000Z",
+   "isFree": true,
+   "isFeatured": false,
+   "ticketUrl": null,
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Free",
+   "island": {
+    "slug": "kauai",
+    "name": "Kauai"
+   },
+   "location": {
+    "name": "Anahola Marketplace",
+    "address": "Kuhio Highway at Milemaker 12.5 North of Kapaa",
+    "city": "Anahola"
+   },
+   "categories": [
+    {
+     "slug": "food-drink",
+     "name": "Food & Drink"
+    },
+    {
+     "slug": "markets",
+     "name": "Farmers Markets"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/anahola-farmers-market-2026-12-07"
+  },
+  {
+   "id": "19c5e654-275c-463c-9325-8830144dc902",
+   "slug": "anahola-farmers-market-2026-12-14",
+   "title": "Anahola Farmers Market",
+   "shortDesc": "On Mondays from 3 to 6pm come to the Anahola Marketplace at 4523 Ioane Rd for a fun community gathering! Local community",
+   "startDate": "2026-12-14T15:00:00.000Z",
+   "startTime": "15:00",
+   "endDate": "2026-12-14T18:00:00.000Z",
+   "isFree": true,
+   "isFeatured": false,
+   "ticketUrl": null,
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Free",
+   "island": {
+    "slug": "kauai",
+    "name": "Kauai"
+   },
+   "location": {
+    "name": "Anahola Marketplace",
+    "address": "Kuhio Highway at Milemaker 12.5 North of Kapaa",
+    "city": "Anahola"
+   },
+   "categories": [
+    {
+     "slug": "food-drink",
+     "name": "Food & Drink"
+    },
+    {
+     "slug": "markets",
+     "name": "Farmers Markets"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/anahola-farmers-market-2026-12-14"
+  },
+  {
+   "id": "2f5088d5-65e2-4ba3-b7b0-84a9e8fe26e0",
+   "slug": "anahola-farmers-market-2026-12-21",
+   "title": "Anahola Farmers Market",
+   "shortDesc": "On Mondays from 3 to 6pm come to the Anahola Marketplace at 4523 Ioane Rd for a fun community gathering! Local community",
+   "startDate": "2026-12-21T15:00:00.000Z",
+   "startTime": "15:00",
+   "endDate": "2026-12-21T18:00:00.000Z",
+   "isFree": true,
+   "isFeatured": false,
+   "ticketUrl": null,
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Free",
+   "island": {
+    "slug": "kauai",
+    "name": "Kauai"
+   },
+   "location": {
+    "name": "Anahola Marketplace",
+    "address": "Kuhio Highway at Milemaker 12.5 North of Kapaa",
+    "city": "Anahola"
+   },
+   "categories": [
+    {
+     "slug": "food-drink",
+     "name": "Food & Drink"
+    },
+    {
+     "slug": "markets",
+     "name": "Farmers Markets"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/anahola-farmers-market-2026-12-21"
+  },
+  {
+   "id": "7d837d7c-5690-49eb-bd1c-a74e1e09654c",
+   "slug": "anahola-farmers-market-2026-12-28",
+   "title": "Anahola Farmers Market",
+   "shortDesc": "On Mondays from 3 to 6pm come to the Anahola Marketplace at 4523 Ioane Rd for a fun community gathering! Local community",
+   "startDate": "2026-12-28T15:00:00.000Z",
+   "startTime": "15:00",
+   "endDate": "2026-12-28T18:00:00.000Z",
+   "isFree": true,
+   "isFeatured": false,
+   "ticketUrl": null,
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Free",
+   "island": {
+    "slug": "kauai",
+    "name": "Kauai"
+   },
+   "location": {
+    "name": "Anahola Marketplace",
+    "address": "Kuhio Highway at Milemaker 12.5 North of Kapaa",
+    "city": "Anahola"
+   },
+   "categories": [
+    {
+     "slug": "food-drink",
+     "name": "Food & Drink"
+    },
+    {
+     "slug": "markets",
+     "name": "Farmers Markets"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/anahola-farmers-market-2026-12-28"
+  },
+  {
+   "id": "437a635d-f026-4380-a216-d8d7ff9661f9",
+   "slug": "anahola-farmers-market-2027-01-04",
+   "title": "Anahola Farmers Market",
+   "shortDesc": "On Mondays from 3 to 6pm come to the Anahola Marketplace at 4523 Ioane Rd for a fun community gathering! Local community",
+   "startDate": "2027-01-04T15:00:00.000Z",
+   "startTime": "15:00",
+   "endDate": "2027-01-04T18:00:00.000Z",
+   "isFree": true,
+   "isFeatured": false,
+   "ticketUrl": null,
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Free",
+   "island": {
+    "slug": "kauai",
+    "name": "Kauai"
+   },
+   "location": {
+    "name": "Anahola Marketplace",
+    "address": "Kuhio Highway at Milemaker 12.5 North of Kapaa",
+    "city": "Anahola"
+   },
+   "categories": [
+    {
+     "slug": "food-drink",
+     "name": "Food & Drink"
+    },
+    {
+     "slug": "markets",
+     "name": "Farmers Markets"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/anahola-farmers-market-2027-01-04"
+  },
+  {
+   "id": "da1c2bf6-136c-4085-9cad-b64f1362817c",
+   "slug": "anahola-farmers-market-2027-01-11",
+   "title": "Anahola Farmers Market",
+   "shortDesc": "On Mondays from 3 to 6pm come to the Anahola Marketplace at 4523 Ioane Rd for a fun community gathering! Local community",
+   "startDate": "2027-01-11T15:00:00.000Z",
+   "startTime": "15:00",
+   "endDate": "2027-01-11T18:00:00.000Z",
+   "isFree": true,
+   "isFeatured": false,
+   "ticketUrl": null,
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Free",
+   "island": {
+    "slug": "kauai",
+    "name": "Kauai"
+   },
+   "location": {
+    "name": "Anahola Marketplace",
+    "address": "Kuhio Highway at Milemaker 12.5 North of Kapaa",
+    "city": "Anahola"
+   },
+   "categories": [
+    {
+     "slug": "food-drink",
+     "name": "Food & Drink"
+    },
+    {
+     "slug": "markets",
+     "name": "Farmers Markets"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/anahola-farmers-market-2027-01-11"
+  },
+  {
+   "id": "7528590f-fd09-4fdc-a729-e8c916cae620",
+   "slug": "anahola-farmers-market-2027-01-18",
+   "title": "Anahola Farmers Market",
+   "shortDesc": "On Mondays from 3 to 6pm come to the Anahola Marketplace at 4523 Ioane Rd for a fun community gathering! Local community",
+   "startDate": "2027-01-18T15:00:00.000Z",
+   "startTime": "15:00",
+   "endDate": "2027-01-18T18:00:00.000Z",
+   "isFree": true,
+   "isFeatured": false,
+   "ticketUrl": null,
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Free",
+   "island": {
+    "slug": "kauai",
+    "name": "Kauai"
+   },
+   "location": {
+    "name": "Anahola Marketplace",
+    "address": "Kuhio Highway at Milemaker 12.5 North of Kapaa",
+    "city": "Anahola"
+   },
+   "categories": [
+    {
+     "slug": "food-drink",
+     "name": "Food & Drink"
+    },
+    {
+     "slug": "markets",
+     "name": "Farmers Markets"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/anahola-farmers-market-2027-01-18"
+  },
+  {
+   "id": "0d7773b9-9162-4092-af00-c06d9eed2ae9",
+   "slug": "anahola-farmers-market-2027-01-25",
+   "title": "Anahola Farmers Market",
+   "shortDesc": "On Mondays from 3 to 6pm come to the Anahola Marketplace at 4523 Ioane Rd for a fun community gathering! Local community",
+   "startDate": "2027-01-25T15:00:00.000Z",
+   "startTime": "15:00",
+   "endDate": "2027-01-25T18:00:00.000Z",
+   "isFree": true,
+   "isFeatured": false,
+   "ticketUrl": null,
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Free",
+   "island": {
+    "slug": "kauai",
+    "name": "Kauai"
+   },
+   "location": {
+    "name": "Anahola Marketplace",
+    "address": "Kuhio Highway at Milemaker 12.5 North of Kapaa",
+    "city": "Anahola"
+   },
+   "categories": [
+    {
+     "slug": "food-drink",
+     "name": "Food & Drink"
+    },
+    {
+     "slug": "markets",
+     "name": "Farmers Markets"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/anahola-farmers-market-2027-01-25"
+  }
+ ]
+}

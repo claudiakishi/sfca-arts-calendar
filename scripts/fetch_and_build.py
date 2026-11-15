@@ -46,6 +46,20 @@ Sources
    otherwise land well before publication. Undated posts and events that have
    already ended are dropped.
 
+6. The Creative City (Squarespace events collection JSON)
+     https://www.thecreativecity.org/events?format=json
+   A curated Oʻahu arts calendar (museums, galleries, theatre, symphony). Exact
+   start/end instants (ms epoch); multi-day runs and recurring series become a
+   date span. Archived to data/raw/thecreativecity-events.json.
+
+7. AlohaCalendar (open public JSON API, category=arts)
+     https://alohacalendar.com/api/v1/events
+   Statewide listings, the main neighbor-island coverage. Responses cap at 50,
+   so the builder pages by advancing `from`. Times are local wall time despite
+   the 'Z' suffix. Repeat showings of one title on one island collapse into one
+   recurring span; markets are dropped. Archived to
+   data/raw/alohacalendar-events.json.
+
 Pipeline
 --------
     fetch each source -> parse to a common Event model -> merge + dedupe across
@@ -129,6 +143,21 @@ VAC_SLUG = "volcanoartcenter-feed"
 # A post whose first parsed date falls this far before its publish date is
 # about the following year (e.g. a January workshop announced in July).
 VAC_YEAR_ROLL_DAYS = 60
+
+TCC_BASE = "https://www.thecreativecity.org"
+TCC_EVENTS_URL = f"{TCC_BASE}/events?format=json"
+TCC_SLUG = "thecreativecity-events"
+TCC_NAME = "The Creative City"
+TCC_DESC_MAX = 400
+
+ALOHA_BASE = "https://alohacalendar.com"
+ALOHA_API_URL = f"{ALOHA_BASE}/api/v1/events"
+ALOHA_SLUG = "alohacalendar-events"
+ALOHA_NAME = "AlohaCalendar"
+ALOHA_PAGE_LIMIT = 50   # the API caps each response at 50 events
+ALOHA_MAX_PAGES = 40
+ALOHA_EXCLUDE_TITLE_WORDS = ("farmers market", "farmer's market",
+                             "night market")
 
 HST = dt.timezone(dt.timedelta(hours=-10))  # Hawai'i has no daylight saving.
 
@@ -1069,6 +1098,238 @@ def collect_volcano_art_center(today: dt.date, offline: bool
         name, status, note or f"{len(events)} upcoming events")
 
 
+def _hst_ms(ms) -> dt.datetime:
+    return dt.datetime.fromtimestamp(ms / 1000, HST)
+
+
+def _utc_z(local: dt.datetime) -> str:
+    return local.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
+def parse_creative_city(payload: dict, today: dt.date) -> list[Event]:
+    """Parse a Squarespace events collection (?format=json) into Events.
+
+    Keeps events still running on/after `today` and starting within the site
+    window. Single-day events carry exact instants; multi-day runs and
+    recurring series ("every 1st Friday") become a date span.
+    """
+    upcoming = payload["upcoming"]
+    if not isinstance(upcoming, list):
+        raise ValueError("'upcoming' is not a list")
+    _, horizon = librarieshawaii_window(today)
+    events: list[Event] = []
+    for raw in upcoming:
+        title = _tec_text(raw.get("title"))
+        path = raw.get("fullUrl")
+        if not (title and path and raw.get("startDate")):
+            continue
+        start = _hst_ms(raw["startDate"])
+        end = _hst_ms(raw.get("endDate") or raw["startDate"])
+        d_start, d_end = start.date(), max(end.date(), start.date())
+        if d_end < today or d_start > horizon:
+            continue
+        url = TCC_BASE + path
+        tags = [t.lower() for t in raw.get("tags") or []]
+        recurring = "recurring" in tags or bool(
+            re.search(r"\bevery\b|\bmonthly\b", title, re.IGNORECASE))
+        start_utc = end_utc = time_display = None
+        if d_start == d_end:
+            start_utc, end_utc = _utc_z(start), _utc_z(end)
+            _, time_display, _ = _fmt_time_range(start_utc, end_utc)
+        desc = _tec_text(raw.get("excerpt") or raw.get("body"))
+        if len(desc) > TCC_DESC_MAX:
+            desc = desc[:TCC_DESC_MAX].rsplit(" ", 1)[0] + "…"
+        loc = raw.get("location") or {}
+        cats = raw.get("categories") or []
+        events.append(Event(
+            title=title,
+            description=desc,
+            category=cats[0] if cats else TCC_NAME,
+            provider=TCC_NAME,
+            sources=[Source(TCC_NAME, url, "thecreativecity.org")],
+            venue=_tec_text(loc.get("addressTitle")) or None,
+            date_start=d_start.isoformat(),
+            date_end=d_end.isoformat(),
+            date_display=_fmt_date_span(d_start, d_end),
+            time_display=time_display,
+            dt_start_utc=start_utc,
+            dt_end_utc=end_utc,
+            recurring=recurring,
+            links=[{"text": "Event details (The Creative City)", "href": url}],
+            uid_seed=f"tcc|{raw.get('id') or path}",
+        ))
+    events.sort(key=lambda e: e.date_start or "")
+    return events
+
+
+def _aloha_local(date_str: str | None, hhmm: str | None) -> dt.datetime | None:
+    """AlohaCalendar stamps local wall time with a bogus 'Z'; the date part is
+    the local date and `startTime` (HH:MM) the local start, when known."""
+    if not date_str or len(date_str) < 10:
+        return None
+    try:
+        day = dt.date.fromisoformat(date_str[:10])
+        if hhmm:
+            h, m = (int(x) for x in hhmm.split(":")[:2])
+            return dt.datetime(day.year, day.month, day.day, h, m, tzinfo=HST)
+    except ValueError:
+        return None
+    return dt.datetime(day.year, day.month, day.day, tzinfo=HST)
+
+
+def parse_alohacalendar(raw_events: list[dict], today: dt.date) -> list[Event]:
+    """Parse AlohaCalendar API events (category=arts) into Events.
+
+    Repeat showings of one title on one island (nightly shows, multi-weekend
+    plays) collapse into a single recurring date span so they don't flood the
+    calendar; one-offs keep their exact start time.
+    """
+    groups: dict[tuple[str, str], list[dict]] = {}
+    for raw in raw_events:
+        title = _tec_text(raw.get("title"))
+        if not title or not raw.get("startDate") or not raw.get("url"):
+            continue
+        if any(w in title.lower() for w in ALOHA_EXCLUDE_TITLE_WORDS):
+            continue
+        # Key on island, not venue: one show is sometimes listed under two
+        # spellings of its venue.
+        island = (raw.get("island") or {}).get("slug") or ""
+        groups.setdefault((_norm_title(title), island), []).append(raw)
+
+    events: list[Event] = []
+    for items in groups.values():
+        items.sort(key=lambda r: (r["startDate"], r.get("startTime") or ""))
+        first, last = items[0], items[-1]
+        start = _aloha_local(first["startDate"], first.get("startTime"))
+        if start is None:
+            continue
+        d_start = start.date()
+        d_end = max(dt.date.fromisoformat(last["startDate"][:10]), d_start)
+        if d_end < today:
+            continue
+        loc = first.get("location") or {}
+        island = (first.get("island") or {}).get("name")
+        venue = _tec_text(loc.get("name")) or None
+        if venue and island:
+            venue = f"{venue} ({island})"
+        start_utc = end_utc = time_display = None
+        if len(items) == 1 and first.get("startTime"):
+            start_utc = _utc_z(start)
+            end_raw = first.get("endDate") or ""
+            end_clock = end_raw[11:16]
+            if end_raw[:10] == first["startDate"][:10] and end_clock not in ("", "00:00"):
+                end_utc = _utc_z(_aloha_local(end_raw, end_clock))
+            _, time_display, _ = _fmt_time_range(start_utc, end_utc)
+        cats = [c.get("name") for c in first.get("categories") or []
+                if isinstance(c, dict) and c.get("name")
+                and c.get("slug") != "arts"]
+        url = first["url"]
+        links = [{"text": "Event details (AlohaCalendar)", "href": url}]
+        ticket = first.get("ticketUrl")
+        if isinstance(ticket, str) and ticket.startswith("http"):
+            links.append({"text": "Tickets", "href": ticket})
+        date_display = _fmt_date_span(d_start, d_end)
+        if len(items) > 1:
+            date_display = f"{len(items)} dates, {date_display}"
+        events.append(Event(
+            title=_tec_text(first["title"]),
+            description=_tec_text(first.get("shortDesc")),
+            category=cats[0] if cats else "Arts & Gallery",
+            provider=ALOHA_NAME,
+            sources=[Source(ALOHA_NAME, url, "alohacalendar.com")],
+            venue=venue,
+            date_start=d_start.isoformat(),
+            date_end=d_end.isoformat(),
+            date_display=date_display,
+            time_display=time_display,
+            dt_start_utc=start_utc,
+            dt_end_utc=end_utc,
+            recurring=len(items) > 1,
+            links=links,
+            uid_seed=f"aloha|{first.get('slug') or first.get('id')}",
+        ))
+    events.sort(key=lambda e: e.date_start or "")
+    return events
+
+
+def _fetch_aloha_pages(start: dt.date, end: dt.date) -> list[dict]:
+    """Page through the 50-per-response cap by advancing the `from` date."""
+    seen: dict[str, dict] = {}
+    cursor = start
+    for _ in range(ALOHA_MAX_PAGES):
+        url = (f"{ALOHA_API_URL}?category=arts&from={cursor.isoformat()}"
+               f"&to={end.isoformat()}&limit={ALOHA_PAGE_LIMIT}")
+        code, payload = _fetch_json(url)
+        if code != 200 or not isinstance(payload, dict):
+            raise ValueError(f"HTTP {code} for {url}")
+        batch = payload.get("events")
+        if not isinstance(batch, list):
+            raise ValueError("response has no 'events' list")
+        for ev in batch:
+            seen[ev["id"]] = ev
+        if len(batch) < ALOHA_PAGE_LIMIT:
+            return list(seen.values())
+        last = dt.date.fromisoformat(batch[-1]["startDate"][:10])
+        # A full page that never leaves one day would loop forever; step past it.
+        cursor = last if last > cursor else cursor + dt.timedelta(days=1)
+        if cursor > end:
+            return list(seen.values())
+    raise ValueError(f"more than {ALOHA_MAX_PAGES} pages")
+
+
+def _collect_json_source(name: str, label: str, raw_path: Path, offline: bool,
+                         fetch_raw, parse) -> tuple[list[Event], ProviderStatus]:
+    """Fetch -> validate -> archive, falling back to the archive on failure."""
+    status, note, raw = "ok", "", None
+    if not offline:
+        try:
+            candidate = fetch_raw()
+            parse(candidate)  # validate before replacing the usable archive
+            RAW_DIR.mkdir(parents=True, exist_ok=True)
+            _write_archive(raw_path, json.dumps(candidate, ensure_ascii=False,
+                                                indent=1))
+            raw = candidate
+        except (requests.RequestException, ValueError, TypeError, KeyError,
+                AttributeError, OSError) as exc:
+            status, note = "partial", f"fetch failed ({exc}); used archived copy"
+    if raw is None:
+        if not raw_path.exists():
+            detail = "offline: no archived JSON" if offline else note
+            return [], ProviderStatus(name, "error", detail)
+        try:
+            raw = json.loads(raw_path.read_text(encoding="utf-8"))
+        except (ValueError, OSError) as exc:
+            return [], ProviderStatus(name, "error", f"bad archive: {exc}")
+    try:
+        events = parse(raw)
+    except Exception as exc:
+        return [], ProviderStatus(name, "error", f"parse failed: {exc}")
+    print(f"  {label:<16} {status:<8} events={len(events)}", file=sys.stderr)
+    return events, ProviderStatus(
+        name, status, note or f"{len(events)} upcoming events")
+
+
+def collect_creative_city(today: dt.date, offline: bool
+                          ) -> tuple[list[Event], ProviderStatus]:
+    def fetch_raw() -> dict:
+        code, payload = _fetch_json(TCC_EVENTS_URL)
+        if code != 200 or not isinstance(payload, dict):
+            raise ValueError(f"HTTP {code}")
+        return {"upcoming": payload["upcoming"]}
+    return _collect_json_source(
+        TCC_NAME, "Creative City", RAW_DIR / f"{TCC_SLUG}.json", offline,
+        fetch_raw, lambda raw: parse_creative_city(raw, today))
+
+
+def collect_alohacalendar(today: dt.date, offline: bool
+                          ) -> tuple[list[Event], ProviderStatus]:
+    start, end = librarieshawaii_window(today)
+    return _collect_json_source(
+        ALOHA_NAME, "AlohaCalendar", RAW_DIR / f"{ALOHA_SLUG}.json", offline,
+        lambda: {"events": _fetch_aloha_pages(start, end)},
+        lambda raw: parse_alohacalendar(raw["events"], today))
+
+
 # --------------------------------------------------------------------------- #
 # Merge + dedupe
 # --------------------------------------------------------------------------- #
@@ -1076,6 +1337,9 @@ def collect_volcano_art_center(today: dt.date, offline: bool
 _VENUE_TAIL = re.compile(
     r"\bat (the )?capitol modern.*$|\bat the hawai.*$|\bat capitol modern.*$",
     re.IGNORECASE)
+
+
+NO_SELF_MERGE = {LIB_PROVIDER, ALOHA_NAME}
 
 
 def _norm_title(t: str) -> str:
@@ -1093,9 +1357,9 @@ def _same_event(a: Event, b: Event) -> bool:
     # lose the recurrence and misplace the event.
     if bool(a.date_start) != bool(b.date_start):
         return False
-    # Library records are distinct TEC event instances (another session, or
-    # another branch), never duplicates of each other.
-    if a.provider == b.provider == LIB_PROVIDER:
+    # Library and AlohaCalendar records are distinct listings (another
+    # session, branch, or showtime), never duplicates of each other.
+    if a.provider == b.provider and a.provider in NO_SELF_MERGE:
         return False
     # Two concrete instances: same day required.
     if a.date_start and b.date_start:
@@ -1165,9 +1429,9 @@ def merge_events(events: list[Event]) -> tuple[list[Event], int]:
     for ev in events:
         for cl in clusters:
             # A summary from another source must not bridge two distinct
-            # library sessions that would never merge directly.
-            if ev.provider == LIB_PROVIDER and any(
-                    member.provider == LIB_PROVIDER for member in cl):
+            # listings from one feed that would never merge directly.
+            if ev.provider in NO_SELF_MERGE and any(
+                    member.provider == ev.provider for member in cl):
                 continue
             if _same_event(ev, cl[0]):
                 cl.append(ev)
@@ -1215,7 +1479,8 @@ def write_events_json(months, undated, providers, generated) -> None:
         "attribution": (
             "Event information aggregated from the Hawai\u02bbi State Foundation "
             "on Culture and the Arts (SFCA), Capitol Modern: the Hawai\u02bbi "
-            "State Art Museum, Hawaiʻi State Public Libraries, and Volcano Art Center. "
+            "State Art Museum, Hawaiʻi State Public Libraries, Volcano Art Center, "
+            "The Creative City, and AlohaCalendar. "
             "Unofficial mirror; confirm details at the source."
         ),
         "months": [
@@ -1362,7 +1627,8 @@ def _e(text: str) -> str:
 
 _SRC_CLASS = {"SFCA": "sfca", "SFCA Events": "sfca",
               "Capitol Modern": "capmod", LIB_PROVIDER: "lib",
-              "Volcano Art Center": "vac"}
+              "Volcano Art Center": "vac", TCC_NAME: "tcc",
+              ALOHA_NAME: "aloha"}
 
 
 def _fmt_when(ev: Event) -> str:
@@ -1410,9 +1676,9 @@ def _page_shell(title: str, body: str, generated: str) -> str:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{_e(title)}</title>
 <style>
-:root {{ --bg:#fbfaf7; --fg:#1c1a17; --muted:#6b6560; --card:#fff; --accent:#0b6b5f; --line:#e7e2d9; --sfca:#0b6b5f; --capmod:#8a4b96; --lib:#2f5d9e; --vac:#a5402d; --both:#b4641c; }}
+:root {{ --bg:#fbfaf7; --fg:#1c1a17; --muted:#6b6560; --card:#fff; --accent:#0b6b5f; --line:#e7e2d9; --sfca:#0b6b5f; --capmod:#8a4b96; --lib:#2f5d9e; --vac:#a5402d; --tcc:#6a7a1f; --aloha:#b03a6e; --both:#b4641c; }}
 @media (prefers-color-scheme: dark) {{
-  :root {{ --bg:#161513; --fg:#ece8e1; --muted:#a49e94; --card:#201e1b; --accent:#5fd3c0; --line:#33302b; --sfca:#5fd3c0; --capmod:#d6a3e0; --lib:#8fb4ee; --vac:#f0957f; --both:#e3a869; }}
+  :root {{ --bg:#161513; --fg:#ece8e1; --muted:#a49e94; --card:#201e1b; --accent:#5fd3c0; --line:#33302b; --sfca:#5fd3c0; --capmod:#d6a3e0; --lib:#8fb4ee; --vac:#f0957f; --tcc:#c3d37a; --aloha:#f08cb8; --both:#e3a869; }}
 }}
 * {{ box-sizing:border-box; }}
 body {{ margin:0; background:var(--bg); color:var(--fg);
@@ -1443,6 +1709,8 @@ h2.month {{ margin:30px 0 4px; padding-bottom:6px; border-bottom:2px solid var(-
 .badge.lib {{ color:var(--lib); }}
 
 .badge.vac {{ color:var(--vac); }}
+.badge.tcc {{ color:var(--tcc); }}
+.badge.aloha {{ color:var(--aloha); }}
 .badge.both {{ color:var(--both); }}
 .links {{ font-size:.9rem; margin-top:.35rem; }}
 .src {{ font-size:.78rem; margin-top:.4rem; color:var(--muted); }}
@@ -1500,6 +1768,8 @@ def render_site(months, undated, sfca_rows, providers, num_merged,
               '<span><span class="badge lib">Libraries</span> public library arts programs</span>'
 
               '<span><span class="badge vac">Volcano Art Center</span> RSS feed</span>'
+              '<span><span class="badge tcc">The Creative City</span> Oʻahu arts calendar</span>'
+              '<span><span class="badge aloha">AlohaCalendar</span> statewide arts listings</span>'
               '<span><span class="badge both">merged</span> same event, multiple sources</span>'
               '</div>')
     actions = ('<div class="actions">'
@@ -1574,9 +1844,12 @@ def main() -> int:
     tec_events, tec_ps = collect_sfca_tec(args.offline)
     lib_events, lib_ps = collect_librarieshawaii(today, args.offline)
     vac_events, vac_ps = collect_volcano_art_center(today, args.offline)
-    providers = [sfca_ps, capmod_ps, tec_ps, lib_ps, vac_ps]
+    tcc_events, tcc_ps = collect_creative_city(today, args.offline)
+    aloha_events, aloha_ps = collect_alohacalendar(today, args.offline)
+    providers = [sfca_ps, capmod_ps, tec_ps, lib_ps, vac_ps, tcc_ps, aloha_ps]
 
-    all_events = sfca_events + capmod_events + tec_events + lib_events + vac_events
+    all_events = (sfca_events + capmod_events + tec_events + lib_events
+                  + vac_events + tcc_events + aloha_events)
     merged, num_merged = merge_events(all_events)
     current_month = f"{today.year:04d}-{today.month:02d}"
     months, undated = group_by_month(merged, current_month)

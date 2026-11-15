@@ -1,0 +1,535 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hawaii-arts-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hawaiʻi Arts & Culture – Hawaiʻi Island
+X-WR-TIMEZONE:Pacific/Honolulu
+BEGIN:VTIMEZONE
+TZID:Pacific/Honolulu
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-1000
+TZOFFSETTO:-1000
+TZNAME:HST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:08a82d5a4972c58711a8@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261116T173000
+DTEND;TZID=Pacific/Honolulu:20261116T185000
+SUMMARY:Hawaiian History Talk Story-Paniolo History
+DESCRIPTION:In the earliest days of the Kingdom\, cattle and then horses 
+ arrived on ships from faraway lands. The cattle multiplied so quickly th
+ at the Hawaiian people asked for relief from the King\, and Spanish spea
+ king Vaqueros were contracted to come to the islands and control the her
+ ds. They taught the cowboy arts to any kanaka willing to learn\, leaving
+  an indelible mark on the islands for all time.…  https://www.librarie
+ shawaii.org/event/hawaiian-history-talk-story/  Sources: Libraries https
+ ://www.librarieshawaii.org/event/hawaiian-history-talk-story/
+LOCATION:North Kohala Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/hawaiian-history-talk-story/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:53a114b516b27b9b1109@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261118T160000
+DTEND;TZID=Pacific/Honolulu:20261118T170000
+SUMMARY:Musical Performance: Kona Aloha Singers Youth Chorus
+DESCRIPTION:Kona Aloha Singers Youth Chorus is a singing group made up of
+  students of all ages from all over Kona! They focus on singing fun\, co
+ ntemporary pop songs\, including favorites from movies! See them at the 
+ library as one of their first performances of the season. They perform s
+ everal times each season\, including performances at Keauhou Shopping Ce
+ nter\, West Hawai’i Civic Center\, and of course the…  https://www.l
+ ibrarieshawaii.org/event/musical-performance-kona-aloha-singers-youth-ch
+ orus-2/  Sources: Libraries https://www.librarieshawaii.org/event/musica
+ l-performance-kona-aloha-singers-youth-chorus-2/
+LOCATION:Kealakekua Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/musical-performance-kona-aloha-
+ singers-youth-chorus-2/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:8d00399aaa38e82a96e7@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261118T173000
+DTEND;TZID=Pacific/Honolulu:20261118T183000
+SUMMARY:Writer’s Night
+DESCRIPTION:We invite you to a dedicated evening for writing\, collaborat
+ ion\, and creative exchange. Work independently or share ideas with othe
+ r writers. This is our third writer’s event and we’re grateful for t
+ he interest from our local creatives! We welcome adults for this program
+ . No sign-up required. Light snacks will be provided. Generously sponsor
+ ed by Friends of the Libraries\, Kona (F.O.L.K.).  https://www.libraries
+ hawaii.org/event/writers-night/  Sources: Libraries https://www.librarie
+ shawaii.org/event/writers-night/
+LOCATION:Kealakekua Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/writers-night/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:5da3be3113f8fe110aed@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261119T140000
+DTEND;TZID=Pacific/Honolulu:20261119T160000
+SUMMARY:Happy Birthday Mickey Mouse
+DESCRIPTION:Mickey turns 98 years old this year\, let’s celebrate by cr
+ eating your own Mickey Ears! Sing Happy Birthday to Mickey and enjoy a c
+ upcake. Be sure to wear your favorite party outfit! Welcoming all aged 3
+ +. Young children must be accompanied by an adult caregiver. Advanced re
+ gistration required. Sign up online or call the library (808-323-7585) f
+ or assistance. Funding provided by Friends of the…  https://www.librar
+ ieshawaii.org/event/happy-birthday-mickey-mouse/  Sources: Libraries htt
+ ps://www.librarieshawaii.org/event/happy-birthday-mickey-mouse/
+LOCATION:Kealakekua Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/happy-birthday-mickey-mouse/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:9133788e03e604c507b7@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261119T150000
+DTEND;TZID=Pacific/Honolulu:20261119T160000
+SUMMARY:Kohala Kendama Club
+DESCRIPTION:Join the Kohala Kendama Club! Show us your tricks or learn so
+ me new ones. All levels welcome! Complete a trick card and get a prize. 
+ Bring your own Kendama or use one provided by the library.  https://www.
+ librarieshawaii.org/event/kohala-kendama-club-11-19/  Sources: Libraries
+  https://www.librarieshawaii.org/event/kohala-kendama-club-11-19/
+LOCATION:North Kohala Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/kohala-kendama-club-11-19/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:970f090e91acd5edda35@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261119T170000
+DTEND;TZID=Pacific/Honolulu:20261119T190000
+SUMMARY:3rd Annual Tiny Art Show Gallery Opening
+DESCRIPTION:Please join us for this year’s Tiny Art Show! Our opening g
+ ala will be a fun chance to show off your artwork\, see what others have
+  made\, and talk story with the community! Drop by anytime during the ev
+ ening to view the art. All are welcome. Please dress to impress! Refresh
+ ments provided by Friends of the Libraries\, Hamakua. Art from previous 
+ years’ shows will be available for purchase by donation…  https://ww
+ w.librarieshawaii.org/event/3rd-annual-tiny-art-show-gallery-opening/  S
+ ources: Libraries https://www.librarieshawaii.org/event/3rd-annual-tiny-
+ art-show-gallery-opening/
+LOCATION:Honoka‘a Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/3rd-annual-tiny-art-show-galler
+ y-opening/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:f170501a36e4d129ef27@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261119T170000
+DTEND;TZID=Pacific/Honolulu:20261119T190000
+SUMMARY:Zine Club
+DESCRIPTION:Are you curious about zines? Zines (short for magazines) are 
+ DIY publications that anyone can create. They’re a fun way to share yo
+ ur creative ideas with the world\, and are easy to reproduce for distrib
+ ution using our library copier (copying costs will be covered during the
+  event). Work on your ideas\, bring a favorite zine to share\, and brows
+ e our zine collection for inspiration. All supplies…  https://www.libr
+ arieshawaii.org/event/zine-club-2026-03-30/2026-11-19/  Sources: Librari
+ es https://www.librarieshawaii.org/event/zine-club-2026-03-30/2026-11-19
+ /
+LOCATION:Honoka‘a Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/zine-club-2026-03-30/2026-11-19
+ /
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:a6efc211903f64b5b9a5@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261121T100000
+DTEND;TZID=Pacific/Honolulu:20261121T113000
+SUMMARY:Teen Reading Feast featuring Sunrise on the Reaping
+DESCRIPTION:Visit the dangerous world of Panem\, compete in Tribute Trivi
+ a \, and become a Victor! In November\, we conclude our book & movie exp
+ loration of Suzanne Collins’ riveting YA series. Enjoy a complimentary
+  café experience featuring baked goods\, cocoa\, and tea! Read a book o
+ f your choice OR earn points to be our Victor by : The Victor will claim
+  a Regal Theatres movie package in time for the November…  https://www
+ .librarieshawaii.org/event/teen-reading-feast-sunrise-on-the-reaping/  S
+ ources: Libraries https://www.librarieshawaii.org/event/teen-reading-fea
+ st-sunrise-on-the-reaping/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/teen-reading-feast-sunrise-on-t
+ he-reaping/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:5e72d349ccd742b92c42@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261123T170000
+DTEND;TZID=Pacific/Honolulu:20261123T190000
+SUMMARY:Movie Night – Free Birds
+DESCRIPTION:Please join us for a showing of Free Birds. “A pair of turk
+ eys discover a time machine and decide to use it to travel to the first 
+ Thanksgiving\, to take turkeys off the menu forever.” (imdb.com\, 2026
+ ) Program is suitable for age 5 and over. All children must be accompani
+ ed by a parent or an adult caregiver.  https://www.librarieshawaii.org/e
+ vent/movie-night-the-book-of-life-2/  Sources: Libraries https://www.lib
+ rarieshawaii.org/event/movie-night-the-book-of-life-2/
+LOCATION:Pāhoa Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/movie-night-the-book-of-life-2/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:5eadc27da570989ec4c2@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261124T160000
+DTEND;TZID=Pacific/Honolulu:20261124T173000
+SUMMARY:Cozy Crafternoon: Woodland Wonders!
+DESCRIPTION:Come enjoy a cozy afternoon of crafting with awesome autumnal
+  vibes! Make a miniature woodland scene\, then use it as a Thanksgiving 
+ centerpiece! Spaces are limited: Contact your library to make a reservat
+ ion. Young children must be accompanied by a parent or adult caregiver. 
+ This program is appropriate for ages 5+ Mahalo nui to the Friends of the
+  Libraries\, Kona (F.O.L.K.) for sponsoring this…  https://www.librari
+ eshawaii.org/event/cozy-crafternoon-woodland-wonders/  Sources: Librarie
+ s https://www.librarieshawaii.org/event/cozy-crafternoon-woodland-wonder
+ s/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/cozy-crafternoon-woodland-wonde
+ rs/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:73dd32760212584c8582@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261127T133000
+DTEND;TZID=Pacific/Honolulu:20261127T140000
+SUMMARY:West Hawaii Dance Theatre Presents: Nutcracker Sweets
+DESCRIPTION:A sweet preview of the Nutcracker Ballet\, based on E.T.A. Ho
+ ffman’s story The Nutcracker and the Mouse King—performed to the mel
+ odic music of Pyotr Ilyich Tchaikovsky\, which will be performed at the 
+ Aloha Threatre and Kahilu Theatre this December. Students from West Hawa
+ ii Dance Theatre will delight with this classic holiday story as we head
+  into the holiday season. This free program is for all…  https://www.l
+ ibrarieshawaii.org/event/west-hawaii-dance-theatre-presents-nutcracker-s
+ weets/  Sources: Libraries https://www.librarieshawaii.org/event/west-ha
+ waii-dance-theatre-presents-nutcracker-sweets/
+LOCATION:Kealakekua Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/west-hawaii-dance-theatre-prese
+ nts-nutcracker-sweets/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:83db14434200a6c523f0@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261128T100000
+DTEND;TZID=Pacific/Honolulu:20261128T120000
+SUMMARY:Needlework Social Circle
+DESCRIPTION:Love to knit or crochet? Enjoy the company of other fiber art
+ ists? Bring your own creations and see what others are doing! If you’d
+  like to attend a class\, please ask at the circulation desk for more in
+ formation!  https://www.librarieshawaii.org/event/needlework-social-circ
+ le-7/  Sources: Libraries https://www.librarieshawaii.org/event/needlewo
+ rk-social-circle-7/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/needlework-social-circle-7/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:7c14a8a526bd3233eefd@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261130T170000
+DTEND;TZID=Pacific/Honolulu:20261130T190000
+SUMMARY:Ti Leaf Wreaths
+DESCRIPTION:Come and make ti leaf wreaths with us! We will provide the le
+ aves and the wreath forms. If you’d like to add flowers\, please bring
+  your own. Program is suitable for ages 8 and up. All children must be a
+ ccompanied by a parent or an adult caregiver.  https://www.librarieshawa
+ ii.org/event/ti-leaf-wreaths/  Sources: Libraries https://www.librariesh
+ awaii.org/event/ti-leaf-wreaths/
+LOCATION:Pāhoa Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/ti-leaf-wreaths/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:0b05c9731759bd49cbb4@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261201T170000
+DTEND;TZID=Pacific/Honolulu:20261201T180000
+SUMMARY:Hawai‘i Ukulele Ensemble Concert
+DESCRIPTION:A new approach to ukulele music with a rich\, layered sound o
+ f familiar compositions\, “From Beatles to Bossa Nova\,” played with
+  multiple parts in precise harmony. Young children must be accompanied b
+ y caregiver. Mahalo nui to the Friends of the Libraries\, Kona (F.O.L.K.
+ ) for sponsoring this program!  https://www.librarieshawaii.org/event/ha
+ waii-ukulele-ensemble-concert/  Sources: Libraries https://www.libraries
+ hawaii.org/event/hawaii-ukulele-ensemble-concert/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/hawaii-ukulele-ensemble-concert
+ /
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:d3b24683f0d066919b26@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261203T150000
+DTEND;TZID=Pacific/Honolulu:20261203T160000
+SUMMARY:Kohala Kendama Club
+DESCRIPTION:Join the Kohala Kendama Club! Show us your tricks or learn so
+ me new ones. All levels welcome! Complete a trick card and get a prize. 
+ Bring your own Kendama or use one provided by the library.  https://www.
+ librarieshawaii.org/event/kohala-kendama-club-12-3/  Sources: Libraries 
+ https://www.librarieshawaii.org/event/kohala-kendama-club-12-3/
+LOCATION:North Kohala Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/kohala-kendama-club-12-3/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:78485f18f858ea1ae0df@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261208T170000
+DTEND;TZID=Pacific/Honolulu:20261208T183000
+SUMMARY:Author Visit: Tom Peek
+DESCRIPTION:Tom Peek\, Volcano author of the nationally award-winning nov
+ els Mauna Kea and Daughters of Fire \, will read from his Hawai’i nove
+ ls\, discuss the books\, and offer tips on how to jump start your own wr
+ iting projects and bring them to completion. Books will be available to 
+ purchase. Mahalo nui to the Friends of the Libraries\, Kona (F.O.L.K.) f
+ or sponsoring this program!  https://www.librarieshawaii.org/event/autho
+ r-visit-tom-peek-2/  Sources: Libraries https://www.librarieshawaii.org/
+ event/author-visit-tom-peek-2/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/author-visit-tom-peek-2/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:531c0b5b7501606359d2@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261215T170000
+DTEND;TZID=Pacific/Honolulu:20261215T190000
+SUMMARY:Silent Disco at the Library!
+DESCRIPTION:Get ready to dance the night away with your friends in a uniq
+ ue and fun way! Featuring the sounds of local DJs \, put on your headpho
+ nes\, tune in to the music\, and groove to the beats in the stacks. This
+  free in-person event is an inclusive\, sensory-friendly experience. Joi
+ n us for a silent dance party like no other! To participate you will nee
+ d to provide a State ID that we will hold in exchange…  https://www.li
+ brarieshawaii.org/event/silent-disco-at-the-library/  Sources: Libraries
+  https://www.librarieshawaii.org/event/silent-disco-at-the-library/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/silent-disco-at-the-library/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:331a23cbd35b00a0d3de@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261219T100000
+DTEND;TZID=Pacific/Honolulu:20261219T120000
+SUMMARY:Needlework Social Circle
+DESCRIPTION:Love to knit or crochet? Enjoy the company of other fiber art
+ ists? Bring your own creations and see what others are doing! If you’d
+  like to attend a class\, please ask at the circulation desk for more in
+ formation!  https://www.librarieshawaii.org/event/needlework-social-circ
+ le-8/  Sources: Libraries https://www.librarieshawaii.org/event/needlewo
+ rk-social-circle-8/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/needlework-social-circle-8/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:88030bbe1552ded1d7d0@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261222T160000
+DTEND;TZID=Pacific/Honolulu:20261222T170000
+SUMMARY:Winter Wonderland Ornament Workshop
+DESCRIPTION:Join Julia for a Winter Wonderland Ornament Workshop! We’ll
+  enjoy a cozy afternoon of crafting: take home your Winter ornament\, or
+  leave it here to spread warmth and cheer in the library! This program i
+ s appropriate for ages 5+. Young children must be accompanied by a paren
+ t or adult caregiver. Spaces are limited: contact the library to make a 
+ reservation. Mahalo nui to the Friends of the…  https://www.librariesh
+ awaii.org/event/winter-wonderland-ornament-workshop-2026/  Sources: Libr
+ aries https://www.librarieshawaii.org/event/winter-wonderland-ornament-w
+ orkshop-2026/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/winter-wonderland-ornament-work
+ shop-2026/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:876ecfadb69d7a1a65c1@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261222T170000
+DTEND;TZID=Pacific/Honolulu:20261222T180000
+SUMMARY:Kamuela Philharmonic Leeward Trio
+DESCRIPTION:Celebrate the holidays with the Leeward Trio\; 3 friends who 
+ enjoy playing all genres of music including a few old standards and cont
+ emporary songs. Musicians: Gary Ross – Keyboard Sharon Cannon – Drum
+ s Lori Huff – Saxophone Young children must be accompanied by caregive
+ r. Mahalo nui to the Friends of the Libraries\, Kona (F.O.L.K.) for spon
+ soring this program!  https://www.librarieshawaii.org/event/kamuela-phil
+ harmonic-leeward-trio/  Sources: Libraries https://www.librarieshawaii.o
+ rg/event/kamuela-philharmonic-leeward-trio/
+LOCATION:Kailua-Kona Public Library (Hawai‘i)
+URL:https://www.librarieshawaii.org/event/kamuela-philharmonic-leeward-tr
+ io/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:dd561a222dd163f58b9b-opens@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:The Shape of Water\, an exhibition of ceramic sculpture by artist
+  Stephen Freedman — opens
+DESCRIPTION:Runs October 3 – November 15\; October 3. Volcano Art Cente
+ r is pleased to present The Shape of Water\, an exhibition of ceramic sc
+ ulpture by artist Stephen Freedman\, on view October 3 through November 
+ 15 at Volcano Art Center’s gallery in Hawaiʻi Volcanoes National Park
+ . An opening reception will be held Saturday\, October 3\, from 2 to 4 p
+ .m. A third-generation ceramicist and…  https://volcanoartcenter.org/t
+ he-shape-of-water-an-exhibition-of-ceramic-sculpture-by-artist-stephen-f
+ reedman/  Sources: Volcano Art Center https://volcanoartcenter.org/the-s
+ hape-of-water-an-exhibition-of-ceramic-sculpture-by-artist-stephen-freed
+ man/
+LOCATION:Volcano Art Center Gallery\, Hawaiʻi Volcanoes National Park
+URL:https://volcanoartcenter.org/the-shape-of-water-an-exhibition-of-cera
+ mic-sculpture-by-artist-stephen-freedman/
+CATEGORIES:Exhibits
+END:VEVENT
+BEGIN:VEVENT
+UID:dd561a222dd163f58b9b-closes@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:The Shape of Water\, an exhibition of ceramic sculpture by artist
+  Stephen Freedman — closes (last day)
+DESCRIPTION:Runs October 3 – November 15\; October 3. Volcano Art Cente
+ r is pleased to present The Shape of Water\, an exhibition of ceramic sc
+ ulpture by artist Stephen Freedman\, on view October 3 through November 
+ 15 at Volcano Art Center’s gallery in Hawaiʻi Volcanoes National Park
+ . An opening reception will be held Saturday\, October 3\, from 2 to 4 p
+ .m. A third-generation ceramicist and…  https://volcanoartcenter.org/t
+ he-shape-of-water-an-exhibition-of-ceramic-sculpture-by-artist-stephen-f
+ reedman/  Sources: Volcano Art Center https://volcanoartcenter.org/the-s
+ hape-of-water-an-exhibition-of-ceramic-sculpture-by-artist-stephen-freed
+ man/
+LOCATION:Volcano Art Center Gallery\, Hawaiʻi Volcanoes National Park
+URL:https://volcanoartcenter.org/the-shape-of-water-an-exhibition-of-cera
+ mic-sculpture-by-artist-stephen-freedman/
+CATEGORIES:Exhibits
+END:VEVENT
+BEGIN:VEVENT
+UID:cb5f32c8d4c9754763bf@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Thursday Night at the Center: Your Life Is Art\, November 19th
+DESCRIPTION:Volcano Art Center welcomes a panel of three women\, Waiʻala
+  Ahn\, Mellony Puakea Soares\, and Lynn Melena each from a different gen
+ eration\, background\, and occupation. They will share their experiences
+  of how art has been an active\, and sometimes invisible\, force through
+ out their journeys – and how you can uncover where inspiration and cre
+ ativity dwell …  https://volcanoartcenter.org/thursday-night-at-the-ce
+ nter-your-life-is-art-november-19th/  Sources: Volcano Art Center https:
+ //volcanoartcenter.org/thursday-night-at-the-center-your-life-is-art-nov
+ ember-19th/
+LOCATION:Volcano Art Center
+URL:https://volcanoartcenter.org/thursday-night-at-the-center-your-life-i
+ s-art-november-19th/
+CATEGORIES:Volcano Art Center
+END:VEVENT
+BEGIN:VEVENT
+UID:9856c6d4d97e52aeb8e8@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Memoir Writing Workshop: The Process with Kimberly Dark
+DESCRIPTION:Join Kimberly Dark for her Memoir Writing Workshop on Novembe
+ r 21st\, from 10am – 1pm. at VAC Niaulani Campus (19-4074 Old Volcano 
+ Road). Memories aren’t enough. We have to connect them to culture\, to
+  history\, to zeitgeist—and then be as clear and specific about our un
+ ique perspectives as possible. In this generative workshop\, we’ll ope
+ n …  https://volcanoartcenter.org/memoir-writing-workshop-the-process-
+ with-kimberly-dark/  Sources: Volcano Art Center https://volcanoartcente
+ r.org/memoir-writing-workshop-the-process-with-kimberly-dark/
+LOCATION:Volcano Art Center Niaulani Campus\, Volcano Village
+URL:https://volcanoartcenter.org/memoir-writing-workshop-the-process-with
+ -kimberly-dark/
+CATEGORIES:Volcano Art Center
+END:VEVENT
+BEGIN:VEVENT
+UID:3c78f20c87b5b7484959-opens@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Stained Glass Workshop with Linda Brooks _ Saturdays\, January 23
+ rd – February 13th — opens
+DESCRIPTION:Runs January 23 – February 13. Whimsical shapes\, illustrat
+ ive scenes or divine stories\, stained glass has re-created the light in
+  our lives for centuries. Stained glass artisans use both glass color an
+ d texture to produce light forms and patterns creating mood and characte
+ r in small and large spaces. This four-day stained-glass workshop will s
+ hed some light on the process of stained …  https://volcanoartcenter.o
+ rg/stained-glass-workshop-with-linda-brooks-call-808-967-8222-to-registe
+ r-only-2-spaces-left/  Sources: Volcano Art Center https://volcanoartcen
+ ter.org/stained-glass-workshop-with-linda-brooks-call-808-967-8222-to-re
+ gister-only-2-spaces-left/
+LOCATION:Volcano Art Center
+URL:https://volcanoartcenter.org/stained-glass-workshop-with-linda-brooks
+ -call-808-967-8222-to-register-only-2-spaces-left/
+CATEGORIES:Workshops
+END:VEVENT
+BEGIN:VEVENT
+UID:3c78f20c87b5b7484959-closes@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Stained Glass Workshop with Linda Brooks _ Saturdays\, January 23
+ rd – February 13th — closes (last day)
+DESCRIPTION:Runs January 23 – February 13. Whimsical shapes\, illustrat
+ ive scenes or divine stories\, stained glass has re-created the light in
+  our lives for centuries. Stained glass artisans use both glass color an
+ d texture to produce light forms and patterns creating mood and characte
+ r in small and large spaces. This four-day stained-glass workshop will s
+ hed some light on the process of stained …  https://volcanoartcenter.o
+ rg/stained-glass-workshop-with-linda-brooks-call-808-967-8222-to-registe
+ r-only-2-spaces-left/  Sources: Volcano Art Center https://volcanoartcen
+ ter.org/stained-glass-workshop-with-linda-brooks-call-808-967-8222-to-re
+ gister-only-2-spaces-left/
+LOCATION:Volcano Art Center
+URL:https://volcanoartcenter.org/stained-glass-workshop-with-linda-brooks
+ -call-808-967-8222-to-register-only-2-spaces-left/
+CATEGORIES:Workshops
+END:VEVENT
+BEGIN:VEVENT
+UID:7a569edbad48d1efc105@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261116T090000
+SUMMARY:Hālau ʻŌkupu Dinosaurs!
+DESCRIPTION:Dinosaurs: Giants of the Past: Step back in time with Dinosau
+ rs: Giants of the Past! Journey with your young paleontolog  https://alo
+ hacalendar.com/events/hlau-kupu-dinosaurs  https://imiloahawaii.org/even
+ t-calendar/2025/8/18halauokupu-t8tbl-ye2ng-ldypb-4el5f-raf3r-hn6c9-sync3
+ -w9w4t  Sources: AlohaCalendar https://alohacalendar.com/events/hlau-kup
+ u-dinosaurs
+LOCATION:Imiloa Astronomy Center (Big Island)
+URL:https://alohacalendar.com/events/hlau-kupu-dinosaurs
+CATEGORIES:Community
+END:VEVENT
+BEGIN:VEVENT
+UID:feb01ea03218a6b8d2b2@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261205T100000
+SUMMARY:The 20th Annual Paradise Studio Tour
+DESCRIPTION:  https://alohacalendar.com/events/the-20th-annual-paradise-s
+ tudio-tour-2026-12-05  https://www.paradisestudiotour.com/  Sources: Alo
+ haCalendar https://alohacalendar.com/events/the-20th-annual-paradise-stu
+ dio-tour-2026-12-05
+LOCATION:Hawaiian Paradise Park\, Puna (Big Island)
+URL:https://alohacalendar.com/events/the-20th-annual-paradise-studio-tour
+ -2026-12-05
+CATEGORIES:Food & Drink
+END:VEVENT
+END:VCALENDAR

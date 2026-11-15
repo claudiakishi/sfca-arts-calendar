@@ -1,0 +1,218 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//hawaii-arts-calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hawaiʻi Arts & Culture – Kauaʻi
+X-WR-TIMEZONE:Pacific/Honolulu
+BEGIN:VTIMEZONE
+TZID:Pacific/Honolulu
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:-1000
+TZOFFSETTO:-1000
+TZNAME:HST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:593df7f86be8c7ee899d@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261130T173000
+DTEND;TZID=Pacific/Honolulu:20261130T190000
+SUMMARY:Talk Story with Joni Keamoai
+DESCRIPTION:Join Joni Keamoai\, author of When I Was a Keiki \, for the l
+ aunch of her new bilingual children’s book written in ʻŌlelo Ni’ih
+ au & English! Enjoy an evening of conversation and a booksigning\, plus 
+ pupus by El Gato’s Street Tacos.  https://www.librarieshawaii.org/even
+ t/talk-story-with-joni-keamoai/  Sources: Libraries https://www.librarie
+ shawaii.org/event/talk-story-with-joni-keamoai/
+LOCATION:Waimea Public Library (Kaua‘i)
+URL:https://www.librarieshawaii.org/event/talk-story-with-joni-keamoai/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:3830bbf8894dc605c53e@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261201T100000
+DTEND;TZID=Pacific/Honolulu:20261201T103000
+SUMMARY:MOVE! | A Honolulu Theatre for Youth Production
+DESCRIPTION:Wiggle\, bounce\, dance\, squiggle\, and giggle! Come explore
+  the wonderful ways our bodies move and discover how our movement can ch
+ ange the world around us. From the creative team behind HTY’s “Line\
+ , Circle\, Sphere” and “Under the Blue” comes a brand-new\, intera
+ ctive adventure made especially for our littlest movers and shakers. Thi
+ s free 30-minute event is suitable for ages 3+. Children must be…  htt
+ ps://www.librarieshawaii.org/event/hty-move-koloa/  Sources: Libraries h
+ ttps://www.librarieshawaii.org/event/hty-move-koloa/
+LOCATION:Kōloa Public Library (Kaua‘i)
+URL:https://www.librarieshawaii.org/event/hty-move-koloa/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:ab4bb8b462bf89eff7c1@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261201T144500
+DTEND;TZID=Pacific/Honolulu:20261201T151500
+SUMMARY:MOVE! | A Honolulu Theatre for Youth Production
+DESCRIPTION:Wiggle\, bounce\, dance\, squiggle\, and giggle! Come explore
+  the wonderful ways our bodies move and discover how our movement can ch
+ ange the world around us. From the creative team behind HTY’s “Line\
+ , Circle\, Sphere” and “Under the Blue” comes a brand-new\, intera
+ ctive adventure made especially for our littlest movers and shakers. Thi
+ s free 30-minute event is suitable for ages 3+. Children must be…  htt
+ ps://www.librarieshawaii.org/event/hty-move-lihue/  Sources: Libraries h
+ ttps://www.librarieshawaii.org/event/hty-move-lihue/
+LOCATION:Līhuʻe Public Library (Kaua‘i)
+URL:https://www.librarieshawaii.org/event/hty-move-lihue/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:c61eaef5141d0f9d07ff@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261117T170000
+DTEND;TZID=Pacific/Honolulu:20261117T183000
+SUMMARY:Princeville Moʻolelo: “The shell lei of Niʻihau” with Linda
+  Paik Moriarty
+DESCRIPTION:The Princeville Moʻolelo free lecture series will continue o
+ n Tuesday\, November 17th with Linda Paik Moriarty. “Niʻihau  https:/
+ /alohacalendar.com/events/princeville-moolelo-the-shell-lei-of-niihau-wi
+ th-linda-paik-moriarty  Sources: AlohaCalendar https://alohacalendar.com
+ /events/princeville-moolelo-the-shell-lei-of-niihau-with-linda-paik-mori
+ arty
+LOCATION:Princeville Community Center (Kauai)
+URL:https://alohacalendar.com/events/princeville-moolelo-the-shell-lei-of
+ -niihau-with-linda-paik-moriarty
+CATEGORIES:Festivals
+END:VEVENT
+BEGIN:VEVENT
+UID:733ef25b2768f4b7798f-opens@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Makai Music & Art Festival Kauai — opens
+DESCRIPTION:Runs 6 dates\, November 18 – December 23\, 2026. Come share
+  the Aloha with us every Wednesday from 1-5pm at our Makai Music and Art
+  Festival Kaua’i. Free-entry\, f  https://alohacalendar.com/events/mak
+ ai-music-art-festival-kauai-2026-11-18  Sources: AlohaCalendar https://a
+ lohacalendar.com/events/makai-music-art-festival-kauai-2026-11-18
+LOCATION:Princeville Makai Golf Club (Kauai)
+URL:https://alohacalendar.com/events/makai-music-art-festival-kauai-2026-
+ 11-18
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:733ef25b2768f4b7798f-closes@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:Makai Music & Art Festival Kauai — closes (last day)
+DESCRIPTION:Runs 6 dates\, November 18 – December 23\, 2026. Come share
+  the Aloha with us every Wednesday from 1-5pm at our Makai Music and Art
+  Festival Kaua’i. Free-entry\, f  https://alohacalendar.com/events/mak
+ ai-music-art-festival-kauai-2026-11-18  Sources: AlohaCalendar https://a
+ lohacalendar.com/events/makai-music-art-festival-kauai-2026-11-18
+LOCATION:Princeville Makai Golf Club (Kauai)
+URL:https://alohacalendar.com/events/makai-music-art-festival-kauai-2026-
+ 11-18
+CATEGORIES:Concerts & Live Music
+END:VEVENT
+BEGIN:VEVENT
+UID:7ded70e033441a5e0ee9-opens@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Kauai Beach Resort Kauai Made Craft Fair Fridays — opens
+DESCRIPTION:Runs 11 dates\, November 20\, 2026 – January 29\, 2027. 
+ 🌺 Kaua‘i Beach Resort Craft Fair Join us every Friday at the beauti
+ ful Kaua‘i Beach Resort for our weekly Craft Fair. D  https://alohacal
+ endar.com/events/kauai-beach-resort-kauai-made-craft-fair-fridays-2026-1
+ 1-20  Sources: AlohaCalendar https://alohacalendar.com/events/kauai-beac
+ h-resort-kauai-made-craft-fair-fridays-2026-11-20
+LOCATION:Outrigger Kaua’i Beach Resort & Spa (Kauai)
+URL:https://alohacalendar.com/events/kauai-beach-resort-kauai-made-craft-
+ fair-fridays-2026-11-20
+CATEGORIES:Farmers Markets
+END:VEVENT
+BEGIN:VEVENT
+UID:7ded70e033441a5e0ee9-closes@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:Kauai Beach Resort Kauai Made Craft Fair Fridays — closes (last
+  day)
+DESCRIPTION:Runs 11 dates\, November 20\, 2026 – January 29\, 2027. 
+ 🌺 Kaua‘i Beach Resort Craft Fair Join us every Friday at the beauti
+ ful Kaua‘i Beach Resort for our weekly Craft Fair. D  https://alohacal
+ endar.com/events/kauai-beach-resort-kauai-made-craft-fair-fridays-2026-1
+ 1-20  Sources: AlohaCalendar https://alohacalendar.com/events/kauai-beac
+ h-resort-kauai-made-craft-fair-fridays-2026-11-20
+LOCATION:Outrigger Kaua’i Beach Resort & Spa (Kauai)
+URL:https://alohacalendar.com/events/kauai-beach-resort-kauai-made-craft-
+ fair-fridays-2026-11-20
+CATEGORIES:Farmers Markets
+END:VEVENT
+BEGIN:VEVENT
+UID:7e727f1f2a3d37276ffc@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Aloha Friday Art Nights at Hale Līhuʻe
+DESCRIPTION:Every Friday artist from all arts come together to do art. Fr
+ om sip and paint\, open mic\, writers garden\, you name it. Al  https://
+ alohacalendar.com/events/aloha-friday-art-nights-at-hale-lhue-2026-11-20
+   Sources: AlohaCalendar https://alohacalendar.com/events/aloha-friday-a
+ rt-nights-at-hale-lhue-2026-11-20
+LOCATION:Hale Lihue (Kauai)
+URL:https://alohacalendar.com/events/aloha-friday-art-nights-at-hale-lhue
+ -2026-11-20
+CATEGORIES:Food & Drink
+END:VEVENT
+BEGIN:VEVENT
+UID:44bdcd41408555b9b108-opens@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Kauai Museum 1st Thursday Courtyard Market — opens
+DESCRIPTION:Runs 2 dates\, December 3\, 2026 – January 7\, 2027. Join u
+ s every 1st Thursday in the Museum Courtyard from 10am to 3pm. Support l
+ ocal art\, fashion\, cultural practitioners\,  https://alohacalendar.com
+ /events/kauai-museum-1st-thursday-courtyard-market-2026-12-03  Sources: 
+ AlohaCalendar https://alohacalendar.com/events/kauai-museum-1st-thursday
+ -courtyard-market-2026-12-03
+LOCATION:Kauai Museum (Kauai)
+URL:https://alohacalendar.com/events/kauai-museum-1st-thursday-courtyard-
+ market-2026-12-03
+CATEGORIES:Farmers Markets
+END:VEVENT
+BEGIN:VEVENT
+UID:44bdcd41408555b9b108-closes@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:Kauai Museum 1st Thursday Courtyard Market — closes (last day)
+DESCRIPTION:Runs 2 dates\, December 3\, 2026 – January 7\, 2027. Join u
+ s every 1st Thursday in the Museum Courtyard from 10am to 3pm. Support l
+ ocal art\, fashion\, cultural practitioners\,  https://alohacalendar.com
+ /events/kauai-museum-1st-thursday-courtyard-market-2026-12-03  Sources: 
+ AlohaCalendar https://alohacalendar.com/events/kauai-museum-1st-thursday
+ -courtyard-market-2026-12-03
+LOCATION:Kauai Museum (Kauai)
+URL:https://alohacalendar.com/events/kauai-museum-1st-thursday-courtyard-
+ market-2026-12-03
+CATEGORIES:Farmers Markets
+END:VEVENT
+BEGIN:VEVENT
+UID:2ffb8a30dc66add89379@hawaii-arts-calendar
+DTSTAMP:20261115T105538Z
+DTSTART;TZID=Pacific/Honolulu:20261204T170000
+DTEND;TZID=Pacific/Honolulu:20261204T200000
+SUMMARY:Lights On Rice Parade
+DESCRIPTION:LĪHU‘E – The highly anticipated Lights on Rice Parade wi
+ ll take place on Friday\, December 4\, 2026\, starting at 6:30 p.m.  htt
+ ps://alohacalendar.com/events/lights-on-rice-parade  Sources: AlohaCalen
+ dar https://alohacalendar.com/events/lights-on-rice-parade
+LOCATION:Downtown Lihue (Kauai)
+URL:https://alohacalendar.com/events/lights-on-rice-parade
+CATEGORIES:Farmers Markets
+END:VEVENT
+END:VCALENDAR

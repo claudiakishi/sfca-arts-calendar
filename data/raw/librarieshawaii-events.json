@@ -3556,6 +3556,49 @@
    }
   },
   {
+   "id": 295688,
+   "url": "https://www.librarieshawaii.org/event/babies-books-and-blankets-12-05-26/",
+   "title": "Babies, Books, and Blankets",
+   "description": "<div class=\"tribe-events-single-event-description tribe-events-content\">\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join Julia for<span> </span></span><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Babies, Books, and Blankets</span><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">, a lap-sit for babies and toddlers, 0-24 months.</span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Bring your babies and a comfortable blanket to sit on.</span><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"><span> </span></span><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Together, we will read, sing, rhyme, and play to encourage family bonding and help build our littlest library users’ early literacy skills. </span></p>\n<p>Mahalo nui to the<span> </span><em>Friends of the Libraries, Kona (F.O.L.K.)</em><span> </span>for sponsoring this program!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. For a schedule of events, go to<span> </span><a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</p>\n</div>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-05 10:00:00",
+   "end_date": "2026-12-05 11:00:00",
+   "utc_start_date": "2026-12-05 20:00:00",
+   "utc_end_date": "2026-12-05 21:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kailua-Kona",
+    "city": "Kailua-Kona",
+    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
+   }
+  },
+  {
    "id": 275546,
    "url": "https://www.librarieshawaii.org/event/pearl-harbor-remembrance-movie-tora-tora-tora/",
    "title": "Pearl Harbor Remembrance Day Movie: Tora! Tora! Tora!",
@@ -3762,6 +3805,53 @@
     "venue": "O‘ahu &#8211; Kaimukī",
     "city": "Honolulu",
     "url": "https://www.librarieshawaii.org/branch/kaimuki-public-library/"
+   }
+  },
+  {
+   "id": 295686,
+   "url": "https://www.librarieshawaii.org/event/pokemon-club-12-08-26/",
+   "title": "Pokémon Club!",
+   "description": "<p class=\"cvGsUA direction-ltr align-center para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Gotta catch ‘em all! Meet up with friends to talk Pokémon, play the Pokémon trading card game, and learn how to play! </span></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Spaces are limited: contact the library to make a reservation.</span></strong></p>\n<p><strong>This program is appropriate for ages 5-14</strong></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Young children must be accompanied by a parent or adult caregiver.</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Mahalo nui to American Library Association, the Pokémon company, generous community donations, and the Friends of the Libraries, Kona (F.O.L.K.) for sponsoring this program!</span></p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\"><b>HSPLS Events Calendar</b></a>.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-08 16:00:00",
+   "end_date": "2026-12-08 17:30:00",
+   "utc_start_date": "2026-12-09 02:00:00",
+   "utc_end_date": "2026-12-09 03:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "films-movies",
+     "name": "Films &amp; Movies"
+    },
+    {
+     "slug": "games",
+     "name": "Games"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kailua-Kona",
+    "city": "Kailua-Kona",
+    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
    }
   },
   {
@@ -4226,6 +4316,49 @@
    }
   },
   {
+   "id": 295690,
+   "url": "https://www.librarieshawaii.org/event/preschool-story-time-12-12-26/",
+   "title": "Preschool Story Time",
+   "description": "<p><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join Julia for stories, songs, and play to strengthen our preschoolers’ early literacy skills!</span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">This program is suitable for ages 3-5 years old.</span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Young children must be accompanied by a parent or adult caregiver.</span><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"></span></p>\n<p>Mahalo nui to the <em>Friends of the Libraries, Kona</em> (F.O.L.K.) for sponsoring this program!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedules are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-12 10:00:00",
+   "end_date": "2026-12-12 11:00:00",
+   "utc_start_date": "2026-12-12 20:00:00",
+   "utc_end_date": "2026-12-12 21:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kailua-Kona",
+    "city": "Kailua-Kona",
+    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
+   }
+  },
+  {
    "id": 267144,
    "url": "https://www.librarieshawaii.org/event/writing-circle-6-5-8/",
    "title": "Writing Circle",
@@ -4576,6 +4709,49 @@
     "venue": "Hawai‘i &#8211; North Kohala",
     "city": "Kapa'au",
     "url": "https://www.librarieshawaii.org/branch/north-kohala-public-library/"
+   }
+  },
+  {
+   "id": 295698,
+   "url": "https://www.librarieshawaii.org/event/family-holiday-story-time-12-16-26/",
+   "title": "Family Holiday Story Time",
+   "description": "<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join Julia for cozy holiday stories, songs, and play to strengthen early literacy skills for the whole family. </span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"><strong>All are welcome! </strong>This program is suitable for <strong>all ages, particularly 0-5</strong>. </span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Young children must be accompanied by a parent or adult caregiver.</span><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"></span></p>\n<p>Mahalo nui to the <em>Friends of the Libraries, Kona</em> (F.O.L.K.) for sponsoring this program!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedules are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-16 10:00:00",
+   "end_date": "2026-12-16 11:00:00",
+   "utc_start_date": "2026-12-16 20:00:00",
+   "utc_end_date": "2026-12-16 21:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kailua-Kona",
+    "city": "Kailua-Kona",
+    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
    }
   },
   {
@@ -5016,6 +5192,41 @@
    }
   },
   {
+   "id": 295696,
+   "url": "https://www.librarieshawaii.org/event/winter-wonderland-ornament-workshop-2026/",
+   "title": "Winter Wonderland Ornament Workshop",
+   "description": "<p class=\"cvGsUA direction-ltr align-center para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join Julia for a Winter Wonderland Ornament Workshop! </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">We’ll enjoy a cozy afternoon of crafting: take home your Winter ornament, or leave it here to spread warmth and cheer in the library!</span></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">This program is appropriate for ages 5+. </span></strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"><strong>Young children must be accompanied by a parent or adult caregiver.</strong> <strong>Spaces are limited: contact the library to make a reservation.</strong></span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"></span></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Mahalo nui to the </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Friends of the Libraries, Kona </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">(F.O.L.K.) </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">for sponsoring this program!</span></strong></p>\n<p><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"> </span><a href=\"http://librarieshawaii.org/events\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">HSPLS Events Calendar</span></a><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">.</span></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-22 16:00:00",
+   "end_date": "2026-12-22 17:00:00",
+   "utc_start_date": "2026-12-23 02:00:00",
+   "utc_end_date": "2026-12-23 03:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kailua-Kona",
+    "city": "Kailua-Kona",
+    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
+   }
+  },
+  {
    "id": 293378,
    "url": "https://www.librarieshawaii.org/event/kamuela-philharmonic-leeward-trio/",
    "title": "Kamuela Philharmonic Leeward Trio",
@@ -5210,6 +5421,49 @@
     "venue": "O‘ahu &#8211; Liliha",
     "city": "Honolulu",
     "url": "https://www.librarieshawaii.org/branch/liliha-public-library/"
+   }
+  },
+  {
+   "id": 295694,
+   "url": "https://www.librarieshawaii.org/event/family-holiday-story-time-12-23-26/",
+   "title": "Family Holiday Story Time",
+   "description": "<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join Julia for cozy holiday stories, songs, and play to strengthen early literacy skills for the whole family. </span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"><strong>All are welcome! </strong>This program is suitable for <strong>all ages, particularly 0-5</strong>. This is our final storytime of the year!</span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Young children must be accompanied by a parent or adult caregiver.</span><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"></span></p>\n<p>Mahalo nui to the <em>Friends of the Libraries, Kona</em> (F.O.L.K.) for sponsoring this program!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedules are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-23 10:00:00",
+   "end_date": "2026-12-23 11:00:00",
+   "utc_start_date": "2026-12-23 20:00:00",
+   "utc_end_date": "2026-12-23 21:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kailua-Kona",
+    "city": "Kailua-Kona",
+    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
    }
   },
   {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15 02:06 UTC",
+  "generated": "2026-11-15 10:55 UTC",
   "sources": [
     {
       "name": "SFCA",
@@ -9,7 +9,7 @@
     {
       "name": "Capitol Modern",
       "status": "ok",
-      "detail": "5 upcoming events"
+      "detail": "4 upcoming events"
     },
     {
       "name": "SFCA Events",
@@ -19,7 +19,7 @@
     {
       "name": "Libraries",
       "status": "ok",
-      "detail": "50 arts/culture programs"
+      "detail": "51 arts/culture programs"
     },
     {
       "name": "Volcano Art Center",
@@ -34,7 +34,7 @@
     {
       "name": "AlohaCalendar",
       "status": "ok",
-      "detail": "61 upcoming events"
+      "detail": "63 upcoming events"
     }
   ],
   "attribution": "Event information aggregated from the Hawaiʻi State Foundation on Culture and the Arts (SFCA), Capitol Modern: the Hawaiʻi State Art Museum, Hawaiʻi State Public Libraries, Volcano Art Center, The Creative City, and AlohaCalendar. Unofficial mirror; confirm details at the source.",
@@ -70,7 +70,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a971bdeef0119264d5071e6"
+          "uid_seed": "tcc|6a971bdeef0119264d5071e6",
+          "island": "oahu"
         },
         {
           "title": "Bishop Museum’s After Hours: 2nd Friday Monthly",
@@ -99,7 +100,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|68decd9197906762d187dba4"
+          "uid_seed": "tcc|68decd9197906762d187dba4",
+          "island": "oahu"
         },
         {
           "title": "Kama‘āina Sundays (second Sundays of the month)",
@@ -128,7 +130,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|68decf3329d6ae3729ca41e1"
+          "uid_seed": "tcc|68decf3329d6ae3729ca41e1",
+          "island": "oahu"
         },
         {
           "title": "HoMA Nights - Every Friday Evening",
@@ -157,7 +160,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|68decd287f7792075a3990f6"
+          "uid_seed": "tcc|68decd287f7792075a3990f6",
+          "island": "oahu"
         },
         {
           "title": "First Friday at Downtown Art Center (every 1st Friday of the month)",
@@ -186,7 +190,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a974710121fb77a35f329c6"
+          "uid_seed": "tcc|6a974710121fb77a35f329c6",
+          "island": "oahu"
         },
         {
           "title": "Divine Disruption: The Art of Tsherin Sherpa",
@@ -215,7 +220,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a45a3992fb42672ed9ee624"
+          "uid_seed": "tcc|6a45a3992fb42672ed9ee624",
+          "island": "oahu"
         },
         {
           "title": "E Mālama i ke Kai: Hawaiʻi Sea Grant's Youth Ocean Art Exhibit",
@@ -244,7 +250,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a45a0e550e0367e9673f780"
+          "uid_seed": "tcc|6a45a0e550e0367e9673f780",
+          "island": "oahu"
         },
         {
           "title": "First Friday at Capitol Modern (every 1st Friday of the month)",
@@ -273,7 +280,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a459b541b83a1268215169d"
+          "uid_seed": "tcc|6a459b541b83a1268215169d",
+          "island": "oahu"
         },
         {
           "title": "Island Pulse at Capitol Modern (Every 3rd Friday of the month)",
@@ -302,7 +310,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a459d5e648e393673fc1419"
+          "uid_seed": "tcc|6a459d5e648e393673fc1419",
+          "island": "oahu"
         },
         {
           "title": "Imagined Flora: Ralph Iwamoto’s Surrealist Beginnings",
@@ -331,7 +340,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a973af42e289a212da742da"
+          "uid_seed": "tcc|6a973af42e289a212da742da",
+          "island": "oahu"
         },
         {
           "title": "Arts of Oceania Mini-Exhibit",
@@ -360,7 +370,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a972ae799e6713689b9002f"
+          "uid_seed": "tcc|6a972ae799e6713689b9002f",
+          "island": "oahu"
         },
         {
           "title": "Street Nihonga - The Art of Jimmy Tsutomu Mirikitani",
@@ -389,7 +400,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a97146e11af0c7c20013992"
+          "uid_seed": "tcc|6a97146e11af0c7c20013992",
+          "island": "oahu"
         },
         {
           "title": "Address: Earth - ArtistBooks in a Suitcase, An International Traveling Exhibition",
@@ -418,7 +430,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a9711d27b04e81689d7cd39"
+          "uid_seed": "tcc|6a9711d27b04e81689d7cd39",
+          "island": "oahu"
         },
         {
           "title": "Honor Thy Mother and Father: Depictions of Filial Piety in Japan",
@@ -447,7 +460,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a973908bab4381f93cb34ee"
+          "uid_seed": "tcc|6a973908bab4381f93cb34ee",
+          "island": "oahu"
         },
         {
           "title": "Vital Connections: Art & the Brain",
@@ -476,7 +490,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6ad039af75631a312f12bc32"
+          "uid_seed": "tcc|6ad039af75631a312f12bc32",
+          "island": "oahu"
         },
         {
           "title": "Ocean of Peace Exhibition",
@@ -505,7 +520,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6ae11e3cdd34cc63062e6381"
+          "uid_seed": "tcc|6ae11e3cdd34cc63062e6381",
+          "island": "oahu"
         },
         {
           "title": "Fellow Travelers: Joseph E. Yoakum & Ray Yoshida",
@@ -534,7 +550,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6ad03baf8c7cc359e0e5df0d"
+          "uid_seed": "tcc|6ad03baf8c7cc359e0e5df0d",
+          "island": "oahu"
         },
         {
           "title": "The Shape of Water, an exhibition of ceramic sculpture by artist Stephen Freedman",
@@ -563,7 +580,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "vac|88003"
+          "uid_seed": "vac|88003",
+          "island": "hawaii-island"
         },
         {
           "title": "Kupua by Hailiʻopua Baker",
@@ -592,7 +610,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a714cf6d624da1e45065d1f"
+          "uid_seed": "tcc|6a714cf6d624da1e45065d1f",
+          "island": "oahu"
         },
         {
           "title": "Artists of Hawaiʻi Biennial 2026",
@@ -621,7 +640,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a9749a845d467283c478867"
+          "uid_seed": "tcc|6a9749a845d467283c478867",
+          "island": "oahu"
         },
         {
           "title": "Peter Pan Goes Wrong",
@@ -650,69 +670,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a988e0c857dbf099b168d17"
-        },
-        {
-          "title": "Reuse Runway: the Return of the Trashion Show",
-          "description": "Trash + fashion = trashion in this runway featuring creative ways to use rubbish. ",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/reuse-runway-the-return-of-the-trashion-show",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-11-14",
-          "date_end": "2026-11-14",
-          "date_display": "November 14, 2026",
-          "time_display": "6:00 PM - 10:00 PM HST",
-          "dt_start_utc": "2026-11-15T04:00:00.000Z",
-          "dt_end_utc": "2026-11-15T08:00:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/reuse-runway-the-return-of-the-trashion-show"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/reuse-runway-the-return-of-the-trashion-show"
-        },
-        {
-          "title": "Lūʻau & HĀ: Breath of Life Show at Polynesian Cultural Center",
-          "description": "Time 4:40 - 8:35 pm",
-          "category": "Luaus",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Polynesian Cultural Center (Oahu)",
-          "date_start": "2026-11-15",
-          "date_end": "2026-11-15",
-          "date_display": "November 15, 2026",
-          "time_display": "12:00 PM HST",
-          "dt_start_utc": "2026-11-15T22:00:00Z",
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.polynesia.com/packages"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|lau-h-breath-of-life-show-at-polynesian-cultural-center"
+          "uid_seed": "tcc|6a988e0c857dbf099b168d17",
+          "island": "oahu"
         },
         {
           "title": "Cirque du Soleil: Auana",
@@ -745,7 +704,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|cirque-du-soleil-auana-2026-11-15"
+          "uid_seed": "aloha|cirque-du-soleil-auana-2026-11-15",
+          "island": "oahu"
         },
         {
           "title": "Pacific Threads Runway Fashion, Arts & Music Experience",
@@ -778,7 +738,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|pacific-threads-runway-fashion-arts-music-experience"
+          "uid_seed": "aloha|pacific-threads-runway-fashion-arts-music-experience",
+          "island": "oahu"
         },
         {
           "title": "Pippin",
@@ -811,7 +772,42 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|pippin-2026-11-15"
+          "uid_seed": "aloha|pippin-2026-11-15",
+          "island": "oahu"
+        },
+        {
+          "title": "Kupua by Haili'ōpua Baker",
+          "description": "Kupua presents two traditional stories: “Ka ʻEnuhe” and “Ka Puhi a me Ka Loli”",
+          "category": "Concerts & Live Music",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/kupua-by-hailipua-baker-2026-11-15",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Kumu Kahua Theatre (Oahu)",
+          "date_start": "2026-11-15",
+          "date_end": "2026-11-15",
+          "date_display": "November 15, 2026",
+          "time_display": "2:00 PM - 4:30 PM HST",
+          "dt_start_utc": "2026-11-16T00:00:00Z",
+          "dt_end_utc": "2026-11-16T02:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/kupua-by-hailipua-baker-2026-11-15"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.eventbrite.com/e/kupua-by-hailiopua-baker-tickets-1989971618680"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|kupua-by-hailipua-baker-2026-11-15",
+          "island": "oahu"
         },
         {
           "title": "According to Coyote",
@@ -844,7 +840,42 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|according-to-coyote-2026-11-15"
+          "uid_seed": "aloha|according-to-coyote-2026-11-15",
+          "island": "oahu"
+        },
+        {
+          "title": "Much Ado",
+          "description": "A short-&-sweet (and family friendly) adaptation of Shakespeare's funniest comedy, Much Ado About Nothing!",
+          "category": "Concerts & Live Music",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/much-ado-2026-11-15",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Chaminade University of Honolulu (Oahu)",
+          "date_start": "2026-11-15",
+          "date_end": "2026-11-15",
+          "date_display": "November 15, 2026",
+          "time_display": "2:00 PM - 4:00 PM HST",
+          "dt_start_utc": "2026-11-16T00:00:00Z",
+          "dt_end_utc": "2026-11-16T02:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/much-ado-2026-11-15"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.eventbrite.com/e/much-ado-tickets-2003528275004"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|much-ado-2026-11-15",
+          "island": "oahu"
         },
         {
           "title": "Universal Children’s Day: Writing Circle",
@@ -873,7 +904,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|267145|2026-11-16"
+          "uid_seed": "hspl|267145|2026-11-16",
+          "island": "oahu"
         },
         {
           "title": "Hawaiian History Talk Story-Paniolo History",
@@ -902,73 +934,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|291645|2026-11-16"
-        },
-        {
-          "title": "Hālau ʻŌkupu Dinosaurs!",
-          "description": "Dinosaurs: Giants of the Past: Step back in time with Dinosaurs: Giants of the Past! Journey with your young paleontolog",
-          "category": "Community",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/hlau-kupu-dinosaurs",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Imiloa Astronomy Center (Big Island)",
-          "date_start": "2026-11-16",
-          "date_end": "2026-11-16",
-          "date_display": "November 16, 2026",
-          "time_display": "9:00 AM HST",
-          "dt_start_utc": "2026-11-16T19:00:00Z",
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/hlau-kupu-dinosaurs"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://imiloahawaii.org/event-calendar/2025/8/18halauokupu-t8tbl-ye2ng-ldypb-4el5f-raf3r-hn6c9-sync3-w9w4t"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|hlau-kupu-dinosaurs"
-        },
-        {
-          "title": "HUKI: Canoe Show at Polynesian Cultural Center",
-          "description": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
-          "category": "Cultural & Heritage",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-16",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Polynesian Cultural Center (Oahu)",
-          "date_start": "2026-11-16",
-          "date_end": "2026-11-28",
-          "date_display": "10 dates, November 16 – 28, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-16"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.polynesia.com/packages"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|huki-canoe-show-at-polynesian-cultural-center-2026-11-16"
+          "uid_seed": "hspl|291645|2026-11-16",
+          "island": "hawaii-island"
         },
         {
           "title": "HA: Breath of Life Evening Show",
@@ -1001,7 +968,110 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|ha-breath-of-life-evening-show-2026-11-16"
+          "uid_seed": "aloha|ha-breath-of-life-evening-show-2026-11-16",
+          "island": "oahu"
+        },
+        {
+          "title": "Lūʻau & HĀ: Breath of Life Show at Polynesian Cultural Center",
+          "description": "Time 4:40 - 8:35 pm",
+          "category": "Luaus",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Polynesian Cultural Center (Oahu)",
+          "date_start": "2026-11-16",
+          "date_end": "2026-11-16",
+          "date_display": "November 16, 2026",
+          "time_display": "12:00 PM HST",
+          "dt_start_utc": "2026-11-16T22:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.polynesia.com/packages"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|lau-h-breath-of-life-show-at-polynesian-cultural-center",
+          "island": "oahu"
+        },
+        {
+          "title": "Hālau ʻŌkupu Dinosaurs!",
+          "description": "Dinosaurs: Giants of the Past: Step back in time with Dinosaurs: Giants of the Past! Journey with your young paleontolog",
+          "category": "Community",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/hlau-kupu-dinosaurs",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Imiloa Astronomy Center (Big Island)",
+          "date_start": "2026-11-16",
+          "date_end": "2026-11-16",
+          "date_display": "November 16, 2026",
+          "time_display": "9:00 AM HST",
+          "dt_start_utc": "2026-11-16T19:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/hlau-kupu-dinosaurs"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://imiloahawaii.org/event-calendar/2025/8/18halauokupu-t8tbl-ye2ng-ldypb-4el5f-raf3r-hn6c9-sync3-w9w4t"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|hlau-kupu-dinosaurs",
+          "island": "hawaii-island"
+        },
+        {
+          "title": "HUKI: Canoe Show at Polynesian Cultural Center",
+          "description": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
+          "category": "Cultural & Heritage",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-16",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Polynesian Cultural Center (Oahu)",
+          "date_start": "2026-11-16",
+          "date_end": "2026-11-28",
+          "date_display": "10 dates, November 16 – 28, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-16"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.polynesia.com/packages"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|huki-canoe-show-at-polynesian-cultural-center-2026-11-16",
+          "island": "oahu"
         },
         {
           "title": "Empower’d Power Hour",
@@ -1030,7 +1100,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10047155|2026-11-17"
+          "uid_seed": "hspl|10047155|2026-11-17",
+          "island": "maui-county"
         },
         {
           "title": "Kupuna Movie Mornings – “WEST SIDE STORY” (1961)",
@@ -1063,7 +1134,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|kupuna-movie-mornings-west-side-story-1961"
+          "uid_seed": "aloha|kupuna-movie-mornings-west-side-story-1961",
+          "island": "oahu"
         },
         {
           "title": "Princeville Moʻolelo: “The shell lei of Niʻihau” with Linda Paik Moriarty",
@@ -1092,7 +1164,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|princeville-moolelo-the-shell-lei-of-niihau-with-linda-paik-moriarty"
+          "uid_seed": "aloha|princeville-moolelo-the-shell-lei-of-niihau-with-linda-paik-moriarty",
+          "island": "kauai"
         },
         {
           "title": "Line Dancing At The Library",
@@ -1121,7 +1194,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10047192|2026-11-18"
+          "uid_seed": "hspl|10047192|2026-11-18",
+          "island": "oahu"
         },
         {
           "title": "Musical Performance: Kona Aloha Singers Youth Chorus",
@@ -1150,7 +1224,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|293550|2026-11-18"
+          "uid_seed": "hspl|293550|2026-11-18",
+          "island": "hawaii-island"
         },
         {
           "title": "Read To Me International Family Literacy Night",
@@ -1179,7 +1254,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|294530|2026-11-18"
+          "uid_seed": "hspl|294530|2026-11-18",
+          "island": "maui-county"
         },
         {
           "title": "Writer’s Night",
@@ -1208,7 +1284,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|293554|2026-11-18"
+          "uid_seed": "hspl|293554|2026-11-18",
+          "island": "hawaii-island"
         },
         {
           "title": "Makai Music & Art Festival Kauai",
@@ -1237,7 +1314,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|makai-music-art-festival-kauai-2026-11-18"
+          "uid_seed": "aloha|makai-music-art-festival-kauai-2026-11-18",
+          "island": "kauai"
         },
         {
           "title": "Breaking News: Beyond The Headlines",
@@ -1270,7 +1348,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|breaking-news-beyond-the-headlines"
+          "uid_seed": "aloha|breaking-news-beyond-the-headlines",
+          "island": "oahu"
         },
         {
           "title": "ʻŌlelo Hawaiʻi for Kūpuna with Kumu Gigi and La’a of Ke Ola Mamo",
@@ -1299,7 +1378,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10046580|2026-11-19"
+          "uid_seed": "hspl|10046580|2026-11-19",
+          "island": "oahu"
         },
         {
           "title": "Happy Birthday Mickey Mouse",
@@ -1328,7 +1408,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|293557|2026-11-19"
+          "uid_seed": "hspl|293557|2026-11-19",
+          "island": "hawaii-island"
         },
         {
           "title": "Kohala Kendama Club",
@@ -1357,7 +1438,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|290747|2026-11-19"
+          "uid_seed": "hspl|290747|2026-11-19",
+          "island": "hawaii-island"
         },
         {
           "title": "3rd Annual Tiny Art Show Gallery Opening",
@@ -1386,7 +1468,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|290225|2026-11-19"
+          "uid_seed": "hspl|290225|2026-11-19",
+          "island": "hawaii-island"
         },
         {
           "title": "Silent Disco",
@@ -1415,7 +1498,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|294918|2026-11-19"
+          "uid_seed": "hspl|294918|2026-11-19",
+          "island": "oahu"
         },
         {
           "title": "Zine Club",
@@ -1444,7 +1528,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10036438|2026-11-19"
+          "uid_seed": "hspl|10036438|2026-11-19",
+          "island": "hawaii-island"
         },
         {
           "title": "Thursday Night at the Center: Your Life Is Art, November 19th",
@@ -1473,7 +1558,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "vac|88790"
+          "uid_seed": "vac|88790",
+          "island": "hawaii-island"
         },
         {
           "title": "Navigating by the Stars",
@@ -1506,7 +1592,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|navigating-by-the-stars-2026-08-19"
+          "uid_seed": "aloha|navigating-by-the-stars-2026-08-19",
+          "island": "oahu"
         },
         {
           "title": "iHula",
@@ -1539,7 +1626,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|ihula"
+          "uid_seed": "aloha|ihula",
+          "island": "oahu"
         },
         {
           "title": "Island Pulse",
@@ -1568,7 +1656,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "capmod|/events/island-pulse-11-20-2026"
+          "uid_seed": "capmod|/events/island-pulse-11-20-2026",
+          "island": "oahu"
         },
         {
           "title": "Lucy Darling - Simply Darling",
@@ -1597,7 +1686,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a961cd287ac3d5439e11b96"
+          "uid_seed": "tcc|6a961cd287ac3d5439e11b96",
+          "island": "oahu"
         },
         {
           "title": "Dr. Seuss’ How the Grinch Stole Christmas! The Musical",
@@ -1630,7 +1720,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|dr-seuss-how-the-grinch-stole-christmas-the-musical"
+          "uid_seed": "aloha|dr-seuss-how-the-grinch-stole-christmas-the-musical",
+          "island": "oahu"
         },
         {
           "title": "Kauai Beach Resort Kauai Made Craft Fair Fridays",
@@ -1659,7 +1750,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|kauai-beach-resort-kauai-made-craft-fair-fridays-2026-11-20"
+          "uid_seed": "aloha|kauai-beach-resort-kauai-made-craft-fair-fridays-2026-11-20",
+          "island": "kauai"
         },
         {
           "title": "Aloha Friday Art Nights at Hale Līhuʻe",
@@ -1688,7 +1780,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|aloha-friday-art-nights-at-hale-lhue-2026-11-20"
+          "uid_seed": "aloha|aloha-friday-art-nights-at-hale-lhue-2026-11-20",
+          "island": "kauai"
         },
         {
           "title": "Fall Dance Concert by the Mid-Pacific School of the Arts - Friday 7:30pm",
@@ -1721,7 +1814,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|fall-dance-concert-by-the-mid-pacific-school-of-the-arts-friday-730pm"
+          "uid_seed": "aloha|fall-dance-concert-by-the-mid-pacific-school-of-the-arts-friday-730pm",
+          "island": "oahu"
         },
         {
           "title": "Super Saturday (November 2026)",
@@ -1750,7 +1844,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "capmod|/events/super-saturday-november-2026"
+          "uid_seed": "capmod|/events/super-saturday-november-2026",
+          "island": "oahu"
         },
         {
           "title": "Who’s Coming to Dinner?",
@@ -1779,7 +1874,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|294651|2026-11-21"
+          "uid_seed": "hspl|294651|2026-11-21",
+          "island": "oahu"
         },
         {
           "title": "Teen Reading Feast featuring Sunrise on the Reaping",
@@ -1808,7 +1904,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|291292|2026-11-21"
+          "uid_seed": "hspl|291292|2026-11-21",
+          "island": "hawaii-island"
         },
         {
           "title": "Dance Like Jane Austen is Watching! A Holiday Regency Ball",
@@ -1837,7 +1934,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|291275|2026-11-21"
+          "uid_seed": "hspl|291275|2026-11-21",
+          "island": "oahu"
         },
         {
           "title": "Honolulu Stadium: Celebrate the 100th Anniversary",
@@ -1866,7 +1964,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|293489|2026-11-21"
+          "uid_seed": "hspl|293489|2026-11-21",
+          "island": "oahu"
         },
         {
           "title": "Memoir Writing Workshop: The Process with Kimberly Dark",
@@ -1895,7 +1994,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "vac|88884"
+          "uid_seed": "vac|88884",
+          "island": "hawaii-island"
         },
         {
           "title": "DAC Walking Tour: Art, History & Architecture in the HEART of Honolulu",
@@ -1924,7 +2024,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a962b3672c04155644a15f6"
+          "uid_seed": "tcc|6a962b3672c04155644a15f6",
+          "island": "oahu"
         },
         {
           "title": "Member Preview of UNDER/GROUND",
@@ -1957,7 +2058,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|member-preview-of-underground"
+          "uid_seed": "aloha|member-preview-of-underground",
+          "island": "oahu"
         },
         {
           "title": "Grand Opening: UNDER/GROUND",
@@ -1990,7 +2092,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|grand-opening-underground"
+          "uid_seed": "aloha|grand-opening-underground",
+          "island": "oahu"
         },
         {
           "title": "MOVE! at Capitol Modern (Fall 2026)",
@@ -2023,7 +2126,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|move-at-capitol-modern-fall-2026-2026-11-21"
+          "uid_seed": "aloha|move-at-capitol-modern-fall-2026-2026-11-21",
+          "island": "oahu"
         },
         {
           "title": "Fall Dance Concert by the Mid-Pacific School of the Arts - Saturday 3:00pm",
@@ -2056,7 +2160,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|fall-dance-concert-by-the-mid-pacific-school-of-the-arts-saturday-300pm"
+          "uid_seed": "aloha|fall-dance-concert-by-the-mid-pacific-school-of-the-arts-saturday-300pm",
+          "island": "oahu"
         },
         {
           "title": "The Dinner Detective Interactive Murder Mystery Show",
@@ -2089,7 +2194,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|the-dinner-detective-interactive-murder-mystery-show-2026-11-21"
+          "uid_seed": "aloha|the-dinner-detective-interactive-murder-mystery-show-2026-11-21",
+          "island": "oahu"
         },
         {
           "title": "26th Annual ʻUkulele Guild of Hawaiʻi Exhibition",
@@ -2122,7 +2228,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|26th-annual-ukulele-guild-of-hawaii-exhibition"
+          "uid_seed": "aloha|26th-annual-ukulele-guild-of-hawaii-exhibition",
+          "island": "oahu"
         },
         {
           "title": "Fall Dance Concert by the Mid-Pacific School of the Arts - Saturday 7:30pm",
@@ -2155,7 +2262,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|fall-dance-concert-by-the-mid-pacific-school-of-the-arts-saturday-730pm"
+          "uid_seed": "aloha|fall-dance-concert-by-the-mid-pacific-school-of-the-arts-saturday-730pm",
+          "island": "oahu"
         },
         {
           "title": "Movie Night – Free Birds",
@@ -2184,7 +2292,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|294243|2026-11-23"
+          "uid_seed": "hspl|294243|2026-11-23",
+          "island": "hawaii-island"
         },
         {
           "title": "(In-Person at KOKA Kalihi) Simple Hula \"Mele Kalikimaka Ei Nei\"",
@@ -2217,7 +2326,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|in-person-at-koka-kalihi-simple-hula-2026-11-23"
+          "uid_seed": "aloha|in-person-at-koka-kalihi-simple-hula-2026-11-23",
+          "island": "oahu"
         },
         {
           "title": "The Work Presents: \"Believe Me\" by Chelsea Cox",
@@ -2250,7 +2360,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|the-work-presents-believe-me-by-chelsea-cox"
+          "uid_seed": "aloha|the-work-presents-believe-me-by-chelsea-cox",
+          "island": "oahu"
         },
         {
           "title": "Cozy Crafternoon: Woodland Wonders!",
@@ -2279,7 +2390,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|291973|2026-11-24"
+          "uid_seed": "hspl|291973|2026-11-24",
+          "island": "hawaii-island"
         },
         {
           "title": "The Book of Mormon (Touring)",
@@ -2312,7 +2424,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|the-book-of-mormon-touring"
+          "uid_seed": "aloha|the-book-of-mormon-touring",
+          "island": "oahu"
         },
         {
           "title": "ANA ‘Aha Mele Evening & Moonlight Concert",
@@ -2345,7 +2458,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|ana-aha-mele-evening-moonlight-concert-2026-11-25"
+          "uid_seed": "aloha|ana-aha-mele-evening-moonlight-concert-2026-11-25",
+          "island": "oahu"
         },
         {
           "title": "West Hawaii Dance Theatre Presents: Nutcracker Sweets",
@@ -2374,7 +2488,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|284904|2026-11-27"
+          "uid_seed": "hspl|284904|2026-11-27",
+          "island": "hawaii-island"
         },
         {
           "title": "Needlework Social Circle",
@@ -2403,7 +2518,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|291655|2026-11-28"
+          "uid_seed": "hspl|291655|2026-11-28",
+          "island": "hawaii-island"
         },
         {
           "title": "Up Close and Musical with Iggy Jang and the Hawaiʻi Youth Symphony",
@@ -2432,7 +2548,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|289676|2026-11-28"
+          "uid_seed": "hspl|289676|2026-11-28",
+          "island": "oahu"
         },
         {
           "title": "The Nutcracker by Ballet Hawaii at Prince Waikiki",
@@ -2465,7 +2582,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|the-nutcracker-by-ballet-hawaii-at-prince-waikiki"
+          "uid_seed": "aloha|the-nutcracker-by-ballet-hawaii-at-prince-waikiki",
+          "island": "oahu"
         },
         {
           "title": "10th Annual Keep it Kaimukī Saturday",
@@ -2498,7 +2616,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|10th-annual-keep-it-kaimuk-saturday"
+          "uid_seed": "aloha|10th-annual-keep-it-kaimuk-saturday",
+          "island": "oahu"
         },
         {
           "title": "Lā Kūʻokoʻa, Commemorating the Independence Day of the Hawaiian Kingdom",
@@ -2531,7 +2650,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|l-kokoa-commemorating-the-independence-day-of-the-hawaiian-kingdom"
+          "uid_seed": "aloha|l-kokoa-commemorating-the-independence-day-of-the-hawaiian-kingdom",
+          "island": "oahu"
         },
         {
           "title": "Writing Circle",
@@ -2560,7 +2680,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|269195|2026-11-30"
+          "uid_seed": "hspl|269195|2026-11-30",
+          "island": "oahu"
         },
         {
           "title": "Ti Leaf Wreaths",
@@ -2589,7 +2710,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|294241|2026-11-30"
+          "uid_seed": "hspl|294241|2026-11-30",
+          "island": "hawaii-island"
         },
         {
           "title": "Talk Story with Joni Keamoai",
@@ -2618,7 +2740,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|295479|2026-11-30"
+          "uid_seed": "hspl|295479|2026-11-30",
+          "island": "kauai"
         }
       ]
     },
@@ -2653,7 +2776,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|295125|2026-12-01"
+          "uid_seed": "hspl|295125|2026-12-01",
+          "island": "kauai"
         },
         {
           "title": "MOVE! | A Honolulu Theatre for Youth Production",
@@ -2682,7 +2806,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|295133|2026-12-01"
+          "uid_seed": "hspl|295133|2026-12-01",
+          "island": "kauai"
         },
         {
           "title": "Hawai‘i Ukulele Ensemble Concert",
@@ -2711,7 +2836,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|293371|2026-12-01"
+          "uid_seed": "hspl|293371|2026-12-01",
+          "island": "hawaii-island"
         },
         {
           "title": "Moolelo Christmas Spectacular 2026",
@@ -2740,7 +2866,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a974fb61551d83fe97ec2e5"
+          "uid_seed": "tcc|6a974fb61551d83fe97ec2e5",
+          "island": "oahu"
         },
         {
           "title": "MOVE! | A Honolulu Theatre for Youth Production",
@@ -2769,7 +2896,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|295136|2026-12-02"
+          "uid_seed": "hspl|295136|2026-12-02",
+          "island": "maui-county"
         },
         {
           "title": "Readers Group",
@@ -2798,7 +2926,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|295265|2026-12-03"
+          "uid_seed": "hspl|295265|2026-12-03",
+          "island": "oahu"
         },
         {
           "title": "ʻŌlelo Hawaiʻi for Kūpuna with Kumu Gigi and La’a of Ke Ola Mamo",
@@ -2827,7 +2956,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10046581|2026-12-03"
+          "uid_seed": "hspl|10046581|2026-12-03",
+          "island": "oahu"
         },
         {
           "title": "Kohala Kendama Club",
@@ -2856,7 +2986,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|295490|2026-12-03"
+          "uid_seed": "hspl|295490|2026-12-03",
+          "island": "hawaii-island"
         },
         {
           "title": "Hawaiian Steel Guitar – Demonstrations and Lessons",
@@ -2885,7 +3016,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10046010|2026-12-03"
+          "uid_seed": "hspl|10046010|2026-12-03",
+          "island": "oahu"
         },
         {
           "title": "Kaimuki Christmas Parade & Tree Lighting",
@@ -2914,7 +3046,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a95dad48c597e656d1e6531"
+          "uid_seed": "tcc|6a95dad48c597e656d1e6531",
+          "island": "oahu"
         },
         {
           "title": "Kauai Museum 1st Thursday Courtyard Market",
@@ -2943,7 +3076,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|kauai-museum-1st-thursday-courtyard-market-2026-12-03"
+          "uid_seed": "aloha|kauai-museum-1st-thursday-courtyard-market-2026-12-03",
+          "island": "kauai"
         },
         {
           "title": "First Friday at Capitol Modern",
@@ -2981,7 +3115,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a9734dbd44ce62f5387fce7"
+          "uid_seed": "tcc|6a9734dbd44ce62f5387fce7",
+          "island": "oahu"
         },
         {
           "title": "Book Club – Gilead by Marilynne Robinson",
@@ -3010,7 +3145,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|290590|2026-12-04"
+          "uid_seed": "hspl|290590|2026-12-04",
+          "island": "oahu"
         },
         {
           "title": "MOVE! | A Honolulu Theatre for Youth Production",
@@ -3039,7 +3175,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|295138|2026-12-04"
+          "uid_seed": "hspl|295138|2026-12-04",
+          "island": "maui-county"
         },
         {
           "title": "Lights On Rice Parade",
@@ -3068,7 +3205,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|lights-on-rice-parade"
+          "uid_seed": "aloha|lights-on-rice-parade",
+          "island": "kauai"
         },
         {
           "title": "DAC Walking Tour: Art, History & Architecture in the HEART of Honolulu",
@@ -3097,7 +3235,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6ad04236a720fa64b7d69f30"
+          "uid_seed": "tcc|6ad04236a720fa64b7d69f30",
+          "island": "oahu"
         },
         {
           "title": "The 20th Annual Paradise Studio Tour",
@@ -3130,7 +3269,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|the-20th-annual-paradise-studio-tour-2026-12-05"
+          "uid_seed": "aloha|the-20th-annual-paradise-studio-tour-2026-12-05",
+          "island": "hawaii-island"
         },
         {
           "title": "IRATION",
@@ -3163,7 +3303,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|iration-2026-12-05"
+          "uid_seed": "aloha|iration-2026-12-05",
+          "island": "maui-county"
         },
         {
           "title": "MELE KALIKIMAKA, EI NEI",
@@ -3196,7 +3337,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|mele-kalikimaka-ei-nei"
+          "uid_seed": "aloha|mele-kalikimaka-ei-nei",
+          "island": "oahu"
         },
         {
           "title": "Pearl Harbor Remembrance Day Movie: Tora! Tora! Tora!",
@@ -3225,7 +3367,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|275546|2026-12-06"
+          "uid_seed": "hspl|275546|2026-12-06",
+          "island": "oahu"
         },
         {
           "title": "MASTERS OF ILLUSION – UP CLOSE & PERSONAL",
@@ -3258,7 +3401,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|masters-of-illusion-up-close-personal"
+          "uid_seed": "aloha|masters-of-illusion-up-close-personal",
+          "island": "oahu"
         },
         {
           "title": "MAUI POPS ORCHESTRA - Holiday Pops",
@@ -3291,7 +3435,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|maui-pops-orchestra-holiday-pops"
+          "uid_seed": "aloha|maui-pops-orchestra-holiday-pops",
+          "island": "maui-county"
         },
         {
           "title": "T. REX: Extended Cut Screenings",
@@ -3324,7 +3469,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|t-rex-extended-cut-screenings-2026-10-11"
+          "uid_seed": "aloha|t-rex-extended-cut-screenings-2026-10-11",
+          "island": "oahu"
         },
         {
           "title": "Author Visit: Tom Peek",
@@ -3353,7 +3499,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|293369|2026-12-08"
+          "uid_seed": "hspl|293369|2026-12-08",
+          "island": "hawaii-island"
         },
         {
           "title": "Hawaiian Steel Guitar – Demonstrations and Lessons",
@@ -3382,7 +3529,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10046011|2026-12-10"
+          "uid_seed": "hspl|10046011|2026-12-10",
+          "island": "oahu"
         },
         {
           "title": "DEBBIE GIBSON’S WINTERLICIOUS",
@@ -3415,7 +3563,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|debbie-gibsons-winterlicious"
+          "uid_seed": "aloha|debbie-gibsons-winterlicious",
+          "island": "oahu"
         },
         {
           "title": "The BLIND BOYS of ALABAMA",
@@ -3448,7 +3597,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|the-blind-boys-of-alabama"
+          "uid_seed": "aloha|the-blind-boys-of-alabama",
+          "island": "maui-county"
         },
         {
           "title": "WHOSE LIVE ANYWAY?",
@@ -3481,7 +3631,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|whose-live-anyway"
+          "uid_seed": "aloha|whose-live-anyway",
+          "island": "maui-county"
         },
         {
           "title": "JIAOYING SUMMERS",
@@ -3514,7 +3665,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|jiaoying-summers"
+          "uid_seed": "aloha|jiaoying-summers",
+          "island": "oahu"
         },
         {
           "title": "Lei Poʻo Workshop with Kumu Kuhi",
@@ -3543,7 +3695,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a9784699c5c7d13aa759e7b"
+          "uid_seed": "tcc|6a9784699c5c7d13aa759e7b",
+          "island": "oahu"
         },
         {
           "title": "Ballet Hawaii's The Nutcracker",
@@ -3576,7 +3729,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|ballet-hawaiis-the-nutcracker"
+          "uid_seed": "aloha|ballet-hawaiis-the-nutcracker",
+          "island": "oahu"
         },
         {
           "title": "SACRED HEARTS ACADEMY – THE NUTCRACKER 2026",
@@ -3609,7 +3763,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|sacred-hearts-academy-the-nutcracker-2026"
+          "uid_seed": "aloha|sacred-hearts-academy-the-nutcracker-2026",
+          "island": "oahu"
         },
         {
           "title": "WHOSE LIVE ANYWAY? – 2026",
@@ -3642,7 +3797,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|whose-live-anyway-2026"
+          "uid_seed": "aloha|whose-live-anyway-2026",
+          "island": "oahu"
         },
         {
           "title": "Writing Circle",
@@ -3671,7 +3827,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|267144|2026-12-14"
+          "uid_seed": "hspl|267144|2026-12-14",
+          "island": "oahu"
         },
         {
           "title": "Silent Disco at the Library!",
@@ -3700,7 +3857,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|293382|2026-12-15"
+          "uid_seed": "hspl|293382|2026-12-15",
+          "island": "hawaii-island"
         },
         {
           "title": "HSO presents Hapa Holiday Extravaganza",
@@ -3729,7 +3887,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a95d1b8dc124f3e55fe3f56"
+          "uid_seed": "tcc|6a95d1b8dc124f3e55fe3f56",
+          "island": "oahu"
         },
         {
           "title": "ʻŌlelo Hawaiʻi for Kūpuna with Kumu Gigi and La’a of Ke Ola Mamo",
@@ -3758,7 +3917,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10046582|2026-12-17"
+          "uid_seed": "hspl|10046582|2026-12-17",
+          "island": "oahu"
         },
         {
           "title": "Hawaiian Steel Guitar – Demonstrations and Lessons",
@@ -3787,7 +3947,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10046012|2026-12-17"
+          "uid_seed": "hspl|10046012|2026-12-17",
+          "island": "oahu"
         },
         {
           "title": "Island Pulse",
@@ -3816,7 +3977,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "capmod|/events/island-pulse-12-18-2026"
+          "uid_seed": "capmod|/events/island-pulse-12-18-2026",
+          "island": "oahu"
         },
         {
           "title": "Needlework Social Circle",
@@ -3845,7 +4007,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|293372|2026-12-19"
+          "uid_seed": "hspl|293372|2026-12-19",
+          "island": "hawaii-island"
         },
         {
           "title": "HSO presents Elf in Concert",
@@ -3887,7 +4050,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a95d2eede2fe253fc65aa54"
+          "uid_seed": "tcc|6a95d2eede2fe253fc65aa54",
+          "island": "oahu"
         },
         {
           "title": "HSO presents Elf in Concert",
@@ -3916,7 +4080,38 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a95d68cce583c71586b8091"
+          "uid_seed": "tcc|6a95d68cce583c71586b8091",
+          "island": "oahu"
+        },
+        {
+          "title": "Winter Wonderland Ornament Workshop",
+          "description": "Join Julia for a Winter Wonderland Ornament Workshop! We’ll enjoy a cozy afternoon of crafting: take home your Winter ornament, or leave it here to spread warmth and cheer in the library! This program is appropriate for ages 5+. Young children must be accompanied by a parent or adult caregiver. Spaces are limited: contact the library to make a reservation. Mahalo nui to the Friends of the…",
+          "category": "Library programs",
+          "provider": "Libraries",
+          "sources": [
+            {
+              "name": "Libraries",
+              "url": "https://www.librarieshawaii.org/event/winter-wonderland-ornament-workshop-2026/",
+              "label": "librarieshawaii.org"
+            }
+          ],
+          "venue": "Kailua-Kona Public Library (Hawai‘i)",
+          "date_start": "2026-12-22",
+          "date_end": "2026-12-22",
+          "date_display": "December 22, 2026",
+          "time_display": "4:00 PM - 5:00 PM HST",
+          "dt_start_utc": "2026-12-23T02:00:00Z",
+          "dt_end_utc": "2026-12-23T03:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (Hawaiʻi State Public Libraries)",
+              "href": "https://www.librarieshawaii.org/event/winter-wonderland-ornament-workshop-2026/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "hspl|295696|2026-12-22",
+          "island": "hawaii-island"
         },
         {
           "title": "Kamuela Philharmonic Leeward Trio",
@@ -3945,7 +4140,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|293378|2026-12-22"
+          "uid_seed": "hspl|293378|2026-12-22",
+          "island": "hawaii-island"
         },
         {
           "title": "ROCKY MOUNTAIN HIGH EXPERIENCE® — A JOHN DENVER CHRISTMAS",
@@ -3978,7 +4174,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|rocky-mountain-high-experience-a-john-denver-christmas"
+          "uid_seed": "aloha|rocky-mountain-high-experience-a-john-denver-christmas",
+          "island": "oahu"
         },
         {
           "title": "Writing Circle",
@@ -4007,7 +4204,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|267156|2026-12-28"
+          "uid_seed": "hspl|267156|2026-12-28",
+          "island": "oahu"
         },
         {
           "title": "Hawaiian Steel Guitar – Demonstrations and Lessons",
@@ -4036,7 +4234,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10046013|2026-12-31"
+          "uid_seed": "hspl|10046013|2026-12-31",
+          "island": "oahu"
         },
         {
           "title": "DARK SIDE OF THE BEACH NYE",
@@ -4069,7 +4268,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|dark-side-of-the-beach-nye"
+          "uid_seed": "aloha|dark-side-of-the-beach-nye",
+          "island": "oahu"
         }
       ]
     },
@@ -4108,7 +4308,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|hasan-hates-ronny-ronny-hates-hasan"
+          "uid_seed": "aloha|hasan-hates-ronny-ronny-hates-hasan",
+          "island": "oahu"
         },
         {
           "title": "Hawaiian Steel Guitar – Demonstrations and Lessons",
@@ -4137,7 +4338,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10046014|2027-01-07"
+          "uid_seed": "hspl|10046014|2027-01-07",
+          "island": "oahu"
         },
         {
           "title": "The Sounds of Ravel & Rosalia with Carolina Rial",
@@ -4170,7 +4372,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|the-sounds-of-ravel-rosalia-with-carolina-rial"
+          "uid_seed": "aloha|the-sounds-of-ravel-rosalia-with-carolina-rial",
+          "island": "oahu"
         },
         {
           "title": "Honolulu Theatre for Youth presents Tales of the Sun & Moon",
@@ -4199,7 +4402,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a988498d20e0872671c4a4f"
+          "uid_seed": "tcc|6a988498d20e0872671c4a4f",
+          "island": "oahu"
         },
         {
           "title": "Beethoven's Ode to Joy",
@@ -4232,7 +4436,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|beethovens-ode-to-joy"
+          "uid_seed": "aloha|beethovens-ode-to-joy",
+          "island": "oahu"
         },
         {
           "title": "Tales of the Sun and Moon",
@@ -4265,7 +4470,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|tales-of-the-sun-and-moon"
+          "uid_seed": "aloha|tales-of-the-sun-and-moon",
+          "island": "oahu"
         },
         {
           "title": "Hawaiian Steel Guitar – Demonstrations and Lessons",
@@ -4294,7 +4500,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10046015|2027-01-14"
+          "uid_seed": "hspl|10046015|2027-01-14",
+          "island": "oahu"
         },
         {
           "title": "JOHN CAMERON MITCHELL – HEDWIG 25TH ANNIVERSARY MOVIE TOUR",
@@ -4327,7 +4534,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|john-cameron-mitchell-hedwig-25th-anniversary-movie-tour-2027-01-15"
+          "uid_seed": "aloha|john-cameron-mitchell-hedwig-25th-anniversary-movie-tour-2027-01-15",
+          "island": "oahu"
         },
         {
           "title": "Hawaiian Steel Guitar – Demonstrations and Lessons",
@@ -4356,7 +4564,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10046016|2027-01-21"
+          "uid_seed": "hspl|10046016|2027-01-21",
+          "island": "oahu"
         },
         {
           "title": "All Buss Up in a HI State: A Trilogy of Hawaiʻi Plays",
@@ -4385,7 +4594,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a714e42f54cd024b6ec75ea"
+          "uid_seed": "tcc|6a714e42f54cd024b6ec75ea",
+          "island": "oahu"
         },
         {
           "title": "Purpose",
@@ -4414,7 +4624,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a9890215eed7970f09b8554"
+          "uid_seed": "tcc|6a9890215eed7970f09b8554",
+          "island": "oahu"
         },
         {
           "title": "Not One Batu by Hannah Ii-Epstein",
@@ -4447,7 +4658,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|not-one-batu-by-hannah-ii-epstein"
+          "uid_seed": "aloha|not-one-batu-by-hannah-ii-epstein",
+          "island": "oahu"
         },
         {
           "title": "Into the Woods",
@@ -4480,7 +4692,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|into-the-woods"
+          "uid_seed": "aloha|into-the-woods",
+          "island": "oahu"
         },
         {
           "title": "Pakalōlō Sweet by Hannah Ii-Epstein",
@@ -4513,7 +4726,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|pakall-sweet-by-hannah-ii-epstein"
+          "uid_seed": "aloha|pakall-sweet-by-hannah-ii-epstein",
+          "island": "oahu"
         },
         {
           "title": "Stained Glass Workshop with Linda Brooks _ Saturdays, January 23rd – February 13th",
@@ -4542,7 +4756,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "vac|86110"
+          "uid_seed": "vac|86110",
+          "island": "hawaii-island"
         },
         {
           "title": "Honolulu Theatre for Youth presents Listen",
@@ -4584,7 +4799,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "tcc|6a9886342b443059df777c39"
+          "uid_seed": "tcc|6a9886342b443059df777c39",
+          "island": "oahu"
         },
         {
           "title": "Aloha Fry-Day by Hannah Ii-Epstein",
@@ -4617,7 +4833,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|aloha-fry-day-by-hannah-ii-epstein"
+          "uid_seed": "aloha|aloha-fry-day-by-hannah-ii-epstein",
+          "island": "oahu"
         },
         {
           "title": "RUMPELSTILTSKIN – PANTO LIVE",
@@ -4650,7 +4867,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|rumpelstiltskin-panto-live"
+          "uid_seed": "aloha|rumpelstiltskin-panto-live",
+          "island": "oahu"
         },
         {
           "title": "Hawaiian Steel Guitar – Demonstrations and Lessons",
@@ -4679,7 +4897,8 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "hspl|10046017|2027-01-28"
+          "uid_seed": "hspl|10046017|2027-01-28",
+          "island": "oahu"
         }
       ]
     }

@@ -210,6 +210,17 @@ on the August page) moves to its real month.
 (avoids CORS and flakiness). All-day SFCA events become `VALUE=DATE` VEVENTs;
 timed Capitol Modern events become UTC-instant VEVENTs.
 
+**Per-island feeds.** Besides the statewide `calendar.ics` there is one feed
+per county: `calendar-oahu.ics`, `calendar-hawaii-island.ics`,
+`calendar-maui-county.ics` (Maui, Molokaʻi, Lānaʻi), and `calendar-kauai.ics`,
+linked from the page header. Each event's `island` (also in `events.json`)
+comes from, in order: a provider that only covers one island (Capitol
+Modern, The Creative City → Oʻahu; Volcano Art Center → Hawaiʻi Island); the
+"(Island)" suffix on library and AlohaCalendar venues; then place names in
+the venue, title, or description (`_ISLAND_PLACES`; the first field naming
+exactly one county wins). Ambiguous names (Waimea, Kīlauea, bare "Hawaiʻi")
+are not used. Events with no island are only in the statewide feed.
+
 ## Run locally
 
 ```bash

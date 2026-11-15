@@ -87,6 +87,7 @@ import json
 import re
 import sys
 import tempfile
+import unicodedata
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass, field, asdict
 from difflib import SequenceMatcher
@@ -214,6 +215,7 @@ class Event:
     links: list[dict] = field(default_factory=list)
     fallback_month: str | None = None   # 'YYYY-MM' when no date_start (grouping)
     uid_seed: str = ""                  # stable identity for a deterministic UID
+    island: str | None = None           # ISLAND_FEEDS key, or None if unknown
 
     def uid(self, suffix: str = "") -> str:
         # Deterministic across builds so calendar clients update in place rather
@@ -1497,6 +1499,75 @@ def write_events_json(months, undated, providers, generated) -> None:
 
 
 # --------------------------------------------------------------------------- #
+# Island assignment
+# --------------------------------------------------------------------------- #
+
+# Feeds are per county; Molokaʻi and Lānaʻi are in Maui County.
+ISLAND_FEEDS = {
+    "oahu": ("O\u02bbahu", ("oahu",)),
+    "hawaii-island": ("Hawai\u02bbi Island", ("hawaii", "big island",
+                                              "hawaii island")),
+    "maui-county": ("Maui County", ("maui", "molokai", "lanai")),
+    "kauai": ("Kaua\u02bbi", ("kauai",)),
+}
+# Providers that only list events on one island.
+PROVIDER_ISLAND = {"Capitol Modern": "oahu", TCC_NAME: "oahu",
+                   "Volcano Art Center": "hawaii-island"}
+# Place names that identify one county. Deliberately absent: "waimea" and
+# "kilauea" (on two islands each) and bare "hawaii" (usually the state).
+_ISLAND_PLACES = {
+    "oahu": ("oahu", "honolulu", "waikiki", "kailua", "kaneohe", "kapolei",
+             "pearl city", "aiea", "waianae", "ewa", "kahuku", "haleiwa",
+             "waialua", "manoa", "kaimuki", "kalihi", "mililani", "wahiawa",
+             "nanakuli", "waimanalo", "hawaii kai", "kakaako", "chinatown",
+             "moiliili", "mccully", "kapahulu", "ala moana", "bishop museum",
+             "iolani palace", "capitol modern", "blaisdell",
+             "leeward community college", "windward community college",
+             "north shore", "laie", "kumu kahua", "diamond head"),
+    "hawaii-island": ("big island", "hawaii island", "island of hawaii",
+                      "hilo", "kona", "kealakekua", "kamuela", "honokaa",
+                      "pahoa", "volcano", "kohala", "hawi", "waikoloa",
+                      "keaau", "naalehu", "kahilu", "wailoa", "puna",
+                      "firehouse gallery", "kau"),
+    "maui-county": ("maui", "kahului", "wailuku", "lahaina", "makawao",
+                    "paia", "kihei", "upcountry", "molokai", "lanai",
+                    "viewpoints gallery", "hui noeau"),
+    "kauai": ("kauai", "lihue", "koloa", "kapaa", "princeville", "hanalei",
+              "hanapepe", "anahola", "kalaheo", "kekaha"),
+}
+_ISLAND_RES = {
+    key: re.compile(r"\b(?:" + "|".join(re.escape(w) for w in words) + r")\b")
+    for key, words in _ISLAND_PLACES.items()
+}
+
+
+def _ascii_fold(text: str) -> str:
+    """Lowercase, strip macrons and ʻokina/apostrophes: "Kaua‘i" -> "kauai"."""
+    text = unicodedata.normalize("NFKD", text or "")
+    text = "".join(c for c in text if not unicodedata.combining(c))
+    text = re.sub(r"[\u02bb\u2018\u2019'`]", "", text).lower()
+    return text.replace("kailua-kona", "kona")
+
+
+def assign_island(ev: Event) -> str | None:
+    if ev.provider in PROVIDER_ISLAND:
+        return PROVIDER_ISLAND[ev.provider]
+    venue = _ascii_fold(ev.venue or "")
+    # Library and AlohaCalendar venues end in "(Island)".
+    tail = re.search(r"\(([^()]+)\)\s*$", venue)
+    if tail:
+        for key, (_, names) in ISLAND_FEEDS.items():
+            if tail.group(1).strip() in names:
+                return key
+    # Otherwise the first field naming exactly one county wins.
+    for text in (venue, _ascii_fold(ev.title), _ascii_fold(ev.description)):
+        hits = [key for key, rx in _ISLAND_RES.items() if rx.search(text)]
+        if len(hits) == 1:
+            return hits[0]
+    return None
+
+
+# --------------------------------------------------------------------------- #
 # Output: calendar.ics
 # --------------------------------------------------------------------------- #
 
@@ -1518,11 +1589,24 @@ def _fold(line: str) -> str:
 
 
 def write_ics(all_events: list[Event], generated: str) -> int:
+    """Write calendar.ics (everything) plus one calendar-<island>.ics per
+    ISLAND_FEEDS entry. Returns the entry count of the statewide feed."""
+    SITE_DIR.mkdir(parents=True, exist_ok=True)
+    text, count = _ics_calendar(all_events, "Hawai\u02bbi Arts & Culture Calendar")
+    (SITE_DIR / "calendar.ics").write_text(text, encoding="utf-8")
+    for key, (label, _) in ISLAND_FEEDS.items():
+        evs = [ev for ev in all_events if ev.island == key]
+        text, _ = _ics_calendar(evs, f"Hawai\u02bbi Arts & Culture \u2013 {label}")
+        (SITE_DIR / f"calendar-{key}.ics").write_text(text, encoding="utf-8")
+    return count
+
+
+def _ics_calendar(all_events: list[Event], calname: str) -> tuple[str, int]:
     stamp = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     lines = [
         "BEGIN:VCALENDAR", "VERSION:2.0",
         "PRODID:-//hawaii-arts-calendar//EN", "CALSCALE:GREGORIAN",
-        "METHOD:PUBLISH", "X-WR-CALNAME:Hawai\u02bbi Arts & Culture Calendar",
+        "METHOD:PUBLISH", _fold(f"X-WR-CALNAME:{_ics_escape(calname)}"),
         "X-WR-TIMEZONE:Pacific/Honolulu",
         # Hawai'i observes no daylight saving, so a single fixed -10:00 offset.
         "BEGIN:VTIMEZONE", "TZID:Pacific/Honolulu",
@@ -1611,10 +1695,7 @@ def write_ics(all_events: list[Event], generated: str) -> int:
             lines += block
             count += 1
     lines.append("END:VCALENDAR")
-    SITE_DIR.mkdir(parents=True, exist_ok=True)
-    (SITE_DIR / "calendar.ics").write_text("\r\n".join(lines) + "\r\n",
-                                           encoding="utf-8")
-    return count
+    return "\r\n".join(lines) + "\r\n", count
 
 
 # --------------------------------------------------------------------------- #
@@ -1774,6 +1855,8 @@ def render_site(months, undated, sfca_rows, providers, num_merged,
               '</div>')
     actions = ('<div class="actions">'
                '<a href="calendar.ics">\U0001f4c5 Subscribe (iCal)</a>'
+               + "".join(f'<a href="calendar-{key}.ics">{_e(label)}</a>'
+                         for key, (label, _) in ISLAND_FEEDS.items()) +
                '<a href="events.json">events.json</a></div>')
     src_line = " \u00b7 ".join(f"{p.name}: {p.status}" for p in providers)
 
@@ -1851,6 +1934,8 @@ def main() -> int:
     all_events = (sfca_events + capmod_events + tec_events + lib_events
                   + vac_events + tcc_events + aloha_events)
     merged, num_merged = merge_events(all_events)
+    for ev in merged:
+        ev.island = assign_island(ev)
     current_month = f"{today.year:04d}-{today.month:02d}"
     months, undated = group_by_month(merged, current_month)
 

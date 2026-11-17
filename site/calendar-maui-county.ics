@@ -16,7 +16,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:526abcfa34abb8533464@hawaii-arts-calendar
-DTSTAMP:20261116T193656Z
+DTSTAMP:20261117T183430Z
 DTSTART;TZID=Pacific/Honolulu:20261117T170000
 DTEND;TZID=Pacific/Honolulu:20261117T183000
 SUMMARY:Empower’d Power Hour
@@ -33,7 +33,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:b61be176539dc755039a@hawaii-arts-calendar
-DTSTAMP:20261116T193656Z
+DTSTAMP:20261117T183430Z
 DTSTART;TZID=Pacific/Honolulu:20261118T173000
 DTEND;TZID=Pacific/Honolulu:20261118T180000
 SUMMARY:Read To Me International Family Literacy Night
@@ -52,44 +52,8 @@ URL:https://www.librarieshawaii.org/event/read-to-me-international-family
 CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
-UID:757498771f12ef340f08@hawaii-arts-calendar
-DTSTAMP:20261116T193656Z
-DTSTART;TZID=Pacific/Honolulu:20261202T120000
-DTEND;TZID=Pacific/Honolulu:20261202T123000
-SUMMARY:MOVE! | A Honolulu Theatre for Youth Production
-DESCRIPTION:Wiggle\, bounce\, dance\, squiggle\, and giggle! Come explore
-  the wonderful ways our bodies move and discover how our movement can ch
- ange the world around us. From the creative team behind HTY’s “Line\
- , Circle\, Sphere” and “Under the Blue” comes a brand-new\, intera
- ctive adventure made especially for our littlest movers and shakers. Thi
- s free 30-minute event is suitable for ages 3+. Children must be…  htt
- ps://www.librarieshawaii.org/event/hty-move-lanai/  Sources: Libraries h
- ttps://www.librarieshawaii.org/event/hty-move-lanai/
-LOCATION:Lāna‘i Public Library (Lāna‘i)
-URL:https://www.librarieshawaii.org/event/hty-move-lanai/
-CATEGORIES:Library programs
-END:VEVENT
-BEGIN:VEVENT
-UID:eb46dc9eaeddbf10bfc7@hawaii-arts-calendar
-DTSTAMP:20261116T193656Z
-DTSTART;TZID=Pacific/Honolulu:20261204T150000
-DTEND;TZID=Pacific/Honolulu:20261204T153000
-SUMMARY:MOVE! | A Honolulu Theatre for Youth Production
-DESCRIPTION:Wiggle\, bounce\, dance\, squiggle\, and giggle! Come explore
-  the wonderful ways our bodies move and discover how our movement can ch
- ange the world around us. From the creative team behind HTY’s “Line\
- , Circle\, Sphere” and “Under the Blue” comes a brand-new\, intera
- ctive adventure made especially for our littlest movers and shakers. Thi
- s free 30-minute event is suitable for ages 3+. Children must be…  htt
- ps://www.librarieshawaii.org/event/hty-move-molokai/  Sources: Libraries
-  https://www.librarieshawaii.org/event/hty-move-molokai/
-LOCATION:Molokaʻi Public Library (Molokaʻi)
-URL:https://www.librarieshawaii.org/event/hty-move-molokai/
-CATEGORIES:Library programs
-END:VEVENT
-BEGIN:VEVENT
 UID:a7fde5debf21f48034b2@hawaii-arts-calendar
-DTSTAMP:20261116T193656Z
+DTSTAMP:20261117T183430Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:IRATION
@@ -102,7 +66,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:94cb2a364663ac9908e8@hawaii-arts-calendar
-DTSTAMP:20261116T193656Z
+DTSTAMP:20261117T183430Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:MAUI POPS ORCHESTRA - Holiday Pops
@@ -116,7 +80,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:120dcccc7daea32789a7@hawaii-arts-calendar
-DTSTAMP:20261116T193656Z
+DTSTAMP:20261117T183430Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:The BLIND BOYS of ALABAMA
@@ -130,7 +94,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:b8851ef472f2887bec80@hawaii-arts-calendar
-DTSTAMP:20261116T193656Z
+DTSTAMP:20261117T183430Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:WHOSE LIVE ANYWAY?
@@ -143,7 +107,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:b9cb488cb6aecfe3e833@hawaii-arts-calendar
-DTSTAMP:20261116T193656Z
+DTSTAMP:20261117T183430Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:JIAOYING SUMMERS

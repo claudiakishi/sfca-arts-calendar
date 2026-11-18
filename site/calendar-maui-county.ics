@@ -15,25 +15,8 @@ TZNAME:HST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:526abcfa34abb8533464@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
-DTSTART;TZID=Pacific/Honolulu:20261117T170000
-DTEND;TZID=Pacific/Honolulu:20261117T183000
-SUMMARY:Empower’d Power Hour
-DESCRIPTION:A welcoming space for LGBTQ+ teens and allies to hang out\, m
- ake new friends\, and connect with others. Come and meet new people\, pl
- ay games\, chat\, and enjoy a supportive community at the library! This 
- event is hosted by Empower’d Maui Nui\, Maui County’s LGBTQ+ Youth N
- etwork and is for teens age 13-19  https://www.librarieshawaii.org/event
- /empowerd-power-hour/2026-11-17/  Sources: Libraries https://www.librari
- eshawaii.org/event/empowerd-power-hour/2026-11-17/
-LOCATION:Kahului Public Library (Maui)
-URL:https://www.librarieshawaii.org/event/empowerd-power-hour/2026-11-17/
-CATEGORIES:Library programs
-END:VEVENT
-BEGIN:VEVENT
 UID:b61be176539dc755039a@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;TZID=Pacific/Honolulu:20261118T173000
 DTEND;TZID=Pacific/Honolulu:20261118T180000
 SUMMARY:Read To Me International Family Literacy Night
@@ -53,7 +36,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:a7fde5debf21f48034b2@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:IRATION
@@ -66,7 +49,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:94cb2a364663ac9908e8@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:MAUI POPS ORCHESTRA - Holiday Pops
@@ -80,7 +63,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:120dcccc7daea32789a7@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:The BLIND BOYS of ALABAMA
@@ -94,7 +77,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:b8851ef472f2887bec80@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:WHOSE LIVE ANYWAY?
@@ -107,7 +90,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:b9cb488cb6aecfe3e833@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:JIAOYING SUMMERS
@@ -117,6 +100,22 @@ DESCRIPTION:JIAOYING SUMMERS  https://alohacalendar.com/events/jiaoying-s
  2026-12-12
 LOCATION:Maui Arts & Cultural Center (Maui)
 URL:https://alohacalendar.com/events/jiaoying-summers-2026-12-12
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:f4a07395c33eb3e4685f@hawaii-arts-calendar
+DTSTAMP:20261118T180417Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:JAKE SHIMABUKURO'S Holidays in Hawaiʻi
+DESCRIPTION:JAKE SHIMABUKURO'S Holidays in Hawaiʻi  https://alohacalenda
+ r.com/events/jake-shimabukuros-holidays-in-hawaii-2026-12-15  https://ma
+ uiarts.org/show-details/jake-shimabukuros-holidays-in-hawaii_2026  Sourc
+ es: AlohaCalendar https://alohacalendar.com/events/jake-shimabukuros-hol
+ idays-in-hawaii-2026-12-15
+LOCATION:Maui Arts & Cultural Center (Maui)
+URL:https://alohacalendar.com/events/jake-shimabukuros-holidays-in-hawaii
+ -2026-12-15
 CATEGORIES:Arts & Gallery
 END:VEVENT
 END:VCALENDAR

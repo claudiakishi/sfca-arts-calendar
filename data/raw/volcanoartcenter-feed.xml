@@ -12,7 +12,7 @@
 	<atom:link href="https://volcanoartcenter.org/feed/" rel="self" type="application/rss+xml" />
 	<link>https://volcanoartcenter.org/</link>
 	<description>Where People, Art &#38; Nature Meet</description>
-	<lastBuildDate>Tue, 17 Nov 2026 00:32:08 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 18 Nov 2026 01:18:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,22 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">246774307</site>	<item>
+		<title>Jazz in the Forest with JP Thoma &#038; the Jazztones</title>
+		<link>https://volcanoartcenter.org/jazz-in-the-forest-with-jp-thoma-the-jazztones/</link>
+		
+		<dc:creator><![CDATA[Volcano Art Center (JG)]]></dc:creator>
+		<pubDate>Wed, 18 Nov 2026 00:10:52 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://volcanoartcenter.org/?p=88920</guid>
+
+					<description><![CDATA[<p>Come celebrate the spirit of the holidays with JP Thoma and the Jazztones. Join us on Saturday, December 12th, at VAC Niaulani Campus, from 5:30pm &#8211; 7:30pm. Doors open at 5pm. Jean Pierre Thoma on saxes, Bub Prat on guitar and vocals, Owen Matsui on percussion and drums, and Gonzo on bass. Tickets are $25 [&#8230;]</p>
+<p>The post <a href="https://volcanoartcenter.org/jazz-in-the-forest-with-jp-thoma-the-jazztones/">Jazz in the Forest with JP Thoma &amp; the Jazztones</a> appeared first on <a href="https://volcanoartcenter.org">Volcano Art Center</a>.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">88920</post-id>	</item>
+		<item>
 		<title>Christmas in the Country: Annual Wreath Exhibition</title>
 		<link>https://volcanoartcenter.org/christmas-in-the-country-annual-wreath-exhibition/</link>
 		

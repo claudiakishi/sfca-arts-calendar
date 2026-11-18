@@ -16,7 +16,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:593df7f86be8c7ee899d@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;TZID=Pacific/Honolulu:20261130T173000
 DTEND;TZID=Pacific/Honolulu:20261130T190000
 SUMMARY:Talk Story with Joni Keamoai
@@ -32,7 +32,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:3830bbf8894dc605c53e@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;TZID=Pacific/Honolulu:20261201T100000
 DTEND;TZID=Pacific/Honolulu:20261201T103000
 SUMMARY:MOVE! | A Honolulu Theatre for Youth Production
@@ -50,7 +50,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:ab4bb8b462bf89eff7c1@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;TZID=Pacific/Honolulu:20261201T144500
 DTEND;TZID=Pacific/Honolulu:20261201T151500
 SUMMARY:MOVE! | A Honolulu Theatre for Youth Production
@@ -67,26 +67,8 @@ URL:https://www.librarieshawaii.org/event/hty-move-lihue/
 CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
-UID:c61eaef5141d0f9d07ff@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
-DTSTART;TZID=Pacific/Honolulu:20261117T170000
-DTEND;TZID=Pacific/Honolulu:20261117T183000
-SUMMARY:Princeville Moʻolelo: “The shell lei of Niʻihau” with Linda
-  Paik Moriarty
-DESCRIPTION:The Princeville Moʻolelo free lecture series will continue o
- n Tuesday\, November 17th with Linda Paik Moriarty. “Niʻihau  https:/
- /alohacalendar.com/events/princeville-moolelo-the-shell-lei-of-niihau-wi
- th-linda-paik-moriarty  Sources: AlohaCalendar https://alohacalendar.com
- /events/princeville-moolelo-the-shell-lei-of-niihau-with-linda-paik-mori
- arty
-LOCATION:Princeville Community Center (Kauai)
-URL:https://alohacalendar.com/events/princeville-moolelo-the-shell-lei-of
- -niihau-with-linda-paik-moriarty
-CATEGORIES:Festivals
-END:VEVENT
-BEGIN:VEVENT
 UID:733ef25b2768f4b7798f-opens@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Makai Music & Art Festival Kauai — opens
@@ -102,7 +84,7 @@ CATEGORIES:Concerts & Live Music
 END:VEVENT
 BEGIN:VEVENT
 UID:733ef25b2768f4b7798f-closes@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:Makai Music & Art Festival Kauai — closes (last day)
@@ -118,7 +100,7 @@ CATEGORIES:Concerts & Live Music
 END:VEVENT
 BEGIN:VEVENT
 UID:7ded70e033441a5e0ee9-opens@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Kauai Beach Resort Kauai Made Craft Fair Fridays — opens
@@ -135,7 +117,7 @@ CATEGORIES:Farmers Markets
 END:VEVENT
 BEGIN:VEVENT
 UID:7ded70e033441a5e0ee9-closes@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;VALUE=DATE:20270129
 DTEND;VALUE=DATE:20270130
 SUMMARY:Kauai Beach Resort Kauai Made Craft Fair Fridays — closes (last
@@ -153,7 +135,7 @@ CATEGORIES:Farmers Markets
 END:VEVENT
 BEGIN:VEVENT
 UID:7e727f1f2a3d37276ffc@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Aloha Friday Art Nights at Hale Līhuʻe
@@ -169,7 +151,7 @@ CATEGORIES:Food & Drink
 END:VEVENT
 BEGIN:VEVENT
 UID:44bdcd41408555b9b108-opens@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Kauai Museum 1st Thursday Courtyard Market — opens
@@ -186,7 +168,7 @@ CATEGORIES:Farmers Markets
 END:VEVENT
 BEGIN:VEVENT
 UID:44bdcd41408555b9b108-closes@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
 SUMMARY:Kauai Museum 1st Thursday Courtyard Market — closes (last day)
@@ -203,7 +185,7 @@ CATEGORIES:Farmers Markets
 END:VEVENT
 BEGIN:VEVENT
 UID:2ffb8a30dc66add89379@hawaii-arts-calendar
-DTSTAMP:20261117T183430Z
+DTSTAMP:20261118T180417Z
 DTSTART;TZID=Pacific/Honolulu:20261204T170000
 DTEND;TZID=Pacific/Honolulu:20261204T200000
 SUMMARY:Lights On Rice Parade

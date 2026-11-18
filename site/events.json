@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17 18:34 UTC",
+  "generated": "2026-11-18 18:03 UTC",
   "sources": [
     {
       "name": "SFCA",
@@ -19,12 +19,12 @@
     {
       "name": "Libraries",
       "status": "ok",
-      "detail": "50 arts/culture programs"
+      "detail": "49 arts/culture programs"
     },
     {
       "name": "Volcano Art Center",
       "status": "ok",
-      "detail": "4 upcoming events"
+      "detail": "5 upcoming events"
     },
     {
       "name": "The Creative City",
@@ -34,7 +34,7 @@
     {
       "name": "AlohaCalendar",
       "status": "ok",
-      "detail": "66 upcoming events"
+      "detail": "67 upcoming events"
     }
   ],
   "attribution": "Event information aggregated from the Hawaiʻi State Foundation on Culture and the Arts (SFCA), Capitol Modern: the Hawaiʻi State Art Museum, Hawaiʻi State Public Libraries, Volcano Art Center, The Creative City, and AlohaCalendar. Unofficial mirror; confirm details at the source.",
@@ -644,168 +644,6 @@
           "island": "oahu"
         },
         {
-          "title": "Empower’d Power Hour",
-          "description": "A welcoming space for LGBTQ+ teens and allies to hang out, make new friends, and connect with others. Come and meet new people, play games, chat, and enjoy a supportive community at the library! This event is hosted by Empower’d Maui Nui, Maui County’s LGBTQ+ Youth Network and is for teens age 13-19",
-          "category": "Library programs",
-          "provider": "Libraries",
-          "sources": [
-            {
-              "name": "Libraries",
-              "url": "https://www.librarieshawaii.org/event/empowerd-power-hour/2026-11-17/",
-              "label": "librarieshawaii.org"
-            }
-          ],
-          "venue": "Kahului Public Library (Maui)",
-          "date_start": "2026-11-17",
-          "date_end": "2026-11-17",
-          "date_display": "November 17, 2026",
-          "time_display": "5:00 PM - 6:30 PM HST",
-          "dt_start_utc": "2026-11-18T03:00:00Z",
-          "dt_end_utc": "2026-11-18T04:30:00Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Hawaiʻi State Public Libraries)",
-              "href": "https://www.librarieshawaii.org/event/empowerd-power-hour/2026-11-17/"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "hspl|10047155|2026-11-17",
-          "island": "maui-county"
-        },
-        {
-          "title": "HA: Breath of Life Evening Show",
-          "description": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
-          "category": "Cultural & Heritage",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-17",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Polynesian Cultural Center (Oahu)",
-          "date_start": "2026-11-17",
-          "date_end": "2026-12-01",
-          "date_display": "11 dates, November 17 – December 1, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-17"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.polynesia.com/packages"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|ha-breath-of-life-evening-show-2026-11-17",
-          "island": "oahu"
-        },
-        {
-          "title": "HUKI: Canoe Show at Polynesian Cultural Center",
-          "description": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
-          "category": "Cultural & Heritage",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-17",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Polynesian Cultural Center (Oahu)",
-          "date_start": "2026-11-17",
-          "date_end": "2026-12-01",
-          "date_display": "11 dates, November 17 – December 1, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-17"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.polynesia.com/packages"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|huki-canoe-show-at-polynesian-cultural-center-2026-11-17",
-          "island": "oahu"
-        },
-        {
-          "title": "Kupuna Movie Mornings – “WEST SIDE STORY” (1961)",
-          "description": "Doors Open: 10:30 AM Runtime: 152 minutes Venue: Hawaii Theatre Address: 1130 Bethel Street, Honolulu, HI 96813 Film Screening: West Side Story (1961)…",
-          "category": "Arts & Gallery",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/kupuna-movie-mornings-west-side-story-1961",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Hawaii Theatre Center (Oahu)",
-          "date_start": "2026-11-17",
-          "date_end": "2026-11-17",
-          "date_display": "November 17, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/kupuna-movie-mornings-west-side-story-1961"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000EUXRVMA5"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|kupuna-movie-mornings-west-side-story-1961",
-          "island": "oahu"
-        },
-        {
-          "title": "Princeville Moʻolelo: “The shell lei of Niʻihau” with Linda Paik Moriarty",
-          "description": "The Princeville Moʻolelo free lecture series will continue on Tuesday, November 17th with Linda Paik Moriarty. “Niʻihau",
-          "category": "Festivals",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/princeville-moolelo-the-shell-lei-of-niihau-with-linda-paik-moriarty",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Princeville Community Center (Kauai)",
-          "date_start": "2026-11-17",
-          "date_end": "2026-11-17",
-          "date_display": "November 17, 2026",
-          "time_display": "5:00 PM - 6:30 PM HST",
-          "dt_start_utc": "2026-11-18T03:00:00Z",
-          "dt_end_utc": "2026-11-18T04:30:00Z",
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/princeville-moolelo-the-shell-lei-of-niihau-with-linda-paik-moriarty"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|princeville-moolelo-the-shell-lei-of-niihau-with-linda-paik-moriarty",
-          "island": "kauai"
-        },
-        {
           "title": "Line Dancing At The Library",
           "description": "Learn line dancing at the Ewa Beach Library! Basics will be taught. Ages 14 and up.",
           "category": "Library programs",
@@ -957,40 +795,6 @@
           ],
           "fallback_month": null,
           "uid_seed": "aloha|cirque-du-soleil-auana-322",
-          "island": "oahu"
-        },
-        {
-          "title": "Lūʻau & HĀ: Breath of Life Show at Polynesian Cultural Center",
-          "description": "Time 4:40 - 8:35 pm",
-          "category": "Luaus",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Polynesian Cultural Center (Oahu)",
-          "date_start": "2026-11-18",
-          "date_end": "2026-11-18",
-          "date_display": "November 18, 2026",
-          "time_display": "12:00 PM HST",
-          "dt_start_utc": "2026-11-18T22:00:00Z",
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.polynesia.com/packages"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|lau-h-breath-of-life-show-at-polynesian-cultural-center",
           "island": "oahu"
         },
         {
@@ -1208,36 +1012,6 @@
           "island": "oahu"
         },
         {
-          "title": "Zine Club",
-          "description": "Are you curious about zines? Zines (short for magazines) are DIY publications that anyone can create. They’re a fun way to share your creative ideas with the world, and are easy to reproduce for distribution using our library copier (copying costs will be covered during the event). Work on your ideas, bring a favorite zine to share, and browse our zine collection for inspiration. All supplies…",
-          "category": "Library programs",
-          "provider": "Libraries",
-          "sources": [
-            {
-              "name": "Libraries",
-              "url": "https://www.librarieshawaii.org/event/zine-club-2026-03-30/2026-11-19/",
-              "label": "librarieshawaii.org"
-            }
-          ],
-          "venue": "Honoka‘a Public Library (Hawai‘i)",
-          "date_start": "2026-11-19",
-          "date_end": "2026-11-19",
-          "date_display": "November 19, 2026",
-          "time_display": "5:00 PM - 7:00 PM HST",
-          "dt_start_utc": "2026-11-20T03:00:00Z",
-          "dt_end_utc": "2026-11-20T05:00:00Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Hawaiʻi State Public Libraries)",
-              "href": "https://www.librarieshawaii.org/event/zine-club-2026-03-30/2026-11-19/"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "hspl|10036438|2026-11-19",
-          "island": "hawaii-island"
-        },
-        {
           "title": "Thursday Night at the Center: Your Life Is Art, November 19th",
           "description": "Volcano Art Center welcomes a panel of three women, Waiʻala Ahn, Mellony Puakea Soares, and Lynn Melena each from a different generation, background, and occupation. They will share their experiences of how art has been an active, and sometimes invisible, force throughout their journeys – and how you can uncover where inspiration and creativity dwell …",
           "category": "Volcano Art Center",
@@ -1266,6 +1040,108 @@
           "fallback_month": null,
           "uid_seed": "vac|88790",
           "island": "hawaii-island"
+        },
+        {
+          "title": "HA: Breath of Life Evening Show",
+          "description": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
+          "category": "Cultural & Heritage",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-19",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Polynesian Cultural Center (Oahu)",
+          "date_start": "2026-11-19",
+          "date_end": "2026-12-01",
+          "date_display": "10 dates, November 19 – December 1, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-19"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.polynesia.com/packages"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|ha-breath-of-life-evening-show-2026-11-19",
+          "island": "oahu"
+        },
+        {
+          "title": "Lūʻau & HĀ: Breath of Life Show at Polynesian Cultural Center",
+          "description": "Time 4:40 - 8:35 pm",
+          "category": "Luaus",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Polynesian Cultural Center (Oahu)",
+          "date_start": "2026-11-19",
+          "date_end": "2026-11-19",
+          "date_display": "November 19, 2026",
+          "time_display": "12:00 PM HST",
+          "dt_start_utc": "2026-11-19T22:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.polynesia.com/packages"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|lau-h-breath-of-life-show-at-polynesian-cultural-center",
+          "island": "oahu"
+        },
+        {
+          "title": "HUKI: Canoe Show at Polynesian Cultural Center",
+          "description": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
+          "category": "Cultural & Heritage",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-19",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Polynesian Cultural Center (Oahu)",
+          "date_start": "2026-11-19",
+          "date_end": "2026-12-01",
+          "date_display": "10 dates, November 19 – December 1, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-19"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.polynesia.com/packages"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|huki-canoe-show-at-polynesian-cultural-center-2026-11-19",
+          "island": "oahu"
         },
         {
           "title": "Navigating by the Stars",
@@ -2266,40 +2142,6 @@
           "island": "hawaii-island"
         },
         {
-          "title": "The Book of Mormon (Touring)",
-          "description": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
-          "category": "Arts & Gallery",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/the-book-of-mormon-touring",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Neal S Blaisdell Concert Hall (Oahu)",
-          "date_start": "2026-11-25",
-          "date_end": "2026-12-06",
-          "date_display": "11 dates, November 25 – December 6, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/the-book-of-mormon-touring"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-25-2026/event/0A00648EB7BE827A"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|the-book-of-mormon-touring",
-          "island": "oahu"
-        },
-        {
           "title": "ANA ‘Aha Mele Evening & Moonlight Concert",
           "description": "ANA 'Aha Mele Evening & Moonlight Concert Nobuyuki Tsujii & Fumiaki Miura As part of ANA's commitment to celebrating...",
           "category": "Arts & Gallery",
@@ -2331,6 +2173,40 @@
           ],
           "fallback_month": null,
           "uid_seed": "aloha|ana-aha-mele-evening-moonlight-concert-2026-11-25",
+          "island": "oahu"
+        },
+        {
+          "title": "The Book of Mormon (Touring)",
+          "description": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/the-book-of-mormon-touring",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Neal S Blaisdell Concert Hall (Oahu)",
+          "date_start": "2026-11-25",
+          "date_end": "2026-12-06",
+          "date_display": "11 dates, November 25 – December 6, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/the-book-of-mormon-touring"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-25-2026/event/0A00648EB7BE827A"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|the-book-of-mormon-touring",
           "island": "oahu"
         },
         {
@@ -2424,40 +2300,6 @@
           "island": "oahu"
         },
         {
-          "title": "The Nutcracker by Ballet Hawaii at Prince Waikiki",
-          "description": "Celebrate the holiday season with a special mini performance of The Nutcracker by Ballet Hawaii at Prince Waikiki. Enjoy",
-          "category": "Festivals",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/the-nutcracker-by-ballet-hawaii-at-prince-waikiki",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": null,
-          "date_start": "2026-11-28",
-          "date_end": "2026-11-28",
-          "date_display": "November 28, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/the-nutcracker-by-ballet-hawaii-at-prince-waikiki"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.princewaikiki.com/experience/activities-events/?eventId=mini-performances-of-the-nutcracker-by-ballet-hawaii-bb407101&preselectedDate=2026-11-28"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|the-nutcracker-by-ballet-hawaii-at-prince-waikiki",
-          "island": "oahu"
-        },
-        {
           "title": "10th Annual Keep it Kaimukī Saturday",
           "description": "Celebrate Small Business Saturday and 10 years of shopping local at the 10th Annual Keep it Kaimukī Saturday. This free,",
           "category": "Festivals",
@@ -2489,6 +2331,40 @@
           ],
           "fallback_month": null,
           "uid_seed": "aloha|10th-annual-keep-it-kaimuk-saturday",
+          "island": "oahu"
+        },
+        {
+          "title": "The Nutcracker by Ballet Hawaii at Prince Waikiki",
+          "description": "Celebrate the holiday season with a special mini performance of The Nutcracker by Ballet Hawaii at Prince Waikiki. Enjoy",
+          "category": "Festivals",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/the-nutcracker-by-ballet-hawaii-at-prince-waikiki",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": null,
+          "date_start": "2026-11-28",
+          "date_end": "2026-11-28",
+          "date_display": "November 28, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/the-nutcracker-by-ballet-hawaii-at-prince-waikiki"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.princewaikiki.com/experience/activities-events/?eventId=mini-performances-of-the-nutcracker-by-ballet-hawaii-bb407101&preselectedDate=2026-11-28"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|the-nutcracker-by-ballet-hawaii-at-prince-waikiki",
           "island": "oahu"
         },
         {
@@ -3183,6 +3059,40 @@
           "island": "maui-county"
         },
         {
+          "title": "Hōʻike Paepoʻo a me Kahanalu",
+          "description": "Friday, December 4, 2026 6 – 8 p.m. Atherton Hālau Free admission with registration Hōʻike Paepoʻo a me Kahanalu f",
+          "category": "Cultural & Heritage",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/hike-paepoo-a-me-kahanalu",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Bishop Museum (Oahu)",
+          "date_start": "2026-12-05",
+          "date_end": "2026-12-05",
+          "date_display": "December 5, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/hike-paepoo-a-me-kahanalu"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.bishopmuseum.org/calendar/ho%ca%bbike-paepo%ca%bbo-a-me-kahanalu/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|hike-paepoo-a-me-kahanalu",
+          "island": "oahu"
+        },
+        {
           "title": "Pearl Harbor Remembrance Day Movie: Tora! Tora! Tora!",
           "description": "Location: Meeting Room December 7, 2026 marks the 85th anniversary of the Imperial Japanese naval attack on Pearl Harbor. To commemorate this historic event, Kaimuki Public Library will be having a free screening of the World War II classic movie Tora! Tora! Tora! , a dramatization which chronicles the bombing of Pearl Harbor from both the Japanese and American points of view. This movie is rated…",
           "category": "Library programs",
@@ -3247,6 +3157,36 @@
           "island": "maui-county"
         },
         {
+          "title": "Mochi & Mistletoe Christmas Brunch",
+          "description": "Get into the holiday spirit with Mochi & Mistletoe Christmas Brunch at Romer House Waikiki. Enjoy a festive Sunday brunc",
+          "category": "Concerts & Live Music",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": null,
+          "date_start": "2026-12-06",
+          "date_end": "2026-12-06",
+          "date_display": "December 6, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|mochi-mistletoe-christmas-brunch",
+          "island": "oahu"
+        },
+        {
           "title": "MASTERS OF ILLUSION – UP CLOSE & PERSONAL",
           "description": "Featuring some of the world's best close-up and comedy magicians in an entertaining show for the entire family. It's lively, spontaneous, interactive and,…",
           "category": "Arts & Gallery",
@@ -3278,36 +3218,6 @@
           ],
           "fallback_month": null,
           "uid_seed": "aloha|masters-of-illusion-up-close-personal",
-          "island": "oahu"
-        },
-        {
-          "title": "Mochi & Mistletoe Christmas Brunch",
-          "description": "Get into the holiday spirit with Mochi & Mistletoe Christmas Brunch at Romer House Waikiki. Enjoy a festive Sunday brunc",
-          "category": "Concerts & Live Music",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": null,
-          "date_start": "2026-12-06",
-          "date_end": "2026-12-06",
-          "date_display": "December 6, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|mochi-mistletoe-christmas-brunch",
           "island": "oahu"
         },
         {
@@ -3375,6 +3285,40 @@
           "island": "hawaii-island"
         },
         {
+          "title": "Kupuna Movie Mornings – “IT’S A WONDERFUL LIFE” (1946)",
+          "description": "Series Title: Rise & Shine - Kupuna Movie Mornings It's a Wonderful Life (1946) Date and Time: Tuesday, December 8, 2026 Start Time: 11:30 AM Doors Open:…",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/kupuna-movie-mornings-its-a-wonderful-life-1946",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Hawaii Theatre Center (Oahu)",
+          "date_start": "2026-12-08",
+          "date_end": "2026-12-08",
+          "date_display": "December 8, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/kupuna-movie-mornings-its-a-wonderful-life-1946"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000Fqq3WMAR"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|kupuna-movie-mornings-its-a-wonderful-life-1946",
+          "island": "oahu"
+        },
+        {
           "title": "Christmas Around the World: Writing Circle",
           "description": "Join us for a special edition of our writing circle meetup that is all about Christmas around the world! We will be writing and reading original pieces about our experiences with celebrating Christmas around the world. Light refreshments will also be served.",
           "category": "Library programs",
@@ -3435,40 +3379,6 @@
           "island": "oahu"
         },
         {
-          "title": "DEBBIE GIBSON’S WINTERLICIOUS",
-          "description": "Get ready for an evening of holiday and hits with Debbie Gibson’s Winterlicious coming to Hawaii Theatre on December 10, 2026!🎤❤️With a blend of holiday…",
-          "category": "Arts & Gallery",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/debbie-gibsons-winterlicious",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Hawaii Theatre Center (Oahu)",
-          "date_start": "2026-12-10",
-          "date_end": "2026-12-10",
-          "date_display": "December 10, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/debbie-gibsons-winterlicious"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl000003n2bdMAA"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|debbie-gibsons-winterlicious",
-          "island": "oahu"
-        },
-        {
           "title": "The BLIND BOYS of ALABAMA",
           "description": "The BLIND BOYS of ALABAMA",
           "category": "Arts & Gallery",
@@ -3501,6 +3411,40 @@
           "fallback_month": null,
           "uid_seed": "aloha|the-blind-boys-of-alabama",
           "island": "maui-county"
+        },
+        {
+          "title": "DEBBIE GIBSON’S WINTERLICIOUS",
+          "description": "Get ready for an evening of holiday and hits with Debbie Gibson’s Winterlicious coming to Hawaii Theatre on December 10, 2026!🎤❤️With a blend of holiday…",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/debbie-gibsons-winterlicious",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Hawaii Theatre Center (Oahu)",
+          "date_start": "2026-12-10",
+          "date_end": "2026-12-10",
+          "date_display": "December 10, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/debbie-gibsons-winterlicious"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl000003n2bdMAA"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|debbie-gibsons-winterlicious",
+          "island": "oahu"
         },
         {
           "title": "WHOSE LIVE ANYWAY?",
@@ -3571,6 +3515,36 @@
           "island": "oahu"
         },
         {
+          "title": "Jazz in the Forest with JP Thoma & the Jazztones",
+          "description": "Come celebrate the spirit of the holidays with JP Thoma and the Jazztones. Join us on Saturday, December 12th, at VAC Niaulani Campus, from 5:30pm – 7:30pm. Doors open at 5pm. Jean Pierre Thoma on saxes, Bub Prat on guitar and vocals, Owen Matsui on percussion and drums, and Gonzo on bass. Tickets are $25 …",
+          "category": "Volcano Art Center",
+          "provider": "Volcano Art Center",
+          "sources": [
+            {
+              "name": "Volcano Art Center",
+              "url": "https://volcanoartcenter.org/jazz-in-the-forest-with-jp-thoma-the-jazztones/",
+              "label": "volcanoartcenter.org"
+            }
+          ],
+          "venue": "Volcano Art Center Niaulani Campus, Volcano Village",
+          "date_start": "2026-12-12",
+          "date_end": "2026-12-12",
+          "date_display": "December 12",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (Volcano Art Center)",
+              "href": "https://volcanoartcenter.org/jazz-in-the-forest-with-jp-thoma-the-jazztones/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "vac|88920",
+          "island": "hawaii-island"
+        },
+        {
           "title": "Lei Poʻo Workshop with Kumu Kuhi",
           "description": "Poʻo means \"head\" in Hawaiian, and a lei poʻo is a head lei or flower crown, often worn to celebrate special occasions such as weddings, graduations and hula performances. Often made with ferns, flowers, and foliage, a lei poʻo can be made using various methods, including wili (wrapping) or haku (braiding), making all haku leis lei poʻo, but not all lei poʻo haku leis. Your instructor, Kuhi…",
           "category": "Class",
@@ -3598,40 +3572,6 @@
           ],
           "fallback_month": null,
           "uid_seed": "tcc|6a9784699c5c7d13aa759e7b",
-          "island": "oahu"
-        },
-        {
-          "title": "SACRED HEARTS ACADEMY – THE NUTCRACKER 2026",
-          "description": "Sacred Hearts invites you to experience the magic of the holiday season with our presentation of The Nutcracker at the historic Hawaii Theatre! Let yourself…",
-          "category": "Arts & Gallery",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/sacred-hearts-academy-the-nutcracker-2026",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Hawaii Theatre Center (Oahu)",
-          "date_start": "2026-12-12",
-          "date_end": "2026-12-12",
-          "date_display": "December 12, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/sacred-hearts-academy-the-nutcracker-2026"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000FtSuHMAV"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|sacred-hearts-academy-the-nutcracker-2026",
           "island": "oahu"
         },
         {
@@ -3666,6 +3606,40 @@
           ],
           "fallback_month": null,
           "uid_seed": "aloha|ballet-hawaiis-the-nutcracker",
+          "island": "oahu"
+        },
+        {
+          "title": "SACRED HEARTS ACADEMY – THE NUTCRACKER 2026",
+          "description": "Sacred Hearts invites you to experience the magic of the holiday season with our presentation of The Nutcracker at the historic Hawaii Theatre! Let yourself…",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/sacred-hearts-academy-the-nutcracker-2026",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Hawaii Theatre Center (Oahu)",
+          "date_start": "2026-12-12",
+          "date_end": "2026-12-12",
+          "date_display": "December 12, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/sacred-hearts-academy-the-nutcracker-2026"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000FtSuHMAV"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|sacred-hearts-academy-the-nutcracker-2026",
           "island": "oahu"
         },
         {
@@ -3829,6 +3803,40 @@
           "fallback_month": null,
           "uid_seed": "hspl|293382|2026-12-15",
           "island": "hawaii-island"
+        },
+        {
+          "title": "JAKE SHIMABUKURO'S Holidays in Hawaiʻi",
+          "description": "JAKE SHIMABUKURO'S Holidays in Hawaiʻi",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/jake-shimabukuros-holidays-in-hawaii-2026-12-15",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Maui Arts & Cultural Center (Maui)",
+          "date_start": "2026-12-15",
+          "date_end": "2026-12-15",
+          "date_display": "December 15, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/jake-shimabukuros-holidays-in-hawaii-2026-12-15"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://mauiarts.org/show-details/jake-shimabukuros-holidays-in-hawaii_2026"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|jake-shimabukuros-holidays-in-hawaii-2026-12-15",
+          "island": "maui-county"
         },
         {
           "title": "HSO presents Hapa Holiday Extravaganza",
@@ -4600,6 +4608,36 @@
           "fallback_month": null,
           "uid_seed": "hspl|10046016|2027-01-21",
           "island": "oahu"
+        },
+        {
+          "title": "Zine Club",
+          "description": "Are you curious about zines? Zines (short for magazines) are DIY publications that anyone can create. They’re a fun way to share your creative ideas with the world, and are easy to reproduce for distribution using our library copier (copying costs will be covered during the event). Work on your ideas, bring a favorite zine to share, and browse our zine collection for inspiration. All supplies…",
+          "category": "Library programs",
+          "provider": "Libraries",
+          "sources": [
+            {
+              "name": "Libraries",
+              "url": "https://www.librarieshawaii.org/event/zine-club-honokaa/",
+              "label": "librarieshawaii.org"
+            }
+          ],
+          "venue": "Honoka‘a Public Library (Hawai‘i)",
+          "date_start": "2027-01-21",
+          "date_end": "2027-01-21",
+          "date_display": "January 21, 2027",
+          "time_display": "5:00 PM - 7:00 PM HST",
+          "dt_start_utc": "2027-01-22T03:00:00Z",
+          "dt_end_utc": "2027-01-22T05:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (Hawaiʻi State Public Libraries)",
+              "href": "https://www.librarieshawaii.org/event/zine-club-honokaa/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "hspl|296085|2027-01-21",
+          "island": "hawaii-island"
         },
         {
           "title": "All Buss Up in a HI State: A Trilogy of Hawaiʻi Plays",

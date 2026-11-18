@@ -1,213 +1,6 @@
 {
  "events": [
   {
-   "id": 10035720,
-   "url": "https://www.librarieshawaii.org/event/family-story-time-pahoa/2026-11-17/",
-   "title": "Family Story Time",
-   "description": "<p>Join us for Family Story Time every Tuesday morning! Come join us for fun stories, dances, and songs.</p>\n<p>There will be a free new book given to child participants the <strong>first story time of every month</strong> until December 2026. First come, first served. Thank you to the<a href=\"https://hawaiiactionstrategy.org/eccontinuums\"> Pahoa Promise Partnership</a> for their generous donations.</p>\n<p>Program is suitable for age 2 and over. All children must be accompanied by a parent or an adult caregiver.</p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedules are subject to change. Events will not be held on State holidays.</span></p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-17 10:30:00",
-   "end_date": "2026-11-17 11:00:00",
-   "utc_start_date": "2026-11-17 20:30:00",
-   "utc_end_date": "2026-11-17 21:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "books",
-     "name": "Books"
-    },
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    },
-    {
-     "slug": "storytime-for-kids",
-     "name": "Storytime (for kids)"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Pāhoa",
-    "city": "Pāhoa",
-    "url": "https://www.librarieshawaii.org/branch/pahoa-public-and-school-library/"
-   }
-  },
-  {
-   "id": 284794,
-   "url": "https://www.librarieshawaii.org/event/mahjong-morning-4-2-3-2-3-2-2-2-2-2-2-2-2-2-2/",
-   "title": "Mahjong Morning",
-   "description": "<p style=\"background: white;vertical-align: baseline;margin: 0in 0in 12.0pt 0in\"><span style=\"font-size: 13.5pt;font-family: &#039;Source Sans 3&#039;,sans-serif;color: #141827\">Interested in playing basic Chinese mahjong?  Stop by the library for a chance to play!  Tables are open for teen and adult players.  Beginners are welcome, but availability of instructors or mentors is not guaranteed.</span></p>\n<p>This program is sponsored by the Friends of the Library Kapolei.</p>\n<p style=\"background: white;vertical-align: baseline;margin: 0in 0in 21.0pt 0in\"><span style=\"font-size: 13.5pt;font-family: &#039;Source Sans 3&#039;,sans-serif;color: #141827\">Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</span></p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-17 11:00:00",
-   "end_date": "2026-11-17 13:30:00",
-   "utc_start_date": "2026-11-17 21:00:00",
-   "utc_end_date": "2026-11-17 23:30:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "games",
-     "name": "Games"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "O‘ahu &#8211; Kapolei",
-    "city": "Kapolei",
-    "url": "https://www.librarieshawaii.org/branch/kapolei-public-library/"
-   }
-  },
-  {
-   "id": 291286,
-   "url": "https://www.librarieshawaii.org/event/tuesday-chess-club-2/",
-   "title": "Tuesday Chess Club",
-   "description": "<p><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join the fun to learn new skills and participate in friendly competition!</span></strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Chess players of all skill levels and all ages are welcome to attend. Call the library if you’re interested in volunteering to teach!</span></p>\n<p>Mahalo nui to the <em>Friends of the Libraries, Kona</em> (F.O.L.K.) for sponsoring this program!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. For a schedule of events, go to the <a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-17 15:30:00",
-   "end_date": "2026-11-17 17:30:00",
-   "utc_start_date": "2026-11-18 01:30:00",
-   "utc_end_date": "2026-11-18 03:30:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "games",
-     "name": "Games"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Kailua-Kona",
-    "city": "Kailua-Kona",
-    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
-   }
-  },
-  {
-   "id": 291817,
-   "url": "https://www.librarieshawaii.org/event/pokemon-club-november-2026/",
-   "title": "Pokémon Club!",
-   "description": "<p class=\"cvGsUA direction-ltr align-center para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Gotta catch ‘em all! Meet up with friends to talk Pokémon, play the Pokémon trading card game, and learn how to play! </span></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Spaces are limited: contact the library to make a reservation.</span></strong></p>\n<p><strong>This program is appropriate for ages 5-14</strong></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Young children must be accompanied by a parent or adult caregiver.</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Mahalo nui to American Library Association, the Pokémon company, generous community donations, and the Friends of the Libraries, Kona (F.O.L.K.) for sponsoring this program!</span></p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\"><b>HSPLS Events Calendar</b></a>.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-17 16:00:00",
-   "end_date": "2026-11-17 17:30:00",
-   "utc_start_date": "2026-11-18 02:00:00",
-   "utc_end_date": "2026-11-18 03:30:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "films-movies",
-     "name": "Films &amp; Movies"
-    },
-    {
-     "slug": "games",
-     "name": "Games"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Kailua-Kona",
-    "city": "Kailua-Kona",
-    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
-   }
-  },
-  {
-   "id": 10047155,
-   "url": "https://www.librarieshawaii.org/event/empowerd-power-hour/2026-11-17/",
-   "title": "Empower&#8217;d Power Hour",
-   "description": "<p>A welcoming space for LGBTQ+ teens and allies to hang out, make new friends, and connect with others. Come and meet new people, play games, chat, and enjoy a supportive community at the library!</p>\n<p>This event is hosted by Empower’d Maui Nui, Maui County’s LGBTQ+ Youth Network and is for teens age 13-19</p>\n<p><span>Anyone wh</span><span>o requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</span></p>\n<p>&nbsp;</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-17 17:00:00",
-   "end_date": "2026-11-17 18:30:00",
-   "utc_start_date": "2026-11-18 03:00:00",
-   "utc_end_date": "2026-11-18 04:30:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Maui &#8211; Kahului",
-    "city": "Kahului",
-    "url": "https://www.librarieshawaii.org/branch/kahului-public-library/"
-   }
-  },
-  {
    "id": 10045522,
    "url": "https://www.librarieshawaii.org/event/tai-chi-chuan/2026-11-18/",
    "title": "Tai Chi Chuan",
@@ -1029,57 +822,6 @@
     "venue": "Hawai‘i &#8211; North Kohala",
     "city": "Kapa'au",
     "url": "https://www.librarieshawaii.org/branch/north-kohala-public-library/"
-   }
-  },
-  {
-   "id": 10036438,
-   "url": "https://www.librarieshawaii.org/event/zine-club-2026-03-30/2026-11-19/",
-   "title": "Zine Club",
-   "description": "<p>Are you curious about zines? Zines (short for magazines) are DIY publications that anyone can create. They&#8217;re a fun way to share your creative ideas with the world, and are easy to reproduce for distribution using our library copier (copying costs will be covered during the event). Work on your ideas, bring a favorite zine to share, and browse our zine collection for inspiration. All supplies (collage materials, paper, pens/pencils) will be provided, but feel free to bring in your own if you like. This event is geared towards teens and adults.</p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</span></p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-19 17:00:00",
-   "end_date": "2026-11-19 19:00:00",
-   "utc_start_date": "2026-11-20 03:00:00",
-   "utc_end_date": "2026-11-20 05:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "activities",
-     "name": "Arts &amp; Crafts"
-    },
-    {
-     "slug": "books",
-     "name": "Books"
-    },
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    },
-    {
-     "slug": "photography",
-     "name": "Photography"
-    },
-    {
-     "slug": "poetry",
-     "name": "Poetry"
-    },
-    {
-     "slug": "writing",
-     "name": "Writing"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Honoka‘a",
-    "city": "Honoka‘a",
-    "url": "https://www.librarieshawaii.org/branch/honokaa-public-library/"
    }
   },
   {
@@ -4160,6 +3902,49 @@
    }
   },
   {
+   "id": 296129,
+   "url": "https://www.librarieshawaii.org/event/mahjong-for-everyone-4/",
+   "title": "Mahjong for Everyone!",
+   "description": "<p>Interested in learning the basics of Chinese Mahjong or looking for a friendly group of competitors? Join us in our meeting room for a fun event that teaches you the fundamentals of this centuries-old game.  Reservations can be made online or by calling 808-233-5674 one week in advance as players will be limited to twenty a day.</p>\n<p><span class=\"WdYUQQ\">Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required.</span></p>\n<p>Program schedule is subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-11 11:00:00",
+   "end_date": "2026-12-11 13:00:00",
+   "utc_start_date": "2026-12-11 21:00:00",
+   "utc_end_date": "2026-12-11 23:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "Free",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "games",
+     "name": "Games"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Kāneʻohe",
+    "city": "Kāneʻohe",
+    "url": "https://www.librarieshawaii.org/branch/kaneohe-public-library/"
+   }
+  },
+  {
    "id": 10037365,
    "url": "https://www.librarieshawaii.org/event/mahjong_players_club_2025-2025-08-22/2026-12-11/",
    "title": "Mahjong Players Club",
@@ -6723,6 +6508,57 @@
     "venue": "O‘ahu &#8211; Liliha",
     "city": "Honolulu",
     "url": "https://www.librarieshawaii.org/branch/liliha-public-library/"
+   }
+  },
+  {
+   "id": 296085,
+   "url": "https://www.librarieshawaii.org/event/zine-club-honokaa/",
+   "title": "Zine Club",
+   "description": "<p>Are you curious about zines? Zines (short for magazines) are DIY publications that anyone can create. They&#8217;re a fun way to share your creative ideas with the world, and are easy to reproduce for distribution using our library copier (copying costs will be covered during the event). Work on your ideas, bring a favorite zine to share, and browse our zine collection for inspiration. All supplies (collage materials, paper, pens/pencils) will be provided, but feel free to bring in your own if you like. This event is geared towards teens and adults.</p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</span></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2027-01-21 17:00:00",
+   "end_date": "2027-01-21 19:00:00",
+   "utc_start_date": "2027-01-22 03:00:00",
+   "utc_end_date": "2027-01-22 05:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "photography",
+     "name": "Photography"
+    },
+    {
+     "slug": "poetry",
+     "name": "Poetry"
+    },
+    {
+     "slug": "writing",
+     "name": "Writing"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Honoka‘a",
+    "city": "Honoka‘a",
+    "url": "https://www.librarieshawaii.org/branch/honokaa-public-library/"
    }
   },
   {

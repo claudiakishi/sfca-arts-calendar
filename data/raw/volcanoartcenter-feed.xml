@@ -12,7 +12,7 @@
 	<atom:link href="https://volcanoartcenter.org/feed/" rel="self" type="application/rss+xml" />
 	<link>https://volcanoartcenter.org/</link>
 	<description>Where People, Art &#38; Nature Meet</description>
-	<lastBuildDate>Wed, 18 Nov 2026 01:18:56 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 20 Nov 2026 23:24:59 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,6 +28,22 @@
 	<height>32</height>
 </image> 
 <site xmlns="com-wordpress:feed-additions:1">246774307</site>	<item>
+		<title>Food From Wood: Mushroom Cultivation</title>
+		<link>https://volcanoartcenter.org/food-from-wood-mushroom-cultivation/</link>
+		
+		<dc:creator><![CDATA[Volcano Art Center (JG)]]></dc:creator>
+		<pubDate>Fri, 20 Nov 2026 23:24:53 +0000</pubDate>
+				<category><![CDATA[News]]></category>
+		<guid isPermaLink="false">https://volcanoartcenter.org/?p=88960</guid>
+
+					<description><![CDATA[<p>Instructor Zach Mermel will teach the basics of wood based mushroom cultivation in “Food from Wood: Growing Edible &#38; Medicinal Mushrooms on Logs, Stumps, and Wood Chips” on Saturday, February 27th, 2027, from 9am – 2pm at Volcano Art Center’s Niaulani Campus in Volcano Village. Wondering what to do with those undesirable exotic trees on [&#8230;]</p>
+<p>The post <a href="https://volcanoartcenter.org/food-from-wood-mushroom-cultivation/">Food From Wood: Mushroom Cultivation</a> appeared first on <a href="https://volcanoartcenter.org">Volcano Art Center</a>.</p>
+]]></description>
+		
+		
+		
+		<post-id xmlns="com-wordpress:feed-additions:1">88960</post-id>	</item>
+		<item>
 		<title>Jazz in the Forest with JP Thoma &#038; the Jazztones</title>
 		<link>https://volcanoartcenter.org/jazz-in-the-forest-with-jp-thoma-the-jazztones/</link>
 		
@@ -59,22 +75,6 @@
 		
 		
 		<post-id xmlns="com-wordpress:feed-additions:1">88914</post-id>	</item>
-		<item>
-		<title>Memoir Writing Workshop: The Process with Kimberly Dark</title>
-		<link>https://volcanoartcenter.org/memoir-writing-workshop-the-process-with-kimberly-dark/</link>
-		
-		<dc:creator><![CDATA[Volcano Art Center (JG)]]></dc:creator>
-		<pubDate>Thu, 12 Nov 2026 23:33:48 +0000</pubDate>
-				<category><![CDATA[News]]></category>
-		<guid isPermaLink="false">https://volcanoartcenter.org/?p=88884</guid>
-
-					<description><![CDATA[<p>Join Kimberly Dark for her Memoir Writing Workshop on November 21st, from 10am &#8211; 1pm. at VAC Niaulani Campus (19-4074 Old Volcano Road). Memories aren’t enough. We have to connect them to culture, to history, to zeitgeist—and then be as clear and specific about our unique perspectives as possible. In this generative workshop, we’ll open [&#8230;]</p>
-<p>The post <a href="https://volcanoartcenter.org/memoir-writing-workshop-the-process-with-kimberly-dark/">Memoir Writing Workshop: The Process with Kimberly Dark</a> appeared first on <a href="https://volcanoartcenter.org">Volcano Art Center</a>.</p>
-]]></description>
-		
-		
-		
-		<post-id xmlns="com-wordpress:feed-additions:1">88884</post-id>	</item>
 		<item>
 		<title>Stained Glass Workshop with Linda Brooks _ Saturdays, January 23rd &#8211; February 13th</title>
 		<link>https://volcanoartcenter.org/stained-glass-workshop-with-linda-brooks-call-808-967-8222-to-register-only-2-spaces-left/</link>

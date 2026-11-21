@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20 17:47 UTC",
+  "generated": "2026-11-21 16:46 UTC",
   "sources": [
     {
       "name": "SFCA",
@@ -9,7 +9,7 @@
     {
       "name": "Capitol Modern",
       "status": "ok",
-      "detail": "6 upcoming events"
+      "detail": "5 upcoming events"
     },
     {
       "name": "SFCA Events",
@@ -19,7 +19,7 @@
     {
       "name": "Libraries",
       "status": "ok",
-      "detail": "44 arts/culture programs"
+      "detail": "50 arts/culture programs"
     },
     {
       "name": "Volcano Art Center",
@@ -29,12 +29,12 @@
     {
       "name": "The Creative City",
       "status": "ok",
-      "detail": "34 upcoming events"
+      "detail": "73 upcoming events"
     },
     {
       "name": "AlohaCalendar",
       "status": "ok",
-      "detail": "68 upcoming events"
+      "detail": "65 upcoming events"
     }
   ],
   "attribution": "Event information aggregated from the Hawaiʻi State Foundation on Culture and the Arts (SFCA), Capitol Modern: the Hawaiʻi State Art Museum, Hawaiʻi State Public Libraries, Volcano Art Center, The Creative City, and AlohaCalendar. Unofficial mirror; confirm details at the source.",
@@ -584,6 +584,36 @@
           "island": "oahu"
         },
         {
+          "title": "Holiday Happenings 2026 on Oahu",
+          "description": "PARADES & FESTIVITIES FOR YOUR HOLIDAY CHEER! Click on the links below to learn more about individual Parades and Festivals taking place on Oahu in 2026. NOVEMBER 27, 2026 Waikiki Holiday Parade Kalihi Business Association 76th Annual Holiday Parade Liliha-Palama Christmas Parade NOVEMBER 28, 2026 Kapolei City Lights Parade, Opening Night Festivities, and Block Party Kapolei City Lights 2026 -…",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/37mtk2yla63fry4-t483g-ng9d4-gspw9-wh562-7x948-69y27-awc8n-kj9k5-8hh3z-bgbd9-psxpa-s5lba-886ez-sjtcg-gxhwn-2l8e2-ma524",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Various Locations on Oahu",
+          "date_start": "2026-11-01",
+          "date_end": "2027-01-03",
+          "date_display": "November 1, 2026 – January 3, 2027",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/37mtk2yla63fry4-t483g-ng9d4-gspw9-wh562-7x948-69y27-awc8n-kj9k5-8hh3z-bgbd9-psxpa-s5lba-886ez-sjtcg-gxhwn-2l8e2-ma524"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68dc4c411183b31a9df9352a",
+          "island": "oahu"
+        },
+        {
           "title": "Artists of Hawaiʻi Biennial 2026",
           "description": "The state’s largest and longest-running all-media juried exhibition, designed to showcase the best of Hawaiʻi’s contemporary art. Learn more",
           "category": "Art Exhibition",
@@ -641,364 +671,6 @@
           ],
           "fallback_month": null,
           "uid_seed": "tcc|6a988e0c857dbf099b168d17",
-          "island": "oahu"
-        },
-        {
-          "title": "Island Pulse",
-          "description": "Free, all-ages evening of island roots and reggae music. Museum galleries are open and the Art + Flea urban market will include local artists and food/beverage vendors.",
-          "category": "Capitol Modern",
-          "provider": "Capitol Modern",
-          "sources": [
-            {
-              "name": "Capitol Modern",
-              "url": "https://www.capitolmodern.org/events/island-pulse-11-20-2026",
-              "label": "capitolmodern.org"
-            }
-          ],
-          "venue": "Capitol Modern: the Hawaiʻi State Art Museum",
-          "date_start": "2026-11-20",
-          "date_end": "2026-11-20",
-          "date_display": "November 20, 2026",
-          "time_display": "5:30 PM - 9:30 PM HST",
-          "dt_start_utc": "2026-11-21T03:30:00.000Z",
-          "dt_end_utc": "2026-11-21T07:30:00.000Z",
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (Capitol Modern)",
-              "href": "https://www.capitolmodern.org/events/island-pulse-11-20-2026"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "capmod|/events/island-pulse-11-20-2026",
-          "island": "oahu"
-        },
-        {
-          "title": "Lucy Darling - Simply Darling",
-          "description": "Award-winning performer Carisa Hendrix stars as charming socialite and cocktail enthusiast Lucy Darling as she continues her vivacious vagabond voyages with Simply Darling , a touring variety show featuring her razor-sharp wit, unquestionable advice, and skillful magic. MORE INFO",
-          "category": "Comedy",
-          "provider": "The Creative City",
-          "sources": [
-            {
-              "name": "The Creative City",
-              "url": "https://www.thecreativecity.org/events/w8b5mxxc3x4tfah-k3flg-4pnwx-22phh-g9alh-fd9fj-m2w2a-dl262-7t6pt-ty4fw-yf4jl-z3f4e-wll2j-psysh-agtyz-7rlml-952tn-5h9ax-j5pyh-h8h6x-9ragk-szx5t-b8k2x-k8sbd-sz6wb",
-              "label": "thecreativecity.org"
-            }
-          ],
-          "venue": "Hawaii Theatre",
-          "date_start": "2026-11-20",
-          "date_end": "2026-11-20",
-          "date_display": "November 20, 2026",
-          "time_display": "7:30 PM - 8:30 PM HST",
-          "dt_start_utc": "2026-11-21T05:30:00Z",
-          "dt_end_utc": "2026-11-21T06:30:00Z",
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (The Creative City)",
-              "href": "https://www.thecreativecity.org/events/w8b5mxxc3x4tfah-k3flg-4pnwx-22phh-g9alh-fd9fj-m2w2a-dl262-7t6pt-ty4fw-yf4jl-z3f4e-wll2j-psysh-agtyz-7rlml-952tn-5h9ax-j5pyh-h8h6x-9ragk-szx5t-b8k2x-k8sbd-sz6wb"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "tcc|6a961cd287ac3d5439e11b96",
-          "island": "oahu"
-        },
-        {
-          "title": "Cirque du Soleil: Auana",
-          "description": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-          "category": "Arts & Gallery",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-326",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Outrigger Waikiki Beachcomber Hotel (Oahu)",
-          "date_start": "2026-11-20",
-          "date_end": "2027-01-31",
-          "date_display": "106 dates, November 20, 2026 – January 31, 2027",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/cirque-du-soleil-auana-326"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.ticketmaster.com/event/Z7r9jZ1A7j9jA"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|cirque-du-soleil-auana-326",
-          "island": "oahu"
-        },
-        {
-          "title": "HUKI: Canoe Show at Polynesian Cultural Center",
-          "description": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
-          "category": "Cultural & Heritage",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-20",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Polynesian Cultural Center (Oahu)",
-          "date_start": "2026-11-20",
-          "date_end": "2026-12-04",
-          "date_display": "11 dates, November 20 – December 4, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-20"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.polynesia.com/packages"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|huki-canoe-show-at-polynesian-cultural-center-2026-11-20",
-          "island": "oahu"
-        },
-        {
-          "title": "HA: Breath of Life Evening Show",
-          "description": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
-          "category": "Cultural & Heritage",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-20",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Polynesian Cultural Center (Oahu)",
-          "date_start": "2026-11-20",
-          "date_end": "2026-12-04",
-          "date_display": "11 dates, November 20 – December 4, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-20"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.polynesia.com/packages"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|ha-breath-of-life-evening-show-2026-11-20",
-          "island": "oahu"
-        },
-        {
-          "title": "Dr. Seuss’ How the Grinch Stole Christmas! The Musical",
-          "description": "Diamond Head Theatre's holiday show brings Dr. Seuss's story to the stage as the Grinch discovers the true meaning of Christmas, with music, dancing and…",
-          "category": "Arts & Gallery",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/dr-seuss-how-the-grinch-stole-christmas-the-musical",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Diamond Head Theatre (Oahu)",
-          "date_start": "2026-11-20",
-          "date_end": "2026-11-20",
-          "date_display": "November 20, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/dr-seuss-how-the-grinch-stole-christmas-the-musical"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://diamondheadtheatre.my.salesforce-sites.com/ticket/#/events/a0STO000005CJgj2AG"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|dr-seuss-how-the-grinch-stole-christmas-the-musical",
-          "island": "oahu"
-        },
-        {
-          "title": "Kauai Beach Resort Kauai Made Craft Fair Fridays",
-          "description": "🌺 Kaua‘i Beach Resort Craft Fair Join us every Friday at the beautiful Kaua‘i Beach Resort for our weekly Craft Fair. D",
-          "category": "Farmers Markets",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/kauai-beach-resort-kauai-made-craft-fair-fridays-2026-11-20",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Outrigger Kaua’i Beach Resort & Spa (Kauai)",
-          "date_start": "2026-11-20",
-          "date_end": "2027-01-29",
-          "date_display": "11 dates, November 20, 2026 – January 29, 2027",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/kauai-beach-resort-kauai-made-craft-fair-fridays-2026-11-20"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|kauai-beach-resort-kauai-made-craft-fair-fridays-2026-11-20",
-          "island": "kauai"
-        },
-        {
-          "title": "Aloha Friday Art Nights at Hale Līhuʻe",
-          "description": "Every Friday artist from all arts come together to do art. From sip and paint, open mic, writers garden, you name it. Al",
-          "category": "Food & Drink",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/aloha-friday-art-nights-at-hale-lhue-2026-11-20",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Hale Lihue (Kauai)",
-          "date_start": "2026-11-20",
-          "date_end": "2026-11-20",
-          "date_display": "November 20, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/aloha-friday-art-nights-at-hale-lhue-2026-11-20"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|aloha-friday-art-nights-at-hale-lhue-2026-11-20",
-          "island": "kauai"
-        },
-        {
-          "title": "ʻUkulele Guild of Hawaiʻi Workshops",
-          "description": "ʻUkulele Guild of Hawaiʻi Workshops Friday, November 20, 2026 9:00 a.m. – 4:00 p.m. Atherton Hālau FREE with Museum",
-          "category": "Cultural & Heritage",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/ukulele-guild-of-hawaii-workshops",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Bishop Museum (Oahu)",
-          "date_start": "2026-11-20",
-          "date_end": "2026-11-20",
-          "date_display": "November 20, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/ukulele-guild-of-hawaii-workshops"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.bishopmuseum.org/calendar/%ca%bbukulele-guild-of-hawai%ca%bbi-workshops/"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|ukulele-guild-of-hawaii-workshops",
-          "island": "oahu"
-        },
-        {
-          "title": "Kupua by Haili'ōpua Baker",
-          "description": "Kupua presents two traditional stories: “Ka ʻEnuhe” and “Ka Puhi a me Ka Loli”",
-          "category": "Concerts & Live Music",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/kupua-by-hailipua-baker-2026-11-20",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Kumu Kahua Theatre (Oahu)",
-          "date_start": "2026-11-20",
-          "date_end": "2026-11-20",
-          "date_display": "November 20, 2026",
-          "time_display": "7:00 PM - 9:30 PM HST",
-          "dt_start_utc": "2026-11-21T05:00:00Z",
-          "dt_end_utc": "2026-11-21T07:30:00Z",
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/kupua-by-hailipua-baker-2026-11-20"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.eventbrite.com/e/kupua-by-hailiopua-baker-tickets-1989971531419"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|kupua-by-hailipua-baker-2026-11-20",
-          "island": "oahu"
-        },
-        {
-          "title": "Fall Dance Concert by the Mid-Pacific School of the Arts - Friday 7:30pm",
-          "description": "Experience the magic of dance as the Mid-Pacific School of the Arts Dance and Hula programs are showcased at our Fall...",
-          "category": "Concerts & Live Music",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/fall-dance-concert-by-the-mid-pacific-school-of-the-arts-friday-730pm",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Leeward Community College Theatre (Oahu)",
-          "date_start": "2026-11-20",
-          "date_end": "2026-11-20",
-          "date_display": "November 20, 2026",
-          "time_display": "7:30 PM - 10:00 PM HST",
-          "dt_start_utc": "2026-11-21T05:30:00Z",
-          "dt_end_utc": "2026-11-21T08:00:00Z",
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/fall-dance-concert-by-the-mid-pacific-school-of-the-arts-friday-730pm"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.eventbrite.com/e/fall-dance-concert-by-the-mid-pacific-school-of-the-arts-friday-730pm-tickets-1992860737111"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|fall-dance-concert-by-the-mid-pacific-school-of-the-arts-friday-730pm",
           "island": "oahu"
         },
         {
@@ -1156,36 +828,6 @@
           "island": "oahu"
         },
         {
-          "title": "Memoir Writing Workshop: The Process with Kimberly Dark",
-          "description": "Join Kimberly Dark for her Memoir Writing Workshop on November 21st, from 10am – 1pm. at VAC Niaulani Campus (19-4074 Old Volcano Road). Memories aren’t enough. We have to connect them to culture, to history, to zeitgeist—and then be as clear and specific about our unique perspectives as possible. In this generative workshop, we’ll open …",
-          "category": "Volcano Art Center",
-          "provider": "Volcano Art Center",
-          "sources": [
-            {
-              "name": "Volcano Art Center",
-              "url": "https://volcanoartcenter.org/memoir-writing-workshop-the-process-with-kimberly-dark/",
-              "label": "volcanoartcenter.org"
-            }
-          ],
-          "venue": "Volcano Art Center Niaulani Campus, Volcano Village",
-          "date_start": "2026-11-21",
-          "date_end": "2026-11-21",
-          "date_display": "November 21",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (Volcano Art Center)",
-              "href": "https://volcanoartcenter.org/memoir-writing-workshop-the-process-with-kimberly-dark/"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "vac|88884",
-          "island": "hawaii-island"
-        },
-        {
           "title": "DAC Walking Tour: Art, History & Architecture in the HEART of Honolulu",
           "description": "Downtown Art Center (DAC) offers a unique way to experience the historical and artistic heritage of the HEART district of downtown Honolulu with this walking tour, led by Historian Gary R. Coover, author of \"Pocket Walking Tour of Honolulu's Royal Mile,” and veteran artist and educator Susan Hogan. Your guides will lead you on a lively 1.5 to 2-hour walk through streets layered with cultural,…",
           "category": "Art Discussion",
@@ -1216,29 +858,63 @@
           "island": "oahu"
         },
         {
-          "title": "Lūʻau & HĀ: Breath of Life Show at Polynesian Cultural Center",
-          "description": "Time 4:40 - 8:35 pm",
-          "category": "Luaus",
+          "title": "Cirque du Soleil: Auana",
+          "description": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+          "category": "Arts & Gallery",
           "provider": "AlohaCalendar",
           "sources": [
             {
               "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center",
+              "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-328",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Outrigger Waikiki Beachcomber Hotel (Oahu)",
+          "date_start": "2026-11-21",
+          "date_end": "2027-01-31",
+          "date_display": "104 dates, November 21, 2026 – January 31, 2027",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/cirque-du-soleil-auana-328"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.ticketmaster.com/event/Z7r9jZ1A7j9_A"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|cirque-du-soleil-auana-328",
+          "island": "oahu"
+        },
+        {
+          "title": "HUKI: Canoe Show at Polynesian Cultural Center",
+          "description": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
+          "category": "Cultural & Heritage",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-21",
               "label": "alohacalendar.com"
             }
           ],
           "venue": "Polynesian Cultural Center (Oahu)",
           "date_start": "2026-11-21",
-          "date_end": "2026-11-21",
-          "date_display": "November 21, 2026",
-          "time_display": "12:00 PM HST",
-          "dt_start_utc": "2026-11-21T22:00:00Z",
+          "date_end": "2026-12-05",
+          "date_display": "11 dates, November 21 – December 5, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
           "dt_end_utc": null,
-          "recurring": false,
+          "recurring": true,
           "links": [
             {
               "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center"
+              "href": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-21"
             },
             {
               "text": "Tickets",
@@ -1246,7 +922,41 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|lau-h-breath-of-life-show-at-polynesian-cultural-center",
+          "uid_seed": "aloha|huki-canoe-show-at-polynesian-cultural-center-2026-11-21",
+          "island": "oahu"
+        },
+        {
+          "title": "HA: Breath of Life Evening Show",
+          "description": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
+          "category": "Cultural & Heritage",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-21",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Polynesian Cultural Center (Oahu)",
+          "date_start": "2026-11-21",
+          "date_end": "2026-12-05",
+          "date_display": "11 dates, November 21 – December 5, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-21"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.polynesia.com/packages"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|ha-breath-of-life-evening-show-2026-11-21",
           "island": "oahu"
         },
         {
@@ -1454,6 +1164,40 @@
           "island": "oahu"
         },
         {
+          "title": "Kupua by Haili'ōpua Baker",
+          "description": "Kupua presents two traditional stories: “Ka ʻEnuhe” and “Ka Puhi a me Ka Loli”",
+          "category": "Concerts & Live Music",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/kupua-by-hailipua-baker-2026-11-21",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Kumu Kahua Theatre (Oahu)",
+          "date_start": "2026-11-21",
+          "date_end": "2026-11-21",
+          "date_display": "November 21, 2026",
+          "time_display": "7:00 PM - 9:30 PM HST",
+          "dt_start_utc": "2026-11-22T05:00:00Z",
+          "dt_end_utc": "2026-11-22T07:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/kupua-by-hailipua-baker-2026-11-21"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.eventbrite.com/e/kupua-by-hailiopua-baker-tickets-1989971532422"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|kupua-by-hailipua-baker-2026-11-21",
+          "island": "oahu"
+        },
+        {
           "title": "Fall Dance Concert by the Mid-Pacific School of the Arts - Saturday 7:30pm",
           "description": "Experience the magic of dance as the Mid-Pacific School of the Arts Dance and Hula programs are showcased at our Fall...",
           "category": "Concerts & Live Music",
@@ -1485,6 +1229,40 @@
           ],
           "fallback_month": null,
           "uid_seed": "aloha|fall-dance-concert-by-the-mid-pacific-school-of-the-arts-saturday-730pm",
+          "island": "oahu"
+        },
+        {
+          "title": "Lūʻau & HĀ: Breath of Life Show at Polynesian Cultural Center",
+          "description": "Time 4:40 - 8:35 pm",
+          "category": "Luaus",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Polynesian Cultural Center (Oahu)",
+          "date_start": "2026-11-22",
+          "date_end": "2026-11-22",
+          "date_display": "November 22, 2026",
+          "time_display": "12:00 PM HST",
+          "dt_start_utc": "2026-11-22T22:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.polynesia.com/packages"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|lau-h-breath-of-life-show-at-polynesian-cultural-center",
           "island": "oahu"
         },
         {
@@ -1808,6 +1586,156 @@
           "island": "hawaii-island"
         },
         {
+          "title": "Liliha/Palama Christmas Parade",
+          "description": "Starts at United Church of Christ, to Judd St., to Liliha St., to N. King St., to end at Kohou St.",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Judd St. to Liliha St. to N. King St., ends at Kohou St.",
+          "date_start": "2026-11-27",
+          "date_end": "2026-11-27",
+          "date_display": "November 27, 2026",
+          "time_display": "5:30 PM - 6:30 PM HST",
+          "dt_start_utc": "2026-11-28T03:30:00Z",
+          "dt_end_utc": "2026-11-28T04:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68db050f93118a089f47ba59",
+          "island": "oahu"
+        },
+        {
+          "title": "Kalihi Business Association 77th Annual Holiday Parade",
+          "description": "Get ready for the 2026 Kalihi Business Association and FACF Holiday Parade. This year marks the 77th Year of this great event. The parade kicks off the holiday season in Kalihi and is a highlight for many keiki, residents, businesses and organizations in the community. MORE INFO",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Start at Kalihi Union. Church (2214 N. King St.), ends at Kamehameha Shopping Center",
+          "date_start": "2026-11-27",
+          "date_end": "2026-11-27",
+          "date_display": "November 27, 2026",
+          "time_display": "6:00 PM - 7:00 PM HST",
+          "dt_start_utc": "2026-11-28T04:00:00Z",
+          "dt_end_utc": "2026-11-28T05:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68db09831fef7b1b58d5bb93",
+          "island": "oahu"
+        },
+        {
+          "title": "Waikiki Holiday Parade",
+          "description": "The parade begins with warm-up and step-off from Fort DeRussy Park and ends at Queen Kapiolani Park. The torch-lit parade route travels approximately 1.5 miles along Waikiki’s main thoroughfare, Kalakaua Avenue, with festive scenery of Waikiki Beach as your backdrop. On your left, tall, twinkling hotels and restaurants are teeming with flowers, torches and spectators; to your right grand palms &…",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-cb8r2",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Down Kalakaua Avenue, ends at Kapiolani Park",
+          "date_start": "2026-11-27",
+          "date_end": "2026-11-27",
+          "date_display": "November 27, 2026",
+          "time_display": "6:30 PM - 9:30 PM HST",
+          "dt_start_utc": "2026-11-28T04:30:00Z",
+          "dt_end_utc": "2026-11-28T07:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-cb8r2"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68db0c857cfe9735f89a06c8",
+          "island": "oahu"
+        },
+        {
+          "title": "Underwater Fun",
+          "description": "The Rotary Club of Upcountry Maui will host a Paint Party FUNdraiser with Island Art Party on Friday, Nov. 27, from 3 to",
+          "category": "Cultural & Heritage",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/underwater-fun",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": null,
+          "date_start": "2026-11-27",
+          "date_end": "2026-11-27",
+          "date_display": "November 27, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/underwater-fun"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|underwater-fun",
+          "island": "maui-county"
+        },
+        {
+          "title": "Kauai Beach Resort Kauai Made Craft Fair Fridays",
+          "description": "🌺 Kaua‘i Beach Resort Craft Fair Join us every Friday at the beautiful Kaua‘i Beach Resort for our weekly Craft Fair. D",
+          "category": "Farmers Markets",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/kauai-beach-resort-kauai-made-craft-fair-fridays-2026-11-27",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Outrigger Kaua’i Beach Resort & Spa (Kauai)",
+          "date_start": "2026-11-27",
+          "date_end": "2027-01-29",
+          "date_display": "10 dates, November 27, 2026 – January 29, 2027",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/kauai-beach-resort-kauai-made-craft-fair-fridays-2026-11-27"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|kauai-beach-resort-kauai-made-craft-fair-fridays-2026-11-27",
+          "island": "kauai"
+        },
+        {
           "title": "Friday Night Funny - Tipsy Pig II",
           "description": "Kick off Friday night with big laughs, good drinks, and hilarious comedy at Tipsy Pig II!",
           "category": "Concerts & Live Music",
@@ -1932,6 +1860,75 @@
           "island": "oahu"
         },
         {
+          "title": "Hawaii Kai Holiday Parade",
+          "description": "Coordinated by the Hawaii Kai Lions Club and sponsored by Koko Marina Center. Parade ends at Koko Marina Center, followed by the Koko Marina. Center Christmas Carnival Celebration. Bring the keiki, bring the ‘ohana! (activities subject to change) Visit and take photos with Santa Claus and his Elf Keiki Hula Cookie Decorating Popcorn Booth Carnival Games Donate a toy! Bring a new unwrapped toy to…",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-cb8r2-h8lx7",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Kamiloiki Park, Lunalilo Home Road, ends at Koko Marina Shopping Center",
+          "date_start": "2026-11-28",
+          "date_end": "2026-11-28",
+          "date_display": "November 28, 2026",
+          "time_display": "9:00 AM - 12:00 PM HST",
+          "dt_start_utc": "2026-11-28T19:00:00Z",
+          "dt_end_utc": "2026-11-28T22:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-cb8r2-h8lx7"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68db0eebac10285a5ab74419",
+          "island": "oahu"
+        },
+        {
+          "title": "Kapolei City Lights Parade, Opening Night Festivities & Block Party 2026",
+          "description": "Each year, Kapolei City Lights kicks-off with Opening Night Festivities featuring a wonderful Block Party and dazzling Parade centered around Kapolei Hale! For 2025, the opening night is set for Saturday, December 6!! Block Party Showcasing a wide variety of local vendors, live music, and excellent eateries, the Block Party is scheduled for Saturday, December 6 around Kapolei Hale. We’ve got so…",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-j2cjr-tr96f-zhbhr",
+              "label": "thecreativecity.org"
+            },
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-j2cjr-tr96f-jekxr",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Kapolei Hale",
+          "date_start": "2026-11-28",
+          "date_end": "2026-11-28",
+          "date_display": "November 28, 2026",
+          "time_display": "5:30 PM - 7:00 PM HST",
+          "dt_start_utc": "2026-11-29T03:30:00Z",
+          "dt_end_utc": "2026-11-29T05:00:00Z",
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-j2cjr-tr96f-zhbhr"
+            },
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-j2cjr-tr96f-jekxr"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68ae69d9c81e6a581dbab78c",
+          "island": "oahu"
+        },
+        {
           "title": "10th Annual Keep it Kaimukī Saturday",
           "description": "Celebrate Small Business Saturday and 10 years of shopping local at the 10th Annual Keep it Kaimukī Saturday. This free,",
           "category": "Festivals",
@@ -1997,6 +1994,66 @@
           ],
           "fallback_month": null,
           "uid_seed": "aloha|the-nutcracker-by-ballet-hawaii-at-prince-waikiki",
+          "island": "oahu"
+        },
+        {
+          "title": "Santa Claus Story Time at Kaneohe Public Library",
+          "description": "Santa Claus is traveling throughout the islands and making special visits to several libraries! Join us for a cheerful 30-minute story time featuring festive holiday tales. Afterward, keiki and their families can meet Santa and take their own photos, so be sure to bring a camera to capture the moment. Each keiki will receive a fun holiday gift from Santa. This free program is recommended for…",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-c6kzf-p33x9-rtfgb-8przz",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Kaneohe Public Library",
+          "date_start": "2026-11-29",
+          "date_end": "2026-11-29",
+          "date_display": "November 29, 2026",
+          "time_display": "2:00 PM - 2:30 PM HST",
+          "dt_start_utc": "2026-11-30T00:00:00Z",
+          "dt_end_utc": "2026-11-30T00:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-c6kzf-p33x9-rtfgb-8przz"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|6931ef197297ee3d2b1ac954",
+          "island": "oahu"
+        },
+        {
+          "title": "Hawaii Youth Symphony Winter Concert (Free Admission)",
+          "description": "The Hawaii Youth Symphony is among the largest youth symphony programs in the country, serving 700 students annually from more than 100 schools across the state. Incorporated in 1964 with a single 80-member orchestra, HYS has grown nearly 8-fold in the past half century with 13 different programs. We offer a complete spectrum of out-of-school music programs organized under the following sections:…",
+          "category": "Music",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-383l2-z3g3x-jlpkp",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Moanalua High School Performing Arts Center",
+          "date_start": "2026-11-29",
+          "date_end": "2026-11-29",
+          "date_display": "November 29, 2026",
+          "time_display": "5:00 PM - 6:30 PM HST",
+          "dt_start_utc": "2026-11-30T03:00:00Z",
+          "dt_end_utc": "2026-11-30T04:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-383l2-z3g3x-jlpkp"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|691fcd16754e3c5e87b53b5d",
           "island": "oahu"
         },
         {
@@ -2122,6 +2179,36 @@
           "fallback_month": null,
           "uid_seed": "hspl|295479|2026-11-30",
           "island": "kauai"
+        },
+        {
+          "title": "Santa Claus Story Time at Mililani Public Library",
+          "description": "Santa Claus is traveling throughout the islands and making special visits to several libraries! Join us for a cheerful 30-minute story time featuring festive holiday tales. Afterward, keiki and their families can meet Santa and take their own photos, so be sure to bring a camera to capture the moment. Each keiki will receive a fun holiday gift from Santa. This free program is recommended for…",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-c6kzf-p33x9-rtfgb",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Mililani Public Library",
+          "date_start": "2026-11-30",
+          "date_end": "2026-12-05",
+          "date_display": "November 30 – December 5, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-c6kzf-p33x9-rtfgb"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|6931ee4c781b414f4bce78db",
+          "island": "oahu"
         }
       ]
     },
@@ -2220,6 +2307,36 @@
           "island": "hawaii-island"
         },
         {
+          "title": "North Shore Singer’s Company Presents “Gifts of the Season”",
+          "description": "May Shumway’s North Shore Singer’s Company is back for a wonderous winter concert. This year’s theme is “Gifts of the Season”. Join us in ringing in the holidays with the coolest choir around! All ages welcome",
+          "category": "Library programs",
+          "provider": "Libraries",
+          "sources": [
+            {
+              "name": "Libraries",
+              "url": "https://www.librarieshawaii.org/event/north-shore-singers-company-presents-gifts-of-the-season/",
+              "label": "librarieshawaii.org"
+            }
+          ],
+          "venue": "Kahuku Public Library (O‘ahu)",
+          "date_start": "2026-12-01",
+          "date_end": "2026-12-01",
+          "date_display": "December 1, 2026",
+          "time_display": "5:00 PM - 6:00 PM HST",
+          "dt_start_utc": "2026-12-02T03:00:00Z",
+          "dt_end_utc": "2026-12-02T04:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (Hawaiʻi State Public Libraries)",
+              "href": "https://www.librarieshawaii.org/event/north-shore-singers-company-presents-gifts-of-the-season/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "hspl|296564|2026-12-01",
+          "island": "oahu"
+        },
+        {
           "title": "Mele Mai Paki Lima Community Handbell Ensemble",
           "description": "Join us for the melodic holiday tunes chimed by Mele Mai Paki Lima Community Handbell Ensemble. The delightful chines will bring winter cheer to the season. All ages are welcome. Children must be accompanied by a parent or an adult caregiver.",
           "category": "Library programs",
@@ -2307,6 +2424,36 @@
           ],
           "fallback_month": null,
           "uid_seed": "tcc|6a974fb61551d83fe97ec2e5",
+          "island": "oahu"
+        },
+        {
+          "title": "Holiday Brass with Honolulu Brass Quintet & Friends 2026",
+          "description": "Revel in the festive spirit as the Honolulu Brass Quintet and choir fill the Cathedral with holiday joy. MORE INFO",
+          "category": "Music",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-c6kzf",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Cathedral of St. Andrew",
+          "date_start": "2026-12-02",
+          "date_end": "2026-12-02",
+          "date_display": "December 2, 2026",
+          "time_display": "7:00 PM - 8:00 PM HST",
+          "dt_start_utc": "2026-12-03T05:00:00Z",
+          "dt_end_utc": "2026-12-03T06:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-c6kzf"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68e47c59680eae43fed38460",
           "island": "oahu"
         },
         {
@@ -2559,6 +2706,36 @@
           "island": "oahu"
         },
         {
+          "title": "Wahiawa Town Santa Parade",
+          "description": "The parade will start from Kaala Elementary at 6:30pm, going up California Avenue, and ending at North Cane Street.",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-7k2yk",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Ka'ala Elementary School, to California Ave., ends at Fred Wright Park",
+          "date_start": "2026-12-04",
+          "date_end": "2026-12-04",
+          "date_display": "December 4, 2026",
+          "time_display": "5:30 PM - 6:30 PM HST",
+          "dt_start_utc": "2026-12-05T03:30:00Z",
+          "dt_end_utc": "2026-12-05T04:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-7k2yk"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68db16436dbc7f2410fc1aef",
+          "island": "oahu"
+        },
+        {
           "title": "Aloha Christmas! Lobby Party at Romer House Waikiki",
           "description": "Celebrate the holiday season at Romer House Waikiki's Aloha Christmas! lobby party. Enjoy a festive evening with live DJ",
           "category": "Concerts & Live Music",
@@ -2653,6 +2830,75 @@
           "island": "oahu"
         },
         {
+          "title": "62nd Kaneohe Christmas Parade",
+          "description": "Photos by Castle High School Yearbook Staff The 62st Kaneohe Christmas Parade, when Kaneohe transforms into Christmas Town! Parade begins at Windward Mall and finishes at Castle High School. Usher in the holiday season for all of Windward Oʻahu! MORE INFO",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-xa4b6",
+              "label": "thecreativecity.org"
+            },
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-m6pkt",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Windward Mall, Kamehameha Hwy, Kaneohe Bay Dr, Castle High School",
+          "date_start": "2026-12-05",
+          "date_end": "2026-12-05",
+          "date_display": "December 5, 2026",
+          "time_display": "5:00 AM - 6:00 PM HST",
+          "dt_start_utc": "2026-12-05T15:00:00Z",
+          "dt_end_utc": "2026-12-06T04:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-xa4b6"
+            },
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-m6pkt"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68e486a9dc2303576bbd3573",
+          "island": "oahu"
+        },
+        {
+          "title": "39th Mililani Ohana Holiday Parade",
+          "description": "Bring your ohana and beach chairs to watch hundreds of Parade Marchers including Mililani High School Band, Hula Hãlau's, Community Groups, Schools, Local Businesses, Neighborhood Organizations, Beauty Queens, and Santa Claus! Parade starts at Mililani High School Kauinana Stadium and will travel along Kipapa Drive past Millani Shopping Center, to Moenamanu St., then onto Kuahelani Ave., and…",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-cb8r2-h8lx7-3rgds",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Mililani. High School to Town Center of Mililani",
+          "date_start": "2026-12-05",
+          "date_end": "2026-12-05",
+          "date_display": "December 5, 2026",
+          "time_display": "9:00 AM - 10:30 AM HST",
+          "dt_start_utc": "2026-12-05T19:00:00Z",
+          "dt_end_utc": "2026-12-05T20:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-cb8r2-h8lx7-3rgds"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68db18a4ae0f4d6f3b7136a5",
+          "island": "oahu"
+        },
+        {
           "title": "DAC Walking Tour: Art, History & Architecture in the HEART of Honolulu",
           "description": "Downtown Art Center (DAC) offers a unique way to experience the historical and artistic heritage of the HEART district of downtown Honolulu with this walking tour, led by Historian Gary R. Coover, author of \"Pocket Walking Tour of Honolulu's Royal Mile,” and veteran artist and educator Susan Hogan. Your guides will lead you on a lively 1.5 to 2-hour walk through streets layered with cultural,…",
           "category": "Art Discussion",
@@ -2683,38 +2929,94 @@
           "island": "oahu"
         },
         {
-          "title": "The 20th Annual Paradise Studio Tour",
-          "description": "",
-          "category": "Food & Drink",
-          "provider": "AlohaCalendar",
+          "title": "Kamehameha Schools: Christmas Concert 2026",
+          "description": "Celebrate the Christmas season with the beautiful voices and hula of our youngest learners as nā haumāna o ke kula haʻahaʻa present their annual Christmas Concert. MORE INFO",
+          "category": "Music",
+          "provider": "The Creative City",
           "sources": [
             {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/the-20th-annual-paradise-studio-tour-2026-12-05",
-              "label": "alohacalendar.com"
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-pabnz-ljjce",
+              "label": "thecreativecity.org"
             }
           ],
-          "venue": "Hawaiian Paradise Park, Puna (Big Island)",
+          "venue": "Neal S. Blaisdell Arena",
           "date_start": "2026-12-05",
           "date_end": "2026-12-05",
           "date_display": "December 5, 2026",
-          "time_display": "10:00 AM HST",
-          "dt_start_utc": "2026-12-05T20:00:00Z",
-          "dt_end_utc": null,
+          "time_display": "3:00 PM - 7:00 PM HST",
+          "dt_start_utc": "2026-12-06T01:00:00Z",
+          "dt_end_utc": "2026-12-06T05:00:00Z",
           "recurring": false,
           "links": [
             {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/the-20th-annual-paradise-studio-tour-2026-12-05"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.paradisestudiotour.com/"
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-pabnz-ljjce"
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|the-20th-annual-paradise-studio-tour-2026-12-05",
-          "island": "hawaii-island"
+          "uid_seed": "tcc|68e080c2db3a5d58d387ce7a",
+          "island": "oahu"
+        },
+        {
+          "title": "Honolulu City Lights Opening Night, Light Parade, Block Party & Tree Lighting Ceremony",
+          "description": "HONOLULU CITY LIGHTS IS PRESENTED BY THE CITY AND COUNTY OF HONOLULU IN PARTNERSHIP WITH THE FRIENDS OF HONOLULU CITY LIGHTS. Free Opening Ceremony: Begins at 5:30 PM and the lights are scheduled to be turned on at approximately 6 PM Public Workers' Electric Light Parade: The parade travels on King Street, from River Street to Kawaiahao Street. Step-off is at approximately 6 PM and the first unit…",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Chinatown to Honolulu Hale",
+          "date_start": "2026-12-05",
+          "date_end": "2026-12-05",
+          "date_display": "December 5, 2026",
+          "time_display": "6:00 PM - 9:00 PM HST",
+          "dt_start_utc": "2026-12-06T04:00:00Z",
+          "dt_end_utc": "2026-12-06T07:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68ae689540eee07fe2815e97",
+          "island": "oahu"
+        },
+        {
+          "title": "Honolulu City Lights 2026 Christmas Trees & Wreaths Display “Christmas in the Country”",
+          "description": "HONOLULU CITY LIGHTS IS PRESENTED BY THE CITY AND COUNTY OF HONOLULU IN PARTNERSHIP WITH THE FRIENDS OF HONOLULU CITY LIGHTS. Free The Honolulu Hale Christmas Trees on display are decorated by City Departments, bringing each department’s unique attributes to the display. MORE INFO",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-d2paa",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Honolulu Hale",
+          "date_start": "2026-12-05",
+          "date_end": "2026-12-30",
+          "date_display": "December 5 – 30, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-d2paa"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68ddda3ea3238350f544571c",
+          "island": "oahu"
         },
         {
           "title": "IRATION",
@@ -2749,6 +3051,40 @@
           "fallback_month": null,
           "uid_seed": "aloha|iration-2026-12-05",
           "island": "maui-county"
+        },
+        {
+          "title": "The 20th Annual Paradise Studio Tour",
+          "description": "",
+          "category": "Food & Drink",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/the-20th-annual-paradise-studio-tour-2026-12-05",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Hawaiian Paradise Park, Puna (Big Island)",
+          "date_start": "2026-12-05",
+          "date_end": "2026-12-05",
+          "date_display": "December 5, 2026",
+          "time_display": "10:00 AM HST",
+          "dt_start_utc": "2026-12-05T20:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/the-20th-annual-paradise-studio-tour-2026-12-05"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.paradisestudiotour.com/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|the-20th-annual-paradise-studio-tour-2026-12-05",
+          "island": "hawaii-island"
         },
         {
           "title": "MELE KALIKIMAKA, EI NEI",
@@ -2849,18 +3185,147 @@
           "island": "oahu"
         },
         {
-          "title": "Mochi & Mistletoe Christmas Brunch",
-          "description": "Get into the holiday spirit with Mochi & Mistletoe Christmas Brunch at Romer House Waikiki. Enjoy a festive Sunday brunc",
-          "category": "Concerts & Live Music",
+          "title": "Hawaii Youth Symphony Academy Strings Winter Concert (Free Admission)",
+          "description": "The Hawaii Youth Symphony is among the largest youth symphony programs in the country, serving 700 students annually from more than 100 schools across the state. Incorporated in 1964 with a single 80-member orchestra, HYS has grown nearly 8-fold in the past half century with 13 different programs. We offer a complete spectrum of out-of-school music programs organized under the following sections:…",
+          "category": "Music",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-383l2",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Moanalua High School Performing Arts Center",
+          "date_start": "2026-12-06",
+          "date_end": "2026-12-06",
+          "date_display": "December 6, 2026",
+          "time_display": "10:30 AM - 12:00 PM HST",
+          "dt_start_utc": "2026-12-06T20:30:00Z",
+          "dt_end_utc": "2026-12-06T22:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-383l2"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|691fca5a07302b1afc57a045",
+          "island": "oahu"
+        },
+        {
+          "title": "Street Bikers United-Toys for Tots Caravan Honolulu",
+          "description": "Vroom, Vroom for Toys! MORE INFO",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-d42wf",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Ala Moana Beach Park, thru Kalakaua Ave, to Waikiki Shell",
+          "date_start": "2026-12-06",
+          "date_end": "2026-12-06",
+          "date_display": "December 6, 2026",
+          "time_display": "11:00 AM - 12:30 PM HST",
+          "dt_start_utc": "2026-12-06T21:00:00Z",
+          "dt_end_utc": "2026-12-06T22:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-d42wf"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68db2375b1f76b3e859abb0b",
+          "island": "oahu"
+        },
+        {
+          "title": "Make-A-Wish Jingle Rock Run & Festivities",
+          "description": "3:00 p.m. – Festivities begin Enjoy entertainment, keiki activities, keiki crafts, and food trucks on the event lawn. 4:00 p.m. – Keiki Sprint presented by United Airlines A fun-filled dash for children ages 12 and younger. Everyone is a winner! 5:00 p.m. – Jingle Rock Run A cheerful sunset stroll through beautiful Kaka‘ako Waterfront Park MORE INFO",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Kakaako Waterfront Park",
+          "date_start": "2026-12-06",
+          "date_end": "2026-12-06",
+          "date_display": "December 6, 2026",
+          "time_display": "3:00 PM - 6:00 PM HST",
+          "dt_start_utc": "2026-12-07T01:00:00Z",
+          "dt_end_utc": "2026-12-07T04:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68db1421b1f76b3e8597702d",
+          "island": "oahu"
+        },
+        {
+          "title": "Pearl City Christmas Parade",
+          "description": "Holiday cheer will once again grace the neighboring community, bringing joy to its residents! Sponsored by the Pearl City Shopping Center Merchants Association and partners with Pearl City High School Project Grad, who volunteer to coordinate the festive parade. After the parade, check out the BLEIZN FX Cruz Night Car Show featuring by invitation only… dozens of Hawaii's top Hot Rods & Classic…",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-43grm-8xs8l",
+              "label": "thecreativecity.org"
+            },
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-43grm",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Momilani Elementary to Pearl City Shopping Center",
+          "date_start": "2026-12-06",
+          "date_end": "2026-12-06",
+          "date_display": "December 6, 2026",
+          "time_display": "4:00 PM - 5:00 PM HST",
+          "dt_start_utc": "2026-12-07T02:00:00Z",
+          "dt_end_utc": "2026-12-07T03:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-43grm-8xs8l"
+            },
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-43grm"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68db28f1ac10285a5abd54b8",
+          "island": "oahu"
+        },
+        {
+          "title": "MAUI POPS ORCHESTRA - Holiday Pops",
+          "description": "MAUI POPS ORCHESTRA - Holiday Pops",
+          "category": "Arts & Gallery",
           "provider": "AlohaCalendar",
           "sources": [
             {
               "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch",
+              "url": "https://alohacalendar.com/events/maui-pops-orchestra-holiday-pops",
               "label": "alohacalendar.com"
             }
           ],
-          "venue": null,
+          "venue": "Maui Arts & Cultural Center (Maui)",
           "date_start": "2026-12-06",
           "date_end": "2026-12-06",
           "date_display": "December 6, 2026",
@@ -2871,12 +3336,16 @@
           "links": [
             {
               "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch"
+              "href": "https://alohacalendar.com/events/maui-pops-orchestra-holiday-pops"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://mauiarts.org/show-details/maui-pops-orchestra-holiday-pops-2026"
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|mochi-mistletoe-christmas-brunch",
-          "island": "oahu"
+          "uid_seed": "aloha|maui-pops-orchestra-holiday-pops",
+          "island": "maui-county"
         },
         {
           "title": "MASTERS OF ILLUSION – UP CLOSE & PERSONAL",
@@ -2913,18 +3382,18 @@
           "island": "oahu"
         },
         {
-          "title": "MAUI POPS ORCHESTRA - Holiday Pops",
-          "description": "MAUI POPS ORCHESTRA - Holiday Pops",
-          "category": "Arts & Gallery",
+          "title": "Mochi & Mistletoe Christmas Brunch",
+          "description": "Get into the holiday spirit with Mochi & Mistletoe Christmas Brunch at Romer House Waikiki. Enjoy a festive Sunday brunc",
+          "category": "Concerts & Live Music",
           "provider": "AlohaCalendar",
           "sources": [
             {
               "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/maui-pops-orchestra-holiday-pops",
+              "url": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch",
               "label": "alohacalendar.com"
             }
           ],
-          "venue": "Maui Arts & Cultural Center (Maui)",
+          "venue": null,
           "date_start": "2026-12-06",
           "date_end": "2026-12-06",
           "date_display": "December 6, 2026",
@@ -2935,16 +3404,42 @@
           "links": [
             {
               "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/maui-pops-orchestra-holiday-pops"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://mauiarts.org/show-details/maui-pops-orchestra-holiday-pops-2026"
+              "href": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch"
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|maui-pops-orchestra-holiday-pops",
-          "island": "maui-county"
+          "uid_seed": "aloha|mochi-mistletoe-christmas-brunch",
+          "island": "oahu"
+        },
+        {
+          "title": "Pearl Harbor Memorial Parade",
+          "description": "The parade theme is \"remembering the past and celebrating our future.\" We honor our veterans and their families while recognizing that once bitter enemies can become loyal friends and allies. In order to establish a memorial to honor those who died in the attack on Pearl Harbor, the USS Arizona Memorial was dedicated in 1962. It has been visited by countless people from all over the world during…",
+          "category": "Parade",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-43grm-8xs8l-wjgl5",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Fort DeRussey, thru Kalakaua Avenue, to Waikiki Shell",
+          "date_start": "2026-12-07",
+          "date_end": "2026-12-07",
+          "date_display": "December 7, 2026",
+          "time_display": "6:00 PM - 7:30 PM HST",
+          "dt_start_utc": "2026-12-08T04:00:00Z",
+          "dt_end_utc": "2026-12-08T05:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-43grm-8xs8l-wjgl5"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|6b00bbea3f88a86a1e82dd00",
+          "island": "oahu"
         },
         {
           "title": "Ka Pi'‘ina o Hōkūlei: A Merry Member Holiday",
@@ -3045,6 +3540,36 @@
           "island": "hawaii-island"
         },
         {
+          "title": "Harp & Co. Musical Performance",
+          "description": "Join us for a special holiday instrumental performance with Harp & Company. Ilene Ingley – violin Mele Morgan – violin Russel Carlson – Irish whistle Esprit Saucier – cello Rebecca Carlson – harp We look forward to seeing you there!",
+          "category": "Library programs",
+          "provider": "Libraries",
+          "sources": [
+            {
+              "name": "Libraries",
+              "url": "https://www.librarieshawaii.org/event/harp-co-musical-performance/",
+              "label": "librarieshawaii.org"
+            }
+          ],
+          "venue": "Kahuku Public Library (O‘ahu)",
+          "date_start": "2026-12-08",
+          "date_end": "2026-12-08",
+          "date_display": "December 8, 2026",
+          "time_display": "5:30 PM - 6:30 PM HST",
+          "dt_start_utc": "2026-12-09T03:30:00Z",
+          "dt_end_utc": "2026-12-09T04:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (Hawaiʻi State Public Libraries)",
+              "href": "https://www.librarieshawaii.org/event/harp-co-musical-performance/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "hspl|296559|2026-12-08",
+          "island": "oahu"
+        },
+        {
           "title": "Kupuna Movie Mornings – “IT’S A WONDERFUL LIFE” (1946)",
           "description": "Series Title: Rise & Shine - Kupuna Movie Mornings It's a Wonderful Life (1946) Date and Time: Tuesday, December 8, 2026 Start Time: 11:30 AM Doors Open:…",
           "category": "Arts & Gallery",
@@ -3109,6 +3634,36 @@
           "island": "oahu"
         },
         {
+          "title": "Lei making-Hilo style",
+          "description": "Come and learn how to make traditional Hawaiian lei styles using items found around your neighborhood! Lei Hilo is the style you generally see created with ti leaves. All materials are provided, however, if there is a plant material in your yard that you’d like to incorporate into lei, please feel free to bring it with you.",
+          "category": "Library programs",
+          "provider": "Libraries",
+          "sources": [
+            {
+              "name": "Libraries",
+              "url": "https://www.librarieshawaii.org/event/lei-making-hilo-style/",
+              "label": "librarieshawaii.org"
+            }
+          ],
+          "venue": "Salt Lake-Moanalua Public Library (O‘ahu)",
+          "date_start": "2026-12-10",
+          "date_end": "2026-12-10",
+          "date_display": "December 10, 2026",
+          "time_display": "10:00 AM - 12:00 PM HST",
+          "dt_start_utc": "2026-12-10T20:00:00Z",
+          "dt_end_utc": "2026-12-10T22:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (Hawaiʻi State Public Libraries)",
+              "href": "https://www.librarieshawaii.org/event/lei-making-hilo-style/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "hspl|296544|2026-12-10",
+          "island": "oahu"
+        },
+        {
           "title": "Hawaiian Steel Guitar – Demonstrations and Lessons",
           "description": "Back by popular demand is Daniel Tremblay of HIMELE! Listen and learn from Daniel, as he teaches the history of Hawaiian Steel Guitars, and how to play. Lessons will take place in the Graphic novel nook, and instruments will be provided!",
           "category": "Library programs",
@@ -3136,6 +3691,66 @@
           ],
           "fallback_month": null,
           "uid_seed": "hspl|10046011|2026-12-10",
+          "island": "oahu"
+        },
+        {
+          "title": "Hawaii Youth Symphony Jazz Program Winter Concert (Free Admission)",
+          "description": "The Hawaii Youth Symphony is among the largest youth symphony programs in the country, serving 700 students annually from more than 100 schools across the state. Incorporated in 1964 with a single 80-member orchestra, HYS has grown nearly 8-fold in the past half century with 13 different programs. We offer a complete spectrum of out-of-school music programs organized under the following sections:…",
+          "category": "Music",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-383l2-7jynl",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Studio 909",
+          "date_start": "2026-12-10",
+          "date_end": "2026-12-10",
+          "date_display": "December 10, 2026",
+          "time_display": "6:00 PM - 7:30 PM HST",
+          "dt_start_utc": "2026-12-11T04:00:00Z",
+          "dt_end_utc": "2026-12-11T05:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-383l2-7jynl"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|6b00e6d737440f14da7aa8fe",
+          "island": "oahu"
+        },
+        {
+          "title": "Kapahulu-Moiliili Christmas Parade",
+          "description": "Sponsored by Kapahulu-Moiliili Lions Club",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-43grm-8xs8l-yksx5",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Kuhio Elementary School, King St., Beretania, Old Stadium Park",
+          "date_start": "2026-12-10",
+          "date_end": "2026-12-10",
+          "date_display": "December 10, 2026",
+          "time_display": "6:30 PM - 8:00 PM HST",
+          "dt_start_utc": "2026-12-11T04:30:00Z",
+          "dt_end_utc": "2026-12-11T06:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-43grm-8xs8l-yksx5"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68db375bfa8aff69045f5102",
           "island": "oahu"
         },
         {
@@ -3204,6 +3819,36 @@
           ],
           "fallback_month": null,
           "uid_seed": "aloha|debbie-gibsons-winterlicious",
+          "island": "oahu"
+        },
+        {
+          "title": "Haleiwa Christmas Parade",
+          "description": "The North Shore Chamber of Commerce invites residents and visitors to celebrate the holiday season at the 24th Annual Haleʻiwa Christmas Parade. This beloved community tradition brings local businesses, nonprofit organizations, schools, and youth groups together to share holiday cheer in historic Haleʻiwa. Families and friends are encouraged to come early, find a good viewing spot, and enjoy the…",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-43grm-8xs8l-yksx5-a4slk",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Haleiwa's main street",
+          "date_start": "2026-12-11",
+          "date_end": "2026-12-11",
+          "date_display": "December 11, 2026",
+          "time_display": "6:30 PM - 8:30 PM HST",
+          "dt_start_utc": "2026-12-12T04:30:00Z",
+          "dt_end_utc": "2026-12-12T06:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-43grm-8xs8l-yksx5-a4slk"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68db3f77cb59692f00aab11c",
           "island": "oahu"
         },
         {
@@ -3369,26 +4014,113 @@
           "island": "oahu"
         },
         {
-          "title": "Ballet Hawaii's The Nutcracker",
-          "description": "Ballet Hawaii's holiday production of Tchaikovsky's The Nutcracker, a Honolulu family tradition, at the Blaisdell Concert Hall.",
-          "category": "Arts & Gallery",
-          "provider": "AlohaCalendar",
+          "title": "Aiea Community Association Christmas Parade",
+          "description": "The parade features marching bands, school and community groups, classic cars, floats, and, of course, Santa. The Fun Fair features entertainment, children’s activities, information booths, crafts, and food booths. We plan to have the blood mobile available for blood donations and a flu/covid shot clinic. It’s a great opportunity for the community to relax and enjoy the holiday activities and…",
+          "category": "Holidays",
+          "provider": "The Creative City",
           "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-bl2kj",
+              "label": "thecreativecity.org"
+            },
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-m6pkt-xeb4t",
+              "label": "thecreativecity.org"
+            },
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-bl2kj-n72k2",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Pearlridge Elem School, Moanalua. Rd to Aiea Public Lbrary",
+          "date_start": "2026-12-12",
+          "date_end": "2026-12-12",
+          "date_display": "December 12, 2026",
+          "time_display": "9:00 AM - 10:00 AM HST",
+          "dt_start_utc": "2026-12-12T19:00:00Z",
+          "dt_end_utc": "2026-12-12T20:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-bl2kj"
+            },
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-m6pkt-xeb4t"
+            },
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-bl2kj-n72k2"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68db412bed41553de9d4944f",
+          "island": "oahu"
+        },
+        {
+          "title": "Christmas on the Avenue",
+          "description": "Ho'okahi Kākou , which translates to “Unite As One” This theme speaks to the heart of our mission—to bring the community together to reconnect and celebrate the season in fellowship. This annual event brings together thousands of community members to fellowship, enjoy ‘ono grinds, experience local talent, and reconnect with familiar faces. This year features signature traditions such as Operation…",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-m6pkt-5prwc-elee3",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Nanakuli Avenue",
+          "date_start": "2026-12-12",
+          "date_end": "2026-12-12",
+          "date_display": "December 12, 2026",
+          "time_display": "4:00 PM - 10:00 PM HST",
+          "dt_start_utc": "2026-12-13T02:00:00Z",
+          "dt_end_utc": "2026-12-13T08:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-m6pkt-5prwc-elee3"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|6a97573fa6a8ea286cf897b8",
+          "island": "oahu"
+        },
+        {
+          "title": "Sacred Hearts Academy – The Nutcracker 2026",
+          "description": "Sacred Hearts Academy proudly presents The Nutcracker. Experience the magic of the holiday season! Let yourself be transported to a magical Christmas wonderland. Discover a world of wonder, imagination, and the magic of Christmas. MORE INFO",
+          "category": "Holiday",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-pabnz-yyzwx",
+              "label": "thecreativecity.org"
+            },
             {
               "name": "AlohaCalendar",
               "url": "https://alohacalendar.com/events/ballet-hawaiis-the-nutcracker",
               "label": "alohacalendar.com"
             }
           ],
-          "venue": "Neal S Blaisdell Concert Hall (Oahu)",
+          "venue": "Hawaii Theatre",
           "date_start": "2026-12-12",
-          "date_end": "2026-12-13",
-          "date_display": "2 dates, December 12 – 13, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
+          "date_end": "2026-12-12",
+          "date_display": "December 12, 2026",
+          "time_display": "6:30 PM - 9:30 PM HST",
+          "dt_start_utc": "2026-12-13T04:30:00Z",
+          "dt_end_utc": "2026-12-13T07:30:00Z",
           "recurring": true,
           "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-pabnz-yyzwx"
+            },
             {
               "text": "Event details (AlohaCalendar)",
               "href": "https://alohacalendar.com/events/ballet-hawaiis-the-nutcracker"
@@ -3399,8 +4131,72 @@
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|ballet-hawaiis-the-nutcracker",
+          "uid_seed": "tcc|691f99ee771ada57a4df8a33",
           "island": "oahu"
+        },
+        {
+          "title": "Hawaii Youth Opera Chorus Performance at Kawaiahao Church",
+          "description": "Free annual Holiday Concert at the historic Kawaiahao Church. MORE INFO",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-ebz8e-3hj7n",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Kawiahao Church",
+          "date_start": "2026-12-12",
+          "date_end": "2026-12-12",
+          "date_display": "December 12, 2026",
+          "time_display": "7:00 PM - 8:00 PM HST",
+          "dt_start_utc": "2026-12-13T05:00:00Z",
+          "dt_end_utc": "2026-12-13T06:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-ebz8e-3hj7n"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|691fc3a1633f82129374bd46",
+          "island": "oahu"
+        },
+        {
+          "title": "JIAOYING SUMMERS",
+          "description": "JIAOYING SUMMERS",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/jiaoying-summers-2026-12-12",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Maui Arts & Cultural Center (Maui)",
+          "date_start": "2026-12-12",
+          "date_end": "2026-12-12",
+          "date_display": "December 12, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/jiaoying-summers-2026-12-12"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://mauiarts.org/show-details/jiaoying-summers"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|jiaoying-summers-2026-12-12",
+          "island": "maui-county"
         },
         {
           "title": "SACRED HEARTS ACADEMY – THE NUTCRACKER 2026",
@@ -3437,38 +4233,34 @@
           "island": "oahu"
         },
         {
-          "title": "JIAOYING SUMMERS",
-          "description": "JIAOYING SUMMERS",
-          "category": "Arts & Gallery",
-          "provider": "AlohaCalendar",
+          "title": "Oahu Civic Orchestra FREE Winter Concert",
+          "description": "Classical and Holiday Music! Free Admission and Free Parking: Access on-campus parking from Pensacola Street. Also nearby street parking. The Oahu Civic Orchestra (OCO) is a volunteer, community orchestra which provides the opportunity for musicians to perform classical, pop, and contemporary music. OCO was originally founded in 1971 as the Windward Symphony and incorporated as a Hawaii nonprofit…",
+          "category": "Music",
+          "provider": "The Creative City",
           "sources": [
             {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/jiaoying-summers-2026-12-12",
-              "label": "alohacalendar.com"
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-pabnz-ljjce-jxa3l",
+              "label": "thecreativecity.org"
             }
           ],
-          "venue": "Maui Arts & Cultural Center (Maui)",
-          "date_start": "2026-12-12",
-          "date_end": "2026-12-12",
-          "date_display": "December 12, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
+          "venue": "McKinley High School Auditorium",
+          "date_start": "2026-12-13",
+          "date_end": "2026-12-13",
+          "date_display": "December 13, 2026",
+          "time_display": "4:00 PM - 5:30 PM HST",
+          "dt_start_utc": "2026-12-14T02:00:00Z",
+          "dt_end_utc": "2026-12-14T03:30:00Z",
           "recurring": false,
           "links": [
             {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/jiaoying-summers-2026-12-12"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://mauiarts.org/show-details/jiaoying-summers"
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-pabnz-ljjce-jxa3l"
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|jiaoying-summers-2026-12-12",
-          "island": "maui-county"
+          "uid_seed": "tcc|691f96ae72bd033ea58b4397",
+          "island": "oahu"
         },
         {
           "title": "WHOSE LIVE ANYWAY? – 2026",
@@ -3599,6 +4391,36 @@
           "island": "hawaii-island"
         },
         {
+          "title": "Santa Claus Story Time at Waimanalo Public Library",
+          "description": "Santa Claus is traveling throughout the islands and making special visits to several libraries! Join us for a cheerful 30-minute story time featuring festive holiday tales. Afterward, keiki and their families can meet Santa and take their own photos, so be sure to bring a camera to capture the moment. Each keiki will receive a fun holiday gift from Santa. This free program is recommended for…",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/k454t9ma7byzpg4",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Waimanalo Public & School Library",
+          "date_start": "2026-12-15",
+          "date_end": "2026-12-15",
+          "date_display": "December 15, 2026",
+          "time_display": "1:30 PM - 2:00 PM HST",
+          "dt_start_utc": "2026-12-15T23:30:00Z",
+          "dt_end_utc": "2026-12-16T00:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/k454t9ma7byzpg4"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|6931f048f5bb244c1e6c1069",
+          "island": "oahu"
+        },
+        {
           "title": "JAKE SHIMABUKURO'S Holidays in Hawaiʻi",
           "description": "JAKE SHIMABUKURO'S Holidays in Hawaiʻi",
           "category": "Arts & Gallery",
@@ -3660,6 +4482,36 @@
           ],
           "fallback_month": null,
           "uid_seed": "tcc|6a95d1b8dc124f3e55fe3f56",
+          "island": "oahu"
+        },
+        {
+          "title": "Lei making-Wili style",
+          "description": "Come and learn how to make traditional Hawaiian lei styles using items found around your neighborhood! Lei wili is the style that many give as lei poʻo, or head lei, using raffia and various plant materials. All materials are provided, however, if there is a plant material in your yard that you’d like to incorporate into lei, please feel free to bring it with you.",
+          "category": "Library programs",
+          "provider": "Libraries",
+          "sources": [
+            {
+              "name": "Libraries",
+              "url": "https://www.librarieshawaii.org/event/lei-making-wili-style/",
+              "label": "librarieshawaii.org"
+            }
+          ],
+          "venue": "Salt Lake-Moanalua Public Library (O‘ahu)",
+          "date_start": "2026-12-17",
+          "date_end": "2026-12-17",
+          "date_display": "December 17, 2026",
+          "time_display": "10:00 AM - 12:00 PM HST",
+          "dt_start_utc": "2026-12-17T20:00:00Z",
+          "dt_end_utc": "2026-12-17T22:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (Hawaiʻi State Public Libraries)",
+              "href": "https://www.librarieshawaii.org/event/lei-making-wili-style/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "hspl|296547|2026-12-17",
           "island": "oahu"
         },
         {
@@ -3877,6 +4729,96 @@
           "island": "hawaii-island"
         },
         {
+          "title": "Hawaii Kai Festival of Lights Christmas Boat Parade 2026",
+          "description": "Hawaii Kai Marina shines with the Festival of Lights Christmas Boat Parade, a unique chance to see Hawaii-style holiday magic. The Hawaii Kai Festival of Lights Christmas Boat Parade features styled, festive boats and lots of Christmas cheer! Music, entertainment and a holiday wonderland on water!",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-m6pkt-stc4d-rxnyf",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Hawaii Kai Marina",
+          "date_start": "2026-12-19",
+          "date_end": "2026-12-19",
+          "date_display": "December 19, 2026",
+          "time_display": "4:00 PM - 7:00 PM HST",
+          "dt_start_utc": "2026-12-20T02:00:00Z",
+          "dt_end_utc": "2026-12-20T05:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-m6pkt-stc4d-rxnyf"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|6a9756881c22bf24db3e8ae0",
+          "island": "oahu"
+        },
+        {
+          "title": "Whitmore Christmas Village & Christmas Convey",
+          "description": "Christmas right to the heart of Whitmore Avenue! Taste of Whitmore, an evening filled with good food, holiday cheer, and the simple joy of bringing our community together. Here's what's happening: Tinsel & Treat on the Ave Christmas Tree Hale Live Entertainment Christmas Lights Convoy Pony Rides Whitmore Kendama Club FREE Games for the Keiki Island Food Vendors & Local Merchants MORE INFO",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-m6pkt-5prwc-2wm7f",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Whitmore Village Community Park along Whitmore Avenue",
+          "date_start": "2026-12-19",
+          "date_end": "2026-12-19",
+          "date_display": "December 19, 2026",
+          "time_display": "5:00 PM - 9:00 PM HST",
+          "dt_start_utc": "2026-12-20T03:00:00Z",
+          "dt_end_utc": "2026-12-20T07:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-m6pkt-5prwc-2wm7f"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68ddc91e622e5d1363f686b0",
+          "island": "oahu"
+        },
+        {
+          "title": "Salt Lake Moanalua Christmas Parade",
+          "description": "",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-bl2kj-n72k2-wmc86-k3r8t-yfnwn",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Moanalua High School loop, Ala Ilima, Ala Lilikoi, Likini, Ala Napuunani",
+          "date_start": "2026-12-19",
+          "date_end": "2026-12-19",
+          "date_display": "December 19, 2026",
+          "time_display": "6:30 PM - 8:00 PM HST",
+          "dt_start_utc": "2026-12-20T04:30:00Z",
+          "dt_end_utc": "2026-12-20T06:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-bl2kj-n72k2-wmc86-k3r8t-yfnwn"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|6a9755c1f5494319c11a1be8",
+          "island": "oahu"
+        },
+        {
           "title": "HSO presents Elf in Concert",
           "description": "Buddy was accidentally transported to the North Pole as a toddler and raised to adulthood among Santa’s elves. Unable to shake the feeling that he doesn’t fit in, the adult Buddy travels to New York, in full elf uniform, in search of his real father. This holiday season, relive this heartwarming holiday classic on a giant screen as every note of John Debney’s wonderful score is played live to…",
           "category": "Music",
@@ -3920,6 +4862,36 @@
           "island": "oahu"
         },
         {
+          "title": "Kalani Peʻa’s 5th Annual Hawaiian Christmas Show",
+          "description": "Four-time Grammy-award winner Kalani Peʻa brings holiday cheer Featuring a spectacular lineup of superstars! MORE INFO",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-pabnz-ljjce-jxa3l-3yjw8",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Hawaii Theatre",
+          "date_start": "2026-12-19",
+          "date_end": "2026-12-19",
+          "date_display": "December 19, 2026",
+          "time_display": "7:00 PM - 9:00 PM HST",
+          "dt_start_utc": "2026-12-20T05:00:00Z",
+          "dt_end_utc": "2026-12-20T07:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/y3sy3jz75fl75ef-y4d6e-scz7b-99ymr-c5zln-f2rwn-7hl5a-ejgkk-brymz-cgckn-yhx64-8fw8s-55ddd-2yd7r-axt2p-pry8l-485mf-mxwjz-gdl9f-my7ja-8g99y-8ary9-jf4jp-6ydyr-83tal-twb4f-5krag-pabnz-ljjce-jxa3l-3yjw8"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|691fae75d6a9931c43163385",
+          "island": "oahu"
+        },
+        {
           "title": "HSO presents Elf in Concert",
           "description": "Buddy was accidentally transported to the North Pole as a toddler and raised to adulthood among Santa’s elves. Unable to shake the feeling that he doesn’t fit in, the adult Buddy travels to New York, in full elf uniform, in search of his real father. This holiday season, relive this heartwarming holiday classic on a giant screen as every note of John Debney’s wonderful score is played live to…",
           "category": "Music",
@@ -3947,6 +4919,36 @@
           ],
           "fallback_month": null,
           "uid_seed": "tcc|6a95d68cce583c71586b8091",
+          "island": "oahu"
+        },
+        {
+          "title": "Olomana Christmas Parade",
+          "description": "",
+          "category": "Holidays",
+          "provider": "The Creative City",
+          "sources": [
+            {
+              "name": "The Creative City",
+              "url": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-bl2kj-n72k2-wmc86",
+              "label": "thecreativecity.org"
+            }
+          ],
+          "venue": "Maunawili Elem. School loop, Ulupii, Ulupuni, Uluohao, Uluhala",
+          "date_start": "2026-12-20",
+          "date_end": "2026-12-20",
+          "date_display": "December 20, 2026",
+          "time_display": "2:00 PM - 3:00 PM HST",
+          "dt_start_utc": "2026-12-21T00:00:00Z",
+          "dt_end_utc": "2026-12-21T01:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (The Creative City)",
+              "href": "https://www.thecreativecity.org/events/a954b6srdzyrcea-668b4-rpcea-g7rfk-yrpec-3ypjt-jgy4j-kdsz6-8cefk-9tmf4-bl2kj-n72k2-wmc86"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "tcc|68ddce8009942577ce06c9af",
           "island": "oahu"
         },
         {
@@ -4008,6 +5010,36 @@
           "fallback_month": null,
           "uid_seed": "hspl|293378|2026-12-22",
           "island": "hawaii-island"
+        },
+        {
+          "title": "Holiday Sing-Along",
+          "description": "Celebrate the holiday season with a merry sing-along! This is a 30-minute program led by volunteers from the group Sing For Your Life. Sing For Your Life has been bringing sing-along entertainment to O’ahu since 2016. Their purpose is to uplift, inspire, promote friendship, and strengthen the community. Recommended for children and families. All children must be accompanied by an adult. This…",
+          "category": "Library programs",
+          "provider": "Libraries",
+          "sources": [
+            {
+              "name": "Libraries",
+              "url": "https://www.librarieshawaii.org/event/holiday-sing-along/",
+              "label": "librarieshawaii.org"
+            }
+          ],
+          "venue": "Liliha Public Library (O‘ahu)",
+          "date_start": "2026-12-23",
+          "date_end": "2026-12-23",
+          "date_display": "December 23, 2026",
+          "time_display": "10:30 AM - 11:00 AM HST",
+          "dt_start_utc": "2026-12-23T20:30:00Z",
+          "dt_end_utc": "2026-12-23T21:00:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (Hawaiʻi State Public Libraries)",
+              "href": "https://www.librarieshawaii.org/event/holiday-sing-along/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "hspl|296578|2026-12-23",
+          "island": "oahu"
         },
         {
           "title": "Holiday Magic & Melodies",
@@ -4235,6 +5267,36 @@
           ],
           "fallback_month": null,
           "uid_seed": "hspl|10046014|2027-01-07",
+          "island": "oahu"
+        },
+        {
+          "title": "Book Club – Wayfinder by Adam Johnson",
+          "description": "Named one of Ten Best Books of 2025 by The Wall Street Journal Named one of Ten Best Books of 2025 by The Washington Post Named a Best Novel of 2025 by NPR and Publishers Weekly Named a Best Historical Novel of 2025 by The New York Times “A powerful and original epic . . . Deadly politics, tragic romance and dangerous sea journeys keep the drama at a spirited boil.” — The New York Times “An epic…",
+          "category": "Library programs",
+          "provider": "Libraries",
+          "sources": [
+            {
+              "name": "Libraries",
+              "url": "https://www.librarieshawaii.org/event/book-club-wayfinder-by-adam-johnson/",
+              "label": "librarieshawaii.org"
+            }
+          ],
+          "venue": "Kahuku Public Library (O‘ahu)",
+          "date_start": "2027-01-08",
+          "date_end": "2027-01-08",
+          "date_display": "January 8, 2027",
+          "time_display": "1:30 PM - 2:30 PM HST",
+          "dt_start_utc": "2027-01-08T23:30:00Z",
+          "dt_end_utc": "2027-01-09T00:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (Hawaiʻi State Public Libraries)",
+              "href": "https://www.librarieshawaii.org/event/book-club-wayfinder-by-adam-johnson/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "hspl|296572|2027-01-08",
           "island": "oahu"
         },
         {
@@ -4919,6 +5981,42 @@
           "fallback_month": null,
           "uid_seed": "hspl|10046017|2027-01-28",
           "island": "oahu"
+        }
+      ]
+    },
+    {
+      "month": "2027-02",
+      "label": "February 2027",
+      "events": [
+        {
+          "title": "Food From Wood: Mushroom Cultivation",
+          "description": "Instructor Zach Mermel will teach the basics of wood based mushroom cultivation in “Food from Wood: Growing Edible & Medicinal Mushrooms on Logs, Stumps, and Wood Chips” on Saturday, February 27th, 2027, from 9am – 2pm at Volcano Art Center’s Niaulani Campus in Volcano Village. Wondering what to do with those undesirable exotic trees on …",
+          "category": "Volcano Art Center",
+          "provider": "Volcano Art Center",
+          "sources": [
+            {
+              "name": "Volcano Art Center",
+              "url": "https://volcanoartcenter.org/food-from-wood-mushroom-cultivation/",
+              "label": "volcanoartcenter.org"
+            }
+          ],
+          "venue": "Volcano Art Center Niaulani Campus, Volcano Village",
+          "date_start": "2027-02-27",
+          "date_end": "2027-02-27",
+          "date_display": "February 27, 2027",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (Volcano Art Center)",
+              "href": "https://volcanoartcenter.org/food-from-wood-mushroom-cultivation/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "vac|88960",
+          "island": "hawaii-island"
         }
       ]
     }

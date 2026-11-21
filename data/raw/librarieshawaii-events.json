@@ -1,45 +1,6 @@
 {
  "events": [
   {
-   "id": 10037362,
-   "url": "https://www.librarieshawaii.org/event/mahjong_players_club_2025-2025-08-22/2026-11-20/",
-   "title": "Mahjong Players Club",
-   "description": "<p>Join the &#8220;club&#8221; and learn how to play this game from 19th century China. Players of all skill levels are welcome!</p>\n<p>Event will not be held on State holidays.</p>\n<p><em>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</em></p>\n<p>&nbsp;</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-20 14:30:00",
-   "end_date": "2026-11-20 16:00:00",
-   "utc_start_date": "2026-11-21 00:30:00",
-   "utc_end_date": "2026-11-21 02:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "games",
-     "name": "Games"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Mountain View",
-    "city": "Mountain View",
-    "url": "https://www.librarieshawaii.org/branch/mountain-view-public-and-school-library/"
-   }
-  },
-  {
    "id": 294651,
    "url": "https://www.librarieshawaii.org/event/whos-coming-to-dinner/",
    "title": "Who&#8217;s Coming to Dinner?",
@@ -237,6 +198,41 @@
     "venue": "O‘ahu &#8211; McCully-Mōʻiliʻili",
     "city": "Honolulu",
     "url": "https://www.librarieshawaii.org/branch/mccully-moiliili-public-library/"
+   }
+  },
+  {
+   "id": 296491,
+   "url": "https://www.librarieshawaii.org/event/aina-haina-jane-austen-dancing/",
+   "title": "Dance Like Jane Austen is Watching! A Holiday Regency Ball",
+   "description": "<p>Whether you are as light on your toes as Jane Austen herself or have two left feet like Mr. Collins, join us for a historical afternoon of dance and music!</p>\n<p>Co-hosted by the Jane Austen Society of North America (JASNA) Hawai&#8217;i Region</p>\n<p>Festivities<br />\n• Regency Dancing: Taught by Mistress of Ceremonies Lisa Campbelll.<br />\n• Live Fiddle Music: Performed by John Ivy.<br />\n• Regency Photo Booth: Snap fun historical selfies.<br />\n• Door Prizes: Win free books &amp; a JASNA membership!</p>\n<p>No partner or experience required. Period costumes are welcome but not necessary!<br />\n~ Questions? Email aloha@JASNAHawaii.org</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the  <a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-11-21 13:00:00",
+   "end_date": "2026-11-21 15:30:00",
+   "utc_start_date": "2026-11-21 23:00:00",
+   "utc_end_date": "2026-11-22 01:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "health-and-wellness",
+     "name": "Health &amp; Wellness"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; ʻĀina Haina",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/aina-haina-public-library/"
    }
   },
   {
@@ -1019,49 +1015,6 @@
    }
   },
   {
-   "id": 10045506,
-   "url": "https://www.librarieshawaii.org/event/pokemon-club-2-2026-04-24-2/2026-11-27/",
-   "title": "Pokémon Club",
-   "description": "<p>Learn to play the Pokémon Trading Card Game (TCG)! Demo decks will be provided for learning and casual game play.</p>\n<p>This program is especially for kids ages 5-12 but all ages are welcome to join. Young children must be accompanied by an adult caregiver.</p>\n<p><span style=\"font-style: italic\">Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required.</span></p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-27 14:45:00",
-   "end_date": "2026-11-27 15:45:00",
-   "utc_start_date": "2026-11-28 00:45:00",
-   "utc_end_date": "2026-11-28 01:45:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "activities",
-     "name": "Arts &amp; Crafts"
-    },
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "environment",
-     "name": "Environment"
-    },
-    {
-     "slug": "games",
-     "name": "Games"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Kaua‘i &#8211; Waimea",
-    "city": "Waimea",
-    "url": "https://www.librarieshawaii.org/branch/waimea-public-library/"
-   }
-  },
-  {
    "id": 289676,
    "url": "https://www.librarieshawaii.org/event/up-close-and-musical-with-iggy-jang-and-the-hawai%ca%bbi-youth-symphony/",
    "title": "Up Close and Musical with Iggy Jang and the Hawaiʻi Youth Symphony",
@@ -1592,6 +1545,41 @@
     "venue": "Hawai‘i &#8211; Kailua-Kona",
     "city": "Kailua-Kona",
     "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
+   }
+  },
+  {
+   "id": 296564,
+   "url": "https://www.librarieshawaii.org/event/north-shore-singers-company-presents-gifts-of-the-season/",
+   "title": "North Shore Singer&#8217;s Company Presents &#8220;Gifts of the Season&#8221;",
+   "description": "<p>May Shumway’s North Shore Singer’s Company is back for a wonderous winter concert.</p>\n<p>This year&#8217;s theme is &#8220;Gifts of the Season&#8221;.<br />\nJoin us in ringing in the holidays with the coolest choir around!</p>\n<p><em>All ages welcome</em></p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-01 17:00:00",
+   "end_date": "2026-12-01 18:00:00",
+   "utc_start_date": "2026-12-02 03:00:00",
+   "utc_end_date": "2026-12-02 04:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Kahuku",
+    "city": "Kahuku",
+    "url": "https://www.librarieshawaii.org/branch/kahuku-public-and-school-library/"
    }
   },
   {
@@ -2778,6 +2766,45 @@
    }
   },
   {
+   "id": 296559,
+   "url": "https://www.librarieshawaii.org/event/harp-co-musical-performance/",
+   "title": "Harp &amp; Co. Musical Performance",
+   "description": "<p>Join us for a special holiday instrumental performance with Harp &amp; Company.</p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Ilene Ingley &#8211; </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">violin</span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Mele Morgan &#8211; </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">violin</span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Russel Carlson &#8211; </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Irish whistle</span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Esprit Saucier &#8211; </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">cello</span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Rebecca Carlson &#8211; </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">harp</span></p>\n<p>&nbsp;</p>\n<p>We look forward to seeing you there!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-08 17:30:00",
+   "end_date": "2026-12-08 18:30:00",
+   "utc_start_date": "2026-12-09 03:30:00",
+   "utc_end_date": "2026-12-09 04:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Kahuku",
+    "city": "Kahuku",
+    "url": "https://www.librarieshawaii.org/branch/kahuku-public-and-school-library/"
+   }
+  },
+  {
    "id": 10045525,
    "url": "https://www.librarieshawaii.org/event/tai-chi-chuan/2026-12-09/",
    "title": "Tai Chi Chuan",
@@ -3007,6 +3034,45 @@
     "venue": "O‘ahu &#8211; Waiʻanae",
     "city": "Waiʻanae",
     "url": "https://www.librarieshawaii.org/branch/waianae-public-library/"
+   }
+  },
+  {
+   "id": 296544,
+   "url": "https://www.librarieshawaii.org/event/lei-making-hilo-style/",
+   "title": "Lei making-Hilo style",
+   "description": "<p>Come and learn how to make traditional Hawaiian lei styles using items found around your neighborhood!</p>\n<p>Lei Hilo is the style you generally see created with ti leaves.</p>\n<p>All materials are provided, however, if there is a plant material in your yard that you’d like to incorporate into lei, please feel free to bring it with you.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\"><b>HSPLS Events Calendar</b></a>.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-10 10:00:00",
+   "end_date": "2026-12-10 12:00:00",
+   "utc_start_date": "2026-12-10 20:00:00",
+   "utc_end_date": "2026-12-10 22:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Salt Lake-Moanalua",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/salt-lake-moanalua-public-library/"
    }
   },
   {
@@ -3843,6 +3909,45 @@
    }
   },
   {
+   "id": 296547,
+   "url": "https://www.librarieshawaii.org/event/lei-making-wili-style/",
+   "title": "Lei making-Wili style",
+   "description": "<p>Come and learn how to make traditional Hawaiian lei styles using items found around your neighborhood!</p>\n<p>Lei wili is the style that many give as lei poʻo, or head lei, using raffia and various plant materials.</p>\n<p>All materials are provided, however, if there is a plant material in your yard that you’d like to incorporate into lei, please feel free to bring it with you.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events at <b>librarieshawaii.org/events</b>.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-17 10:00:00",
+   "end_date": "2026-12-17 12:00:00",
+   "utc_start_date": "2026-12-17 20:00:00",
+   "utc_end_date": "2026-12-17 22:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Salt Lake-Moanalua",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/salt-lake-moanalua-public-library/"
+   }
+  },
+  {
    "id": 10035423,
    "url": "https://www.librarieshawaii.org/event/babies-and-blankets-2025-05-29-2025-07-31-2025-10-30/2026-12-17/",
    "title": "Babies, Books, and Blankets",
@@ -3930,6 +4035,108 @@
     "venue": "Maui &#8211; Kīhei",
     "city": "Kīhei",
     "url": "https://www.librarieshawaii.org/branch/kihei-public-library/"
+   }
+  },
+  {
+   "id": 296441,
+   "url": "https://www.librarieshawaii.org/event/adventures-await-at-storytime-28/",
+   "title": "Adventures Await at Storytime",
+   "description": "<p><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join Auntie Beth at Storytime!</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">We read books, sing songs, and make a craft. Suitable for children 2-5. Children need to be accompanied by an adult. See you soon!</span></strong></p>\n<p>&nbsp;</p>\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<p>Anyone who requires an auxiliary aid or service for effective communication or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>\n</div>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-17 10:30:00",
+   "end_date": "2026-12-17 11:30:00",
+   "utc_start_date": "2026-12-17 20:30:00",
+   "utc_end_date": "2026-12-17 21:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; ʻĀina Haina",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/aina-haina-public-library/"
+   }
+  },
+  {
+   "id": 296596,
+   "url": "https://www.librarieshawaii.org/event/adventures-await-at-storytime-29/",
+   "title": "Adventures Await at Storytime",
+   "description": "<p><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join Auntie Beth at Storytime!</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">We read books, sing songs, and make a craft. Suitable for children 2-5. Children need to be accompanied by an adult. See you soon!</span></strong></p>\n<p>&nbsp;</p>\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<p>Anyone who requires an auxiliary aid or service for effective communication or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>\n</div>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-17 10:30:00",
+   "end_date": "2026-12-17 11:30:00",
+   "utc_start_date": "2026-12-17 20:30:00",
+   "utc_end_date": "2026-12-17 21:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; ʻĀina Haina",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/aina-haina-public-library/"
    }
   },
   {
@@ -4708,6 +4915,45 @@
     "venue": "Hawai‘i &#8211; Kailua-Kona",
     "city": "Kailua-Kona",
     "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
+   }
+  },
+  {
+   "id": 296578,
+   "url": "https://www.librarieshawaii.org/event/holiday-sing-along/",
+   "title": "Holiday Sing-Along",
+   "description": "<p>Celebrate the holiday season with a merry sing-along!</p>\n<p>This is a 30-minute program led by volunteers from the group Sing For Your Life. Sing For Your Life has been bringing sing-along entertainment to O&#8217;ahu since 2016. Their purpose is to uplift, inspire, promote friendship, and strengthen the community.</p>\n<p>Recommended for children and families. All children must be accompanied by an adult. This program will immediately follow Keiki Storytime.</p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged but not required. Program schedule is subject to change.</span></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-23 10:30:00",
+   "end_date": "2026-12-23 11:00:00",
+   "utc_start_date": "2026-12-23 20:30:00",
+   "utc_end_date": "2026-12-23 21:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "holiday-season-december",
+     "name": "Holiday Season"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Liliha",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/liliha-public-library/"
    }
   },
   {
@@ -5593,6 +5839,41 @@
     "venue": "O‘ahu &#8211; Waikīkī-Kapahulu",
     "city": "Honolulu",
     "url": "https://www.librarieshawaii.org/branch/waikiki-kapahulu-public-library/"
+   }
+  },
+  {
+   "id": 296572,
+   "url": "https://www.librarieshawaii.org/event/book-club-wayfinder-by-adam-johnson/",
+   "title": "Book Club &#8211; Wayfinder by Adam Johnson",
+   "description": "<div>\n<p><!--if--><!--if--><!--if--><!--if--><!--if--><!--try--><!--try-b--><!--comp--><!--if--><!--if--><!--comp--><!--comp--><!--comp--><!--comp--></p>\n<div>\n<p><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--></p>\n<section dir=\"auto\"><!--if--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--comp--><!--for--><!--it--><!--comp--><!--comp--><!--comp--><!--try--><!--try-b--><!--if--><!--comp--><!--switch--><!--if--><!--comp--><!--comp--><!--comp--><!--comp--><!--if--><!--comp--><!--switch--><!--comp--></p>\n<section><!--comp--></p>\n<div>\n<div>\n<p><strong>Named one of Ten Best Books of 2025 by <em>The Wall Street Journal<br />\n</em></strong><strong>Named one of Ten Best Books of 2025 by <em>The Washington Post<br />\n</em></strong><strong>Named a Best Novel of 2025 by NPR and <em>Publishers Weekly<br />\n</em>Named a Best Historical Novel of 2025 by <em>The New York Times</em></strong></p>\n<p><strong>“A powerful and original epic . . . Deadly politics, tragic romance and dangerous sea journeys keep the drama at a spirited boil.”</strong><br />\n<strong>—<em>The New York Times<br />\n</em></strong><strong><br />\n“An epic of extraordinary abundance . . . modern and mythological . . . wondrous enough to endure.”</strong><br />\n<strong>—<em>The Wall Street Journal<br />\n</em></strong><strong><br />\n“An epic that feels less created than unearthed . . . <em>The Wayfinder </em>is sui generis—a tapestry of South Pacific myth, archetypal quest, political allegory, environmental jeremiad and feminist revision that feels both ancient and impossibly relevant.”</strong><br />\n<strong>—<em>The Washington Post<br />\n</em></strong><br />\n<span>Talking corpses, poetic parrots, and a fan that wafts the breath of life—this is the world young Kōrero finds herself thrust into when a mysterious visitor lands on her island, a place so remote its inhabitants have forgotten the word for </span><em>stranger</em><span>. Her people are desperate and on the brink of starvation, and the wayward stranger offers them an impossible choice: they can remain in the only home they’ve ever known and await the uncertainty to come, or Kōrero can join him and venture into unfamiliar waters, guided by only the night sky and his assurance of a bountiful future in the Kingdom of Tonga. What Kōrero and her people don’t know is that the promised refuge is no utopia—instead, Tonga is an empire at war and on the verge of collapse, a place where brains are regularly liberated from skulls and souls get trapped in coconuts with some frequency.</span></p>\n<p><span>The perils of Tonga are compounded by a royal feud: loyalties are shifting, graves are being opened, and everyone lives in fear of a jellyfish tattoo. Here, survival can rest on a perfectly performed dance or the acceptance of a cup of kava. Together, the stranger and Kōrero embark upon an epic voyage—one that will deliver them either to salvation or to the depths of the Pacific.</span></p>\n<p><span>Evoking the grandeur of </span><em>Wolf Hall</em><span> and the splendor of </span><em>Shōgun</em><span>, the Pulitzer Prize–winning novelist Adam Johnson conjures oral history, restores the natural world, and locates what’s best in humanity. Toweringly ambitious and breathtakingly immersive, </span><em>The Wayfinder</em><span> is an instant, timeless classic.</span> &#8211; Macmillan Publisher&#8217;s website</p>\n</div>\n</div>\n</section>\n</section>\n</div>\n</div>\n<p>Additional copies of the novel will be available at Kahuku Public and School Library.</p>\n<p>A list of the 2027 titles is available upon request. Please attend a meeting and inquire with facilitator.</p>\n<p>Recommended for ages 18 and over.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged but not required.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2027-01-08 13:30:00",
+   "end_date": "2027-01-08 14:30:00",
+   "utc_start_date": "2027-01-08 23:30:00",
+   "utc_end_date": "2027-01-09 00:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "branch-book-clubs",
+     "name": "Branch book clubs"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Kahuku",
+    "city": "Kahuku",
+    "url": "https://www.librarieshawaii.org/branch/kahuku-public-and-school-library/"
    }
   },
   {

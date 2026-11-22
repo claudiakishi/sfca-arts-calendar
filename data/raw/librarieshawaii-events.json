@@ -1,241 +1,6 @@
 {
  "events": [
   {
-   "id": 294651,
-   "url": "https://www.librarieshawaii.org/event/whos-coming-to-dinner/",
-   "title": "Who&#8217;s Coming to Dinner?",
-   "description": "<p>One seat. One guest. One unforgettable question.</p>\n<p>You have one extra seat at your Thanksgiving table. Which author, literary character, or historical figure would you invite, and what ONE question would you ask?</p>\n<div>\n<p><span data-canva-clipboard=\"ewAiAGEAIgA6ADUALAAiAGgAIgA6ACIAdwB3AHcALgBjAGEAbgB2AGEALgBjAG8AbQAiACwAIgBjACIAOgAiAEQAQQBIAFoAYgAyAE0ASgBWAE8AUQAiACwAIgBpACIAOgAiAEMARABOAFYATwBFAF8ARgA1AGcAdQBSAHYANAA1ADEAVQAtAEQARgBLAFEAIgAsACIAYgAiADoAMQA3ADkAMwA5ADIANQA2ADkAOAAyADUAMwAsACIAbgAiADoAewAiAEEAIgA6AHsAfQB9ACwAIgBwACIAOgBmAGEAbABzAGUALAAiAEEAPwAiADoAIgBCACIALAAiAEEAIgA6AFsAewAiAEEAIgA6ADQAMAAyAC4AMgA3ADUANAAxADYANQAzADQAMQAxADkANwAsACIAQgAiADoANAAyADMALgA2ADMANgA5ADUAOAA4ADYAMwA4ADIAOQAsACIARAAiADoAMwA3ADAALgA4ADMAMwA2ADIANgA2ADEANQAyADEAMQA0ACwAIgBDACIAOgAxADkAOAAuADQAMQAyADMAMgAwADkAMwA4ADMANQA0ADQALAAiAEEAPwAiADoAIgBLACIALAAiAF8AIgA6ACIATABCAGsAMABMAEIANwBzAGwAOQBCAGIAVgBrAFkANAAiACwAIgBhACIAOgB7ACIAQwAiADoAewAiAEEAIgA6AFsAIgBXAHIAaQB0AGUAIAB5AG8AdQByACAAYQBuAHMAdwBlAHIAIABvAG4AIAB0AGgAZQAgAGwAZQBhAGYALgBcAG4AIgAsACIAQwB1AHQAIABpAHQAIABvAHUAdAAgAGEAbgBkACAAYQBkAGQAIABpAHQAIAB0AG8AIABvAHUAcgAgAHQAcgBlAGUAIABkAGkAcwBwAGwAYQB5AC4AXABuACIALAAiAEMAbwBtAHAAbABlAHQAZQAgAGEAbgBkACAAZABlAHQAYQBjAGgAIAB0AGgAZQAgAGUAbgB0AHIAeQAgAGYAbwByAG0AIABiAGUAbABvAHcAIAB0AGgAZQAgAGwAZQBhAGYALgBcAG4AIgAsACIAUwB1AGIAbQBpAHQAIABpAHQAIABpAG4AIAB0AGgAZQAgAGUAbgB0AHIAeQAgAGIAbwB4ACAAZgBvAHIAIABhACAAYwBoAGEAbgBjAGUAIAB0AG8AIAB3AGkAbgAgAGEAIABwAHIAaQB6AGUAIQBcAG4AIgBdACwAIgBCACIAOgBbADEAOAAxAF0ALAAiAEMAIgA6AFsAewAiAEMAIgA6ACIAWQBBAEYAZABKAG4AUABYADMAWgBFACwAMAAiACwAIgBHACIAOgAiADIAMQAuADMAMwAzADMAcAB4ACIALAAiAE0AIgA6ACIAIwA5AGIAMABmADAANgAiACwAIgBXACIAOgAiAC0AMAAuADAAMgA1AGUAbQAiACwAIgBlACIAOgAiAGQAZQBjAGkAbQBhAGwAIgAsACIAZwAiADoAIgAxACIALAAiAGsAIgA6ACIAMQAuADcAZQBtACIALAAiAHEAIgA6ACIAbgBvAHIAbQBhAGwAIgB9ACwAewAiADAAIgA6ACIAbgBvAG4AZQAiACwAIgBJACIAOgAiAG4AbwByAG0AYQBsACIALAAiAEsAIgA6ACIAbgBvAHIAbQBhAGwAIgAsACIAWQAiADoAIgAxAC4ANABlAG0AIgAsACIAQgBDACIAOgAiADAAZQBtACIALAAiAEIARwAiADoAIgBuAG8AbgBlACIAfQAsAHsAIgAxACIAOgB0AHIAdQBlACwAIgBEACIAOgB0AHIAdQBlACwAIgBIACIAOgB0AHIAdQBlACwAIgBKACIAOgB0AHIAdQBlACwAIgBMACIAOgB0AHIAdQBlACwAIgBOACIAOgB0AHIAdQBlACwAIgBYACIAOgB0AHIAdQBlACwAIgBaACIAOgB0AHIAdQBlACwAIgBmACIAOgB0AHIAdQBlACwAIgBoACIAOgB0AHIAdQBlACwAIgBsACIAOgB0AHIAdQBlACwAIgByACIAOgB0AHIAdQBlACwAIgBCAEQAIgA6AHQAcgB1AGUALAAiAEIASAAiADoAdAByAHUAZQB9AF0ALAAiAEQAIgA6AFsAMAAsADcALAAxADcANABdAH0AfQAsACIAYgAiADoAewAiAEEAIgA6AFsAMwAxACwAMwA0ACwAOQAsADMANQAsADEANgAsADMAMwAsADIAMwBdAH0ALAAiAGQAIgA6ACIAQQAiACwAIgBlACIAOgAzADcAMQAuADQAMwAzADYAMQAyADgANQA3ADMAOQA0ADUANgAsACIAZgAiADoAMQA5ADgALgA3ADMAMwAzADQALAAiAGcAIgA6AGYAYQBsAHMAZQAsACIAaAAiADoAIgBBACIAfQBdACwAIgBCACIAOgA4ADEANgAsACIAQwAiADoAMQAwADUANgB9AA==\"></span></p>\n<div>\n<ol>\n<li><span>Write y</span><span>our answer on the leaf.</span></li>\n<li><span>Cut it out and add it to our tree display.</span></li>\n<li><span>Complete and detach the entry form below the leaf.</span></li>\n<li><span>Submit it in the entry box for a chance to win a prize!</span></li>\n</ol>\n</div>\n</div>\n<div>\n<p><span data-canva-clipboard=\"ewAiAGEAIgA6ADUALAAiAGgAIgA6ACIAdwB3AHcALgBjAGEAbgB2AGEALgBjAG8AbQAiACwAIgBjACIAOgAiAEQAQQBIAFoAYgAyAE0ASgBWAE8AUQAiACwAIgBpACIAOgAiAEMARABOAFYATwBFAF8ARgA1AGcAdQBSAHYANAA1ADEAVQAtAEQARgBLAFEAIgAsACIAYgAiADoAMQA3ADkAMwA5ADIANQA2ADkAOAAyADUAMwAsACIAbgAiADoAewAiAEEAIgA6AHsAfQB9ACwAIgBwACIAOgBmAGEAbABzAGUALAAiAEEAPwAiADoAIgBCACIALAAiAEEAIgA6AFsAewAiAEEAIgA6ADYAMQA0AC4ANQA4ADUAMwA5ADEANAA4ADYAMgAzADcALAAiAEIAIgA6ADQAMgAzAC4ANgAzADYAOQA1ADgAOAA2ADMAOAAyADkALAAiAEQAIgA6ADMANwAwAC4AOAAzADMANgAyADYANgAxADUAMgAxADEANAAsACIAQwAiADoAMwAxADQALgA3ADMAMwAzADQALAAiAEEAPwAiADoAIgBLACIALAAiAF8AIgA6ACIATABCAGsAOABOAHkAMgB5AGwAVwBCAHcAcgBXAHgAYwAiACwAIgBhACIAOgB7ACIAQwAiADoAewAiAEEAIgA6AFsAIgBPAG4AZQAgAGUAbgB0AHIAeQAgAHAAZQByACAAcABlAHIAcwBvAG4ALgAgAFwAbgAiACwAIgBPAHAAZQBuACAAdABvACAAYQBnAGUAcwAgADUAKwAuAFwAbgAiACwAIgBcAG4AIgAsACIAUAByAGkAegBlAHMAIAB3AGkAbABsACAAYgBlACAAYQB3AGEAcgBkAGUAZAAgAGkAbgAgAHQAaAByAGUAZQAgACgAMwApACAAYQBnAGUAIABnAHIAbwB1AHAAcwA6ACAAXABuACIALAAiAEsAaQBkAHMALAAgAGEAZwBlAGQAIAA1AC0AOABcAG4AIgAsACIASwBpAGQAcwAsACAAYQBnAGUAZAAgADkALQAxADIAXABuACIALAAiAFQAZQBlAG4AcwAvAEEAZAB1AGwAdABzACwAIABhAGcAZQBkACAAMQAzACAAKwBcAG4AIgAsACIAXABuACIALAAiAFAAcgBpAHoAZQAgAHcAaQBuAG4AZQByAHMAIAB3AGkAbABsACAAYgBlACAAcgBhAG4AZABvAG0AbAB5ACAAcwBlAGwAZQBjAHQAZQBkACAAYQBuAGQAIABjAG8AbgB0AGEAYwB0AGUAZAAgAG8AbgAgAE4AbwB2AGUAbQBiAGUAcgAgADMAMAAuAFwAbgAiAF0ALAAiAEIAIgA6AFsAMgAxADYAXQAsACIAQwAiADoAWwB7ACIAQwAiADoAIgBZAEEARgBkAEoAbgBQAFgAMwBaAEUALAAwACIALAAiAEcAIgA6ACIAMgAxAC4AMwAzADMAMwBwAHgAIgAsACIATQAiADoAIgAjADkAYgAwAGYAMAA2ACIALAAiAFcAIgA6ACIALQAwAC4AMAAyADUAZQBtACIALAAiAGMAIgA6ACIAYwBlAG4AdABlAHIAIgAsACIAcQAiADoAIgBuAG8AcgBtAGEAbAAiAH0ALAB7ACIAZAAiADoAdAByAHUAZQAsACIAZQAiADoAIgBkAGkAcwBjACIALAAiAGcAIgA6ACIAMQAiACwAIgBrACIAOgAiADEALgA3AGUAbQAiAH0ALAB7ACIAYwAiADoAIgBjAGUAbgB0AGUAcgAiACwAIgBmACIAOgB0AHIAdQBlACwAIgBoACIAOgB0AHIAdQBlACwAIgBsACIAOgB0AHIAdQBlAH0ALAB7ACIAMAAiADoAIgBuAG8AbgBlACIALAAiAEkAIgA6ACIAbgBvAHIAbQBhAGwAIgAsACIASwAiADoAIgBuAG8AcgBtAGEAbAAiACwAIgBZACIAOgAiADEALgA0AGUAbQAiACwAIgBCAEMAIgA6ACIAMABlAG0AIgB9ACwAewAiADEAIgA6AHQAcgB1AGUALAAiAEQAIgA6AHQAcgB1AGUALAAiAEgAIgA6AHQAcgB1AGUALAAiAEoAIgA6AHQAcgB1AGUALAAiAEwAIgA6AHQAcgB1AGUALAAiAE4AIgA6AHQAcgB1AGUALAAiAFgAIgA6AHQAcgB1AGUALAAiAFoAIgA6AHQAcgB1AGUALAAiAGQAIgA6AHQAcgB1AGUALAAiAHIAIgA6AHQAcgB1AGUALAAiAEIARAAiADoAdAByAHUAZQB9AF0ALAAiAEQAIgA6AFsAMAAsADkAMAAsADUANQAsADcAMAAsADEAXQB9AH0ALAAiAGIAIgA6AHsAIgBBACIAOgBbADIAMwAsADEANwAsADEALAA0ADAALAA5ACwAMQA1ACwAMQA2ACwAMgA0ACwAMQAsADQAMAAsADMAMABdAH0ALAAiAGQAIgA6ACIAQQAiACwAIgBnACIAOgBmAGEAbABzAGUALAAiAGgAIgA6ACIAQQAiAH0AXQAsACIAQgAiADoAOAAxADYALAAiAEMAIgA6ADEAMAA1ADYAfQA=\"></span></p>\n<div>\n<div>\n<p><span>Program will be held in the Language, Literature &amp; History Reference Area.One entry per person. </span>Open to ages 5+.</p>\n</div>\n<div>\n<p><span>Prizes will be awarded in three (3) age groups: </span></p>\n</div>\n<ul>\n<li><span>Kids, aged 5-8</span></li>\n<li><span>Kids, aged 9-12</span></li>\n<li><span>Teens/Adults, aged 13 +</span></li>\n</ul>\n<div>\n<p><span>Prize winners will be randomly selected and contacted on November 30.</span></p>\n<p><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</span></p>\n</div>\n</div>\n</div>",
-   "excerpt": "",
-   "all_day": true,
-   "start_date": "2026-11-21 00:00:00",
-   "end_date": "2026-11-28 23:59:59",
-   "utc_start_date": "2026-11-21 10:00:00",
-   "utc_end_date": "2026-11-29 09:59:59",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "history",
-     "name": "History"
-    },
-    {
-     "slug": "writing",
-     "name": "Writing"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "O‘ahu &#8211; Hawai‘i State Library",
-    "city": "Honolulu",
-    "url": "https://www.librarieshawaii.org/branch/hawaii-state-library/"
-   }
-  },
-  {
-   "id": 291292,
-   "url": "https://www.librarieshawaii.org/event/teen-reading-feast-sunrise-on-the-reaping/",
-   "title": "Teen Reading Feast featuring Sunrise on the Reaping",
-   "description": "<div>\n<p><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Visit the dangerous world of Panem, compete in </span><em><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Tribute Trivia</span></em><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">, and become a Victor! In November, we conclude our book &amp; movie exploration of Suzanne Collins’ riveting YA series.</span></strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Enjoy a complimentary café experience featuring baked goods, cocoa, and tea!</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Read a book of your choice </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"><strong>OR earn points to be our Victor by</strong>:</span></p>\n<ul>\n<li><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Attending </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Teen Reading Feast </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">and reading/discussing </span><em><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Sunrise on the Reaping</span></strong></em><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">. Copies are available for pickup at the Circulation Desk.</span></li>\n</ul>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">The Victor will claim a Regal Theatres movie package in time for the November film release of </span><strong><em><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Sunrise on the Reaping</span></em></strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">!</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<div>\n<div>\n<p>This program is suitable for middle schoolers and high schoolers.</p>\n</div>\n<div>\n<p><span>Mahalo nui to the <em>Friends of the Libraries, Kona (F.O.L.K.)</em> for sponsoring this event!</span></p>\n</div>\n</div>\n</div>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. </span></p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-21 10:00:00",
-   "end_date": "2026-11-21 11:30:00",
-   "utc_start_date": "2026-11-21 20:00:00",
-   "utc_end_date": "2026-11-21 21:30:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "books",
-     "name": "Books"
-    },
-    {
-     "slug": "branch-book-clubs",
-     "name": "Branch book clubs"
-    },
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    },
-    {
-     "slug": "reading-programs",
-     "name": "Reading programs"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Kailua-Kona",
-    "city": "Kailua-Kona",
-    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
-   }
-  },
-  {
-   "id": 291290,
-   "url": "https://www.librarieshawaii.org/event/teen-advisory-group-t-a-g-meeting/",
-   "title": "Teen Advisory Group (T.A.G.) Meeting",
-   "description": "<p><strong>From planning programs to curating collections, here is your chance to get involved at the library and build community with like-minded teens!</strong></p>\n<p>Join our <strong>Teen Advisory Group (T.A.G)</strong> to tailor young adult library services, spaces, and collections to your interests. Being a T.A.G. team member is also a great way to <strong>earn volunteer service hours and leadership experience</strong> throughout the year. Visit the Young Adult Room to pick up an application.</p>\n<p>Mahalo nui to the <em>Friends of the Libraries, Kona (F.O.L.K.)</em> for sponsoring this program!</p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required.</span></p>",
-   "excerpt": "<p>Time to meet up to discuss events, programs you want to have at the Kailua-Kona Library. Not a member yet? Join us at the meeting to learn more and have your voice heard.</p>",
-   "all_day": false,
-   "start_date": "2026-11-21 12:00:00",
-   "end_date": "2026-11-21 13:00:00",
-   "utc_start_date": "2026-11-21 22:00:00",
-   "utc_end_date": "2026-11-21 23:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "activities",
-     "name": "Arts &amp; Crafts"
-    },
-    {
-     "slug": "books",
-     "name": "Books"
-    },
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "films-movies",
-     "name": "Films &amp; Movies"
-    },
-    {
-     "slug": "games",
-     "name": "Games"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    },
-    {
-     "slug": "research",
-     "name": "Research"
-    },
-    {
-     "slug": "science",
-     "name": "Science"
-    },
-    {
-     "slug": "technology",
-     "name": "Technology"
-    },
-    {
-     "slug": "virtual",
-     "name": "Virtual"
-    },
-    {
-     "slug": "writing",
-     "name": "Writing"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Kailua-Kona",
-    "city": "Kailua-Kona",
-    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
-   }
-  },
-  {
-   "id": 293489,
-   "url": "https://www.librarieshawaii.org/event/honolulu-stadium-celebrate-the-100th-anniversary/",
-   "title": "Honolulu Stadium: Celebrate the 100th Anniversary",
-   "description": "<p>November marks the 100th anniversary of the opening day of Honolulu Stadium!</p>\n<p>Art Suehiro, author of top-selling book <em>Honolulu Stadium: Where Hawaii Played</em>, takes us down memory lane with a presentation filled with fun stories and fascinating facts.</p>\n<p>Do you have any tales of the Honolulu Stadium?</p>\n<p>Come talk story after the presentation!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible.  Advance requests 48 hours or more before the event are encouraged, but not required.  All programs are subject to change.  See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\"><strong>HSPLS Events Calendar</strong></a>.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-21 13:00:00",
-   "end_date": "2026-11-21 14:00:00",
-   "utc_start_date": "2026-11-21 23:00:00",
-   "utc_end_date": "2026-11-22 00:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "author-talk",
-     "name": "Author Talk"
-    },
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "history",
-     "name": "History"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "O‘ahu &#8211; McCully-Mōʻiliʻili",
-    "city": "Honolulu",
-    "url": "https://www.librarieshawaii.org/branch/mccully-moiliili-public-library/"
-   }
-  },
-  {
-   "id": 296491,
-   "url": "https://www.librarieshawaii.org/event/aina-haina-jane-austen-dancing/",
-   "title": "Dance Like Jane Austen is Watching! A Holiday Regency Ball",
-   "description": "<p>Whether you are as light on your toes as Jane Austen herself or have two left feet like Mr. Collins, join us for a historical afternoon of dance and music!</p>\n<p>Co-hosted by the Jane Austen Society of North America (JASNA) Hawai&#8217;i Region</p>\n<p>Festivities<br />\n• Regency Dancing: Taught by Mistress of Ceremonies Lisa Campbelll.<br />\n• Live Fiddle Music: Performed by John Ivy.<br />\n• Regency Photo Booth: Snap fun historical selfies.<br />\n• Door Prizes: Win free books &amp; a JASNA membership!</p>\n<p>No partner or experience required. Period costumes are welcome but not necessary!<br />\n~ Questions? Email aloha@JASNAHawaii.org</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the  <a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-21 13:00:00",
-   "end_date": "2026-11-21 15:30:00",
-   "utc_start_date": "2026-11-21 23:00:00",
-   "utc_end_date": "2026-11-22 01:30:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "health-and-wellness",
-     "name": "Health &amp; Wellness"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "O‘ahu &#8211; ʻĀina Haina",
-    "city": "Honolulu",
-    "url": "https://www.librarieshawaii.org/branch/aina-haina-public-library/"
-   }
-  },
-  {
    "id": 10046147,
    "url": "https://www.librarieshawaii.org/event/karaoke-10-17-2025-2-2-4-3-2/2026-11-23/",
    "title": "Karaoke At The Library",
@@ -1897,6 +1662,53 @@
    }
   },
   {
+   "id": 296687,
+   "url": "https://www.librarieshawaii.org/event/talk-story-time-2026-12-02/",
+   "title": "Talk Story-Time",
+   "description": "<p><span data-teams=\"true\">Youth Service Librarians, Ms. Pukahi (Children&#8217;s Librarian) and Mrs. Kylee (Young Adult Librarian) team up to bring you an after school extravaganza!</span></p>\n<p><span data-teams=\"true\">Join us for read alouds, book talks, singing, bubbles, and fun crafts for the whole family! Literacy is always fun with us.</span></p>\n<p>Appropriate for PreK to Middle School.</p>\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<p>&nbsp;</p>\n<p><em>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</em></p>\n</div>\n</div>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-02 14:00:00",
+   "end_date": "2026-12-02 15:00:00",
+   "utc_start_date": "2026-12-03 00:00:00",
+   "utc_end_date": "2026-12-03 01:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Waikīkī-Kapahulu",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/waikiki-kapahulu-public-library/"
+   }
+  },
+  {
    "id": 295265,
    "url": "https://www.librarieshawaii.org/event/readers-group-2026dec/",
    "title": "Readers Group",
@@ -3006,6 +2818,53 @@
    }
   },
   {
+   "id": 296689,
+   "url": "https://www.librarieshawaii.org/event/talk-story-time-2026-12-09/",
+   "title": "Talk Story-Time",
+   "description": "<p><span data-teams=\"true\">Youth Service Librarians, Ms. Pukahi (Children&#8217;s Librarian) and Mrs. Kylee (Young Adult Librarian) team up to bring you an after school extravaganza!</span></p>\n<p><span data-teams=\"true\">Join us for read alouds, book talks, singing, bubbles, and fun crafts for the whole family! Literacy is always fun with us.</span></p>\n<p>Appropriate for PreK to Middle School.</p>\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<p>&nbsp;</p>\n<p><em>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</em></p>\n</div>\n</div>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-09 14:00:00",
+   "end_date": "2026-12-09 15:00:00",
+   "utc_start_date": "2026-12-10 00:00:00",
+   "utc_end_date": "2026-12-10 01:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Waikīkī-Kapahulu",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/waikiki-kapahulu-public-library/"
+   }
+  },
+  {
    "id": 291960,
    "url": "https://www.librarieshawaii.org/event/christmas-around-the-world-writing-circle/",
    "title": "Christmas Around the World: Writing Circle",
@@ -4040,57 +3899,6 @@
   {
    "id": 296441,
    "url": "https://www.librarieshawaii.org/event/adventures-await-at-storytime-28/",
-   "title": "Adventures Await at Storytime",
-   "description": "<p><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join Auntie Beth at Storytime!</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">We read books, sing songs, and make a craft. Suitable for children 2-5. Children need to be accompanied by an adult. See you soon!</span></strong></p>\n<p>&nbsp;</p>\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<p>Anyone who requires an auxiliary aid or service for effective communication or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>\n</div>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-12-17 10:30:00",
-   "end_date": "2026-12-17 11:30:00",
-   "utc_start_date": "2026-12-17 20:30:00",
-   "utc_end_date": "2026-12-17 21:30:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "activities",
-     "name": "Arts &amp; Crafts"
-    },
-    {
-     "slug": "books",
-     "name": "Books"
-    },
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    },
-    {
-     "slug": "reading-programs",
-     "name": "Reading programs"
-    },
-    {
-     "slug": "storytime-for-kids",
-     "name": "Storytime (for kids)"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "O‘ahu &#8211; ʻĀina Haina",
-    "city": "Honolulu",
-    "url": "https://www.librarieshawaii.org/branch/aina-haina-public-library/"
-   }
-  },
-  {
-   "id": 296596,
-   "url": "https://www.librarieshawaii.org/event/adventures-await-at-storytime-29/",
    "title": "Adventures Await at Storytime",
    "description": "<p><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join Auntie Beth at Storytime!</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">We read books, sing songs, and make a craft. Suitable for children 2-5. Children need to be accompanied by an adult. See you soon!</span></strong></p>\n<p>&nbsp;</p>\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<p>Anyone who requires an auxiliary aid or service for effective communication or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>\n</div>",
    "excerpt": "",
@@ -5381,6 +5189,57 @@
     "venue": "Maui &#8211; Kīhei",
     "city": "Kīhei",
     "url": "https://www.librarieshawaii.org/branch/kihei-public-library/"
+   }
+  },
+  {
+   "id": 296596,
+   "url": "https://www.librarieshawaii.org/event/adventures-await-at-storytime-29/",
+   "title": "Adventures Await at Storytime",
+   "description": "<p><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join Auntie Beth at Storytime!</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">We read books, sing songs, and make a craft. Suitable for children 2-5. Children need to be accompanied by an adult. See you soon!</span></strong></p>\n<p>&nbsp;</p>\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<p>Anyone who requires an auxiliary aid or service for effective communication or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>\n</div>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-31 10:30:00",
+   "end_date": "2026-12-31 11:30:00",
+   "utc_start_date": "2026-12-31 20:30:00",
+   "utc_end_date": "2026-12-31 21:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; ʻĀina Haina",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/aina-haina-public-library/"
    }
   },
   {

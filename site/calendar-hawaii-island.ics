@@ -16,7 +16,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:5e72d349ccd742b92c42@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261123T170000
 DTEND;TZID=Pacific/Honolulu:20261123T190000
 SUMMARY:Movie Night – Free Birds
@@ -33,7 +33,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:5eadc27da570989ec4c2@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261124T160000
 DTEND;TZID=Pacific/Honolulu:20261124T173000
 SUMMARY:Cozy Crafternoon: Woodland Wonders!
@@ -53,7 +53,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:73dd32760212584c8582@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261127T133000
 DTEND;TZID=Pacific/Honolulu:20261127T140000
 SUMMARY:West Hawaii Dance Theatre Presents: Nutcracker Sweets
@@ -73,7 +73,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:83db14434200a6c523f0@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261128T100000
 DTEND;TZID=Pacific/Honolulu:20261128T120000
 SUMMARY:Needlework Social Circle
@@ -89,7 +89,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:7c14a8a526bd3233eefd@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261130T170000
 DTEND;TZID=Pacific/Honolulu:20261130T190000
 SUMMARY:Ti Leaf Wreaths
@@ -105,7 +105,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:0b05c9731759bd49cbb4@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261201T170000
 DTEND;TZID=Pacific/Honolulu:20261201T180000
 SUMMARY:Hawai‘i Ukulele Ensemble Concert
@@ -123,7 +123,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:d3b24683f0d066919b26@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261203T150000
 DTEND;TZID=Pacific/Honolulu:20261203T160000
 SUMMARY:Kohala Kendama Club
@@ -138,7 +138,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:78485f18f858ea1ae0df@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261208T170000
 DTEND;TZID=Pacific/Honolulu:20261208T183000
 SUMMARY:Author Visit: Tom Peek
@@ -156,7 +156,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:531c0b5b7501606359d2@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261215T170000
 DTEND;TZID=Pacific/Honolulu:20261215T190000
 SUMMARY:Silent Disco at the Library!
@@ -174,7 +174,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:331a23cbd35b00a0d3de@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261219T100000
 DTEND;TZID=Pacific/Honolulu:20261219T120000
 SUMMARY:Needlework Social Circle
@@ -190,7 +190,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:bf13b7c3e8be796476c5@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261219T100000
 DTEND;TZID=Pacific/Honolulu:20261219T113000
 SUMMARY:Teen Reading Feast featuring ‘A Forgery of Fate’ (Part 1)
@@ -210,7 +210,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:88030bbe1552ded1d7d0@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261222T160000
 DTEND;TZID=Pacific/Honolulu:20261222T170000
 SUMMARY:Winter Wonderland Ornament Workshop
@@ -230,7 +230,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:876ecfadb69d7a1a65c1@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261222T170000
 DTEND;TZID=Pacific/Honolulu:20261222T180000
 SUMMARY:Kamuela Philharmonic Leeward Trio
@@ -249,7 +249,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:3253ee009e5e16b66d26@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20270121T170000
 DTEND;TZID=Pacific/Honolulu:20270121T190000
 SUMMARY:Zine Club
@@ -266,28 +266,25 @@ URL:https://www.librarieshawaii.org/event/zine-club-honokaa/
 CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
-UID:5c133609c02e2b148d25@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Christmas in the Country: Annual Wreath Exhibition
-DESCRIPTION:The Volcano Art Center (VAC) is delighted to announce its 27t
- h Annual Wreath Exhibition\, opening November 25th\, 2026. This beloved 
- holiday exhibition showcases locally made wreaths\, ornaments\, and seas
- onal décor created in a wide range of imaginative media\, techniques\, 
- and styles. This year’s theme\, “Birds of the Rainforest” invites 
- artists to draw inspiration from Hawaiʻi’s …  https://volcanoartcen
- ter.org/christmas-in-the-country-annual-wreath-exhibition/  Sources: Vol
- cano Art Center https://volcanoartcenter.org/christmas-in-the-country-an
- nual-wreath-exhibition/
+UID:7e930d353eb41465b524@hawaii-arts-calendar
+DTSTAMP:20261123T212458Z
+DTSTART;TZID=Pacific/Honolulu:20261125T090000
+SUMMARY:Christmas in the Country: 27th Annual Wreath Exhibition
+DESCRIPTION:Locally made holiday wreaths on the theme "Birds of the Rainf
+ orest"\, at both Volcano Art Center galleries.  https://volcanoartcenter
+ .org/christmas-in-the-country-annual-wreath-exhibition/  https://alohaca
+ lendar.com/events/christmas-in-the-country-wreath-exhibition-2026  Sourc
+ es: Volcano Art Center https://volcanoartcenter.org/christmas-in-the-cou
+ ntry-annual-wreath-exhibition/\; AlohaCalendar https://alohacalendar.com
+ /events/christmas-in-the-country-wreath-exhibition-2026
 LOCATION:Volcano Art Center
 URL:https://volcanoartcenter.org/christmas-in-the-country-annual-wreath-e
  xhibition/
-CATEGORIES:Volcano Art Center
+CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:f678c5514b94bf57114a@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Jazz in the Forest with JP Thoma & the Jazztones
@@ -306,7 +303,7 @@ CATEGORIES:Volcano Art Center
 END:VEVENT
 BEGIN:VEVENT
 UID:3c78f20c87b5b7484959-opens@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:Stained Glass Workshop with Linda Brooks _ Saturdays\, January 23
@@ -328,7 +325,7 @@ CATEGORIES:Workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:3c78f20c87b5b7484959-closes@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:Stained Glass Workshop with Linda Brooks _ Saturdays\, January 23
@@ -350,7 +347,7 @@ CATEGORIES:Workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:ed7aa832a8b1b86510ed@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:Food From Wood: Mushroom Cultivation
@@ -368,7 +365,7 @@ CATEGORIES:Volcano Art Center
 END:VEVENT
 BEGIN:VEVENT
 UID:feb01ea03218a6b8d2b2@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261205T100000
 SUMMARY:The 20th Annual Paradise Studio Tour
 DESCRIPTION:  https://alohacalendar.com/events/the-20th-annual-paradise-s
@@ -382,7 +379,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:5818de65e6e361b39c38@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261207T160000
 SUMMARY:Ka Pi'‘ina o Hōkūlei: A Merry Member Holiday
 DESCRIPTION:Ka Pi‘ina o Hōkūlei: A Merry Member Holiday Monday\, Dece
@@ -398,7 +395,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:011a42ee9eb27b92ce84@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;TZID=Pacific/Honolulu:20261214T090000
 SUMMARY:Hālau ʻŌkupu Paniolo!
 DESCRIPTION:Read The parent handbook #block-ba8c75ab0edc3fa60ac2 { --sqs-

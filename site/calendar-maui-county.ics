@@ -16,7 +16,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:3da7153989389067df06@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Underwater Fun
@@ -29,8 +29,42 @@ URL:https://alohacalendar.com/events/underwater-fun
 CATEGORIES:Cultural & Heritage
 END:VEVENT
 BEGIN:VEVENT
+UID:70470723d8aa71b64e29-opens@hawaii-arts-calendar
+DTSTAMP:20261123T212458Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Keiki Craft & Storytime — opens
+DESCRIPTION:Runs 4 dates\, December 3 – 24\, 2026. Join us at Hui No‘
+ eau for a sweet morning of stories\, creativity\, and connection! Keiki 
+ Craft & Storytime invites our littlest artists and their grown-ups to…
+   https://alohacalendar.com/events/keiki-craft-storytime  https://www.hu
+ inoeau.com/art-events/2025/8/hui-holidays-2026-sa84y-h2nhp-8pzaa-p6jg6  
+ Sources: AlohaCalendar https://alohacalendar.com/events/keiki-craft-stor
+ ytime
+LOCATION:Hui Noʻeau Visual Arts Center (Maui)
+URL:https://alohacalendar.com/events/keiki-craft-storytime
+CATEGORIES:Family & Keiki
+END:VEVENT
+BEGIN:VEVENT
+UID:70470723d8aa71b64e29-closes@hawaii-arts-calendar
+DTSTAMP:20261123T212458Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:Keiki Craft & Storytime — closes (last day)
+DESCRIPTION:Runs 4 dates\, December 3 – 24\, 2026. Join us at Hui No‘
+ eau for a sweet morning of stories\, creativity\, and connection! Keiki 
+ Craft & Storytime invites our littlest artists and their grown-ups to…
+   https://alohacalendar.com/events/keiki-craft-storytime  https://www.hu
+ inoeau.com/art-events/2025/8/hui-holidays-2026-sa84y-h2nhp-8pzaa-p6jg6  
+ Sources: AlohaCalendar https://alohacalendar.com/events/keiki-craft-stor
+ ytime
+LOCATION:Hui Noʻeau Visual Arts Center (Maui)
+URL:https://alohacalendar.com/events/keiki-craft-storytime
+CATEGORIES:Family & Keiki
+END:VEVENT
+BEGIN:VEVENT
 UID:a7fde5debf21f48034b2@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:IRATION
@@ -43,7 +77,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:94cb2a364663ac9908e8@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:MAUI POPS ORCHESTRA - Holiday Pops
@@ -57,7 +91,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:120dcccc7daea32789a7@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:The BLIND BOYS of ALABAMA
@@ -71,7 +105,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:b8851ef472f2887bec80@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:WHOSE LIVE ANYWAY?
@@ -83,8 +117,23 @@ URL:https://alohacalendar.com/events/whose-live-anyway
 CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
+UID:a702e5d1c92af72872d3@hawaii-arts-calendar
+DTSTAMP:20261123T212458Z
+DTSTART;TZID=Pacific/Honolulu:20261212T110000
+SUMMARY:Hui Holidays 2026: Santa's Workshop
+DESCRIPTION:Bring the whole family to the Hui for a festive day of holida
+ y fun! Meet Santa from 11:30 AM–1:30 PM and enjoy FREE Keiki art activ
+ ities\, handmade treasures…  https://alohacalendar.com/events/hui-holi
+ days-2026-santass-workshop  https://www.huinoeau.com/art-events/2026/12/
+ save-the-date-hui-holidays-santa-workshop-2025-77bw3  Sources: AlohaCale
+ ndar https://alohacalendar.com/events/hui-holidays-2026-santass-workshop
+LOCATION:Hui Noʻeau Visual Arts Center (Maui)
+URL:https://alohacalendar.com/events/hui-holidays-2026-santass-workshop
+CATEGORIES:Family & Keiki
+END:VEVENT
+BEGIN:VEVENT
 UID:b9cb488cb6aecfe3e833@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:JIAOYING SUMMERS
@@ -98,7 +147,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:f4a07395c33eb3e4685f@hawaii-arts-calendar
-DTSTAMP:20261122T170930Z
+DTSTAMP:20261123T212458Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:JAKE SHIMABUKURO'S Holidays in Hawaiʻi
@@ -110,6 +159,22 @@ DESCRIPTION:JAKE SHIMABUKURO'S Holidays in Hawaiʻi  https://alohacalenda
 LOCATION:Maui Arts & Cultural Center (Maui)
 URL:https://alohacalendar.com/events/jake-shimabukuros-holidays-in-hawaii
  -2026-12-15
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
+UID:2883c5ad8102af1b73f2@hawaii-arts-calendar
+DTSTAMP:20261123T212458Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:2027 Annual Juried Exhibition
+DESCRIPTION:This prestigious annual exhibition celebrates the diverse and
+  dynamic talents of artists from Maui and beyond\, showcasing an inspiri
+ ng range of work in all…  https://alohacalendar.com/events/2027-annual
+ -juried-exhibition  https://www.huinoeau.com/exhibitions/2027/annualjuri
+ ed  Sources: AlohaCalendar https://alohacalendar.com/events/2027-annual-
+ juried-exhibition
+LOCATION:Hui Noʻeau Visual Arts Center (Maui)
+URL:https://alohacalendar.com/events/2027-annual-juried-exhibition
 CATEGORIES:Arts & Gallery
 END:VEVENT
 END:VCALENDAR

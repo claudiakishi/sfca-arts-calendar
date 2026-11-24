@@ -15,8 +15,62 @@ TZNAME:HST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:f58c08c066a156194d32@hawaii-arts-calendar
+DTSTAMP:20261124T200958Z
+DTSTART;TZID=Pacific/Honolulu:20261202T170000
+DTEND;TZID=Pacific/Honolulu:20261202T190000
+SUMMARY:Legacy of the Landscape – West
+DESCRIPTION:Join local documentarian Catherine Aki for this two-part seri
+ es of narrated slide shows exploring the landscapes of West & East Molok
+ aʻi. Each presentation features original photographs\, moʻolelo & rese
+ arch compiled from a variety of sources. Come back on December 9 for Eas
+ t!  https://www.librarieshawaii.org/event/legacy-of-the-landscape-west/ 
+  Sources: Libraries https://www.librarieshawaii.org/event/legacy-of-the-
+ landscape-west/
+LOCATION:Molokaʻi Public Library (Molokaʻi)
+URL:https://www.librarieshawaii.org/event/legacy-of-the-landscape-west/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:2eaee0dd91dd288208b5@hawaii-arts-calendar
+DTSTAMP:20261124T200958Z
+DTSTART;TZID=Pacific/Honolulu:20261209T170000
+DTEND;TZID=Pacific/Honolulu:20261209T190000
+SUMMARY:Legacy of the Landscape – East
+DESCRIPTION:Join local documentarian Catherine Aki for the second install
+ ment of this two-part series of narrated slide shows exploring the lands
+ capes of West & East Molokaʻi. Each presentation features original phot
+ ographs\, moʻolelo & research compiled from a variety of sources.  http
+ s://www.librarieshawaii.org/event/legacy-of-the-landscape-east/  Sources
+ : Libraries https://www.librarieshawaii.org/event/legacy-of-the-landscap
+ e-east/
+LOCATION:Molokaʻi Public Library (Molokaʻi)
+URL:https://www.librarieshawaii.org/event/legacy-of-the-landscape-east/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
+UID:05cf12f67bdcc5ae7b07@hawaii-arts-calendar
+DTSTAMP:20261124T200958Z
+DTSTART;TZID=Pacific/Honolulu:20261209T170000
+DTEND;TZID=Pacific/Honolulu:20261209T180000
+SUMMARY:Read To Me International Family Literacy Night
+DESCRIPTION:Join us for an evening of fun read-alouds\, music\, and readi
+ ng resources! Families and educators welcome! This month’s titles TBD.
+  Register here: RTMI & Moloka‘i Public Library Family Literacy Night R
+ egistration and complete a post-program survey to take home both titles!
+  If you have any questions\, please email Read To Me International Found
+ ation or call/text Dannah (pronounced like Day-na) at…  https://www.li
+ brarieshawaii.org/event/read-to-me-international-family-literacy-night-3
+ /  Sources: Libraries https://www.librarieshawaii.org/event/read-to-me-i
+ nternational-family-literacy-night-3/
+LOCATION:Molokaʻi Public Library (Molokaʻi)
+URL:https://www.librarieshawaii.org/event/read-to-me-international-family
+ -literacy-night-3/
+CATEGORIES:Library programs
+END:VEVENT
+BEGIN:VEVENT
 UID:3da7153989389067df06@hawaii-arts-calendar
-DTSTAMP:20261123T212458Z
+DTSTAMP:20261124T200958Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Underwater Fun
@@ -30,7 +84,7 @@ CATEGORIES:Cultural & Heritage
 END:VEVENT
 BEGIN:VEVENT
 UID:70470723d8aa71b64e29-opens@hawaii-arts-calendar
-DTSTAMP:20261123T212458Z
+DTSTAMP:20261124T200958Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Keiki Craft & Storytime — opens
@@ -47,7 +101,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:70470723d8aa71b64e29-closes@hawaii-arts-calendar
-DTSTAMP:20261123T212458Z
+DTSTAMP:20261124T200958Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Keiki Craft & Storytime — closes (last day)
@@ -64,7 +118,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:a7fde5debf21f48034b2@hawaii-arts-calendar
-DTSTAMP:20261123T212458Z
+DTSTAMP:20261124T200958Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:IRATION
@@ -77,7 +131,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:94cb2a364663ac9908e8@hawaii-arts-calendar
-DTSTAMP:20261123T212458Z
+DTSTAMP:20261124T200958Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:MAUI POPS ORCHESTRA - Holiday Pops
@@ -91,7 +145,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:120dcccc7daea32789a7@hawaii-arts-calendar
-DTSTAMP:20261123T212458Z
+DTSTAMP:20261124T200958Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:The BLIND BOYS of ALABAMA
@@ -105,7 +159,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:b8851ef472f2887bec80@hawaii-arts-calendar
-DTSTAMP:20261123T212458Z
+DTSTAMP:20261124T200958Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:WHOSE LIVE ANYWAY?
@@ -117,8 +171,22 @@ URL:https://alohacalendar.com/events/whose-live-anyway
 CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
+UID:b9cb488cb6aecfe3e833@hawaii-arts-calendar
+DTSTAMP:20261124T200958Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:JIAOYING SUMMERS
+DESCRIPTION:JIAOYING SUMMERS  https://alohacalendar.com/events/jiaoying-s
+ ummers-2026-12-12  https://mauiarts.org/show-details/jiaoying-summers  S
+ ources: AlohaCalendar https://alohacalendar.com/events/jiaoying-summers-
+ 2026-12-12
+LOCATION:Maui Arts & Cultural Center (Maui)
+URL:https://alohacalendar.com/events/jiaoying-summers-2026-12-12
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
 UID:a702e5d1c92af72872d3@hawaii-arts-calendar
-DTSTAMP:20261123T212458Z
+DTSTAMP:20261124T200958Z
 DTSTART;TZID=Pacific/Honolulu:20261212T110000
 SUMMARY:Hui Holidays 2026: Santa's Workshop
 DESCRIPTION:Bring the whole family to the Hui for a festive day of holida
@@ -132,22 +200,8 @@ URL:https://alohacalendar.com/events/hui-holidays-2026-santass-workshop
 CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
-UID:b9cb488cb6aecfe3e833@hawaii-arts-calendar
-DTSTAMP:20261123T212458Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:JIAOYING SUMMERS
-DESCRIPTION:JIAOYING SUMMERS  https://alohacalendar.com/events/jiaoying-s
- ummers-2026-12-12  https://mauiarts.org/show-details/jiaoying-summers  S
- ources: AlohaCalendar https://alohacalendar.com/events/jiaoying-summers-
- 2026-12-12
-LOCATION:Maui Arts & Cultural Center (Maui)
-URL:https://alohacalendar.com/events/jiaoying-summers-2026-12-12
-CATEGORIES:Arts & Gallery
-END:VEVENT
-BEGIN:VEVENT
 UID:f4a07395c33eb3e4685f@hawaii-arts-calendar
-DTSTAMP:20261123T212458Z
+DTSTAMP:20261124T200958Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:JAKE SHIMABUKURO'S Holidays in Hawaiʻi
@@ -163,7 +217,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:2883c5ad8102af1b73f2@hawaii-arts-calendar
-DTSTAMP:20261123T212458Z
+DTSTAMP:20261124T200958Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:2027 Annual Juried Exhibition

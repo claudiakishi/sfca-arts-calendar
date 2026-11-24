@@ -1,68 +1,6 @@
 {
  "events": [
   {
-   "id": 10046147,
-   "url": "https://www.librarieshawaii.org/event/karaoke-10-17-2025-2-2-4-3-2/2026-11-23/",
-   "title": "Karaoke At The Library",
-   "description": "<p>End your work day with songs and fun! Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-23 16:30:00",
-   "end_date": "2026-11-23 18:30:00",
-   "utc_start_date": "2026-11-24 02:30:00",
-   "utc_end_date": "2026-11-24 04:30:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "O‘ahu &#8211; ʻEwa Beach",
-    "city": "ʻEwa Beach",
-    "url": "https://www.librarieshawaii.org/branch/ewa-beach-public-and-school-library/"
-   }
-  },
-  {
-   "id": 294243,
-   "url": "https://www.librarieshawaii.org/event/movie-night-the-book-of-life-2/",
-   "title": "Movie Night &#8211; Free Birds",
-   "description": "<p>Please join us for a showing of <em>Free Birds.</em></p>\n<p><span>&#8220;A pair of turkeys discover a time machine and decide to use it to travel to the first Thanksgiving, to take turkeys off the menu forever.&#8221; (imdb.com, 2026)</span></p>\n<hr />\n<p>Program is suitable for age 5 and over. All children must be accompanied by a parent or an adult caregiver.</p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedules are subject to change. Events will not be held on State holidays.</span></p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-23 17:00:00",
-   "end_date": "2026-11-23 19:00:00",
-   "utc_start_date": "2026-11-24 03:00:00",
-   "utc_end_date": "2026-11-24 05:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "films-movies",
-     "name": "Films &amp; Movies"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Pāhoa",
-    "city": "Pāhoa",
-    "url": "https://www.librarieshawaii.org/branch/pahoa-public-and-school-library/"
-   }
-  },
-  {
    "id": 10035721,
    "url": "https://www.librarieshawaii.org/event/family-story-time-pahoa/2026-11-24/",
    "title": "Family Story Time",
@@ -1670,6 +1608,76 @@
    }
   },
   {
+   "id": 296860,
+   "url": "https://www.librarieshawaii.org/event/pokemon-club-8/",
+   "title": "Pokemon Club",
+   "description": "<div class=\"x_elementToProof\" data-olk-copy-source=\"MessageBody\">\n<div class=\"x_elementToProof\" data-olk-copy-source=\"MessageBody\">Keiki ages 5-14 are invited to join Kapolei Public Library’s Pokémon Club!</div>\n<div>\n<div class=\"x_elementToProof\">\n<ul>\n<li class=\"x_elementToProof\" data-olk-copy-source=\"MessageBody\">12/2: Learn and play the Pokémon Trading Card Game (TCG). Cards will be loaned to newcomers. Experienced players are encouraged to join in and may bring their own cards (which should be marked to prevent them from being mixed up with another person’s deck).</li>\n<li class=\"x_elementToProof\">12/16: Pokémon Club will be ending the year with a Pokéathalon! Players will team up and compete in 20 minigames inspired by Pokémon. A prize will be awarded after each game! Player slots are limited and will be filled on a first come, first serve basis.</li>\n</ul>\n</div>\n<p>We are accepting donations of new or old Pokémon Trading Cards. This program is thanks to a partnership with AASL/ALSC and the Pokémon Company.</p>\n</div>\n<div class=\"x_elementToProof\"></div>\n</div>\n<div data-olk-copy-source=\"MessageBody\"><span data-contrast=\"none\">All programs are subject to change. Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:0,&quot;335559737&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"> </span></div>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-02 14:30:00",
+   "end_date": "2026-12-02 16:00:00",
+   "utc_start_date": "2026-12-03 00:30:00",
+   "utc_end_date": "2026-12-03 02:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "games",
+     "name": "Games"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Kapolei",
+    "city": "Kapolei",
+    "url": "https://www.librarieshawaii.org/branch/kapolei-public-library/"
+   }
+  },
+  {
+   "id": 296882,
+   "url": "https://www.librarieshawaii.org/event/legacy-of-the-landscape-west/",
+   "title": "Legacy of the Landscape &#8211; West",
+   "description": "<p>Join local documentarian Catherine Aki for this two-part series of narrated slide shows exploring the landscapes of West &amp; East Molokaʻi. Each presentation features original photographs, moʻolelo &amp; research compiled from a variety of sources.</p>\n<p>Come back on December 9 for East!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in<br />\na program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events at librarieshawaii.org/events.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-02 17:00:00",
+   "end_date": "2026-12-02 19:00:00",
+   "utc_start_date": "2026-12-03 03:00:00",
+   "utc_end_date": "2026-12-03 05:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "history",
+     "name": "History"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Molokaʻi &#8211; Molokaʻi",
+    "city": "Kaunakakai",
+    "url": "https://www.librarieshawaii.org/branch/molokai-public-library/"
+   }
+  },
+  {
    "id": 295265,
    "url": "https://www.librarieshawaii.org/event/readers-group-2026dec/",
    "title": "Readers Group",
@@ -1903,6 +1911,45 @@
     "venue": "O‘ahu &#8211; ʻĀina Haina",
     "city": "Honolulu",
     "url": "https://www.librarieshawaii.org/branch/aina-haina-public-library/"
+   }
+  },
+  {
+   "id": 296951,
+   "url": "https://www.librarieshawaii.org/event/paper-garland-holiday-decor-craft/",
+   "title": "Paper Garland Holiday Decor Craft",
+   "description": "<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Don’t want to spend money on fancy decorations this year? Create these beautiful, hand-made paper snowburst garland and re-use them year after year. </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"></span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Welcoming adults with advanced reservation required <strong>Sign up online or call the library for assistance (808-323-7585)</strong>. </span></p>\n<p><em>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</em></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-03 13:00:00",
+   "end_date": "2026-12-03 15:00:00",
+   "utc_start_date": "2026-12-03 23:00:00",
+   "utc_end_date": "2026-12-04 01:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "Free",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "holiday-season-december",
+     "name": "Holiday Season"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kealakekua",
+    "city": "Kealakekua",
+    "url": "https://www.librarieshawaii.org/branch/kealakekua-public-library/"
    }
   },
   {
@@ -2826,6 +2873,150 @@
    }
   },
   {
+   "id": 296957,
+   "url": "https://www.librarieshawaii.org/event/merrymovienight/",
+   "title": "Merry Movie Night &amp; Cookie Swap",
+   "description": "<div><span data-canva-clipboard=\"ewAiAGEAIgA6ADUALAAiAGgAIgA6ACIAdwB3AHcALgBjAGEAbgB2AGEALgBjAG8AbQAiACwAIgBjACIAOgAiAEQAQQBHADgAUwBFADYAaABOAHcATQAiACwAIgBpACIAOgAiAG0AdwBzAFAAcwB1ADkAcgBaAEMAagAyAGgATgAwAGQAUQBRAHQAUgBqAHcAIgAsACIAYgAiADoAMQA3ADkANQA0ADgAMQAwADIANwA3ADkAMgAsACIAbgAiADoAewAiAEEAIgA6AHsAfQB9ACwAIgBwACIAOgBmAGEAbABzAGUALAAiAEEAPwAiADoAIgBCACIALAAiAEEAIgA6AFsAewAiAEEAIgA6ADUAMwA4AC4AMAA4ADMAMgAwADMAOAA4ADIAMQA3ADQAOAAsACIAQgAiADoAMgAxAC4ANwA3ADQAMAAyADMAMQA5ADAAMQA0ADgALAAiAEQAIgA6ADQAOAA2AC4ANwAyADEAOAA2ADcAMAAzADYAMAAwADQANgAsACIAQwAiADoAMQA3ADYALgA1ADMAMwAzADQALAAiAEEAPwAiADoAIgBLACIALAAiAF8AIgA6ACIATABCAEMAQgBzADEAcQBUAE4AUgAxAHcATABqAHkATAAiACwAIgBhACIAOgB7ACIAQwAiADoAewAiAEEAIgA6AFsAIgBKAG8AaQBuACAAaQBuACAAZgBvAHIAIABhACAAZgBlAHMAdABpAHYAZQAgAGYAaQBsAG0AIABhAG4AZAAgAGQAZQBsAGkAYwBpAG8AdQBzACAAYwBvAG8AawBpAGUAIABzAHcAYQBwACEAXABuACIALAAiAFwAbgAiACwAIgBCAHIAaQBuAGcAIAB5AG8AdQByACAAZgBhAHYAbwByAGkAdABlACAAYwBvAG8AawBpAGUALwBoAG8AbABpAGQAYQB5ACAAdAByAGUAYQB0ACAAdABvACAAcwBoAGEAcgBlACAAYQBuAGQAIABlAG4AagBvAHkAIABhACAAZgBhAG0AaQBsAHkALQBmAHIAaQBlAG4AZABsAHkAIABoAG8AbABpAGQAYQB5ACAAZgBpAGwAbQAgAGMAaABvAHMAZQBuACAAYgB5ACAAeQBvAHUAIQAgAFcAZQBsAGMAbwBtAGkAbgBnACAAYQBsAGwAIABhAGcAZQBzAC4AXABuACIALAAiAFwAbgAiACwAIgBXAGUAIAB3AGkAbABsACAAaABhAHYAZQAgAGEAbgAgAGEAcABwAGwAZQAgAGMAaQBkAGUAcgAgAGEAbgBkACAAaABvAHQAIABjAG8AYwBvAGEAIABiAGEAcgAgAHcAaQB0AGgAIABkAGUAbABlAGMAdABhAGIAbABlACAAdABvAHAAcABpAG4AZwBzACwAIABmAHUAbgBkAGUAZAAgAGMAbwB1AHIAdABlAHMAeQAgAG8AZgAgAEYAcgBpAGUAbgBkAHMAIABvAGYAIAB0AGgAZQAgAEwAaQBiAHIAYQByAGkAZQBzACwAIABLAG8AbgBhACAAKABGAC4ATwAuAEwALgBLAC4AKQBcAG4AIgBdACwAIgBCACIAOgBbADEAOAAwACwALQAxACwAMQA4ACwALQA0ACwAMQA1ACwALQAyADIALAA0ADIALAAtADMAMQAsADUAOQAsAC0AMgA4ADgALAAxAF0ALAAiAEMAIgA6AFsAewAiAEMAIgA6ACIAWQBBAEYAZABKAGoAVABrADUAVQBVACwAMAAiACwAIgBHACIAOgAiADEAOAAuADYANgA2ADYAcAB4ACIALAAiAEkAIgA6ACIAYgBvAGwAZAAiACwAIgBNACIAOgAiACMAZQBmADAAMAAwADAAIgAsACIAYwAiADoAIgBjAGUAbgB0AGUAcgAiACwAIgBxACIAOgAiAG4AbwByAG0AYQBsACIAfQAsAHsAIgBIACIAOgB0AHIAdQBlACwAIgBOACIAOgB0AHIAdQBlAH0ALAB7ACIASgAiADoAdAByAHUAZQB9ACwAewAiADAAIgA6ACIAbgBvAG4AZQAiACwAIgBHACIAOgAiADEANgBwAHgAIgAsACIASQAiADoAIgBiAG8AbABkACIALAAiAEsAIgA6ACIAbgBvAHIAbQBhAGwAIgAsACIATQAiADoAIgAjADAAMAAwADAAMAAwACIALAAiAFcAIgA6ACIAMABlAG0AIgAsACIAWQAiADoAIgAxAC4ANABlAG0AIgAsACIAQgBDACIAOgAiADAAZQBtACIALAAiAEIARwAiADoAIgBuAG8AbgBlACIAfQAsAHsAIgAxACIAOgB0AHIAdQBlACwAIgBEACIAOgB0AHIAdQBlACwAIgBIACIAOgB0AHIAdQBlACwAIgBKACIAOgB0AHIAdQBlACwAIgBMACIAOgB0AHIAdQBlACwAIgBOACIAOgB0AHIAdQBlACwAIgBYACIAOgB0AHIAdQBlACwAIgBaACIAOgB0AHIAdQBlACwAIgBkACIAOgB0AHIAdQBlACwAIgByACIAOgB0AHIAdQBlACwAIgBCAEQAIgA6AHQAcgB1AGUALAAiAEIASAAiADoAdAByAHUAZQB9AF0ALAAiAEQAIgA6AFsAMAAsADUANAAsADEALAA2ADAANQAsADEAXQB9AH0ALAAiAGIAIgA6AHsAIgBBACIAOgBbADUANAAsADEALAA2ADIALAA2ADQALAAxACwANgAyACwANgAwACwAMQAxAF0AfQAsACIAZAAiADoAIgBBACIALAAiAGcAIgA6AGYAYQBsAHMAZQAsACIAaAAiADoAIgBBACIAfQBdACwAIgBCACIAOgAxADAANQA2ACwAIgBDACIAOgA4ADEANgB9AA==\"></span></p>\n<div>\n<div>\n<p><span>Join in for a festive film and delicious cookie swap!</span></p>\n</div>\n<div>\n<p><span>Bring your favorite cookie/holiday treat to share and enjoy a family-friendly holiday film<strong> chosen by you</strong>! Welcoming all ages, no registration required.</span></p>\n</div>\n<div>\n<p><span>We will have an </span><span>apple cider and</span><span> hot cocoa bar with delectable toppings, f</span><span>unded courtesy of Friends of the Libraries, Kona (F.O.L.K.)</span></p>\n</div>\n</div>\n</div>\n<p><em>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</em></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-09 15:30:00",
+   "end_date": "2026-12-09 17:00:00",
+   "utc_start_date": "2026-12-10 01:30:00",
+   "utc_end_date": "2026-12-10 03:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "films-movies",
+     "name": "Films &amp; Movies"
+    },
+    {
+     "slug": "holiday-season-december",
+     "name": "Holiday Season"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kealakekua",
+    "city": "Kealakekua",
+    "url": "https://www.librarieshawaii.org/branch/kealakekua-public-library/"
+   }
+  },
+  {
+   "id": 296887,
+   "url": "https://www.librarieshawaii.org/event/legacy-of-the-landscape-east/",
+   "title": "Legacy of the Landscape &#8211; East",
+   "description": "<p>Join local documentarian Catherine Aki for the second installment of this two-part series of narrated slide shows exploring the landscapes of West &amp; East Molokaʻi. Each presentation features original photographs, moʻolelo &amp; research compiled from a variety of sources.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in<br />\na program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events at librarieshawaii.org/events.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-09 17:00:00",
+   "end_date": "2026-12-09 19:00:00",
+   "utc_start_date": "2026-12-10 03:00:00",
+   "utc_end_date": "2026-12-10 05:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "history",
+     "name": "History"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Molokaʻi &#8211; Molokaʻi",
+    "city": "Kaunakakai",
+    "url": "https://www.librarieshawaii.org/branch/molokai-public-library/"
+   }
+  },
+  {
+   "id": 296921,
+   "url": "https://www.librarieshawaii.org/event/read-to-me-international-family-literacy-night-3/",
+   "title": "Read To Me International Family Literacy Night",
+   "description": "<p>Join us for an evening of fun read-alouds, music, and reading resources! Families and educators welcome!</p>\n<p>This month&#8217;s titles TBD.</p>\n<p>Register here:  <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSc5nDDBcPTHfmHO4aItnKY5ItmdRxFepC8X90bXSrR84ZWRpw/viewform\">RTMI &amp; Moloka‘i Public Library Family Literacy Night Registration</a> and complete a post-program survey to take home both titles!</p>\n<p>If you have any questions, please <a href=\"mailto:dannah@readtomeintl.org\">email Read To Me International Foundation</a> or call/text Dannah (pronounced like Day-na) at 808-674-7667.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-09 17:00:00",
+   "end_date": "2026-12-09 18:00:00",
+   "utc_start_date": "2026-12-10 03:00:00",
+   "utc_end_date": "2026-12-10 04:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Molokaʻi &#8211; Molokaʻi",
+    "city": "Kaunakakai",
+    "url": "https://www.librarieshawaii.org/branch/molokai-public-library/"
+   }
+  },
+  {
+   "id": 296910,
+   "url": "https://www.librarieshawaii.org/event/writers-night-2/",
+   "title": "Writer&#8217;s Night",
+   "description": "<p>We invite you to a<span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"> dedicated evening for writing, collaboration, and creative exchange. Work independently or share ideas with other writers. </span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">We welcome <strong>adults</strong> for this program. No sign-up required. Light snacks will be provided. Generously sponsored by Friends of the Libraries, Kona (F.O.L.K.).</span></p>\n<p><em><span data-contrast=\"auto\" xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW256989761 BCX0\"><span class=\"NormalTextRun SCXW256989761 BCX0\">Anyone who requires an auxiliary aid or service for effective communication,</span><span class=\"NormalTextRun SCXW256989761 BCX0\"> </span><span class=\"NormalTextRun SCXW256989761 BCX0\">or a modification of policies or procedures to </span><span class=\"NormalTextRun SCXW256989761 BCX0\">participate</span><span class=\"NormalTextRun SCXW256989761 BCX0\"> in a program, service, or activity should contact library staff as soon as possible. Advance requests </span><span class=\"NormalTextRun SCXW256989761 BCX0\">48 hours</span><span class=\"NormalTextRun SCXW256989761 BCX0\"> or more before the event are </span><span class=\"NormalTextRun SCXW256989761 BCX0\">encouraged, but</span><span class=\"NormalTextRun SCXW256989761 BCX0\"> not </span><span class=\"NormalTextRun SCXW256989761 BCX0\">required</span><span class=\"NormalTextRun SCXW256989761 BCX0\">.</span><span class=\"NormalTextRun SCXW256989761 BCX0\"> Program schedule is subject to change.</span></span><span class=\"EOP SCXW256989761 BCX0\" data-ccp-props=\"{}\"> </span></em></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-09 17:30:00",
+   "end_date": "2026-12-09 18:30:00",
+   "utc_start_date": "2026-12-10 03:30:00",
+   "utc_end_date": "2026-12-10 04:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "poetry",
+     "name": "Poetry"
+    },
+    {
+     "slug": "writing",
+     "name": "Writing"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kealakekua",
+    "city": "Kealakekua",
+    "url": "https://www.librarieshawaii.org/branch/kealakekua-public-library/"
+   }
+  },
+  {
    "id": 291960,
    "url": "https://www.librarieshawaii.org/event/christmas-around-the-world-writing-circle/",
    "title": "Christmas Around the World: Writing Circle",
@@ -3235,6 +3426,41 @@
     "venue": "Hawai‘i &#8211; Kailua-Kona",
     "city": "Kailua-Kona",
     "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
+   }
+  },
+  {
+   "id": 296966,
+   "url": "https://www.librarieshawaii.org/event/christmas-sing-along-2/",
+   "title": "Christmas Sing-Along!",
+   "description": "<p>Keiki and their family are invited to the downtown Hawaii State Library for a special Christmas Sing Along led by volunteers from the Sing For Your Life group! Belt along to classic tunes like <em>Frosty the Snowman</em>, local favorites like <em>The </em><em>12 Days of Christmas (Pidgin Style!)</em>, and more!</p>\n<p><span>All children must be accompanied by an adult. This 30-minute program will immediately follow Children&#8217;s Storytime.</span></p>\n<p><span>Sing for Your Life volunteers have been bringing sing-along entertainment to Oahu since 2016. Their purpose is to uplift, inspire, promote friendships and strengthen the community. Founder Chanara Richmond has an extensive background in music featuring roles as a teacher, opera singer, composer and recording artist. </span></p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</span></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-12 11:15:00",
+   "end_date": "2026-12-12 11:45:00",
+   "utc_start_date": "2026-12-12 21:15:00",
+   "utc_end_date": "2026-12-12 21:45:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "holiday-season-december",
+     "name": "Holiday Season"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Hawai‘i State Library",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/hawaii-state-library/"
    }
   },
   {
@@ -3670,6 +3896,128 @@
     "venue": "Hawai‘i &#8211; Kailua-Kona",
     "city": "Kailua-Kona",
     "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
+   }
+  },
+  {
+   "id": 296867,
+   "url": "https://www.librarieshawaii.org/event/pokemon-club-9/",
+   "title": "Pokemon Club",
+   "description": "<div class=\"x_elementToProof\" data-olk-copy-source=\"MessageBody\">\n<div class=\"x_elementToProof\" data-olk-copy-source=\"MessageBody\">Keiki ages 5-14 are invited to join Kapolei Public Library’s Pokémon Club!</div>\n<div>\n<div class=\"x_elementToProof\">\n<ul>\n<li class=\"x_elementToProof\">Pokémon Club will be ending the year with a Pokéathalon! Players will team up and compete in 20 minigames inspired by Pokémon. A prize will be awarded after each game! Player slots are limited and will be filled on a first come, first serve basis.</li>\n</ul>\n</div>\n<p>We are accepting donations of new or old Pokémon Trading Cards. This program is thanks to a partnership with AASL/ALSC and the Pokémon Company.</p>\n</div>\n<div class=\"x_elementToProof\"></div>\n</div>\n<div data-olk-copy-source=\"MessageBody\"><span data-contrast=\"none\">All programs are subject to change. Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</span><span data-ccp-props=\"{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:0,&quot;335559737&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}\"> </span></div>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-16 14:30:00",
+   "end_date": "2026-12-16 16:00:00",
+   "utc_start_date": "2026-12-17 00:30:00",
+   "utc_end_date": "2026-12-17 02:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "games",
+     "name": "Games"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Kapolei",
+    "city": "Kapolei",
+    "url": "https://www.librarieshawaii.org/branch/kapolei-public-library/"
+   }
+  },
+  {
+   "id": 296913,
+   "url": "https://www.librarieshawaii.org/event/geeks-who-read-trivia-holiday-edition/",
+   "title": "Geeks Who Read (Trivia) &#8211; Holiday Edition!",
+   "description": "<p>Knowing things is fun!</p>\n<p><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">For this special ho ho holiday edition, we welcome <strong>all ages and families </strong></span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">for a fun evening of </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">trivia</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">, and a seasonal beverage. Trivia topics will include winter holidays like <strong>Christmas, </strong><strong>Winter Solstice</strong>, and more. Prizes for the winning team! Sponsored by Friends of the Libraries, Kona (F.O.L.K.).</span></p>\n<p><strong>Team spots are limited. Sign up your team below or contact the library at 808-323-7585 with any questions.</strong></p>\n<p><em><span data-contrast=\"auto\" xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW96047115 BCX0\"><span class=\"NormalTextRun SCXW96047115 BCX0\">Anyone who requires an auxiliary aid or service for effective communication,</span><span class=\"NormalTextRun SCXW96047115 BCX0\"> </span><span class=\"NormalTextRun SCXW96047115 BCX0\">or a modification of policies or procedures to </span><span class=\"NormalTextRun SCXW96047115 BCX0\">participate</span><span class=\"NormalTextRun SCXW96047115 BCX0\"> in a program, service, or activity should contact library staff as soon as possible. Advance requests </span><span class=\"NormalTextRun SCXW96047115 BCX0\">48 hours</span><span class=\"NormalTextRun SCXW96047115 BCX0\"> or more before the event are </span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW96047115 BCX0\">encouraged, but</span><span class=\"NormalTextRun SCXW96047115 BCX0\"> not </span><span class=\"NormalTextRun SCXW96047115 BCX0\">required</span><span class=\"NormalTextRun SCXW96047115 BCX0\">.</span><span class=\"NormalTextRun SCXW96047115 BCX0\"> </span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW96047115 BCX0\">Program</span><span class=\"NormalTextRun SCXW96047115 BCX0\"> schedule is subject to change.</span></span><span class=\"EOP Selected SCXW96047115 BCX0\" data-ccp-props=\"{}\"> </span></em></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-16 17:30:00",
+   "end_date": "2026-12-16 18:30:00",
+   "utc_start_date": "2026-12-17 03:30:00",
+   "utc_end_date": "2026-12-17 04:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "Free",
+   "website": "",
+   "categories": [
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "films-movies",
+     "name": "Films &amp; Movies"
+    },
+    {
+     "slug": "games",
+     "name": "Games"
+    },
+    {
+     "slug": "history",
+     "name": "History"
+    },
+    {
+     "slug": "holiday-season-december",
+     "name": "Holiday Season"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "science",
+     "name": "Science"
+    },
+    {
+     "slug": "sports-and-fitness",
+     "name": "Sports &amp; Fitness"
+    },
+    {
+     "slug": "technology",
+     "name": "Technology"
+    },
+    {
+     "slug": "writing",
+     "name": "Writing"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kealakekua",
+    "city": "Kealakekua",
+    "url": "https://www.librarieshawaii.org/branch/kealakekua-public-library/"
    }
   },
   {
@@ -4761,6 +5109,53 @@
    }
   },
   {
+   "id": 296924,
+   "url": "https://www.librarieshawaii.org/event/pokemon-club-10/",
+   "title": "Pokémon Club",
+   "description": "<p>Learn to play the Pokémon Trading Card Game (TCG)! Demo decks will be provided for learning and casual game play.</p>\n<p><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Learn to play the Pokémon Trading Card Game (TCG)! Demo decks will be provided for learning and casual game play. Fans of all </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">ages are welcome to join</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">. Young children must be accompanied by an adult caregiver. No signup required, just come ready to learn and play!</span></p>\n<p><span>We are accepting donations of new or old Pokémon Trading Cards. This program is thanks to a partnership with AASL/ALSC and the Pokémon Company.</span></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><em><span data-contrast=\"auto\" xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW1752196 BCX0\"><span class=\"NormalTextRun SCXW1752196 BCX0\">Anyone who requires an auxiliary aid or service for effective communication,</span><span class=\"NormalTextRun SCXW1752196 BCX0\"> </span><span class=\"NormalTextRun SCXW1752196 BCX0\">or a modification of policies or procedures to </span><span class=\"NormalTextRun SCXW1752196 BCX0\">participate</span><span class=\"NormalTextRun SCXW1752196 BCX0\"> in a program, service, or activity should contact library staff as soon as possible. Advance requests </span><span class=\"NormalTextRun SCXW1752196 BCX0\">48 hours</span><span class=\"NormalTextRun SCXW1752196 BCX0\"> or more before the event are </span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW1752196 BCX0\">encouraged, but</span><span class=\"NormalTextRun SCXW1752196 BCX0\"> not </span><span class=\"NormalTextRun SCXW1752196 BCX0\">required</span><span class=\"NormalTextRun SCXW1752196 BCX0\">.</span><span class=\"NormalTextRun SCXW1752196 BCX0\"> </span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW1752196 BCX0\">Program</span><span class=\"NormalTextRun SCXW1752196 BCX0\"> schedule is subject to change.</span></span><span class=\"EOP Selected SCXW1752196 BCX0\" data-ccp-props=\"{}\"> </span></em></p>\n<p>&nbsp;</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-23 16:00:00",
+   "end_date": "2026-12-23 18:00:00",
+   "utc_start_date": "2026-12-24 02:00:00",
+   "utc_end_date": "2026-12-24 04:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "films-movies",
+     "name": "Films &amp; Movies"
+    },
+    {
+     "slug": "games",
+     "name": "Games"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kealakekua",
+    "city": "Kealakekua",
+    "url": "https://www.librarieshawaii.org/branch/kealakekua-public-library/"
+   }
+  },
+  {
    "id": 10034472,
    "url": "https://www.librarieshawaii.org/event/keiki-storytime-kihei/2026-12-24/",
    "title": "Keiki Storytime",
@@ -4863,6 +5258,57 @@
     "venue": "O‘ahu &#8211; ʻEwa Beach",
     "city": "ʻEwa Beach",
     "url": "https://www.librarieshawaii.org/branch/ewa-beach-public-and-school-library/"
+   }
+  },
+  {
+   "id": 296961,
+   "url": "https://www.librarieshawaii.org/event/middle-grade-book-tasting/",
+   "title": "Middle Grade Book Tasting",
+   "description": "<p><strong>New Year Coming Soon &#8211; Try Out Some New Titles!</strong></p>\n<p>You&#8217;ve tasted lots of different foods, but how about a tasting event of books? No, we won&#8217;t be eating the books. Think of this as a way to sample books you&#8217;ve never heard of before, and talk about them with your friends and others your age! We&#8217;ll feature all types of genres from sci-fi, to adventure, animals stories, and more, and we welcome your recommendations too.</p>\n<p>Light snacks will be provided. Welcoming <strong>middle grade readers (grades 3-7), advanced registration required </strong>(for planning purposes only). Sign up online or call the library (808-323-7585) with questions and to sign up today!</p>\n<p>Snacks provided by Friends of the Libraries, Kona (F.O.L.K.).</p>\n<p><em>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</em></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-29 10:00:00",
+   "end_date": "2026-12-29 12:00:00",
+   "utc_start_date": "2026-12-29 20:00:00",
+   "utc_end_date": "2026-12-29 22:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "Free",
+   "website": "",
+   "categories": [
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "food",
+     "name": "Food"
+    },
+    {
+     "slug": "games",
+     "name": "Games"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "writing",
+     "name": "Writing"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Kealakekua",
+    "city": "Kealakekua",
+    "url": "https://www.librarieshawaii.org/branch/kealakekua-public-library/"
    }
   },
   {
@@ -5312,45 +5758,6 @@
     "venue": "O‘ahu &#8211; Waikīkī-Kapahulu",
     "city": "Honolulu",
     "url": "https://www.librarieshawaii.org/branch/waikiki-kapahulu-public-library/"
-   }
-  },
-  {
-   "id": 296407,
-   "url": "https://www.librarieshawaii.org/event/mele-mai-paki-lima-community-handbell-ensemble-2/",
-   "title": "Mele Mai Paki Lima Community Handbell Ensemble",
-   "description": "<p>Join us for the melodic holiday tunes chimed by Mele Mai Paki Lima Community Handbell Ensemble. The delightful chimes will bring winter cheer to the season.</p>\n<p><span>All ages are welcome. Children must be accompanied by a parent or an adult caregiver.</span></p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</span></p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2027-01-02 18:00:00",
-   "end_date": "2027-01-02 19:15:00",
-   "utc_start_date": "2027-01-03 04:00:00",
-   "utc_end_date": "2027-01-03 05:15:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "O‘ahu &#8211; Kailua",
-    "city": "Kailua",
-    "url": "https://www.librarieshawaii.org/branch/kailua/"
    }
   },
   {

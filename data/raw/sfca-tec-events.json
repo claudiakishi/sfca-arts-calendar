@@ -1,5 +1,5 @@
 {
-  "rest_url": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/events/?page=1&per_page=50&start_date=2026-11-22 00:00:00&end_date=2028-11-23 23:59:59&status=publish",
+  "rest_url": "https://sfca.hawaii.gov/wp-json/tribe/events/v1/events/?page=1&per_page=50&start_date=2026-11-23 00:00:00&end_date=2028-11-24 23:59:59&status=publish",
   "total": 0,
   "total_pages": 0,
   "events": []

@@ -15,28 +15,8 @@ TZNAME:HST
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:5eadc27da570989ec4c2@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
-DTSTART;TZID=Pacific/Honolulu:20261124T160000
-DTEND;TZID=Pacific/Honolulu:20261124T173000
-SUMMARY:Cozy Crafternoon: Woodland Wonders!
-DESCRIPTION:Come enjoy a cozy afternoon of crafting with awesome autumnal
-  vibes! Make a miniature woodland scene\, then use it as a Thanksgiving 
- centerpiece! Spaces are limited: Contact your library to make a reservat
- ion. Young children must be accompanied by a parent or adult caregiver. 
- This program is appropriate for ages 5+ Mahalo nui to the Friends of the
-  Libraries\, Kona (F.O.L.K.) for sponsoring this…  https://www.librari
- eshawaii.org/event/cozy-crafternoon-woodland-wonders/  Sources: Librarie
- s https://www.librarieshawaii.org/event/cozy-crafternoon-woodland-wonder
- s/
-LOCATION:Kailua-Kona Public Library (Hawai‘i)
-URL:https://www.librarieshawaii.org/event/cozy-crafternoon-woodland-wonde
- rs/
-CATEGORIES:Library programs
-END:VEVENT
-BEGIN:VEVENT
 UID:73dd32760212584c8582@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261127T133000
 DTEND;TZID=Pacific/Honolulu:20261127T140000
 SUMMARY:West Hawaii Dance Theatre Presents: Nutcracker Sweets
@@ -56,7 +36,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:83db14434200a6c523f0@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261128T100000
 DTEND;TZID=Pacific/Honolulu:20261128T120000
 SUMMARY:Needlework Social Circle
@@ -72,7 +52,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:7c14a8a526bd3233eefd@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261130T170000
 DTEND;TZID=Pacific/Honolulu:20261130T190000
 SUMMARY:Ti Leaf Wreaths
@@ -88,7 +68,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:0b05c9731759bd49cbb4@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261201T170000
 DTEND;TZID=Pacific/Honolulu:20261201T180000
 SUMMARY:Hawai‘i Ukulele Ensemble Concert
@@ -106,7 +86,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:c96f73646a5807443c22@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261203T130000
 DTEND;TZID=Pacific/Honolulu:20261203T150000
 SUMMARY:Paper Garland Holiday Decor Craft
@@ -124,7 +104,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:d3b24683f0d066919b26@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261203T150000
 DTEND;TZID=Pacific/Honolulu:20261203T160000
 SUMMARY:Kohala Kendama Club
@@ -139,7 +119,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:78485f18f858ea1ae0df@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261208T170000
 DTEND;TZID=Pacific/Honolulu:20261208T183000
 SUMMARY:Author Visit: Tom Peek
@@ -157,7 +137,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:b3c6d34989022aa684b6@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261209T153000
 DTEND;TZID=Pacific/Honolulu:20261209T170000
 SUMMARY:Merry Movie Night & Cookie Swap
@@ -174,7 +154,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:d813f0c978c239e0dd8c@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261209T173000
 DTEND;TZID=Pacific/Honolulu:20261209T183000
 SUMMARY:Writer’s Night
@@ -191,7 +171,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:531c0b5b7501606359d2@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261215T170000
 DTEND;TZID=Pacific/Honolulu:20261215T190000
 SUMMARY:Silent Disco at the Library!
@@ -209,7 +189,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:331a23cbd35b00a0d3de@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261219T100000
 DTEND;TZID=Pacific/Honolulu:20261219T120000
 SUMMARY:Needlework Social Circle
@@ -225,7 +205,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:bf13b7c3e8be796476c5@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261219T100000
 DTEND;TZID=Pacific/Honolulu:20261219T113000
 SUMMARY:Teen Reading Feast featuring ‘A Forgery of Fate’ (Part 1)
@@ -245,7 +225,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:88030bbe1552ded1d7d0@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261222T160000
 DTEND;TZID=Pacific/Honolulu:20261222T170000
 SUMMARY:Winter Wonderland Ornament Workshop
@@ -265,7 +245,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:876ecfadb69d7a1a65c1@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261222T170000
 DTEND;TZID=Pacific/Honolulu:20261222T180000
 SUMMARY:Kamuela Philharmonic Leeward Trio
@@ -284,7 +264,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:3253ee009e5e16b66d26@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20270121T170000
 DTEND;TZID=Pacific/Honolulu:20270121T190000
 SUMMARY:Zine Club
@@ -302,7 +282,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:7e930d353eb41465b524@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261125T090000
 SUMMARY:Christmas in the Country: 27th Annual Wreath Exhibition
 DESCRIPTION:Locally made holiday wreaths on the theme "Birds of the Rainf
@@ -319,7 +299,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:f678c5514b94bf57114a@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:Jazz in the Forest with JP Thoma & the Jazztones
@@ -338,7 +318,7 @@ CATEGORIES:Volcano Art Center
 END:VEVENT
 BEGIN:VEVENT
 UID:3c78f20c87b5b7484959-opens@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:Stained Glass Workshop with Linda Brooks _ Saturdays\, January 23
@@ -360,7 +340,7 @@ CATEGORIES:Workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:3c78f20c87b5b7484959-closes@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:Stained Glass Workshop with Linda Brooks _ Saturdays\, January 23
@@ -382,7 +362,7 @@ CATEGORIES:Workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:ed7aa832a8b1b86510ed@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:Food From Wood: Mushroom Cultivation – February 27th
@@ -400,7 +380,7 @@ CATEGORIES:Workshops
 END:VEVENT
 BEGIN:VEVENT
 UID:feb01ea03218a6b8d2b2@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261205T100000
 SUMMARY:The 20th Annual Paradise Studio Tour
 DESCRIPTION:  https://alohacalendar.com/events/the-20th-annual-paradise-s
@@ -414,7 +394,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:5818de65e6e361b39c38@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261207T160000
 SUMMARY:Ka Pi'‘ina o Hōkūlei: A Merry Member Holiday
 DESCRIPTION:Ka Pi‘ina o Hōkūlei: A Merry Member Holiday Monday\, Dece
@@ -430,7 +410,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:011a42ee9eb27b92ce84@hawaii-arts-calendar
-DTSTAMP:20261124T200958Z
+DTSTAMP:20261125T191623Z
 DTSTART;TZID=Pacific/Honolulu:20261214T090000
 SUMMARY:Hālau ʻŌkupu Paniolo!
 DESCRIPTION:Read The parent handbook Register Now MONDAY: Dec 14th\, 2026
@@ -442,5 +422,48 @@ DESCRIPTION:Read The parent handbook Register Now MONDAY: Dec 14th\, 2026
 LOCATION:Imiloa Astronomy Center (Big Island)
 URL:https://alohacalendar.com/events/hlau-kupu-paniolo
 CATEGORIES:Family & Keiki
+END:VEVENT
+BEGIN:VEVENT
+UID:65cc213e74de0823daf6@hawaii-arts-calendar
+DTSTAMP:20261125T191623Z
+DTSTART;TZID=Pacific/Honolulu:20261218T180000
+SUMMARY:Elf The Musical JR.
+DESCRIPTION:The best way to spread Christmas cheer is singing loud for al
+ l to hear!  https://alohacalendar.com/events/elf-the-musical-jr  https:/
+ /events.kahilu.org/EventAvailability?WebEventId=ELFJR  Sources: AlohaCal
+ endar https://alohacalendar.com/events/elf-the-musical-jr
+LOCATION:Kahilu Theatre (Big Island)
+URL:https://alohacalendar.com/events/elf-the-musical-jr
+CATEGORIES:Family & Keiki
+END:VEVENT
+BEGIN:VEVENT
+UID:c2f7c9b4cb75521c87a2@hawaii-arts-calendar
+DTSTAMP:20261125T191623Z
+DTSTART;TZID=Pacific/Honolulu:20261223T140000
+SUMMARY:The Nutcracker Ballet
+DESCRIPTION:West Hawai’i Dance Theatre lights up the holidays with a pr
+ esentation of The Nutcracker.  https://alohacalendar.com/events/the-nutc
+ racker-ballet  https://events.kahilu.org/EventAvailability?WebEventId=Nu
+ tcracker2026  Sources: AlohaCalendar https://alohacalendar.com/events/th
+ e-nutcracker-ballet
+LOCATION:Kahilu Theatre (Big Island)
+URL:https://alohacalendar.com/events/the-nutcracker-ballet
+CATEGORIES:Family & Keiki
+END:VEVENT
+BEGIN:VEVENT
+UID:8fb33fe8fc4010c53c23@hawaii-arts-calendar
+DTSTAMP:20261125T191623Z
+DTSTART;TZID=Pacific/Honolulu:20270115T190000
+SUMMARY:Club Kahilu Dance Night: Afro Fusion Night w/ Fara Tolno
+DESCRIPTION:Feel the beat and move your soul with Fara Tolno\, master per
+ cussionist and internationally acclaimed musician\, as he brings the pow
+ erful rhythms of West…  https://alohacalendar.com/events/club-kahilu-d
+ ance-night-afro-fusion-night-w-fara-tolno  https://events.kahilu.org/Cho
+ oseSeats/56401  Sources: AlohaCalendar https://alohacalendar.com/events/
+ club-kahilu-dance-night-afro-fusion-night-w-fara-tolno
+LOCATION:Kahilu Theatre (Big Island)
+URL:https://alohacalendar.com/events/club-kahilu-dance-night-afro-fusion-
+ night-w-fara-tolno
+CATEGORIES:Arts & Gallery
 END:VEVENT
 END:VCALENDAR

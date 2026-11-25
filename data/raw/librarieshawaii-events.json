@@ -1,311 +1,6 @@
 {
  "events": [
   {
-   "id": 10035721,
-   "url": "https://www.librarieshawaii.org/event/family-story-time-pahoa/2026-11-24/",
-   "title": "Family Story Time",
-   "description": "<p>Join us for Family Story Time every Tuesday morning! Come join us for fun stories, dances, and songs.</p>\n<p>There will be a free new book given to child participants the <strong>first story time of every month</strong> until December 2026. First come, first served. Thank you to the<a href=\"https://hawaiiactionstrategy.org/eccontinuums\"> Pahoa Promise Partnership</a> for their generous donations.</p>\n<p>Program is suitable for age 2 and over. All children must be accompanied by a parent or an adult caregiver.</p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedules are subject to change. Events will not be held on State holidays.</span></p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-24 10:30:00",
-   "end_date": "2026-11-24 11:00:00",
-   "utc_start_date": "2026-11-24 20:30:00",
-   "utc_end_date": "2026-11-24 21:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "books",
-     "name": "Books"
-    },
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    },
-    {
-     "slug": "storytime-for-kids",
-     "name": "Storytime (for kids)"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Pāhoa",
-    "city": "Pāhoa",
-    "url": "https://www.librarieshawaii.org/branch/pahoa-public-and-school-library/"
-   }
-  },
-  {
-   "id": 10041372,
-   "url": "https://www.librarieshawaii.org/event/hanafuda-game-time/2026-11-24/",
-   "title": "Hanafuda Game Time!",
-   "description": "<p>Come on over and join the fun—play Hanafuda with your fellow community members! We&#8217;re excited to let you know that after a summer break, we&#8217;re back with this program. We have several Hanafuda decks available during the event, on a first-come, first-served basis, for anyone eager to play. It&#8217;s a great chance to meet new friends, challenge yourself, and just have a good time! If you’ve learned how to play Hanafuda from Helen Nakano and her Sensei, now’s your moment to practice those skills in a friendly game.</p>\n<p>This will be a relaxed, self-directed play session—no formal instructions will be provided. However, we’ll have instruction sheets available for those interested in learning more about this wonderful game. Everyone, no matter your experience level, is welcome to join! Just a quick note: young children should be accompanied by an adult.  For more info, feel free to contact us at (808) 733-8422 or ask at the Kaimukī Public Library Adult Reference Desk. We look forward to seeing you there!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required.  All programs are subject to change.  See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\"><strong>HSPLS Events Calendar</strong></a>.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-24 13:00:00",
-   "end_date": "2026-11-24 15:00:00",
-   "utc_start_date": "2026-11-24 23:00:00",
-   "utc_end_date": "2026-11-25 01:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "games",
-     "name": "Games"
-    }
-   ],
-   "tags": [
-    {
-     "slug": "card",
-     "name": "card"
-    },
-    {
-     "slug": "card-games",
-     "name": "card games"
-    },
-    {
-     "slug": "cards",
-     "name": "cards"
-    },
-    {
-     "slug": "community",
-     "name": "community"
-    },
-    {
-     "slug": "free",
-     "name": "free"
-    },
-    {
-     "slug": "game",
-     "name": "game"
-    },
-    {
-     "slug": "gameplay",
-     "name": "gameplay"
-    },
-    {
-     "slug": "hanafuda",
-     "name": "hanafuda"
-    },
-    {
-     "slug": "hanafuda-game",
-     "name": "hanafuda game"
-    },
-    {
-     "slug": "kaimuki",
-     "name": "Kaimuki"
-    },
-    {
-     "slug": "sakura",
-     "name": "sakura"
-    },
-    {
-     "slug": "social",
-     "name": "social"
-    },
-    {
-     "slug": "social-activity",
-     "name": "social activity"
-    }
-   ],
-   "venue": {
-    "venue": "O‘ahu &#8211; Kaimukī",
-    "city": "Honolulu",
-    "url": "https://www.librarieshawaii.org/branch/kaimuki-public-library/"
-   }
-  },
-  {
-   "id": 291288,
-   "url": "https://www.librarieshawaii.org/event/tuesday-chess-club-3/",
-   "title": "Tuesday Chess Club",
-   "description": "<p><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join the fun to learn new skills and participate in friendly competition!</span></strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Chess players of all skill levels and all ages are welcome to attend. Call the library if you’re interested in volunteering to teach!</span></p>\n<p>Mahalo nui to the <em>Friends of the Libraries, Kona</em> (F.O.L.K.) for sponsoring this program!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. For a schedule of events, go to the <a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-24 15:30:00",
-   "end_date": "2026-11-24 17:30:00",
-   "utc_start_date": "2026-11-25 01:30:00",
-   "utc_end_date": "2026-11-25 03:30:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "games",
-     "name": "Games"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Kailua-Kona",
-    "city": "Kailua-Kona",
-    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
-   }
-  },
-  {
-   "id": 291973,
-   "url": "https://www.librarieshawaii.org/event/cozy-crafternoon-woodland-wonders/",
-   "title": "Cozy Crafternoon: Woodland Wonders!",
-   "description": "<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-center\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Come enjoy a cozy afternoon of crafting with awesome autumnal vibes! </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Make a miniature woodland scene, then use it as a </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Thanksgiving centerpiece!</span></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Spaces are limited: Contact your library to make a reservation.</span></strong></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Young children must be accompanied by a parent or adult caregiver.</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">This program is appropriate for ages 5+</span></p>\n<p class=\"cvGsUA direction-ltr align-center para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Mahalo nui to the </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Friends of the Libraries, Kona </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">(F.O.L.K.) </span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">for sponsoring this program!</span></p>\n<p><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"> </span><a href=\"http://librarieshawaii.org/events\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">HSPLS Events Calendar</span></a><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">.</span></p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-24 16:00:00",
-   "end_date": "2026-11-24 17:30:00",
-   "utc_start_date": "2026-11-25 02:00:00",
-   "utc_end_date": "2026-11-25 03:30:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "activities",
-     "name": "Arts &amp; Crafts"
-    },
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Kailua-Kona",
-    "city": "Kailua-Kona",
-    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
-   }
-  },
-  {
-   "id": 271283,
-   "url": "https://www.librarieshawaii.org/event/sing-like-nobodys-watching-karaoke-night-3-2-2/",
-   "title": "Sing Like Nobody&#8217;s Watching-Karaoke Night!",
-   "description": "<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">All are invited to Karaoke night!  Grab your friends and come ready to belt out your favorite tunes! Attendees can join Kaimukī Public Library for a night of fun and food, as we reminisce with music and singing. Library will provide mics and sound system.</span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Please feel free to bring a favorite appetizer to share with other attendees.</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"> You don’t want to miss out on this epic night of fun! </span></strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"> Please note that all food must either be store/restaurant bought, or home baked goods (Cookies, bread, etc.,)</span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><strong><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"> Pr</span></strong><strong>e-registration for this program is advised. Please contact the Kaimukī Public Library at (808)733-8422 or come in-person at the Adult Reference Desk to register. All minors must be accompanied by an adult. </strong></p>\n<p>Please keep in mind this program is for all ages, minors may be in attendance; as such we ask that all participants choose appropriate songs to sing.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.  See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</p>\n<p>&nbsp;</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-24 16:30:00",
-   "end_date": "2026-11-24 19:00:00",
-   "utc_start_date": "2026-11-25 02:30:00",
-   "utc_end_date": "2026-11-25 05:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    }
-   ],
-   "tags": [
-    {
-     "slug": "free",
-     "name": "free"
-    },
-    {
-     "slug": "friends",
-     "name": "friends"
-    },
-    {
-     "slug": "hits",
-     "name": "hits"
-    },
-    {
-     "slug": "honolulu",
-     "name": "honolulu"
-    },
-    {
-     "slug": "kaimuki",
-     "name": "Kaimuki"
-    },
-    {
-     "slug": "karaoke",
-     "name": "karaoke"
-    },
-    {
-     "slug": "mele",
-     "name": "Mele"
-    },
-    {
-     "slug": "non-judgemental",
-     "name": "non-judgemental"
-    },
-    {
-     "slug": "retro",
-     "name": "retro"
-    },
-    {
-     "slug": "sing",
-     "name": "Sing"
-    },
-    {
-     "slug": "singing",
-     "name": "Singing"
-    },
-    {
-     "slug": "songs",
-     "name": "songs"
-    }
-   ],
-   "venue": {
-    "venue": "O‘ahu &#8211; Kaimukī",
-    "city": "Honolulu",
-    "url": "https://www.librarieshawaii.org/branch/kaimuki-public-library/"
-   }
-  },
-  {
    "id": 10045523,
    "url": "https://www.librarieshawaii.org/event/tai-chi-chuan/2026-11-25/",
    "title": "Tai Chi Chuan",
@@ -2353,94 +2048,6 @@
    }
   },
   {
-   "id": 10041373,
-   "url": "https://www.librarieshawaii.org/event/hanafuda-game-time/2026-12-08/",
-   "title": "Hanafuda Game Time!",
-   "description": "<p>Come on over and join the fun—play Hanafuda with your fellow community members! We&#8217;re excited to let you know that after a summer break, we&#8217;re back with this program. We have several Hanafuda decks available during the event, on a first-come, first-served basis, for anyone eager to play. It&#8217;s a great chance to meet new friends, challenge yourself, and just have a good time! If you’ve learned how to play Hanafuda from Helen Nakano and her Sensei, now’s your moment to practice those skills in a friendly game.</p>\n<p>This will be a relaxed, self-directed play session—no formal instructions will be provided. However, we’ll have instruction sheets available for those interested in learning more about this wonderful game. Everyone, no matter your experience level, is welcome to join! Just a quick note: young children should be accompanied by an adult.  For more info, feel free to contact us at (808) 733-8422 or ask at the Kaimukī Public Library Adult Reference Desk. We look forward to seeing you there!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required.  All programs are subject to change.  See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\"><strong>HSPLS Events Calendar</strong></a>.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-12-08 13:00:00",
-   "end_date": "2026-12-08 15:00:00",
-   "utc_start_date": "2026-12-08 23:00:00",
-   "utc_end_date": "2026-12-09 01:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "games",
-     "name": "Games"
-    }
-   ],
-   "tags": [
-    {
-     "slug": "card",
-     "name": "card"
-    },
-    {
-     "slug": "card-games",
-     "name": "card games"
-    },
-    {
-     "slug": "cards",
-     "name": "cards"
-    },
-    {
-     "slug": "community",
-     "name": "community"
-    },
-    {
-     "slug": "free",
-     "name": "free"
-    },
-    {
-     "slug": "game",
-     "name": "game"
-    },
-    {
-     "slug": "gameplay",
-     "name": "gameplay"
-    },
-    {
-     "slug": "hanafuda",
-     "name": "hanafuda"
-    },
-    {
-     "slug": "hanafuda-game",
-     "name": "hanafuda game"
-    },
-    {
-     "slug": "kaimuki",
-     "name": "Kaimuki"
-    },
-    {
-     "slug": "sakura",
-     "name": "sakura"
-    },
-    {
-     "slug": "social",
-     "name": "social"
-    },
-    {
-     "slug": "social-activity",
-     "name": "social activity"
-    }
-   ],
-   "venue": {
-    "venue": "O‘ahu &#8211; Kaimukī",
-    "city": "Honolulu",
-    "url": "https://www.librarieshawaii.org/branch/kaimuki-public-library/"
-   }
-  },
-  {
    "id": 296286,
    "url": "https://www.librarieshawaii.org/event/tuesday-chess-club-5/",
    "title": "Tuesday Chess Club",
@@ -2826,6 +2433,45 @@
    }
   },
   {
+   "id": 297084,
+   "url": "https://www.librarieshawaii.org/event/line-dancing-at-the-library-6/",
+   "title": "Line Dancing At The Library",
+   "description": "<p>Learn line dancing at the Ewa Beach Library! Basics will be taught.<strong> Ages 14 and up.</strong></p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-09 12:30:00",
+   "end_date": "2026-12-09 13:30:00",
+   "utc_start_date": "2026-12-09 22:30:00",
+   "utc_end_date": "2026-12-09 23:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "sports-and-fitness",
+     "name": "Sports &amp; Fitness"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; ʻEwa Beach",
+    "city": "ʻEwa Beach",
+    "url": "https://www.librarieshawaii.org/branch/ewa-beach-public-and-school-library/"
+   }
+  },
+  {
    "id": 296689,
    "url": "https://www.librarieshawaii.org/event/talk-story-time-2026-12-09/",
    "title": "Talk Story-Time",
@@ -3084,6 +2730,41 @@
     "venue": "O‘ahu &#8211; Salt Lake-Moanalua",
     "city": "Honolulu",
     "url": "https://www.librarieshawaii.org/branch/salt-lake-moanalua-public-library/"
+   }
+  },
+  {
+   "id": 296977,
+   "url": "https://www.librarieshawaii.org/event/mr-kneel-hip-hop-for-families-holiday-program/",
+   "title": "Mr. Kneel Hip Hop for Families!: Holiday Program",
+   "description": "<p>Mr. Kneel (Neil McIntyre) brings excitement to your favorite early-readers with beatbox and rhymes in this special preschool holiday storytime program on Thursday, December 10th! The program is best for preschool/kindergarten age, but is open to children of all ages! Children must be accompanied by a parent or caregiver.</p>\n<p>This event is generously sponsored by our Friends of the Kāneʻohe Library.</p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in the program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. </span></p>\n<p><span>Program schedule is subject to change.</span></p>\n<p>&nbsp;</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-10 10:00:00",
+   "end_date": "2026-12-10 11:00:00",
+   "utc_start_date": "2026-12-10 20:00:00",
+   "utc_end_date": "2026-12-10 21:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Kāneʻohe",
+    "city": "Kāneʻohe",
+    "url": "https://www.librarieshawaii.org/branch/kaneohe-public-library/"
    }
   },
   {
@@ -3526,6 +3207,37 @@
    }
   },
   {
+   "id": 10050612,
+   "url": "https://www.librarieshawaii.org/event/karaoke-at-the-library-2/2026-12-14/",
+   "title": "Karaoke At The Library",
+   "description": "<p>Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-14 16:30:00",
+   "end_date": "2026-12-14 18:30:00",
+   "utc_start_date": "2026-12-15 02:30:00",
+   "utc_end_date": "2026-12-15 04:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; ʻEwa Beach",
+    "city": "ʻEwa Beach",
+    "url": "https://www.librarieshawaii.org/branch/ewa-beach-public-and-school-library/"
+   }
+  },
+  {
    "id": 10035724,
    "url": "https://www.librarieshawaii.org/event/family-story-time-pahoa/2026-12-15/",
    "title": "Family Story Time",
@@ -3896,6 +3608,53 @@
     "venue": "Hawai‘i &#8211; Kailua-Kona",
     "city": "Kailua-Kona",
     "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
+   }
+  },
+  {
+   "id": 297110,
+   "url": "https://www.librarieshawaii.org/event/talk-story-time-2026-12-16/",
+   "title": "Talk Story-Time",
+   "description": "<p><span data-teams=\"true\">Youth Service Librarians, Ms. Pukahi (Children&#8217;s Librarian) and Mrs. Kylee (Young Adult Librarian) team up to bring you an after school extravaganza!</span></p>\n<p><span data-teams=\"true\">Join us for read alouds, book talks, singing, bubbles, and fun crafts for the whole family! Literacy is always fun with us.</span></p>\n<p>Appropriate for PreK to Middle School.</p>\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<p>&nbsp;</p>\n<p><em>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</em></p>\n</div>\n</div>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-16 14:00:00",
+   "end_date": "2026-12-16 15:00:00",
+   "utc_start_date": "2026-12-17 00:00:00",
+   "utc_end_date": "2026-12-17 01:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Waikīkī-Kapahulu",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/waikiki-kapahulu-public-library/"
    }
   },
   {
@@ -4639,10 +4398,72 @@
    }
   },
   {
+   "id": 297116,
+   "url": "https://www.librarieshawaii.org/event/love-came-down-at-christmas-featuring-voices-of-aloha-community-choir/",
+   "title": "Love Came Down At Christmas Featuring Voices of Aloha Community Choir",
+   "description": "<p>Join us for a musical experience of <i>aloha</i> in your life as Voices of Aloha Community Choir performs a full range of love-inspired numbers which express the true spirit of the holiday season!  No reservations.  Free. Sponsored by Friends of the Library Kapolei.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\"><b>HSPLS Events Calendar</b></a>.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-19 12:00:00",
+   "end_date": "2026-12-19 13:30:00",
+   "utc_start_date": "2026-12-19 22:00:00",
+   "utc_end_date": "2026-12-19 23:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Kapolei",
+    "city": "Kapolei",
+    "url": "https://www.librarieshawaii.org/branch/kapolei-public-library/"
+   }
+  },
+  {
    "id": 10046151,
    "url": "https://www.librarieshawaii.org/event/karaoke-10-17-2025-2-2-4-3-2/2026-12-21/",
    "title": "Karaoke At The Library",
    "description": "<p>End your work day with songs and fun! Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-21 16:30:00",
+   "end_date": "2026-12-21 18:30:00",
+   "utc_start_date": "2026-12-22 02:30:00",
+   "utc_end_date": "2026-12-22 04:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; ʻEwa Beach",
+    "city": "ʻEwa Beach",
+    "url": "https://www.librarieshawaii.org/branch/ewa-beach-public-and-school-library/"
+   }
+  },
+  {
+   "id": 10050613,
+   "url": "https://www.librarieshawaii.org/event/karaoke-at-the-library-2/2026-12-21/",
+   "title": "Karaoke At The Library",
+   "description": "<p>Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
    "excerpt": "",
    "all_day": false,
    "start_date": "2026-12-21 16:30:00",
@@ -5109,6 +4930,53 @@
    }
   },
   {
+   "id": 297112,
+   "url": "https://www.librarieshawaii.org/event/talk-story-time-2026-12-23/",
+   "title": "Talk Story-Time",
+   "description": "<p><span data-teams=\"true\">Youth Service Librarians, Ms. Pukahi (Children&#8217;s Librarian) and Mrs. Kylee (Young Adult Librarian) team up to bring you an after school extravaganza!</span></p>\n<p><span data-teams=\"true\">Join us for read alouds, book talks, singing, bubbles, and fun crafts for the whole family! Literacy is always fun with us.</span></p>\n<p>Appropriate for PreK to Middle School.</p>\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<p>&nbsp;</p>\n<p><em>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</em></p>\n</div>\n</div>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-23 14:00:00",
+   "end_date": "2026-12-23 15:00:00",
+   "utc_start_date": "2026-12-24 00:00:00",
+   "utc_end_date": "2026-12-24 01:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Waikīkī-Kapahulu",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/waikiki-kapahulu-public-library/"
+   }
+  },
+  {
    "id": 296924,
    "url": "https://www.librarieshawaii.org/event/pokemon-club-10/",
    "title": "Pokémon Club",
@@ -5234,6 +5102,37 @@
    "url": "https://www.librarieshawaii.org/event/karaoke-10-17-2025-2-2-4-3-2/2026-12-28/",
    "title": "Karaoke At The Library",
    "description": "<p>End your work day with songs and fun! Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-28 16:30:00",
+   "end_date": "2026-12-28 18:30:00",
+   "utc_start_date": "2026-12-29 02:30:00",
+   "utc_end_date": "2026-12-29 04:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; ʻEwa Beach",
+    "city": "ʻEwa Beach",
+    "url": "https://www.librarieshawaii.org/branch/ewa-beach-public-and-school-library/"
+   }
+  },
+  {
+   "id": 10050614,
+   "url": "https://www.librarieshawaii.org/event/karaoke-at-the-library-2/2026-12-28/",
+   "title": "Karaoke At The Library",
+   "description": "<p>Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
    "excerpt": "",
    "all_day": false,
    "start_date": "2026-12-28 16:30:00",
@@ -5553,6 +5452,53 @@
     "venue": "O‘ahu &#8211; Liliha",
     "city": "Honolulu",
     "url": "https://www.librarieshawaii.org/branch/liliha-public-library/"
+   }
+  },
+  {
+   "id": 297114,
+   "url": "https://www.librarieshawaii.org/event/talk-story-time-2026-12-30/",
+   "title": "Talk Story-Time",
+   "description": "<p><span data-teams=\"true\">Youth Service Librarians, Ms. Pukahi (Children&#8217;s Librarian) and Mrs. Kylee (Young Adult Librarian) team up to bring you an after school extravaganza!</span></p>\n<p><span data-teams=\"true\">Join us for read alouds, book talks, singing, bubbles, and fun crafts for the whole family! Literacy is always fun with us.</span></p>\n<p>Appropriate for PreK to Middle School.</p>\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<p>&nbsp;</p>\n<p><em>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</em></p>\n</div>\n</div>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-30 14:00:00",
+   "end_date": "2026-12-30 15:00:00",
+   "utc_start_date": "2026-12-31 00:00:00",
+   "utc_end_date": "2026-12-31 01:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "activities",
+     "name": "Arts &amp; Crafts"
+    },
+    {
+     "slug": "books",
+     "name": "Books"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "reading-programs",
+     "name": "Reading programs"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Waikīkī-Kapahulu",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/waikiki-kapahulu-public-library/"
    }
   },
   {

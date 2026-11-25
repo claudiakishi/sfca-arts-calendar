@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24 20:09 UTC",
+  "generated": "2026-11-25 19:15 UTC",
   "sources": [
     {
       "name": "SFCA",
@@ -19,12 +19,12 @@
     {
       "name": "Libraries",
       "status": "ok",
-      "detail": "52 arts/culture programs"
+      "detail": "53 arts/culture programs"
     },
     {
       "name": "Volcano Art Center",
-      "status": "ok",
-      "detail": "4 upcoming events"
+      "status": "partial",
+      "detail": "HTTP 403; used archived copy"
     },
     {
       "name": "The Creative City",
@@ -34,7 +34,7 @@
     {
       "name": "AlohaCalendar",
       "status": "ok",
-      "detail": "61 upcoming events"
+      "detail": "73 upcoming events"
     }
   ],
   "attribution": "Event information aggregated from the Hawaiʻi State Foundation on Culture and the Arts (SFCA), Capitol Modern: the Hawaiʻi State Art Museum, Hawaiʻi State Public Libraries, Volcano Art Center, The Creative City, and AlohaCalendar. Unofficial mirror; confirm details at the source.",
@@ -674,104 +674,6 @@
           "island": "oahu"
         },
         {
-          "title": "Cozy Crafternoon: Woodland Wonders!",
-          "description": "Come enjoy a cozy afternoon of crafting with awesome autumnal vibes! Make a miniature woodland scene, then use it as a Thanksgiving centerpiece! Spaces are limited: Contact your library to make a reservation. Young children must be accompanied by a parent or adult caregiver. This program is appropriate for ages 5+ Mahalo nui to the Friends of the Libraries, Kona (F.O.L.K.) for sponsoring this…",
-          "category": "Library programs",
-          "provider": "Libraries",
-          "sources": [
-            {
-              "name": "Libraries",
-              "url": "https://www.librarieshawaii.org/event/cozy-crafternoon-woodland-wonders/",
-              "label": "librarieshawaii.org"
-            }
-          ],
-          "venue": "Kailua-Kona Public Library (Hawai‘i)",
-          "date_start": "2026-11-24",
-          "date_end": "2026-11-24",
-          "date_display": "November 24, 2026",
-          "time_display": "4:00 PM - 5:30 PM HST",
-          "dt_start_utc": "2026-11-25T02:00:00Z",
-          "dt_end_utc": "2026-11-25T03:30:00Z",
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (Hawaiʻi State Public Libraries)",
-              "href": "https://www.librarieshawaii.org/event/cozy-crafternoon-woodland-wonders/"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "hspl|291973|2026-11-24",
-          "island": "hawaii-island"
-        },
-        {
-          "title": "HUKI: Canoe Show at Polynesian Cultural Center",
-          "description": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
-          "category": "Family & Keiki",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-24",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Polynesian Cultural Center (Oahu)",
-          "date_start": "2026-11-24",
-          "date_end": "2026-12-08",
-          "date_display": "11 dates, November 24 – December 8, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-24"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.polynesia.com/packages"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|huki-canoe-show-at-polynesian-cultural-center-2026-11-24",
-          "island": "oahu"
-        },
-        {
-          "title": "HA: Breath of Life Evening Show",
-          "description": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
-          "category": "Cultural & Heritage",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-24",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Polynesian Cultural Center (Oahu)",
-          "date_start": "2026-11-24",
-          "date_end": "2026-12-08",
-          "date_display": "11 dates, November 24 – December 8, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-24"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.polynesia.com/packages"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|ha-breath-of-life-evening-show-2026-11-24",
-          "island": "oahu"
-        },
-        {
           "title": "Christmas in the Country: 27th Annual Wreath Exhibition",
           "description": "Locally made holiday wreaths on the theme \"Birds of the Rainforest\", at both Volcano Art Center galleries.",
           "category": "Family & Keiki",
@@ -811,38 +713,38 @@
           "island": "hawaii-island"
         },
         {
-          "title": "Cirque du Soleil: Auana",
-          "description": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+          "title": "Theatrical Lighting Design Masterclass with S. Benjamin Farrar of Farrar Design",
+          "description": "A pay what you can workshop led by the lighting and set designer at the second largest community theater in the country.",
           "category": "Arts & Gallery",
           "provider": "AlohaCalendar",
           "sources": [
             {
               "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-332",
+              "url": "https://alohacalendar.com/events/theatrical-lighting-design-masterclass-with-s-benjamin-farrar-of-farrar-design",
               "label": "alohacalendar.com"
             }
           ],
-          "venue": "Outrigger Waikiki Beachcomber Hotel (Oahu)",
+          "venue": "ProArts Playhouse (Maui)",
           "date_start": "2026-11-25",
-          "date_end": "2027-01-31",
-          "date_display": "100 dates, November 25, 2026 – January 31, 2027",
-          "time_display": null,
-          "dt_start_utc": null,
+          "date_end": "2026-11-25",
+          "date_display": "November 25, 2026",
+          "time_display": "6:00 PM HST",
+          "dt_start_utc": "2026-11-26T04:00:00Z",
           "dt_end_utc": null,
-          "recurring": true,
+          "recurring": false,
           "links": [
             {
               "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/cirque-du-soleil-auana-332"
+              "href": "https://alohacalendar.com/events/theatrical-lighting-design-masterclass-with-s-benjamin-farrar-of-farrar-design"
             },
             {
               "text": "Tickets",
-              "href": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbFI"
+              "href": "https://proartsmaui.org/event/theatrical-lighting-design-masterclass-with-s-benjamin-farrar-of-farrar-design/"
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|cirque-du-soleil-auana-332",
-          "island": "oahu"
+          "uid_seed": "aloha|theatrical-lighting-design-masterclass-with-s-benjamin-farrar-of-farrar-design",
+          "island": "maui-county"
         },
         {
           "title": "The Book of Mormon (Touring)",
@@ -876,6 +778,40 @@
           ],
           "fallback_month": null,
           "uid_seed": "aloha|the-book-of-mormon-touring",
+          "island": "oahu"
+        },
+        {
+          "title": "Cirque du Soleil: Auana",
+          "description": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-332",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Outrigger Waikiki Beachcomber Hotel (Oahu)",
+          "date_start": "2026-11-25",
+          "date_end": "2027-01-31",
+          "date_display": "100 dates, November 25, 2026 – January 31, 2027",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/cirque-du-soleil-auana-332"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbFI"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|cirque-du-soleil-auana-332",
           "island": "oahu"
         },
         {
@@ -913,40 +849,6 @@
           "island": "oahu"
         },
         {
-          "title": "Lūʻau & HĀ: Breath of Life Show at Polynesian Cultural Center",
-          "description": "Time 4:40 - 8:35 pm",
-          "category": "Luaus",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Polynesian Cultural Center (Oahu)",
-          "date_start": "2026-11-25",
-          "date_end": "2026-11-25",
-          "date_display": "November 25, 2026",
-          "time_display": "12:00 PM HST",
-          "dt_start_utc": "2026-11-25T22:00:00Z",
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.polynesia.com/packages"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|lau-h-breath-of-life-show-at-polynesian-cultural-center",
-          "island": "oahu"
-        },
-        {
           "title": "Makai Music & Art Festival Kauai",
           "description": "Come share the Aloha with us every Wednesday from 1-5pm at our Makai Music and Art Festival Kaua’i. Free-entry, f",
           "category": "Concerts & Live Music",
@@ -975,6 +877,108 @@
           "fallback_month": null,
           "uid_seed": "aloha|makai-music-art-festival-kauai-2026-11-25",
           "island": "kauai"
+        },
+        {
+          "title": "HUKI: Canoe Show at Polynesian Cultural Center",
+          "description": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
+          "category": "Family & Keiki",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-26",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Polynesian Cultural Center (Oahu)",
+          "date_start": "2026-11-26",
+          "date_end": "2026-12-08",
+          "date_display": "10 dates, November 26 – December 8, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-26"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.polynesia.com/packages"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|huki-canoe-show-at-polynesian-cultural-center-2026-11-26",
+          "island": "oahu"
+        },
+        {
+          "title": "HA: Breath of Life Evening Show",
+          "description": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
+          "category": "Cultural & Heritage",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-26",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Polynesian Cultural Center (Oahu)",
+          "date_start": "2026-11-26",
+          "date_end": "2026-12-08",
+          "date_display": "10 dates, November 26 – December 8, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-26"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.polynesia.com/packages"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|ha-breath-of-life-evening-show-2026-11-26",
+          "island": "oahu"
+        },
+        {
+          "title": "Lūʻau & HĀ: Breath of Life Show at Polynesian Cultural Center",
+          "description": "Time 4:40 - 8:35 pm",
+          "category": "Luaus",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Polynesian Cultural Center (Oahu)",
+          "date_start": "2026-11-26",
+          "date_end": "2026-11-26",
+          "date_display": "November 26, 2026",
+          "time_display": "12:00 PM HST",
+          "dt_start_utc": "2026-11-26T22:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.polynesia.com/packages"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|lau-h-breath-of-life-show-at-polynesian-cultural-center",
+          "island": "oahu"
         },
         {
           "title": "West Hawaii Dance Theatre Presents: Nutcracker Sweets",
@@ -1127,6 +1131,40 @@
           "island": "maui-county"
         },
         {
+          "title": "Spanksgiving",
+          "description": "A deliciously cheeky and seductive variety show for 18 and over. Including sultry burlesque, adult comedy, spellbinding dancing and aerial arts……",
+          "category": "Comedy",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/spanksgiving",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "ProArts Playhouse (Maui)",
+          "date_start": "2026-11-27",
+          "date_end": "2026-11-27",
+          "date_display": "November 27, 2026",
+          "time_display": "7:30 PM HST",
+          "dt_start_utc": "2026-11-28T05:30:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/spanksgiving"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://proartsmaui.org/event/spanksgiving-nov-27-2026/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|spanksgiving",
+          "island": "maui-county"
+        },
+        {
           "title": "Kauai Beach Resort Kauai Made Craft Fair Fridays",
           "description": "🌺 Kaua‘i Beach Resort Craft Fair Join us every Friday at the beautiful Kaua‘i Beach Resort for our weekly Craft Fair. D",
           "category": "Farmers Markets",
@@ -1155,40 +1193,6 @@
           "fallback_month": null,
           "uid_seed": "aloha|kauai-beach-resort-kauai-made-craft-fair-fridays-2026-11-27",
           "island": "kauai"
-        },
-        {
-          "title": "Kupua by Haili'ōpua Baker",
-          "description": "Kupua presents two traditional stories: “Ka ʻEnuhe” and “Ka Puhi a me Ka Loli”",
-          "category": "Concerts & Live Music",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/kupua-by-hailipua-baker-2026-11-27",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Kumu Kahua Theatre (Oahu)",
-          "date_start": "2026-11-27",
-          "date_end": "2026-11-27",
-          "date_display": "November 27, 2026",
-          "time_display": "7:00 PM - 9:30 PM HST",
-          "dt_start_utc": "2026-11-28T05:00:00Z",
-          "dt_end_utc": "2026-11-28T07:30:00Z",
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/kupua-by-hailipua-baker-2026-11-27"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.eventbrite.com/e/kupua-by-hailiopua-baker-tickets-1989971534428"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|kupua-by-hailipua-baker-2026-11-27",
-          "island": "oahu"
         },
         {
           "title": "Friday Night Funny - Tipsy Pig II",
@@ -1222,6 +1226,40 @@
           ],
           "fallback_month": null,
           "uid_seed": "aloha|friday-night-funny-tipsy-pig-ii",
+          "island": "oahu"
+        },
+        {
+          "title": "Kupua by Haili'ōpua Baker",
+          "description": "Kupua presents two traditional stories: “Ka ʻEnuhe” and “Ka Puhi a me Ka Loli”",
+          "category": "Concerts & Live Music",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/kupua-by-hailiopua-baker-2026-11-27",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Kumu Kahua Theatre (Oahu)",
+          "date_start": "2026-11-27",
+          "date_end": "2026-11-27",
+          "date_display": "November 27, 2026",
+          "time_display": "7:00 PM - 9:30 PM HST",
+          "dt_start_utc": "2026-11-28T05:00:00Z",
+          "dt_end_utc": "2026-11-28T07:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/kupua-by-hailiopua-baker-2026-11-27"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.eventbrite.com/e/kupua-by-hailiopua-baker-tickets-1989971534428"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|kupua-by-hailiopua-baker-2026-11-27",
           "island": "oahu"
         },
         {
@@ -1384,6 +1422,40 @@
           "island": "oahu"
         },
         {
+          "title": "The Nutcracker by Ballet Hawaii at Prince Waikiki",
+          "description": "Celebrate the holiday season with a special mini performance of The Nutcracker by Ballet Hawaii at Prince Waikiki. Enjoy",
+          "category": "Family & Keiki",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/the-nutcracker-by-ballet-hawaii-at-prince-waikiki",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": null,
+          "date_start": "2026-11-28",
+          "date_end": "2026-11-28",
+          "date_display": "November 28, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/the-nutcracker-by-ballet-hawaii-at-prince-waikiki"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.princewaikiki.com/experience/activities-events/?eventId=mini-performances-of-the-nutcracker-by-ballet-hawaii-bb407101&preselectedDate=2026-11-28"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|the-nutcracker-by-ballet-hawaii-at-prince-waikiki",
+          "island": "oahu"
+        },
+        {
           "title": "Small Business Saturday in Hanapepe Town",
           "description": "The Hanapepe Business & Community Association will host Small Business Saturday in Historic Hanapepe — Kauai&",
           "category": "Food & Drink",
@@ -1448,40 +1520,6 @@
           "island": "oahu"
         },
         {
-          "title": "The Nutcracker by Ballet Hawaii at Prince Waikiki",
-          "description": "Celebrate the holiday season with a special mini performance of The Nutcracker by Ballet Hawaii at Prince Waikiki. Enjoy",
-          "category": "Family & Keiki",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/the-nutcracker-by-ballet-hawaii-at-prince-waikiki",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": null,
-          "date_start": "2026-11-28",
-          "date_end": "2026-11-28",
-          "date_display": "November 28, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/the-nutcracker-by-ballet-hawaii-at-prince-waikiki"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.princewaikiki.com/experience/activities-events/?eventId=mini-performances-of-the-nutcracker-by-ballet-hawaii-bb407101&preselectedDate=2026-11-28"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|the-nutcracker-by-ballet-hawaii-at-prince-waikiki",
-          "island": "oahu"
-        },
-        {
           "title": "Santa Claus Story Time at Kaneohe Public Library",
           "description": "Santa Claus is traveling throughout the islands and making special visits to several libraries! Join us for a cheerful 30-minute story time featuring festive holiday tales. Afterward, keiki and their families can meet Santa and take their own photos, so be sure to bring a camera to capture the moment. Each keiki will receive a fun holiday gift from Santa. This free program is recommended for…",
           "category": "Holidays",
@@ -1540,6 +1578,40 @@
           "fallback_month": null,
           "uid_seed": "tcc|691fcd16754e3c5e87b53b5d",
           "island": "oahu"
+        },
+        {
+          "title": "A Reading of David Auburn’s Proof",
+          "description": "In the Pulitzer and Tony-winning Proof, David Auburn has fashioned an exhilarating and assured play – a subtle and gripping exploration of loss, guilt,…",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/a-reading-of-david-auburns-proof",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "ProArts Playhouse (Maui)",
+          "date_start": "2026-11-29",
+          "date_end": "2026-11-29",
+          "date_display": "November 29, 2026",
+          "time_display": "7:00 PM HST",
+          "dt_start_utc": "2026-11-30T05:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/a-reading-of-david-auburns-proof"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://proartsmaui.org/event/a-reading-of-david-auburns-proof/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|a-reading-of-david-auburns-proof",
+          "island": "maui-county"
         },
         {
           "title": "Lā Kūʻokoʻa, Commemorating the Independence Day of the Hawaiian Kingdom",
@@ -1880,6 +1952,40 @@
           "fallback_month": null,
           "uid_seed": "tcc|6a974fb61551d83fe97ec2e5",
           "island": "oahu"
+        },
+        {
+          "title": "World AIDS Day",
+          "description": "Join us as we come together to reflect on the progress made and the work still ahead in the fight!",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/world-aids-day",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "ProArts Playhouse (Maui)",
+          "date_start": "2026-12-01",
+          "date_end": "2026-12-01",
+          "date_display": "December 1, 2026",
+          "time_display": "2:00 PM HST",
+          "dt_start_utc": "2026-12-02T00:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/world-aids-day"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://proartsmaui.org/event/world-aids-day-dec-1-2026/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|world-aids-day",
+          "island": "maui-county"
         },
         {
           "title": "Legacy of the Landscape – West",
@@ -2285,6 +2391,40 @@
           "island": "oahu"
         },
         {
+          "title": "Makali’i Rising",
+          "description": "Featuring shadow puppetry and original music, this first moʻolelo of The Makahiki Trilogy weaves together humor, tenderness, and a little bit of stardust,…",
+          "category": "Family & Keiki",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/makalii-rising",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "ProArts Playhouse (Maui)",
+          "date_start": "2026-12-04",
+          "date_end": "2026-12-13",
+          "date_display": "8 dates, December 4 – 13, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/makalii-rising"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://proartsmaui.org/event/makahiki-dec-4-2026/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|makalii-rising",
+          "island": "maui-county"
+        },
+        {
           "title": "Aloha Christmas! Lobby Party at Romer House Waikiki",
           "description": "Celebrate the holiday season at Romer House Waikiki's Aloha Christmas! lobby party. Enjoy a festive evening with live DJ",
           "category": "Concerts & Live Music",
@@ -2602,40 +2742,6 @@
           "island": "maui-county"
         },
         {
-          "title": "The 20th Annual Paradise Studio Tour",
-          "description": "",
-          "category": "Family & Keiki",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/the-20th-annual-paradise-studio-tour-2026-12-05",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Hawaiian Paradise Park, Puna (Big Island)",
-          "date_start": "2026-12-05",
-          "date_end": "2026-12-05",
-          "date_display": "December 5, 2026",
-          "time_display": "10:00 AM HST",
-          "dt_start_utc": "2026-12-05T20:00:00Z",
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/the-20th-annual-paradise-studio-tour-2026-12-05"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.paradisestudiotour.com/"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|the-20th-annual-paradise-studio-tour-2026-12-05",
-          "island": "hawaii-island"
-        },
-        {
           "title": "MELE KALIKIMAKA, EI NEI",
           "description": "Celebrate the holiday season with Hawaiʻi’s premier musical trio! Fresh off winning six major honors at the 2026 Nā Hōkū Hanohano Awards—including Group of…",
           "category": "Arts & Gallery",
@@ -2668,6 +2774,40 @@
           "fallback_month": null,
           "uid_seed": "aloha|mele-kalikimaka-ei-nei",
           "island": "oahu"
+        },
+        {
+          "title": "The 20th Annual Paradise Studio Tour",
+          "description": "",
+          "category": "Family & Keiki",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/the-20th-annual-paradise-studio-tour-2026-12-05",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Hawaiian Paradise Park, Puna (Big Island)",
+          "date_start": "2026-12-05",
+          "date_end": "2026-12-05",
+          "date_display": "December 5, 2026",
+          "time_display": "10:00 AM HST",
+          "dt_start_utc": "2026-12-05T20:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/the-20th-annual-paradise-studio-tour-2026-12-05"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.paradisestudiotour.com/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|the-20th-annual-paradise-studio-tour-2026-12-05",
+          "island": "hawaii-island"
         },
         {
           "title": "Hōʻike Paepoʻo a me Kahanalu",
@@ -2863,70 +3003,6 @@
           "island": "oahu"
         },
         {
-          "title": "MASTERS OF ILLUSION – UP CLOSE & PERSONAL",
-          "description": "Featuring some of the world's best close-up and comedy magicians in an entertaining show for the entire family. It's lively, spontaneous, interactive and,…",
-          "category": "Arts & Gallery",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/masters-of-illusion-up-close-personal",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Hawaii Theatre Center (Oahu)",
-          "date_start": "2026-12-06",
-          "date_end": "2026-12-06",
-          "date_display": "December 6, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/masters-of-illusion-up-close-personal"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000EhUyrMAF"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|masters-of-illusion-up-close-personal",
-          "island": "oahu"
-        },
-        {
-          "title": "Mochi & Mistletoe Christmas Brunch",
-          "description": "Get into the holiday spirit with Mochi & Mistletoe Christmas Brunch at Romer House Waikiki. Enjoy a festive Sunday brunc",
-          "category": "Concerts & Live Music",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": null,
-          "date_start": "2026-12-06",
-          "date_end": "2026-12-06",
-          "date_display": "December 6, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|mochi-mistletoe-christmas-brunch",
-          "island": "oahu"
-        },
-        {
           "title": "MAUI POPS ORCHESTRA - Holiday Pops",
           "description": "MAUI POPS ORCHESTRA - Holiday Pops",
           "category": "Arts & Gallery",
@@ -2959,6 +3035,104 @@
           "fallback_month": null,
           "uid_seed": "aloha|maui-pops-orchestra-holiday-pops",
           "island": "maui-county"
+        },
+        {
+          "title": "Mochi & Mistletoe Christmas Brunch",
+          "description": "Get into the holiday spirit with Mochi & Mistletoe Christmas Brunch at Romer House Waikiki. Enjoy a festive Sunday brunc",
+          "category": "Concerts & Live Music",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": null,
+          "date_start": "2026-12-06",
+          "date_end": "2026-12-06",
+          "date_display": "December 6, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|mochi-mistletoe-christmas-brunch",
+          "island": "oahu"
+        },
+        {
+          "title": "Magic in Paradise",
+          "description": "Prepare to be dazzled by world-class entertainer and expert in sleight-of-hand magic, Maui’s own David Kuraya.",
+          "category": "Family & Keiki",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/magic-in-paradise",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "ProArts Playhouse (Maui)",
+          "date_start": "2026-12-06",
+          "date_end": "2026-12-20",
+          "date_display": "2 dates, December 6 – 20, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": true,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/magic-in-paradise"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://proartsmaui.org/event/magic-in-paradise-dec-6-2026/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|magic-in-paradise",
+          "island": "maui-county"
+        },
+        {
+          "title": "MASTERS OF ILLUSION – UP CLOSE & PERSONAL",
+          "description": "Featuring some of the world's best close-up and comedy magicians in an entertaining show for the entire family. It's lively, spontaneous, interactive and,…",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/masters-of-illusion-up-close-personal",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Hawaii Theatre Center (Oahu)",
+          "date_start": "2026-12-06",
+          "date_end": "2026-12-06",
+          "date_display": "December 6, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/masters-of-illusion-up-close-personal"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000EhUyrMAF"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|masters-of-illusion-up-close-personal",
+          "island": "oahu"
         },
         {
           "title": "Pearl Harbor Memorial Parade",
@@ -3150,6 +3324,36 @@
           ],
           "fallback_month": null,
           "uid_seed": "aloha|kupuna-movie-mornings-its-a-wonderful-life-1946",
+          "island": "oahu"
+        },
+        {
+          "title": "Line Dancing At The Library",
+          "description": "Learn line dancing at the Ewa Beach Library! Basics will be taught. Ages 14 and up.",
+          "category": "Library programs",
+          "provider": "Libraries",
+          "sources": [
+            {
+              "name": "Libraries",
+              "url": "https://www.librarieshawaii.org/event/line-dancing-at-the-library-6/",
+              "label": "librarieshawaii.org"
+            }
+          ],
+          "venue": "ʻEwa Beach Public Library (O‘ahu)",
+          "date_start": "2026-12-09",
+          "date_end": "2026-12-09",
+          "date_display": "December 9, 2026",
+          "time_display": "12:30 PM - 1:30 PM HST",
+          "dt_start_utc": "2026-12-09T22:30:00Z",
+          "dt_end_utc": "2026-12-09T23:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (Hawaiʻi State Public Libraries)",
+              "href": "https://www.librarieshawaii.org/event/line-dancing-at-the-library-6/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "hspl|297084|2026-12-09",
           "island": "oahu"
         },
         {
@@ -3521,38 +3725,38 @@
           "island": "oahu"
         },
         {
-          "title": "JIAOYING SUMMERS",
-          "description": "Jiaoying Summers recently released her Hulu comedy special What Specie Are You? Named one of Variety’s “10 Comics to Watch” (2025), Summers shines in her…",
-          "category": "Arts & Gallery",
+          "title": "A Roots School Production: Superheroes",
+          "description": "A Roots School Production about a fun-filled theatrical adventure featuring familiar superheroes, unexpected challenges, laugh-out-loud moments, and a…",
+          "category": "Family & Keiki",
           "provider": "AlohaCalendar",
           "sources": [
             {
               "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/jiaoying-summers",
+              "url": "https://alohacalendar.com/events/a-roots-school-production-superheroes",
               "label": "alohacalendar.com"
             }
           ],
-          "venue": "Hawaii Theatre Center (Oahu)",
+          "venue": "ProArts Playhouse (Maui)",
           "date_start": "2026-12-11",
-          "date_end": "2026-12-11",
-          "date_display": "December 11, 2026",
+          "date_end": "2026-12-12",
+          "date_display": "2 dates, December 11 – 12, 2026",
           "time_display": null,
           "dt_start_utc": null,
           "dt_end_utc": null,
-          "recurring": false,
+          "recurring": true,
           "links": [
             {
               "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/jiaoying-summers"
+              "href": "https://alohacalendar.com/events/a-roots-school-production-superheroes"
             },
             {
               "text": "Tickets",
-              "href": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000BFny9MAD"
+              "href": "https://proartsmaui.org/event/a-roots-school-production-superheroes-dec-11-2026/"
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|jiaoying-summers",
-          "island": "oahu"
+          "uid_seed": "aloha|a-roots-school-production-superheroes",
+          "island": "maui-county"
         },
         {
           "title": "WHOSE LIVE ANYWAY?",
@@ -3587,6 +3791,40 @@
           "fallback_month": null,
           "uid_seed": "aloha|whose-live-anyway",
           "island": "maui-county"
+        },
+        {
+          "title": "JIAOYING SUMMERS",
+          "description": "Jiaoying Summers recently released her Hulu comedy special What Specie Are You? Named one of Variety’s “10 Comics to Watch” (2025), Summers shines in her…",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/jiaoying-summers",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Hawaii Theatre Center (Oahu)",
+          "date_start": "2026-12-11",
+          "date_end": "2026-12-11",
+          "date_display": "December 11, 2026",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/jiaoying-summers"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000BFny9MAD"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|jiaoying-summers",
+          "island": "oahu"
         },
         {
           "title": "Friday Night Funny - Tipsy Pig II - DEC 11th",
@@ -3782,7 +4020,7 @@
             },
             {
               "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/sacred-hearts-academy-the-nutcracker-2026",
+              "url": "https://alohacalendar.com/events/ballet-hawaiis-the-nutcracker",
               "label": "alohacalendar.com"
             }
           ],
@@ -3793,7 +4031,7 @@
           "time_display": "6:30 PM - 9:30 PM HST",
           "dt_start_utc": "2026-12-13T04:30:00Z",
           "dt_end_utc": "2026-12-13T07:30:00Z",
-          "recurring": false,
+          "recurring": true,
           "links": [
             {
               "text": "Event details (The Creative City)",
@@ -3801,11 +4039,11 @@
             },
             {
               "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/sacred-hearts-academy-the-nutcracker-2026"
+              "href": "https://alohacalendar.com/events/ballet-hawaiis-the-nutcracker"
             },
             {
               "text": "Tickets",
-              "href": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000FtSuHMAV"
+              "href": "https://www.ticketmaster.com/ballet-hawaiis-the-nutcracker-honolulu-hawaii-12-12-2026/event/0A00653DB0B2EB51"
             }
           ],
           "fallback_month": null,
@@ -3843,6 +4081,40 @@
           "island": "oahu"
         },
         {
+          "title": "Hui Holidays 2026: Santa's Workshop",
+          "description": "Bring the whole family to the Hui for a festive day of holiday fun! Meet Santa from 11:30 AM–1:30 PM and enjoy FREE Keiki art activities, handmade treasures…",
+          "category": "Family & Keiki",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/hui-holidays-2026-santas-workshop",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Hui Noʻeau Visual Arts Center (Maui)",
+          "date_start": "2026-12-12",
+          "date_end": "2026-12-12",
+          "date_display": "December 12, 2026",
+          "time_display": "11:00 AM HST",
+          "dt_start_utc": "2026-12-12T21:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/hui-holidays-2026-santas-workshop"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.huinoeau.com/art-events/2026/12/save-the-date-hui-holidays-santa-workshop-2025-77bw3"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|hui-holidays-2026-santas-workshop",
+          "island": "maui-county"
+        },
+        {
           "title": "JIAOYING SUMMERS",
           "description": "JIAOYING SUMMERS",
           "category": "Arts & Gallery",
@@ -3877,72 +4149,38 @@
           "island": "maui-county"
         },
         {
-          "title": "Ballet Hawaii's The Nutcracker",
-          "description": "Ballet Hawaii's holiday production of Tchaikovsky's The Nutcracker, a Honolulu family tradition, at the Blaisdell Concert Hall.",
+          "title": "SACRED HEARTS ACADEMY – THE NUTCRACKER 2026",
+          "description": "Sacred Hearts invites you to experience the magic of the holiday season with our presentation of The Nutcracker at the historic Hawaii Theatre! Let yourself…",
           "category": "Arts & Gallery",
           "provider": "AlohaCalendar",
           "sources": [
             {
               "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/ballet-hawaiis-the-nutcracker",
+              "url": "https://alohacalendar.com/events/sacred-hearts-academy-the-nutcracker-2026",
               "label": "alohacalendar.com"
             }
           ],
-          "venue": "Neal S Blaisdell Concert Hall (Oahu)",
-          "date_start": "2026-12-12",
-          "date_end": "2026-12-13",
-          "date_display": "2 dates, December 12 – 13, 2026",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": true,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/ballet-hawaiis-the-nutcracker"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.ticketmaster.com/ballet-hawaiis-the-nutcracker-honolulu-hawaii-12-12-2026/event/0A00653DB0B2EB51"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|ballet-hawaiis-the-nutcracker",
-          "island": "oahu"
-        },
-        {
-          "title": "Hui Holidays 2026: Santa's Workshop",
-          "description": "Bring the whole family to the Hui for a festive day of holiday fun! Meet Santa from 11:30 AM–1:30 PM and enjoy FREE Keiki art activities, handmade treasures…",
-          "category": "Family & Keiki",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/hui-holidays-2026-santass-workshop",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Hui Noʻeau Visual Arts Center (Maui)",
+          "venue": "Hawaii Theatre Center (Oahu)",
           "date_start": "2026-12-12",
           "date_end": "2026-12-12",
           "date_display": "December 12, 2026",
-          "time_display": "11:00 AM HST",
-          "dt_start_utc": "2026-12-12T21:00:00Z",
+          "time_display": null,
+          "dt_start_utc": null,
           "dt_end_utc": null,
           "recurring": false,
           "links": [
             {
               "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/hui-holidays-2026-santass-workshop"
+              "href": "https://alohacalendar.com/events/sacred-hearts-academy-the-nutcracker-2026"
             },
             {
               "text": "Tickets",
-              "href": "https://www.huinoeau.com/art-events/2026/12/save-the-date-hui-holidays-santa-workshop-2025-77bw3"
+              "href": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000FtSuHMAV"
             }
           ],
           "fallback_month": null,
-          "uid_seed": "aloha|hui-holidays-2026-santass-workshop",
-          "island": "maui-county"
+          "uid_seed": "aloha|sacred-hearts-academy-the-nutcracker-2026",
+          "island": "oahu"
         },
         {
           "title": "Sip & Shop",
@@ -4381,6 +4619,40 @@
           "island": "oahu"
         },
         {
+          "title": "Elf The Musical JR.",
+          "description": "The best way to spread Christmas cheer is singing loud for all to hear!",
+          "category": "Family & Keiki",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/elf-the-musical-jr",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Kahilu Theatre (Big Island)",
+          "date_start": "2026-12-18",
+          "date_end": "2026-12-18",
+          "date_display": "December 18, 2026",
+          "time_display": "6:00 PM HST",
+          "dt_start_utc": "2026-12-19T04:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/elf-the-musical-jr"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://events.kahilu.org/EventAvailability?WebEventId=ELFJR"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|elf-the-musical-jr",
+          "island": "hawaii-island"
+        },
+        {
           "title": "Friday Night Funny - Tipsy Pig II - DEC 18th",
           "description": "Kick off Friday night with big laughs, good drinks, and hilarious comedy at Tipsy Pig II!",
           "category": "Concerts & Live Music",
@@ -4473,6 +4745,36 @@
           "fallback_month": null,
           "uid_seed": "hspl|296248|2026-12-19",
           "island": "hawaii-island"
+        },
+        {
+          "title": "Love Came Down At Christmas Featuring Voices of Aloha Community Choir",
+          "description": "Join us for a musical experience of aloha in your life as Voices of Aloha Community Choir performs a full range of love-inspired numbers which express the true spirit of the holiday season! No reservations. Free. Sponsored by Friends of the Library Kapolei.",
+          "category": "Library programs",
+          "provider": "Libraries",
+          "sources": [
+            {
+              "name": "Libraries",
+              "url": "https://www.librarieshawaii.org/event/love-came-down-at-christmas-featuring-voices-of-aloha-community-choir/",
+              "label": "librarieshawaii.org"
+            }
+          ],
+          "venue": "Kapolei Public Library (O‘ahu)",
+          "date_start": "2026-12-19",
+          "date_end": "2026-12-19",
+          "date_display": "December 19, 2026",
+          "time_display": "12:00 PM - 1:30 PM HST",
+          "dt_start_utc": "2026-12-19T22:00:00Z",
+          "dt_end_utc": "2026-12-19T23:30:00Z",
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (Hawaiʻi State Public Libraries)",
+              "href": "https://www.librarieshawaii.org/event/love-came-down-at-christmas-featuring-voices-of-aloha-community-choir/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "hspl|297116|2026-12-19",
+          "island": "oahu"
         },
         {
           "title": "Hawaii Kai Festival of Lights Christmas Boat Parade 2026",
@@ -4818,6 +5120,40 @@
           "island": "oahu"
         },
         {
+          "title": "The Nutcracker Ballet",
+          "description": "West Hawai’i Dance Theatre lights up the holidays with a presentation of The Nutcracker.",
+          "category": "Family & Keiki",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/the-nutcracker-ballet",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Kahilu Theatre (Big Island)",
+          "date_start": "2026-12-23",
+          "date_end": "2026-12-23",
+          "date_display": "December 23, 2026",
+          "time_display": "2:00 PM HST",
+          "dt_start_utc": "2026-12-24T00:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/the-nutcracker-ballet"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://events.kahilu.org/EventAvailability?WebEventId=Nutcracker2026"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|the-nutcracker-ballet",
+          "island": "hawaii-island"
+        },
+        {
           "title": "ROCKY MOUNTAIN HIGH EXPERIENCE® — A JOHN DENVER CHRISTMAS",
           "description": "Step into the spirit of the season with Rocky Mountain High Experience®: A John Denver Christmas—an intimate, nostalgic journey back to the 1970s, when John…",
           "category": "Arts & Gallery",
@@ -5080,6 +5416,40 @@
           "island": "oahu"
         },
         {
+          "title": "Couplet: Honey Honey Moon Moon",
+          "description": "A hilarious musical comedy telling of a honeymoon fighting off bed bugs, wildfires, and one very judgy couples therapist!",
+          "category": "Concerts & Live Music",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/couplet-honey-honey-moon-moon",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "ProArts Playhouse (Maui)",
+          "date_start": "2027-01-09",
+          "date_end": "2027-01-09",
+          "date_display": "January 9, 2027",
+          "time_display": "7:30 PM HST",
+          "dt_start_utc": "2027-01-10T05:30:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/couplet-honey-honey-moon-moon"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://proartsmaui.org/event/couplet-honey-honey-moon-moon/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|couplet-honey-honey-moon-moon",
+          "island": "maui-county"
+        },
+        {
           "title": "77th ANNUAL NARCISSUS QUEEN PAGEANT – 2027",
           "description": "The Chinese Chamber of Commerce of Hawai‘i proudly presents the 77th Annual Narcissus Queen Pageant - an evening honoring tradition, cultural excellence,…",
           "category": "Arts & Gallery",
@@ -5242,6 +5612,40 @@
           "island": "oahu"
         },
         {
+          "title": "Scriptless in Seattle",
+          "description": "Scriptless in Seattle is a fast-paced comedy improv show where quick-witted performers turn audience suggestions into spontaneous scenes, hilarious characters…",
+          "category": "Family & Keiki",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/scriptless-in-seattle",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "ProArts Playhouse (Maui)",
+          "date_start": "2027-01-11",
+          "date_end": "2027-01-11",
+          "date_display": "January 11, 2027",
+          "time_display": "6:00 PM HST",
+          "dt_start_utc": "2027-01-12T04:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/scriptless-in-seattle"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://proartsmaui.org/event/scriptless-in-seattle-jan-11-2027/"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|scriptless-in-seattle",
+          "island": "maui-county"
+        },
+        {
           "title": "Hawaiian Steel Guitar – Demonstrations and Lessons",
           "description": "Back by popular demand is Daniel Tremblay of HIMELE! Listen and learn from Daniel, as he teaches the history of Hawaiian Steel Guitars, and how to play. Lessons will take place in the Graphic novel nook, and instruments will be provided!",
           "category": "Library programs",
@@ -5270,40 +5674,6 @@
           "fallback_month": null,
           "uid_seed": "hspl|10046015|2027-01-14",
           "island": "oahu"
-        },
-        {
-          "title": "2027 Annual Juried Exhibition",
-          "description": "This prestigious annual exhibition celebrates the diverse and dynamic talents of artists from Maui and beyond, showcasing an inspiring range of work in all…",
-          "category": "Arts & Gallery",
-          "provider": "AlohaCalendar",
-          "sources": [
-            {
-              "name": "AlohaCalendar",
-              "url": "https://alohacalendar.com/events/2027-annual-juried-exhibition",
-              "label": "alohacalendar.com"
-            }
-          ],
-          "venue": "Hui Noʻeau Visual Arts Center (Maui)",
-          "date_start": "2027-01-15",
-          "date_end": "2027-01-15",
-          "date_display": "January 15, 2027",
-          "time_display": null,
-          "dt_start_utc": null,
-          "dt_end_utc": null,
-          "recurring": false,
-          "links": [
-            {
-              "text": "Event details (AlohaCalendar)",
-              "href": "https://alohacalendar.com/events/2027-annual-juried-exhibition"
-            },
-            {
-              "text": "Tickets",
-              "href": "https://www.huinoeau.com/exhibitions/2027/annualjuried"
-            }
-          ],
-          "fallback_month": null,
-          "uid_seed": "aloha|2027-annual-juried-exhibition",
-          "island": "maui-county"
         },
         {
           "title": "JOHN CAMERON MITCHELL – HEDWIG 25TH ANNIVERSARY MOVIE TOUR",
@@ -5338,6 +5708,74 @@
           "fallback_month": null,
           "uid_seed": "aloha|john-cameron-mitchell-hedwig-25th-anniversary-movie-tour-2027-01-15",
           "island": "oahu"
+        },
+        {
+          "title": "Club Kahilu Dance Night: Afro Fusion Night w/ Fara Tolno",
+          "description": "Feel the beat and move your soul with Fara Tolno, master percussionist and internationally acclaimed musician, as he brings the powerful rhythms of West…",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/club-kahilu-dance-night-afro-fusion-night-w-fara-tolno",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Kahilu Theatre (Big Island)",
+          "date_start": "2027-01-15",
+          "date_end": "2027-01-15",
+          "date_display": "January 15, 2027",
+          "time_display": "7:00 PM HST",
+          "dt_start_utc": "2027-01-16T05:00:00Z",
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/club-kahilu-dance-night-afro-fusion-night-w-fara-tolno"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://events.kahilu.org/ChooseSeats/56401"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|club-kahilu-dance-night-afro-fusion-night-w-fara-tolno",
+          "island": "hawaii-island"
+        },
+        {
+          "title": "2027 Annual Juried Exhibition",
+          "description": "This prestigious annual exhibition celebrates the diverse and dynamic talents of artists from Maui and beyond, showcasing an inspiring range of work in all…",
+          "category": "Arts & Gallery",
+          "provider": "AlohaCalendar",
+          "sources": [
+            {
+              "name": "AlohaCalendar",
+              "url": "https://alohacalendar.com/events/2027-annual-juried-exhibition",
+              "label": "alohacalendar.com"
+            }
+          ],
+          "venue": "Hui Noʻeau Visual Arts Center (Maui)",
+          "date_start": "2027-01-15",
+          "date_end": "2027-01-15",
+          "date_display": "January 15, 2027",
+          "time_display": null,
+          "dt_start_utc": null,
+          "dt_end_utc": null,
+          "recurring": false,
+          "links": [
+            {
+              "text": "Event details (AlohaCalendar)",
+              "href": "https://alohacalendar.com/events/2027-annual-juried-exhibition"
+            },
+            {
+              "text": "Tickets",
+              "href": "https://www.huinoeau.com/exhibitions/2027/annualjuried"
+            }
+          ],
+          "fallback_month": null,
+          "uid_seed": "aloha|2027-annual-juried-exhibition",
+          "island": "maui-county"
         },
         {
           "title": "Hawaiian Steel Guitar – Demonstrations and Lessons",

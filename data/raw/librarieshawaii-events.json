@@ -1,340 +1,6 @@
 {
  "events": [
   {
-   "id": 10045523,
-   "url": "https://www.librarieshawaii.org/event/tai-chi-chuan/2026-11-25/",
-   "title": "Tai Chi Chuan",
-   "description": "<p>Have you ever wanted to learn Tai Chi? Join us at  Waikīkī-Kapahulu Library, where Jim Gusukuma leads a class in Yang Style 108 Tai Chi! Previous experience not required.</p>\n<p>&nbsp;</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-25 09:15:00",
-   "end_date": "2026-11-25 10:15:00",
-   "utc_start_date": "2026-11-25 19:15:00",
-   "utc_end_date": "2026-11-25 20:15:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "health-and-wellness",
-     "name": "Health &amp; Wellness"
-    },
-    {
-     "slug": "sports-and-fitness",
-     "name": "Sports &amp; Fitness"
-    }
-   ],
-   "tags": [
-    {
-     "slug": "adults",
-     "name": "adults"
-    },
-    {
-     "slug": "community",
-     "name": "community"
-    },
-    {
-     "slug": "kupuna",
-     "name": "Kupuna"
-    },
-    {
-     "slug": "low-impact",
-     "name": "low impact"
-    },
-    {
-     "slug": "tai-chi",
-     "name": "tai chi"
-    },
-    {
-     "slug": "tai-chi-chuan",
-     "name": "Tai Chi Chuan"
-    },
-    {
-     "slug": "yang-108",
-     "name": "yang 108"
-    }
-   ],
-   "venue": {
-    "venue": "O‘ahu &#8211; Waikīkī-Kapahulu",
-    "city": "Honolulu",
-    "url": "https://www.librarieshawaii.org/branch/waikiki-kapahulu-public-library/"
-   }
-  },
-  {
-   "id": 10046859,
-   "url": "https://www.librarieshawaii.org/event/mahjong-for-beginners/2026-11-25/",
-   "title": "Hong Kong Style Mahjong for Beginners",
-   "description": "<p>Ever wanted to learn mahjong, but all your friends are already experts, with no time to teach you? Join us for a beginner-friendly group that will help you learn learn the basics. Every Wednesday until further notice.</p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</span></p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-25 09:30:00",
-   "end_date": "2026-11-25 12:00:00",
-   "utc_start_date": "2026-11-25 19:30:00",
-   "utc_end_date": "2026-11-25 22:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "games",
-     "name": "Games"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Honoka‘a",
-    "city": "Honoka‘a",
-    "url": "https://www.librarieshawaii.org/branch/honokaa-public-library/"
-   }
-  },
-  {
-   "id": 10035257,
-   "url": "https://www.librarieshawaii.org/event/keiki-storytime-9/2026-11-25/",
-   "title": "Keiki Storytime",
-   "description": "<p><span>Join us for Keiki Storytime every Wednesday at 10am! This storytime is designed for preschool-age children and features themed stories, rhymes, and songs. Each storytime is followed by a simple craft. All children must be accompanied by a parent or caregiver.</span></p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</span></p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-25 10:00:00",
-   "end_date": "2026-11-25 11:00:00",
-   "utc_start_date": "2026-11-25 20:00:00",
-   "utc_end_date": "2026-11-25 21:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "activities",
-     "name": "Arts &amp; Crafts"
-    },
-    {
-     "slug": "books",
-     "name": "Books"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    },
-    {
-     "slug": "storytime-for-kids",
-     "name": "Storytime (for kids)"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "O‘ahu &#8211; Liliha",
-    "city": "Honolulu",
-    "url": "https://www.librarieshawaii.org/branch/liliha-public-library/"
-   }
-  },
-  {
-   "id": 290749,
-   "url": "https://www.librarieshawaii.org/event/preschool-storytime-11-25/",
-   "title": "Preschool Storytime",
-   "description": "<p><span>Join us every Wednesday at 10:00am for a fun-filled storytime! We’ll sing songs, read a few simple stories, then make a craft or do an activity. Great fun for 2 – 5 year-olds and their parents or caregivers. </span></p>\n<p>Anyone who requires an auxiliary aid or service for effective communication or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-25 10:00:00",
-   "end_date": "2026-11-25 10:45:00",
-   "utc_start_date": "2026-11-25 20:00:00",
-   "utc_end_date": "2026-11-25 20:45:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "books",
-     "name": "Books"
-    },
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    },
-    {
-     "slug": "storytime-for-kids",
-     "name": "Storytime (for kids)"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; North Kohala",
-    "city": "Kapa'au",
-    "url": "https://www.librarieshawaii.org/branch/north-kohala-public-library/"
-   }
-  },
-  {
-   "id": 291809,
-   "url": "https://www.librarieshawaii.org/event/preschool-story-time-11-25-26/",
-   "title": "Preschool Story Time",
-   "description": "<p><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join Julia for stories, songs, and play to strengthen our preschoolers’ early literacy skills!</span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">This program is suitable for ages 3-5 years old.</span></p>\n<p class=\"cvGsUA direction-ltr align-start para-style-body\"><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Young children must be accompanied by a parent or adult caregiver.</span><span class=\"OYPEnA font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"></span></p>\n<p>Mahalo nui to the <em>Friends of the Libraries, Kona</em> (F.O.L.K.) for sponsoring this program!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedules are subject to change.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-25 10:00:00",
-   "end_date": "2026-11-25 11:00:00",
-   "utc_start_date": "2026-11-25 20:00:00",
-   "utc_end_date": "2026-11-25 21:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    },
-    {
-     "slug": "reading-programs",
-     "name": "Reading programs"
-    },
-    {
-     "slug": "storytime-for-kids",
-     "name": "Storytime (for kids)"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Kailua-Kona",
-    "city": "Kailua-Kona",
-    "url": "https://www.librarieshawaii.org/branch/kailua-kona-public-library/"
-   }
-  },
-  {
-   "id": 293704,
-   "url": "https://www.librarieshawaii.org/event/talk-story-time2026-11-26/",
-   "title": "Talk Story-Time",
-   "description": "<p><span data-teams=\"true\">Youth Service Librarians, Ms. Pukahi (Children&#8217;s Librarian) and Mrs. Kylee (Young Adult Librarian) team up to bring you an after school extravaganza!</span></p>\n<p><span data-teams=\"true\">Join us for read alouds, book talks, singing, bubbles, and fun crafts for the whole family! Literacy is always fun with us.</span></p>\n<p>Appropriate for PreK to Middle School.</p>\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<div class=\"tribe-events-single-event-description tribe-events-content\">\n<p>&nbsp;</p>\n<p><em>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</em></p>\n</div>\n</div>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-25 14:00:00",
-   "end_date": "2026-11-25 15:00:00",
-   "utc_start_date": "2026-11-26 00:00:00",
-   "utc_end_date": "2026-11-26 01:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "activities",
-     "name": "Arts &amp; Crafts"
-    },
-    {
-     "slug": "books",
-     "name": "Books"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    },
-    {
-     "slug": "reading-programs",
-     "name": "Reading programs"
-    },
-    {
-     "slug": "storytime-for-kids",
-     "name": "Storytime (for kids)"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "O‘ahu &#8211; Waikīkī-Kapahulu",
-    "city": "Honolulu",
-    "url": "https://www.librarieshawaii.org/branch/waikiki-kapahulu-public-library/"
-   }
-  },
-  {
-   "id": 284861,
-   "url": "https://www.librarieshawaii.org/event/pokemon-club-tournament/",
-   "title": "Pokémon Club Tournament",
-   "description": "<p><strong>Welcome Trainers!</strong></p>\n<p>You&#8217;ve been practicing &#8211; now it&#8217;s time to put your knowedge and skills to the test! <span class=\"NormalTextRun SCXW226159523 BCX0\" data-ccp-parastyle=\"Normal (Web)\">Have fun, be kind, and do your best! This tournament is about learning, making friends, and enjoying Pokémon<span> </span></span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW226159523 BCX0\" data-ccp-parastyle=\"Normal (Web)\">together. <em>Welcoming children and teens ages 5-18.</em> <strong>Advanced registration is required. Call the library (808-323-7585) to sign up.</strong></span></p>\n<p>Details below:</p>\n<p><b><span data-contrast=\"none\">Tournament Format</span></b><span data-ccp-props=\"{&quot;201341983&quot;:2,&quot;335559685&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:300}\"> </span></p>\n<p><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559685&quot;:0,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span><span data-contrast=\"none\">Everyone plays in every round.</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></p>\n<ul>\n<li><span data-contrast=\"none\">Players will be matched against others with similar records.</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"none\">No one is eliminated after a loss.</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"none\">Each round lasts </span><b><span data-contrast=\"none\">30 minutes</span></b><span data-contrast=\"none\">.</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"auto\">Match Points:</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"none\">Win = 3 points</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"none\">Tie = 1 point</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"none\">Loss = 0 points</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n</ul>\n<p><span data-contrast=\"auto\">After your match is over, report your points to a Judge. The players with the most points at the end of the tournament will be our </span><b><span data-contrast=\"auto\">Tournament Champions!</span></b></p>\n<p><strong>The Rules</strong></p>\n<ul>\n<li><span data-contrast=\"auto\">Be respectful to all players.</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"auto\">Shake hands, fist bump, or say &#8220;Good game&#8221; after each match. </span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"auto\">Be patient with younger or newer players.</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"auto\">Have fun!</span></li>\n<li><span data-contrast=\"none\">Use your own deck or borrow from the library (only one EX/GX/Mega/V card per deck).</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"none\">Shuffle your deck before each game.</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"none\">Play to 4 prize cards.</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"none\">If you need help with a rule, raise your hand for a Judge. Judge decisions are final.</span><span data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n<li><span data-contrast=\"auto\" xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW38227120 BCX0\"><span class=\"NormalTextRun SCXW38227120 BCX0\" data-ccp-parastyle=\"Normal (Web)\">Players will be notified when there are 5 minutes<span> </span></span><span class=\"NormalTextRun SCXW38227120 BCX0\" data-ccp-parastyle=\"Normal (Web)\">remaining</span><span class=\"NormalTextRun SCXW38227120 BCX0\" data-ccp-parastyle=\"Normal (Web)\"><span> </span>in the match.<span> </span></span><span class=\"NormalTextRun SCXW38227120 BCX0\" data-ccp-parastyle=\"Normal (Web)\">When time is<span> </span></span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW38227120 BCX0\" data-ccp-parastyle=\"Normal (Web)\">called</span><span class=\"NormalTextRun SCXW38227120 BCX0\" data-ccp-parastyle=\"Normal (Web)\"><span> </span>the match is over.</span><span class=\"NormalTextRun SCXW38227120 BCX0\" data-ccp-parastyle=\"Normal (Web)\"><span> </span>If no winner is<span> </span></span><span class=\"NormalTextRun SCXW38227120 BCX0\" data-ccp-parastyle=\"Normal (Web)\">determined</span><span class=\"NormalTextRun SCXW38227120 BCX0\" data-ccp-parastyle=\"Normal (Web)\">, the match is a tie.</span></span><span class=\"EOP Selected SCXW38227120 BCX0\" data-ccp-props=\"{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:2,&quot;335559685&quot;:0,&quot;335559739&quot;:200,&quot;335559740&quot;:300}\"> </span></li>\n</ul>\n<p><span> This program is thanks to a partnership with AASL/ALSC and the Pokémon Company. Additional supplies are generously funded by Friends of the Libraries, Kona (F.O.L.K.).</span></p>\n<p><em><span data-contrast=\"auto\" xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW135626885 BCX0\"><span class=\"NormalTextRun SCXW135626885 BCX0\">Anyone who requires an auxiliary aid or service for effective communication,</span><span class=\"NormalTextRun SCXW135626885 BCX0\"> </span><span class=\"NormalTextRun SCXW135626885 BCX0\">or a modification of policies or procedures to </span><span class=\"NormalTextRun SCXW135626885 BCX0\">participate</span><span class=\"NormalTextRun SCXW135626885 BCX0\"> in a program, service, or activity should contact library staff as soon as possible. Advance requests </span><span class=\"NormalTextRun SCXW135626885 BCX0\">48 hours</span><span class=\"NormalTextRun SCXW135626885 BCX0\"> or more before the event are </span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW135626885 BCX0\">encouraged, but</span><span class=\"NormalTextRun SCXW135626885 BCX0\"> not </span><span class=\"NormalTextRun SCXW135626885 BCX0\">required</span><span class=\"NormalTextRun SCXW135626885 BCX0\">.</span><span class=\"NormalTextRun SCXW135626885 BCX0\"> </span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW135626885 BCX0\">Program</span><span class=\"NormalTextRun SCXW135626885 BCX0\"> schedule is subject to change.</span></span><span class=\"EOP Selected SCXW135626885 BCX0\" data-ccp-props=\"{}\"> </span></em></p>\n<ul></ul>\n<ul></ul>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-25 15:30:00",
-   "end_date": "2026-11-25 18:00:00",
-   "utc_start_date": "2026-11-26 01:30:00",
-   "utc_end_date": "2026-11-26 04:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "games",
-     "name": "Games"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Kealakekua",
-    "city": "Kealakekua",
-    "url": "https://www.librarieshawaii.org/branch/kealakekua-public-library/"
-   }
-  },
-  {
    "id": 284904,
    "url": "https://www.librarieshawaii.org/event/west-hawaii-dance-theatre-presents-nutcracker-sweets/",
    "title": "West Hawaii Dance Theatre Presents: Nutcracker Sweets",
@@ -1349,7 +1015,7 @@
    "id": 296882,
    "url": "https://www.librarieshawaii.org/event/legacy-of-the-landscape-west/",
    "title": "Legacy of the Landscape &#8211; West",
-   "description": "<p>Join local documentarian Catherine Aki for this two-part series of narrated slide shows exploring the landscapes of West &amp; East Molokaʻi. Each presentation features original photographs, moʻolelo &amp; research compiled from a variety of sources.</p>\n<p>Come back on December 9 for East!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in<br />\na program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events at librarieshawaii.org/events.</p>",
+   "description": "<p>Join local documentarian Catherine Aki for this two-part series of narrated slide shows exploring the landscapes of West &amp; East Molokaʻi. Each presentation features original photographs, moʻolelo &amp; research compiled from a variety of sources.</p>\n<p>Come back on December 9 for East!</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in<br />\na program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</p>",
    "excerpt": "",
    "all_day": false,
    "start_date": "2026-12-02 17:00:00",
@@ -2561,7 +2227,7 @@
    "id": 296887,
    "url": "https://www.librarieshawaii.org/event/legacy-of-the-landscape-east/",
    "title": "Legacy of the Landscape &#8211; East",
-   "description": "<p>Join local documentarian Catherine Aki for the second installment of this two-part series of narrated slide shows exploring the landscapes of West &amp; East Molokaʻi. Each presentation features original photographs, moʻolelo &amp; research compiled from a variety of sources.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in<br />\na program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events at librarieshawaii.org/events.</p>",
+   "description": "<p>Join local documentarian Catherine Aki for the second installment of this two-part series of narrated slide shows exploring the landscapes of West &amp; East Molokaʻi. Each presentation features original photographs, moʻolelo &amp; research compiled from a variety of sources.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in<br />\na program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change. See a schedule of upcoming events on the <a href=\"http://librarieshawaii.org/events\">HSPLS Events Calendar</a>.</p>",
    "excerpt": "",
    "all_day": false,
    "start_date": "2026-12-09 17:00:00",
@@ -2740,9 +2406,9 @@
    "excerpt": "",
    "all_day": false,
    "start_date": "2026-12-10 10:00:00",
-   "end_date": "2026-12-10 11:00:00",
+   "end_date": "2026-12-10 10:30:00",
    "utc_start_date": "2026-12-10 20:00:00",
-   "utc_end_date": "2026-12-10 21:00:00",
+   "utc_end_date": "2026-12-10 20:30:00",
    "timezone": "Pacific/Honolulu",
    "cost": "",
    "website": "",
@@ -2750,6 +2416,10 @@
     {
      "slug": "entertainment",
      "name": "Entertainment"
+    },
+    {
+     "slug": "holiday-season-december",
+     "name": "Holiday Season"
     },
     {
      "slug": "music",
@@ -3611,6 +3281,45 @@
    }
   },
   {
+   "id": 297283,
+   "url": "https://www.librarieshawaii.org/event/christmas-sing-along-3/",
+   "title": "Christmas Sing-Along",
+   "description": "<p data-ccp-props=\"{&quot;335551550&quot;:2,&quot;335551620&quot;:2,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\"><b><span data-usefontface=\"true\" data-contrast=\"none\">Celebrate the holidays with songs </span></b><b><span data-usefontface=\"true\" data-contrast=\"none\">featuring Sing for Your Life volunteers</span></b><b><span data-usefontface=\"true\" data-contrast=\"none\">.</span></b><span>​</span></p>\n<p data-ccp-props=\"{&quot;335551550&quot;:2,&quot;335551620&quot;:2,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\"><span>​</span></p>\n<p data-ccp-props=\"{&quot;335551550&quot;:2,&quot;335551620&quot;:2,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\"><span data-usefontface=\"true\" data-contrast=\"none\">This program is open everyone. </span><span>​</span></p>\n<p data-ccp-props=\"{&quot;335551550&quot;:2,&quot;335551620&quot;:2,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\"><span data-usefontface=\"true\" data-contrast=\"none\">Come out and sing!</span><span>​</span></p>\n<p data-ccp-props=\"{&quot;335551550&quot;:2,&quot;335551620&quot;:2,&quot;335559683&quot;:0,&quot;335559685&quot;:0,&quot;335559731&quot;:0,&quot;335559737&quot;:0,&quot;335562764&quot;:2,&quot;335562765&quot;:1,&quot;335562766&quot;:4,&quot;335562767&quot;:0,&quot;335562768&quot;:4,&quot;335562769&quot;:0}\"><span class=\"LineBox SCXP111306566 BCX0\"><span data-scheme-color=\"@231F20,,\" data-usefontface=\"true\" data-contrast=\"none\" class=\"TextRun SCXP111306566 BCX0\" xml:lang=\"EN-US\" lang=\"EN-US\"><span class=\"NormalTextRun SCXP111306566 BCX0\">Anyone who requires an auxiliary aid or service for effective </span></span></span><span class=\"LineBox SCXP111306566 BCX0\"><span data-scheme-color=\"@231F20,,\" data-usefontface=\"true\" data-contrast=\"none\" class=\"TextRun SCXP111306566 BCX0\" xml:lang=\"EN-US\" lang=\"EN-US\"><span class=\"NormalTextRun SCXP111306566 BCX0\">communication, or a modification of policies or procedures to participate in </span></span></span><span class=\"LineBox SCXP111306566 BCX0\"><span data-scheme-color=\"@231F20,,\" data-usefontface=\"true\" data-contrast=\"none\" class=\"TextRun SCXP111306566 BCX0\" xml:lang=\"EN-US\" lang=\"EN-US\"><span class=\"NormalTextRun SCXP111306566 BCX0\">a program, service, or activity should contact library staff as soon as </span></span></span><span class=\"LineBox SCXP111306566 BCX0\"><span data-scheme-color=\"@231F20,,\" data-usefontface=\"true\" data-contrast=\"none\" class=\"TextRun SCXP111306566 BCX0\" xml:lang=\"EN-US\" lang=\"EN-US\"><span class=\"NormalTextRun SCXP111306566 BCX0\">possible. Advance requests 48 hours or more before the event are </span></span></span><span class=\"LineBox SCXP111306566 BCX0\"><span data-scheme-color=\"@231F20,,\" data-usefontface=\"true\" data-contrast=\"none\" class=\"TextRun SCXP111306566 BCX0\" xml:lang=\"EN-US\" lang=\"EN-US\"><span class=\"annotation-c9dead59-b4e2-4f6f-b1a3-eef246a0acf9 ContextualSpellingAndGrammarErrorZoomed SCXP111306566 BCX0\">encouraged, but</span></span><span data-scheme-color=\"@231F20,,\" data-usefontface=\"true\" data-contrast=\"none\" class=\"TextRun SCXP111306566 BCX0\" xml:lang=\"EN-US\" lang=\"EN-US\"><span class=\"NormalTextRun SCXP111306566 BCX0\"> not required. All programs are subject to change. </span></span></span><span class=\"LineBox SCXP111306566 BCX0\"><span class=\"EOP SCXP111306566 BCX0\">​</span></span></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-16 11:00:00",
+   "end_date": "2026-12-16 11:30:00",
+   "utc_start_date": "2026-12-16 21:00:00",
+   "utc_end_date": "2026-12-16 21:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "holiday-season-december",
+     "name": "Holiday Season"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Salt Lake-Moanalua",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/salt-lake-moanalua-public-library/"
+   }
+  },
+  {
    "id": 297110,
    "url": "https://www.librarieshawaii.org/event/talk-story-time-2026-12-16/",
    "title": "Talk Story-Time",
@@ -3698,6 +3407,45 @@
     "venue": "O‘ahu &#8211; Kapolei",
     "city": "Kapolei",
     "url": "https://www.librarieshawaii.org/branch/kapolei-public-library/"
+   }
+  },
+  {
+   "id": 297231,
+   "url": "https://www.librarieshawaii.org/event/silent-disco-hilo/",
+   "title": "Silent Disco",
+   "description": "<p>Get ready to groove and move! The Hilo Public Library is thrilled to invite you to our Silent Dance Party. <a href=\"https://www.eventbrite.com/e/silent-disco-at-hilo-public-library-tickets-2004048307435\" target=\"_blank\" rel=\"noopener\">Registration</a> is highly recommended!</p>\n<p>This isn&#8217;t your average evening at the library. We&#8217;re having a dance party! Put on your headphones, tune into fresh jams spun by some local DJs, and do your thing on the dance floor! If this tune isn&#8217;t your jam, just switch channels to see what the other DJs are playing.</p>\n<p>Funded by the Friends of the Library Hawaiʻi, this free event is for anyone looking for a night to remember. It&#8217;s all about keeping it quiet&#8230; but making it epic!</p>\n<h4>How it Works (and what you need to know!):</h4>\n<ul>\n<li>Headset Rental: To participate, you&#8217;ll need to provide a Driver&#8217;s License, State ID, or School ID which we will hold in exchange for your headset. Your ID will be returned once you bring the headset back.</li>\n<li>Keiki under 16 should be accompanied by a parent or legal guardian</li>\n<li>No Time Commitment: Dance for 15 minutes or the entire time – it&#8217;s up to you! As soon as a headset is returned, another patron can borrow it, so everyone gets a chance to join the fun.</li>\n<li>Register In Advance: Let us know you are planning to attend by <a href=\"https://www.eventbrite.com/e/silent-disco-at-hilo-public-library-tickets-2004048307435\" target=\"_blank\" rel=\"noopener\">registering online</a>!</li>\n</ul>\n<hr />\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-16 17:00:00",
+   "end_date": "2026-12-16 19:00:00",
+   "utc_start_date": "2026-12-17 03:00:00",
+   "utc_end_date": "2026-12-17 05:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "holiday-season-december",
+     "name": "Holiday Season"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; Hilo",
+    "city": "Hilo",
+    "url": "https://www.librarieshawaii.org/branch/hilo-public-library/"
    }
   },
   {
@@ -3872,6 +3620,41 @@
     "venue": "O‘ahu &#8211; Salt Lake-Moanalua",
     "city": "Honolulu",
     "url": "https://www.librarieshawaii.org/branch/salt-lake-moanalua-public-library/"
+   }
+  },
+  {
+   "id": 297212,
+   "url": "https://www.librarieshawaii.org/event/a-musical-christmas-storytime-with-allegro-keiki/",
+   "title": "A Musical Christmas Storytime with Allegro Keiki!",
+   "description": "<p data-pm-slice=\"1 1 []\"><span>Celebrate the magic of the holiday season with a special storytime featuring Allegro Keiki! Enjoy a reading of </span><em><span>Gingerbread Christmas</span></em><span> by Jan Brett, brought to life with the beautiful sounds of live string instruments. Families are invited to experience this festive blend of storytelling and music for a holiday program that is sure to delight readers and music lovers of all ages!</span></p>\n<p data-pm-slice=\"1 1 []\"><span>Allegro Keiki creates live instrumental music experiences for young children and their caregivers. Our interactive programs blend familiar tunes with new musical discoveries, movement, and hands-on engagement to spark joy and curiosity in little listeners. This special holiday program features classic holiday music and a live instrumental accompaniment to a reading of a holiday book, bringing the story to life through sound. Performed by members of O‘ahu’s Kai String Quartet, professional musicians and parents who also perform with the Hawai‘i Symphony Orchestra and other local performing arts and educational organizations. Learn more at</span><span data-ogsc=\"\"> </span><a href=\"http://allegrokeiki.com\" target=\"_blank\" rel=\"noopener noreferrer\" data-auth=\"NotApplicable\" data-linkindex=\"0\" title=\"Original URL: http://allegrokeiki.com/. Click or tap if you trust this link.\" data-ogsc=\"\">Allegro Keiki website</a><span data-ogsc=\"\"> </span><span>or follow @allegrokeiki.</span></p>\n<p data-pm-slice=\"1 1 []\"><span>This event is generously sponsored by our Friends of the Kāneʻohe Library.</span></p>\n<p data-pm-slice=\"1 1 []\"><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</span></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-17 10:00:00",
+   "end_date": "2026-12-17 10:30:00",
+   "utc_start_date": "2026-12-17 20:00:00",
+   "utc_end_date": "2026-12-17 20:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "holiday-season-december",
+     "name": "Holiday Season"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    },
+    {
+     "slug": "storytime-for-kids",
+     "name": "Storytime (for kids)"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Kāneʻohe",
+    "city": "Kāneʻohe",
+    "url": "https://www.librarieshawaii.org/branch/kaneohe-public-library/"
    }
   },
   {
@@ -4415,6 +4198,10 @@
     {
      "slug": "entertainment",
      "name": "Entertainment"
+    },
+    {
+     "slug": "holiday-season-december",
+     "name": "Holiday Season"
     },
     {
      "slug": "music",
@@ -6086,6 +5873,49 @@
     "venue": "O‘ahu &#8211; Kahuku",
     "city": "Kahuku",
     "url": "https://www.librarieshawaii.org/branch/kahuku-public-and-school-library/"
+   }
+  },
+  {
+   "id": 10050752,
+   "url": "https://www.librarieshawaii.org/event/chinese-folk-dance-class-%e4%b8%ad%e5%9c%8b%e6%b0%91%e6%97%8f%e8%88%9e%e8%b9%88/2027-01-09/",
+   "title": "Chinese Folk Dance Class 中國民族舞蹈",
+   "description": "<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Interested in discovering how to dance with grace?</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">您想舞出優雅身姿嗎？</span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Learn the basic techniques of Chinese folk dance with instructors Sissi Wang and Kelly Lin.</span><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">跟著 Sissi Wang 與 Kelly Lin 老師，解鎖中國民族舞蹈的基本功！</span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">All ages welcome. No experience needed.</span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"a_GcMg font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">適合各年齡段愛好者。零基礎者也可參加。</span></p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</span></p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2027-01-09 09:30:00",
+   "end_date": "2027-01-09 12:30:00",
+   "utc_start_date": "2027-01-09 19:30:00",
+   "utc_end_date": "2027-01-09 22:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "history",
+     "name": "History"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; Liliha",
+    "city": "Honolulu",
+    "url": "https://www.librarieshawaii.org/branch/liliha-public-library/"
    }
   },
   {

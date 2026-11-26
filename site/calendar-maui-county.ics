@@ -16,7 +16,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:f58c08c066a156194d32@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;TZID=Pacific/Honolulu:20261202T170000
 DTEND;TZID=Pacific/Honolulu:20261202T190000
 SUMMARY:Legacy of the Landscape – West
@@ -33,7 +33,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:2eaee0dd91dd288208b5@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;TZID=Pacific/Honolulu:20261209T170000
 DTEND;TZID=Pacific/Honolulu:20261209T190000
 SUMMARY:Legacy of the Landscape – East
@@ -50,7 +50,7 @@ CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
 UID:05cf12f67bdcc5ae7b07@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;TZID=Pacific/Honolulu:20261209T170000
 DTEND;TZID=Pacific/Honolulu:20261209T180000
 SUMMARY:Read To Me International Family Literacy Night
@@ -69,26 +69,8 @@ URL:https://www.librarieshawaii.org/event/read-to-me-international-family
 CATEGORIES:Library programs
 END:VEVENT
 BEGIN:VEVENT
-UID:3798b28493e76c4dc156@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
-DTSTART;TZID=Pacific/Honolulu:20261125T180000
-SUMMARY:Theatrical Lighting Design Masterclass with S. Benjamin Farrar of
-  Farrar Design
-DESCRIPTION:A pay what you can workshop led by the lighting and set desig
- ner at the second largest community theater in the country.  https://alo
- hacalendar.com/events/theatrical-lighting-design-masterclass-with-s-benj
- amin-farrar-of-farrar-design  https://proartsmaui.org/event/theatrical-l
- ighting-design-masterclass-with-s-benjamin-farrar-of-farrar-design/  Sou
- rces: AlohaCalendar https://alohacalendar.com/events/theatrical-lighting
- -design-masterclass-with-s-benjamin-farrar-of-farrar-design
-LOCATION:ProArts Playhouse (Maui)
-URL:https://alohacalendar.com/events/theatrical-lighting-design-mastercla
- ss-with-s-benjamin-farrar-of-farrar-design
-CATEGORIES:Arts & Gallery
-END:VEVENT
-BEGIN:VEVENT
 UID:3da7153989389067df06@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Underwater Fun
@@ -102,7 +84,7 @@ CATEGORIES:Cultural & Heritage
 END:VEVENT
 BEGIN:VEVENT
 UID:a40c591c4df25bdb511b@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;TZID=Pacific/Honolulu:20261127T193000
 SUMMARY:Spanksgiving
 DESCRIPTION:A deliciously cheeky and seductive variety show for 18 and ov
@@ -116,7 +98,7 @@ CATEGORIES:Comedy
 END:VEVENT
 BEGIN:VEVENT
 UID:7ae779bb8c5c0bc3f2e4@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;TZID=Pacific/Honolulu:20261129T190000
 SUMMARY:A Reading of David Auburn’s Proof
 DESCRIPTION:In the Pulitzer and Tony-winning Proof\, David Auburn has fas
@@ -131,7 +113,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:d237334a0e314a651386@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;TZID=Pacific/Honolulu:20261201T140000
 SUMMARY:World AIDS Day
 DESCRIPTION:Join us as we come together to reflect on the progress made a
@@ -144,7 +126,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:70470723d8aa71b64e29-opens@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:Keiki Craft & Storytime — opens
@@ -161,7 +143,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:70470723d8aa71b64e29-closes@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
 SUMMARY:Keiki Craft & Storytime — closes (last day)
@@ -178,7 +160,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:3fe412ba6dc56fcadbed-opens@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:Makali’i Rising — opens
@@ -194,7 +176,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:3fe412ba6dc56fcadbed-closes@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:Makali’i Rising — closes (last day)
@@ -210,7 +192,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:a7fde5debf21f48034b2@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:IRATION
@@ -222,22 +204,8 @@ URL:https://alohacalendar.com/events/iration-2026-12-05
 CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
-UID:94cb2a364663ac9908e8@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
-DTSTART;VALUE=DATE:20261206
-DTEND;VALUE=DATE:20261207
-SUMMARY:MAUI POPS ORCHESTRA - Holiday Pops
-DESCRIPTION:MAUI POPS ORCHESTRA - Holiday Pops  https://alohacalendar.com
- /events/maui-pops-orchestra-holiday-pops  https://mauiarts.org/show-deta
- ils/maui-pops-orchestra-holiday-pops-2026  Sources: AlohaCalendar https:
- //alohacalendar.com/events/maui-pops-orchestra-holiday-pops
-LOCATION:Maui Arts & Cultural Center (Maui)
-URL:https://alohacalendar.com/events/maui-pops-orchestra-holiday-pops
-CATEGORIES:Arts & Gallery
-END:VEVENT
-BEGIN:VEVENT
 UID:a6d64956aa99243e9590-opens@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Magic in Paradise — opens
@@ -252,7 +220,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:a6d64956aa99243e9590-closes@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:Magic in Paradise — closes (last day)
@@ -266,8 +234,22 @@ URL:https://alohacalendar.com/events/magic-in-paradise
 CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
+UID:94cb2a364663ac9908e8@hawaii-arts-calendar
+DTSTAMP:20261126T190028Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:MAUI POPS ORCHESTRA - Holiday Pops
+DESCRIPTION:MAUI POPS ORCHESTRA - Holiday Pops  https://alohacalendar.com
+ /events/maui-pops-orchestra-holiday-pops  https://mauiarts.org/show-deta
+ ils/maui-pops-orchestra-holiday-pops-2026  Sources: AlohaCalendar https:
+ //alohacalendar.com/events/maui-pops-orchestra-holiday-pops
+LOCATION:Maui Arts & Cultural Center (Maui)
+URL:https://alohacalendar.com/events/maui-pops-orchestra-holiday-pops
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
 UID:120dcccc7daea32789a7@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
 SUMMARY:The BLIND BOYS of ALABAMA
@@ -281,7 +263,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:ed231640c73e24c43006@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261213
 SUMMARY:A Roots School Production: Superheroes
@@ -298,7 +280,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:b8851ef472f2887bec80@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:WHOSE LIVE ANYWAY?
@@ -310,8 +292,22 @@ URL:https://alohacalendar.com/events/whose-live-anyway
 CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
+UID:b9cb488cb6aecfe3e833@hawaii-arts-calendar
+DTSTAMP:20261126T190028Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:JIAOYING SUMMERS
+DESCRIPTION:JIAOYING SUMMERS  https://alohacalendar.com/events/jiaoying-s
+ ummers-2026-12-12  https://mauiarts.org/show-details/jiaoying-summers  S
+ ources: AlohaCalendar https://alohacalendar.com/events/jiaoying-summers-
+ 2026-12-12
+LOCATION:Maui Arts & Cultural Center (Maui)
+URL:https://alohacalendar.com/events/jiaoying-summers-2026-12-12
+CATEGORIES:Arts & Gallery
+END:VEVENT
+BEGIN:VEVENT
 UID:cd0eab1dda78d9a697fb@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;TZID=Pacific/Honolulu:20261212T110000
 SUMMARY:Hui Holidays 2026: Santa's Workshop
 DESCRIPTION:Bring the whole family to the Hui for a festive day of holida
@@ -325,22 +321,8 @@ URL:https://alohacalendar.com/events/hui-holidays-2026-santas-workshop
 CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
-UID:b9cb488cb6aecfe3e833@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
-DTSTART;VALUE=DATE:20261212
-DTEND;VALUE=DATE:20261213
-SUMMARY:JIAOYING SUMMERS
-DESCRIPTION:JIAOYING SUMMERS  https://alohacalendar.com/events/jiaoying-s
- ummers-2026-12-12  https://mauiarts.org/show-details/jiaoying-summers  S
- ources: AlohaCalendar https://alohacalendar.com/events/jiaoying-summers-
- 2026-12-12
-LOCATION:Maui Arts & Cultural Center (Maui)
-URL:https://alohacalendar.com/events/jiaoying-summers-2026-12-12
-CATEGORIES:Arts & Gallery
-END:VEVENT
-BEGIN:VEVENT
 UID:f4a07395c33eb3e4685f@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:JAKE SHIMABUKURO'S Holidays in Hawaiʻi
@@ -356,7 +338,7 @@ CATEGORIES:Arts & Gallery
 END:VEVENT
 BEGIN:VEVENT
 UID:07e32f7f3a3045a6d6e0@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;TZID=Pacific/Honolulu:20270109T193000
 SUMMARY:Couplet: Honey Honey Moon Moon
 DESCRIPTION:A hilarious musical comedy telling of a honeymoon fighting of
@@ -370,7 +352,7 @@ CATEGORIES:Concerts & Live Music
 END:VEVENT
 BEGIN:VEVENT
 UID:79cf6854b81d8978bc76@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;TZID=Pacific/Honolulu:20270111T180000
 SUMMARY:Scriptless in Seattle
 DESCRIPTION:Scriptless in Seattle is a fast-paced comedy improv show wher
@@ -385,7 +367,7 @@ CATEGORIES:Family & Keiki
 END:VEVENT
 BEGIN:VEVENT
 UID:2883c5ad8102af1b73f2@hawaii-arts-calendar
-DTSTAMP:20261125T191623Z
+DTSTAMP:20261126T190028Z
 DTSTART;VALUE=DATE:20270115
 DTEND;VALUE=DATE:20270116
 SUMMARY:2027 Annual Juried Exhibition

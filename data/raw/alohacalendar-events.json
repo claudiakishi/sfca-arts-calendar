@@ -1,17 +1,17 @@
 {
  "events": [
   {
-   "id": "f65e415a-99a5-4b1e-b655-947a13e29362",
-   "slug": "cirque-du-soleil-auana-334",
+   "id": "50a023c8-10e0-4400-837b-e9db805ad6ba",
+   "slug": "cirque-du-soleil-auana-336",
    "title": "Cirque du Soleil: Auana",
    "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-11-26T00:00:00.000Z",
+   "startDate": "2026-11-27T00:00:00.000Z",
    "startTime": "17:30",
    "endDate": null,
    "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jba0",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbao",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -30,151 +30,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-334"
-  },
-  {
-   "id": "6b365d35-d4cb-4cc1-b0f0-19c457b86a7e",
-   "slug": "huki-canoe-show-at-polynesian-cultural-center-2026-11-26",
-   "title": "HUKI: Canoe Show at Polynesian Cultural Center",
-   "shortDesc": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
-   "startDate": "2026-11-26T00:00:00.000Z",
-   "startTime": "12:40",
-   "endDate": null,
-   "imageUrl": "https://www.polynesia.com/globalassets/huki-hukilau.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.polynesia.com/packages",
-   "priceMin": 94.95,
-   "priceMax": null,
-   "priceNote": "Included with admission from $94.95",
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Polynesian Cultural Center",
-    "address": "55-370 Kamehameha Hwy",
-    "city": "Laie"
-   },
-   "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-26"
-  },
-  {
-   "id": "5646b52b-b13a-418f-a252-f92b42345b72",
-   "slug": "ha-breath-of-life-evening-show-2026-11-26",
-   "title": "HA: Breath of Life Evening Show",
-   "shortDesc": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
-   "startDate": "2026-11-26T00:00:00.000Z",
-   "startTime": "19:30",
-   "endDate": null,
-   "imageUrl": "https://www.polynesia.com/globalassets/ha-breath-of-life-fire-exhibition.jpeg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.polynesia.com/packages",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": "Included with evening packages",
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Polynesian Cultural Center",
-    "address": "55-370 Kamehameha Hwy",
-    "city": "Laie"
-   },
-   "categories": [
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-26"
-  },
-  {
-   "id": "095c5128-32fb-4fee-b5ee-548ab6ddbf22",
-   "slug": "cirque-du-soleil-auana-335",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-11-26T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbaJ",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-335"
-  },
-  {
-   "id": "5496e942-2c24-46ac-97e0-8d03a8d20c9e",
-   "slug": "lau-h-breath-of-life-show-at-polynesian-cultural-center",
-   "title": "Lūʻau & HĀ: Breath of Life Show at Polynesian Cultural Center",
-   "shortDesc": "Time 4:40 - 8:35 pm",
-   "startDate": "2026-11-27T00:00:00.000Z",
-   "startTime": "12:00",
-   "endDate": null,
-   "imageUrl": null,
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.polynesia.com/packages",
-   "priceMin": 110.96,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Polynesian Cultural Center",
-    "address": "55-370 Kamehameha Hwy",
-    "city": "Laie"
-   },
-   "categories": [
-    {
-     "slug": "luaus",
-     "name": "Luaus"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-336"
   },
   {
    "id": "b35a6d6c-de61-486a-96bd-2dda76cd0df7",
@@ -239,6 +95,74 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-337"
+  },
+  {
+   "id": "cccbfaed-af95-4437-852b-c8ef17b4b1a9",
+   "slug": "the-book-of-mormon-touring-1",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-11-27T00:00:00.000Z",
+   "startTime": "14:00",
+   "endDate": null,
+   "imageUrl": "https://s1.ticketm.net/dam/a/70c/f8408501-c120-4b57-a857-a1711722970c_241621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-27-2026/event/0A00648EB7C2827F",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-1"
+  },
+  {
+   "id": "67a036c6-ac84-4bcb-b4ec-f9fbb3499acb",
+   "slug": "spanksgiving",
+   "title": "Spanksgiving",
+   "shortDesc": "A deliciously cheeky and seductive variety show for 18 and over. Including sultry burlesque, adult comedy, spellbinding dancing and aerial arts……",
+   "startDate": "2026-11-27T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "imageUrl": "https://proartsmaui.org/wp-content/uploads/2026/10/spotlight-e1791247054148.png",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://proartsmaui.org/event/spanksgiving-nov-27-2026/",
+   "priceMin": 37.1,
+   "priceMax": 90.1,
+   "priceNote": null,
+   "island": {
+    "slug": "maui",
+    "name": "Maui"
+   },
+   "location": {
+    "name": "ProArts Playhouse",
+    "address": "1280 South Kihei Road",
+    "city": "Kihei"
+   },
+   "categories": [
+    {
+     "slug": "comedy",
+     "name": "Comedy"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/spanksgiving"
   },
   {
    "id": "0daaa8f9-970b-440a-b44c-89422baab2d1",
@@ -315,106 +239,6 @@
     }
    ],
    "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-27"
-  },
-  {
-   "id": "67a036c6-ac84-4bcb-b4ec-f9fbb3499acb",
-   "slug": "spanksgiving",
-   "title": "Spanksgiving",
-   "shortDesc": "A deliciously cheeky and seductive variety show for 18 and over. Including sultry burlesque, adult comedy, spellbinding dancing and aerial arts……",
-   "startDate": "2026-11-27T00:00:00.000Z",
-   "startTime": "19:30",
-   "endDate": null,
-   "imageUrl": "https://proartsmaui.org/wp-content/uploads/2026/10/spotlight-e1791247054148.png",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://proartsmaui.org/event/spanksgiving-nov-27-2026/",
-   "priceMin": 37.1,
-   "priceMax": 90.1,
-   "priceNote": null,
-   "island": {
-    "slug": "maui",
-    "name": "Maui"
-   },
-   "location": {
-    "name": "ProArts Playhouse",
-    "address": "1280 South Kihei Road",
-    "city": "Kihei"
-   },
-   "categories": [
-    {
-     "slug": "comedy",
-     "name": "Comedy"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/spanksgiving"
-  },
-  {
-   "id": "cccbfaed-af95-4437-852b-c8ef17b4b1a9",
-   "slug": "the-book-of-mormon-touring-1",
-   "title": "The Book of Mormon (Touring)",
-   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
-   "startDate": "2026-11-27T00:00:00.000Z",
-   "startTime": "14:00",
-   "endDate": null,
-   "imageUrl": "https://s1.ticketm.net/dam/a/70c/f8408501-c120-4b57-a857-a1711722970c_241621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-27-2026/event/0A00648EB7C2827F",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Neal S Blaisdell Concert Hall",
-    "address": "777 Ward Avenue",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-1"
-  },
-  {
-   "id": "50a023c8-10e0-4400-837b-e9db805ad6ba",
-   "slug": "cirque-du-soleil-auana-336",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-11-27T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbao",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-336"
   },
   {
    "id": "6def0780-3032-4c8d-98c5-1dc96ec266f5",
@@ -529,6 +353,42 @@
    "url": "https://alohacalendar.com/events/friday-night-funny-tipsy-pig-ii"
   },
   {
+   "id": "5496e942-2c24-46ac-97e0-8d03a8d20c9e",
+   "slug": "lau-h-breath-of-life-show-at-polynesian-cultural-center",
+   "title": "Lūʻau & HĀ: Breath of Life Show at Polynesian Cultural Center",
+   "shortDesc": "Time 4:40 - 8:35 pm",
+   "startDate": "2026-11-28T00:00:00.000Z",
+   "startTime": "12:00",
+   "endDate": null,
+   "imageUrl": null,
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.polynesia.com/packages",
+   "priceMin": 110.96,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Polynesian Cultural Center",
+    "address": "55-370 Kamehameha Hwy",
+    "city": "Laie"
+   },
+   "categories": [
+    {
+     "slug": "luaus",
+     "name": "Luaus"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/lau-h-breath-of-life-show-at-polynesian-cultural-center"
+  },
+  {
    "id": "867cb69b-e385-41cb-92b7-a1dd356a2fc5",
    "slug": "cirque-du-soleil-auana-338",
    "title": "Cirque du Soleil: Auana",
@@ -559,6 +419,46 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-338"
+  },
+  {
+   "id": "0c62f2da-63fc-482f-b71d-472f73c28fc5",
+   "slug": "huki-canoe-show-at-polynesian-cultural-center-2026-11-28",
+   "title": "HUKI: Canoe Show at Polynesian Cultural Center",
+   "shortDesc": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
+   "startDate": "2026-11-28T00:00:00.000Z",
+   "startTime": "12:40",
+   "endDate": null,
+   "imageUrl": "https://www.polynesia.com/globalassets/huki-hukilau.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.polynesia.com/packages",
+   "priceMin": 94.95,
+   "priceMax": null,
+   "priceNote": "Included with admission from $94.95",
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Polynesian Cultural Center",
+    "address": "55-370 Kamehameha Hwy",
+    "city": "Laie"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-28"
   },
   {
    "id": "3641da76-89c3-45ea-9900-ade15991a1ad",
@@ -677,6 +577,38 @@
    "url": "https://alohacalendar.com/events/10th-annual-keep-it-kaimuk-saturday"
   },
   {
+   "id": "cee8b874-b9fd-4354-8c78-fe80405fb168",
+   "slug": "the-book-of-mormon-touring-3",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-11-28T00:00:00.000Z",
+   "startTime": "14:00",
+   "endDate": null,
+   "imageUrl": "https://s1.ticketm.net/dam/a/70c/f8408501-c120-4b57-a857-a1711722970c_241621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-28-2026/event/0A00648EB7CB828B",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-3"
+  },
+  {
    "id": "1959a08c-f77e-4712-9f6e-65f5fbf2a2c0",
    "slug": "the-nutcracker-by-ballet-hawaii-at-prince-waikiki",
    "title": "The Nutcracker by Ballet Hawaii at Prince Waikiki",
@@ -713,78 +645,6 @@
    "url": "https://alohacalendar.com/events/the-nutcracker-by-ballet-hawaii-at-prince-waikiki"
   },
   {
-   "id": "0c62f2da-63fc-482f-b71d-472f73c28fc5",
-   "slug": "huki-canoe-show-at-polynesian-cultural-center-2026-11-28",
-   "title": "HUKI: Canoe Show at Polynesian Cultural Center",
-   "shortDesc": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
-   "startDate": "2026-11-28T00:00:00.000Z",
-   "startTime": "12:40",
-   "endDate": null,
-   "imageUrl": "https://www.polynesia.com/globalassets/huki-hukilau.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.polynesia.com/packages",
-   "priceMin": 94.95,
-   "priceMax": null,
-   "priceNote": "Included with admission from $94.95",
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Polynesian Cultural Center",
-    "address": "55-370 Kamehameha Hwy",
-    "city": "Laie"
-   },
-   "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-28"
-  },
-  {
-   "id": "cee8b874-b9fd-4354-8c78-fe80405fb168",
-   "slug": "the-book-of-mormon-touring-3",
-   "title": "The Book of Mormon (Touring)",
-   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
-   "startDate": "2026-11-28T00:00:00.000Z",
-   "startTime": "14:00",
-   "endDate": null,
-   "imageUrl": "https://s1.ticketm.net/dam/a/70c/f8408501-c120-4b57-a857-a1711722970c_241621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-28-2026/event/0A00648EB7CB828B",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Neal S Blaisdell Concert Hall",
-    "address": "777 Ward Avenue",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-3"
-  },
-  {
    "id": "fb2ab9f4-99fa-47c7-82ec-0efa9eb6258b",
    "slug": "cirque-du-soleil-auana-339",
    "title": "Cirque du Soleil: Auana",
@@ -815,6 +675,38 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-339"
+  },
+  {
+   "id": "c1b3416d-6673-496b-84cc-be502ef91988",
+   "slug": "cirque-du-soleil-auana-340",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-11-29T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7j9j7",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-340"
   },
   {
    "id": "70542c2d-a9d0-4c67-b7ce-54504add4155",
@@ -849,38 +741,6 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-341"
   },
   {
-   "id": "92394bd4-3be5-485c-b38c-58604b8f62c1",
-   "slug": "the-book-of-mormon-touring-5",
-   "title": "The Book of Mormon (Touring)",
-   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
-   "startDate": "2026-11-29T00:00:00.000Z",
-   "startTime": "13:00",
-   "endDate": null,
-   "imageUrl": "https://s1.ticketm.net/dam/a/70c/f8408501-c120-4b57-a857-a1711722970c_241621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-29-2026/event/0A00648EB7D3829F",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Neal S Blaisdell Concert Hall",
-    "address": "777 Ward Avenue",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-5"
-  },
-  {
    "id": "72b99e9a-614b-4163-b648-a8e5dba40d0f",
    "slug": "a-reading-of-david-auburns-proof",
    "title": "A Reading of David Auburn’s Proof",
@@ -913,17 +773,17 @@
    "url": "https://alohacalendar.com/events/a-reading-of-david-auburns-proof"
   },
   {
-   "id": "c1b3416d-6673-496b-84cc-be502ef91988",
-   "slug": "cirque-du-soleil-auana-340",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "id": "92394bd4-3be5-485c-b38c-58604b8f62c1",
+   "slug": "the-book-of-mormon-touring-5",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
    "startDate": "2026-11-29T00:00:00.000Z",
-   "startTime": "17:30",
+   "startTime": "13:00",
    "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "imageUrl": "https://s1.ticketm.net/dam/a/70c/f8408501-c120-4b57-a857-a1711722970c_241621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7j9j7",
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-11-29-2026/event/0A00648EB7D3829F",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -932,8 +792,8 @@
     "name": "Oahu"
    },
    "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
     "city": "Honolulu"
    },
    "categories": [
@@ -942,7 +802,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-340"
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-5"
   },
   {
    "id": "3c5a84fe-ed0a-495f-8d6d-7d7b0560568f",
@@ -1013,42 +873,6 @@
    "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-7"
   },
   {
-   "id": "3c5e80b1-9fe8-452a-8b94-836b10469fde",
-   "slug": "ha-breath-of-life-evening-show-2026-11-30",
-   "title": "HA: Breath of Life Evening Show",
-   "shortDesc": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
-   "startDate": "2026-11-30T00:00:00.000Z",
-   "startTime": "19:30",
-   "endDate": null,
-   "imageUrl": "https://www.polynesia.com/globalassets/ha-breath-of-life-fire-exhibition.jpeg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.polynesia.com/packages",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": "Included with evening packages",
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Polynesian Cultural Center",
-    "address": "55-370 Kamehameha Hwy",
-    "city": "Laie"
-   },
-   "categories": [
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-30"
-  },
-  {
    "id": "c49bdf06-7dfc-4522-8e73-897a4ad20c73",
    "slug": "huki-canoe-show-at-polynesian-cultural-center-2026-11-30",
    "title": "HUKI: Canoe Show at Polynesian Cultural Center",
@@ -1089,6 +913,42 @@
    "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-11-30"
   },
   {
+   "id": "3c5e80b1-9fe8-452a-8b94-836b10469fde",
+   "slug": "ha-breath-of-life-evening-show-2026-11-30",
+   "title": "HA: Breath of Life Evening Show",
+   "shortDesc": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
+   "startDate": "2026-11-30T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "imageUrl": "https://www.polynesia.com/globalassets/ha-breath-of-life-fire-exhibition.jpeg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.polynesia.com/packages",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Included with evening packages",
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Polynesian Cultural Center",
+    "address": "55-370 Kamehameha Hwy",
+    "city": "Laie"
+   },
+   "categories": [
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-11-30"
+  },
+  {
    "id": "7f95bada-01a0-4b0e-904f-52a8637f57f4",
    "slug": "anahola-farmers-market-2026-11-30",
    "title": "Anahola Farmers Market",
@@ -1127,6 +987,38 @@
     }
    ],
    "url": "https://alohacalendar.com/events/anahola-farmers-market-2026-11-30"
+  },
+  {
+   "id": "b8320a6e-92ab-45a8-bb96-ce17e7c2a373",
+   "slug": "the-book-of-mormon-touring-8",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-12-01T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "imageUrl": "https://s1.ticketm.net/dam/a/70c/f8408501-c120-4b57-a857-a1711722970c_241621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-12-01-2026/event/0A00648EB7E082B0",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-8"
   },
   {
    "id": "37352b2f-3a6c-4fdc-b8fd-c24c2ac6ec13",
@@ -1205,38 +1097,6 @@
    "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-12-01"
   },
   {
-   "id": "b8320a6e-92ab-45a8-bb96-ce17e7c2a373",
-   "slug": "the-book-of-mormon-touring-8",
-   "title": "The Book of Mormon (Touring)",
-   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
-   "startDate": "2026-12-01T00:00:00.000Z",
-   "startTime": "19:30",
-   "endDate": null,
-   "imageUrl": "https://s1.ticketm.net/dam/a/70c/f8408501-c120-4b57-a857-a1711722970c_241621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-12-01-2026/event/0A00648EB7E082B0",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Neal S Blaisdell Concert Hall",
-    "address": "777 Ward Avenue",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-8"
-  },
-  {
    "id": "6a9930c9-61b1-4667-b438-784a9df53613",
    "slug": "world-aids-day",
    "title": "World AIDS Day",
@@ -1269,17 +1129,17 @@
    "url": "https://alohacalendar.com/events/world-aids-day"
   },
   {
-   "id": "e13176d4-6a0f-42b5-a48b-5358e75c078d",
-   "slug": "cirque-du-soleil-auana-343",
+   "id": "edb4975d-e5b3-44a6-a28e-5a8e745ab20a",
+   "slug": "cirque-du-soleil-auana-342",
    "title": "Cirque du Soleil: Auana",
    "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
    "startDate": "2026-12-02T00:00:00.000Z",
-   "startTime": "20:00",
+   "startTime": "17:30",
    "endDate": null,
    "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbGe",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbG3",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -1298,7 +1158,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-343"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-342"
   },
   {
    "id": "d4c31c19-5909-42bb-bbc4-8f9f6f2307bb",
@@ -1333,17 +1193,17 @@
    "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-9"
   },
   {
-   "id": "edb4975d-e5b3-44a6-a28e-5a8e745ab20a",
-   "slug": "cirque-du-soleil-auana-342",
+   "id": "e13176d4-6a0f-42b5-a48b-5358e75c078d",
+   "slug": "cirque-du-soleil-auana-343",
    "title": "Cirque du Soleil: Auana",
    "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
    "startDate": "2026-12-02T00:00:00.000Z",
-   "startTime": "17:30",
+   "startTime": "20:00",
    "endDate": null,
    "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbG3",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbGe",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -1362,7 +1222,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-342"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-343"
   },
   {
    "id": "ab1a6304-b97f-4df0-9b76-496799c8c115",
@@ -1441,40 +1301,40 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-345"
   },
   {
-   "id": "53388625-8325-422d-af2f-3ffc9c5e8084",
-   "slug": "keiki-craft-storytime",
-   "title": "Keiki Craft & Storytime",
-   "shortDesc": "Join us at Hui No‘eau for a sweet morning of stories, creativity, and connection! Keiki Craft & Storytime invites our littlest artists and their grown-ups to…",
+   "id": "7a49b26a-3f3c-4674-a2f8-3c687aceae51",
+   "slug": "ha-breath-of-life-evening-show-2026-12-03",
+   "title": "HA: Breath of Life Evening Show",
+   "shortDesc": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
    "startDate": "2026-12-03T00:00:00.000Z",
-   "startTime": "10:00",
+   "startTime": "19:30",
    "endDate": null,
-   "imageUrl": "https://images.squarespace-cdn.com/content/v1/56c3f136d210b875efe78766/1791936960040-BPJXWWWBJNRWGHN7BDO3/KCAST-+FLYER+%281%29.png",
+   "imageUrl": "https://www.polynesia.com/globalassets/ha-breath-of-life-fire-exhibition.jpeg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.huinoeau.com/art-events/2025/8/hui-holidays-2026-sa84y-h2nhp-8pzaa-p6jg6",
+   "ticketUrl": "https://www.polynesia.com/packages",
    "priceMin": null,
    "priceMax": null,
-   "priceNote": null,
+   "priceNote": "Included with evening packages",
    "island": {
-    "slug": "maui",
-    "name": "Maui"
+    "slug": "oahu",
+    "name": "Oahu"
    },
    "location": {
-    "name": "Hui Noʻeau Visual Arts Center",
-    "address": "2841 Baldwin Ave",
-    "city": "Makawao"
+    "name": "Polynesian Cultural Center",
+    "address": "55-370 Kamehameha Hwy",
+    "city": "Laie"
    },
    "categories": [
     {
-     "slug": "family",
-     "name": "Family & Keiki"
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
     },
     {
      "slug": "arts",
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/keiki-craft-storytime"
+   "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-12-03"
   },
   {
    "id": "1b493478-6cb9-4997-b0b1-1f50e5c2ad75",
@@ -1517,104 +1377,40 @@
    "url": "https://alohacalendar.com/events/hui-holidays-2026-kaluanui-night-market"
   },
   {
-   "id": "798e396f-3caa-40e1-8e6c-2576f3754ff8",
-   "slug": "the-book-of-mormon-touring-10",
-   "title": "The Book of Mormon (Touring)",
-   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "id": "53388625-8325-422d-af2f-3ffc9c5e8084",
+   "slug": "keiki-craft-storytime",
+   "title": "Keiki Craft & Storytime",
+   "shortDesc": "Join us at Hui No‘eau for a sweet morning of stories, creativity, and connection! Keiki Craft & Storytime invites our littlest artists and their grown-ups to…",
    "startDate": "2026-12-03T00:00:00.000Z",
-   "startTime": "19:30",
+   "startTime": "10:00",
    "endDate": null,
-   "imageUrl": "https://s1.ticketm.net/dam/a/70c/f8408501-c120-4b57-a857-a1711722970c_241621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "imageUrl": "https://images.squarespace-cdn.com/content/v1/56c3f136d210b875efe78766/1791936960040-BPJXWWWBJNRWGHN7BDO3/KCAST-+FLYER+%281%29.png",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-12-03-2026/event/0A00648EB7E882C2",
+   "ticketUrl": "https://www.huinoeau.com/art-events/2025/8/hui-holidays-2026-sa84y-h2nhp-8pzaa-p6jg6",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
    "island": {
-    "slug": "oahu",
-    "name": "Oahu"
+    "slug": "maui",
+    "name": "Maui"
    },
    "location": {
-    "name": "Neal S Blaisdell Concert Hall",
-    "address": "777 Ward Avenue",
-    "city": "Honolulu"
+    "name": "Hui Noʻeau Visual Arts Center",
+    "address": "2841 Baldwin Ave",
+    "city": "Makawao"
    },
    "categories": [
     {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-10"
-  },
-  {
-   "id": "7a49b26a-3f3c-4674-a2f8-3c687aceae51",
-   "slug": "ha-breath-of-life-evening-show-2026-12-03",
-   "title": "HA: Breath of Life Evening Show",
-   "shortDesc": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
-   "startDate": "2026-12-03T00:00:00.000Z",
-   "startTime": "19:30",
-   "endDate": null,
-   "imageUrl": "https://www.polynesia.com/globalassets/ha-breath-of-life-fire-exhibition.jpeg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.polynesia.com/packages",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": "Included with evening packages",
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Polynesian Cultural Center",
-    "address": "55-370 Kamehameha Hwy",
-    "city": "Laie"
-   },
-   "categories": [
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
+     "slug": "family",
+     "name": "Family & Keiki"
     },
     {
      "slug": "arts",
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-12-03"
-  },
-  {
-   "id": "cc9daaf1-0914-488e-bf7c-c88d8037f864",
-   "slug": "cirque-du-soleil-auana-344",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-03T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jb14",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-344"
+   "url": "https://alohacalendar.com/events/keiki-craft-storytime"
   },
   {
    "id": "773c4ad8-543d-4e72-8aa6-71c2d66cec1e",
@@ -1657,6 +1453,70 @@
    "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-12-03"
   },
   {
+   "id": "798e396f-3caa-40e1-8e6c-2576f3754ff8",
+   "slug": "the-book-of-mormon-touring-10",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
+   "startDate": "2026-12-03T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "imageUrl": "https://s1.ticketm.net/dam/a/70c/f8408501-c120-4b57-a857-a1711722970c_241621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-12-03-2026/event/0A00648EB7E882C2",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-10"
+  },
+  {
+   "id": "cc9daaf1-0914-488e-bf7c-c88d8037f864",
+   "slug": "cirque-du-soleil-auana-344",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-03T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jb14",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-344"
+  },
+  {
    "id": "5da1cd05-d566-4358-b5bf-bd57537836af",
    "slug": "kauai-museum-1st-thursday-courtyard-market-2026-12-03",
    "title": "Kauai Museum 1st Thursday Courtyard Market",
@@ -1695,6 +1555,86 @@
     }
    ],
    "url": "https://alohacalendar.com/events/kauai-museum-1st-thursday-courtyard-market-2026-12-03"
+  },
+  {
+   "id": "19f6f80b-7098-492c-83b2-46c4483c92b9",
+   "slug": "makalii-rising",
+   "title": "Makali’i Rising",
+   "shortDesc": "Featuring shadow puppetry and original music, this first moʻolelo of The Makahiki Trilogy weaves together humor, tenderness, and a little bit of stardust,…",
+   "startDate": "2026-12-04T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "imageUrl": "https://proartsmaui.org/wp-content/uploads/2026/09/Makahiki-square-rev-e1795643703707.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://proartsmaui.org/event/makahiki-dec-4-2026/",
+   "priceMin": 21.2,
+   "priceMax": 42.4,
+   "priceNote": null,
+   "island": {
+    "slug": "maui",
+    "name": "Maui"
+   },
+   "location": {
+    "name": "ProArts Playhouse",
+    "address": "1280 South Kihei Road",
+    "city": "Kihei"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/makalii-rising"
+  },
+  {
+   "id": "47f49078-2d7c-461f-b070-4ba082681448",
+   "slug": "huki-canoe-show-at-polynesian-cultural-center-2026-12-04",
+   "title": "HUKI: Canoe Show at Polynesian Cultural Center",
+   "shortDesc": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
+   "startDate": "2026-12-04T00:00:00.000Z",
+   "startTime": "12:40",
+   "endDate": null,
+   "imageUrl": "https://www.polynesia.com/globalassets/huki-hukilau.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.polynesia.com/packages",
+   "priceMin": 94.95,
+   "priceMax": null,
+   "priceNote": "Included with admission from $94.95",
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Polynesian Cultural Center",
+    "address": "55-370 Kamehameha Hwy",
+    "city": "Laie"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-12-04"
   },
   {
    "id": "6b2d93a6-e6eb-4c1e-a7a0-f39aba57305b",
@@ -1765,44 +1705,68 @@
    "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-12-04"
   },
   {
-   "id": "19f6f80b-7098-492c-83b2-46c4483c92b9",
-   "slug": "makalii-rising",
-   "title": "Makali’i Rising",
-   "shortDesc": "Featuring shadow puppetry and original music, this first moʻolelo of The Makahiki Trilogy weaves together humor, tenderness, and a little bit of stardust,…",
+   "id": "c73aeb12-80be-4d8c-8c17-b3e52b21c333",
+   "slug": "the-book-of-mormon-touring-11",
+   "title": "The Book of Mormon (Touring)",
+   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
    "startDate": "2026-12-04T00:00:00.000Z",
    "startTime": "19:30",
    "endDate": null,
-   "imageUrl": "https://proartsmaui.org/wp-content/uploads/2026/09/Makahiki-square-rev-e1795643703707.jpg",
+   "imageUrl": "https://s1.ticketm.net/dam/a/70c/f8408501-c120-4b57-a857-a1711722970c_241621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://proartsmaui.org/event/makahiki-dec-4-2026/",
-   "priceMin": 21.2,
-   "priceMax": 42.4,
+   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-12-04-2026/event/0A00648EB7EC82CA",
+   "priceMin": null,
+   "priceMax": null,
    "priceNote": null,
    "island": {
-    "slug": "maui",
-    "name": "Maui"
+    "slug": "oahu",
+    "name": "Oahu"
    },
    "location": {
-    "name": "ProArts Playhouse",
-    "address": "1280 South Kihei Road",
-    "city": "Kihei"
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
    },
    "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
-    },
     {
      "slug": "arts",
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/makalii-rising"
+   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-11"
+  },
+  {
+   "id": "8b208d75-338b-4146-8223-27f6e2b7d4e4",
+   "slug": "cirque-du-soleil-auana-347",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-04T00:00:00.000Z",
+   "startTime": "20:00",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbGa",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-347"
   },
   {
    "id": "74f50878-6c1a-4220-b30f-cceb16ffe1e0",
@@ -1843,110 +1807,6 @@
     }
    ],
    "url": "https://alohacalendar.com/events/aloha-christmas-lobby-party-at-romer-house-waikiki"
-  },
-  {
-   "id": "c73aeb12-80be-4d8c-8c17-b3e52b21c333",
-   "slug": "the-book-of-mormon-touring-11",
-   "title": "The Book of Mormon (Touring)",
-   "shortDesc": "All who enter must have a ticket. Ages under 4 will not be admitted. There is no elevator access to the balcony seati...",
-   "startDate": "2026-12-04T00:00:00.000Z",
-   "startTime": "19:30",
-   "endDate": null,
-   "imageUrl": "https://s1.ticketm.net/dam/a/70c/f8408501-c120-4b57-a857-a1711722970c_241621_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/the-book-of-mormon-touring-honolulu-hawaii-12-04-2026/event/0A00648EB7EC82CA",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Neal S Blaisdell Concert Hall",
-    "address": "777 Ward Avenue",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-11"
-  },
-  {
-   "id": "47f49078-2d7c-461f-b070-4ba082681448",
-   "slug": "huki-canoe-show-at-polynesian-cultural-center-2026-12-04",
-   "title": "HUKI: Canoe Show at Polynesian Cultural Center",
-   "shortDesc": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
-   "startDate": "2026-12-04T00:00:00.000Z",
-   "startTime": "12:40",
-   "endDate": null,
-   "imageUrl": "https://www.polynesia.com/globalassets/huki-hukilau.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.polynesia.com/packages",
-   "priceMin": 94.95,
-   "priceMax": null,
-   "priceNote": "Included with admission from $94.95",
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Polynesian Cultural Center",
-    "address": "55-370 Kamehameha Hwy",
-    "city": "Laie"
-   },
-   "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-12-04"
-  },
-  {
-   "id": "8b208d75-338b-4146-8223-27f6e2b7d4e4",
-   "slug": "cirque-du-soleil-auana-347",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-04T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbGa",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-347"
   },
   {
    "id": "669b137a-70fb-43d7-894b-48a24faa1e4d",
@@ -2061,6 +1921,186 @@
    "url": "https://alohacalendar.com/events/friday-night-funny-tipsy-pig-ii-dec-4th"
   },
   {
+   "id": "5986d917-2161-42f3-ba3f-e7f6fe39988b",
+   "slug": "ha-breath-of-life-evening-show-2026-12-05",
+   "title": "HA: Breath of Life Evening Show",
+   "shortDesc": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
+   "startDate": "2026-12-05T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "imageUrl": "https://www.polynesia.com/globalassets/ha-breath-of-life-fire-exhibition.jpeg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.polynesia.com/packages",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Included with evening packages",
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Polynesian Cultural Center",
+    "address": "55-370 Kamehameha Hwy",
+    "city": "Laie"
+   },
+   "categories": [
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-12-05"
+  },
+  {
+   "id": "b572cb96-40e2-48e9-b51d-1eeba530379d",
+   "slug": "cirque-du-soleil-auana-349",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-05T00:00:00.000Z",
+   "startTime": "20:00",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbFS",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-349"
+  },
+  {
+   "id": "4b94a88c-c2bc-4ebb-bab7-392c2f6d3dbd",
+   "slug": "huki-canoe-show-at-polynesian-cultural-center-2026-12-05",
+   "title": "HUKI: Canoe Show at Polynesian Cultural Center",
+   "shortDesc": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
+   "startDate": "2026-12-05T00:00:00.000Z",
+   "startTime": "12:40",
+   "endDate": null,
+   "imageUrl": "https://www.polynesia.com/globalassets/huki-hukilau.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.polynesia.com/packages",
+   "priceMin": 94.95,
+   "priceMax": null,
+   "priceNote": "Included with admission from $94.95",
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Polynesian Cultural Center",
+    "address": "55-370 Kamehameha Hwy",
+    "city": "Laie"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-12-05"
+  },
+  {
+   "id": "8d00c7df-1e2b-41fd-9c23-ac03aebc76c6",
+   "slug": "makalii-rising-2026-12-05",
+   "title": "Makali’i Rising",
+   "shortDesc": "Featuring shadow puppetry and original music, this first moʻolelo of The Makahiki Trilogy weaves together humor, tenderness, and a little bit of stardust,…",
+   "startDate": "2026-12-05T00:00:00.000Z",
+   "startTime": "16:00",
+   "endDate": null,
+   "imageUrl": "https://proartsmaui.org/wp-content/uploads/2026/09/Makahiki-square-rev-e1795643703707.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://proartsmaui.org/event/makahiki-dec-5-2026-4pm/",
+   "priceMin": 21.2,
+   "priceMax": 42.4,
+   "priceNote": null,
+   "island": {
+    "slug": "maui",
+    "name": "Maui"
+   },
+   "location": {
+    "name": "ProArts Playhouse",
+    "address": "1280 South Kihei Road",
+    "city": "Kihei"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/makalii-rising-2026-12-05"
+  },
+  {
+   "id": "fd240664-cfd0-4d84-ac49-4c97ac9ec6ee",
+   "slug": "iration-2026-12-05",
+   "title": "IRATION",
+   "shortDesc": "IRATION",
+   "startDate": "2026-12-05T00:00:00.000Z",
+   "startTime": null,
+   "endDate": null,
+   "imageUrl": "https://mauiarts.org/storage/listing_image/mauiarts/8d1cfe16c307eea29229b85edf3bf545df34dd1c.webp",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://mauiarts.org/show-details/iration2026",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "maui",
+    "name": "Maui"
+   },
+   "location": {
+    "name": "Maui Arts & Cultural Center",
+    "address": "One Cameron Way",
+    "city": "Kahului"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/iration-2026-12-05"
+  },
+  {
    "id": "d25f5419-0fcf-42db-97f1-1a261ba9be63",
    "slug": "cirque-du-soleil-auana-348",
    "title": "Cirque du Soleil: Auana",
@@ -2091,6 +2131,78 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-348"
+  },
+  {
+   "id": "182bb97f-8f16-488f-ab97-4be6cc171f21",
+   "slug": "mele-kalikimaka-ei-nei",
+   "title": "MELE KALIKIMAKA, EI NEI",
+   "shortDesc": "Celebrate the holiday season with Hawaiʻi’s premier musical trio! Fresh off winning six major honors at the 2026 Nā Hōkū Hanohano Awards—including Group of…",
+   "startDate": "2026-12-05T00:00:00.000Z",
+   "startTime": null,
+   "endDate": null,
+   "imageUrl": "https://www.hawaiitheatre.com/wp-content/uploads/2026/10/Ei-Nei-4x5-700px.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000Du1I5MAJ",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Hawaii Theatre Center",
+    "address": "1130 Bethel Street",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/mele-kalikimaka-ei-nei"
+  },
+  {
+   "id": "83f29483-7cb9-4136-b5be-2c29a11a9745",
+   "slug": "makalii-rising-2026-12-05-1",
+   "title": "Makali’i Rising",
+   "shortDesc": "Featuring shadow puppetry and original music, this first moʻolelo of The Makahiki Trilogy weaves together humor, tenderness, and a little bit of stardust,…",
+   "startDate": "2026-12-05T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "imageUrl": "https://proartsmaui.org/wp-content/uploads/2026/09/Makahiki-square-rev-e1795643703707.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://proartsmaui.org/event/makahiki-dec-5-2026-730pm/",
+   "priceMin": 21.2,
+   "priceMax": 42.4,
+   "priceNote": null,
+   "island": {
+    "slug": "maui",
+    "name": "Maui"
+   },
+   "location": {
+    "name": "ProArts Playhouse",
+    "address": "1280 South Kihei Road",
+    "city": "Kihei"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/makalii-rising-2026-12-05-1"
   },
   {
    "id": "4b733bb1-f063-4d85-a6f9-6b64174f1504",
@@ -2141,222 +2253,6 @@
    "url": "https://alohacalendar.com/events/the-20th-annual-paradise-studio-tour-2026-12-05"
   },
   {
-   "id": "182bb97f-8f16-488f-ab97-4be6cc171f21",
-   "slug": "mele-kalikimaka-ei-nei",
-   "title": "MELE KALIKIMAKA, EI NEI",
-   "shortDesc": "Celebrate the holiday season with Hawaiʻi’s premier musical trio! Fresh off winning six major honors at the 2026 Nā Hōkū Hanohano Awards—including Group of…",
-   "startDate": "2026-12-05T00:00:00.000Z",
-   "startTime": null,
-   "endDate": null,
-   "imageUrl": "https://www.hawaiitheatre.com/wp-content/uploads/2026/10/Ei-Nei-4x5-700px.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000Du1I5MAJ",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Hawaii Theatre Center",
-    "address": "1130 Bethel Street",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/mele-kalikimaka-ei-nei"
-  },
-  {
-   "id": "b572cb96-40e2-48e9-b51d-1eeba530379d",
-   "slug": "cirque-du-soleil-auana-349",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-05T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbFS",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-349"
-  },
-  {
-   "id": "fd240664-cfd0-4d84-ac49-4c97ac9ec6ee",
-   "slug": "iration-2026-12-05",
-   "title": "IRATION",
-   "shortDesc": "IRATION",
-   "startDate": "2026-12-05T00:00:00.000Z",
-   "startTime": null,
-   "endDate": null,
-   "imageUrl": "https://mauiarts.org/storage/listing_image/mauiarts/8d1cfe16c307eea29229b85edf3bf545df34dd1c.webp",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://mauiarts.org/show-details/iration2026",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "maui",
-    "name": "Maui"
-   },
-   "location": {
-    "name": "Maui Arts & Cultural Center",
-    "address": "One Cameron Way",
-    "city": "Kahului"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/iration-2026-12-05"
-  },
-  {
-   "id": "8d00c7df-1e2b-41fd-9c23-ac03aebc76c6",
-   "slug": "makalii-rising-2026-12-05",
-   "title": "Makali’i Rising",
-   "shortDesc": "Featuring shadow puppetry and original music, this first moʻolelo of The Makahiki Trilogy weaves together humor, tenderness, and a little bit of stardust,…",
-   "startDate": "2026-12-05T00:00:00.000Z",
-   "startTime": "16:00",
-   "endDate": null,
-   "imageUrl": "https://proartsmaui.org/wp-content/uploads/2026/09/Makahiki-square-rev-e1795643703707.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://proartsmaui.org/event/makahiki-dec-5-2026-4pm/",
-   "priceMin": 21.2,
-   "priceMax": 42.4,
-   "priceNote": null,
-   "island": {
-    "slug": "maui",
-    "name": "Maui"
-   },
-   "location": {
-    "name": "ProArts Playhouse",
-    "address": "1280 South Kihei Road",
-    "city": "Kihei"
-   },
-   "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/makalii-rising-2026-12-05"
-  },
-  {
-   "id": "83f29483-7cb9-4136-b5be-2c29a11a9745",
-   "slug": "makalii-rising-2026-12-05-1",
-   "title": "Makali’i Rising",
-   "shortDesc": "Featuring shadow puppetry and original music, this first moʻolelo of The Makahiki Trilogy weaves together humor, tenderness, and a little bit of stardust,…",
-   "startDate": "2026-12-05T00:00:00.000Z",
-   "startTime": "19:30",
-   "endDate": null,
-   "imageUrl": "https://proartsmaui.org/wp-content/uploads/2026/09/Makahiki-square-rev-e1795643703707.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://proartsmaui.org/event/makahiki-dec-5-2026-730pm/",
-   "priceMin": 21.2,
-   "priceMax": 42.4,
-   "priceNote": null,
-   "island": {
-    "slug": "maui",
-    "name": "Maui"
-   },
-   "location": {
-    "name": "ProArts Playhouse",
-    "address": "1280 South Kihei Road",
-    "city": "Kihei"
-   },
-   "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/makalii-rising-2026-12-05-1"
-  },
-  {
-   "id": "4b94a88c-c2bc-4ebb-bab7-392c2f6d3dbd",
-   "slug": "huki-canoe-show-at-polynesian-cultural-center-2026-12-05",
-   "title": "HUKI: Canoe Show at Polynesian Cultural Center",
-   "shortDesc": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
-   "startDate": "2026-12-05T00:00:00.000Z",
-   "startTime": "12:40",
-   "endDate": null,
-   "imageUrl": "https://www.polynesia.com/globalassets/huki-hukilau.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.polynesia.com/packages",
-   "priceMin": 94.95,
-   "priceMax": null,
-   "priceNote": "Included with admission from $94.95",
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Polynesian Cultural Center",
-    "address": "55-370 Kamehameha Hwy",
-    "city": "Laie"
-   },
-   "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-12-05"
-  },
-  {
    "id": "d031a8f7-1d70-496e-b98c-8be2c369f50a",
    "slug": "the-book-of-mormon-touring-12",
    "title": "The Book of Mormon (Touring)",
@@ -2387,42 +2283,6 @@
     }
    ],
    "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-12"
-  },
-  {
-   "id": "5986d917-2161-42f3-ba3f-e7f6fe39988b",
-   "slug": "ha-breath-of-life-evening-show-2026-12-05",
-   "title": "HA: Breath of Life Evening Show",
-   "shortDesc": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
-   "startDate": "2026-12-05T00:00:00.000Z",
-   "startTime": "19:30",
-   "endDate": null,
-   "imageUrl": "https://www.polynesia.com/globalassets/ha-breath-of-life-fire-exhibition.jpeg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.polynesia.com/packages",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": "Included with evening packages",
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Polynesian Cultural Center",
-    "address": "55-370 Kamehameha Hwy",
-    "city": "Laie"
-   },
-   "categories": [
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-12-05"
   },
   {
    "id": "570b6120-d6ef-47ab-b056-368c1b417863",
@@ -2609,6 +2469,102 @@
    "url": "https://alohacalendar.com/events/the-book-of-mormon-touring-14"
   },
   {
+   "id": "4df829f2-c746-4b8d-b950-d17bdcb8f24d",
+   "slug": "cirque-du-soleil-auana-351",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-06T00:00:00.000Z",
+   "startTime": "20:00",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbaN",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-351"
+  },
+  {
+   "id": "05ed3a57-73fe-4957-a5b7-07a5a7436121",
+   "slug": "maui-pops-orchestra-holiday-pops",
+   "title": "MAUI POPS ORCHESTRA - Holiday Pops",
+   "shortDesc": "MAUI POPS ORCHESTRA -  Holiday Pops",
+   "startDate": "2026-12-06T00:00:00.000Z",
+   "startTime": null,
+   "endDate": null,
+   "imageUrl": "https://mauiarts.org/storage/listing_image/mauiarts/3f25fe41d24b3271f6485c37d48bc4254b70ca51.webp",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://mauiarts.org/show-details/maui-pops-orchestra-holiday-pops-2026",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "maui",
+    "name": "Maui"
+   },
+   "location": {
+    "name": "Maui Arts & Cultural Center",
+    "address": "One Cameron Way",
+    "city": "Kahului"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/maui-pops-orchestra-holiday-pops"
+  },
+  {
+   "id": "6364e47e-dedd-41de-9d11-3591bbb4c033",
+   "slug": "masters-of-illusion-up-close-personal",
+   "title": "MASTERS OF ILLUSION – UP CLOSE & PERSONAL",
+   "shortDesc": "Featuring some of the world's best close-up and comedy magicians in an entertaining show for the entire family. It's lively, spontaneous, interactive and,…",
+   "startDate": "2026-12-06T00:00:00.000Z",
+   "startTime": null,
+   "endDate": null,
+   "imageUrl": "https://www.hawaiitheatre.com/wp-content/uploads/2026/10/120626-MOI_4x5_700px.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000EhUyrMAF",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Hawaii Theatre Center",
+    "address": "1130 Bethel Street",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/masters-of-illusion-up-close-personal"
+  },
+  {
    "id": "49a5e122-465d-4378-8db8-8ac992720207",
    "slug": "mochi-mistletoe-christmas-brunch",
    "title": "Mochi & Mistletoe Christmas Brunch",
@@ -2649,100 +2605,80 @@
    "url": "https://alohacalendar.com/events/mochi-mistletoe-christmas-brunch"
   },
   {
-   "id": "6364e47e-dedd-41de-9d11-3591bbb4c033",
-   "slug": "masters-of-illusion-up-close-personal",
-   "title": "MASTERS OF ILLUSION – UP CLOSE & PERSONAL",
-   "shortDesc": "Featuring some of the world's best close-up and comedy magicians in an entertaining show for the entire family. It's lively, spontaneous, interactive and,…",
-   "startDate": "2026-12-06T00:00:00.000Z",
-   "startTime": null,
+   "id": "8bfdcb36-24ae-4359-8c4f-46c7bc2572be",
+   "slug": "ka-piina-o-hklei-a-merry-member-holiday",
+   "title": "Ka Pi'‘ina o Hōkūlei: A Merry Member Holiday",
+   "shortDesc": "Ka Pi‘ina o Hōkūlei: A Merry Member Holiday Monday, December 7 | 4:00 p.m.–7:00 p.m. Celebrate the season ʻImiloa-style",
+   "startDate": "2026-12-07T00:00:00.000Z",
+   "startTime": "16:00",
    "endDate": null,
-   "imageUrl": "https://www.hawaiitheatre.com/wp-content/uploads/2026/10/120626-MOI_4x5_700px.jpg",
+   "imageUrl": "https://images.squarespace-cdn.com/content/v1/5ae7c948d274cb3827a2db21/1795039404866-63VGDLGA76RC4DO7ROQB/Screenshot+2026-11-18+at+12.03.08%E2%80%AFPM.png",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000EhUyrMAF",
+   "ticketUrl": "https://imiloahawaii.org/event-calendar/2026/127/ka-piina-o-hokulei-merry-member-holiday",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
+   "island": {
+    "slug": "big-island",
+    "name": "Big Island"
+   },
+   "location": {
+    "name": "Imiloa Astronomy Center",
+    "address": "600 Imiloa Place",
+    "city": "Hilo"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "concerts",
+     "name": "Concerts & Live Music"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/ka-piina-o-hklei-a-merry-member-holiday"
+  },
+  {
+   "id": "f7b6d0a6-fdd6-4972-8c77-8eaeee481aec",
+   "slug": "ha-breath-of-life-evening-show-2026-12-07",
+   "title": "HA: Breath of Life Evening Show",
+   "shortDesc": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
+   "startDate": "2026-12-07T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "imageUrl": "https://www.polynesia.com/globalassets/ha-breath-of-life-fire-exhibition.jpeg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.polynesia.com/packages",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Included with evening packages",
    "island": {
     "slug": "oahu",
     "name": "Oahu"
    },
    "location": {
-    "name": "Hawaii Theatre Center",
-    "address": "1130 Bethel Street",
-    "city": "Honolulu"
+    "name": "Polynesian Cultural Center",
+    "address": "55-370 Kamehameha Hwy",
+    "city": "Laie"
    },
    "categories": [
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
     {
      "slug": "arts",
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/masters-of-illusion-up-close-personal"
-  },
-  {
-   "id": "05ed3a57-73fe-4957-a5b7-07a5a7436121",
-   "slug": "maui-pops-orchestra-holiday-pops",
-   "title": "MAUI POPS ORCHESTRA - Holiday Pops",
-   "shortDesc": "MAUI POPS ORCHESTRA -  Holiday Pops",
-   "startDate": "2026-12-06T00:00:00.000Z",
-   "startTime": null,
-   "endDate": null,
-   "imageUrl": "https://mauiarts.org/storage/listing_image/mauiarts/3f25fe41d24b3271f6485c37d48bc4254b70ca51.webp",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://mauiarts.org/show-details/maui-pops-orchestra-holiday-pops-2026",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "maui",
-    "name": "Maui"
-   },
-   "location": {
-    "name": "Maui Arts & Cultural Center",
-    "address": "One Cameron Way",
-    "city": "Kahului"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/maui-pops-orchestra-holiday-pops"
-  },
-  {
-   "id": "4df829f2-c746-4b8d-b950-d17bdcb8f24d",
-   "slug": "cirque-du-soleil-auana-351",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-06T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbaN",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-351"
+   "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-12-07"
   },
   {
    "id": "e36891bc-2081-46f2-8e52-18e56cc09d02",
@@ -2783,82 +2719,6 @@
     }
    ],
    "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-12-07"
-  },
-  {
-   "id": "f7b6d0a6-fdd6-4972-8c77-8eaeee481aec",
-   "slug": "ha-breath-of-life-evening-show-2026-12-07",
-   "title": "HA: Breath of Life Evening Show",
-   "shortDesc": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
-   "startDate": "2026-12-07T00:00:00.000Z",
-   "startTime": "19:30",
-   "endDate": null,
-   "imageUrl": "https://www.polynesia.com/globalassets/ha-breath-of-life-fire-exhibition.jpeg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.polynesia.com/packages",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": "Included with evening packages",
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Polynesian Cultural Center",
-    "address": "55-370 Kamehameha Hwy",
-    "city": "Laie"
-   },
-   "categories": [
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-12-07"
-  },
-  {
-   "id": "8bfdcb36-24ae-4359-8c4f-46c7bc2572be",
-   "slug": "ka-piina-o-hklei-a-merry-member-holiday",
-   "title": "Ka Pi'‘ina o Hōkūlei: A Merry Member Holiday",
-   "shortDesc": "Ka Pi‘ina o Hōkūlei: A Merry Member Holiday Monday, December 7 | 4:00 p.m.–7:00 p.m. Celebrate the season ʻImiloa-style",
-   "startDate": "2026-12-07T00:00:00.000Z",
-   "startTime": "16:00",
-   "endDate": null,
-   "imageUrl": "https://images.squarespace-cdn.com/content/v1/5ae7c948d274cb3827a2db21/1795039404866-63VGDLGA76RC4DO7ROQB/Screenshot+2026-11-18+at+12.03.08%E2%80%AFPM.png",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://imiloahawaii.org/event-calendar/2026/127/ka-piina-o-hokulei-merry-member-holiday",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "big-island",
-    "name": "Big Island"
-   },
-   "location": {
-    "name": "Imiloa Astronomy Center",
-    "address": "600 Imiloa Place",
-    "city": "Hilo"
-   },
-   "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "concerts",
-     "name": "Concerts & Live Music"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/ka-piina-o-hklei-a-merry-member-holiday"
   },
   {
    "id": "79bd7034-7d28-47f1-87c0-00fbf3d5a4ea",
@@ -2973,6 +2833,42 @@
    "url": "https://alohacalendar.com/events/kupuna-movie-mornings-its-a-wonderful-life-1946"
   },
   {
+   "id": "dda8ed68-4fff-45a9-a105-4f2eacc76452",
+   "slug": "ha-breath-of-life-evening-show-2026-12-08",
+   "title": "HA: Breath of Life Evening Show",
+   "shortDesc": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
+   "startDate": "2026-12-08T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "imageUrl": "https://www.polynesia.com/globalassets/ha-breath-of-life-fire-exhibition.jpeg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.polynesia.com/packages",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Included with evening packages",
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Polynesian Cultural Center",
+    "address": "55-370 Kamehameha Hwy",
+    "city": "Laie"
+   },
+   "categories": [
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-12-08"
+  },
+  {
    "id": "cb83a58b-4301-4acd-93f9-710da2718710",
    "slug": "huki-canoe-show-at-polynesian-cultural-center-2026-12-08",
    "title": "HUKI: Canoe Show at Polynesian Cultural Center",
@@ -3013,40 +2909,36 @@
    "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-12-08"
   },
   {
-   "id": "dda8ed68-4fff-45a9-a105-4f2eacc76452",
-   "slug": "ha-breath-of-life-evening-show-2026-12-08",
-   "title": "HA: Breath of Life Evening Show",
-   "shortDesc": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
-   "startDate": "2026-12-08T00:00:00.000Z",
-   "startTime": "19:30",
+   "id": "05e9ecf6-b402-407f-83d6-74c8cf295cea",
+   "slug": "cirque-du-soleil-auana-352",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-09T00:00:00.000Z",
+   "startTime": "17:30",
    "endDate": null,
-   "imageUrl": "https://www.polynesia.com/globalassets/ha-breath-of-life-fire-exhibition.jpeg",
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.polynesia.com/packages",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbaa",
    "priceMin": null,
    "priceMax": null,
-   "priceNote": "Included with evening packages",
+   "priceNote": null,
    "island": {
     "slug": "oahu",
     "name": "Oahu"
    },
    "location": {
-    "name": "Polynesian Cultural Center",
-    "address": "55-370 Kamehameha Hwy",
-    "city": "Laie"
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
    },
    "categories": [
-    {
-     "slug": "cultural",
-     "name": "Cultural & Heritage"
-    },
     {
      "slug": "arts",
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-12-08"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-352"
   },
   {
    "id": "e04a3750-cca0-4015-9626-329ed7ddf82e",
@@ -3079,38 +2971,6 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-353"
-  },
-  {
-   "id": "05e9ecf6-b402-407f-83d6-74c8cf295cea",
-   "slug": "cirque-du-soleil-auana-352",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-09T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbaa",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-352"
   },
   {
    "id": "da139f9a-9d6d-4000-9853-d904d6d9158a",
@@ -3189,6 +3049,74 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-355"
   },
   {
+   "id": "79475dad-5c6e-4c86-b0d3-9e3f7075c965",
+   "slug": "keiki-craft-storytime-2026-12-10",
+   "title": "Keiki Craft & Storytime",
+   "shortDesc": "Join us at Hui No‘eau for a sweet morning of stories, creativity, and connection! Keiki Craft & Storytime invites our littlest artists and their grown-ups to…",
+   "startDate": "2026-12-10T00:00:00.000Z",
+   "startTime": "10:00",
+   "endDate": null,
+   "imageUrl": "https://images.squarespace-cdn.com/content/v1/56c3f136d210b875efe78766/1791936960040-BPJXWWWBJNRWGHN7BDO3/KCAST-+FLYER+%281%29.png",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.huinoeau.com/art-events/2025/8/hui-holidays-2026-sa84y-h2nhp-8pzaa-gx3el",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "maui",
+    "name": "Maui"
+   },
+   "location": {
+    "name": "Hui Noʻeau Visual Arts Center",
+    "address": "2841 Baldwin Ave",
+    "city": "Makawao"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/keiki-craft-storytime-2026-12-10"
+  },
+  {
+   "id": "9d35475c-7e7f-41c2-8af2-c794999250f6",
+   "slug": "cirque-du-soleil-auana-354",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-10T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7j9je",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-354"
+  },
+  {
    "id": "d3e46e34-1744-435f-8ffe-750d6545896a",
    "slug": "ha-breath-of-life-evening-show-2026-12-10",
    "title": "HA: Breath of Life Evening Show",
@@ -3223,38 +3151,6 @@
     }
    ],
    "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-12-10"
-  },
-  {
-   "id": "9d35475c-7e7f-41c2-8af2-c794999250f6",
-   "slug": "cirque-du-soleil-auana-354",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-10T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7j9je",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-354"
   },
   {
    "id": "3fa5c7ac-21ea-4ae6-aea5-6d3eca33d6e8",
@@ -3327,42 +3223,6 @@
     }
    ],
    "url": "https://alohacalendar.com/events/debbie-gibsons-winterlicious"
-  },
-  {
-   "id": "79475dad-5c6e-4c86-b0d3-9e3f7075c965",
-   "slug": "keiki-craft-storytime-2026-12-10",
-   "title": "Keiki Craft & Storytime",
-   "shortDesc": "Join us at Hui No‘eau for a sweet morning of stories, creativity, and connection! Keiki Craft & Storytime invites our littlest artists and their grown-ups to…",
-   "startDate": "2026-12-10T00:00:00.000Z",
-   "startTime": "10:00",
-   "endDate": null,
-   "imageUrl": "https://images.squarespace-cdn.com/content/v1/56c3f136d210b875efe78766/1791936960040-BPJXWWWBJNRWGHN7BDO3/KCAST-+FLYER+%281%29.png",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.huinoeau.com/art-events/2025/8/hui-holidays-2026-sa84y-h2nhp-8pzaa-gx3el",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "maui",
-    "name": "Maui"
-   },
-   "location": {
-    "name": "Hui Noʻeau Visual Arts Center",
-    "address": "2841 Baldwin Ave",
-    "city": "Makawao"
-   },
-   "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/keiki-craft-storytime-2026-12-10"
   },
   {
    "id": "892867dc-863a-4f10-bdfd-bd0359f48435",
@@ -3469,17 +3329,57 @@
    "url": "https://alohacalendar.com/events/jiaoying-summers"
   },
   {
-   "id": "47bee26e-cce4-4832-ac08-dc858c98077a",
-   "slug": "cirque-du-soleil-auana-356",
+   "id": "5fd3aca1-9c01-4c98-99f6-86fa1f6655ed",
+   "slug": "huki-canoe-show-at-polynesian-cultural-center-2026-12-11",
+   "title": "HUKI: Canoe Show at Polynesian Cultural Center",
+   "shortDesc": "One-of-a-kind canoe performance on the lagoon featuring live musicians and native performers telling stories from Pacifi",
+   "startDate": "2026-12-11T00:00:00.000Z",
+   "startTime": "12:40",
+   "endDate": null,
+   "imageUrl": "https://www.polynesia.com/globalassets/huki-hukilau.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.polynesia.com/packages",
+   "priceMin": 94.95,
+   "priceMax": null,
+   "priceNote": "Included with admission from $94.95",
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Polynesian Cultural Center",
+    "address": "55-370 Kamehameha Hwy",
+    "city": "Laie"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/huki-canoe-show-at-polynesian-cultural-center-2026-12-11"
+  },
+  {
+   "id": "1dacf812-6b90-461c-b1a5-9b5e721bcee1",
+   "slug": "cirque-du-soleil-auana-357",
    "title": "Cirque du Soleil: Auana",
    "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
    "startDate": "2026-12-11T00:00:00.000Z",
-   "startTime": "17:30",
+   "startTime": "20:00",
    "endDate": null,
    "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbaZ",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbFg",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -3498,7 +3398,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-356"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-357"
   },
   {
    "id": "0ad59453-888d-4c80-aff7-01e9cc424cb4",
@@ -3535,6 +3435,42 @@
     }
    ],
    "url": "https://alohacalendar.com/events/a-roots-school-production-superheroes"
+  },
+  {
+   "id": "2c684408-d387-4736-ac21-c09040408107",
+   "slug": "ha-breath-of-life-evening-show-2026-12-11",
+   "title": "HA: Breath of Life Evening Show",
+   "shortDesc": "Action-packed evening show featuring over 100 Polynesian performers in a story of passion ignited by fire, song, and dan",
+   "startDate": "2026-12-11T00:00:00.000Z",
+   "startTime": "19:30",
+   "endDate": null,
+   "imageUrl": "https://www.polynesia.com/globalassets/ha-breath-of-life-fire-exhibition.jpeg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.polynesia.com/packages",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": "Included with evening packages",
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Polynesian Cultural Center",
+    "address": "55-370 Kamehameha Hwy",
+    "city": "Laie"
+   },
+   "categories": [
+    {
+     "slug": "cultural",
+     "name": "Cultural & Heritage"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/ha-breath-of-life-evening-show-2026-12-11"
   },
   {
    "id": "88be5873-b620-442f-8afc-d868266581bc",
@@ -3577,6 +3513,38 @@
    "url": "https://alohacalendar.com/events/makalii-rising-2026-12-11"
   },
   {
+   "id": "47bee26e-cce4-4832-ac08-dc858c98077a",
+   "slug": "cirque-du-soleil-auana-356",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-11T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbaZ",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-356"
+  },
+  {
    "id": "09ebf6d9-d928-415b-9851-bb5bdfcccdb9",
    "slug": "whose-live-anyway",
    "title": "WHOSE LIVE ANYWAY?",
@@ -3607,38 +3575,6 @@
     }
    ],
    "url": "https://alohacalendar.com/events/whose-live-anyway"
-  },
-  {
-   "id": "1dacf812-6b90-461c-b1a5-9b5e721bcee1",
-   "slug": "cirque-du-soleil-auana-357",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-11T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbFg",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-357"
   },
   {
    "id": "df179ec3-ea87-4271-9ee5-c8897430bdf5",
@@ -3717,53 +3653,17 @@
    "url": "https://alohacalendar.com/events/friday-night-funny-tipsy-pig-ii-dec-11th"
   },
   {
-   "id": "9382bfcf-dd0b-4dcf-a4dd-f4fb3fbab462",
-   "slug": "a-roots-school-production-superheroes-2026-12-12",
-   "title": "A Roots School Production: Superheroes",
-   "shortDesc": "A Roots School Production about a fun-filled theatrical adventure featuring familiar superheroes, unexpected challenges, laugh-out-loud moments, and a…",
+   "id": "a5727a5b-1500-4a24-b13c-62973228263e",
+   "slug": "sacred-hearts-academy-the-nutcracker-2026",
+   "title": "SACRED HEARTS ACADEMY – THE NUTCRACKER 2026",
+   "shortDesc": "Sacred Hearts invites you to experience the magic of the holiday season with our presentation of The Nutcracker at the historic Hawaii Theatre! Let yourself…",
    "startDate": "2026-12-12T00:00:00.000Z",
-   "startTime": "14:00",
+   "startTime": null,
    "endDate": null,
-   "imageUrl": "https://proartsmaui.org/wp-content/uploads/2026/11/Superheroes-Square-V6-1-e1795587405549.jpg",
+   "imageUrl": "https://www.hawaiitheatre.com/wp-content/uploads/2026/11/121226-SHA-Nutcracker_700x.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://proartsmaui.org/event/a-roots-school-production-superheroes-dec-12-2026/",
-   "priceMin": 12.72,
-   "priceMax": 21.2,
-   "priceNote": null,
-   "island": {
-    "slug": "maui",
-    "name": "Maui"
-   },
-   "location": {
-    "name": "ProArts Playhouse",
-    "address": "1280 South Kihei Road",
-    "city": "Kihei"
-   },
-   "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/a-roots-school-production-superheroes-2026-12-12"
-  },
-  {
-   "id": "50520e93-0a06-4229-9875-4b0711d5a647",
-   "slug": "cirque-du-soleil-auana-359",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-12T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jb1b",
+   "ticketUrl": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000FtSuHMAV",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -3772,8 +3672,8 @@
     "name": "Oahu"
    },
    "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
+    "name": "Hawaii Theatre Center",
+    "address": "1130 Bethel Street",
     "city": "Honolulu"
    },
    "categories": [
@@ -3782,7 +3682,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-359"
+   "url": "https://alohacalendar.com/events/sacred-hearts-academy-the-nutcracker-2026"
   },
   {
    "id": "1afc31a9-1383-4025-ab7f-4e42a2eeb729",
@@ -3849,57 +3749,17 @@
    "url": "https://alohacalendar.com/events/jiaoying-summers-2026-12-12"
   },
   {
-   "id": "a7b4746d-b66b-4b08-9d54-6baf96b9a4a6",
-   "slug": "hui-holidays-2026-santas-workshop",
-   "title": "Hui Holidays 2026: Santa's Workshop",
-   "shortDesc": "Bring the whole family to the Hui for a festive day of holiday fun! Meet Santa from 11:30 AM–1:30 PM and enjoy FREE Keiki art activities, handmade treasures…",
+   "id": "50520e93-0a06-4229-9875-4b0711d5a647",
+   "slug": "cirque-du-soleil-auana-359",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
    "startDate": "2026-12-12T00:00:00.000Z",
-   "startTime": "11:00",
+   "startTime": "20:00",
    "endDate": null,
-   "imageUrl": "https://images.squarespace-cdn.com/content/v1/56c3f136d210b875efe78766/1794027283054-VZHJYABEW5E00V53BJMD/HH26-Gen-FB-Event-Banner+%289%29.png",
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.huinoeau.com/art-events/2026/12/save-the-date-hui-holidays-santa-workshop-2025-77bw3",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "maui",
-    "name": "Maui"
-   },
-   "location": {
-    "name": "Hui Noʻeau Visual Arts Center",
-    "address": "2841 Baldwin Ave",
-    "city": "Makawao"
-   },
-   "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/hui-holidays-2026-santas-workshop"
-  },
-  {
-   "id": "a5727a5b-1500-4a24-b13c-62973228263e",
-   "slug": "sacred-hearts-academy-the-nutcracker-2026",
-   "title": "SACRED HEARTS ACADEMY – THE NUTCRACKER 2026",
-   "shortDesc": "Sacred Hearts invites you to experience the magic of the holiday season with our presentation of The Nutcracker at the historic Hawaii Theatre! Let yourself…",
-   "startDate": "2026-12-12T00:00:00.000Z",
-   "startTime": null,
-   "endDate": null,
-   "imageUrl": "https://www.hawaiitheatre.com/wp-content/uploads/2026/11/121226-SHA-Nutcracker_700x.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000FtSuHMAV",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jb1b",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -3908,8 +3768,8 @@
     "name": "Oahu"
    },
    "location": {
-    "name": "Hawaii Theatre Center",
-    "address": "1130 Bethel Street",
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
     "city": "Honolulu"
    },
    "categories": [
@@ -3918,7 +3778,79 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/sacred-hearts-academy-the-nutcracker-2026"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-359"
+  },
+  {
+   "id": "9382bfcf-dd0b-4dcf-a4dd-f4fb3fbab462",
+   "slug": "a-roots-school-production-superheroes-2026-12-12",
+   "title": "A Roots School Production: Superheroes",
+   "shortDesc": "A Roots School Production about a fun-filled theatrical adventure featuring familiar superheroes, unexpected challenges, laugh-out-loud moments, and a…",
+   "startDate": "2026-12-12T00:00:00.000Z",
+   "startTime": "14:00",
+   "endDate": null,
+   "imageUrl": "https://proartsmaui.org/wp-content/uploads/2026/11/Superheroes-Square-V6-1-e1795587405549.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://proartsmaui.org/event/a-roots-school-production-superheroes-dec-12-2026/",
+   "priceMin": 12.72,
+   "priceMax": 21.2,
+   "priceNote": null,
+   "island": {
+    "slug": "maui",
+    "name": "Maui"
+   },
+   "location": {
+    "name": "ProArts Playhouse",
+    "address": "1280 South Kihei Road",
+    "city": "Kihei"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/a-roots-school-production-superheroes-2026-12-12"
+  },
+  {
+   "id": "7a7d3986-4a64-4fe0-b6d1-84b29fffc62a",
+   "slug": "home-kona-dance-performing-arts",
+   "title": "HOME — Kona Dance & Performing Arts",
+   "shortDesc": "Kona Dance and Performing Arts presents “HOME.” on December 12th at 5pm. Let us take you on a journey deep into the heart of the human experience, as our youth…",
+   "startDate": "2026-12-12T00:00:00.000Z",
+   "startTime": "17:00",
+   "endDate": null,
+   "imageUrl": "https://kahilu.org/wp-content/uploads/2026/11/Kona-Dance-and-Performing-Arts-HOME-Kahilu-Thumbnail-2.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://events.kahilu.org/ChooseSeats/65401",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "big-island",
+    "name": "Big Island"
+   },
+   "location": {
+    "name": "Kahilu Theatre",
+    "address": "67-1186 Lindsey Rd",
+    "city": "Waimea"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/home-kona-dance-performing-arts"
   },
   {
    "id": "90c74301-7256-4e9d-838c-37010c42ca03",
@@ -3961,42 +3893,6 @@
    "url": "https://alohacalendar.com/events/makalii-rising-2026-12-12"
   },
   {
-   "id": "7a7d3986-4a64-4fe0-b6d1-84b29fffc62a",
-   "slug": "home-kona-dance-performing-arts",
-   "title": "HOME — Kona Dance & Performing Arts",
-   "shortDesc": "Kona Dance and Performing Arts presents “HOME.” on December 12th at 5pm. Let us take you on a journey deep into the heart of the human experience, as our youth…",
-   "startDate": "2026-12-12T00:00:00.000Z",
-   "startTime": "17:00",
-   "endDate": null,
-   "imageUrl": "https://kahilu.org/wp-content/uploads/2026/11/Kona-Dance-and-Performing-Arts-HOME-Kahilu-Thumbnail-2.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://events.kahilu.org/ChooseSeats/65401",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "big-island",
-    "name": "Big Island"
-   },
-   "location": {
-    "name": "Kahilu Theatre",
-    "address": "67-1186 Lindsey Rd",
-    "city": "Waimea"
-   },
-   "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/home-kona-dance-performing-arts"
-  },
-  {
    "id": "6672c00e-770f-42ca-a848-106d280b777c",
    "slug": "cirque-du-soleil-auana-358",
    "title": "Cirque du Soleil: Auana",
@@ -4027,6 +3923,46 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-358"
+  },
+  {
+   "id": "a7b4746d-b66b-4b08-9d54-6baf96b9a4a6",
+   "slug": "hui-holidays-2026-santas-workshop",
+   "title": "Hui Holidays 2026: Santa's Workshop",
+   "shortDesc": "Bring the whole family to the Hui for a festive day of holiday fun! Meet Santa from 11:30 AM–1:30 PM and enjoy FREE Keiki art activities, handmade treasures…",
+   "startDate": "2026-12-12T00:00:00.000Z",
+   "startTime": "11:00",
+   "endDate": null,
+   "imageUrl": "https://images.squarespace-cdn.com/content/v1/56c3f136d210b875efe78766/1794027283054-VZHJYABEW5E00V53BJMD/HH26-Gen-FB-Event-Banner+%289%29.png",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.huinoeau.com/art-events/2026/12/save-the-date-hui-holidays-santa-workshop-2025-77bw3",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "maui",
+    "name": "Maui"
+   },
+   "location": {
+    "name": "Hui Noʻeau Visual Arts Center",
+    "address": "2841 Baldwin Ave",
+    "city": "Makawao"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/hui-holidays-2026-santas-workshop"
   },
   {
    "id": "cd240b19-3fe3-4df6-935d-a2c8dc97b20a",
@@ -4081,6 +4017,102 @@
    "url": "https://alohacalendar.com/events/sip-shop"
   },
   {
+   "id": "c420fda9-768f-4907-a2d8-c67a5a49d589",
+   "slug": "jal-honolulu-marathon",
+   "title": "JAL Honolulu Marathon",
+   "shortDesc": "The JAL Honolulu Marathon returns on December 13, 2026, bringing runners from around the world to Oʻahu for a 26.2-mile",
+   "startDate": "2026-12-13T00:00:00.000Z",
+   "startTime": null,
+   "endDate": null,
+   "imageUrl": "https://cdn.sanity.io/images/e5vqq5tb/production/23d31401966b30ce2703270e766cef746a1a4a2b-4320x2880.jpg?w=1600&auto=format",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.honolulumarathon.org/",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": null,
+   "categories": [
+    {
+     "slug": "sports",
+     "name": "Sports & Fitness"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/jal-honolulu-marathon"
+  },
+  {
+   "id": "b4ab6f2d-4d48-487c-bb8d-2d2ad2c34d26",
+   "slug": "cirque-du-soleil-auana-361",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-13T00:00:00.000Z",
+   "startTime": "20:00",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbaM",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-361"
+  },
+  {
+   "id": "bd537762-2988-4d22-9cde-6d2abc0298c2",
+   "slug": "cirque-du-soleil-auana-360",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-13T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbaP",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-360"
+  },
+  {
    "id": "dd495693-13e9-49cb-9238-35b3fb6b7d18",
    "slug": "makalii-rising-2026-12-13",
    "title": "Makali’i Rising",
@@ -4119,38 +4151,6 @@
     }
    ],
    "url": "https://alohacalendar.com/events/makalii-rising-2026-12-13"
-  },
-  {
-   "id": "b4ab6f2d-4d48-487c-bb8d-2d2ad2c34d26",
-   "slug": "cirque-du-soleil-auana-361",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-13T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbaM",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-361"
   },
   {
    "id": "7f20e4d2-d70b-4a08-8099-e585e1e2a751",
@@ -4215,38 +4215,6 @@
     }
    ],
    "url": "https://alohacalendar.com/events/whose-live-anyway-2026"
-  },
-  {
-   "id": "bd537762-2988-4d22-9cde-6d2abc0298c2",
-   "slug": "cirque-du-soleil-auana-360",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-13T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbaP",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-360"
   },
   {
    "id": "819507b3-f565-4b6a-99e7-8fab4742ee34",
@@ -4409,38 +4377,6 @@
    "url": "https://alohacalendar.com/events/jake-shimabukuros-holidays-in-hawaii-2026-12-15"
   },
   {
-   "id": "2c0f4628-c973-4ecc-ae73-36e5604ef2d9",
-   "slug": "cirque-du-soleil-auana-362",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-16T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7j9j3",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-362"
-  },
-  {
    "id": "da86c593-f643-433b-a8e4-7d0a075dcd0a",
    "slug": "cirque-du-soleil-auana-363",
    "title": "Cirque du Soleil: Auana",
@@ -4471,6 +4407,38 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-363"
+  },
+  {
+   "id": "2c0f4628-c973-4ecc-ae73-36e5604ef2d9",
+   "slug": "cirque-du-soleil-auana-362",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-16T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7j9j3",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-362"
   },
   {
    "id": "b425bdef-d0e4-45d4-89fb-696e359c0572",
@@ -4549,6 +4517,38 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-365"
   },
   {
+   "id": "d8fd05a0-1411-4544-90ae-e8480faf619f",
+   "slug": "cirque-du-soleil-auana-364",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-17T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbGA",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-364"
+  },
+  {
    "id": "f10cf25c-a54c-42df-b66d-bee517ab02d8",
    "slug": "keiki-craft-storytime-2026-12-17",
    "title": "Keiki Craft & Storytime",
@@ -4585,17 +4585,17 @@
    "url": "https://alohacalendar.com/events/keiki-craft-storytime-2026-12-17"
   },
   {
-   "id": "d8fd05a0-1411-4544-90ae-e8480faf619f",
-   "slug": "cirque-du-soleil-auana-364",
+   "id": "2b4b8761-117e-4e5a-8b20-8982f7fc9ff2",
+   "slug": "cirque-du-soleil-auana-367",
    "title": "Cirque du Soleil: Auana",
    "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-17T00:00:00.000Z",
-   "startTime": "17:30",
+   "startDate": "2026-12-18T00:00:00.000Z",
+   "startTime": "20:00",
    "endDate": null,
    "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbGA",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7j9ja",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -4614,7 +4614,39 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-364"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-367"
+  },
+  {
+   "id": "614fee08-70d0-482a-ba71-0bc347de583a",
+   "slug": "cirque-du-soleil-auana-366",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-18T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbFp",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-366"
   },
   {
    "id": "6f40503d-8443-45f3-973a-eaef4ffa7bb8",
@@ -4651,70 +4683,6 @@
     }
    ],
    "url": "https://alohacalendar.com/events/elf-the-musical-jr"
-  },
-  {
-   "id": "614fee08-70d0-482a-ba71-0bc347de583a",
-   "slug": "cirque-du-soleil-auana-366",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-18T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbFp",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-366"
-  },
-  {
-   "id": "2b4b8761-117e-4e5a-8b20-8982f7fc9ff2",
-   "slug": "cirque-du-soleil-auana-367",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-18T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7j9ja",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-367"
   },
   {
    "id": "0eb8561e-578f-4407-ac36-65f6c2a6a14e",
@@ -4825,38 +4793,6 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-369"
   },
   {
-   "id": "1e68d4a1-20e7-41f1-bc77-8c59db6b4422",
-   "slug": "elf-in-concert",
-   "title": "Elf in Concert",
-   "shortDesc": "The Hawaiʻi Symphony Orchestra plays John Debney's score live while the holiday film Elf screens on the big screen at the Blaisdell Concert Hall.",
-   "startDate": "2026-12-19T00:00:00.000Z",
-   "startTime": "19:00",
-   "endDate": null,
-   "imageUrl": "https://s1.ticketm.net/dam/a/81e/3f7537a1-7d5e-4dc6-9483-478f800f881e_SOURCE",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/elf-in-concert-honolulu-hawaii-12-19-2026/event/0A00650EA3B70E7E",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Neal S Blaisdell Concert Hall",
-    "address": "777 Ward Avenue",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/elf-in-concert"
-  },
-  {
    "id": "049caca6-17e3-44da-957a-e3fc3771dfaa",
    "slug": "cirque-du-soleil-auana-368",
    "title": "Cirque du Soleil: Auana",
@@ -4889,6 +4825,38 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-368"
   },
   {
+   "id": "1e68d4a1-20e7-41f1-bc77-8c59db6b4422",
+   "slug": "elf-in-concert",
+   "title": "Elf in Concert",
+   "shortDesc": "The Hawaiʻi Symphony Orchestra plays John Debney's score live while the holiday film Elf screens on the big screen at the Blaisdell Concert Hall.",
+   "startDate": "2026-12-19T00:00:00.000Z",
+   "startTime": "19:00",
+   "endDate": null,
+   "imageUrl": "https://s1.ticketm.net/dam/a/81e/3f7537a1-7d5e-4dc6-9483-478f800f881e_SOURCE",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/elf-in-concert-honolulu-hawaii-12-19-2026/event/0A00650EA3B70E7E",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Neal S Blaisdell Concert Hall",
+    "address": "777 Ward Avenue",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/elf-in-concert"
+  },
+  {
    "id": "c971b127-eef7-4698-86de-6c41327c8c49",
    "slug": "cirque-du-soleil-auana-371",
    "title": "Cirque du Soleil: Auana",
@@ -4919,6 +4887,42 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-371"
+  },
+  {
+   "id": "48a644a0-3c66-48c3-80c0-83214a92a817",
+   "slug": "magic-in-paradise-2026-12-20",
+   "title": "Magic in Paradise",
+   "shortDesc": "Prepare to be dazzled by world-class entertainer and expert in sleight-of-hand magic, Maui’s own David Kuraya.",
+   "startDate": "2026-12-20T00:00:00.000Z",
+   "startTime": "19:00",
+   "endDate": null,
+   "imageUrl": "https://proartsmaui.org/wp-content/uploads/2025/08/proarts-maui-magic-show-e1775872260579.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://proartsmaui.org/event/magic-in-paradise-dec-20-2026/",
+   "priceMin": 21.2,
+   "priceMax": 42.4,
+   "priceNote": null,
+   "island": {
+    "slug": "maui",
+    "name": "Maui"
+   },
+   "location": {
+    "name": "ProArts Playhouse",
+    "address": "1280 South Kihei Road",
+    "city": "Kihei"
+   },
+   "categories": [
+    {
+     "slug": "family",
+     "name": "Family & Keiki"
+    },
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/magic-in-paradise-2026-12-20"
   },
   {
    "id": "f66ca3c0-b283-4609-ae58-f3f89dd1141d",
@@ -4983,42 +4987,6 @@
     }
    ],
    "url": "https://alohacalendar.com/events/elf-in-concert-2026-12-20"
-  },
-  {
-   "id": "48a644a0-3c66-48c3-80c0-83214a92a817",
-   "slug": "magic-in-paradise-2026-12-20",
-   "title": "Magic in Paradise",
-   "shortDesc": "Prepare to be dazzled by world-class entertainer and expert in sleight-of-hand magic, Maui’s own David Kuraya.",
-   "startDate": "2026-12-20T00:00:00.000Z",
-   "startTime": "19:00",
-   "endDate": null,
-   "imageUrl": "https://proartsmaui.org/wp-content/uploads/2025/08/proarts-maui-magic-show-e1775872260579.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://proartsmaui.org/event/magic-in-paradise-dec-20-2026/",
-   "priceMin": 21.2,
-   "priceMax": 42.4,
-   "priceNote": null,
-   "island": {
-    "slug": "maui",
-    "name": "Maui"
-   },
-   "location": {
-    "name": "ProArts Playhouse",
-    "address": "1280 South Kihei Road",
-    "city": "Kihei"
-   },
-   "categories": [
-    {
-     "slug": "family",
-     "name": "Family & Keiki"
-    },
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/magic-in-paradise-2026-12-20"
   },
   {
    "id": "2f5088d5-65e2-4ba3-b7b0-84a9e8fe26e0",
@@ -5093,38 +5061,6 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-373"
   },
   {
-   "id": "d448fec4-e70c-45b2-9b6e-c44b6953efca",
-   "slug": "cirque-du-soleil-auana-372",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-23T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jb1A",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-372"
-  },
-  {
    "id": "662ea287-e873-4f13-8012-0023d65a492b",
    "slug": "the-nutcracker-ballet",
    "title": "The Nutcracker Ballet",
@@ -5159,6 +5095,38 @@
     }
    ],
    "url": "https://alohacalendar.com/events/the-nutcracker-ballet"
+  },
+  {
+   "id": "d448fec4-e70c-45b2-9b6e-c44b6953efca",
+   "slug": "cirque-du-soleil-auana-372",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-23T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jb1A",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-372"
   },
   {
    "id": "b6a3a937-2b15-414b-bacd-9f9e3d95ce48",
@@ -5205,17 +5173,17 @@
    "url": "https://alohacalendar.com/events/makai-music-art-festival-kauai-2026-12-23"
   },
   {
-   "id": "ba9f1782-073b-4892-b74a-c3aeea9c8d7c",
-   "slug": "cirque-du-soleil-auana-375",
+   "id": "3d790040-b9eb-4303-b1f6-fc14484b69e1",
+   "slug": "cirque-du-soleil-auana-374",
    "title": "Cirque du Soleil: Auana",
    "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
    "startDate": "2026-12-24T00:00:00.000Z",
-   "startTime": "20:00",
+   "startTime": "17:30",
    "endDate": null,
    "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbG4",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jb1d",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -5234,7 +5202,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-375"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-374"
   },
   {
    "id": "45eca758-1190-469f-9047-ef44b0a35790",
@@ -5273,17 +5241,17 @@
    "url": "https://alohacalendar.com/events/keiki-craft-storytime-2026-12-24"
   },
   {
-   "id": "3d790040-b9eb-4303-b1f6-fc14484b69e1",
-   "slug": "cirque-du-soleil-auana-374",
+   "id": "ba9f1782-073b-4892-b74a-c3aeea9c8d7c",
+   "slug": "cirque-du-soleil-auana-375",
    "title": "Cirque du Soleil: Auana",
    "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
    "startDate": "2026-12-24T00:00:00.000Z",
-   "startTime": "17:30",
+   "startTime": "20:00",
    "endDate": null,
    "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jb1d",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbG4",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -5302,39 +5270,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-374"
-  },
-  {
-   "id": "008e5b00-73a8-43ac-89b1-77eac90089bc",
-   "slug": "cirque-du-soleil-auana-376",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-25T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jba-",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-376"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-375"
   },
   {
    "id": "3b4cd584-2cfc-4792-ad83-e57da7819904",
@@ -5367,6 +5303,38 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-377"
+  },
+  {
+   "id": "008e5b00-73a8-43ac-89b1-77eac90089bc",
+   "slug": "cirque-du-soleil-auana-376",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-25T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jba-",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-376"
   },
   {
    "id": "a68e2fa8-c260-4e17-a597-206b6c138bdf",
@@ -5405,38 +5373,6 @@
    "url": "https://alohacalendar.com/events/kauai-beach-resort-kauai-made-craft-fair-fridays-2026-12-25"
   },
   {
-   "id": "682a0d59-31ed-4f22-96cd-224afdb2e4f9",
-   "slug": "cirque-du-soleil-auana-379",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2026-12-26T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbax",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-379"
-  },
-  {
    "id": "655a9852-1c2a-44a1-9e44-bb8c4b4013fd",
    "slug": "cirque-du-soleil-auana-378",
    "title": "Cirque du Soleil: Auana",
@@ -5467,6 +5403,38 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-378"
+  },
+  {
+   "id": "682a0d59-31ed-4f22-96cd-224afdb2e4f9",
+   "slug": "cirque-du-soleil-auana-379",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2026-12-26T00:00:00.000Z",
+   "startTime": "20:00",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1A7jbax",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-379"
   },
   {
    "id": "d6e89902-4237-43f2-9a32-d6ad7295b9ba",
@@ -5765,38 +5733,6 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-auana-384"
   },
   {
-   "id": "a36b2f97-1047-4ac2-838d-ce64723d8654",
-   "slug": "cirque-du-soleil",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2027-01-01T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8d",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil"
-  },
-  {
    "id": "01028a49-9310-4053-9fb7-706f4d607e78",
    "slug": "hasan-hates-ronny-ronny-hates-hasan",
    "title": "HASAN HATES RONNY | RONNY HATES HASAN",
@@ -5861,6 +5797,38 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-01"
   },
   {
+   "id": "a36b2f97-1047-4ac2-838d-ce64723d8654",
+   "slug": "cirque-du-soleil",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2027-01-01T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8d",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil"
+  },
+  {
    "id": "e8448f3c-e872-4374-8dab-949a13f42c07",
    "slug": "kauai-beach-resort-kauai-made-craft-fair-fridays-2027-01-01",
    "title": "Kauai Beach Resort Kauai Made Craft Fair Fridays",
@@ -5897,38 +5865,6 @@
    "url": "https://alohacalendar.com/events/kauai-beach-resort-kauai-made-craft-fair-fridays-2027-01-01"
   },
   {
-   "id": "f5a99e0b-1bc2-49f0-b1b1-0a677e24f7aa",
-   "slug": "cirque-du-soleil-2027-01-02-1",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2027-01-02T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8k",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-02-1"
-  },
-  {
    "id": "f5a7cfdc-59da-4a58-9ac1-f06c64587646",
    "slug": "cirque-du-soleil-2027-01-02",
    "title": "Cirque du Soleil: Auana",
@@ -5961,17 +5897,17 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-02"
   },
   {
-   "id": "048fe8e7-ff64-4eab-bb5e-4dc720652bd4",
-   "slug": "cirque-du-soleil-2027-01-03",
+   "id": "f5a99e0b-1bc2-49f0-b1b1-0a677e24f7aa",
+   "slug": "cirque-du-soleil-2027-01-02-1",
    "title": "Cirque du Soleil: Auana",
    "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2027-01-03T00:00:00.000Z",
-   "startTime": "17:30",
+   "startDate": "2027-01-02T00:00:00.000Z",
+   "startTime": "20:00",
    "endDate": null,
    "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee86",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8k",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -5990,7 +5926,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-03"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-02-1"
   },
   {
    "id": "e919e099-a5d8-473c-9682-b40dba798055",
@@ -6023,6 +5959,38 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-03-1"
+  },
+  {
+   "id": "048fe8e7-ff64-4eab-bb5e-4dc720652bd4",
+   "slug": "cirque-du-soleil-2027-01-03",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2027-01-03T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee86",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-03"
   },
   {
    "id": "437a635d-f026-4380-a216-d8d7ff9661f9",
@@ -6365,38 +6333,6 @@
    "url": "https://alohacalendar.com/events/kauai-beach-resort-kauai-made-craft-fair-fridays-2027-01-08"
   },
   {
-   "id": "36136920-4803-4775-aade-c08cc79acc8a",
-   "slug": "cirque-du-soleil-2027-01-09",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2027-01-09T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8p",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-09"
-  },
-  {
    "id": "330b3d06-df4d-4479-8320-f92e4b72ef1e",
    "slug": "77th-annual-narcissus-queen-pageant-2027",
    "title": "77th ANNUAL NARCISSUS QUEEN PAGEANT – 2027",
@@ -6505,17 +6441,17 @@
    "url": "https://alohacalendar.com/events/couplet-honey-honey-moon-moon"
   },
   {
-   "id": "67a8fa08-613d-4472-9b10-8bd3908cd052",
-   "slug": "cirque-du-soleil-2027-01-10-1",
+   "id": "36136920-4803-4775-aade-c08cc79acc8a",
+   "slug": "cirque-du-soleil-2027-01-09",
    "title": "Cirque du Soleil: Auana",
    "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2027-01-10T00:00:00.000Z",
-   "startTime": "20:00",
+   "startDate": "2027-01-09T00:00:00.000Z",
+   "startTime": "17:30",
    "endDate": null,
    "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8b",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8p",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -6534,7 +6470,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-10-1"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-09"
   },
   {
    "id": "7341be9f-2fcc-488c-ab2c-ae8ab5b624d0",
@@ -6599,6 +6535,38 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-10"
+  },
+  {
+   "id": "67a8fa08-613d-4472-9b10-8bd3908cd052",
+   "slug": "cirque-du-soleil-2027-01-10-1",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2027-01-10T00:00:00.000Z",
+   "startTime": "20:00",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8b",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-10-1"
   },
   {
    "id": "3c01e3f7-7a73-4e8e-9b5b-dc707352302a",
@@ -6829,38 +6797,6 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-13"
   },
   {
-   "id": "e994ce5e-1189-488a-a8f9-70353f0a8dba",
-   "slug": "cirque-du-soleil-2027-01-14",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2027-01-14T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8-",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-14"
-  },
-  {
    "id": "0d01f8b3-f7cb-4f22-a802-f475baa7d0df",
    "slug": "cirque-du-soleil-2027-01-14-1",
    "title": "Cirque du Soleil: Auana",
@@ -6893,17 +6829,17 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-14-1"
   },
   {
-   "id": "ddb22144-557a-4b68-90ec-9138abad386b",
-   "slug": "john-cameron-mitchell-hedwig-25th-anniversary-movie-tour-2027-01-15",
-   "title": "JOHN CAMERON MITCHELL – HEDWIG 25TH ANNIVERSARY MOVIE TOUR",
-   "shortDesc": "Celebrate the 25th anniversary of the critically acclaimed, award-winning rock movie musical Hedwig and the Angry Inch with an unforgettable evening…",
-   "startDate": "2027-01-15T00:00:00.000Z",
-   "startTime": "19:00",
+   "id": "e994ce5e-1189-488a-a8f9-70353f0a8dba",
+   "slug": "cirque-du-soleil-2027-01-14",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2027-01-14T00:00:00.000Z",
+   "startTime": "17:30",
    "endDate": null,
-   "imageUrl": "https://www.hawaiitheatre.com/wp-content/uploads/2026/09/Hedwig25_1080x1350_700x.jpg",
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000E8TBFMA3",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8-",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -6912,8 +6848,8 @@
     "name": "Oahu"
    },
    "location": {
-    "name": "Hawaii Theatre Center",
-    "address": "1130 Bethel Street",
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
     "city": "Honolulu"
    },
    "categories": [
@@ -6922,7 +6858,39 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/john-cameron-mitchell-hedwig-25th-anniversary-movie-tour-2027-01-15"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-14"
+  },
+  {
+   "id": "a6df8b52-d158-4f60-8aa3-c17e28d1c352",
+   "slug": "cirque-du-soleil-2027-01-15",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2027-01-15T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8N",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-15"
   },
   {
    "id": "fcabe393-6cae-400f-89f1-9894e319743b",
@@ -6957,17 +6925,17 @@
    "url": "https://alohacalendar.com/events/club-kahilu-dance-night-afro-fusion-night-w-fara-tolno"
   },
   {
-   "id": "21ff7001-6b15-407b-a7d4-d42d69d6880a",
-   "slug": "cirque-du-soleil-2027-01-15-1",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "id": "ddb22144-557a-4b68-90ec-9138abad386b",
+   "slug": "john-cameron-mitchell-hedwig-25th-anniversary-movie-tour-2027-01-15",
+   "title": "JOHN CAMERON MITCHELL – HEDWIG 25TH ANNIVERSARY MOVIE TOUR",
+   "shortDesc": "Celebrate the 25th anniversary of the critically acclaimed, award-winning rock movie musical Hedwig and the Angry Inch with an unforgettable evening…",
    "startDate": "2027-01-15T00:00:00.000Z",
-   "startTime": "20:00",
+   "startTime": "19:00",
    "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "imageUrl": "https://www.hawaiitheatre.com/wp-content/uploads/2026/09/Hedwig25_1080x1350_700x.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee80",
+   "ticketUrl": "https://hawaiitheatre.my.salesforce-sites.com/ticket/#/events/a0SUl00000E8TBFMA3",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -6976,8 +6944,8 @@
     "name": "Oahu"
    },
    "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
+    "name": "Hawaii Theatre Center",
+    "address": "1130 Bethel Street",
     "city": "Honolulu"
    },
    "categories": [
@@ -6986,7 +6954,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-15-1"
+   "url": "https://alohacalendar.com/events/john-cameron-mitchell-hedwig-25th-anniversary-movie-tour-2027-01-15"
   },
   {
    "id": "e8ba90fd-f8d5-4427-b105-f1b2e33cdb16",
@@ -7021,17 +6989,17 @@
    "url": "https://alohacalendar.com/events/2027-annual-juried-exhibition"
   },
   {
-   "id": "a6df8b52-d158-4f60-8aa3-c17e28d1c352",
-   "slug": "cirque-du-soleil-2027-01-15",
+   "id": "21ff7001-6b15-407b-a7d4-d42d69d6880a",
+   "slug": "cirque-du-soleil-2027-01-15-1",
    "title": "Cirque du Soleil: Auana",
    "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
    "startDate": "2027-01-15T00:00:00.000Z",
-   "startTime": "17:30",
+   "startTime": "20:00",
    "endDate": null,
    "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8N",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee80",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -7050,7 +7018,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-15"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-15-1"
   },
   {
    "id": "8d55ec9f-66a7-4148-abb2-cc9271536cd7",
@@ -7153,38 +7121,6 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-16"
   },
   {
-   "id": "39763bdf-9a0c-4cd1-9b76-364100d35c5d",
-   "slug": "cirque-du-soleil-2027-01-17",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2027-01-17T00:00:00.000Z",
-   "startTime": "17:30",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8E",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-17"
-  },
-  {
    "id": "4a712efe-759d-4c16-b96c-5da9fb076cd0",
    "slug": "cirque-du-soleil-2027-01-17-1",
    "title": "Cirque du Soleil: Auana",
@@ -7215,6 +7151,38 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-17-1"
+  },
+  {
+   "id": "39763bdf-9a0c-4cd1-9b76-364100d35c5d",
+   "slug": "cirque-du-soleil-2027-01-17",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2027-01-17T00:00:00.000Z",
+   "startTime": "17:30",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8E",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-17"
   },
   {
    "id": "7528590f-fd09-4fdc-a729-e8c916cae620",
@@ -7421,38 +7389,6 @@
    "url": "https://alohacalendar.com/events/not-one-batu-by-hannah-ii-epstein"
   },
   {
-   "id": "37b502ff-a42c-400a-88b9-0770db52951c",
-   "slug": "cirque-du-soleil-2027-01-22-1",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2027-01-22T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8g",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-22-1"
-  },
-  {
    "id": "9235211e-f78d-4e71-9a5f-2ee629befae9",
    "slug": "cirque-du-soleil-2027-01-22",
    "title": "Cirque du Soleil: Auana",
@@ -7483,6 +7419,38 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-22"
+  },
+  {
+   "id": "37b502ff-a42c-400a-88b9-0770db52951c",
+   "slug": "cirque-du-soleil-2027-01-22-1",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2027-01-22T00:00:00.000Z",
+   "startTime": "20:00",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8g",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-22-1"
   },
   {
    "id": "345d739d-cc5f-47cb-ab83-045efcdf80a2",
@@ -7589,38 +7557,6 @@
    "url": "https://alohacalendar.com/events/pakall-sweet-by-hannah-ii-epstein"
   },
   {
-   "id": "2c0aba54-7fb3-4493-a047-2a25120e40d7",
-   "slug": "cirque-du-soleil-2027-01-23-1",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2027-01-23T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8M",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-23-1"
-  },
-  {
    "id": "2186fdd5-1545-4e9e-abad-1f63d6e71242",
    "slug": "cirque-du-soleil-2027-01-23",
    "title": "Cirque du Soleil: Auana",
@@ -7651,6 +7587,38 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-23"
+  },
+  {
+   "id": "2c0aba54-7fb3-4493-a047-2a25120e40d7",
+   "slug": "cirque-du-soleil-2027-01-23-1",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2027-01-23T00:00:00.000Z",
+   "startTime": "20:00",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8M",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-23-1"
   },
   {
    "id": "092dff37-e9f0-4e78-8feb-396ecd4c9b6b",
@@ -7725,17 +7693,17 @@
    "url": "https://alohacalendar.com/events/aloha-fry-day-by-hannah-ii-epstein"
   },
   {
-   "id": "2b4ffe29-0509-4220-9151-879f92ec924b",
-   "slug": "cirque-du-soleil-2027-01-24",
+   "id": "d6de5998-15d5-46b8-b360-41ad5fb97d0b",
+   "slug": "cirque-du-soleil-2027-01-24-1",
    "title": "Cirque du Soleil: Auana",
    "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
    "startDate": "2027-01-24T00:00:00.000Z",
-   "startTime": "17:30",
+   "startTime": "20:00",
    "endDate": null,
    "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8z",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8y",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -7754,7 +7722,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-24"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-24-1"
   },
   {
    "id": "2a1e6ed1-9b51-43bb-8610-c49eb0327f95",
@@ -7789,17 +7757,17 @@
    "url": "https://alohacalendar.com/events/rumpelstiltskin-panto-live"
   },
   {
-   "id": "d6de5998-15d5-46b8-b360-41ad5fb97d0b",
-   "slug": "cirque-du-soleil-2027-01-24-1",
+   "id": "2b4ffe29-0509-4220-9151-879f92ec924b",
+   "slug": "cirque-du-soleil-2027-01-24",
    "title": "Cirque du Soleil: Auana",
    "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
    "startDate": "2027-01-24T00:00:00.000Z",
-   "startTime": "20:00",
+   "startTime": "17:30",
    "endDate": null,
    "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
    "isFree": false,
    "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8y",
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAee8z",
    "priceMin": null,
    "priceMax": null,
    "priceNote": null,
@@ -7818,7 +7786,7 @@
      "name": "Arts & Gallery"
     }
    ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-24-1"
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-24"
   },
   {
    "id": "0d7773b9-9162-4092-af00-c06d9eed2ae9",
@@ -7989,38 +7957,6 @@
    "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-28"
   },
   {
-   "id": "807e269e-666f-4100-b33e-cfe8274fb850",
-   "slug": "cirque-du-soleil-2027-01-29-1",
-   "title": "Cirque du Soleil: Auana",
-   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
-   "startDate": "2027-01-29T00:00:00.000Z",
-   "startTime": "20:00",
-   "endDate": null,
-   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
-   "isFree": false,
-   "isFeatured": false,
-   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeoA",
-   "priceMin": null,
-   "priceMax": null,
-   "priceNote": null,
-   "island": {
-    "slug": "oahu",
-    "name": "Oahu"
-   },
-   "location": {
-    "name": "Outrigger Waikiki Beachcomber Hotel",
-    "address": "2300 Kalakaua Ave",
-    "city": "Honolulu"
-   },
-   "categories": [
-    {
-     "slug": "arts",
-     "name": "Arts & Gallery"
-    }
-   ],
-   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-29-1"
-  },
-  {
    "id": "1b1759c7-3e01-40c8-9e7f-83bd9701f19d",
    "slug": "cirque-du-soleil-2027-01-29",
    "title": "Cirque du Soleil: Auana",
@@ -8051,6 +7987,38 @@
     }
    ],
    "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-29"
+  },
+  {
+   "id": "807e269e-666f-4100-b33e-cfe8274fb850",
+   "slug": "cirque-du-soleil-2027-01-29-1",
+   "title": "Cirque du Soleil: Auana",
+   "shortDesc": "Cirque du Soleil's first resident show in Hawaiʻi: acrobatics, aerial acts, hula and live music in Waikīkī. About 80 minutes, Wednesday to Sunday.",
+   "startDate": "2027-01-29T00:00:00.000Z",
+   "startTime": "20:00",
+   "endDate": null,
+   "imageUrl": "https://www.cirquedusoleil.com/-/media/cds/images/shows/auana/revamp_2024/sp/thumbnails/july2025/auana-1200x630.jpg",
+   "isFree": false,
+   "isFeatured": false,
+   "ticketUrl": "https://www.ticketmaster.com/event/Z7r9jZ1AAeeoA",
+   "priceMin": null,
+   "priceMax": null,
+   "priceNote": null,
+   "island": {
+    "slug": "oahu",
+    "name": "Oahu"
+   },
+   "location": {
+    "name": "Outrigger Waikiki Beachcomber Hotel",
+    "address": "2300 Kalakaua Ave",
+    "city": "Honolulu"
+   },
+   "categories": [
+    {
+     "slug": "arts",
+     "name": "Arts & Gallery"
+    }
+   ],
+   "url": "https://alohacalendar.com/events/cirque-du-soleil-2027-01-29-1"
   },
   {
    "id": "3388b1ca-cb02-4645-a1fc-a5129d7a4985",

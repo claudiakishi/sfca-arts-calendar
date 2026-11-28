@@ -1,84 +1,6 @@
 {
  "events": [
   {
-   "id": 284904,
-   "url": "https://www.librarieshawaii.org/event/west-hawaii-dance-theatre-presents-nutcracker-sweets/",
-   "title": "West Hawaii Dance Theatre Presents: Nutcracker Sweets",
-   "description": "<p>A sweet preview of the Nutcracker Ballet, based on E.T.A. Hoffman’s story The Nutcracker and the Mouse King—performed to the melodic music of Pyotr Ilyich Tchaikovsky, which will be  performed at the Aloha Threatre and Kahilu Theatre this December. Students from West Hawaii Dance Theatre will delight with this classic holiday story as we head into the holiday season. This free program is for all ages. Young children must be accompanied by an adult caregiver.</p>\n<p><em><span data-contrast=\"auto\" xml:lang=\"EN-US\" lang=\"EN-US\" class=\"TextRun SCXW135626885 BCX0\"><span class=\"NormalTextRun SCXW135626885 BCX0\">Anyone who requires an auxiliary aid or service for effective communication,</span><span class=\"NormalTextRun SCXW135626885 BCX0\"> </span><span class=\"NormalTextRun SCXW135626885 BCX0\">or a modification of policies or procedures to </span><span class=\"NormalTextRun SCXW135626885 BCX0\">participate</span><span class=\"NormalTextRun SCXW135626885 BCX0\"> in a program, service, or activity should contact library staff as soon as possible. Advance requests </span><span class=\"NormalTextRun SCXW135626885 BCX0\">48 hours</span><span class=\"NormalTextRun SCXW135626885 BCX0\"> or more before the event are </span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW135626885 BCX0\">encouraged, but</span><span class=\"NormalTextRun SCXW135626885 BCX0\"> not </span><span class=\"NormalTextRun SCXW135626885 BCX0\">required</span><span class=\"NormalTextRun SCXW135626885 BCX0\">.</span><span class=\"NormalTextRun SCXW135626885 BCX0\"> </span><span class=\"NormalTextRun ContextualSpellingAndGrammarErrorV2Themed SCXW135626885 BCX0\">Program</span><span class=\"NormalTextRun SCXW135626885 BCX0\"> schedule is subject to change.</span></span><span class=\"EOP Selected SCXW135626885 BCX0\" data-ccp-props=\"{}\"> </span></em></p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-27 13:30:00",
-   "end_date": "2026-11-27 14:00:00",
-   "utc_start_date": "2026-11-27 23:30:00",
-   "utc_end_date": "2026-11-28 00:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "community",
-     "name": "Community"
-    },
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Kealakekua",
-    "city": "Kealakekua",
-    "url": "https://www.librarieshawaii.org/branch/kealakekua-public-library/"
-   }
-  },
-  {
-   "id": 10037363,
-   "url": "https://www.librarieshawaii.org/event/mahjong_players_club_2025-2025-08-22/2026-11-27/",
-   "title": "Mahjong Players Club",
-   "description": "<p>Join the &#8220;club&#8221; and learn how to play this game from 19th century China. Players of all skill levels are welcome!</p>\n<p>Event will not be held on State holidays.</p>\n<p><em>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. Program schedule is subject to change.</em></p>\n<p>&nbsp;</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-11-27 14:30:00",
-   "end_date": "2026-11-27 16:00:00",
-   "utc_start_date": "2026-11-28 00:30:00",
-   "utc_end_date": "2026-11-28 02:00:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "culture",
-     "name": "Culture"
-    },
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "games",
-     "name": "Games"
-    },
-    {
-     "slug": "learning",
-     "name": "Learning"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "Hawai‘i &#8211; Mountain View",
-    "city": "Mountain View",
-    "url": "https://www.librarieshawaii.org/branch/mountain-view-public-and-school-library/"
-   }
-  },
-  {
    "id": 289676,
    "url": "https://www.librarieshawaii.org/event/up-close-and-musical-with-iggy-jang-and-the-hawai%ca%bbi-youth-symphony/",
    "title": "Up Close and Musical with Iggy Jang and the Hawaiʻi Youth Symphony",
@@ -1429,6 +1351,37 @@
    }
   },
   {
+   "id": 10050593,
+   "url": "https://www.librarieshawaii.org/event/karaoke-at-the-library-3/2026-12-04/",
+   "title": "Karaoke At The Library",
+   "description": "<p><span>End your work day with songs and fun! Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</span> <strong>Ages 14 and up.</strong></p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-04 12:00:00",
+   "end_date": "2026-12-04 14:00:00",
+   "utc_start_date": "2026-12-04 22:00:00",
+   "utc_end_date": "2026-12-05 00:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; ʻEwa Beach",
+    "city": "ʻEwa Beach",
+    "url": "https://www.librarieshawaii.org/branch/ewa-beach-public-and-school-library/"
+   }
+  },
+  {
    "id": 290590,
    "url": "https://www.librarieshawaii.org/event/gilead-marilynne-robinson/",
    "title": "Book Club &#8211; Gilead by Marilynne Robinson",
@@ -1636,6 +1589,45 @@
    }
   },
   {
+   "id": 297527,
+   "url": "https://www.librarieshawaii.org/event/ila-jhaveri-talk-chinese-medicine-tools-for-cough-remedies-12-07/",
+   "title": "Ila Jhaveri: Talk- Chinese Medicine Tools for Cough Remedies",
+   "description": "<p>All participants will walk away with useful and highly effective tips on using food-as-therapy, acupressure, and other lifestyle tools as well as info on acupuncture and Chinese herbal medicine. This month&#8217;s topic focuses on tools for cough rememdies.</p>\n<p>Ila Jhaveri is a licensed acupuncturist and Chinese medicine herbalist who has been practicing for 29 years on Oahu and the Big Island.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-07 15:00:00",
+   "end_date": "2026-12-07 16:30:00",
+   "utc_start_date": "2026-12-08 01:00:00",
+   "utc_end_date": "2026-12-08 02:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; North Kohala",
+    "city": "Kapa'au",
+    "url": "https://www.librarieshawaii.org/branch/north-kohala-public-library/"
+   }
+  },
+  {
    "id": 10046149,
    "url": "https://www.librarieshawaii.org/event/karaoke-10-17-2025-2-2-4-3-2/2026-12-07/",
    "title": "Karaoke At The Library",
@@ -1664,6 +1656,45 @@
     "venue": "O‘ahu &#8211; ʻEwa Beach",
     "city": "ʻEwa Beach",
     "url": "https://www.librarieshawaii.org/branch/ewa-beach-public-and-school-library/"
+   }
+  },
+  {
+   "id": 297534,
+   "url": "https://www.librarieshawaii.org/event/carla-aleili-orellana-book-reading-and-meet-and-greet/",
+   "title": "Carla &#8220;Aleili&#8221; Orellana – Book Reading and Meet and Greet",
+   "description": "<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-center\"><span class=\"aJVfog font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Join local author Carla &#8220;Aleili&#8221; Orellana for a reading of her new book, </span><span class=\"aJVfog font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">Tales of a Snake Dancer</span><span class=\"aJVfog font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">, and get to meet with and talk to her after the reading!</span><span class=\"aJVfog font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"aJVfog font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">“Carla aka “Aleili” is a Sacred Dance Artist and Instructor who lives up to the definition of her name which translates as: “A source of inspiration; a gathering place; a high peak”. Aleili has been called to lead, guide and instruct women and men into the all-encompassing healing therapy of the Sacred Art of Belly Dancing or “Dance of our Mother and Dance of Creation” as she also likes to honor it.</span><span class=\"aJVfog font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"aJVfog font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">For the past five decades she has inspired thousands of women of all ages, shapes, colors and inclinations to celebrate and love their body, feel more confident to express their feelings through dance and build a lasting, supportive, deep community of sisterhood.</span><span class=\"aJVfog font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"aJVfog white-space-prewrap font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\"> </span><span class=\"aJVfog font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">She moved to Hawaii in 2011. She holds weekly classes in North Kohala and private lessons for individuals, groups, celebrations, birthing rituals, workshops, retreats, and seminars. Her passion for inspiring and educating her students and audiences have made her a masterful teacher</span><span class=\"aJVfog font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none white-space-prewrap\"> </span></p>\n<p class=\"cvGsUA block-font-kerning-none block-font-feature-liga-off block-font-feature-clig-off block-font-feature-calt-off direction-ltr align-start\"><span class=\"aJVfog font-feature-liga-off font-feature-clig-off font-feature-calt-off text-decoration-none text-strikethrough-none\">This is a book about survival, inspiration, and empowerment. About being pushed and pulled into dark, unknown wild places then finding my way back into the light. These adventurous stories are for those who might be curious, stuck, need a laugh, or to provide some hope and inspiration.”</span></p>\n<p>Anyone who requires an auxiliary aid or service for effective communication or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-07 17:30:00",
+   "end_date": "2026-12-07 18:30:00",
+   "utc_start_date": "2026-12-08 03:30:00",
+   "utc_end_date": "2026-12-08 04:30:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "learning",
+     "name": "Learning"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "Hawai‘i &#8211; North Kohala",
+    "city": "Kapa'au",
+    "url": "https://www.librarieshawaii.org/branch/north-kohala-public-library/"
    }
   },
   {
@@ -2698,6 +2729,37 @@
    }
   },
   {
+   "id": 10050594,
+   "url": "https://www.librarieshawaii.org/event/karaoke-at-the-library-3/2026-12-11/",
+   "title": "Karaoke At The Library",
+   "description": "<p><span>End your work day with songs and fun! Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</span> <strong>Ages 14 and up.</strong></p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
+   "excerpt": "",
+   "all_day": false,
+   "start_date": "2026-12-11 12:00:00",
+   "end_date": "2026-12-11 14:00:00",
+   "utc_start_date": "2026-12-11 22:00:00",
+   "utc_end_date": "2026-12-12 00:00:00",
+   "timezone": "Pacific/Honolulu",
+   "cost": "",
+   "website": "",
+   "categories": [
+    {
+     "slug": "entertainment",
+     "name": "Entertainment"
+    },
+    {
+     "slug": "music",
+     "name": "Music"
+    }
+   ],
+   "tags": [],
+   "venue": {
+    "venue": "O‘ahu &#8211; ʻEwa Beach",
+    "city": "ʻEwa Beach",
+    "url": "https://www.librarieshawaii.org/branch/ewa-beach-public-and-school-library/"
+   }
+  },
+  {
    "id": 10037365,
    "url": "https://www.librarieshawaii.org/event/mahjong_players_club_2025-2025-08-22/2026-12-11/",
    "title": "Mahjong Players Club",
@@ -2850,37 +2912,6 @@
    "url": "https://www.librarieshawaii.org/event/karaoke-10-17-2025-2-2-4-3-2/2026-12-14/",
    "title": "Karaoke At The Library",
    "description": "<p>End your work day with songs and fun! Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-12-14 16:30:00",
-   "end_date": "2026-12-14 18:30:00",
-   "utc_start_date": "2026-12-15 02:30:00",
-   "utc_end_date": "2026-12-15 04:30:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "O‘ahu &#8211; ʻEwa Beach",
-    "city": "ʻEwa Beach",
-    "url": "https://www.librarieshawaii.org/branch/ewa-beach-public-and-school-library/"
-   }
-  },
-  {
-   "id": 10050612,
-   "url": "https://www.librarieshawaii.org/event/karaoke-at-the-library-2/2026-12-14/",
-   "title": "Karaoke At The Library",
-   "description": "<p>Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
    "excerpt": "",
    "all_day": false,
    "start_date": "2026-12-14 16:30:00",
@@ -4247,23 +4278,35 @@
    }
   },
   {
-   "id": 10050613,
-   "url": "https://www.librarieshawaii.org/event/karaoke-at-the-library-2/2026-12-21/",
-   "title": "Karaoke At The Library",
-   "description": "<p>Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
+   "id": 297563,
+   "url": "https://www.librarieshawaii.org/event/pahoa-library-winter-teen-social/",
+   "title": "Pahoa Library Winter Teen Social",
+   "description": "<p>IT’S TIME TO VIBE, PĀHOA!</p>\n<p>Calling all teens ages 13–17! Get ready for an evening of music, fun, creativity, good food, and awesome connections at our Winter Teen Social at Pāhoa Public Library! &#x2744;</p>\n<p>Come hang out, meet new friends, enjoy LIVE MUSIC featuring HASSTILE, a local student talent band from HAAS Public Charter School, participate in community activities and make-and-take projects, browse our FREE clothes rummage, enjoy tamales and soup, and enter for exciting giveaways from local businesses!</p>\n<p>Whether you&#8217;re coming for the music, the food, the activities, or just to chill with friends, there&#8217;s something for everyone!</p>\n<p>GOOD VIBES. GOOD FRIENDS. BRIGHTER TOMORROWS.</p>\n<p>Homeschool students welcome!</p>\n<p>Teens must be accompanied by an adult. Student ID must be presented to receive a wristband for ONE free meal and drink. Spread the word and bring your friends!</p>\n<hr />\n<p>Program is suitable for ages 13 and up. All children must be accompanied by a parent or an adult caregiver.</p>\n<p><span>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required.</span></p>",
    "excerpt": "",
    "all_day": false,
-   "start_date": "2026-12-21 16:30:00",
-   "end_date": "2026-12-21 18:30:00",
-   "utc_start_date": "2026-12-22 02:30:00",
-   "utc_end_date": "2026-12-22 04:30:00",
+   "start_date": "2026-12-21 17:00:00",
+   "end_date": "2026-12-21 19:00:00",
+   "utc_start_date": "2026-12-22 03:00:00",
+   "utc_end_date": "2026-12-22 05:00:00",
    "timezone": "Pacific/Honolulu",
    "cost": "",
    "website": "",
    "categories": [
     {
+     "slug": "community",
+     "name": "Community"
+    },
+    {
+     "slug": "culture",
+     "name": "Culture"
+    },
+    {
      "slug": "entertainment",
      "name": "Entertainment"
+    },
+    {
+     "slug": "food",
+     "name": "Food"
     },
     {
      "slug": "music",
@@ -4272,9 +4315,9 @@
    ],
    "tags": [],
    "venue": {
-    "venue": "O‘ahu &#8211; ʻEwa Beach",
-    "city": "ʻEwa Beach",
-    "url": "https://www.librarieshawaii.org/branch/ewa-beach-public-and-school-library/"
+    "venue": "Hawai‘i &#8211; Pāhoa",
+    "city": "Pāhoa",
+    "url": "https://www.librarieshawaii.org/branch/pahoa-public-and-school-library/"
    }
   },
   {
@@ -4889,37 +4932,6 @@
    "url": "https://www.librarieshawaii.org/event/karaoke-10-17-2025-2-2-4-3-2/2026-12-28/",
    "title": "Karaoke At The Library",
    "description": "<p>End your work day with songs and fun! Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
-   "excerpt": "",
-   "all_day": false,
-   "start_date": "2026-12-28 16:30:00",
-   "end_date": "2026-12-28 18:30:00",
-   "utc_start_date": "2026-12-29 02:30:00",
-   "utc_end_date": "2026-12-29 04:30:00",
-   "timezone": "Pacific/Honolulu",
-   "cost": "",
-   "website": "",
-   "categories": [
-    {
-     "slug": "entertainment",
-     "name": "Entertainment"
-    },
-    {
-     "slug": "music",
-     "name": "Music"
-    }
-   ],
-   "tags": [],
-   "venue": {
-    "venue": "O‘ahu &#8211; ʻEwa Beach",
-    "city": "ʻEwa Beach",
-    "url": "https://www.librarieshawaii.org/branch/ewa-beach-public-and-school-library/"
-   }
-  },
-  {
-   "id": 10050614,
-   "url": "https://www.librarieshawaii.org/event/karaoke-at-the-library-2/2026-12-28/",
-   "title": "Karaoke At The Library",
-   "description": "<p>Come to the library to sing and dance your afternoon away. Microphone and other equipment provided.</p>\n<p>Anyone who requires an auxiliary aid or service for effective communication, or a modification of policies or procedures to participate in a program, service, or activity should contact library staff as soon as possible. Advance requests 48 hours or more before the event are encouraged, but not required. All programs are subject to change.</p>",
    "excerpt": "",
    "all_day": false,
    "start_date": "2026-12-28 16:30:00",
